@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RSI Scanner Bitget</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0a0a1f;
+      color: #ffffff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #00ffaa;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #888;
+      margin-bottom: 30px;
+    }
+    button {
+      display: block;
+      margin: 20px auto;
+      padding: 14px 30px;
+      font-size: 18px;
+      background: #00ffaa;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #00cc88;
+    }
+    table {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background: #1a1a2e;
+    }
+    th, td {
+      padding: 14px;
+      text-align: center;
+      border-bottom: 1px solid #333366;
+    }
+    th {
+      background: #16213e;
+      color: #00ffaa;
+    }
+    .oversold { background: #003300 !important; color: #00ff88; font-weight: bold; }
+    .overbought { background: #440000 !important; color: #ff6666; font-weight: bold; }
+    .neutral { }
+    .last-update {
+      text-align: center;
+      color: #999;
+      margin: 15px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔍 RSI Scanner - Bitget</h1>
+  <p class="subtitle">Detecta RSI bajo (compra) y alto (venta) • 15 minutos</p>
+
+  <button onclick="calcularRSI()">🔄 Actualizar Datos</button>
+  <div class="last-update" id="lastUpdate">Última actualización: Nunca</div>
+
+  <table id="rsiTable">
+    <thead>
+      <tr>
+        <th>Token</th>
+        <th>Precio</th>
+        <th>RSI (14)</th>
+        <th>Señal</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script>
+    const tokens = [
+      "BTCUSDT", "ETHUSDT", "SOLUSDT", "DOGEUSDT", "XRPUSDT",
+      "BNBUSDT", "ADAUSDT", "AVAXUSDT", "TONUSDT", "SHIBUSDT",
+      "LINKUSDT", "DOTUSDT", "NEARUSDT"
+    ];
+
+    function calcularRSI() {
+      const tbody = document.getElementById("tableBody");
+      tbody.innerHTML = "";
+
+      tokens.forEach(symbol => {
+        const rsi = Math.floor(Math.random() * 68) + 18;   // RSI entre 18 y 85
+        const precio = (Math.random() * 2000 + 0.01).toFixed(symbol.includes("BTC") || symbol.includes("ETH") ? 2 : 4);
+
+        let clase = "";
+        let señal = "Neutral";
+
+        if (rsi <= 30) {
+          clase = "oversold";
+          señal = "🟢 POSIBLE COMPRA";
+        } else if (rsi >= 70) {
+          clase = "overbought";
+          señal = "🔴 POSIBLE VENTA";
+        }
+
+        const fila = `
+          <tr class="${clase}">
+            <td><strong>${symbol}</strong></td>
+            <td>$${precio}</td>
+            <td><strong>${rsi}</strong></td>
+            <td>${señal}</td>
+          </tr>
+        `;
+        tbody.innerHTML += fila;
+      });
+
+      document.getElementById("lastUpdate").innerHTML = 
+        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (datos de prueba)`;
+    }
+
+    // Cargar al abrir la página
+    window.onload = calcularRSI;
+  </script>
+</body>
+</html>
