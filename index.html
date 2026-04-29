@@ -3,190 +3,219 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RSI Scanner - Bitget</title>
+  <title>RSI Scanner - Cripto</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #0a0a1f; color: #fff; margin: 0; padding: 20px; }
-    h1 { text-align: center; color: #00ffaa; }
-    .subtitle { text-align: center; color: #aaa; margin-bottom: 20px; }
-    .controls { text-align: center; margin-bottom: 10px; }
-    .controls label { color: #aaa; margin-right: 6px; font-size: 14px; }
-    .controls select { background: #1a1a2e; color: #fff; border: 1px solid #333; border-radius: 6px; padding: 5px 10px; font-size: 14px; margin-right: 14px; }
-    button { display: block; margin: 15px auto; padding: 12px 30px; font-size: 17px; background: #00ffaa; color: black; border: none; border-radius: 8px; cursor: pointer; }
-    button:disabled { background: #007755; color: #aaa; cursor: not-allowed; }
-    .progress { max-width: 600px; margin: 0 auto 10px; }
-    .progress-bar { height: 6px; background: #1a1a2e; border-radius: 3px; overflow: hidden; }
-    .progress-fill { height: 6px; background: #00ffaa; border-radius: 3px; transition: width 0.2s; width: 0%; }
-    .progress-text { text-align: center; color: #aaa; font-size: 13px; margin-bottom: 5px; }
-    .signals { max-width: 1100px; margin: 20px auto; }
-    .signal-card { padding: 15px; margin: 10px 0; border-radius: 8px; font-weight: bold; font-size: 17px; }
-    .strong-sell { background: #8B0000; }
-    .strong-buy { background: #006400; }
-    table { width: 100%; max-width: 1100px; margin: 0 auto; border-collapse: collapse; background: #1a1a2e; }
-    th, td { padding: 14px; text-align: center; border-bottom: 1px solid #333; }
-    th { background: #16213e; color: #00ffaa; }
-    .oversold { background: #004d00 !important; color: #00ff88; }
-    .overbought { background: #660000 !important; color: #ff7777; }
-    .last-update { text-align: center; color: #888; margin: 15px 0; font-size: 13px; }
-    .error-cell { color: #ffaaaa; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #0a0a1f; color: #fff; padding: 20px; }
+    h1 { text-align: center; color: #00ffaa; margin-bottom: 6px; }
+    .sub { text-align: center; color: #aaa; font-size: 13px; margin-bottom: 18px; }
+    .ctrl { text-align: center; margin-bottom: 14px; }
+    .ctrl label { color: #aaa; font-size: 13px; margin-right: 6px; }
+    .ctrl select { background: #1a1a2e; color: #fff; border: 1px solid #333; border-radius: 6px; padding: 5px 10px; font-size: 13px; margin-right: 12px; }
+    .btn { padding: 11px 28px; font-size: 16px; background: #00ffaa; color: #000; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; }
+    .btn:disabled { background: #007755; color: #aaa; cursor: not-allowed; }
+    .prog { max-width: 600px; margin: 12px auto; }
+    .prog-txt { text-align: center; color: #aaa; font-size: 12px; margin-bottom: 5px; }
+    .prog-bg { height: 5px; background: #1a1a2e; border-radius: 3px; overflow: hidden; }
+    .prog-fill { height: 5px; background: #00ffaa; border-radius: 3px; transition: width 0.2s; }
+    .stats { display: flex; gap: 12px; justify-content: center; margin: 14px 0; }
+    .stat { background: #1a1a2e; border-radius: 8px; padding: 10px 20px; text-align: center; }
+    .stat .n { font-size: 24px; font-weight: bold; color: #00ffaa; }
+    .stat.red .n { color: #ff4444; }
+    .stat .l { font-size: 11px; color: #aaa; margin-top: 2px; }
+    .cards { display: flex; flex-direction: column; gap: 8px; max-width: 900px; margin: 0 auto; }
+    .card { background: #1a0000; border: 1px solid #660000; border-left: 4px solid #ff4444; border-radius: 8px; padding: 14px 18px; display: flex; align-items: center; justify-content: space-between; }
+    .card .sym { font-size: 15px; font-weight: bold; }
+    .card .price { font-size: 13px; color: #aaa; margin-top: 3px; }
+    .card .rsi-n { font-size: 26px; font-weight: bold; color: #ff4444; }
+    .card .rsi-lbl { font-size: 11px; color: #aaa; text-align: right; }
+    .badge { display: inline-block; background: #8B0000; color: #ffaaaa; font-size: 11px; font-weight: bold; padding: 2px 10px; border-radius: 99px; margin-top: 5px; }
+    .empty { text-align: center; padding: 30px; color: #555; font-size: 14px; border: 1px solid #222; border-radius: 8px; }
+    .logbox { background: #0d0d1a; border: 1px solid #222; border-radius: 8px; padding: 12px; max-width: 900px; margin: 10px auto; font-size: 11px; color: #666; font-family: monospace; min-height: 36px; max-height: 100px; overflow-y: auto; white-space: pre-wrap; }
+    .update { text-align: center; color: #555; font-size: 12px; margin-top: 14px; }
   </style>
 </head>
 <body>
-  <h1>🔍 RSI Scanner - Cripto</h1>
-  <p class="subtitle" id="subtitleTf">Precios reales • RSI real calculado • 15 minutos</p>
+  <h1>🔍 RSI Scanner — Cripto Completo</h1>
+  <p class="sub" id="subTxt">Todos los tokens • Solo RSI alto • Datos reales</p>
 
-  <div class="controls">
-    <label>Periodo RSI:</label>
-    <select id="rsiPeriod">
-      <option value="14" selected>14 (default)</option>
-      <option value="9">9 (rápido)</option>
-      <option value="21">21 (lento)</option>
-    </select>
+  <div class="ctrl">
     <label>Timeframe:</label>
-    <select id="tfSelect">
-      <option value="15m" selected>15 min</option>
-      <option value="1h">1 hora</option>
+    <select id="tf">
+      <option value="1h" selected>1 hora</option>
+      <option value="15m">15 min</option>
       <option value="4h">4 horas</option>
       <option value="1d">1 día</option>
     </select>
+    <label>RSI mínimo:</label>
+    <select id="minRsi">
+      <option value="70">≥ 70</option>
+      <option value="75">≥ 75</option>
+      <option value="80" selected>≥ 80</option>
+      <option value="85">≥ 85</option>
+    </select>
+    <button class="btn" id="btn" onclick="scan()">🚀 Escanear</button>
   </div>
 
-  <button id="mainBtn" onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
-
-  <div class="progress" id="progressArea" style="display:none">
-    <div class="progress-text" id="progressText">Cargando...</div>
-    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  <div id="progArea" style="display:none" class="prog">
+    <div class="prog-txt" id="progTxt">Iniciando...</div>
+    <div class="prog-bg"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
   </div>
 
-  <div class="signals" id="strongSignals"></div>
-  <div class="last-update" id="lastUpdate"></div>
+  <div class="logbox" id="logbox" style="display:none"></div>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Token</th>
-        <th>Precio Actual</th>
-        <th>RSI</th>
-        <th>Señal</th>
-      </tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
+  <div id="statsArea" style="display:none" class="stats">
+    <div class="stat"><div class="n" id="nScanned">0</div><div class="l">escaneados</div></div>
+    <div class="stat red"><div class="n" id="nSignals">0</div><div class="l">señales RSI alto</div></div>
+  </div>
 
-  <script>
-    const tokens = [
-      "BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT",
-      "TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT",
-      "ARBUSDT","INJUSDT","APTUSDT","ATOMUSDT","UNIUSDT","LTCUSDT",
-      "FETUSDT","RENDERUSDT","STXUSDT","AAVEUSDT","PEPEUSDT","WLDUSDT"
-    ];
+  <div class="cards" id="results">
+    <div class="empty">Presiona <strong>Escanear</strong> para buscar tokens con RSI extremo</div>
+  </div>
+  <div class="update" id="updateTxt"></div>
 
-    const tfLabels = { '15m':'15 minutos','1h':'1 hora','4h':'4 horas','1d':'1 día' };
+<script>
+let running = false;
 
-    async function fetchKlines(symbol, interval, limit) {
-      const url = `https://api.binance.com/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`;
-      const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const data = await res.json();
-      return data.map(c => parseFloat(c[4]));
-    }
+function addLog(msg) {
+  const b = document.getElementById('logbox');
+  b.style.display = 'block';
+  b.textContent += msg + '\n';
+  b.scrollTop = b.scrollHeight;
+}
 
-    function calcRSI(closes, period) {
-      if (closes.length < period + 2) return null;
-      let g = 0, l = 0;
-      for (let i = 1; i <= period; i++) {
-        const d = closes[i] - closes[i-1];
-        if (d > 0) g += d; else l -= d;
+function calcRSI(closes, period) {
+  if (closes.length < period + 2) return null;
+  let g = 0, l = 0;
+  for (let i = 1; i <= period; i++) {
+    const d = closes[i] - closes[i-1];
+    if (d > 0) g += d; else l -= d;
+  }
+  let ag = g / period, al = l / period;
+  for (let i = period + 1; i < closes.length; i++) {
+    const d = closes[i] - closes[i-1];
+    ag = (ag * (period-1) + (d > 0 ? d : 0)) / period;
+    al = (al * (period-1) + (d < 0 ? -d : 0)) / period;
+  }
+  if (al === 0) return 100;
+  return 100 - 100 / (1 + ag / al);
+}
+
+function renderCards(signals) {
+  const el = document.getElementById('results');
+  if (!signals.length) {
+    el.innerHTML = '<div class="empty">Sin tokens con RSI en zona extrema ahora mismo 📊</div>';
+    return;
+  }
+  el.innerHTML = signals.map(({sym, rsi, price}) => {
+    const p = price >= 1
+      ? price.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:4})
+      : price.toFixed(6);
+    const label = rsi >= 90 ? 'EXTREMO 🔥' : rsi >= 85 ? 'MUY ALTO' : 'SOBRECOMPRADO';
+    return `<div class="card">
+      <div>
+        <div class="sym">${sym.replace('USDT','')} <span style="font-weight:normal;color:#555;font-size:12px">/USDT</span></div>
+        <div class="price">$${p}</div>
+        <span class="badge">🔴 ${label}</span>
+      </div>
+      <div style="text-align:right">
+        <div class="rsi-n">${rsi.toFixed(1)}</div>
+        <div class="rsi-lbl">RSI 14</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+async function scan() {
+  if (running) return;
+  running = true;
+
+  const tf = document.getElementById('tf').value;
+  const minRsi = parseInt(document.getElementById('minRsi').value);
+  const tfLabel = {'15m':'15 min','1h':'1 hora','4h':'4 horas','1d':'1 día'}[tf];
+  const btn = document.getElementById('btn');
+
+  btn.disabled = true;
+  btn.textContent = '⏳ Escaneando...';
+  document.getElementById('progArea').style.display = 'block';
+  document.getElementById('statsArea').style.display = 'none';
+  document.getElementById('logbox').textContent = '';
+  document.getElementById('logbox').style.display = 'block';
+  document.getElementById('results').innerHTML = '';
+  document.getElementById('updateTxt').textContent = '';
+  document.getElementById('subTxt').textContent = `Todos los tokens • Solo RSI ≥ ${minRsi} • ${tfLabel}`;
+
+  // PASO 1: obtener todos los símbolos USDT con volumen alto
+  addLog('📡 Obteniendo lista de todos los pares USDT...');
+  let symbols = [];
+  try {
+    const res = await fetch('https://api.binance.com/api/v3/ticker/24hr');
+    const data = await res.json();
+    symbols = data
+      .filter(t => t.symbol.endsWith('USDT') && parseFloat(t.quoteVolume) > 3000000)
+      .sort((a, b) => parseFloat(b.quoteVolume) - parseFloat(a.quoteVolume))
+      .map(t => t.symbol);
+    addLog(`✅ ${symbols.length} pares con volumen > $3M encontrados`);
+  } catch(e) {
+    addLog('❌ Error: ' + e.message);
+    btn.disabled = false;
+    btn.textContent = '🚀 Escanear';
+    running = false;
+    return;
+  }
+
+  // PASO 2: calcular RSI para cada uno
+  addLog(`🔍 Calculando RSI(14) en ${tfLabel}...`);
+  let done = 0, signals = [], errors = 0;
+
+  for (let i = 0; i < symbols.length; i += 10) {
+    const batch = symbols.slice(i, i + 10);
+
+    await Promise.all(batch.map(async sym => {
+      try {
+        const url = `https://api.binance.com/api/v3/klines?symbol=${sym}&interval=${tf}&limit=60`;
+        const res = await fetch(url, { signal: AbortSignal.timeout(5000) });
+        if (!res.ok) throw new Error('http ' + res.status);
+        const data = await res.json();
+        const closes = data.map(c => parseFloat(c[4]));
+        const rsi = calcRSI(closes, 14);
+        if (rsi !== null && rsi >= minRsi) {
+          const price = closes[closes.length - 1];
+          signals.push({ sym, rsi: Math.round(rsi * 10) / 10, price });
+          signals.sort((a, b) => b.rsi - a.rsi);
+          renderCards(signals);
+          document.getElementById('nSignals').textContent = signals.length;
+          document.getElementById('statsArea').style.display = 'flex';
+          addLog(`🔴 ${sym} RSI: ${rsi.toFixed(1)}`);
+        }
+      } catch(e) {
+        errors++;
       }
-      let ag = g / period, al = l / period;
-      for (let i = period + 1; i < closes.length; i++) {
-        const d = closes[i] - closes[i-1];
-        ag = (ag * (period-1) + (d > 0 ? d : 0)) / period;
-        al = (al * (period-1) + (d < 0 ? -d : 0)) / period;
-      }
-      if (al === 0) return 100;
-      return 100 - 100 / (1 + ag / al);
-    }
+      done++;
+      const pct = Math.round(done / symbols.length * 100);
+      document.getElementById('progFill').style.width = pct + '%';
+      document.getElementById('progTxt').textContent = `${done}/${symbols.length} pares... (${signals.length} señales encontradas)`;
+      document.getElementById('nScanned').textContent = done;
+    }));
 
-    async function cargarDatos() {
-      const period = parseInt(document.getElementById('rsiPeriod').value);
-      const tf = document.getElementById('tfSelect').value;
-      const btn = document.getElementById('mainBtn');
+    await new Promise(r => setTimeout(r, 50));
+  }
 
-      document.getElementById('subtitleTf').textContent =
-        `Precios reales • RSI real calculado • ${tfLabels[tf]}`;
-      btn.disabled = true;
-      btn.textContent = '⏳ Escaneando...';
+  // FINALIZAR
+  document.getElementById('progArea').style.display = 'none';
+  document.getElementById('logbox').style.display = 'none';
+  document.getElementById('statsArea').style.display = 'flex';
+  if (!signals.length) renderCards([]);
 
-      const tbody = document.getElementById('tableBody');
-      const signalsDiv = document.getElementById('strongSignals');
-      tbody.innerHTML = '';
-      signalsDiv.innerHTML = '';
-      document.getElementById('lastUpdate').textContent = '';
-      document.getElementById('progressArea').style.display = 'block';
-      document.getElementById('progressFill').style.width = '0%';
+  const now = new Date().toLocaleTimeString('es-ES');
+  document.getElementById('updateTxt').textContent =
+    `Actualizado: ${now} • ${done} pares escaneados • RSI(14) en ${tfLabel}` +
+    (errors > 0 ? ` • ${errors} errores` : '');
 
-      const limit = period + 50;
-      let done = 0, strong = [], errors = 0;
-      const rows = {};
-
-      for (let i = 0; i < tokens.length; i += 5) {
-        const batch = tokens.slice(i, i + 5);
-
-        await Promise.all(batch.map(async symbol => {
-          try {
-            const closes = await fetchKlines(symbol, tf, limit);
-            if (!closes || closes.length < period + 2) throw new Error('pocas velas');
-            const rsiRaw = calcRSI(closes, period);
-            if (rsiRaw === null) throw new Error('rsi null');
-            const rsi = Math.round(rsiRaw * 10) / 10;
-            const lastPrice = closes[closes.length - 1];
-            const price = lastPrice >= 1
-              ? lastPrice.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 4 })
-              : lastPrice.toFixed(6);
-
-            let clase = '', señal = 'Neutral';
-            if (rsi <= 20) {
-              clase = 'oversold'; señal = '🟢 MUY SOBREVENDIDO';
-              strong.push({ rsi, type: 'buy', html: `<div class="signal-card strong-buy">${symbol} → RSI ${rsi} → 🟢 MUY SOBREVENDIDO (Posible Compra Fuerte)</div>` });
-            } else if (rsi >= 80) {
-              clase = 'overbought'; señal = '🔴 MUY SOBRECOMPRADO';
-              strong.push({ rsi, type: 'sell', html: `<div class="signal-card strong-sell">${symbol} → RSI ${rsi} → 🔴 MUY SOBRECOMPRADO (Posible Venta Fuerte)</div>` });
-            } else if (rsi <= 30) {
-              clase = 'oversold'; señal = '🟢 Posible Compra';
-            } else if (rsi >= 70) {
-              clase = 'overbought'; señal = '🔴 Posible Venta';
-            }
-            rows[symbol] = `<tr class="${clase}"><td><strong>${symbol}</strong></td><td>$${price}</td><td><strong>${rsi}</strong></td><td>${señal}</td></tr>`;
-          } catch (e) {
-            errors++;
-            rows[symbol] = `<tr><td><strong>${symbol}</strong></td><td class="error-cell">Error</td><td>-</td><td class="error-cell">Sin datos</td></tr>`;
-          }
-          done++;
-          document.getElementById('progressFill').style.width = Math.round(done / tokens.length * 100) + '%';
-          document.getElementById('progressText').textContent = `Escaneando ${done}/${tokens.length} pares...`;
-        }));
-
-        await new Promise(r => setTimeout(r, 80));
-      }
-
-      tokens.forEach(sym => { if (rows[sym]) tbody.innerHTML += rows[sym]; });
-      document.getElementById('progressArea').style.display = 'none';
-
-      const buys = strong.filter(s => s.type === 'buy').sort((a,b) => a.rsi - b.rsi);
-      const sells = strong.filter(s => s.type === 'sell').sort((a,b) => b.rsi - a.rsi);
-      signalsDiv.innerHTML = [...buys, ...sells].map(s => s.html).join('') ||
-        `<p style="color:#555;text-align:center;">No hay señales extremas (RSI ≤20 o ≥80) en este momento</p>`;
-
-      document.getElementById('lastUpdate').textContent =
-        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} • RSI(${period}) en ${tfLabels[tf]}` +
-        (errors > 0 ? ` • ${errors} pares fallaron` : '');
-
-      btn.disabled = false;
-      btn.textContent = '🔄 Actualizar Datos Reales';
-    }
-
-    window.onload = cargarDatos;
-    setInterval(cargarDatos, 60000);
-  </script>
+  btn.disabled = false;
+  btn.textContent = '🚀 Escanear';
+  running = false;
+}
+</script>
 </body>
 </html>
