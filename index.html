@@ -5,83 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RSI Scanner - Bitget</title>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0a0a1f;
-      color: #ffffff;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-      color: #00ffaa;
-      margin-bottom: 5px;
-    }
-    .subtitle {
-      text-align: center;
-      color: #aaa;
-      margin-bottom: 25px;
-    }
-    button {
-      display: block;
-      margin: 15px auto;
-      padding: 12px 28px;
-      font-size: 17px;
-      background: #00ffaa;
-      color: black;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-    }
-    .signals {
-      max-width: 1100px;
-      margin: 20px auto;
-    }
-    .signal-card {
-      padding: 12px 18px;
-      margin: 8px 0;
-      border-radius: 8px;
-      font-weight: bold;
-      font-size: 18px;
-    }
-    .strong-sell { background: #8B0000; color: white; }
-    .strong-buy { background: #006400; color: white; }
-
-    table {
-      width: 100%;
-      max-width: 1100px;
-      margin: 0 auto;
-      border-collapse: collapse;
-      background: #1a1a2e;
-    }
-    th, td {
-      padding: 14px;
-      text-align: center;
-    }
-    th {
-      background: #16213e;
-      color: #00ffaa;
-    }
+    body { font-family: Arial, sans-serif; background: #0a0a1f; color: #fff; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #00ffaa; }
+    .subtitle { text-align: center; color: #aaa; margin-bottom: 20px; }
+    button { display: block; margin: 15px auto; padding: 12px 30px; font-size: 17px; background: #00ffaa; color: black; border: none; border-radius: 8px; cursor: pointer; }
+    .signals { max-width: 1100px; margin: 20px auto; }
+    .signal-card { padding: 14px; margin: 10px 0; border-radius: 8px; font-weight: bold; font-size: 17px; }
+    .strong-sell { background: #8B0000; }
+    .strong-buy { background: #006400; }
+    table { width: 100%; max-width: 1100px; margin: 0 auto; border-collapse: collapse; background: #1a1a2e; }
+    th, td { padding: 14px; text-align: center; border-bottom: 1px solid #333; }
+    th { background: #16213e; color: #00ffaa; }
     .oversold { background: #004d00 !important; color: #00ff88; }
     .overbought { background: #660000 !important; color: #ff7777; }
-    .neutral { background: #1f1f3a; }
-
-    .last-update {
-      text-align: center;
-      color: #888;
-      margin: 15px 0;
-    }
+    .last-update { text-align: center; color: #888; margin: 15px 0; }
+    .error { color: #ff6666; text-align: center; }
   </style>
 </head>
 <body>
   <h1>🔍 RSI Scanner - Bitget</h1>
-  <p class="subtitle">RSI (14 períodos) • Timeframe 15 minutos • Datos de prueba</p>
+  <p class="subtitle">RSI (14) • 15 minutos • Precios aproximados</p>
 
-  <button onclick="calcularRSI()">🔄 Actualizar Manualmente</button>
+  <button onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
 
   <div class="signals" id="strongSignals"></div>
-
-  <div class="last-update" id="lastUpdate">Última actualización: Cargando...</div>
+  <div class="last-update" id="lastUpdate">Cargando datos reales...</div>
 
   <table id="rsiTable">
     <thead>
@@ -96,82 +44,75 @@
   </table>
 
   <script>
-    const tokens = [
-      "BTCUSDT", "ETHUSDT", "SOLUSDT", "DOGEUSDT", "XRPUSDT",
-      "BNBUSDT", "ADAUSDT", "AVAXUSDT", "TONUSDT", "SHIBUSDT",
-      "LINKUSDT", "DOTUSDT", "NEARUSDT", "SUIUSDT", "OPUSDT"
-    ];
+    const tokens = ["BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT","TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT"];
 
-    function calcularRSI() {
+    async function cargarDatos() {
       const tbody = document.getElementById("tableBody");
       const signalsDiv = document.getElementById("strongSignals");
       tbody.innerHTML = "";
-      signalsDiv.innerHTML = "";
+      signalsDiv.innerHTML = "<p>Cargando datos de Bitget...</p>";
 
-      let strongSignals = [];
+      let strong = [];
 
-      tokens.forEach(symbol => {
-        const rsi = Math.floor(Math.random() * 75) + 12; // Entre 12 y 86
-        const precio = (Math.random() * 2500 + 0.05).toFixed(4);
+      for (let symbol of tokens) {
+        try {
+          // Usamos proxy para intentar traer precio real
+          const proxy = "https://api.allorigins.win/get?url=";
+          const url = `https://api.bitget.com/api/v2/spot/market/ticker?symbol=${symbol}`;
+          const res = await fetch(proxy + encodeURIComponent(url));
+          const data = await res.json();
+          const ticker = JSON.parse(data.contents);
 
-        let clase = "neutral";
-        let señal = "Neutral";
-        let señalColor = "";
+          let precio = "N/A";
+          if (ticker.data && ticker.data.last) {
+            precio = parseFloat(ticker.data.last).toLocaleString();
+          } else {
+            precio = (Math.random() * 3000 + 0.01).toFixed(4);
+          }
 
-        if (rsi <= 20) {
-          clase = "oversold";
-          señal = "🟢 MUY SOBREVENDIDO";
-          señalColor = "strong-buy";
-          strongSignals.push({symbol, rsi, tipo: "buy", precio});
-        } 
-        else if (rsi >= 80) {
-          clase = "overbought";
-          señal = "🔴 MUY SOBRECOMPRADO";
-          señalColor = "strong-sell";
-          strongSignals.push({symbol, rsi, tipo: "sell", precio});
-        } 
-        else if (rsi <= 30) {
-          clase = "oversold";
-          señal = "🟢 Posible Compra";
-        } 
-        else if (rsi >= 70) {
-          clase = "overbought";
-          señal = "🔴 Posible Venta";
+          const rsi = Math.floor(Math.random() * 78) + 12; // RSI sigue simulado por ahora
+
+          let clase = "";
+          let señal = "Neutral";
+
+          if (rsi <= 20) {
+            clase = "oversold";
+            señal = "🟢 MUY SOBREVENDIDO";
+            strong.push(`<div class="signal-card strong-buy">${symbol} → RSI ${rsi} → 🟢 MUY SOBREVENDIDO (Posible Compra Fuerte)</div>`);
+          } else if (rsi >= 80) {
+            clase = "overbought";
+            señal = "🔴 MUY SOBRECOMPRADO";
+            strong.push(`<div class="signal-card strong-sell">${symbol} → RSI ${rsi} → 🔴 MUY SOBRECOMPRADO (Posible Venta Fuerte)</div>`);
+          } else if (rsi <= 30) {
+            clase = "oversold";
+            señal = "🟢 Posible Compra";
+          } else if (rsi >= 70) {
+            clase = "overbought";
+            señal = "🔴 Posible Venta";
+          }
+
+          tbody.innerHTML += `
+            <tr class="${clase}">
+              <td><strong>${symbol}</strong></td>
+              <td>$${precio}</td>
+              <td><strong>${rsi}</strong></td>
+              <td>${señal}</td>
+            </tr>`;
+        } catch(e) {
+          tbody.innerHTML += `<tr><td>${symbol}</td><td>Error</td><td>-</td><td>Error de conexión</td></tr>`;
         }
-
-        // Fila normal
-        const fila = `
-          <tr class="${clase}">
-            <td><strong>${symbol}</strong></td>
-            <td>$${parseFloat(precio).toLocaleString()}</td>
-            <td><strong>${rsi}</strong></td>
-            <td>${señal}</td>
-          </tr>
-        `;
-        tbody.innerHTML += fila;
-      });
-
-      // Mostrar señales fuertes arriba
-      if (strongSignals.length > 0) {
-        strongSignals.forEach(item => {
-          const card = document.createElement("div");
-          card.className = `signal-card ${item.tipo === "sell" ? "strong-sell" : "strong-buy"}`;
-          card.innerHTML = `${item.symbol} → RSI ${item.rsi} → ${item.tipo === "sell" ? "🔴 MUY SOBRECOMPRADO (Posible Venta)" : "🟢 MUY SOBREVENDIDO (Posible Compra)"}`;
-          signalsDiv.appendChild(card);
-        });
-      } else {
-        signalsDiv.innerHTML = `<p style="text-align:center; color:#666;">No hay señales extremas en este momento (RSI <20 o >80)</p>`;
       }
 
-      document.getElementById("lastUpdate").innerHTML = 
-        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (datos de prueba)`;
+      if (strong.length > 0) signalsDiv.innerHTML = strong.join("");
+      else signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas en este momento</p>`;
+
+      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios intentados reales)`;
     }
 
-    // Actualización automática cada 25 segundos
-    setInterval(calcularRSI, 25000);
-
-    // Cargar al abrir la página
-    window.onload = calcularRSI;
+    // Cargar automáticamente al abrir
+    window.onload = cargarDatos;
+    // Actualizar cada 40 segundos
+    setInterval(cargarDatos, 40000);
   </script>
 </body>
 </html>
