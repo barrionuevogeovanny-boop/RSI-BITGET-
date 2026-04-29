@@ -1,1 +1,1 @@
-# RSI-BITGET-
+# RSI-SCANER-
