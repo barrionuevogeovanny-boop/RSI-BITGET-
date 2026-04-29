@@ -8,7 +8,15 @@
     body { font-family: Arial, sans-serif; background: #0a0a1f; color: #fff; margin: 0; padding: 20px; }
     h1 { text-align: center; color: #00ffaa; }
     .subtitle { text-align: center; color: #aaa; margin-bottom: 20px; }
+    .controls { text-align: center; margin-bottom: 10px; }
+    .controls label { color: #aaa; margin-right: 6px; font-size: 14px; }
+    .controls select { background: #1a1a2e; color: #fff; border: 1px solid #333; border-radius: 6px; padding: 5px 10px; font-size: 14px; margin-right: 14px; }
     button { display: block; margin: 15px auto; padding: 12px 30px; font-size: 17px; background: #00ffaa; color: black; border: none; border-radius: 8px; cursor: pointer; }
+    button:disabled { background: #007755; color: #aaa; cursor: not-allowed; }
+    .progress { max-width: 600px; margin: 0 auto 10px; }
+    .progress-bar { height: 6px; background: #1a1a2e; border-radius: 3px; overflow: hidden; }
+    .progress-fill { height: 6px; background: #00ffaa; border-radius: 3px; transition: width 0.2s; width: 0%; }
+    .progress-text { text-align: center; color: #aaa; font-size: 13px; margin-bottom: 5px; }
     .signals { max-width: 1100px; margin: 20px auto; }
     .signal-card { padding: 15px; margin: 10px 0; border-radius: 8px; font-weight: bold; font-size: 17px; }
     .strong-sell { background: #8B0000; }
@@ -18,18 +26,39 @@
     th { background: #16213e; color: #00ffaa; }
     .oversold { background: #004d00 !important; color: #00ff88; }
     .overbought { background: #660000 !important; color: #ff7777; }
-    .last-update { text-align: center; color: #888; margin: 15px 0; }
-    .error { color: #ffaaaa; text-align: center; }
+    .last-update { text-align: center; color: #888; margin: 15px 0; font-size: 13px; }
+    .error-cell { color: #ffaaaa; }
   </style>
 </head>
 <body>
-  <h1>🔍 RSI Scanner - Cripto</h1>
-  <p class="subtitle">Precios reales (Binance) • RSI simulado • 15 minutos</p>
+  <h1>🔍 RSI Scanner - Bitget</h1>
+  <p class="subtitle" id="subtitleTf">Precios reales (Bitget) • RSI real • 15 minutos</p>
 
-  <button onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
+  <div class="controls">
+    <label>Periodo RSI:</label>
+    <select id="rsiPeriod">
+      <option value="14" selected>14 (default)</option>
+      <option value="9">9 (rápido)</option>
+      <option value="21">21 (lento)</option>
+    </select>
+    <label>Timeframe:</label>
+    <select id="tfSelect">
+      <option value="15min" selected>15 min</option>
+      <option value="1H">1 hora</option>
+      <option value="4H">4 horas</option>
+      <option value="1D">1 día</option>
+    </select>
+  </div>
+
+  <button id="mainBtn" onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
+
+  <div class="progress" id="progressArea" style="display:none">
+    <div class="progress-text" id="progressText">Cargando...</div>
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
 
   <div class="signals" id="strongSignals"></div>
-  <div class="last-update" id="lastUpdate">Cargando precios reales...</div>
+  <div class="last-update" id="lastUpdate"></div>
 
   <table id="rsiTable">
     <thead>
@@ -44,72 +73,157 @@
   </table>
 
   <script>
-    const tokens = ["BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT","TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT"];
+    const tokens = [
+      "BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT",
+      "TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT",
+      "ARBUSDT","INJUSDT","APTUSDT","NEARUSDT","ATOMUSDT","UNIUSDT","LTCUSDT",
+      "FETUSDT","RENDERUSDT","STXUSDT","AAVEUSDT","1000PEPEUSDT","WLDUSDT"
+    ];
+
+    // Proxies CORS — se prueba en orden hasta que uno funcione
+    const PROXIES = [
+      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
+      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+    ];
+    let workingProxy = 0;
+
+    function calcRSI(closes, period) {
+      if (closes.length < period + 2) return null;
+      let gains = 0, losses = 0;
+      for (let i = 1; i <= period; i++) {
+        const d = closes[i] - closes[i - 1];
+        if (d > 0) gains += d; else losses -= d;
+      }
+      let avgGain = gains / period;
+      let avgLoss = losses / period;
+      for (let i = period + 1; i < closes.length; i++) {
+        const d = closes[i] - closes[i - 1];
+        avgGain = (avgGain * (period - 1) + (d > 0 ? d : 0)) / period;
+        avgLoss = (avgLoss * (period - 1) + (d < 0 ? -d : 0)) / period;
+      }
+      if (avgLoss === 0) return 100;
+      return 100 - 100 / (1 + avgGain / avgLoss);
+    }
+
+    async function fetchKlines(symbol, tf, limit) {
+      const apiUrl = `https://api.bitget.com/api/v2/spot/market/candles?symbol=${symbol}&granularity=${tf}&limit=${limit}`;
+      for (let i = 0; i < PROXIES.length; i++) {
+        const idx = (workingProxy + i) % PROXIES.length;
+        try {
+          const res = await fetch(PROXIES[idx](apiUrl), { signal: AbortSignal.timeout(8000) });
+          if (!res.ok) continue;
+          const data = await res.json();
+          if (data && data.code === '00000' && Array.isArray(data.data) && data.data.length > 0) {
+            workingProxy = idx;
+            // data.data: [ts, open, high, low, close, vol, quoteVol] — más reciente primero
+            const closes = data.data.map(c => parseFloat(c[4])).reverse();
+            return closes;
+          }
+        } catch (e) { /* probar siguiente */ }
+      }
+      return null;
+    }
 
     async function cargarDatos() {
-      const tbody = document.getElementById("tableBody");
-      const signalsDiv = document.getElementById("strongSignals");
-      tbody.innerHTML = "";
-      signalsDiv.innerHTML = "<p style='text-align:center;color:#aaa;'>Cargando precios de Binance...</p>";
+      const period = parseInt(document.getElementById('rsiPeriod').value);
+      const tf = document.getElementById('tfSelect').value;
+      const btn = document.getElementById('mainBtn');
 
-      let strong = [];
+      document.getElementById('subtitleTf').textContent = `Precios reales (Bitget) • RSI real • ${tf}`;
+      btn.disabled = true;
+      btn.textContent = '⏳ Escaneando...';
 
-      for (let symbol of tokens) {
-        try {
-          // Nuevo proxy más estable
-          const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(`https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`)}`;
-          
-          const res = await fetch(proxyUrl);
-          if (!res.ok) throw new Error("Error fetch");
+      const tbody = document.getElementById('tableBody');
+      const signalsDiv = document.getElementById('strongSignals');
+      tbody.innerHTML = '';
+      signalsDiv.innerHTML = '';
+      document.getElementById('lastUpdate').textContent = '';
+      document.getElementById('progressArea').style.display = 'block';
 
-          const data = await res.json();
-          const precio = parseFloat(data.price).toLocaleString('en-US');
+      const limit = period + 40;
+      let done = 0, strong = [], errors = 0;
 
-          const rsi = Math.floor(Math.random() * 78) + 12; // RSI simulado
+      // Deduplicar tokens por si acaso
+      const uniqueTokens = [...new Set(tokens)];
 
-          let clase = "";
-          let señal = "Neutral";
+      for (let i = 0; i < uniqueTokens.length; i += 4) {
+        const batch = uniqueTokens.slice(i, i + 4);
+        const batchResults = await Promise.all(batch.map(async symbol => {
+          try {
+            const closes = await fetchKlines(symbol, tf, limit);
+            if (!closes || closes.length < period + 2) return { symbol, error: true };
+            const rsi = calcRSI(closes, period);
+            if (rsi === null) return { symbol, error: true };
+            const price = closes[closes.length - 1];
+            return { symbol, rsi: Math.round(rsi * 10) / 10, price, error: false };
+          } catch (e) {
+            return { symbol, error: true };
+          }
+        }));
+
+        for (const r of batchResults) {
+          done++;
+          const pct = Math.round(done / uniqueTokens.length * 100);
+          document.getElementById('progressFill').style.width = pct + '%';
+          document.getElementById('progressText').textContent = `Escaneando ${done}/${uniqueTokens.length} pares...`;
+
+          if (r.error) {
+            errors++;
+            tbody.innerHTML += `<tr><td><strong>${r.symbol}</strong></td><td class="error-cell">Error</td><td>-</td><td class="error-cell">Sin datos</td></tr>`;
+            continue;
+          }
+
+          const { symbol, rsi, price } = r;
+          const priceStr = price >= 1
+            ? price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 4 })
+            : price.toFixed(6);
+
+          let clase = '', señal = 'Neutral';
 
           if (rsi <= 20) {
-            clase = "oversold";
-            señal = "🟢 MUY SOBREVENDIDO";
+            clase = 'oversold';
+            señal = '🟢 MUY SOBREVENDIDO';
             strong.push(`<div class="signal-card strong-buy">${symbol} → RSI ${rsi} → 🟢 MUY SOBREVENDIDO (Posible Compra Fuerte)</div>`);
           } else if (rsi >= 80) {
-            clase = "overbought";
-            señal = "🔴 MUY SOBRECOMPRADO";
+            clase = 'overbought';
+            señal = '🔴 MUY SOBRECOMPRADO';
             strong.push(`<div class="signal-card strong-sell">${symbol} → RSI ${rsi} → 🔴 MUY SOBRECOMPRADO (Posible Venta Fuerte)</div>`);
           } else if (rsi <= 30) {
-            clase = "oversold";
-            señal = "🟢 Posible Compra";
+            clase = 'oversold';
+            señal = '🟢 Posible Compra';
           } else if (rsi >= 70) {
-            clase = "overbought";
-            señal = "🔴 Posible Venta";
+            clase = 'overbought';
+            señal = '🔴 Posible Venta';
           }
 
           tbody.innerHTML += `
             <tr class="${clase}">
               <td><strong>${symbol}</strong></td>
-              <td>$${precio}</td>
+              <td>$${priceStr}</td>
               <td><strong>${rsi}</strong></td>
               <td>${señal}</td>
             </tr>`;
-        } catch(e) {
-          tbody.innerHTML += `<tr><td>${symbol}</td><td class="error">Error</td><td>-</td><td>Proxy falló</td></tr>`;
         }
+
+        await new Promise(res => setTimeout(res, 150));
       }
 
-      if (strong.length > 0) {
-        signalsDiv.innerHTML = strong.join("");
-      } else {
-        signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas (RSI <20 o >80) en este momento</p>`;
-      }
+      document.getElementById('progressArea').style.display = 'none';
 
-      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios vía proxy)`;
+      signalsDiv.innerHTML = strong.length > 0
+        ? strong.join('')
+        : `<p style="color:#555;text-align:center;">No hay señales extremas (RSI ≤20 o ≥80) en este momento</p>`;
+
+      const errMsg = errors > 0 ? ` • ${errors} pares sin datos` : '';
+      document.getElementById('lastUpdate').textContent =
+        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} • Bitget Spot • RSI(${period}) en ${tf}${errMsg}`;
+
+      btn.disabled = false;
+      btn.textContent = '🔄 Actualizar Datos Reales';
     }
 
-    // Cargar automáticamente
     window.onload = cargarDatos;
-    setInterval(cargarDatos, 45000); // cada 45 segundos
+    setInterval(cargarDatos, 60000);
   </script>
 </body>
 </html>
