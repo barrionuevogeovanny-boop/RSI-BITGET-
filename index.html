@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RSI Scanner - Bitget</title>
+  <title>RSI SCANER</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body { font-family: Arial, sans-serif; background: #0a0a1f; color: #fff; padding: 16px; }
@@ -62,7 +62,7 @@
 <body>
 
 <h1>🔍 RSI Scanner — Bitget</h1>
-<p class="sub" id="subTxt">Ganadoras del día • RSI extremo en tiempo real</p>
+<p class="sub" id="subTxt"> RSI extremo en tiempo real</p>
 
 <div class="ctrl">
   <label>Timeframe:</label>
@@ -151,7 +151,7 @@
     const data = await res.json();
     return data
       .filter(t => t.symbol.endsWith('USDT') && parseFloat(t.quoteVolume) > 1000000)
-      .sort((a, b) => parseFloat(b.priceChangePercent) - parseFloat(a.priceChangePercent)) // ganadoras primero
+      .sort((a, b) => parseFloat(b.priceChangePercent) - parseFloat(a.priceChangePercent)) //
       .map(t => ({ sym: t.symbol, chg: parseFloat(t.priceChangePercent) }));
   }
 
@@ -204,7 +204,7 @@
     document.getElementById('sellCards').innerHTML = '';
     document.getElementById('buyCards').innerHTML = '';
     document.getElementById('updateTxt').textContent = '';
-    document.getElementById('subTxt').textContent = `Ganadoras del día • RSI ≥${rsiHigh} o ≤${rsiLow} • ${tfLabel}`;
+    document.getElementById('subTxt').textContent = `RSI ≥${rsiHigh} o ≤${rsiLow} • ${tfLabel}`;
 
     let symbols;
     try {
