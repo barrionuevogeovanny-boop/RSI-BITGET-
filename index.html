@@ -31,8 +31,8 @@
   </style>
 </head>
 <body>
-  <h1>🔍 RSI Scanner - Bitget</h1>
-  <p class="subtitle" id="subtitleTf">Precios reales (Bitget) • RSI real • 15 minutos</p>
+  <h1>🔍 RSI Scanner - Cripto</h1>
+  <p class="subtitle" id="subtitleTf">Precios reales • RSI real calculado • 15 minutos</p>
 
   <div class="controls">
     <label>Periodo RSI:</label>
@@ -43,10 +43,10 @@
     </select>
     <label>Timeframe:</label>
     <select id="tfSelect">
-      <option value="15min" selected>15 min</option>
-      <option value="1H">1 hora</option>
-      <option value="4H">4 horas</option>
-      <option value="1D">1 día</option>
+      <option value="15m" selected>15 min</option>
+      <option value="1h">1 hora</option>
+      <option value="4h">4 horas</option>
+      <option value="1d">1 día</option>
     </select>
   </div>
 
@@ -60,12 +60,12 @@
   <div class="signals" id="strongSignals"></div>
   <div class="last-update" id="lastUpdate"></div>
 
-  <table id="rsiTable">
+  <table>
     <thead>
       <tr>
         <th>Token</th>
         <th>Precio Actual</th>
-        <th>RSI (14)</th>
+        <th>RSI</th>
         <th>Señal</th>
       </tr>
     </thead>
@@ -76,52 +76,35 @@
     const tokens = [
       "BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT",
       "TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT",
-      "ARBUSDT","INJUSDT","APTUSDT","NEARUSDT","ATOMUSDT","UNIUSDT","LTCUSDT",
-      "FETUSDT","RENDERUSDT","STXUSDT","AAVEUSDT","1000PEPEUSDT","WLDUSDT"
+      "ARBUSDT","INJUSDT","APTUSDT","ATOMUSDT","UNIUSDT","LTCUSDT",
+      "FETUSDT","RENDERUSDT","STXUSDT","AAVEUSDT","PEPEUSDT","WLDUSDT"
     ];
 
-    // Proxies CORS — se prueba en orden hasta que uno funcione
-    const PROXIES = [
-      url => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-      url => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-    ];
-    let workingProxy = 0;
+    const tfLabels = { '15m':'15 minutos','1h':'1 hora','4h':'4 horas','1d':'1 día' };
+
+    async function fetchKlines(symbol, interval, limit) {
+      const url = `https://api.binance.com/api/v3/klines?symbol=${symbol}&interval=${interval}&limit=${limit}`;
+      const res = await fetch(url, { signal: AbortSignal.timeout(8000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      return data.map(c => parseFloat(c[4]));
+    }
 
     function calcRSI(closes, period) {
       if (closes.length < period + 2) return null;
-      let gains = 0, losses = 0;
+      let g = 0, l = 0;
       for (let i = 1; i <= period; i++) {
-        const d = closes[i] - closes[i - 1];
-        if (d > 0) gains += d; else losses -= d;
+        const d = closes[i] - closes[i-1];
+        if (d > 0) g += d; else l -= d;
       }
-      let avgGain = gains / period;
-      let avgLoss = losses / period;
+      let ag = g / period, al = l / period;
       for (let i = period + 1; i < closes.length; i++) {
-        const d = closes[i] - closes[i - 1];
-        avgGain = (avgGain * (period - 1) + (d > 0 ? d : 0)) / period;
-        avgLoss = (avgLoss * (period - 1) + (d < 0 ? -d : 0)) / period;
+        const d = closes[i] - closes[i-1];
+        ag = (ag * (period-1) + (d > 0 ? d : 0)) / period;
+        al = (al * (period-1) + (d < 0 ? -d : 0)) / period;
       }
-      if (avgLoss === 0) return 100;
-      return 100 - 100 / (1 + avgGain / avgLoss);
-    }
-
-    async function fetchKlines(symbol, tf, limit) {
-      const apiUrl = `https://api.bitget.com/api/v2/spot/market/candles?symbol=${symbol}&granularity=${tf}&limit=${limit}`;
-      for (let i = 0; i < PROXIES.length; i++) {
-        const idx = (workingProxy + i) % PROXIES.length;
-        try {
-          const res = await fetch(PROXIES[idx](apiUrl), { signal: AbortSignal.timeout(8000) });
-          if (!res.ok) continue;
-          const data = await res.json();
-          if (data && data.code === '00000' && Array.isArray(data.data) && data.data.length > 0) {
-            workingProxy = idx;
-            // data.data: [ts, open, high, low, close, vol, quoteVol] — más reciente primero
-            const closes = data.data.map(c => parseFloat(c[4])).reverse();
-            return closes;
-          }
-        } catch (e) { /* probar siguiente */ }
-      }
-      return null;
+      if (al === 0) return 100;
+      return 100 - 100 / (1 + ag / al);
     }
 
     async function cargarDatos() {
@@ -129,7 +112,8 @@
       const tf = document.getElementById('tfSelect').value;
       const btn = document.getElementById('mainBtn');
 
-      document.getElementById('subtitleTf').textContent = `Precios reales (Bitget) • RSI real • ${tf}`;
+      document.getElementById('subtitleTf').textContent =
+        `Precios reales • RSI real calculado • ${tfLabels[tf]}`;
       btn.disabled = true;
       btn.textContent = '⏳ Escaneando...';
 
@@ -139,84 +123,63 @@
       signalsDiv.innerHTML = '';
       document.getElementById('lastUpdate').textContent = '';
       document.getElementById('progressArea').style.display = 'block';
+      document.getElementById('progressFill').style.width = '0%';
 
-      const limit = period + 40;
+      const limit = period + 50;
       let done = 0, strong = [], errors = 0;
+      const rows = {};
 
-      // Deduplicar tokens por si acaso
-      const uniqueTokens = [...new Set(tokens)];
+      for (let i = 0; i < tokens.length; i += 5) {
+        const batch = tokens.slice(i, i + 5);
 
-      for (let i = 0; i < uniqueTokens.length; i += 4) {
-        const batch = uniqueTokens.slice(i, i + 4);
-        const batchResults = await Promise.all(batch.map(async symbol => {
+        await Promise.all(batch.map(async symbol => {
           try {
             const closes = await fetchKlines(symbol, tf, limit);
-            if (!closes || closes.length < period + 2) return { symbol, error: true };
-            const rsi = calcRSI(closes, period);
-            if (rsi === null) return { symbol, error: true };
-            const price = closes[closes.length - 1];
-            return { symbol, rsi: Math.round(rsi * 10) / 10, price, error: false };
+            if (!closes || closes.length < period + 2) throw new Error('pocas velas');
+            const rsiRaw = calcRSI(closes, period);
+            if (rsiRaw === null) throw new Error('rsi null');
+            const rsi = Math.round(rsiRaw * 10) / 10;
+            const lastPrice = closes[closes.length - 1];
+            const price = lastPrice >= 1
+              ? lastPrice.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 4 })
+              : lastPrice.toFixed(6);
+
+            let clase = '', señal = 'Neutral';
+            if (rsi <= 20) {
+              clase = 'oversold'; señal = '🟢 MUY SOBREVENDIDO';
+              strong.push({ rsi, type: 'buy', html: `<div class="signal-card strong-buy">${symbol} → RSI ${rsi} → 🟢 MUY SOBREVENDIDO (Posible Compra Fuerte)</div>` });
+            } else if (rsi >= 80) {
+              clase = 'overbought'; señal = '🔴 MUY SOBRECOMPRADO';
+              strong.push({ rsi, type: 'sell', html: `<div class="signal-card strong-sell">${symbol} → RSI ${rsi} → 🔴 MUY SOBRECOMPRADO (Posible Venta Fuerte)</div>` });
+            } else if (rsi <= 30) {
+              clase = 'oversold'; señal = '🟢 Posible Compra';
+            } else if (rsi >= 70) {
+              clase = 'overbought'; señal = '🔴 Posible Venta';
+            }
+            rows[symbol] = `<tr class="${clase}"><td><strong>${symbol}</strong></td><td>$${price}</td><td><strong>${rsi}</strong></td><td>${señal}</td></tr>`;
           } catch (e) {
-            return { symbol, error: true };
+            errors++;
+            rows[symbol] = `<tr><td><strong>${symbol}</strong></td><td class="error-cell">Error</td><td>-</td><td class="error-cell">Sin datos</td></tr>`;
           }
+          done++;
+          document.getElementById('progressFill').style.width = Math.round(done / tokens.length * 100) + '%';
+          document.getElementById('progressText').textContent = `Escaneando ${done}/${tokens.length} pares...`;
         }));
 
-        for (const r of batchResults) {
-          done++;
-          const pct = Math.round(done / uniqueTokens.length * 100);
-          document.getElementById('progressFill').style.width = pct + '%';
-          document.getElementById('progressText').textContent = `Escaneando ${done}/${uniqueTokens.length} pares...`;
-
-          if (r.error) {
-            errors++;
-            tbody.innerHTML += `<tr><td><strong>${r.symbol}</strong></td><td class="error-cell">Error</td><td>-</td><td class="error-cell">Sin datos</td></tr>`;
-            continue;
-          }
-
-          const { symbol, rsi, price } = r;
-          const priceStr = price >= 1
-            ? price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 4 })
-            : price.toFixed(6);
-
-          let clase = '', señal = 'Neutral';
-
-          if (rsi <= 20) {
-            clase = 'oversold';
-            señal = '🟢 MUY SOBREVENDIDO';
-            strong.push(`<div class="signal-card strong-buy">${symbol} → RSI ${rsi} → 🟢 MUY SOBREVENDIDO (Posible Compra Fuerte)</div>`);
-          } else if (rsi >= 80) {
-            clase = 'overbought';
-            señal = '🔴 MUY SOBRECOMPRADO';
-            strong.push(`<div class="signal-card strong-sell">${symbol} → RSI ${rsi} → 🔴 MUY SOBRECOMPRADO (Posible Venta Fuerte)</div>`);
-          } else if (rsi <= 30) {
-            clase = 'oversold';
-            señal = '🟢 Posible Compra';
-          } else if (rsi >= 70) {
-            clase = 'overbought';
-            señal = '🔴 Posible Venta';
-          }
-
-          tbody.innerHTML += `
-            <tr class="${clase}">
-              <td><strong>${symbol}</strong></td>
-              <td>$${priceStr}</td>
-              <td><strong>${rsi}</strong></td>
-              <td>${señal}</td>
-            </tr>`;
-        }
-
-        await new Promise(res => setTimeout(res, 150));
+        await new Promise(r => setTimeout(r, 80));
       }
 
+      tokens.forEach(sym => { if (rows[sym]) tbody.innerHTML += rows[sym]; });
       document.getElementById('progressArea').style.display = 'none';
 
-      signalsDiv.innerHTML = strong.length > 0
-        ? strong.join('')
-        : `<p style="color:#555;text-align:center;">No hay señales extremas (RSI ≤20 o ≥80) en este momento</p>`;
+      const buys = strong.filter(s => s.type === 'buy').sort((a,b) => a.rsi - b.rsi);
+      const sells = strong.filter(s => s.type === 'sell').sort((a,b) => b.rsi - a.rsi);
+      signalsDiv.innerHTML = [...buys, ...sells].map(s => s.html).join('') ||
+        `<p style="color:#555;text-align:center;">No hay señales extremas (RSI ≤20 o ≥80) en este momento</p>`;
 
-      const errMsg = errors > 0 ? ` • ${errors} pares sin datos` : '';
       document.getElementById('lastUpdate').textContent =
-        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} • Bitget Spot • RSI(${period}) en ${tf}${errMsg}`;
+        `Última actualización: ${new Date().toLocaleTimeString('es-ES')} • RSI(${period}) en ${tfLabels[tf]}` +
+        (errors > 0 ? ` • ${errors} pares fallaron` : '');
 
       btn.disabled = false;
       btn.textContent = '🔄 Actualizar Datos Reales';
