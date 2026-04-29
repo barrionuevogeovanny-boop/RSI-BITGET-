@@ -19,17 +19,17 @@
     .oversold { background: #004d00 !important; color: #00ff88; }
     .overbought { background: #660000 !important; color: #ff7777; }
     .last-update { text-align: center; color: #888; margin: 15px 0; }
-    .error { color: #ff6666; text-align: center; }
+    .error { color: #ffaaaa; }
   </style>
 </head>
 <body>
   <h1>🔍 RSI Scanner - Cripto</h1>
-  <p class="subtitle">Precios reales (Binance) • RSI simulado • 15 minutos</p>
+  <p class="subtitle">Precios reales (Binance vía proxy) • RSI simulado</p>
 
-  <button onclick="cargarDatosReales()">🔄 Actualizar Datos Reales</button>
+  <button onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
 
   <div class="signals" id="strongSignals"></div>
-  <div class="last-update" id="lastUpdate">Cargando precios reales...</div>
+  <div class="last-update" id="lastUpdate">Cargando...</div>
 
   <table id="rsiTable">
     <thead>
@@ -46,22 +46,26 @@
   <script>
     const tokens = ["BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT","TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT"];
 
-    async function cargarDatosReales() {
+    const proxy = "https://api.allorigins.win/get?url=";
+
+    async function cargarDatos() {
       const tbody = document.getElementById("tableBody");
       const signalsDiv = document.getElementById("strongSignals");
       tbody.innerHTML = "";
-      signalsDiv.innerHTML = "<p style='text-align:center;'>Cargando precios reales de Binance...</p>";
+      signalsDiv.innerHTML = "<p style='text-align:center;color:#aaa;'>Cargando precios reales...</p>";
 
       let strong = [];
 
       for (let symbol of tokens) {
         try {
-          const res = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`);
+          const url = `https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`;
+          const res = await fetch(proxy + encodeURIComponent(url));
           const data = await res.json();
-          let precio = parseFloat(data.price).toLocaleString('en-US');
+          
+          let precioRaw = JSON.parse(data.contents);
+          let precio = parseFloat(precioRaw.price).toLocaleString('en-US');
 
-          // RSI simulado (por ahora)
-          const rsi = Math.floor(Math.random() * 78) + 12;
+          const rsi = Math.floor(Math.random() * 78) + 12;   // RSI simulado
 
           let clase = "";
           let señal = "Neutral";
@@ -90,22 +94,21 @@
               <td>${señal}</td>
             </tr>`;
         } catch(e) {
-          tbody.innerHTML += `<tr><td>${symbol}</td><td>Error</td><td>-</td><td>No se pudo cargar</td></tr>`;
+          tbody.innerHTML += `<tr><td>${symbol}</td><td class="error">Error proxy</td><td>-</td><td>Error temporal</td></tr>`;
         }
       }
 
       if (strong.length > 0) {
         signalsDiv.innerHTML = strong.join("");
       } else {
-        signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas (RSI <20 o >80) en este momento</p>`;
+        signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas (RSI <20 o >80) por ahora</p>`;
       }
 
-      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios reales de Binance)`;
+      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios vía proxy)`;
     }
 
-    // Cargar al abrir la página y cada 35 segundos
-    window.onload = cargarDatosReales;
-    setInterval(cargarDatosReales, 35000);
+    window.onload = cargarDatos;
+    setInterval(cargarDatos, 40000);   // cada 40 segundos
   </script>
 </body>
 </html>
