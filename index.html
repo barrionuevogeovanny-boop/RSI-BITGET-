@@ -10,7 +10,7 @@
     .subtitle { text-align: center; color: #aaa; margin-bottom: 20px; }
     button { display: block; margin: 15px auto; padding: 12px 30px; font-size: 17px; background: #00ffaa; color: black; border: none; border-radius: 8px; cursor: pointer; }
     .signals { max-width: 1100px; margin: 20px auto; }
-    .signal-card { padding: 14px; margin: 10px 0; border-radius: 8px; font-weight: bold; font-size: 17px; }
+    .signal-card { padding: 15px; margin: 10px 0; border-radius: 8px; font-weight: bold; font-size: 17px; }
     .strong-sell { background: #8B0000; }
     .strong-buy { background: #006400; }
     table { width: 100%; max-width: 1100px; margin: 0 auto; border-collapse: collapse; background: #1a1a2e; }
@@ -23,19 +23,19 @@
   </style>
 </head>
 <body>
-  <h1>🔍 RSI Scanner - Bitget</h1>
-  <p class="subtitle">RSI (14) • 15 minutos • Precios aproximados</p>
+  <h1>🔍 RSI Scanner - Cripto</h1>
+  <p class="subtitle">Precios reales (Binance) • RSI simulado • 15 minutos</p>
 
-  <button onclick="cargarDatos()">🔄 Actualizar Datos Reales</button>
+  <button onclick="cargarDatosReales()">🔄 Actualizar Datos Reales</button>
 
   <div class="signals" id="strongSignals"></div>
-  <div class="last-update" id="lastUpdate">Cargando datos reales...</div>
+  <div class="last-update" id="lastUpdate">Cargando precios reales...</div>
 
   <table id="rsiTable">
     <thead>
       <tr>
         <th>Token</th>
-        <th>Precio</th>
+        <th>Precio Actual</th>
         <th>RSI (14)</th>
         <th>Señal</th>
       </tr>
@@ -46,31 +46,22 @@
   <script>
     const tokens = ["BTCUSDT","ETHUSDT","SOLUSDT","DOGEUSDT","XRPUSDT","BNBUSDT","ADAUSDT","AVAXUSDT","TONUSDT","SHIBUSDT","LINKUSDT","DOTUSDT","NEARUSDT","SUIUSDT","OPUSDT"];
 
-    async function cargarDatos() {
+    async function cargarDatosReales() {
       const tbody = document.getElementById("tableBody");
       const signalsDiv = document.getElementById("strongSignals");
       tbody.innerHTML = "";
-      signalsDiv.innerHTML = "<p>Cargando datos de Bitget...</p>";
+      signalsDiv.innerHTML = "<p style='text-align:center;'>Cargando precios reales de Binance...</p>";
 
       let strong = [];
 
       for (let symbol of tokens) {
         try {
-          // Usamos proxy para intentar traer precio real
-          const proxy = "https://api.allorigins.win/get?url=";
-          const url = `https://api.bitget.com/api/v2/spot/market/ticker?symbol=${symbol}`;
-          const res = await fetch(proxy + encodeURIComponent(url));
+          const res = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${symbol}`);
           const data = await res.json();
-          const ticker = JSON.parse(data.contents);
+          let precio = parseFloat(data.price).toLocaleString('en-US');
 
-          let precio = "N/A";
-          if (ticker.data && ticker.data.last) {
-            precio = parseFloat(ticker.data.last).toLocaleString();
-          } else {
-            precio = (Math.random() * 3000 + 0.01).toFixed(4);
-          }
-
-          const rsi = Math.floor(Math.random() * 78) + 12; // RSI sigue simulado por ahora
+          // RSI simulado (por ahora)
+          const rsi = Math.floor(Math.random() * 78) + 12;
 
           let clase = "";
           let señal = "Neutral";
@@ -99,20 +90,22 @@
               <td>${señal}</td>
             </tr>`;
         } catch(e) {
-          tbody.innerHTML += `<tr><td>${symbol}</td><td>Error</td><td>-</td><td>Error de conexión</td></tr>`;
+          tbody.innerHTML += `<tr><td>${symbol}</td><td>Error</td><td>-</td><td>No se pudo cargar</td></tr>`;
         }
       }
 
-      if (strong.length > 0) signalsDiv.innerHTML = strong.join("");
-      else signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas en este momento</p>`;
+      if (strong.length > 0) {
+        signalsDiv.innerHTML = strong.join("");
+      } else {
+        signalsDiv.innerHTML = `<p style="color:#555;text-align:center;">No hay señales extremas (RSI <20 o >80) en este momento</p>`;
+      }
 
-      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios intentados reales)`;
+      document.getElementById("lastUpdate").innerHTML = `Última actualización: ${new Date().toLocaleTimeString('es-ES')} (precios reales de Binance)`;
     }
 
-    // Cargar automáticamente al abrir
-    window.onload = cargarDatos;
-    // Actualizar cada 40 segundos
-    setInterval(cargarDatos, 40000);
+    // Cargar al abrir la página y cada 35 segundos
+    window.onload = cargarDatosReales;
+    setInterval(cargarDatosReales, 35000);
   </script>
 </body>
 </html>
