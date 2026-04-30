@@ -18,21 +18,22 @@
     /* VIDEO FONDO */
     #video-bg {
       position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      object-fit: cover;
+      top: 50%; left: 50%;
+      min-width: 100%; min-height: 100%;
+      width: auto; height: auto;
+      transform: translate(-50%, -50%);
       z-index: 0;
-      opacity: 0.55;
+      object-fit: cover;
+      opacity: 0.35;
     }
 
-    /* Overlay oscuro sobre el video */
+    /* Overlay oscuro sobre video */
     #overlay {
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
-      background: rgba(2, 4, 18, 0.62);
+      background: rgba(4, 4, 18, 0.72);
       z-index: 1;
-      pointer-events: none;
     }
 
     #app {
@@ -47,228 +48,262 @@
       text-align: center;
       font-size: 30px;
       font-weight: 900;
-      letter-spacing: 4px;
+      letter-spacing: 5px;
       text-transform: uppercase;
       color: #00ffcc;
-      text-shadow: 0 0 24px #00ffccaa, 0 0 50px #00ffcc44;
+      text-shadow: 0 0 24px #00ffcc99, 0 0 50px #00ffcc44;
       margin-bottom: 4px;
     }
 
     .sub {
       text-align: center;
       color: #88ffdd;
-      font-size: 12px;
+      font-size: 11px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      margin-bottom: 16px;
-      text-shadow: 0 0 8px #00ffcc66;
+      margin-bottom: 14px;
     }
 
+    /* CONTROLES */
     .ctrl {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
       align-items: center;
-      margin-bottom: 12px;
-      background: rgba(0,10,20,0.7);
-      border: 1px solid #00ffcc33;
+      margin-bottom: 10px;
+      background: rgba(0,20,20,0.6);
+      border: 1px solid #00ffcc22;
       border-radius: 12px;
-      padding: 12px 20px;
+      padding: 10px 18px;
       backdrop-filter: blur(14px);
     }
-    .ctrl label { color: #88ffdd; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+    .ctrl label { color: #88ffdd; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; }
     .ctrl select {
-      background: rgba(0,20,30,0.85);
+      background: rgba(0,15,20,0.85);
       color: #00ffcc;
-      border: 1px solid #00ffcc44;
+      border: 1px solid #00ffcc33;
       border-radius: 6px;
-      padding: 6px 10px;
-      font-size: 13px;
+      padding: 5px 10px;
+      font-size: 12px;
     }
 
-    .countdown-wrap { text-align: center; margin-bottom: 10px; }
+    /* COUNTDOWN */
+    .countdown-wrap { text-align: center; margin-bottom: 8px; }
     .countdown {
       display: inline-block;
-      font-size: 13px;
+      font-size: 12px;
       font-family: monospace;
+      font-weight: 900;
+      letter-spacing: 2px;
       color: #050510;
       background: #00ffcc;
       padding: 4px 20px;
       border-radius: 99px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      box-shadow: 0 0 16px #00ffccaa;
+      box-shadow: 0 0 16px #00ffcc88;
     }
 
-    .prog { max-width: 700px; margin: 10px auto; }
+    /* PROGRESS */
+    .prog { max-width: 700px; margin: 8px auto; }
     .prog-txt {
       text-align: center;
       color: #00ffcc;
-      font-size: 12px;
-      margin-bottom: 5px;
+      font-size: 11px;
+      margin-bottom: 4px;
       font-family: monospace;
       letter-spacing: 1px;
     }
-    .prog-bg { height: 4px; background: #0a1a15; border-radius: 3px; overflow: hidden; }
+    .prog-bg { height: 3px; background: rgba(0,255,200,0.1); border-radius: 3px; overflow: hidden; }
     .prog-fill {
-      height: 4px; border-radius: 3px; transition: width 0.2s;
+      height: 3px;
+      border-radius: 3px;
+      transition: width 0.2s;
       background: linear-gradient(90deg, #00ffcc, #0088ff, #aa00ff);
       box-shadow: 0 0 8px #00ffcc88;
     }
 
-    .stats { display: flex; gap: 12px; justify-content: center; margin: 12px 0; flex-wrap: wrap; }
-    .stat {
-      background: rgba(0,0,0,0.6);
-      border: 1px solid #00ffcc22;
-      border-radius: 10px;
-      padding: 10px 22px;
-      text-align: center;
-      backdrop-filter: blur(8px);
+    /* STATS */
+    .stats {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin: 10px 0;
+      flex-wrap: wrap;
     }
-    .stat .n { font-size: 26px; font-weight: bold; text-shadow: 0 0 10px currentColor; }
-    .stat .l { font-size: 10px; color: #aaa; margin-top: 2px; letter-spacing: 1px; text-transform: uppercase; }
+    .stat {
+      background: rgba(0,0,0,0.5);
+      border: 1px solid #00ffcc18;
+      border-radius: 10px;
+      padding: 8px 20px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+    .stat .n { font-size: 24px; font-weight: 900; text-shadow: 0 0 10px currentColor; }
+    .stat .l { font-size: 10px; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
     .stat.cyan .n { color: #00ffcc; }
     .stat.red .n  { color: #ff4455; }
     .stat.green .n { color: #00ff88; }
 
+    /* SECTION TITLES */
     .section-title {
       text-align: center;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 900;
       letter-spacing: 3px;
       text-transform: uppercase;
-      padding: 12px 0 10px;
+      padding: 14px 0 8px;
     }
-    .section-title.sell { color: #ff4455; text-shadow: 0 0 14px #ff445588; }
-    .section-title.buy  { color: #00ff88; text-shadow: 0 0 14px #00ff8888; }
+    .section-title.sell { color: #ff4455; text-shadow: 0 0 14px #ff445566; }
+    .section-title.buy  { color: #00ff88; text-shadow: 0 0 14px #00ff8866; }
 
-    .cards { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+    /* CARDS */
+    .cards { display: flex; flex-direction: column; gap: 7px; margin-bottom: 18px; }
 
-    /* CARD — layout vertical con barra RSI abajo */
     .card {
       border-radius: 10px;
-      padding: 14px 18px 12px;
+      padding: 12px 18px 12px 16px;
       backdrop-filter: blur(12px);
-      animation: fadeSlide 0.35s ease;
+      animation: fadeSlide 0.3s ease;
+      background: transparent;
     }
     @keyframes fadeSlide {
       from { opacity:0; transform: translateX(-8px); }
       to   { opacity:1; transform: none; }
     }
     .card.sell {
-      background: rgba(100,0,15,0.38);
-      border: 1px solid #ff445544;
+      background: rgba(100,0,15,0.22);
+      border: 1px solid #ff445533;
       border-left: 3px solid #ff4455;
     }
     .card.buy {
-      background: rgba(0,80,40,0.35);
-      border: 1px solid #00ff8844;
+      background: rgba(0,80,45,0.22);
+      border: 1px solid #00ff8833;
       border-left: 3px solid #00ff88;
     }
 
-    /* Top row: info + RSI número */
+    /* CARD TOP ROW: símbolo + precio + RSI número */
     .card-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
-    .card-left { flex: 1; }
+    .card-left { display: flex; align-items: center; gap: 12px; }
     .sym {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 900;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
     .card.sell .sym { color: #ffcccc; }
     .card.buy  .sym { color: #ccffee; }
-    .sym span { font-weight: 400; color: #555; font-size: 12px; }
-
-    /* PRECIO — destacado */
-    .price {
-      font-size: 18px;
-      font-weight: 700;
-      margin-top: 3px;
-      letter-spacing: 1px;
-    }
-    .card.sell .price { color: #ffaaaa; text-shadow: 0 0 8px #ff445566; }
-    .card.buy  .price { color: #aaffcc; text-shadow: 0 0 8px #00ff8866; }
+    .sym-pair { font-weight: 400; color: #444; font-size: 11px; }
 
     .badge {
-      display: inline-block;
       font-size: 10px;
       font-weight: 700;
-      padding: 2px 10px;
+      padding: 2px 9px;
       border-radius: 99px;
-      margin-top: 5px;
       letter-spacing: 1px;
       text-transform: uppercase;
     }
-    .badge.sell { background: rgba(255,68,85,0.2); color: #ff8899; border: 1px solid #ff445566; }
-    .badge.buy  { background: rgba(0,255,136,0.15); color: #88ffcc; border: 1px solid #00ff8866; }
+    .badge.sell { background: rgba(255,68,85,0.15); color: #ff8899; border: 1px solid #ff445544; }
+    .badge.buy  { background: rgba(0,255,136,0.12); color: #88ffcc; border: 1px solid #00ff8844; }
 
-    /* RSI NÚMERO */
-    .rsi-block { text-align: right; min-width: 80px; }
-    .rsi-n { font-size: 36px; font-weight: 900; text-shadow: 0 0 14px currentColor; line-height: 1; }
+    .price-tag {
+      font-size: 13px;
+      color: #ccc;
+      font-family: monospace;
+      letter-spacing: 0.5px;
+    }
+
+    /* RSI NUMBER right side */
+    .rsi-block { text-align: right; }
+    .rsi-n { font-size: 28px; font-weight: 900; line-height: 1; text-shadow: 0 0 14px currentColor; }
     .card.sell .rsi-n { color: #ff4455; }
     .card.buy  .rsi-n { color: #00ff88; }
-    .rsi-lbl { font-size: 10px; color: #666; letter-spacing: 1px; text-transform: uppercase; margin-top: 2px; }
+    .rsi-lbl { font-size: 9px; color: #555; letter-spacing: 2px; text-transform: uppercase; margin-top: 1px; }
 
-    /* BARRA RSI — ocupa casi todo el ancho */
+    /* RSI BAR — ocupa casi todo el ancho */
     .rsi-bar-wrap {
       width: 100%;
-      margin-top: 4px;
+      margin-top: 2px;
     }
     .rsi-bar-track {
       width: 100%;
-      height: 8px;
-      background: rgba(255,255,255,0.07);
-      border-radius: 99px;
+      height: 6px;
+      background: rgba(255,255,255,0.06);
+      border-radius: 3px;
       overflow: hidden;
       position: relative;
     }
     .rsi-bar-fill {
-      height: 100%;
-      border-radius: 99px;
-      transition: width 0.6s ease;
+      height: 6px;
+      border-radius: 3px;
+      transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
       position: relative;
     }
     .card.sell .rsi-bar-fill {
-      background: linear-gradient(90deg, #ff220033, #ff4455, #ff8800);
-      box-shadow: 0 0 8px #ff445588;
+      background: linear-gradient(90deg, #ff224433, #ff4455, #ff6622);
+      box-shadow: 0 0 8px #ff445566;
     }
     .card.buy .rsi-bar-fill {
-      background: linear-gradient(90deg, #00440022, #00ff88, #00ffcc);
-      box-shadow: 0 0 8px #00ff8888;
+      background: linear-gradient(90deg, #00994433, #00ff88, #00ffcc);
+      box-shadow: 0 0 8px #00ff8866;
     }
-    .rsi-bar-labels {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 3px;
+    /* Marcas 30 y 70 en la barra */
+    .rsi-bar-marks {
+      position: relative;
+      width: 100%;
+      height: 10px;
+      margin-top: 2px;
+    }
+    .rsi-mark {
+      position: absolute;
       font-size: 9px;
-      color: #444;
+      color: #333;
+      transform: translateX(-50%);
       font-family: monospace;
-      letter-spacing: 1px;
+    }
+
+    .logbox {
+      background: rgba(0,0,0,0.6);
+      border: 1px solid #00ffcc0d;
+      border-radius: 8px;
+      padding: 8px;
+      max-width: 700px;
+      margin: 6px auto;
+      font-size: 10px;
+      color: #00ffcc66;
+      font-family: monospace;
+      max-height: 70px;
+      overflow-y: auto;
+      white-space: pre-wrap;
     }
 
     .empty {
-      text-align: center; padding: 24px; color: #444; font-size: 14px;
-      border: 1px solid #0f1f1a; border-radius: 10px;
-      background: rgba(0,0,0,0.3); letter-spacing: 1px;
+      text-align: center;
+      padding: 20px;
+      color: #333;
+      font-size: 13px;
+      border: 1px solid #0f1f1a;
+      border-radius: 10px;
+      background: rgba(0,0,0,0.25);
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
-    .logbox {
-      background: rgba(0,0,0,0.75); border: 1px solid #00ffcc11; border-radius: 8px;
-      padding: 10px; max-width: 700px; margin: 8px auto;
-      font-size: 11px; color: #00ffcc66; font-family: monospace;
-      max-height: 80px; overflow-y: auto; white-space: pre-wrap;
-    }
-    .update { text-align: center; color: #333; font-size: 11px; margin-top: 10px; padding-bottom: 30px; letter-spacing: 1px; }
+
+    .update { text-align: center; color: #2a2a2a; font-size: 10px; margin-top: 10px; padding-bottom: 30px; letter-spacing: 1px; text-transform: uppercase; }
+
     .pulse {
-      display: inline-block; width: 7px; height: 7px;
-      background: #00ffcc; border-radius: 50%;
-      margin-right: 5px; vertical-align: middle;
-      box-shadow: 0 0 6px #00ffcc; animation: pulse 1s infinite;
+      display: inline-block;
+      width: 6px; height: 6px;
+      background: #00ffcc;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+      box-shadow: 0 0 6px #00ffcc;
+      animation: pulse 1s infinite;
     }
     @keyframes pulse {
       0%,100% { opacity:1; transform:scale(1); }
@@ -320,7 +355,7 @@
   </div>
 
   <div class="countdown-wrap">
-    <span class="countdown" id="countdown">INICIANDO ESCANEO...</span>
+    <span class="countdown" id="countdown">INICIANDO...</span>
   </div>
 
   <div id="progArea" style="display:none" class="prog">
@@ -346,7 +381,7 @@
     <div class="cards" id="buyCards"></div>
   </div>
 
-  <div id="emptyMsg" class="empty" style="display:none">SIN SEÑALES EXTREMAS EN ESTE MOMENTO 📊</div>
+  <div id="emptyMsg" class="empty" style="display:none">SIN SEÑALES EXTREMAS EN ESTE MOMENTO</div>
   <div class="update" id="updateTxt"></div>
 </div>
 
@@ -363,56 +398,60 @@ function addLog(msg) {
 
 function calcRSI(closes, period) {
   if (closes.length < period + 2) return null;
-  let g = 0, l = 0;
-  for (let i = 1; i <= period; i++) {
-    const d = closes[i] - closes[i-1];
-    if (d > 0) g += d; else l -= d;
+  let g=0, l=0;
+  for (let i=1;i<=period;i++) {
+    const d=closes[i]-closes[i-1];
+    if(d>0) g+=d; else l-=d;
   }
-  let ag = g/period, al = l/period;
-  for (let i = period+1; i < closes.length; i++) {
-    const d = closes[i] - closes[i-1];
-    ag = (ag*(period-1) + (d>0?d:0)) / period;
-    al = (al*(period-1) + (d<0?-d:0)) / period;
+  let ag=g/period, al=l/period;
+  for (let i=period+1;i<closes.length;i++) {
+    const d=closes[i]-closes[i-1];
+    ag=(ag*(period-1)+(d>0?d:0))/period;
+    al=(al*(period-1)+(d<0?-d:0))/period;
   }
-  if (al === 0) return 100;
-  return 100 - 100/(1 + ag/al);
+  if(al===0) return 100;
+  return 100-100/(1+ag/al);
 }
 
 function rsiLabel(rsi, type) {
-  if (type === 'sell') {
-    if (rsi >= 90) return 'EXTREMO 🔥';
-    if (rsi >= 85) return 'MUY ALTO';
+  if(type==='sell') {
+    if(rsi>=90) return 'EXTREMO 🔥';
+    if(rsi>=85) return 'MUY ALTO';
     return 'SOBRECOMPRADO';
   } else {
-    if (rsi <= 10) return 'EXTREMO 💎';
-    if (rsi <= 15) return 'MUY BAJO';
+    if(rsi<=10) return 'EXTREMO 💎';
+    if(rsi<=15) return 'MUY BAJO';
     return 'SOBREVENDIDO';
   }
 }
 
 function buildCard(sym, rsi, price, type) {
   const p = price >= 1
-    ? price.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 4})
+    ? price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4})
     : price.toFixed(6);
-  const barW = Math.min(100, Math.max(0, rsi)).toFixed(1);
+  const barW = Math.min(100, Math.max(1, rsi)).toFixed(1);
   return `<div class="card ${type}">
     <div class="card-top">
       <div class="card-left">
-        <div class="sym">${sym.replace('USDT','')} <span>/USDT</span></div>
-        <div class="price">$${p}</div>
+        <div class="sym">${sym.replace('USDT','')} <span class="sym-pair">/USDT</span></div>
         <span class="badge ${type}">${type==='sell'?'🔴':'🟢'} ${rsiLabel(rsi,type)}</span>
       </div>
-      <div class="rsi-block">
-        <div class="rsi-n">${rsi.toFixed(1)}</div>
-        <div class="rsi-lbl">RSI 14</div>
+      <div style="display:flex;align-items:center;gap:16px">
+        <div class="price-tag">$${p}</div>
+        <div class="rsi-block">
+          <div class="rsi-n">${rsi.toFixed(1)}</div>
+          <div class="rsi-lbl">RSI 14</div>
+        </div>
       </div>
     </div>
     <div class="rsi-bar-wrap">
       <div class="rsi-bar-track">
         <div class="rsi-bar-fill" style="width:${barW}%"></div>
       </div>
-      <div class="rsi-bar-labels">
-        <span>0</span><span>25</span><span>50</span><span>75</span><span>100</span>
+      <div class="rsi-bar-marks">
+        <span class="rsi-mark" style="left:30%">30</span>
+        <span class="rsi-mark" style="left:50%">50</span>
+        <span class="rsi-mark" style="left:70%">70</span>
       </div>
     </div>
   </div>`;
@@ -448,19 +487,18 @@ async function scan() {
   const tf = document.getElementById('tf').value;
   const maxRsi = parseInt(document.getElementById('maxRsi').value);
   const minRsi = parseInt(document.getElementById('minRsi').value);
-  const volMin = parseFloat(document.getElementById('volMin').value) * 1e6;
+  const volMin = parseFloat(document.getElementById('volMin').value)*1e6;
   const tfLabel = {'15m':'15 MIN','1h':'1 HORA','4h':'4 HORAS','1d':'1 DÍA'}[tf];
 
-  document.getElementById('subTxt').textContent =
-    `TODOS LOS TOKENS • RSI ≥${maxRsi} VENTA / ≤${minRsi} COMPRA • ${tfLabel}`;
-  document.getElementById('progArea').style.display = 'block';
-  document.getElementById('statsArea').style.display = 'none';
-  document.getElementById('sellSection').style.display = 'none';
-  document.getElementById('buySection').style.display = 'none';
-  document.getElementById('emptyMsg').style.display = 'none';
-  document.getElementById('logbox').textContent = '';
-  document.getElementById('logbox').style.display = 'block';
-  document.getElementById('progFill').style.width = '0%';
+  document.getElementById('subTxt').textContent = `TODOS LOS TOKENS • RSI ≥${maxRsi} VENTA / ≤${minRsi} COMPRA • ${tfLabel}`;
+  document.getElementById('progArea').style.display='block';
+  document.getElementById('statsArea').style.display='none';
+  document.getElementById('sellSection').style.display='none';
+  document.getElementById('buySection').style.display='none';
+  document.getElementById('emptyMsg').style.display='none';
+  document.getElementById('logbox').textContent='';
+  document.getElementById('logbox').style.display='block';
+  document.getElementById('progFill').style.width='0%';
 
   addLog('OBTENIENDO PARES USDT...');
   let symbols = [];
@@ -469,80 +507,77 @@ async function scan() {
     const data = await res.json();
     symbols = data
       .filter(t => t.symbol.endsWith('USDT') && parseFloat(t.quoteVolume) > volMin)
-      .sort((a,b) => parseFloat(b.quoteVolume) - parseFloat(a.quoteVolume))
+      .sort((a,b) => parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume))
       .map(t => t.symbol);
     addLog(`${symbols.length} PARES CON VOLUMEN > $${volMin/1e6}M`);
   } catch(e) {
-    addLog('ERROR: ' + e.message);
+    addLog('ERROR: '+e.message);
     running = false;
     startCountdown(25);
     return;
   }
 
-  let done = 0, sellSignals = [], buySignals = [], errors = 0;
+  let done=0, sellSignals=[], buySignals=[], errors=0;
 
-  for (let i = 0; i < symbols.length; i += 10) {
-    const batch = symbols.slice(i, i+10);
+  for (let i=0;i<symbols.length;i+=10) {
+    const batch = symbols.slice(i,i+10);
     await Promise.all(batch.map(async sym => {
       try {
-        const url = `https://api.binance.com/api/v3/klines?symbol=${sym}&interval=${tf}&limit=60`;
-        const res = await fetch(url, { signal: AbortSignal.timeout(5000) });
-        if (!res.ok) throw new Error('http');
-        const data = await res.json();
-        const closes = data.map(c => parseFloat(c[4]));
-        const rsi = calcRSI(closes, 14);
-        if (rsi === null) return;
-        const price = closes[closes.length-1];
-        const r = Math.round(rsi*10)/10;
+        const url=`https://api.binance.com/api/v3/klines?symbol=${sym}&interval=${tf}&limit=60`;
+        const res=await fetch(url,{signal:AbortSignal.timeout(5000)});
+        if(!res.ok) throw new Error('http');
+        const data=await res.json();
+        const closes=data.map(c=>parseFloat(c[4]));
+        const rsi=calcRSI(closes,14);
+        if(rsi===null) return;
+        const price=closes[closes.length-1];
+        const r=Math.round(rsi*10)/10;
 
-        if (rsi >= maxRsi) {
-          const idx = sellSignals.findIndex(s => s.sym === sym);
-          if (idx >= 0) sellSignals[idx] = {sym,rsi:r,price};
-          else sellSignals.push({sym,rsi:r,price});
-          sellSignals.sort((a,b) => b.rsi - a.rsi);
-          renderSection(sellSignals, 'sell');
-          document.getElementById('sellSection').style.display = 'block';
-          document.getElementById('nSell').textContent = sellSignals.length;
-          document.getElementById('statsArea').style.display = 'flex';
+        if(rsi>=maxRsi) {
+          const idx=sellSignals.findIndex(s=>s.sym===sym);
+          const obj={sym,rsi:r,price};
+          if(idx>=0) sellSignals[idx]=obj; else sellSignals.push(obj);
+          sellSignals.sort((a,b)=>b.rsi-a.rsi);
+          renderSection(sellSignals,'sell');
+          document.getElementById('sellSection').style.display='block';
+          document.getElementById('nSell').textContent=sellSignals.length;
+          document.getElementById('statsArea').style.display='flex';
           addLog(`🔴 ${sym} RSI: ${r}`);
-        } else if (rsi <= minRsi) {
-          const idx = buySignals.findIndex(s => s.sym === sym);
-          if (idx >= 0) buySignals[idx] = {sym,rsi:r,price};
-          else buySignals.push({sym,rsi:r,price});
-          buySignals.sort((a,b) => a.rsi - b.rsi);
-          renderSection(buySignals, 'buy');
-          document.getElementById('buySection').style.display = 'block';
-          document.getElementById('nBuy').textContent = buySignals.length;
-          document.getElementById('statsArea').style.display = 'flex';
+        } else if(rsi<=minRsi) {
+          const idx=buySignals.findIndex(s=>s.sym===sym);
+          const obj={sym,rsi:r,price};
+          if(idx>=0) buySignals[idx]=obj; else buySignals.push(obj);
+          buySignals.sort((a,b)=>a.rsi-b.rsi);
+          renderSection(buySignals,'buy');
+          document.getElementById('buySection').style.display='block';
+          document.getElementById('nBuy').textContent=buySignals.length;
+          document.getElementById('statsArea').style.display='flex';
           addLog(`🟢 ${sym} RSI: ${r}`);
         }
-      } catch(e) { errors++; }
+      } catch(e){ errors++; }
 
       done++;
-      document.getElementById('nScanned').textContent = done;
-      document.getElementById('progFill').style.width = Math.round(done/symbols.length*100)+'%';
-      document.getElementById('progTxt').innerHTML =
-        `<span class="pulse"></span>${done}/${symbols.length} PARES... (${sellSignals.length} VENTAS · ${buySignals.length} COMPRAS)`;
+      document.getElementById('nScanned').textContent=done;
+      document.getElementById('progFill').style.width=Math.round(done/symbols.length*100)+'%';
+      document.getElementById('progTxt').innerHTML=`<span class="pulse"></span>${done}/${symbols.length} PARES... (${sellSignals.length} VENTAS · ${buySignals.length} COMPRAS)`;
     }));
-    await new Promise(r => setTimeout(r, 50));
+    await new Promise(r=>setTimeout(r,50));
   }
 
-  document.getElementById('progArea').style.display = 'none';
-  document.getElementById('logbox').style.display = 'none';
-  document.getElementById('statsArea').style.display = 'flex';
-  if (!sellSignals.length && !buySignals.length)
-    document.getElementById('emptyMsg').style.display = 'block';
+  document.getElementById('progArea').style.display='none';
+  document.getElementById('logbox').style.display='none';
+  document.getElementById('statsArea').style.display='flex';
+  if(!sellSignals.length&&!buySignals.length) document.getElementById('emptyMsg').style.display='block';
 
-  const now = new Date().toLocaleTimeString('es-ES');
-  document.getElementById('updateTxt').textContent =
-    `ACTUALIZADO: ${now} • ${done} PARES • RSI(14) EN ${tfLabel}` +
-    (errors > 0 ? ` • ${errors} ERRORES` : '');
+  const now=new Date().toLocaleTimeString('es-ES');
+  document.getElementById('updateTxt').textContent=
+    `ACTUALIZADO: ${now} • ${done} PARES • RSI(14) EN ${tfLabel}`+(errors>0?` • ${errors} ERRORES`:'');
 
-  running = false;
+  running=false;
   startCountdown(25);
 }
 
-window.onload = () => scan();
+window.onload=()=>scan();
 </script>
 </body>
 </html>
