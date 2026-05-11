@@ -1,52 +1,12 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>RSI SCANNER PRO</title>
-
-<style>
-body{
-  background:#050510;
-  color:#00ffcc;
-  font-family:monospace;
-  padding:15px;
-}
-h1{
-  text-align:center;
-  color:#00ffcc;
-  font-size:20px;
-}
-#log{
-  margin-top:15px;
-  white-space:pre-wrap;
-  font-size:12px;
-  border:1px solid #00ffcc33;
-  padding:10px;
-  height:70vh;
-  overflow:auto;
-}
-.bad{
-  color:#ff4444;
-}
-.good{
-  color:#00ff88;
-}
-</style>
-
-</head>
-<body>
-
-<h1>RSI SCANNER LIVE</h1>
-<div id="log">Iniciando...\n</div>
-
 <script>
 let trade=null;
+let running=false;
+
 const logBox=document.getElementById("log");
 
 function log(msg,cls=""){
-  logBox.innerHTML += (cls?`<span class="${cls}">`:"") + msg + (cls?"</span>":"") + "\n";
-  logBox.scrollTop = logBox.scrollHeight;
+  logBox.innerHTML += (cls?`<span style="color:${cls==='g'?'#00ff88':'#ff4444'}">`:"") + msg + (cls?"</span>":"") + "\n";
+  logBox.scrollTop=logBox.scrollHeight;
 }
 
 // ===== RSI =====
@@ -77,7 +37,7 @@ function calcRSI(closes, period=14){
 // ===== TRADE =====
 function openTrade(sym,price,type,rsi){
   trade={sym,price,type};
-  log(`OPEN ${type} ${sym} @ ${price} RSI:${rsi.toFixed(1)}`, "good");
+  log(`OPEN ${type} ${sym} @ ${price} RSI:${rsi.toFixed(1)}`,"g");
 }
 
 function closeTrade(price,reason){
@@ -91,14 +51,17 @@ function closeTrade(price,reason){
     diff=((price-trade.price)/trade.price)*100;
   }
 
-  log(`CLOSE ${trade.sym} | ${reason} | ${diff.toFixed(2)}%`, diff>0?"good":"bad");
+  log(`CLOSE ${trade.sym} | ${reason} | ${diff.toFixed(2)}%`, diff>0?"g":"r");
 
   trade=null;
 }
 
-// ===== SCAN =====
+// ===== SCAN 1 PAÍS =====
 async function scan(){
-  log("ESCANEANDO...");
+  if(running)return;
+  running=true;
+
+  log("🔎 ESCANEANDO...");
 
   try{
     let res=await fetch("https://api.binance.com/api/v3/ticker/24hr");
@@ -107,10 +70,12 @@ async function scan(){
     let symbols=data
       .filter(t=>t.symbol.endsWith("USDT"))
       .sort((a,b)=>b.quoteVolume-a.quoteVolume)
-      .slice(0,40)
+      .slice(0,30) // 🔥 reducido para estabilidad
       .map(t=>t.symbol);
 
-    for(let sym of symbols){
+    for(let i=0;i<symbols.length;i++){
+      let sym=symbols[i];
+
       try{
         let r=await fetch(`https://api.binance.com/api/v3/klines?symbol=${sym}&interval=1m&limit=50`);
         let k=await r.json();
@@ -123,7 +88,7 @@ async function scan(){
         let rsi=calcRSI(closes,14);
         if(!rsi)continue;
 
-        // ===== ENTRADAS SOLO EXTREMAS =====
+        // ===== ENTRADAS =====
         if(rsi>=90 && prev>price && !trade){
           openTrade(sym,price,"SHORT",rsi);
         }
@@ -141,17 +106,22 @@ async function scan(){
         }
 
       }catch(e){}
+
+      // 🔥 pequeña pausa para no congelar
+      await new Promise(r=>setTimeout(r,120));
     }
 
   }catch(e){
-    log("ERROR API","bad");
+    log("ERROR API","r");
   }
 
-  setTimeout(scan,4000);
+  running=false;
+
+  log("⏳ CICLO TERMINADO - REINICIANDO...\n");
+
+  // 🔥 loop estable infinito
+  setTimeout(scan,2500);
 }
 
 scan();
 </script>
-
-</body>
-</html>
