@@ -1,487 +1,157 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RSI SCANNER - CRIPTO</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: 'Courier New', monospace;
-      background: #050510;
-      color: #fff;
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
-    #canvas-bg {
-      position: fixed; top:0; left:0;
-      width:100%; height:100%;
-      z-index:0; pointer-events:none;
-    }
-    #app {
-      position: relative; z-index:1;
-      padding: 20px;
-      max-width: 1100px;
-      margin: 0 auto;
-    }
-    h1 {
-      text-align: center;
-      font-size: 30px; font-weight: 900;
-      letter-spacing: 6px; text-transform: uppercase;
-      color: #00ffcc;
-      text-shadow: 0 0 20px #00ffcc88, 0 0 40px #00ffcc33;
-      margin-bottom: 5px;
-    }
-    .sub {
-      text-align: center; color: #00ffcc99;
-      font-size: 11px; margin-bottom: 14px;
-      text-transform: uppercase; letter-spacing: 2px;
-    }
-    .ctrl {
-      display: flex; flex-wrap: wrap;
-      gap: 10px; justify-content: center; align-items: center;
-      margin-bottom: 12px;
-      background: rgba(0,20,20,0.7);
-      border: 1px solid #00ffcc22;
-      border-radius: 10px; padding: 11px 18px;
-      backdrop-filter: blur(10px);
-    }
-    .ctrl label { color: #00ffcc; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
-    .ctrl select {
-      background: #020215; color: #00ffcc;
-      border: 1px solid #00ffcc33; border-radius: 5px;
-      padding: 5px 8px; font-size: 11px;
-      font-family: 'Courier New', monospace; text-transform: uppercase;
-    }
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>RSI SCANNER PRO</title>
 
-    /* COUNTDOWN */
-    .cd-wrap {
-      max-width: 340px; margin: 0 auto 12px;
-      background: rgba(0,255,204,0.07);
-      border: 1px solid #00ffcc44;
-      border-radius: 99px; padding: 6px 18px;
-      display: flex; align-items: center; justify-content: center; gap: 8px;
-    }
-    .cd-label { font-size: 11px; color: #00ffcc; text-transform: uppercase; letter-spacing: 2px; }
-    .cd-num { font-size: 15px; font-weight: 900; color: #fff; min-width: 36px; text-align: center; }
-    .cbar-bg { flex:1; height:3px; background:#00ffcc22; border-radius:2px; overflow:hidden; }
-    .cbar-fill { height:3px; border-radius:2px; transition:width 1s linear; background:#00ffcc; box-shadow:0 0 5px #00ffcc; }
+<style>
+body{
+  background:#050510;
+  color:#00ffcc;
+  font-family:monospace;
+  padding:15px;
+}
+h1{
+  text-align:center;
+  color:#00ffcc;
+  font-size:20px;
+}
+#log{
+  margin-top:15px;
+  white-space:pre-wrap;
+  font-size:12px;
+  border:1px solid #00ffcc33;
+  padding:10px;
+  height:70vh;
+  overflow:auto;
+}
+.bad{
+  color:#ff4444;
+}
+.good{
+  color:#00ff88;
+}
+</style>
 
-    /* PROGRESS */
-    .prog { max-width:700px; margin:6px auto; }
-    .prog-txt { text-align:center; color:#00ffcc; font-size:11px; font-weight:bold; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px; }
-    .prog-bg { height:3px; background:#00ffcc22; border-radius:2px; overflow:hidden; }
-    .prog-fill { height:3px; border-radius:2px; transition:width 0.2s; background:#00ffcc; box-shadow:0 0 5px #00ffcc; }
-
-    /* STATS */
-    .stats { display:flex; gap:10px; justify-content:center; margin:10px 0; flex-wrap:wrap; }
-    .stat {
-      background:rgba(0,20,20,0.7); border:1px solid #00ffcc22;
-      border-radius:10px; padding:9px 22px; text-align:center;
-    }
-    .stat .n { font-size:26px; font-weight:900; font-family:'Courier New',monospace; }
-    .stat .l { font-size:10px; color:#aaa; margin-top:1px; text-transform:uppercase; letter-spacing:2px; }
-    .stat.blue .n { color:#00ffcc; text-shadow:0 0 10px #00ffcc55; }
-    .stat.red .n  { color:#ff4444; text-shadow:0 0 10px #ff444455; }
-    .stat.green .n{ color:#00ff88; text-shadow:0 0 10px #00ff8855; }
-
-    /* SECTION TITLES */
-    .sec-title {
-      text-align:center; font-size:14px; font-weight:900;
-      padding:10px 0 12px; letter-spacing:4px; text-transform:uppercase;
-      display:flex; align-items:center; justify-content:center; gap:8px;
-    }
-    .sec-title.sell { color:#ff4444; text-shadow:0 0 12px #ff444488; }
-    .sec-title.buy  { color:#00ff88; text-shadow:0 0 12px #00ff8888; }
-    .dot { width:9px; height:9px; border-radius:50%; display:inline-block; animation:blink 1.2s infinite; }
-    .dot.sell { background:#ff4444; box-shadow:0 0 7px #ff4444; }
-    .dot.buy  { background:#00ff88; box-shadow:0 0 7px #00ff88; }
-    @keyframes blink { 0%,100%{opacity:1}50%{opacity:0.3} }
-
-    /* CARDS — chatas igual a la imagen */
-    .cards { display:flex; flex-direction:column; gap:8px; margin-bottom:18px; }
-
-    .card {
-      border-radius:8px; overflow:hidden;
-      animation:fadeIn 0.4s ease;
-      border-left:4px solid;
-    }
-    @keyframes fadeIn{from{opacity:0;transform:translateY(-5px)}to{opacity:1;transform:none}}
-
-    .card.sell { background:rgba(100,0,0,0.35); border-color:#ff4444; border-top:1px solid #880000; border-right:1px solid #880000; border-bottom:1px solid #880000; }
-    .card.buy  { background:rgba(0,70,40,0.35);  border-color:#00ff88; border-top:1px solid #005533; border-right:1px solid #005533; border-bottom:1px solid #005533; }
-
-    /* FILA SUPERIOR: nombre | badge | [espacio] | precio | rsi */
-    .card-row {
-      display:grid;
-      grid-template-columns: 160px 1fr auto;
-      align-items:center;
-      padding:10px 14px 4px;
-      gap:8px;
-    }
-    .card-left { display:flex; align-items:center; gap:10px; }
-    .sym { font-size:17px; font-weight:900; text-transform:uppercase; letter-spacing:2px; color:#fff; white-space:nowrap; }
-    .sym span { font-weight:400; color:#666; font-size:12px; letter-spacing:0; }
-    .badge {
-      display:inline-flex; align-items:center; gap:4px;
-      font-size:9px; font-weight:900; padding:2px 9px;
-      border-radius:99px; text-transform:uppercase; letter-spacing:1px;
-      white-space:nowrap;
-    }
-    .badge.sell { background:rgba(180,0,0,0.5); color:#ffaaaa; border:1px solid #ff444455; }
-    .badge.buy  { background:rgba(0,120,60,0.5); color:#aaffcc; border:1px solid #00ff8855; }
-
-    .card-right { display:flex; align-items:center; gap:16px; }
-    .price { font-size:12px; color:#ccc; font-family:'Courier New',monospace; white-space:nowrap; }
-    .rsi-n { font-size:26px; font-weight:900; line-height:1; white-space:nowrap; font-family:'Courier New',monospace; }
-    .card.sell .rsi-n { color:#ff4444; text-shadow:0 0 10px #ff444466; }
-    .card.buy  .rsi-n { color:#00ff88; text-shadow:0 0 10px #00ff8866; }
-    .rsi-lbl { font-size:9px; color:#aaa; text-transform:uppercase; letter-spacing:1px; text-align:right; margin-top:1px; }
-
-    /* BARRA SPARKLINE — chata, debajo de la fila */
-    .spark-row {
-      padding:0 14px 8px;
-      position:relative; height:44px;
-    }
-    .spark-row canvas {
-      width:100% !important; height:44px !important; display:block;
-    }
-
-    .empty {
-      text-align:center; padding:20px; color:#00ffcc66;
-      font-size:12px; font-weight:bold; border:1px solid #00ffcc22;
-      border-radius:8px; text-transform:uppercase; letter-spacing:2px;
-      background:rgba(0,20,20,0.5);
-    }
-    .update { text-align:center; color:#00ffcc44; font-size:10px; margin-top:8px; padding-bottom:28px; text-transform:uppercase; letter-spacing:2px; }
-    .logbox {
-      background:rgba(0,10,10,0.8); border:1px solid #00ffcc22; border-radius:7px;
-      padding:8px; max-width:700px; margin:6px auto;
-      font-size:10px; color:#00ffcc77; font-family:'Courier New',monospace;
-      max-height:55px; overflow-y:auto; white-space:pre-wrap;
-    }
-    .pdot { display:inline-block; width:6px; height:6px; background:#00ffcc; border-radius:50%; margin-right:5px; animation:blink 1s infinite; }
-  </style>
 </head>
 <body>
-<canvas id="canvas-bg"></canvas>
-<div id="app">
-  <h1>RSI SCANNER — CRIPTO</h1>
-  <p class="sub" id="subTxt">TODOS LOS TOKENS · SEÑALES RSI EXTREMAS · AUTO-REFRESH</p>
 
-  <div class="ctrl">
-    <label>TIMEFRAME:</label>
-    <select id="tf">
-      <option value="1h" selected>1 HORA</option>
-      <option value="15m">15 MIN</option>
-      <option value="4h">4 HORAS</option>
-      <option value="1d">1 DÍA</option>
-    </select>
-    <label>RSI VENTA ≥:</label>
-    <select id="maxRsi">
-      <option value="70">70</option>
-      <option value="75">75</option>
-      <option value="80" selected>80</option>
-      <option value="85">85</option>
-    </select>
-    <label>RSI COMPRA ≤:</label>
-    <select id="minRsi">
-      <option value="25" selected>25</option>
-      <option value="20">20</option>
-      <option value="15">15</option>
-      <option value="10">10</option>
-    </select>
-    <label>VOL MÍN:</label>
-    <select id="volMin">
-      <option value="1">$1M</option>
-      <option value="3" selected>$3M</option>
-      <option value="5">$5M</option>
-      <option value="10">$10M</option>
-    </select>
-  </div>
+<h1>RSI SCANNER LIVE</h1>
+<div id="log">Iniciando...\n</div>
 
-  <div class="cd-wrap">
-    <span class="cd-label">PRÓXIMO ESCANEO EN:</span>
-    <div class="cbar-bg"><div class="cbar-fill" id="cbarFill" style="width:100%"></div></div>
-    <span class="cd-num" id="cdNum">--</span>
-  </div>
-
-  <div id="progArea" style="display:none" class="prog">
-    <div class="prog-txt" id="progTxt"><span class="pdot"></span>INICIANDO...</div>
-    <div class="prog-bg"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
-  </div>
-  <div class="logbox" id="logbox" style="display:none"></div>
-
-  <div id="statsArea" style="display:none" class="stats">
-    <div class="stat blue"><div class="n" id="nScanned">0</div><div class="l">ESCANEADOS</div></div>
-    <div class="stat red"><div class="n" id="nSell">0</div><div class="l">● VENTA</div></div>
-    <div class="stat green"><div class="n" id="nBuy">0</div><div class="l">● COMPRA</div></div>
-  </div>
-
-  <div id="sellSection" style="display:none">
-    <div class="sec-title sell"><span class="dot sell"></span>SOBRECOMPRADOS — POSIBLE VENTA / SHORT</div>
-    <div class="cards" id="sellCards"></div>
-  </div>
-  <div id="buySection" style="display:none">
-    <div class="sec-title buy"><span class="dot buy"></span>SOBREVENDIDOS — POSIBLE COMPRA / LONG</div>
-    <div class="cards" id="buyCards"></div>
-  </div>
-<!-- FONDO BLOCKCHAIN -->
 <script>
-(function(){
-  const cv=document.getElementById('canvas-bg');
-  const cx=cv.getContext('2d');
-  let W,H;
-  const lines=[], nodes=[];
-  function build(){
-    lines.length=0; nodes.length=0;
-    for(let i=0;i<8;i++){
-      const baseY=H*(0.05+i*0.12);
-      const pts=[]; let y=baseY;
-      for(let x=-20;x<=W+40;x+=3){
-        y+=(Math.random()-0.49)*6;
-        y=Math.max(baseY-50,Math.min(baseY+50,y));
-        pts.push([x,y]);
-      }
-      lines.push({pts,color:['#00ffcc','#00aaff','#0066ff','#003388','#00ff88','#004433','#006655','#002244'][i],alpha:0.05+Math.random()*0.06,speed:0.2+Math.random()*0.35,off:Math.random()*1000});
-    }
-    for(let i=0;i<30;i++){
-      nodes.push({x:Math.random()*W,y:Math.random()*H,vx:(Math.random()-.5)*.2,vy:(Math.random()-.5)*.2,r:Math.random()*2+1,c:['#00ffcc','#00aaff','#0088ff'][Math.floor(Math.random()*3)]});
-    }
-  }
-  function resize(){W=cv.width=window.innerWidth;H=cv.height=window.innerHeight;build();}
-  window.addEventListener('resize',resize);resize();
-  function draw(){
-    cx.clearRect(0,0,W,H);
-    // Niveles RSI fijos
-    [0.2,0.35,0.5,0.65,0.8].forEach(f=>{
-      cx.beginPath();cx.setLineDash([4,9]);
-      cx.strokeStyle='rgba(0,255,204,0.03)';cx.lineWidth=0.7;
-      cx.moveTo(0,H*f);cx.lineTo(W,H*f);cx.stroke();cx.setLineDash([]);
-    });
-    // Líneas RSI ondulantes
-    lines.forEach(l=>{
-      l.off+=l.speed;
-      cx.beginPath();cx.strokeStyle=l.color;cx.globalAlpha=l.alpha;cx.lineWidth=1;
-      let first=true;
-      l.pts.forEach(([px,py])=>{
-        const rx=((px-l.off%(W+60))+W+60)%(W+60)-20;
-        if(first){cx.moveTo(rx,py);first=false;}else cx.lineTo(rx,py);
-      });
-      cx.stroke();cx.globalAlpha=1;
-    });
-    // Nodos
-    nodes.forEach(n=>{
-      n.x+=n.vx;n.y+=n.vy;
-      if(n.x<0||n.x>W)n.vx*=-1;if(n.y<0||n.y>H)n.vy*=-1;
-    });
-    for(let i=0;i<nodes.length;i++){
-      for(let j=i+1;j<nodes.length;j++){
-        const dx=nodes[i].x-nodes[j].x,dy=nodes[i].y-nodes[j].y,d=Math.sqrt(dx*dx+dy*dy);
-        if(d<140){cx.beginPath();cx.strokeStyle=`rgba(0,200,150,${0.06*(1-d/140)})`;cx.lineWidth=0.5;cx.moveTo(nodes[i].x,nodes[i].y);cx.lineTo(nodes[j].x,nodes[j].y);cx.stroke();}
-      }
-      cx.beginPath();cx.arc(nodes[i].x,nodes[i].y,nodes[i].r,0,Math.PI*2);cx.fillStyle=nodes[i].c+'44';cx.fill();
-    }
-    requestAnimationFrame(draw);
-  }
-  draw();
-})();
-</script>
+let trade=null;
+const logBox=document.getElementById("log");
 
-<!-- SCANNER -->
-<script>
-let running=false,cdTimer=null;
-const CD=25;
+function log(msg,cls=""){
+  logBox.innerHTML += (cls?`<span class="${cls}">`:"") + msg + (cls?"</span>":"") + "\n";
+  logBox.scrollTop = logBox.scrollHeight;
+}
 
-function addLog(m){const b=document.getElementById('logbox');b.style.display='block';b.textContent+=m+'\n';b.scrollTop=b.scrollHeight;}
-
-function calcRSI(closes,period){
+// ===== RSI =====
+function calcRSI(closes, period=14){
   if(closes.length<period+2)return null;
-  let g=0,l=0;
-  for(let i=1;i<=period;i++){const d=closes[i]-closes[i-1];if(d>0)g+=d;else l-=d;}
-  let ag=g/period,al=l/period;
+
+  let gain=0,loss=0;
+
+  for(let i=1;i<=period;i++){
+    let d=closes[i]-closes[i-1];
+    if(d>0)gain+=d;
+    else loss-=d;
+  }
+
+  let ag=gain/period;
+  let al=loss/period;
+
   for(let i=period+1;i<closes.length;i++){
-    const d=closes[i]-closes[i-1];
+    let d=closes[i]-closes[i-1];
     ag=(ag*(period-1)+(d>0?d:0))/period;
     al=(al*(period-1)+(d<0?-d:0))/period;
   }
+
   if(al===0)return 100;
-  return 100-100/(1+ag/al);
+  return 100-(100/(1+ag/al));
 }
 
-function calcRSIArray(closes,period){
-  const out=[];
-  for(let end=period+2;end<=closes.length;end++){
-    const r=calcRSI(closes.slice(0,end),period);
-    if(r!==null)out.push(r);
+// ===== TRADE =====
+function openTrade(sym,price,type,rsi){
+  trade={sym,price,type};
+  log(`OPEN ${type} ${sym} @ ${price} RSI:${rsi.toFixed(1)}`, "good");
+}
+
+function closeTrade(price,reason){
+  if(!trade)return;
+
+  let diff=0;
+
+  if(trade.type==="SHORT"){
+    diff=((trade.price-price)/trade.price)*100;
+  }else{
+    diff=((price-trade.price)/trade.price)*100;
   }
-  return out.slice(-50);
+
+  log(`CLOSE ${trade.sym} | ${reason} | ${diff.toFixed(2)}%`, diff>0?"good":"bad");
+
+  trade=null;
 }
 
-function drawSparkline(cvs,rsiVals,type){
-  const W=cvs.offsetWidth||800,H=44;
-  cvs.width=W;cvs.height=H;
-  const ctx=cvs.getContext('2d');
-  ctx.clearRect(0,0,W,H);
-  if(!rsiVals||rsiVals.length<2)return;
-  const color=type==='sell'?'#ff4444':'#00ff88';
-  const toY=v=>H-(v/100)*H;
-  const step=W/(rsiVals.length-1);
-
-  // Zonas
-  ctx.fillStyle='rgba(255,68,68,0.06)';ctx.fillRect(0,0,W,toY(70));
-  ctx.fillStyle='rgba(0,255,136,0.06)';ctx.fillRect(0,toY(30),W,H-toY(30));
-
-  // Líneas nivel con etiquetas
-  [[70,'70'],[50,'50'],[30,'30']].forEach(([lvl,lbl])=>{
-    const y=toY(lvl);
-    ctx.beginPath();ctx.setLineDash([3,6]);
-    ctx.strokeStyle='rgba(255,255,255,0.13)';ctx.lineWidth=0.7;
-    ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();ctx.setLineDash([]);
-    ctx.fillStyle='rgba(255,255,255,0.22)';
-    ctx.font='8px Courier New';ctx.fillText(lbl,3,y-2);
-  });
-
-  // Área
-  ctx.beginPath();ctx.moveTo(0,H);
-  rsiVals.forEach((v,i)=>ctx.lineTo(i*step,toY(v)));
-  ctx.lineTo((rsiVals.length-1)*step,H);ctx.closePath();
-  ctx.fillStyle=color+'15';ctx.fill();
-
-  // Línea
-  ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.6;
-  ctx.shadowColor=color;ctx.shadowBlur=4;
-  rsiVals.forEach((v,i)=>{if(i===0)ctx.moveTo(0,toY(v));else ctx.lineTo(i*step,toY(v));});
-  ctx.stroke();ctx.shadowBlur=0;
-
-  // Punto final
-  const last=rsiVals[rsiVals.length-1];
-  ctx.beginPath();ctx.arc((rsiVals.length-1)*step,toY(last),3,0,Math.PI*2);
-  ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=6;ctx.fill();ctx.shadowBlur=0;
-}
-
-function rsiLabel(rsi,type){
-  if(type==='sell'){if(rsi>=90)return'EXTREMO 🔥';if(rsi>=85)return'MUY ALTO';return'SOBRECOMPRADO';}
-  else{if(rsi<=10)return'EXTREMO 💎';if(rsi<=15)return'MUY BAJO';return'SOBREVENDIDO';}
-}
-
-function renderSection(signals,containerId,type){
-  const el=document.getElementById(containerId);
-  el.innerHTML=signals.map(({sym,rsi,price,rsiVals})=>{
-    const p=price>=1?price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):price.toFixed(6);
-    const id=`sp_${sym}`;
-    return `<div class="card ${type}">
-      <div class="card-row">
-        <div class="card-left">
-          <div class="sym">${sym.replace('USDT','')} <span>/USDT</span></div>
-          <span class="badge ${type}">● ${rsiLabel(rsi,type)}</span>
-        </div>
-        <div></div>
-        <div class="card-right">
-          <div>
-            <div class="price">$${p}</div>
-            <div class="rsi-lbl">RSI 14</div>
-          </div>
-          <div class="rsi-n">${rsi.toFixed(1)}</div>
-        </div>
-      </div>
-      <div class="spark-row"><canvas id="${id}"></canvas></div>
-    </div>`;
-  }).join('');
-  requestAnimationFrame(()=>{
-    signals.forEach(({sym,rsiVals})=>{
-      const cvs=document.getElementById(`sp_${sym}`);
-      if(cvs)drawSparkline(cvs,rsiVals,type);
-    });
-  });
-}
-
-function startCD(sec){
-  if(cdTimer)clearInterval(cdTimer);
-  let v=sec;
-  const num=document.getElementById('cdNum'),fill=document.getElementById('cbarFill');
-  num.textContent=v+'S';fill.style.width='100%';
-  cdTimer=setInterval(()=>{
-    v--;num.textContent=v+'S';fill.style.width=Math.round(v/sec*100)+'%';
-    if(v<=0){clearInterval(cdTimer);num.textContent='🔄';scan();}
-  },1000);
-}
-
+// ===== SCAN =====
 async function scan(){
-  if(running)return;running=true;
-  if(cdTimer)clearInterval(cdTimer);
-  const tf=document.getElementById('tf').value;
-  const maxRsi=parseInt(document.getElementById('maxRsi').value);
-  const minRsi=parseInt(document.getElementById('minRsi').value);
-  const volMin=parseFloat(document.getElementById('volMin').value)*1e6;
-  const tfLabel={'15m':'15 MIN','1h':'1 HORA','4h':'4 HORAS','1d':'1 DÍA'}[tf];
+  log("ESCANEANDO...");
 
-  document.getElementById('subTxt').textContent=`TODOS LOS TOKENS · RSI ≥${maxRsi} VENTA / ≤${minRsi} COMPRA · ${tfLabel}`;
-  document.getElementById('progArea').style.display='block';
-  document.getElementById('statsArea').style.display='none';
-  document.getElementById('sellSection').style.display='none';
-  document.getElementById('buySection').style.display='none';
-  document.getElementById('emptyMsg').style.display='none';
-  document.getElementById('logbox').textContent='';
-  document.getElementById('logbox').style.display='block';
-  document.getElementById('progFill').style.width='0%';
-  document.getElementById('cdNum').textContent='...';
-
-  addLog('OBTENIENDO PARES USDT...');
-  let symbols=[];
   try{
-    const res=await fetch('https://api.binance.com/api/v3/ticker/24hr');
-    const data=await res.json();
-    symbols=data.filter(t=>t.symbol.endsWith('USDT')&&parseFloat(t.quoteVolume)>volMin)
-      .sort((a,b)=>parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume)).map(t=>t.symbol);
-    addLog(`${symbols.length} PARES ENCONTRADOS`);
-  }catch(e){addLog('ERROR: '+e.message);running=false;startCD(CD);return;}
+    let res=await fetch("https://api.binance.com/api/v3/ticker/24hr");
+    let data=await res.json();
 
-  let done=0,sellSigs=[],buySigs=[],errors=0;
-  for(let i=0;i<symbols.length;i+=10){
-    const batch=symbols.slice(i,i+10);
-    await Promise.all(batch.map(async sym=>{
+    let symbols=data
+      .filter(t=>t.symbol.endsWith("USDT"))
+      .sort((a,b)=>b.quoteVolume-a.quoteVolume)
+      .slice(0,40)
+      .map(t=>t.symbol);
+
+    for(let sym of symbols){
       try{
-        const res=await fetch(`https://api.binance.com/api/v3/klines?symbol=${sym}&interval=${tf}&limit=70`,{signal:AbortSignal.timeout(5000)});
-        if(!res.ok)throw new Error('http');
-        const data=await res.json();
-        const closes=data.map(c=>parseFloat(c[4]));
-        const rsi=calcRSI(closes,14);
-        if(rsi===null)return;
-        const rsiVals=calcRSIArray(closes,14);
-        const price=closes[closes.length-1];
-        const r=Math.round(rsi*10)/10;
-        if(rsi>=maxRsi){
-          sellSigs.push({sym,rsi:r,price,rsiVals});sellSigs.sort((a,b)=>b.rsi-a.rsi);
-          renderSection(sellSigs,'sellCards','sell');
-          document.getElementById('sellSection').style.display='block';
-          document.getElementById('nSell').textContent=sellSigs.length;
-          document.getElementById('statsArea').style.display='flex';
-          addLog(`SELL ${sym} RSI:${r}`);
-        }else if(rsi<=minRsi){
-          buySigs.push({sym,rsi:r,price,rsiVals});buySigs.sort((a,b)=>a.rsi-b.rsi);
-          renderSection(buySigs,'buyCards','buy');
-          document.getElementById('buySection').style.display='block';
-          document.getElementById('nBuy').textContent=buySigs.length;
-          document.getElementById('statsArea').style.display='flex';
-          addLog(`BUY  ${sym} RSI:${r}`);
+        let r=await fetch(`https://api.binance.com/api/v3/klines?symbol=${sym}&interval=1m&limit=50`);
+        let k=await r.json();
+
+        let closes=k.map(x=>parseFloat(x[4]));
+
+        let price=closes[closes.length-1];
+        let prev=closes[closes.length-2];
+
+        let rsi=calcRSI(closes,14);
+        if(!rsi)continue;
+
+        // ===== ENTRADAS SOLO EXTREMAS =====
+        if(rsi>=90 && prev>price && !trade){
+          openTrade(sym,price,"SHORT",rsi);
         }
-      }catch(e){errors++;}
-      done++;
-      document.getElementById('nScanned').textContent=done;
-      document.getElementById('progFill').style.width=Math.round(done/symbols.length*100)+'%';
-      document.getElementById('progTxt').innerHTML=`<span class="pdot"></span>ESCANEANDO ${done}/${symbols.length} · ${sellSigs.length} VENTAS · ${buySigs.length} COMPRAS`;
-    }));
-    await new Promise(r=>setTimeout(r,50));
+
+        if(rsi<=20 && prev<price && !trade){
+          openTrade(sym,price,"LONG",rsi);
+        }
+
+        // ===== SALIDA SIMPLE =====
+        if(trade){
+          let change=((price-trade.price)/trade.price)*100;
+
+          if(trade.type==="SHORT" && change<-0.3)closeTrade(price,"TP");
+          if(trade.type==="LONG" && change>0.3)closeTrade(price,"TP");
+        }
+
+      }catch(e){}
+    }
+
+  }catch(e){
+    log("ERROR API","bad");
   }
-  document.getElementById('progArea').style.display='none';
-  document.getElementById('logbox').style.display='none';
-  document.getElementById('statsArea').style.display='flex';
-  if(!sellSigs.length&&!buySigs.length)document.getElementById('emptyMsg').style.display='block';
-  document.getElementById('updateTxt').textContent=`ACTUALIZADO: ${new Date().toLocaleTimeString('es-ES')} · ${done} PARES · RSI(14) EN ${tfLabel}`+(errors>0?` · ${errors} ERRORES`:'');
-  running=false;startCD(CD);
+
+  setTimeout(scan,4000);
 }
-window.onload=()=>scan();
+
+scan();
 </script>
+
 </body>
 </html>
