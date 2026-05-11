@@ -485,3 +485,146 @@ window.onload=()=>scan();
 </script>
 </body>
 </html>
+**********  **********************************************************************************************************
+let running = false;
+
+let trade = null;
+
+let stats = {
+  total: 0,
+  wins: 0,
+  losses: 0
+};
+
+function log(msg) {
+  console.log(msg);
+}
+
+// ================= RSI =================
+function calcRSI(closes, period = 14) {
+  if (closes.length < period + 2) return null;
+
+  let gain = 0, loss = 0;
+
+  for (let i = 1; i <= period; i++) {
+    let d = closes[i] - closes[i - 1];
+    if (d > 0) gain += d;
+    else loss -= d;
+  }
+
+  let avgGain = gain / period;
+  let avgLoss = loss / period;
+
+  for (let i = period + 1; i < closes.length; i++) {
+    let d = closes[i] - closes[i - 1];
+    avgGain = (avgGain * (period - 1) + (d > 0 ? d : 0)) / period;
+    avgLoss = (avgLoss * (period - 1) + (d < 0 ? -d : 0)) / period;
+  }
+
+  if (avgLoss === 0) return 100;
+  return 100 - (100 / (1 + avgGain / avgLoss));
+}
+
+// ================= TRADE =================
+function openTrade(sym, price, type, rsi) {
+  trade = { sym, price, type };
+  log(`🟡 OPEN ${type} ${sym} @ ${price} RSI:${rsi}`);
+}
+
+function closeTrade(price, reason) {
+  if (!trade) return;
+
+  let diff = 0;
+
+  if (trade.type === "SHORT") {
+    diff = ((trade.price - price) / trade.price) * 100;
+  } else {
+    diff = ((price - trade.price) / trade.price) * 100;
+  }
+
+  stats.total++;
+
+  if (diff > 0) stats.wins++;
+  else stats.losses++;
+
+  log(`💰 CLOSE ${trade.sym} | ${reason} | ${diff.toFixed(2)}%`);
+
+  trade = null;
+}
+
+// ================= SCAN =================
+async function scan() {
+  if (running) return;
+  running = true;
+
+  log("🔎 SCANNING MARKET...");
+
+  try {
+    let res = await fetch("https://api.binance.com/api/v3/ticker/24hr");
+    let data = await res.json();
+
+    let symbols = data
+      .filter(t => t.symbol.endsWith("USDT"))
+      .sort((a, b) => b.quoteVolume - a.quoteVolume)
+      .slice(0, 100)
+      .map(t => t.symbol);
+
+    for (let sym of symbols) {
+      try {
+        let r = await fetch(
+          `https://api.binance.com/api/v3/klines?symbol=${sym}&interval=1m&limit=50`
+        );
+
+        let k = await r.json();
+
+        let closes = k.map(x => parseFloat(x[4]));
+
+        let price = closes[closes.length - 1];
+        let prev = closes[closes.length - 2];
+
+        let rsi = calcRSI(closes, 14);
+        if (!rsi) continue;
+
+        // ================= ENTRADAS =================
+
+        // 🔴 RSI 90 → SHORT
+        if (rsi >= 90 && prev > price && !trade) {
+          openTrade(sym, price, "SHORT", rsi);
+        }
+
+        // 🔵 RSI 20 → LONG
+        if (rsi <= 20 && prev < price && !trade) {
+          openTrade(sym, price, "LONG", rsi);
+        }
+
+        // ================= SALIDA SIMPLE =================
+        if (trade) {
+          let change = ((price - trade.price) / trade.price) * 100;
+
+          if (trade.type === "SHORT") {
+            if (change < -0.3) closeTrade(price, "TP");
+            if (change > 0.3) closeTrade(price, "SL");
+          }
+
+          if (trade.type === "LONG") {
+            if (change > 0.3) closeTrade(price, "TP");
+            if (change < -0.3) closeTrade(price, "SL");
+          }
+        }
+
+      } catch (e) {
+        // 🔥 nunca rompe el bot
+      }
+    }
+
+  } catch (e) {
+    log("API ERROR");
+  }
+
+  running = false;
+
+  setTimeout(scan, 3000);
+}
+
+// ================= START =================
+scan();
