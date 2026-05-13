@@ -111,6 +111,67 @@
       max-height:80px; overflow-y:auto; white-space:pre-wrap;
     }
 
+    /* BUSCADOR MANUAL */
+    .search-panel {
+      max-width:900px; margin:14px auto 6px;
+      background:rgba(0,10,20,0.85);
+      border:1px solid #00aaff33;
+      border-radius:12px; padding:14px 18px;
+    }
+    .search-title {
+      font-size:12px; font-weight:900; color:#00aaff;
+      letter-spacing:4px; text-transform:uppercase; margin-bottom:10px;
+    }
+    .search-row {
+      display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:10px;
+    }
+    .search-input {
+      background:#020215; color:#00aaff;
+      border:1px solid #00aaff44; border-radius:6px;
+      padding:7px 12px; font-size:13px; font-weight:900;
+      font-family:'Courier New',monospace; text-transform:uppercase;
+      width:160px; letter-spacing:2px;
+      outline:none;
+    }
+    .search-input:focus { border-color:#00aaff99; box-shadow:0 0 8px #00aaff33; }
+    .search-tf {
+      background:#020215; color:#00aaff;
+      border:1px solid #00aaff33; border-radius:6px;
+      padding:7px 10px; font-size:11px;
+      font-family:'Courier New',monospace;
+    }
+    .search-btn {
+      background:rgba(0,170,255,0.15); color:#00aaff;
+      border:1px solid #00aaff55; border-radius:6px;
+      padding:7px 18px; font-size:11px; font-weight:900;
+      font-family:'Courier New',monospace; text-transform:uppercase;
+      letter-spacing:2px; cursor:pointer; transition:all 0.2s;
+    }
+    .search-btn:hover { background:rgba(0,170,255,0.3); box-shadow:0 0 10px #00aaff44; }
+    .search-result {
+      background:rgba(0,20,40,0.7); border:1px solid #00aaff22;
+      border-radius:8px; padding:12px 16px;
+    }
+    .sr-header { display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-bottom:8px; }
+    .sr-sym { font-size:20px; font-weight:900; color:#fff; letter-spacing:2px; }
+    .sr-price { font-size:14px; color:#ccc; font-family:'Courier New',monospace; }
+    .sr-rsi {
+      font-size:28px; font-weight:900; font-family:'Courier New',monospace;
+      margin-left:auto;
+    }
+    .sr-rsi.high { color:#ff4444; text-shadow:0 0 12px #ff444466; }
+    .sr-rsi.low  { color:#00ff88; text-shadow:0 0 12px #00ff8866; }
+    .sr-rsi.mid  { color:#ffcc00; text-shadow:0 0 12px #ffcc0044; }
+    .sr-bars { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
+    .sr-bar-wrap { flex:1; min-width:120px; }
+    .sr-bar-lbl { font-size:9px; color:#aaa; text-transform:uppercase; letter-spacing:1px; margin-bottom:3px; }
+    .sr-bar-bg { height:6px; background:#00ffcc11; border-radius:3px; overflow:hidden; }
+    .sr-bar-fill { height:6px; border-radius:3px; transition:width 0.5s; }
+    .sr-info { font-size:10px; color:#00aaff99; text-transform:uppercase; letter-spacing:1px; }
+    .sr-spark { height:60px; margin-top:8px; }
+    .sr-spark canvas { width:100% !important; height:60px !important; display:block; }
+    .search-err { color:#ff444488; font-size:11px; text-transform:uppercase; letter-spacing:1px; padding:8px 0; }
+
     .sec-title {
       text-align:center; font-size:14px; font-weight:900;
       padding:10px 0 12px; letter-spacing:4px; text-transform:uppercase;
@@ -242,6 +303,46 @@
     <div class="pt-log" id="ptLog">// Esperando senal RSI extrema + primera vela roja para abrir SHORT...</div>
   </div>
 
+  <!-- BUSCADOR MANUAL DE TOKEN -->
+  <div class="search-panel">
+    <div class="search-title">&#9740; BUSCAR TOKEN MANUALMENTE</div>
+    <div class="search-row">
+      <input class="search-input" id="searchSym" type="text" placeholder="BTC" maxlength="12" />
+      <select class="search-tf" id="searchTf">
+        <option value="1h" selected>1H</option>
+        <option value="15m">15M</option>
+        <option value="4h">4H</option>
+        <option value="1d">1D</option>
+      </select>
+      <button class="search-btn" onclick="searchToken()">&#9654; BUSCAR</button>
+    </div>
+    <div id="searchResult" style="display:none" class="search-result">
+      <div class="sr-header">
+        <div class="sr-sym" id="srSym">--</div>
+        <div>
+          <div class="sr-price" id="srPrice">--</div>
+          <div class="sr-info" id="srInfo">--</div>
+        </div>
+        <div style="text-align:right; margin-left:auto;">
+          <div class="sr-rsi mid" id="srRsi">--</div>
+          <div style="font-size:9px;color:#aaa;letter-spacing:1px;">RSI 14</div>
+        </div>
+      </div>
+      <div class="sr-bars">
+        <div class="sr-bar-wrap">
+          <div class="sr-bar-lbl">RSI</div>
+          <div class="sr-bar-bg"><div class="sr-bar-fill" id="srRsiBar" style="width:0%;background:#ffcc00"></div></div>
+        </div>
+        <div class="sr-bar-wrap">
+          <div class="sr-bar-lbl">CAMBIO 24H</div>
+          <div class="sr-bar-bg"><div class="sr-bar-fill" id="srChgBar" style="width:50%;background:#00ff88"></div></div>
+        </div>
+      </div>
+      <div class="sr-spark"><canvas id="srCanvas"></canvas></div>
+    </div>
+    <div id="searchErr" style="display:none" class="search-err"></div>
+  </div>
+
   <div id="sellSection" style="display:none">
     <div class="sec-title sell"><span class="dot sell"></span>SOBRECOMPRADOS — POSIBLE VENTA / SHORT</div>
     <div class="cards" id="sellCards"></div>
@@ -255,65 +356,110 @@
   <div class="update" id="updateTxt"></div>
 </div>
 
-<!-- FONDO BLOCKCHAIN -->
+<!-- FONDO GALAXIA 3D -->
 <script>
 (function(){
   var cv = document.getElementById('canvas-bg');
   var cx = cv.getContext('2d');
-  var W, H, lines = [], nodes = [];
+  var W, H;
+  var NUM = 1600;
+  var stars = [];
+  var nebulae = [];
+  var angle = 0;
+  var COLORS = ['#ffffff','#aaddff','#ffddaa','#ffaaaa','#aaffdd','#ddaaff','#ffffff','#ffffff'];
+
   function build(){
-    lines.length = 0; nodes.length = 0;
-    var colors = ['#00ffcc','#00aaff','#0066ff','#003388','#00ff88','#004433','#006655','#002244'];
-    for(var i = 0; i < 8; i++){
-      var baseY = H*(0.05+i*0.12), pts = [], y = baseY;
-      for(var x = -20; x <= W+40; x += 3){
-        y += (Math.random()-0.49)*6;
-        y = Math.max(baseY-50, Math.min(baseY+50, y));
-        pts.push([x,y]);
-      }
-      lines.push({pts:pts, color:colors[i], alpha:0.05+Math.random()*0.06, speed:0.2+Math.random()*0.35, off:Math.random()*1000});
+    stars = []; nebulae = [];
+    for(var i = 0; i < NUM; i++){
+      var r = Math.pow(Math.random(), 0.5) * 520;
+      var arm = Math.floor(Math.random() * 3);
+      var armAngle = arm * (Math.PI * 2 / 3);
+      var spiral = r * 0.012;
+      var scatter = Math.random() * 0.5 - 0.25;
+      var theta = r > 80 ? armAngle + spiral + scatter : Math.random() * Math.PI * 2;
+      var phi = Math.acos(2 * Math.random() - 1);
+      stars.push({
+        x: r * Math.sin(phi) * Math.cos(theta),
+        y: r * Math.sin(phi) * Math.sin(theta) * 0.28,
+        z: r * Math.cos(phi) * 0.28,
+        size: Math.random() * 1.6 + 0.3,
+        color: COLORS[Math.floor(Math.random() * COLORS.length)],
+        twinkle: Math.random() * Math.PI * 2,
+        twinkleSpeed: 0.02 + Math.random() * 0.04,
+        brightness: 0.5 + Math.random() * 0.5
+      });
     }
-    for(var j = 0; j < 30; j++){
-      var nc = ['#00ffcc','#00aaff','#0088ff'];
-      nodes.push({x:Math.random()*W, y:Math.random()*H, vx:(Math.random()-.5)*.2, vy:(Math.random()-.5)*.2, r:Math.random()*2+1, c:nc[Math.floor(Math.random()*3)]});
+    for(var j = 0; j < 5; j++){
+      nebulae.push({
+        x: (Math.random() - 0.5) * 320,
+        y: (Math.random() - 0.5) * 70,
+        z: (Math.random() - 0.5) * 70,
+        r: 45 + Math.random() * 65,
+        color: ['rgba(0,60,140,','rgba(70,0,110,','rgba(0,90,70,'][Math.floor(Math.random() * 3)],
+        alpha: 0.025 + Math.random() * 0.03
+      });
     }
   }
-  function resize(){ W = cv.width = window.innerWidth; H = cv.height = window.innerHeight; build(); }
-  window.addEventListener('resize', resize); resize();
+
+  function resize(){
+    W = cv.width = window.innerWidth;
+    H = cv.height = window.innerHeight;
+    build();
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
   function draw(){
-    cx.clearRect(0,0,W,H);
-    [0.2,0.35,0.5,0.65,0.8].forEach(function(f){
-      cx.beginPath(); cx.setLineDash([4,9]);
-      cx.strokeStyle = 'rgba(0,255,204,0.03)'; cx.lineWidth = 0.7;
-      cx.moveTo(0,H*f); cx.lineTo(W,H*f); cx.stroke(); cx.setLineDash([]);
+    angle += 0.0005;
+    cx.fillStyle = 'rgba(3,3,12,0.25)';
+    cx.fillRect(0, 0, W, H);
+
+    var cosA = Math.cos(angle), sinA = Math.sin(angle);
+    var CX = W / 2, CY = H / 2, FL = 650;
+
+    nebulae.forEach(function(n){
+      var rx = n.x * cosA + n.z * sinA;
+      var ry = n.y;
+      var rz = -n.x * sinA + n.z * cosA;
+      if(rz < -FL * 0.8) return;
+      var scale = FL / (FL + rz + 300);
+      var sx = CX + rx * scale, sy = CY + ry * scale;
+      var g = cx.createRadialGradient(sx, sy, 0, sx, sy, n.r * scale * 2.2);
+      g.addColorStop(0, n.color + n.alpha + ')');
+      g.addColorStop(1, n.color + '0)');
+      cx.beginPath(); cx.arc(sx, sy, n.r * scale * 2.2, 0, Math.PI * 2);
+      cx.fillStyle = g; cx.fill();
     });
-    lines.forEach(function(l){
-      l.off += l.speed;
-      cx.beginPath(); cx.strokeStyle = l.color; cx.globalAlpha = l.alpha; cx.lineWidth = 1;
-      var first = true;
-      l.pts.forEach(function(pt){
-        var rx = ((pt[0]-l.off%(W+60))+W+60)%(W+60)-20;
-        if(first){ cx.moveTo(rx,pt[1]); first=false; } else cx.lineTo(rx,pt[1]);
-      });
-      cx.stroke(); cx.globalAlpha = 1;
-    });
-    nodes.forEach(function(n){
-      n.x+=n.vx; n.y+=n.vy;
-      if(n.x<0||n.x>W) n.vx*=-1;
-      if(n.y<0||n.y>H) n.vy*=-1;
-    });
-    for(var i=0;i<nodes.length;i++){
-      for(var j=i+1;j<nodes.length;j++){
-        var dx=nodes[i].x-nodes[j].x, dy=nodes[i].y-nodes[j].y, d=Math.sqrt(dx*dx+dy*dy);
-        if(d<140){
-          cx.beginPath();
-          cx.strokeStyle='rgba(0,200,150,'+(0.06*(1-d/140))+')';
-          cx.lineWidth=0.5; cx.moveTo(nodes[i].x,nodes[i].y); cx.lineTo(nodes[j].x,nodes[j].y); cx.stroke();
-        }
+
+    stars.forEach(function(s){
+      s.twinkle += s.twinkleSpeed;
+      var rx = s.x * cosA + s.z * sinA;
+      var ry = s.y;
+      var rz = -s.x * sinA + s.z * cosA;
+      if(rz < -FL * 0.9) return;
+      var scale = FL / (FL + rz + 300);
+      var sx = CX + rx * scale, sy = CY + ry * scale;
+      if(sx < -10 || sx > W + 10 || sy < -10 || sy > H + 10) return;
+      var tw = 0.75 + 0.25 * Math.sin(s.twinkle);
+      var sz = Math.max(0.3, s.size * scale * tw);
+      var alpha = Math.min(1, (0.3 + rz / 600) * s.brightness * tw);
+      if(alpha <= 0) return;
+      cx.beginPath(); cx.arc(sx, sy, sz, 0, Math.PI * 2);
+      cx.fillStyle = s.color; cx.globalAlpha = alpha; cx.fill();
+      if(sz > 1.0 && alpha > 0.55){
+        cx.beginPath(); cx.arc(sx, sy, sz * 2.8, 0, Math.PI * 2);
+        cx.fillStyle = s.color; cx.globalAlpha = alpha * 0.07; cx.fill();
       }
-      cx.beginPath(); cx.arc(nodes[i].x,nodes[i].y,nodes[i].r,0,Math.PI*2);
-      cx.fillStyle=nodes[i].c+'44'; cx.fill();
-    }
+      cx.globalAlpha = 1;
+    });
+
+    var cg = cx.createRadialGradient(CX, CY, 0, CX, CY, 55);
+    cg.addColorStop(0, 'rgba(180,210,255,0.22)');
+    cg.addColorStop(0.4, 'rgba(120,160,255,0.07)');
+    cg.addColorStop(1, 'rgba(0,0,0,0)');
+    cx.beginPath(); cx.arc(CX, CY, 55, 0, Math.PI * 2);
+    cx.fillStyle = cg; cx.fill();
+
     requestAnimationFrame(draw);
   }
   draw();
@@ -650,6 +796,131 @@ async function scan(){
   running=false;
   startCD(CD);
 }
+
+// ============================================================
+// BUSCADOR MANUAL DE TOKEN
+// ============================================================
+function drawSearchSparkline(cvs, rsiVals){
+  var W = cvs.offsetWidth || 860, H = 60;
+  cvs.width = W; cvs.height = H;
+  var ctx = cvs.getContext('2d');
+  ctx.clearRect(0,0,W,H);
+  if(!rsiVals || rsiVals.length < 2) return;
+  var toY = function(v){ return H-(v/100)*H; };
+  var step = W/(rsiVals.length-1);
+
+  // zonas
+  ctx.fillStyle='rgba(255,68,68,0.07)';   ctx.fillRect(0,0,W,toY(70));
+  ctx.fillStyle='rgba(0,255,136,0.07)';   ctx.fillRect(0,toY(30),W,H-toY(30));
+
+  // lineas nivel
+  [[90,'90',  'rgba(255,68,68,0.5)'],[70,'70','rgba(255,255,255,0.15)'],
+   [50,'50','rgba(255,255,255,0.1)'],[30,'30','rgba(255,255,255,0.15)'],
+   [10,'10','rgba(0,255,136,0.5)']].forEach(function(t){
+    var y=toY(t[0]);
+    ctx.beginPath(); ctx.setLineDash([3,7]);
+    ctx.strokeStyle=t[2]; ctx.lineWidth=0.8;
+    ctx.moveTo(0,y); ctx.lineTo(W,y); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle='rgba(255,255,255,0.3)';
+    ctx.font='9px Courier New'; ctx.fillText(t[1],4,y-3);
+  });
+
+  // gradiente por valor RSI
+  var lastRsi = rsiVals[rsiVals.length-1];
+  var color = lastRsi >= 70 ? '#ff4444' : (lastRsi <= 30 ? '#00ff88' : '#00aaff');
+
+  // area
+  ctx.beginPath(); ctx.moveTo(0,H);
+  rsiVals.forEach(function(v,i){ ctx.lineTo(i*step,toY(v)); });
+  ctx.lineTo((rsiVals.length-1)*step,H); ctx.closePath();
+  ctx.fillStyle = color+'20'; ctx.fill();
+
+  // linea
+  ctx.beginPath(); ctx.strokeStyle=color; ctx.lineWidth=2;
+  ctx.shadowColor=color; ctx.shadowBlur=6;
+  rsiVals.forEach(function(v,i){ if(i===0) ctx.moveTo(0,toY(v)); else ctx.lineTo(i*step,toY(v)); });
+  ctx.stroke(); ctx.shadowBlur=0;
+
+  // punto final
+  var last=rsiVals[rsiVals.length-1];
+  ctx.beginPath(); ctx.arc((rsiVals.length-1)*step,toY(last),4,0,Math.PI*2);
+  ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=8; ctx.fill(); ctx.shadowBlur=0;
+}
+
+async function searchToken(){
+  var raw = document.getElementById('searchSym').value.trim().toUpperCase();
+  var tf  = document.getElementById('searchTf').value;
+  if(!raw){ return; }
+  var sym = raw.endsWith('USDT') ? raw : raw+'USDT';
+
+  document.getElementById('searchResult').style.display = 'none';
+  document.getElementById('searchErr').style.display    = 'none';
+  document.getElementById('searchErr').textContent      = '';
+
+  try {
+    // Datos de klines (RSI)
+    var url   = 'https://api.binance.com/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70';
+    var r     = await fetch(url, {signal:AbortSignal.timeout(6000)});
+    if(!r.ok) throw new Error('Par no encontrado: '+sym);
+    var kdata  = await r.json();
+    var closes = kdata.map(function(c){ return parseFloat(c[4]); });
+    var rsi    = calcRSI(closes,14);
+    if(rsi===null) throw new Error('No hay suficientes datos');
+    var rsiVals = calcRSIArray(closes,14);
+    var price   = closes[closes.length-1];
+
+    // Datos 24h (cambio %)
+    var r2   = await fetch('https://api.binance.com/api/v3/ticker/24hr?symbol='+sym, {signal:AbortSignal.timeout(5000)});
+    var d24  = await r2.json();
+    var chgPct = parseFloat(d24.priceChangePercent);
+    var vol24  = parseFloat(d24.quoteVolume);
+
+    // Mostrar resultado
+    var priceStr = price >= 1
+      ? price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4})
+      : price.toFixed(6);
+
+    document.getElementById('srSym').textContent   = sym.replace('USDT','') + ' / USDT';
+    document.getElementById('srPrice').textContent = '$'+priceStr + '  |  ' + (chgPct>=0?'+':'') + chgPct.toFixed(2)+'% 24H';
+    document.getElementById('srPrice').style.color = chgPct >= 0 ? '#00ff88' : '#ff4444';
+
+    var volStr = vol24 >= 1e9
+      ? '$'+(vol24/1e9).toFixed(2)+'B'
+      : '$'+(vol24/1e6).toFixed(1)+'M';
+    var tfLabel = {'15m':'15 MIN','1h':'1 HORA','4h':'4 HORAS','1d':'1 DIA'}[tf];
+    document.getElementById('srInfo').textContent  = 'VOL 24H: '+volStr+'  |  TF: '+tfLabel;
+
+    var rsiEl = document.getElementById('srRsi');
+    rsiEl.textContent = rsi.toFixed(1);
+    rsiEl.className   = 'sr-rsi ' + (rsi>=70?'high':(rsi<=30?'low':'mid'));
+
+    // Barra RSI
+    document.getElementById('srRsiBar').style.width      = rsi.toFixed(0)+'%';
+    document.getElementById('srRsiBar').style.background = rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
+
+    // Barra cambio 24h (centrada en 50%)
+    var chgBar = Math.min(100, Math.max(0, 50 + chgPct*2));
+    document.getElementById('srChgBar').style.width      = chgBar.toFixed(0)+'%';
+    document.getElementById('srChgBar').style.background = chgPct>=0?'#00ff88':'#ff4444';
+
+    document.getElementById('searchResult').style.display = 'block';
+
+    requestAnimationFrame(function(){
+      var cvs = document.getElementById('srCanvas');
+      drawSearchSparkline(cvs, rsiVals);
+    });
+
+  } catch(e){
+    document.getElementById('searchErr').style.display  = 'block';
+    document.getElementById('searchErr').textContent    = 'ERROR: ' + e.message + '. Verifica el nombre del par.';
+  }
+}
+
+// Enter en el input tambien lanza busqueda
+document.addEventListener('DOMContentLoaded', function(){
+  var inp = document.getElementById('searchSym');
+  if(inp) inp.addEventListener('keydown', function(e){ if(e.key==='Enter') searchToken(); });
+});
 
 window.onload = function(){ scan(); };
 </script>
