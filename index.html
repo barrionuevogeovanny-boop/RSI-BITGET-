@@ -716,7 +716,7 @@ async function scan(){
 
   var symbols=[];
   try {
-    var res  = await fetch('https://api.binance.com/api/v3/ticker/24hr');
+    var res  = await fetch('https://api.binance.com/api/v3/ticker/24hr', {mode:'cors'});
     var data = await res.json();
     symbols  = data
       .filter(function(t){ return t.symbol.endsWith('USDT') && parseFloat(t.quoteVolume)>volMin; })
@@ -735,7 +735,7 @@ async function scan(){
     await Promise.all(batch.map(async function(sym){
       try {
         var url  = 'https://api.binance.com/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70';
-        var r    = await fetch(url,{signal:AbortSignal.timeout(5000)});
+        var r    = await fetch(url, {mode:'cors'});
         if(!r.ok) throw new Error('http');
         var kdata  = await r.json();
         var closes = kdata.map(function(c){ return parseFloat(c[4]); });
@@ -860,7 +860,7 @@ async function searchToken(){
   try {
     // Datos de klines (RSI)
     var url   = 'https://api.binance.com/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70';
-    var r     = await fetch(url, {signal:AbortSignal.timeout(6000)});
+    var r     = await fetch(url, {mode:'cors'});
     if(!r.ok) throw new Error('Par no encontrado: '+sym);
     var kdata  = await r.json();
     var closes = kdata.map(function(c){ return parseFloat(c[4]); });
@@ -870,7 +870,7 @@ async function searchToken(){
     var price   = closes[closes.length-1];
 
     // Datos 24h (cambio %)
-    var r2   = await fetch('https://api.binance.com/api/v3/ticker/24hr?symbol='+sym, {signal:AbortSignal.timeout(5000)});
+    var r2   = await fetch('https://api.binance.com/api/v3/ticker/24hr?symbol='+sym, {mode:'cors'});
     var d24  = await r2.json();
     var chgPct = parseFloat(d24.priceChangePercent);
     var vol24  = parseFloat(d24.quoteVolume);
