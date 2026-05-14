@@ -268,6 +268,12 @@
     </select>
   </div>
 
+  <!-- BOTON SONIDO -->
+  <div style="text-align:center;margin-bottom:8px;">
+    <button id="btnSound" onclick="toggleSound()" style="background:rgba(0,255,204,0.1);color:#00ffcc;border:1px solid #00ffcc44;border-radius:99px;padding:5px 18px;font-size:11px;font-family:Courier New,monospace;font-weight:900;letter-spacing:2px;text-transform:uppercase;cursor:pointer;">SONIDO ON</button>
+    <span style="font-size:10px;color:#00ffcc44;margin-left:10px;letter-spacing:1px;text-transform:uppercase;">activa notificaciones al primer click</span>
+  </div>
+
   <div class="cd-wrap">
     <span class="cd-label">PROXIMO ESCANEO EN:</span>
     <div class="cbar-bg"><div class="cbar-fill" id="cbarFill" style="width:100%"></div></div>
@@ -757,6 +763,8 @@ async function scan(){
           document.getElementById('nSell').textContent=sellSigs.length;
           document.getElementById('statsArea').style.display='flex';
           addLog('SELL '+sym+' RSI:'+rv);
+          playAlert('sell');
+          sendNotif('🔥 RSI EXTREMO VENTA', sym+' — RSI: '+rv+' | $'+price.toFixed(4));
 
           // PAPER TRADING: entrar SHORT si hay primera vela roja y no hay trade abierto
           if(!ptTrade && firstRedCandle(closes)){
@@ -772,6 +780,8 @@ async function scan(){
           document.getElementById('nBuy').textContent=buySigs.length;
           document.getElementById('statsArea').style.display='flex';
           addLog('BUY  '+sym+' RSI:'+rv);
+          playAlert('buy');
+          sendNotif('💎 RSI EXTREMO COMPRA', sym+' — RSI: '+rv+' | $'+price.toFixed(4));
         }
 
       } catch(e){ errors++; }
@@ -847,72 +857,178 @@ function drawSearchSparkline(cvs, rsiVals){
   ctx.fillStyle=color; ctx.shadowColor=color; ctx.shadowBlur=8; ctx.fill(); ctx.shadowBlur=0;
 }
 
+// ============================================================
+// SONIDO DE ALERTA (Web Audio API - sin archivos externos)
+// ============================================================
+var audioCtx = null;
+var soundEnabled = true;
+
+function getAudioCtx(){
+  if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+  return audioCtx;
+}
+
+function toggleSound(){
+  soundEnabled = !soundEnabled;
+  var btn = document.getElementById("btnSound");
+  btn.textContent = soundEnabled ? "SONIDO ON" : "SONIDO OFF";
+  btn.style.color = soundEnabled ? "#00ffcc" : "#ff444488";
+  btn.style.borderColor = soundEnabled ? "#00ffcc44" : "#ff444433";
+  if(soundEnabled) getAudioCtx();
+}
+
+function playAlert(type){
+  if(!soundEnabled) return;
+  try {
+    var ctx = getAudioCtx();
+    // type: 'sell' = alarma aguda, 'buy' = alarma grave
+    var freqs = type === 'sell'
+      ? [880, 1100, 880, 1100]
+      : [440, 550, 440, 550];
+    var t = ctx.currentTime;
+    freqs.forEach(function(freq, i){
+      var osc  = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0, t + i*0.18);
+      gain.gain.linearRampToValueAtTime(0.3, t + i*0.18 + 0.05);
+      gain.gain.linearRampToValueAtTime(0, t + i*0.18 + 0.15);
+      osc.start(t + i*0.18);
+      osc.stop(t + i*0.18 + 0.18);
+    });
+  } catch(e){}
+}
+
+// Notificacion del browser cuando esta en otra pestana
+function requestNotifPermission(){
+  if('Notification' in window && Notification.permission === 'default'){
+    Notification.requestPermission();
+  }
+}
+
+function sendNotif(title, body){
+  if('Notification' in window && Notification.permission === 'granted'){
+    new Notification(title, {body: body, icon: ''});
+  }
+}
+
+// Activar audio al primer click (requerido por browsers)
+document.addEventListener('click', function(){
+  if(!audioCtx) getAudioCtx();
+}, {once: true});
+
+// ============================================================
+// BUSCADOR UNIVERSAL — COINGECKO
+// ============================================================
+var cgCache = null; // cache de lista de coins
+
+async function getCGList(){
+  if(cgCache) return cgCache;
+  var r = await fetch('https://api.coingecko.com/api/v3/coins/list', {mode:'cors'});
+  if(!r.ok) throw new Error('No se pudo obtener lista de CoinGecko');
+  cgCache = await r.json();
+  return cgCache;
+}
+
 async function searchToken(){
-  var raw = document.getElementById('searchSym').value.trim().toUpperCase();
-  var tf  = document.getElementById('searchTf').value;
+  var raw = document.getElementById('searchSym').value.trim().toLowerCase();
   if(!raw){ return; }
-  var sym = raw.endsWith('USDT') ? raw : raw+'USDT';
 
   document.getElementById('searchResult').style.display = 'none';
   document.getElementById('searchErr').style.display    = 'none';
   document.getElementById('searchErr').textContent      = '';
+  document.getElementById('searchErr').style.display    = 'block';
+  document.getElementById('searchErr').textContent      = 'BUSCANDO EN COINGECKO...';
+  document.getElementById('searchErr').style.color      = '#00aaff88';
 
   try {
-    // Datos de klines (RSI)
-    var url   = 'https://data-api.binance.vision/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70';
-    var r     = await fetch(url, {mode:'cors'});
-    if(!r.ok) throw new Error('Par no encontrado: '+sym);
-    var kdata  = await r.json();
-    var closes = kdata.map(function(c){ return parseFloat(c[4]); });
-    var rsi    = calcRSI(closes,14);
-    if(rsi===null) throw new Error('No hay suficientes datos');
-    var rsiVals = calcRSIArray(closes,14);
-    var price   = closes[closes.length-1];
+    // Buscar ID en CoinGecko por symbol o nombre
+    var list = await getCGList();
+    var match = list.find(function(c){
+      return c.symbol.toLowerCase() === raw || c.id.toLowerCase() === raw || c.name.toLowerCase() === raw;
+    });
+    if(!match) throw new Error('Token "' + raw.toUpperCase() + '" no encontrado en CoinGecko');
 
-    // Datos 24h (cambio %)
-    var r2   = await fetch('https://data-api.binance.vision/api/v3/ticker/24hr?symbol='+sym, {mode:'cors'});
-    var d24  = await r2.json();
-    var chgPct = parseFloat(d24.priceChangePercent);
-    var vol24  = parseFloat(d24.quoteVolume);
+    // Datos del coin
+    var r2 = await fetch(
+      'https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false',
+      {mode:'cors'}
+    );
+    if(!r2.ok) throw new Error('Error obteniendo datos de ' + match.id);
+    var coin = await r2.json();
+    var md   = coin.market_data;
 
-    // Mostrar resultado
+    var price   = md.current_price.usd || 0;
+    var chgPct  = md.price_change_percentage_24h || 0;
+    var vol24   = md.total_volume.usd || 0;
+    var mcap    = md.market_cap.usd || 0;
+    var high24  = md.high_24h.usd || 0;
+    var low24   = md.low_24h.usd || 0;
+    var rank    = coin.market_cap_rank || '?';
+
+    // Sparkline de 7 dias (precios) — calcular RSI con ellos
+    var spark7  = md.sparkline_7d ? md.sparkline_7d.price : [];
+    var rsi = null, rsiVals = [];
+    if(spark7.length >= 16){
+      rsi     = calcRSI(spark7, 14);
+      rsiVals = calcRSIArray(spark7, 14);
+    }
+
+    // Formato precio
     var priceStr = price >= 1
       ? price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4})
-      : price.toFixed(6);
+      : price < 0.0001 ? price.toExponential(4) : price.toFixed(6);
 
-    document.getElementById('srSym').textContent   = sym.replace('USDT','') + ' / USDT';
-    document.getElementById('srPrice').textContent = '$'+priceStr + '  |  ' + (chgPct>=0?'+':'') + chgPct.toFixed(2)+'% 24H';
+    var volStr  = vol24  >= 1e9 ? '$'+(vol24/1e9).toFixed(2)+'B'  : '$'+(vol24/1e6).toFixed(1)+'M';
+    var mcapStr = mcap   >= 1e9 ? '$'+(mcap/1e9).toFixed(2)+'B'   : '$'+(mcap/1e6).toFixed(1)+'M';
+
+    document.getElementById('srSym').textContent   = coin.symbol.toUpperCase() + ' / USD';
+    document.getElementById('srPrice').textContent =
+      '$'+priceStr + '  |  ' + (chgPct>=0?'+':'') + chgPct.toFixed(2)+'% 24H' +
+      '  |  H: $'+high24.toFixed(high24>=1?4:6) + '  L: $'+low24.toFixed(low24>=1?4:6);
     document.getElementById('srPrice').style.color = chgPct >= 0 ? '#00ff88' : '#ff4444';
+    document.getElementById('srInfo').textContent  =
+      'VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  '+coin.name.toUpperCase();
 
-    var volStr = vol24 >= 1e9
-      ? '$'+(vol24/1e9).toFixed(2)+'B'
-      : '$'+(vol24/1e6).toFixed(1)+'M';
-    var tfLabel = {'15m':'15 MIN','1h':'1 HORA','4h':'4 HORAS','1d':'1 DIA'}[tf];
-    document.getElementById('srInfo').textContent  = 'VOL 24H: '+volStr+'  |  TF: '+tfLabel;
-
+    // RSI (calculado con sparkline 7d)
     var rsiEl = document.getElementById('srRsi');
-    rsiEl.textContent = rsi.toFixed(1);
-    rsiEl.className   = 'sr-rsi ' + (rsi>=70?'high':(rsi<=30?'low':'mid'));
+    if(rsi !== null){
+      rsiEl.textContent = rsi.toFixed(1);
+      rsiEl.className   = 'sr-rsi ' + (rsi>=70?'high':(rsi<=30?'low':'mid'));
+      document.getElementById('srRsiBar').style.width      = rsi.toFixed(0)+'%';
+      document.getElementById('srRsiBar').style.background = rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
+    } else {
+      rsiEl.textContent  = '--';
+      rsiEl.className    = 'sr-rsi mid';
+      document.getElementById('srRsiBar').style.width = '0%';
+    }
 
-    // Barra RSI
-    document.getElementById('srRsiBar').style.width      = rsi.toFixed(0)+'%';
-    document.getElementById('srRsiBar').style.background = rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
-
-    // Barra cambio 24h (centrada en 50%)
+    // Barra cambio 24h
     var chgBar = Math.min(100, Math.max(0, 50 + chgPct*2));
     document.getElementById('srChgBar').style.width      = chgBar.toFixed(0)+'%';
     document.getElementById('srChgBar').style.background = chgPct>=0?'#00ff88':'#ff4444';
 
+    document.getElementById('searchErr').style.display = 'none';
     document.getElementById('searchResult').style.display = 'block';
 
     requestAnimationFrame(function(){
       var cvs = document.getElementById('srCanvas');
-      drawSearchSparkline(cvs, rsiVals);
+      // usar sparkline de precios para graficar RSI
+      if(rsiVals.length > 0) drawSearchSparkline(cvs, rsiVals);
+      else {
+        // si no hay suficientes datos, graficar precio normalizado
+        var mn = Math.min.apply(null, spark7), mx2 = Math.max.apply(null, spark7);
+        var norm = spark7.map(function(v){ return mx2===mn?50:(v-mn)/(mx2-mn)*100; });
+        drawSearchSparkline(cvs, norm);
+      }
     });
 
   } catch(e){
-    document.getElementById('searchErr').style.display  = 'block';
-    document.getElementById('searchErr').textContent    = 'ERROR: ' + e.message + '. Verifica el nombre del par.';
+    document.getElementById('searchErr').style.color   = '#ff444488';
+    document.getElementById('searchErr').textContent   = 'ERROR: ' + e.message;
   }
 }
 
@@ -922,7 +1038,10 @@ document.addEventListener('DOMContentLoaded', function(){
   if(inp) inp.addEventListener('keydown', function(e){ if(e.key==='Enter') searchToken(); });
 });
 
-window.onload = function(){ scan(); };
+window.onload = function(){
+  requestNotifPermission();
+  scan();
+};
 </script>
 </body>
 </html>
