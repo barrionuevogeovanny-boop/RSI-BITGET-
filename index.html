@@ -171,6 +171,28 @@
     .sr-spark { height:60px; margin-top:8px; }
     .sr-spark canvas { width:100% !important; height:60px !important; display:block; }
     .search-err { color:#ff444488; font-size:11px; text-transform:uppercase; letter-spacing:1px; padding:8px 0; }
+    .watch-btn {
+      background:rgba(255,100,0,0.15); color:#ff6600;
+      border:1px solid #ff660055; border-radius:6px;
+      padding:7px 18px; font-size:11px; font-weight:900;
+      font-family:'Courier New',monospace; text-transform:uppercase;
+      letter-spacing:2px; cursor:pointer; transition:all 0.2s;
+    }
+    .watch-btn:hover { background:rgba(255,100,0,0.3); box-shadow:0 0 10px #ff660044; }
+    .watch-btn.active { background:rgba(255,100,0,0.35); color:#ffaa00; border-color:#ffaa0099; box-shadow:0 0 12px #ff660066; animation:watchPulse 1.5s infinite; }
+    @keyframes watchPulse { 0%,100%{box-shadow:0 0 8px #ff660066} 50%{box-shadow:0 0 18px #ff6600cc} }
+    .watch-status {
+      font-size:10px; color:#ff660088; text-transform:uppercase; letter-spacing:2px;
+      margin-top:6px; text-align:center; min-height:14px;
+    }
+    .watch-status.active { color:#ffaa00; }
+    .watch-alert {
+      background:rgba(255,100,0,0.2); border:1px solid #ff660088;
+      border-radius:8px; padding:10px 14px; margin-top:8px;
+      font-size:13px; font-weight:900; color:#ffaa00;
+      text-align:center; letter-spacing:2px; text-transform:uppercase;
+      display:none; animation:watchPulse 0.8s infinite;
+    }
 
     .sec-title {
       text-align:center; font-size:14px; font-weight:900;
@@ -321,6 +343,7 @@
         <option value="1d">1D</option>
       </select>
       <button class="search-btn" onclick="searchToken()">&#9654; BUSCAR</button>
+      <button class="watch-btn" id="watchBtn" onclick="toggleWatch()" style="display:none;">&#128065; WATCH</button>
     </div>
     <div id="searchResult" style="display:none" class="search-result">
       <div class="sr-header">
@@ -347,6 +370,8 @@
       <div class="sr-spark"><canvas id="srCanvas"></canvas></div>
     </div>
     <div id="searchErr" style="display:none" class="search-err"></div>
+    <div class="watch-status" id="watchStatus"></div>
+    <div class="watch-alert" id="watchAlert">&#128680; RSI 85 ALCANZADO!</div>
   </div>
 
   <div id="sellSection" style="display:none">
@@ -933,6 +958,143 @@ async function getCGList(){
   return cgCache;
 }
 
+// ============================================================
+// WATCH — MONITOREO CONTINUO DEL TOKEN ELEGIDO
+// ============================================================
+var watchTimer   = null;
+var watchActive  = false;
+var watchCoinId  = null;
+var watchSym     = null;
+var watchAlerted = false;  // evita pitidos repetidos hasta que RSI baje de 80
+
+function playAlertStrong(){
+  // Pitido fuerte y largo para RSI 85
+  if(!soundEnabled) return;
+  try {
+    var ctx = getAudioCtx();
+    var t = ctx.currentTime;
+    // 3 pitidos fuertes ascendentes
+    [[660,0],[880,0.3],[1100,0.6]].forEach(function(pair){
+      var osc  = ctx.createOscillator();
+      var gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'square';
+      osc.frequency.value = pair[0];
+      gain.gain.setValueAtTime(0, t+pair[1]);
+      gain.gain.linearRampToValueAtTime(0.6, t+pair[1]+0.05);
+      gain.gain.linearRampToValueAtTime(0, t+pair[1]+0.25);
+      osc.start(t+pair[1]); osc.stop(t+pair[1]+0.3);
+    });
+  } catch(e){}
+}
+
+function toggleWatch(){
+  if(watchActive){
+    stopWatch();
+  } else {
+    startWatch();
+  }
+}
+
+function startWatch(){
+  if(!watchCoinId){ return; }
+  watchActive  = true;
+  watchAlerted = false;
+  var btn = document.getElementById('watchBtn');
+  btn.textContent = '⏹ STOP WATCH';
+  btn.classList.add('active');
+  document.getElementById('watchStatus').textContent = 'MONITOREANDO ' + (watchSym||'').toUpperCase() + ' — ALERTA EN RSI 85';
+  document.getElementById('watchStatus').className   = 'watch-status active';
+  document.getElementById('watchAlert').style.display = 'none';
+  runWatch();
+}
+
+function stopWatch(){
+  watchActive = false;
+  if(watchTimer) clearTimeout(watchTimer);
+  var btn = document.getElementById('watchBtn');
+  btn.textContent = '👁 WATCH';
+  btn.classList.remove('active');
+  document.getElementById('watchStatus').textContent = 'WATCH DETENIDO';
+  document.getElementById('watchStatus').className   = 'watch-status';
+  document.getElementById('watchAlert').style.display = 'none';
+}
+
+async function runWatch(){
+  if(!watchActive || !watchCoinId) return;
+  try {
+    var r = await fetch(
+      'https://api.coingecko.com/api/v3/coins/'+watchCoinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',
+      {mode:'cors'}
+    );
+    if(!r.ok) throw new Error('fetch');
+    var coin   = await r.json();
+    var spark  = coin.market_data.sparkline_7d ? coin.market_data.sparkline_7d.price : [];
+    var rsi    = spark.length >= 16 ? calcRSI(spark, 14) : null;
+    var price  = coin.market_data.current_price.usd || 0;
+    var chgPct = coin.market_data.price_change_percentage_24h || 0;
+
+    if(rsi !== null){
+      // Actualizar display
+      var rsiEl = document.getElementById('srRsi');
+      rsiEl.textContent = rsi.toFixed(1);
+      rsiEl.className   = 'sr-rsi ' + (rsi>=70?'high':(rsi<=30?'low':'mid'));
+      document.getElementById('srRsiBar').style.width      = rsi.toFixed(0)+'%';
+      document.getElementById('srRsiBar').style.background = rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
+
+      var priceStr = price >= 1
+        ? price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4})
+        : price < 0.0001 ? price.toExponential(4) : price.toFixed(6);
+      document.getElementById('srPrice').textContent =
+        '$'+priceStr + '  |  ' + (chgPct>=0?'+':'') + chgPct.toFixed(2)+'% 24H';
+      document.getElementById('srPrice').style.color = chgPct >= 0 ? '#00ff88' : '#ff4444';
+
+      var now = new Date().toLocaleTimeString('es-ES');
+      document.getElementById('watchStatus').textContent =
+        'MONITOREANDO '+watchSym.toUpperCase()+' · RSI: '+rsi.toFixed(1)+' · ULT: '+now;
+
+      // Actualizar sparkline
+      var rsiVals = calcRSIArray(spark, 14);
+      requestAnimationFrame(function(){
+        var cvs = document.getElementById('srCanvas');
+        if(rsiVals.length>0) drawSearchSparkline(cvs, rsiVals);
+      });
+
+      // ALERTA RSI 85
+      if(rsi >= 85 && !watchAlerted){
+        watchAlerted = true;
+        playAlertStrong();
+        playAlertStrong();  // doble pitido fuerte
+        sendNotif('🚨 RSI 85 ALCANZADO — '+watchSym.toUpperCase(), 'RSI: '+rsi.toFixed(1)+' | $'+priceStr);
+        document.getElementById('watchAlert').textContent = '🚨 RSI '+rsi.toFixed(1)+' ALCANZADO! — '+watchSym.toUpperCase()+' @ $'+priceStr;
+        document.getElementById('watchAlert').style.display = 'block';
+      }
+      // Reset alerta cuando RSI baja de 80
+      if(rsi < 80 && watchAlerted){
+        watchAlerted = false;
+        document.getElementById('watchAlert').style.display = 'none';
+      }
+    }
+  } catch(e){}
+
+  if(watchActive){
+    watchTimer = setTimeout(runWatch, 45000); // cada 45 seg (limite CoinGecko)
+    var sec = 45;
+    var tick = setInterval(function(){
+      sec--;
+      if(!watchActive){ clearInterval(tick); return; }
+      var st = document.getElementById('watchStatus');
+      if(st && watchActive){
+        var parts = st.textContent.split('·');
+        if(parts.length >= 2){
+          st.textContent = parts[0].trim() + ' · RSI: ' + (document.getElementById('srRsi').textContent) + ' · PRÓX: '+sec+'s';
+        }
+      }
+      if(sec<=0) clearInterval(tick);
+    },1000);
+  }
+}
+
 async function searchToken(){
   var raw = document.getElementById('searchSym').value.trim().toLowerCase();
   if(!raw){ return; }
@@ -1013,6 +1175,18 @@ async function searchToken(){
 
     document.getElementById('searchErr').style.display = 'none';
     document.getElementById('searchResult').style.display = 'block';
+
+    // Activar boton WATCH con este token
+    watchCoinId  = match.id;
+    watchSym     = coin.symbol;
+    if(watchActive) stopWatch();  // detener watch anterior si habia
+    var wBtn = document.getElementById('watchBtn');
+    wBtn.style.display = 'inline-flex';
+    wBtn.textContent   = '\u{1F441} WATCH';
+    wBtn.classList.remove('active');
+    document.getElementById('watchStatus').textContent = 'Presiona WATCH para monitorear RSI en tiempo real';
+    document.getElementById('watchStatus').className   = 'watch-status';
+    document.getElementById('watchAlert').style.display = 'none';
 
     requestAnimationFrame(function(){
       var cvs = document.getElementById('srCanvas');
