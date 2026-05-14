@@ -954,7 +954,7 @@ async function searchToken(){
 
     // Datos del coin
     var r2 = await fetch(
-      'https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false',
+      'https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',
       {mode:'cors'}
     );
     if(!r2.ok) throw new Error('Error obteniendo datos de ' + match.id);
@@ -991,7 +991,7 @@ async function searchToken(){
       '  |  H: $'+high24.toFixed(high24>=1?4:6) + '  L: $'+low24.toFixed(low24>=1?4:6);
     document.getElementById('srPrice').style.color = chgPct >= 0 ? '#00ff88' : '#ff4444';
     document.getElementById('srInfo').textContent  =
-      'VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  '+coin.name.toUpperCase();
+      'VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  '+coin.name.toUpperCase()+'  |  RSI: 1H 7 dias';
 
     // RSI (calculado con sparkline 7d)
     var rsiEl = document.getElementById('srRsi');
