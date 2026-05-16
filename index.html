@@ -68,7 +68,7 @@
     /* CONTROLES */
     .ctrl {
       background: rgba(0,20,20,0.75);
-      border: 1px solid #00ffcc1a;
+      border: 1px solid #00aaff22;
       border-radius: 12px; padding: 12px 14px;
       margin-bottom: 10px;
       backdrop-filter: blur(10px);
@@ -80,16 +80,22 @@
     }
     .ctrl-item { display: flex; flex-direction: column; gap: 4px; }
     .ctrl-item label {
-      color: #00ffcc; font-size: 9px; font-weight: 900;
+      color: #00aaff; font-size: 9px; font-weight: 900;
       text-transform: uppercase; letter-spacing: 1px;
     }
+    .ctrl-item.lbl-green label { color: #00ffcc; }
+    .ctrl-item.lbl-yellow label { color: #ffcc00; }
+    .ctrl-item.lbl-red label { color: #ff6644; }
     .ctrl-item select {
-      background: #020215; color: #00ffcc;
-      border: 1px solid #00ffcc33; border-radius: 6px;
+      background: #020215; color: #00aaff;
+      border: 1px solid #00aaff44; border-radius: 6px;
       padding: 5px 6px; font-size: 11px;
       font-family: 'Courier New', monospace;
       width: 100%;
     }
+    .ctrl-item.lbl-green select { color: #00ffcc; border-color: #00ffcc33; }
+    .ctrl-item.lbl-yellow select { color: #ffcc00; border-color: #ffcc0033; }
+    .ctrl-item.lbl-red select { color: #ff6644; border-color: #ff664433; }
 
     /* SOUND BTN */
     .top-bar {
@@ -98,19 +104,19 @@
       margin-bottom: 8px; gap: 8px;
     }
     .sound-btn {
-      background: rgba(0,255,204,0.08); color: #00ffcc88;
-      border: 1px solid #00ffcc22; border-radius: 99px;
+      background: rgba(0,170,255,0.08); color: #00aaff88;
+      border: 1px solid #00aaff22; border-radius: 99px;
       padding: 5px 14px; font-size: 9px; font-weight: 900;
       font-family: 'Courier New', monospace;
       text-transform: uppercase; letter-spacing: 1px;
       cursor: pointer; white-space: nowrap;
     }
-    .sound-btn.on { color: #00ffcc; border-color: #00ffcc55; background: rgba(0,255,204,0.12); }
+    .sound-btn.on { color: #00ffcc; border-color: #00ffcc55; background: rgba(0,255,204,0.10); }
 
     /* COUNTDOWN */
     .cd-wrap {
       flex: 1;
-      background: rgba(0,255,204,0.06);
+      background: rgba(0,255,180,0.05);
       border: 1px solid #00ffcc33;
       border-radius: 99px; padding: 5px 14px;
       display: flex; align-items: center; gap: 8px;
@@ -118,25 +124,25 @@
     .cd-label { font-size: 9px; color: #00ffcc88; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; }
     .cbar-bg { flex:1; height:3px; background:#00ffcc15; border-radius:2px; overflow:hidden; }
     .cbar-fill { height:3px; border-radius:2px; transition:width 1s linear; background:#00ffcc; box-shadow:0 0 4px #00ffcc; }
-    .cd-num { font-size: 13px; font-weight: 900; color: #fff; min-width: 30px; text-align:right; }
+    .cd-num { font-size: 13px; font-weight: 900; color: #ffcc00; min-width: 30px; text-align:right; }
 
     /* PROGRESS */
     .prog { margin: 6px 0; }
     .prog-bar-bg { height: 3px; background:#00ffcc15; border-radius:2px; overflow:hidden; }
-    .prog-bar-fill { height:3px; background:#00ffcc; border-radius:2px; transition:width 0.2s; box-shadow:0 0 4px #00ffcc; }
-    .prog-txt { font-size: 9px; color:#00ffcc; text-align:center; margin-bottom: 4px; font-weight:900; text-transform:uppercase; letter-spacing:1px; }
-    .pdot { display:inline-block; width:5px; height:5px; background:#00ffcc; border-radius:50%; margin-right:4px; animation:blink 1s infinite; }
+    .prog-bar-fill { height:3px; background: linear-gradient(90deg,#00ffcc,#00aaff); border-radius:2px; transition:width 0.2s; box-shadow:0 0 4px #00aaff; }
+    .prog-txt { font-size: 9px; color:#ffcc00; text-align:center; margin-bottom: 4px; font-weight:900; text-transform:uppercase; letter-spacing:1px; }
+    .pdot { display:inline-block; width:5px; height:5px; background:#ffcc00; border-radius:50%; margin-right:4px; animation:blink 1s infinite; }
 
     /* STATS */
     .stats { display:flex; gap:8px; margin: 8px 0; }
     .stat {
       flex:1; background:rgba(0,20,20,0.7);
-      border:1px solid #00ffcc1a; border-radius:10px;
+      border:1px solid #00aaff22; border-radius:10px;
       padding:8px 6px; text-align:center;
     }
     .stat .n { font-size:22px; font-weight:900; }
     .stat .l { font-size:8px; color:#aaa; text-transform:uppercase; letter-spacing:1px; margin-top:1px; }
-    .stat.blue .n { color:#00ffcc; }
+    .stat.blue .n { color:#00aaff; }
     .stat.red .n  { color:#ff4444; }
     .stat.green .n{ color:#00ff88; }
 
@@ -176,8 +182,8 @@
     .spark-row canvas { width:100%!important; height:38px!important; display:block; }
 
     /* EMPTY / LOG */
-    .empty { text-align:center; padding:18px; color:#00ffcc44; font-size:11px; font-weight:900; border:1px solid #00ffcc1a; border-radius:8px; text-transform:uppercase; letter-spacing:2px; background:rgba(0,20,20,0.5); margin-bottom:10px; }
-    .logbox { background:rgba(0,10,10,0.85); border:1px solid #00ffcc1a; border-radius:7px; padding:7px 10px; font-size:9px; color:#00ffcc66; max-height:45px; overflow-y:auto; white-space:pre-wrap; margin: 4px 0; }
+    .empty { text-align:center; padding:18px; color:#00aaff44; font-size:11px; font-weight:900; border:1px solid #00aaff22; border-radius:8px; text-transform:uppercase; letter-spacing:2px; background:rgba(0,20,20,0.5); margin-bottom:10px; }
+    .logbox { background:rgba(0,10,10,0.85); border:1px solid #00ffcc11; border-radius:7px; padding:7px 10px; font-size:9px; color:#00ffcc55; max-height:45px; overflow-y:auto; white-space:pre-wrap; margin: 4px 0; }
     .update { text-align:center; color:#00ffcc33; font-size:9px; margin-top:6px; text-transform:uppercase; letter-spacing:1px; }
 
     /* ===== PÁGINA BUSCADOR ===== */
@@ -273,7 +279,7 @@
 <div id="app">
 
   <div class="header">
-    <h1>RSI SCANNER</h1>
+    <h1 id="mainTitle">RSI SCANNER</h1>
     <p class="sub" id="subTxt">CRIPTO · SEÑALES RSI EXTREMAS · TIEMPO REAL</p>
   </div>
 
@@ -300,7 +306,7 @@
             <option value="10">$10M</option>
           </select>
         </div>
-        <div class="ctrl-item">
+        <div class="ctrl-item lbl-yellow">
           <label>RSI Venta &ge;</label>
           <select id="maxRsi">
             <option value="70">70</option>
@@ -310,7 +316,7 @@
             <option value="90" selected>90</option>
           </select>
         </div>
-        <div class="ctrl-item">
+        <div class="ctrl-item lbl-green">
           <label>RSI Compra &le;</label>
           <select id="minRsi">
             <option value="35">35</option>
@@ -361,7 +367,7 @@
   <div class="page" id="pageBuscador">
 
     <div class="search-card">
-      <div class="search-card-title">&#9740; BUSCAR TOKEN — COINGECKO</div>
+      <div class="search-card-title">&#9740; BUSCADOR CRIPTO UNIVERSAL</div>
       <div class="search-row">
         <input class="search-input" id="searchSym" type="text" placeholder="BTC, ETH, PEPE..." maxlength="20" />
         <button class="search-btn" onclick="searchToken()">&#9654; BUSCAR</button>
@@ -479,6 +485,10 @@ function showPage(idx){
     document.getElementById(id).classList.toggle('active', i===idx);
     document.getElementById('tab'+i).classList.toggle('active', i===idx);
   });
+  var titles=['RSI SCANNER','BUSCADOR CRIPTO'];
+  var subs=['SEÑALES RSI EXTREMAS · TIEMPO REAL','BUSCA CUALQUIER TOKEN DEL MERCADO'];
+  document.getElementById('mainTitle').textContent=titles[idx];
+  document.getElementById('subTxt').textContent=subs[idx];
 }
 
 // ============================================================
@@ -660,7 +670,7 @@ async function scan(){
   document.getElementById('progFill').style.width='0%';
   document.getElementById('cdNum').textContent='...';
 
-  addLog('OBTENIENDO PARES...');
+  addLog('INICIANDO ESCANEO...');
   var symbols=[];
   try{
     var res=await fetch('https://data-api.binance.vision/api/v3/ticker/24hr',{mode:'cors'});
@@ -724,14 +734,14 @@ async function scan(){
 }
 
 // ============================================================
-// BUSCADOR COINGECKO
+// BUSCADOR UNIVERSAL
 // ============================================================
 var cgCache=null,watchTimer=null,watchActive=false,watchCoinId=null,watchSym=null,watchAlerted=false;
 
 async function getCGList(){
   if(cgCache)return cgCache;
   var r=await fetch('https://api.coingecko.com/api/v3/coins/list',{mode:'cors'});
-  if(!r.ok)throw new Error('Error CoinGecko');
+  if(!r.ok)throw new Error('Error de conexion');
   cgCache=await r.json();return cgCache;
 }
 
@@ -739,7 +749,7 @@ async function searchToken(){
   var raw=document.getElementById('searchSym').value.trim().toLowerCase();
   if(!raw)return;
   document.getElementById('searchResult').style.display='none';
-  document.getElementById('searchErr').textContent='BUSCANDO EN COINGECKO...';
+  document.getElementById('searchErr').textContent='BUSCANDO...';
   document.getElementById('searchErr').style.color='#00aaff88';
   try{
     var list=await getCGList();
@@ -763,7 +773,7 @@ async function searchToken(){
     document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+' / USD';
     document.getElementById('srPrice').textContent='$'+priceStr+'  |  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H';
     document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
-    document.getElementById('srInfo').textContent='VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  RSI: 1H 7d';
+    document.getElementById('srInfo').textContent='VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  RSI 14 · 7D';
     var rsiEl=document.getElementById('srRsi');
     if(rsi!==null){
       rsiEl.textContent=rsi.toFixed(1);rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
