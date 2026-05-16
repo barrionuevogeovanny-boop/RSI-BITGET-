@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <title>RSI SCANNER CRITO</title>
+  <title>NEXUS RSI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: 'Courier New', monospace;
+      font-family: 'Orbitron', monospace;
       background: #050510;
       color: #fff;
       min-height: 100vh;
@@ -22,255 +23,297 @@
       position: relative; z-index:1;
       max-width: 900px;
       margin: 0 auto;
-      padding: 16px 14px 80px;
+      padding: 14px 12px 80px;
     }
 
     /* HEADER */
-    .header { text-align:center; margin-bottom: 14px; }
+    .header { text-align:center; margin-bottom: 12px; }
     h1 {
-      font-size: 26px; font-weight: 900;
-      letter-spacing: 5px; text-transform: uppercase;
+      font-family: 'Orbitron', monospace;
+      font-size: 30px; font-weight: 900;
+      letter-spacing: 6px; text-transform: uppercase;
       color: #00ffcc;
-      text-shadow: 0 0 20px #00ffcc88, 0 0 40px #00ffcc33;
-      margin-bottom: 3px;
+      text-shadow: 0 0 24px #00ffccaa, 0 0 50px #00ffcc44;
+      margin-bottom: 4px;
     }
     .sub {
-      color: #00ffcc77; font-size: 10px;
-      text-transform: uppercase; letter-spacing: 2px;
+      color: #00ffcc66; font-size: 9px;
+      text-transform: uppercase; letter-spacing: 3px;
+      font-family: 'Orbitron', monospace;
     }
 
-    /* TABS — barra inferior fija tipo app móvil */
+    /* TABS */
     .tabs {
       position: fixed; bottom: 0; left: 0; right: 0;
       z-index: 100;
       display: flex;
-      background: rgba(3,3,15,0.97);
+      background: rgba(3,3,18,0.97);
       border-top: 1px solid #00ffcc22;
-      backdrop-filter: blur(12px);
+      backdrop-filter: blur(14px);
     }
     .tab {
-      flex: 1; padding: 10px 4px 12px;
+      flex: 1; padding: 9px 4px 11px;
       text-align: center; cursor: pointer;
-      font-size: 9px; font-weight: 900;
+      font-size: 8px; font-weight: 700;
       text-transform: uppercase; letter-spacing: 1px;
-      color: #00ffcc44;
-      transition: all 0.2s;
+      color: #ffffff33;
       border: none; background: none;
+      font-family: 'Orbitron', monospace;
+      transition: all 0.2s;
     }
-    .tab .tab-icon { font-size: 18px; display: block; margin-bottom: 2px; }
+    .tab .tab-icon { font-size: 17px; display: block; margin-bottom: 2px; }
     .tab.active { color: #00ffcc; border-top: 2px solid #00ffcc; }
-    .tab.active .tab-icon { filter: drop-shadow(0 0 4px #00ffcc); }
 
     /* PAGES */
     .page { display: none; }
     .page.active { display: block; }
 
-    /* CONTROLES */
+    /* CTRL BOX */
     .ctrl {
-      background: rgba(0,20,20,0.75);
-      border: 1px solid #00aaff22;
-      border-radius: 12px; padding: 12px 14px;
-      margin-bottom: 10px;
+      background: rgba(0,15,25,0.8);
+      border: 1px solid #00ffcc1a;
+      border-radius: 12px; padding: 11px 12px;
+      margin-bottom: 9px;
       backdrop-filter: blur(10px);
     }
     .ctrl-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 8px 10px;
     }
     .ctrl-item { display: flex; flex-direction: column; gap: 4px; }
     .ctrl-item label {
-      color: #00aaff; font-size: 9px; font-weight: 900;
+      font-size: 8px; font-weight: 700;
       text-transform: uppercase; letter-spacing: 1px;
+      font-family: 'Orbitron', monospace;
     }
-    .ctrl-item.lbl-green label { color: #00ffcc; }
-    .ctrl-item.lbl-yellow label { color: #ffcc00; }
-    .ctrl-item.lbl-red label { color: #ff6644; }
-    .ctrl-item select {
-      background: #020215; color: #00aaff;
-      border: 1px solid #00aaff44; border-radius: 6px;
-      padding: 5px 6px; font-size: 11px;
-      font-family: 'Courier New', monospace;
-      width: 100%;
-    }
-    .ctrl-item.lbl-green select { color: #00ffcc; border-color: #00ffcc33; }
-    .ctrl-item.lbl-yellow select { color: #ffcc00; border-color: #ffcc0033; }
-    .ctrl-item.lbl-red select { color: #ff6644; border-color: #ff664433; }
+    .ctrl-item.c-blue  label { color: #00aaff; }
+    .ctrl-item.c-green label { color: #00ff88; }
+    .ctrl-item.c-red   label { color: #ff3333; }
+    .ctrl-item.c-yellow label { color: #ffcc00; }
 
-    /* SOUND BTN */
+    .ctrl-item select {
+      background: #020215;
+      border: 1px solid; border-radius: 6px;
+      padding: 6px 8px; font-size: 11px; font-weight: 700;
+      font-family: 'Orbitron', monospace;
+      width: 100%; outline: none;
+    }
+    .ctrl-item.c-blue  select { color: #00aaff; border-color: #00aaff33; }
+    .ctrl-item.c-green select { color: #00ff88; border-color: #00ff8833; }
+    .ctrl-item.c-red   select { color: #ff4444; border-color: #ff444433; }
+    .ctrl-item.c-yellow select { color: #ffcc00; border-color: #ffcc0033; }
+
+    /* TOP BAR */
     .top-bar {
       display: flex; align-items: center;
       justify-content: space-between;
       margin-bottom: 8px; gap: 8px;
     }
     .sound-btn {
-      background: rgba(0,170,255,0.08); color: #00aaff88;
-      border: 1px solid #00aaff22; border-radius: 99px;
-      padding: 5px 14px; font-size: 9px; font-weight: 900;
-      font-family: 'Courier New', monospace;
+      background: rgba(0,255,204,0.07);
+      color: #00ffcc66;
+      border: 1px solid #00ffcc22; border-radius: 99px;
+      padding: 5px 12px; font-size: 8px; font-weight: 700;
+      font-family: 'Orbitron', monospace;
       text-transform: uppercase; letter-spacing: 1px;
       cursor: pointer; white-space: nowrap;
     }
-    .sound-btn.on { color: #00ffcc; border-color: #00ffcc55; background: rgba(0,255,204,0.10); }
+    .sound-btn.on { color: #00ffcc; border-color: #00ffcc55; background: rgba(0,255,204,0.12); }
 
     /* COUNTDOWN */
     .cd-wrap {
-      flex: 1;
-      background: rgba(0,255,180,0.05);
-      border: 1px solid #00ffcc33;
-      border-radius: 99px; padding: 5px 14px;
-      display: flex; align-items: center; gap: 8px;
+      flex:1;
+      background: rgba(0,255,204,0.05);
+      border: 1px solid #00ffcc22;
+      border-radius: 99px; padding: 5px 12px;
+      display: flex; align-items: center; gap: 7px;
     }
-    .cd-label { font-size: 9px; color: #00ffcc88; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; }
-    .cbar-bg { flex:1; height:3px; background:#00ffcc15; border-radius:2px; overflow:hidden; }
-    .cbar-fill { height:3px; border-radius:2px; transition:width 1s linear; background:#00ffcc; box-shadow:0 0 4px #00ffcc; }
-    .cd-num { font-size: 13px; font-weight: 900; color: #ffcc00; min-width: 30px; text-align:right; }
+    .cd-label { font-size: 8px; color: #00ffcc66; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; font-family:'Orbitron',monospace; }
+    .cbar-bg { flex:1; height:3px; background:#00ffcc11; border-radius:2px; overflow:hidden; }
+    .cbar-fill { height:3px; border-radius:2px; transition:width 1s linear; background: linear-gradient(90deg,#00ffcc,#00aaff); box-shadow:0 0 5px #00ffcc; }
+    .cd-num { font-size: 12px; font-weight: 900; color: #ffcc00; min-width: 28px; text-align:right; font-family:'Orbitron',monospace; }
 
     /* PROGRESS */
     .prog { margin: 6px 0; }
-    .prog-bar-bg { height: 3px; background:#00ffcc15; border-radius:2px; overflow:hidden; }
-    .prog-bar-fill { height:3px; background: linear-gradient(90deg,#00ffcc,#00aaff); border-radius:2px; transition:width 0.2s; box-shadow:0 0 4px #00aaff; }
-    .prog-txt { font-size: 9px; color:#ffcc00; text-align:center; margin-bottom: 4px; font-weight:900; text-transform:uppercase; letter-spacing:1px; }
-    .pdot { display:inline-block; width:5px; height:5px; background:#ffcc00; border-radius:50%; margin-right:4px; animation:blink 1s infinite; }
+    .prog-bg { height:3px; background:#00ffcc11; border-radius:2px; overflow:hidden; }
+    .prog-fill { height:3px; background: linear-gradient(90deg,#00ffcc,#00aaff,#ff4444); border-radius:2px; transition:width 0.2s; }
+    .prog-txt { font-size:8px; color:#ffcc00; text-align:center; margin-bottom:4px; font-weight:700; text-transform:uppercase; letter-spacing:1px; font-family:'Orbitron',monospace; }
+    .pdot { display:inline-block; width:5px; height:5px; background:#ffcc00; border-radius:50%; margin-right:4px; animation:blink 0.8s infinite; }
 
     /* STATS */
-    .stats { display:flex; gap:8px; margin: 8px 0; }
+    .stats { display:flex; gap:7px; margin:8px 0; }
     .stat {
-      flex:1; background:rgba(0,20,20,0.7);
-      border:1px solid #00aaff22; border-radius:10px;
-      padding:8px 6px; text-align:center;
+      flex:1; background:rgba(0,15,25,0.8);
+      border:1px solid; border-radius:10px;
+      padding:8px 4px; text-align:center;
     }
-    .stat .n { font-size:22px; font-weight:900; }
-    .stat .l { font-size:8px; color:#aaa; text-transform:uppercase; letter-spacing:1px; margin-top:1px; }
-    .stat.blue .n { color:#00aaff; }
-    .stat.red .n  { color:#ff4444; }
-    .stat.green .n{ color:#00ff88; }
+    .stat .n { font-size:20px; font-weight:900; font-family:'Orbitron',monospace; }
+    .stat .l { font-size:7px; color:#aaa; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
+    .stat.blue  { border-color:#00aaff22; } .stat.blue .n  { color:#00aaff; }
+    .stat.red   { border-color:#ff444422; } .stat.red .n   { color:#ff4444; }
+    .stat.green { border-color:#00ff8822; } .stat.green .n { color:#00ff88; }
 
     /* SECTION TITLES */
     .sec-title {
-      text-align:center; font-size:12px; font-weight:900;
-      padding:10px 0 8px; letter-spacing:3px; text-transform:uppercase;
+      text-align:center; font-size:11px; font-weight:700;
+      padding:10px 0 7px; letter-spacing:3px; text-transform:uppercase;
       display:flex; align-items:center; justify-content:center; gap:6px;
+      font-family:'Orbitron',monospace;
     }
-    .sec-title.sell { color:#ff4444; text-shadow:0 0 10px #ff444477; }
-    .sec-title.buy  { color:#00ff88; text-shadow:0 0 10px #00ff8877; }
-    .dot { width:8px; height:8px; border-radius:50%; display:inline-block; animation:blink 1.2s infinite; }
+    .sec-title.sell { color:#ff4444; text-shadow:0 0 10px #ff444466; }
+    .sec-title.buy  { color:#00ff88; text-shadow:0 0 10px #00ff8866; }
+    .dot { width:7px; height:7px; border-radius:50%; display:inline-block; animation:blink 1.2s infinite; }
     .dot.sell { background:#ff4444; box-shadow:0 0 6px #ff4444; }
     .dot.buy  { background:#00ff88; box-shadow:0 0 6px #00ff88; }
     @keyframes blink { 0%,100%{opacity:1}50%{opacity:0.3} }
 
     /* CARDS */
-    .cards { display:flex; flex-direction:column; gap:7px; margin-bottom:14px; }
+    .cards { display:flex; flex-direction:column; gap:7px; margin-bottom:12px; }
     .card { border-radius:8px; overflow:hidden; animation:fadeIn 0.4s ease; border-left:4px solid; }
     @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
-    .card.sell { background:rgba(80,0,0,0.4); border-color:#ff4444; border-top:1px solid #66000088; border-right:1px solid #66000088; border-bottom:1px solid #66000088; }
-    .card.buy  { background:rgba(0,60,35,0.4); border-color:#00ff88; border-top:1px solid #00443388; border-right:1px solid #00443388; border-bottom:1px solid #00443388; }
-    .card-row { display:grid; grid-template-columns: 1fr auto; align-items:center; padding:8px 12px 3px; gap:6px; }
-    .card-left { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
-    .sym { font-size:15px; font-weight:900; text-transform:uppercase; letter-spacing:1px; color:#fff; white-space:nowrap; }
-    .sym span { font-weight:400; color:#555; font-size:11px; }
-    .badge { display:inline-flex; align-items:center; gap:3px; font-size:8px; font-weight:900; padding:2px 7px; border-radius:99px; text-transform:uppercase; letter-spacing:1px; white-space:nowrap; }
-    .badge.sell { background:rgba(160,0,0,0.5); color:#ffaaaa; border:1px solid #ff444444; }
-    .badge.buy  { background:rgba(0,100,50,0.5); color:#aaffcc; border:1px solid #00ff8844; }
-    .card-right { display:flex; align-items:center; gap:12px; }
-    .price { font-size:11px; color:#ccc; font-family:'Courier New',monospace; white-space:nowrap; }
-    .rsi-n { font-size:24px; font-weight:900; line-height:1; font-family:'Courier New',monospace; }
+    .card.sell { background:rgba(80,0,0,0.4); border-color:#ff4444; border-top:1px solid #66000077; border-right:1px solid #66000077; border-bottom:1px solid #66000077; }
+    .card.buy  { background:rgba(0,60,30,0.4); border-color:#00ff88; border-top:1px solid #00443377; border-right:1px solid #00443377; border-bottom:1px solid #00443377; }
+    .card-row { display:grid; grid-template-columns:1fr auto; align-items:center; padding:8px 11px 3px; gap:6px; }
+    .card-left { display:flex; align-items:center; gap:7px; flex-wrap:wrap; }
+    .sym { font-size:14px; font-weight:900; text-transform:uppercase; letter-spacing:1px; color:#fff; white-space:nowrap; font-family:'Orbitron',monospace; }
+    .sym span { font-weight:400; color:#555; font-size:10px; }
+    .badge { display:inline-flex; align-items:center; gap:3px; font-size:7px; font-weight:700; padding:2px 7px; border-radius:99px; text-transform:uppercase; letter-spacing:1px; white-space:nowrap; font-family:'Orbitron',monospace; }
+    .badge.sell { background:rgba(160,0,0,0.5); color:#ffaaaa; border:1px solid #ff444433; }
+    .badge.buy  { background:rgba(0,100,40,0.5); color:#aaffcc; border:1px solid #00ff8833; }
+    .card-right { display:flex; align-items:center; gap:10px; }
+    .price { font-size:10px; color:#ccc; font-family:'Orbitron',monospace; white-space:nowrap; }
+    .rsi-n { font-size:22px; font-weight:900; line-height:1; font-family:'Orbitron',monospace; }
     .card.sell .rsi-n { color:#ff4444; text-shadow:0 0 8px #ff444455; }
     .card.buy  .rsi-n { color:#00ff88; text-shadow:0 0 8px #00ff8855; }
-    .rsi-lbl { font-size:8px; color:#aaa; text-transform:uppercase; letter-spacing:1px; text-align:right; }
-    .spark-row { padding:0 12px 7px; height:38px; }
-    .spark-row canvas { width:100%!important; height:38px!important; display:block; }
+    .rsi-lbl { font-size:7px; color:#777; text-transform:uppercase; letter-spacing:1px; text-align:right; font-family:'Orbitron',monospace; }
+    .spark-row { padding:0 11px 7px; height:36px; }
+    .spark-row canvas { width:100%!important; height:36px!important; display:block; }
 
-    /* EMPTY / LOG */
-    .empty { text-align:center; padding:18px; color:#00aaff44; font-size:11px; font-weight:900; border:1px solid #00aaff22; border-radius:8px; text-transform:uppercase; letter-spacing:2px; background:rgba(0,20,20,0.5); margin-bottom:10px; }
-    .logbox { background:rgba(0,10,10,0.85); border:1px solid #00ffcc11; border-radius:7px; padding:7px 10px; font-size:9px; color:#00ffcc55; max-height:45px; overflow-y:auto; white-space:pre-wrap; margin: 4px 0; }
-    .update { text-align:center; color:#00ffcc33; font-size:9px; margin-top:6px; text-transform:uppercase; letter-spacing:1px; }
+    /* LOG / EMPTY / UPDATE */
+    .logbox { background:rgba(0,10,10,0.85); border:1px solid #00ffcc11; border-radius:7px; padding:6px 10px; font-size:8px; color:#00ffcc44; max-height:40px; overflow-y:auto; white-space:pre-wrap; margin:4px 0; font-family:'Orbitron',monospace; }
+    .empty { text-align:center; padding:16px; color:#00ffcc33; font-size:9px; font-weight:700; border:1px solid #00ffcc11; border-radius:8px; text-transform:uppercase; letter-spacing:2px; background:rgba(0,15,25,0.5); margin-bottom:10px; font-family:'Orbitron',monospace; }
+    .update { text-align:center; color:#00ffcc22; font-size:8px; margin-top:6px; text-transform:uppercase; letter-spacing:1px; font-family:'Orbitron',monospace; }
 
     /* ===== PÁGINA BUSCADOR ===== */
     .search-card {
-      background: rgba(0,15,25,0.85);
+      background: rgba(0,12,22,0.88);
       border: 1px solid #00aaff22;
-      border-radius: 12px; padding: 14px;
+      border-radius: 12px; padding: 13px;
       margin-bottom: 12px;
     }
     .search-card-title {
-      font-size: 10px; font-weight:900; color:#00aaff;
-      letter-spacing:3px; text-transform:uppercase; margin-bottom:10px;
+      font-size: 9px; font-weight:700; color:#00aaff;
+      letter-spacing:3px; text-transform:uppercase;
+      margin-bottom:10px; font-family:'Orbitron',monospace;
     }
-    .search-row { display:flex; gap:7px; align-items:center; margin-bottom:10px; flex-wrap:wrap; }
+    .search-row { display:flex; gap:6px; align-items:center; margin-bottom:8px; }
     .search-input {
-      flex:1; min-width:80px;
+      flex:1; min-width:60px;
       background:#020215; color:#00aaff;
       border:1px solid #00aaff33; border-radius:6px;
-      padding:8px 10px; font-size:13px; font-weight:900;
-      font-family:'Courier New',monospace; text-transform:uppercase;
+      padding:8px 10px; font-size:12px; font-weight:700;
+      font-family:'Orbitron',monospace; text-transform:uppercase;
       outline:none; letter-spacing:1px;
     }
-    .search-input:focus { border-color:#00aaff88; box-shadow:0 0 6px #00aaff22; }
+    .search-input:focus { border-color:#00aaff77; }
+    .search-tf {
+      background:#020215; color:#00aaff;
+      border:1px solid #00aaff33; border-radius:6px;
+      padding:8px 7px; font-size:9px; font-weight:700;
+      font-family:'Orbitron',monospace; outline:none;
+    }
     .search-btn {
       background:rgba(0,170,255,0.12); color:#00aaff;
       border:1px solid #00aaff44; border-radius:6px;
-      padding:8px 16px; font-size:10px; font-weight:900;
-      font-family:'Courier New',monospace; text-transform:uppercase;
+      padding:8px 12px; font-size:8px; font-weight:700;
+      font-family:'Orbitron',monospace; text-transform:uppercase;
       letter-spacing:1px; cursor:pointer;
     }
     .watch-btn-2 {
       background:rgba(255,100,0,0.12); color:#ff6600;
-      border:1px solid #ff660044; border-radius:6px;
-      padding:8px 14px; font-size:10px; font-weight:900;
-      font-family:'Courier New',monospace; text-transform:uppercase;
+      border:1px solid #ff660033; border-radius:6px;
+      padding:8px 10px; font-size:8px; font-weight:700;
+      font-family:'Orbitron',monospace; text-transform:uppercase;
       letter-spacing:1px; cursor:pointer; display:none;
     }
-    .watch-btn-2.active { background:rgba(255,100,0,0.3); color:#ffaa00; border-color:#ffaa0077; animation:wPulse 1.5s infinite; }
-    @keyframes wPulse { 0%,100%{box-shadow:0 0 6px #ff660044}50%{box-shadow:0 0 14px #ff6600aa} }
+    .watch-btn-2.active { background:rgba(255,150,0,0.25); color:#ffaa00; border-color:#ffaa0077; animation:wPulse 1.5s infinite; }
+    @keyframes wPulse { 0%,100%{box-shadow:0 0 5px #ff660033}50%{box-shadow:0 0 14px #ff6600aa} }
 
-    .sr-result { display:none; }
+    /* RESULT */
+    .sr-result { display:none; margin-top:6px; }
     .sr-top { display:flex; align-items:flex-start; justify-content:space-between; margin-bottom:8px; gap:8px; }
-    .sr-sym { font-size:18px; font-weight:900; color:#fff; letter-spacing:1px; }
-    .sr-price { font-size:11px; margin-top:2px; font-family:'Courier New',monospace; }
-    .sr-info-txt { font-size:9px; color:#00aaff88; text-transform:uppercase; letter-spacing:1px; margin-top:2px; }
+    .sr-left { flex:1; }
+    .sr-sym { font-size:17px; font-weight:900; color:#fff; letter-spacing:1px; font-family:'Orbitron',monospace; display:flex; align-items:center; gap:8px; }
+    .fav-star { cursor:pointer; font-size:16px; color:#ffcc0044; transition:all 0.2s; }
+    .fav-star.active { color:#ffcc00; text-shadow:0 0 8px #ffcc00; }
+    .sr-price { font-size:11px; margin-top:3px; font-family:'Orbitron',monospace; }
+    .sr-info-txt { font-size:8px; color:#00aaff66; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
     .sr-rsi-box { text-align:right; }
-    .sr-rsi { font-size:30px; font-weight:900; font-family:'Courier New',monospace; }
+    .sr-rsi { font-size:28px; font-weight:900; font-family:'Orbitron',monospace; }
     .sr-rsi.high { color:#ff4444; text-shadow:0 0 10px #ff444455; }
     .sr-rsi.low  { color:#00ff88; text-shadow:0 0 10px #00ff8855; }
     .sr-rsi.mid  { color:#ffcc00; }
-    .sr-rsi-lbl { font-size:8px; color:#aaa; letter-spacing:1px; }
+    .sr-rsi-lbl { font-size:7px; color:#777; letter-spacing:1px; font-family:'Orbitron',monospace; }
     .sr-bars { display:flex; gap:10px; margin-bottom:8px; }
     .sr-bar-w { flex:1; }
-    .sr-bar-lbl { font-size:8px; color:#aaa; text-transform:uppercase; letter-spacing:1px; margin-bottom:3px; }
-    .sr-bar-bg { height:5px; background:#ffffff0a; border-radius:3px; overflow:hidden; }
-    .sr-bar-fill { height:5px; border-radius:3px; transition:width 0.5s; }
+    .sr-bar-lbl { font-size:7px; color:#777; text-transform:uppercase; letter-spacing:1px; margin-bottom:3px; font-family:'Orbitron',monospace; }
+    .sr-bar-bg { height:4px; background:#ffffff08; border-radius:3px; overflow:hidden; }
+    .sr-bar-fill { height:4px; border-radius:3px; transition:width 0.5s; }
     .sr-spark { height:55px; }
     .sr-spark canvas { width:100%!important; height:55px!important; display:block; }
-
-    .watch-status { font-size:9px; color:#ff660077; text-transform:uppercase; letter-spacing:1px; margin-top:6px; min-height:13px; }
+    .watch-status { font-size:8px; color:#ff660066; text-transform:uppercase; letter-spacing:1px; margin-top:6px; min-height:12px; font-family:'Orbitron',monospace; }
     .watch-status.on { color:#ffaa00; }
-    .watch-alert-box {
-      display:none; margin-top:8px;
-      background:rgba(255,100,0,0.18); border:1px solid #ff660077;
-      border-radius:8px; padding:10px; text-align:center;
-      font-size:12px; font-weight:900; color:#ffaa00;
-      text-transform:uppercase; letter-spacing:2px;
-      animation:wPulse 0.8s infinite;
+    .watch-alert-box { display:none; margin-top:8px; background:rgba(255,100,0,0.15); border:1px solid #ff660066; border-radius:8px; padding:9px; text-align:center; font-size:11px; font-weight:700; color:#ffaa00; text-transform:uppercase; letter-spacing:2px; animation:wPulse 0.8s infinite; font-family:'Orbitron',monospace; }
+    .search-err { color:#ff444455; font-size:8px; text-transform:uppercase; letter-spacing:1px; padding:3px 0; min-height:14px; font-family:'Orbitron',monospace; }
+
+    /* FAVORITOS */
+    .favs-card {
+      background: rgba(0,12,22,0.88);
+      border: 1px solid #ffcc0022;
+      border-radius: 12px; padding: 12px;
+      margin-bottom: 12px;
     }
-    .search-err { color:#ff444477; font-size:10px; text-transform:uppercase; letter-spacing:1px; padding:4px 0; min-height:16px; }
+    .favs-title {
+      font-size: 9px; font-weight:700; color:#ffcc00;
+      letter-spacing:3px; text-transform:uppercase;
+      margin-bottom:8px; font-family:'Orbitron',monospace;
+      display:flex; align-items:center; justify-content:space-between;
+    }
+    .favs-rsi-sel {
+      background:#020215; color:#ffcc00;
+      border:1px solid #ffcc0033; border-radius:5px;
+      padding:3px 7px; font-size:8px; font-weight:700;
+      font-family:'Orbitron',monospace; outline:none;
+    }
+    .favs-list { display:flex; flex-direction:column; gap:6px; }
+    .fav-item {
+      display:flex; align-items:center; gap:8px;
+      background:rgba(255,204,0,0.05); border:1px solid #ffcc0011;
+      border-radius:8px; padding:7px 10px;
+    }
+    .fav-ticker { font-size:12px; font-weight:900; color:#fff; font-family:'Orbitron',monospace; flex:1; }
+    .fav-rsi-val { font-size:18px; font-weight:900; font-family:'Orbitron',monospace; min-width:50px; text-align:right; }
+    .fav-rsi-val.high { color:#ff4444; }
+    .fav-rsi-val.low  { color:#00ff88; }
+    .fav-rsi-val.mid  { color:#ffcc00; }
+    .fav-rsi-val.load { color:#ffffff33; font-size:12px; }
+    .fav-del { color:#ff444444; cursor:pointer; font-size:14px; padding:2px 4px; }
+    .fav-del:hover { color:#ff4444; }
+    .favs-empty { text-align:center; color:#ffcc0033; font-size:8px; text-transform:uppercase; letter-spacing:2px; padding:10px 0; font-family:'Orbitron',monospace; }
 
     /* MOBILE */
     @media (max-width: 600px) {
-      h1 { font-size: 20px; letter-spacing: 3px; }
-      .sub { font-size: 9px; }
-      .ctrl-grid { grid-template-columns: repeat(2, 1fr); gap:6px; }
-      .ctrl { padding: 10px; }
-      .stat .n { font-size: 18px; }
-      .stat .l { font-size: 7px; }
-      .sym { font-size: 13px; }
-      .rsi-n { font-size: 20px; }
-      .badge { font-size: 7px; }
-      .spark-row { height:32px; }
-      .spark-row canvas { height:32px!important; }
-      .sec-title { font-size: 10px; letter-spacing: 2px; }
-      .sr-sym { font-size: 15px; }
-      .sr-rsi { font-size: 24px; }
+      h1 { font-size: 22px; letter-spacing: 4px; }
+      .ctrl-grid { grid-template-columns: repeat(2,1fr); gap:6px; }
+      .stat .n { font-size: 17px; }
+      .sym { font-size: 12px; }
+      .rsi-n { font-size: 18px; }
+      .badge { font-size: 6px; }
+      .spark-row { height:30px; }
+      .spark-row canvas { height:30px!important; }
+      .sr-sym { font-size:14px; }
+      .sr-rsi { font-size:22px; }
     }
   </style>
 </head>
@@ -279,25 +322,24 @@
 <div id="app">
 
   <div class="header">
-    <h1 id="mainTitle">RSI SCANNER</h1>
-    <p class="sub" id="subTxt">CRIPTO · SEÑALES RSI EXTREMAS · TIEMPO REAL</p>
+    <h1 id="mainTitle">NEXUS RSI</h1>
+    <p class="sub" id="subTxt">SEÑALES RSI EXTREMAS · TIEMPO REAL</p>
   </div>
 
-  <!-- ===================== PAGE: SCANNER ===================== -->
+  <!-- ===== SCANNER ===== -->
   <div class="page active" id="pageScanner">
-
     <div class="ctrl">
       <div class="ctrl-grid">
-        <div class="ctrl-item">
+        <div class="ctrl-item c-blue">
           <label>Timeframe</label>
           <select id="tf">
-            <option value="1h" selected>1 HORA</option>
             <option value="15m">15 MIN</option>
+            <option value="1h" selected>1 HORA</option>
             <option value="4h">4 HORAS</option>
             <option value="1d">1 DIA</option>
           </select>
         </div>
-        <div class="ctrl-item">
+        <div class="ctrl-item c-yellow">
           <label>Vol Minimo</label>
           <select id="volMin">
             <option value="1">$1M</option>
@@ -306,7 +348,7 @@
             <option value="10">$10M</option>
           </select>
         </div>
-        <div class="ctrl-item lbl-yellow">
+        <div class="ctrl-item c-red">
           <label>RSI Venta &ge;</label>
           <select id="maxRsi">
             <option value="70">70</option>
@@ -316,7 +358,7 @@
             <option value="90" selected>90</option>
           </select>
         </div>
-        <div class="ctrl-item lbl-green">
+        <div class="ctrl-item c-green">
           <label>RSI Compra &le;</label>
           <select id="minRsi">
             <option value="35">35</option>
@@ -331,9 +373,9 @@
     </div>
 
     <div class="top-bar">
-      <button class="sound-btn on" id="btnSound" onclick="toggleSound()">🔔 SONIDO ON</button>
+      <button class="sound-btn on" id="btnSound" onclick="toggleSound()">🔔 SONIDO</button>
       <div class="cd-wrap">
-        <span class="cd-label">SIGUIENTE:</span>
+        <span class="cd-label">NEXT:</span>
         <div class="cbar-bg"><div class="cbar-fill" id="cbarFill" style="width:100%"></div></div>
         <span class="cd-num" id="cdNum">--</span>
       </div>
@@ -341,7 +383,7 @@
 
     <div id="progArea" style="display:none" class="prog">
       <div class="prog-txt" id="progTxt"><span class="pdot"></span>INICIANDO...</div>
-      <div class="prog-bar-bg"><div class="prog-bar-fill" id="progFill" style="width:0%"></div></div>
+      <div class="prog-bg"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
     </div>
     <div class="logbox" id="logbox" style="display:none"></div>
 
@@ -359,26 +401,35 @@
       <div class="sec-title buy"><span class="dot buy"></span>SOBREVENDIDOS — LONG</div>
       <div class="cards" id="buyCards"></div>
     </div>
-    <div id="emptyMsg" style="display:none" class="empty">SIN SEÑALES · ESPERANDO PRÓXIMO ESCANEO</div>
+    <div id="emptyMsg" style="display:none" class="empty">SIN SEÑALES · ESPERANDO ESCANEO</div>
     <div class="update" id="updateTxt"></div>
   </div>
 
-  <!-- ===================== PAGE: BUSCADOR ===================== -->
+  <!-- ===== BUSCADOR ===== -->
   <div class="page" id="pageBuscador">
 
     <div class="search-card">
       <div class="search-card-title">&#9740; BUSCADOR CRIPTO UNIVERSAL</div>
       <div class="search-row">
-        <input class="search-input" id="searchSym" type="text" placeholder="BTC, ETH, PEPE..." maxlength="20" />
-        <button class="search-btn" onclick="searchToken()">&#9654; BUSCAR</button>
-        <button class="watch-btn-2" id="watchBtn" onclick="toggleWatch()">&#128065; WATCH</button>
+        <input class="search-input" id="searchSym" type="text" placeholder="BTC, PEPE..." maxlength="20"/>
+        <select class="search-tf" id="searchTf">
+          <option value="1h" selected>1H</option>
+          <option value="15m">15M</option>
+          <option value="4h">4H</option>
+          <option value="1d">1D</option>
+        </select>
+        <button class="search-btn" onclick="searchToken()">&#9654;</button>
+        <button class="watch-btn-2" id="watchBtn" onclick="toggleWatch()">&#128065;</button>
       </div>
       <div class="search-err" id="searchErr"></div>
 
       <div class="sr-result" id="searchResult">
         <div class="sr-top">
-          <div>
-            <div class="sr-sym" id="srSym">--</div>
+          <div class="sr-left">
+            <div class="sr-sym">
+              <span id="srSym">--</span>
+              <span class="fav-star" id="favStar" onclick="toggleFav()">&#9733;</span>
+            </div>
             <div class="sr-price" id="srPrice">--</div>
             <div class="sr-info-txt" id="srInfo">--</div>
           </div>
@@ -399,12 +450,31 @@
         </div>
         <div class="sr-spark"><canvas id="srCanvas"></canvas></div>
         <div class="watch-status" id="watchStatus"></div>
-        <div class="watch-alert-box" id="watchAlert">🚨 RSI 85 ALCANZADO!</div>
+        <div class="watch-alert-box" id="watchAlert">&#128680; RSI ALERTA ACTIVADA</div>
+      </div>
+    </div>
+
+    <!-- FAVORITOS -->
+    <div class="favs-card">
+      <div class="favs-title">
+        &#9733; FAVORITOS
+        <div style="display:flex;align-items:center;gap:6px;">
+          <span style="font-size:7px;color:#ffcc0066;">ALERTA RSI &ge;</span>
+          <select class="favs-rsi-sel" id="favsRsiAlert">
+            <option value="70">70</option>
+            <option value="75">75</option>
+            <option value="80">80</option>
+            <option value="85" selected>85</option>
+            <option value="90">90</option>
+          </select>
+        </div>
+      </div>
+      <div class="favs-list" id="favsList">
+        <div class="favs-empty">BUSCA UN TOKEN Y PRESIONA &#9733; PARA AGREGAR</div>
       </div>
     </div>
 
   </div>
-
 </div>
 
 <!-- TABS -->
@@ -420,20 +490,15 @@
 <!-- GALAXIA 3D -->
 <script>
 (function(){
-  var cv=document.getElementById('canvas-bg');
-  var cx=cv.getContext('2d');
+  var cv=document.getElementById('canvas-bg'),cx=cv.getContext('2d');
   var W,H,stars=[],nebulae=[],angle=0;
   var COLORS=['#ffffff','#aaddff','#ffddaa','#ffaaaa','#aaffdd','#ddaaff','#ffffff','#ffffff'];
   function build(){
     stars=[];nebulae=[];
     for(var i=0;i<1400;i++){
-      var r=Math.pow(Math.random(),0.5)*500;
-      var arm=Math.floor(Math.random()*3);
-      var armA=arm*(Math.PI*2/3);
-      var spiral=r*0.012;
-      var scatter=Math.random()*0.5-0.25;
-      var theta=r>80?armA+spiral+scatter:Math.random()*Math.PI*2;
-      var phi=Math.acos(2*Math.random()-1);
+      var r=Math.pow(Math.random(),0.5)*500,arm=Math.floor(Math.random()*3);
+      var armA=arm*(Math.PI*2/3),spiral=r*0.012,scatter=Math.random()*0.5-0.25;
+      var theta=r>80?armA+spiral+scatter:Math.random()*Math.PI*2,phi=Math.acos(2*Math.random()-1);
       stars.push({x:r*Math.sin(phi)*Math.cos(theta),y:r*Math.sin(phi)*Math.sin(theta)*0.28,z:r*Math.cos(phi)*0.28,size:Math.random()*1.5+0.3,color:COLORS[Math.floor(Math.random()*COLORS.length)],twinkle:Math.random()*Math.PI*2,twinkleSpeed:0.02+Math.random()*0.04,brightness:0.5+Math.random()*0.5});
     }
     for(var j=0;j<5;j++) nebulae.push({x:(Math.random()-0.5)*300,y:(Math.random()-0.5)*70,z:(Math.random()-0.5)*70,r:45+Math.random()*65,color:['rgba(0,60,140,','rgba(70,0,110,','rgba(0,90,70,'][Math.floor(Math.random()*3)],alpha:0.025+Math.random()*0.03});
@@ -441,8 +506,7 @@
   function resize(){W=cv.width=window.innerWidth;H=cv.height=window.innerHeight;build();}
   window.addEventListener('resize',resize);resize();
   function draw(){
-    angle+=0.0005;
-    cx.fillStyle='rgba(3,3,12,0.22)';cx.fillRect(0,0,W,H);
+    angle+=0.0005;cx.fillStyle='rgba(3,3,12,0.22)';cx.fillRect(0,0,W,H);
     var cosA=Math.cos(angle),sinA=Math.sin(angle),CX=W/2,CY=H/2,FL=650;
     nebulae.forEach(function(n){
       var rx=n.x*cosA+n.z*sinA,ry=n.y,rz=-n.x*sinA+n.z*cosA;
@@ -458,12 +522,10 @@
       if(rz<-FL*0.9)return;
       var sc=FL/(FL+rz+300),sx=CX+rx*sc,sy=CY+ry*sc;
       if(sx<-10||sx>W+10||sy<-10||sy>H+10)return;
-      var tw=0.75+0.25*Math.sin(s.twinkle);
-      var sz=Math.max(0.3,s.size*sc*tw);
+      var tw=0.75+0.25*Math.sin(s.twinkle),sz=Math.max(0.3,s.size*sc*tw);
       var alpha=Math.min(1,(0.3+rz/600)*s.brightness*tw);
       if(alpha<=0)return;
-      cx.beginPath();cx.arc(sx,sy,sz,0,Math.PI*2);
-      cx.fillStyle=s.color;cx.globalAlpha=alpha;cx.fill();
+      cx.beginPath();cx.arc(sx,sy,sz,0,Math.PI*2);cx.fillStyle=s.color;cx.globalAlpha=alpha;cx.fill();
       if(sz>1.0&&alpha>0.55){cx.beginPath();cx.arc(sx,sy,sz*2.8,0,Math.PI*2);cx.fillStyle=s.color;cx.globalAlpha=alpha*0.07;cx.fill();}
       cx.globalAlpha=1;
     });
@@ -482,58 +544,88 @@
 // ============================================================
 function showPage(idx){
   ['pageScanner','pageBuscador'].forEach(function(id,i){
-    document.getElementById(id).classList.toggle('active', i===idx);
-    document.getElementById('tab'+i).classList.toggle('active', i===idx);
+    document.getElementById(id).classList.toggle('active',i===idx);
+    document.getElementById('tab'+i).classList.toggle('active',i===idx);
   });
-  var titles=['RSI SCANNER','BUSCADOR CRIPTO'];
-  var subs=['SEÑALES RSI EXTREMAS · TIEMPO REAL','BUSCA CUALQUIER TOKEN DEL MERCADO'];
+  var titles=['NEXUS RSI','NEXUS SEARCH'];
+  var subs=['SEÑALES RSI EXTREMAS · TIEMPO REAL','BUSCADOR CRIPTO UNIVERSAL'];
   document.getElementById('mainTitle').textContent=titles[idx];
   document.getElementById('subTxt').textContent=subs[idx];
 }
 
 // ============================================================
-// SONIDO
+// SONIDO — compra cálido, venta agresivo
 // ============================================================
 var audioCtx=null, soundEnabled=true;
-function getAudioCtx(){ if(!audioCtx) audioCtx=new(window.AudioContext||window.webkitAudioContext)(); return audioCtx; }
+function getAudioCtx(){if(!audioCtx)audioCtx=new(window.AudioContext||window.webkitAudioContext)();return audioCtx;}
 
-function playAlert(type){
+function playBuy(){
+  // Suave, cálido — tipo campana positiva
   if(!soundEnabled)return;
   try{
     var ctx=getAudioCtx(),t=ctx.currentTime;
-    var freqs=type==='sell'?[880,1100,880,1100]:[440,550,440,550];
-    freqs.forEach(function(f,i){
+    [[523,0,0.4],[659,0.15,0.3],[784,0.3,0.5]].forEach(function(n){
       var o=ctx.createOscillator(),g=ctx.createGain();
-      o.connect(g);g.connect(ctx.destination);o.type='sine';o.frequency.value=f;
-      g.gain.setValueAtTime(0,t+i*0.18);g.gain.linearRampToValueAtTime(0.3,t+i*0.18+0.05);g.gain.linearRampToValueAtTime(0,t+i*0.18+0.15);
-      o.start(t+i*0.18);o.stop(t+i*0.18+0.18);
+      o.connect(g);g.connect(ctx.destination);
+      o.type='sine';o.frequency.value=n[0];
+      g.gain.setValueAtTime(0,t+n[1]);
+      g.gain.linearRampToValueAtTime(n[2],t+n[1]+0.05);
+      g.gain.exponentialRampToValueAtTime(0.001,t+n[1]+0.6);
+      o.start(t+n[1]);o.stop(t+n[1]+0.7);
     });
   }catch(e){}
 }
 
-function playAlertStrong(){
+function playSell(){
+  // Agresivo — alarma cortante descendente
   if(!soundEnabled)return;
   try{
     var ctx=getAudioCtx(),t=ctx.currentTime;
-    [[660,0],[880,0.3],[1100,0.6]].forEach(function(pair){
+    for(var i=0;i<4;i++){
       var o=ctx.createOscillator(),g=ctx.createGain();
-      o.connect(g);g.connect(ctx.destination);o.type='square';o.frequency.value=pair[0];
-      g.gain.setValueAtTime(0,t+pair[1]);g.gain.linearRampToValueAtTime(0.6,t+pair[1]+0.05);g.gain.linearRampToValueAtTime(0,t+pair[1]+0.25);
-      o.start(t+pair[1]);o.stop(t+pair[1]+0.3);
+      o.connect(g);g.connect(ctx.destination);
+      o.type='sawtooth';
+      o.frequency.setValueAtTime(1200,t+i*0.18);
+      o.frequency.linearRampToValueAtTime(600,t+i*0.18+0.15);
+      g.gain.setValueAtTime(0,t+i*0.18);
+      g.gain.linearRampToValueAtTime(0.5,t+i*0.18+0.02);
+      g.gain.linearRampToValueAtTime(0,t+i*0.18+0.16);
+      o.start(t+i*0.18);o.stop(t+i*0.18+0.18);
+    }
+  }catch(e){}
+}
+
+function playWatchAlert(){
+  // Triple pitido fuerte para favoritos
+  if(!soundEnabled)return;
+  try{
+    var ctx=getAudioCtx(),t=ctx.currentTime;
+    [[880,0],[1100,0.25],[1320,0.5]].forEach(function(n){
+      var o=ctx.createOscillator(),g=ctx.createGain();
+      o.connect(g);g.connect(ctx.destination);
+      o.type='square';o.frequency.value=n[0];
+      g.gain.setValueAtTime(0,t+n[1]);
+      g.gain.linearRampToValueAtTime(0.6,t+n[1]+0.03);
+      g.gain.linearRampToValueAtTime(0,t+n[1]+0.2);
+      o.start(t+n[1]);o.stop(t+n[1]+0.22);
     });
   }catch(e){}
+}
+
+function vibrate(pattern){
+  try{if(navigator.vibrate)navigator.vibrate(pattern);}catch(e){}
 }
 
 function toggleSound(){
   soundEnabled=!soundEnabled;
   var btn=document.getElementById('btnSound');
-  btn.textContent=soundEnabled?'🔔 SONIDO ON':'🔕 SONIDO OFF';
+  btn.textContent=soundEnabled?'🔔 SONIDO':'🔕 MUTE';
   btn.className=soundEnabled?'sound-btn on':'sound-btn';
   if(soundEnabled)getAudioCtx();
 }
 
 function sendNotif(title,body){
-  if('Notification' in window&&Notification.permission==='granted') new Notification(title,{body:body});
+  try{if('Notification' in window&&Notification.permission==='granted')new Notification(title,{body:body});}catch(e){}
 }
 
 document.addEventListener('click',function(){if(!audioCtx)getAudioCtx();},{once:true});
@@ -547,8 +639,7 @@ function calcRSI(closes,period){
   for(i=1;i<=period;i++){d=closes[i]-closes[i-1];if(d>0)g+=d;else l-=d;}
   var ag=g/period,al=l/period;
   for(i=period+1;i<closes.length;i++){d=closes[i]-closes[i-1];ag=(ag*(period-1)+(d>0?d:0))/period;al=(al*(period-1)+(d<0?-d:0))/period;}
-  if(al===0)return 100;
-  return 100-100/(1+ag/al);
+  if(al===0)return 100;return 100-100/(1+ag/al);
 }
 function calcRSIArray(closes,period){
   var out=[];
@@ -557,10 +648,10 @@ function calcRSIArray(closes,period){
 }
 
 // ============================================================
-// SPARKLINE
+// SPARKLINES
 // ============================================================
 function drawSparkline(cvs,rsiVals,type){
-  var W=cvs.offsetWidth||800,H=cvs.offsetHeight||38;
+  var W=cvs.offsetWidth||800,H=cvs.offsetHeight||36;
   cvs.width=W;cvs.height=H;
   var ctx=cvs.getContext('2d');ctx.clearRect(0,0,W,H);
   if(!rsiVals||rsiVals.length<2)return;
@@ -570,15 +661,15 @@ function drawSparkline(cvs,rsiVals,type){
   ctx.fillStyle='rgba(255,68,68,0.05)';ctx.fillRect(0,0,W,toY(70));
   ctx.fillStyle='rgba(0,255,136,0.05)';ctx.fillRect(0,toY(30),W,H-toY(30));
   [[70,'70'],[50,'50'],[30,'30']].forEach(function(p){
-    var y=toY(p[0]);ctx.beginPath();ctx.setLineDash([3,6]);ctx.strokeStyle='rgba(255,255,255,0.1)';ctx.lineWidth=0.7;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();ctx.setLineDash([]);
-    ctx.fillStyle='rgba(255,255,255,0.2)';ctx.font='7px Courier New';ctx.fillText(p[1],3,y-2);
+    var y=toY(p[0]);ctx.beginPath();ctx.setLineDash([2,5]);ctx.strokeStyle='rgba(255,255,255,0.08)';ctx.lineWidth=0.6;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();ctx.setLineDash([]);
+    ctx.fillStyle='rgba(255,255,255,0.18)';ctx.font='6px monospace';ctx.fillText(p[1],2,y-2);
   });
-  ctx.beginPath();ctx.moveTo(0,H);rsiVals.forEach(function(v,i){ctx.lineTo(i*step,toY(v));});ctx.lineTo((rsiVals.length-1)*step,H);ctx.closePath();ctx.fillStyle=color+'12';ctx.fill();
-  ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.5;ctx.shadowColor=color;ctx.shadowBlur=4;
+  ctx.beginPath();ctx.moveTo(0,H);rsiVals.forEach(function(v,i){ctx.lineTo(i*step,toY(v));});ctx.lineTo((rsiVals.length-1)*step,H);ctx.closePath();ctx.fillStyle=color+'10';ctx.fill();
+  ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.4;ctx.shadowColor=color;ctx.shadowBlur=4;
   rsiVals.forEach(function(v,i){if(i===0)ctx.moveTo(0,toY(v));else ctx.lineTo(i*step,toY(v));});
   ctx.stroke();ctx.shadowBlur=0;
   var last=rsiVals[rsiVals.length-1];
-  ctx.beginPath();ctx.arc((rsiVals.length-1)*step,toY(last),3,0,Math.PI*2);ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=6;ctx.fill();ctx.shadowBlur=0;
+  ctx.beginPath();ctx.arc((rsiVals.length-1)*step,toY(last),3,0,Math.PI*2);ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=5;ctx.fill();ctx.shadowBlur=0;
 }
 
 function drawSearchSparkline(cvs,rsiVals){
@@ -590,13 +681,13 @@ function drawSearchSparkline(cvs,rsiVals){
   var color=lastRsi>=70?'#ff4444':(lastRsi<=30?'#00ff88':'#00aaff');
   var toY=function(v){return H-(v/100)*H;};
   var step=W/(rsiVals.length-1);
-  ctx.fillStyle='rgba(255,68,68,0.06)';ctx.fillRect(0,0,W,toY(70));
-  ctx.fillStyle='rgba(0,255,136,0.06)';ctx.fillRect(0,toY(30),W,H-toY(30));
-  [[90,'90','rgba(255,68,68,0.5)'],[70,'70','rgba(255,255,255,0.12)'],[50,'50','rgba(255,255,255,0.08)'],[30,'30','rgba(255,255,255,0.12)'],[10,'10','rgba(0,255,136,0.5)']].forEach(function(t){
-    var y=toY(t[0]);ctx.beginPath();ctx.setLineDash([3,7]);ctx.strokeStyle=t[2];ctx.lineWidth=0.8;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();ctx.setLineDash([]);
-    ctx.fillStyle='rgba(255,255,255,0.25)';ctx.font='8px Courier New';ctx.fillText(t[1],3,y-2);
+  ctx.fillStyle='rgba(255,68,68,0.05)';ctx.fillRect(0,0,W,toY(70));
+  ctx.fillStyle='rgba(0,255,136,0.05)';ctx.fillRect(0,toY(30),W,H-toY(30));
+  [[90,'90','rgba(255,68,68,0.4)'],[70,'70','rgba(255,255,255,0.1)'],[50,'50','rgba(255,255,255,0.07)'],[30,'30','rgba(255,255,255,0.1)'],[10,'10','rgba(0,255,136,0.4)']].forEach(function(t){
+    var y=toY(t[0]);ctx.beginPath();ctx.setLineDash([2,6]);ctx.strokeStyle=t[2];ctx.lineWidth=0.7;ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke();ctx.setLineDash([]);
+    ctx.fillStyle='rgba(255,255,255,0.22)';ctx.font='7px monospace';ctx.fillText(t[1],3,y-2);
   });
-  ctx.beginPath();ctx.moveTo(0,H);rsiVals.forEach(function(v,i){ctx.lineTo(i*step,toY(v));});ctx.lineTo((rsiVals.length-1)*step,H);ctx.closePath();ctx.fillStyle=color+'18';ctx.fill();
+  ctx.beginPath();ctx.moveTo(0,H);rsiVals.forEach(function(v,i){ctx.lineTo(i*step,toY(v));});ctx.lineTo((rsiVals.length-1)*step,H);ctx.closePath();ctx.fillStyle=color+'15';ctx.fill();
   ctx.beginPath();ctx.strokeStyle=color;ctx.lineWidth=1.8;ctx.shadowColor=color;ctx.shadowBlur=5;
   rsiVals.forEach(function(v,i){if(i===0)ctx.moveTo(0,toY(v));else ctx.lineTo(i*step,toY(v));});
   ctx.stroke();ctx.shadowBlur=0;
@@ -635,9 +726,35 @@ function renderSection(signals,containerId,type){
 }
 
 // ============================================================
-// SCANNER
+// SCANNER — con rotación de endpoints para evitar bloqueo API
 // ============================================================
 var running=false,cdTimer=null,CD=25;
+
+// Múltiples endpoints para distribuir carga y evitar bloqueos
+var API_ENDPOINTS=[
+  'https://data-api.binance.vision',
+  'https://api.binance.com',
+  'https://api1.binance.com',
+  'https://api2.binance.com'
+];
+var currentEndpoint=0;
+
+function getEndpoint(){
+  var ep=API_ENDPOINTS[currentEndpoint%API_ENDPOINTS.length];
+  currentEndpoint++;
+  return ep;
+}
+
+async function fetchWithFallback(path){
+  for(var i=0;i<API_ENDPOINTS.length;i++){
+    var ep=API_ENDPOINTS[(currentEndpoint+i)%API_ENDPOINTS.length];
+    try{
+      var r=await fetch(ep+path,{mode:'cors'});
+      if(r.ok)return r;
+    }catch(e){}
+  }
+  throw new Error('Sin conexion');
+}
 
 function startCD(sec){
   if(cdTimer)clearInterval(cdTimer);
@@ -646,7 +763,7 @@ function startCD(sec){
   num.textContent=v+'S';fill.style.width='100%';
   cdTimer=setInterval(function(){
     v--;num.textContent=v+'S';fill.style.width=Math.round(v/sec*100)+'%';
-    if(v<=0){clearInterval(cdTimer);num.textContent='';scan();}
+    if(v<=0){clearInterval(cdTimer);num.textContent='⟳';scan();}
   },1000);
 }
 
@@ -659,7 +776,7 @@ async function scan(){
   var volMin=parseFloat(document.getElementById('volMin').value)*1e6;
   var tfLabel={'15m':'15M','1h':'1H','4h':'4H','1d':'1D'}[tf];
 
-  document.getElementById('subTxt').textContent='RSI >='+maxRsi+' VENTA / <='+minRsi+' COMPRA · '+tfLabel;
+  document.getElementById('subTxt').textContent='RSI >='+maxRsi+' VENTA  <='+minRsi+' COMPRA · '+tfLabel;
   document.getElementById('progArea').style.display='block';
   document.getElementById('statsArea').style.display='none';
   document.getElementById('sellSection').style.display='none';
@@ -670,26 +787,24 @@ async function scan(){
   document.getElementById('progFill').style.width='0%';
   document.getElementById('cdNum').textContent='...';
 
-  addLog('INICIANDO ESCANEO...');
   var symbols=[];
   try{
-    var res=await fetch('https://data-api.binance.vision/api/v3/ticker/24hr',{mode:'cors'});
-    if(!res.ok)throw new Error('HTTP '+res.status);
+    var res=await fetchWithFallback('/api/v3/ticker/24hr');
     var data=await res.json();
     symbols=data.filter(function(t){return t.symbol.endsWith('USDT')&&parseFloat(t.quoteVolume)>volMin;})
       .sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
       .map(function(t){return t.symbol;});
-    addLog(symbols.length+' PARES');
-  }catch(e){addLog('ERROR: '+e.message);running=false;startCD(CD);return;}
+    addLog(symbols.length+' PARES LISTOS');
+  }catch(e){addLog('ERROR DE CONEXION');running=false;startCD(CD);return;}
 
   var done=0,sellSigs=[],buySigs=[],errors=0;
-  for(var i=0;i<symbols.length;i+=10){
-    var batch=symbols.slice(i,i+10);
+  // Procesar en lotes de 5 para ser mas gentil con la API
+  for(var i=0;i<symbols.length;i+=5){
+    var batch=symbols.slice(i,i+5);
     await Promise.all(batch.map(async function(sym){
       try{
-        var url='https://data-api.binance.vision/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70';
-        var r=await fetch(url,{mode:'cors'});
-        if(!r.ok)throw new Error('http');
+        var r=await fetchWithFallback('/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70');
+        if(!r.ok)throw new Error();
         var kdata=await r.json();
         var closes=kdata.map(function(c){return parseFloat(c[4]);});
         var rsi=calcRSI(closes,14);if(rsi===null)return;
@@ -703,9 +818,10 @@ async function scan(){
           document.getElementById('sellSection').style.display='block';
           document.getElementById('nSell').textContent=sellSigs.length;
           document.getElementById('statsArea').style.display='flex';
-          addLog('SELL '+sym+' RSI:'+rv);
-          playAlert('sell');
-          sendNotif('VENTA RSI '+rv,sym+' @ $'+price.toFixed(4));
+          addLog('▲ '+sym+' '+rv);
+          playSell();
+          vibrate([200,50,200]);
+          sendNotif('⚠ VENTA RSI '+rv,sym+' @ $'+price.toFixed(4));
         }else if(rsi<=minRsi){
           buySigs.push({sym:sym,rsi:rv,price:price,rsiVals:rsiVals});
           buySigs.sort(function(a,b){return a.rsi-b.rsi;});
@@ -713,28 +829,119 @@ async function scan(){
           document.getElementById('buySection').style.display='block';
           document.getElementById('nBuy').textContent=buySigs.length;
           document.getElementById('statsArea').style.display='flex';
-          addLog('BUY  '+sym+' RSI:'+rv);
-          playAlert('buy');
-          sendNotif('COMPRA RSI '+rv,sym+' @ $'+price.toFixed(4));
+          addLog('▼ '+sym+' '+rv);
+          playBuy();
+          vibrate([100]);
+          sendNotif('✅ COMPRA RSI '+rv,sym+' @ $'+price.toFixed(4));
         }
       }catch(e){errors++;}
       done++;
       document.getElementById('nScanned').textContent=done;
       document.getElementById('progFill').style.width=Math.round(done/symbols.length*100)+'%';
-      document.getElementById('progTxt').innerHTML='<span class="pdot"></span>'+done+'/'+symbols.length+' · '+sellSigs.length+' V · '+buySigs.length+' C';
+      document.getElementById('progTxt').innerHTML='<span class="pdot"></span>'+done+'/'+symbols.length+' · '+sellSigs.length+'V '+buySigs.length+'C';
     }));
-    await new Promise(function(r){setTimeout(r,50);});
+    await new Promise(function(r){setTimeout(r,80);});// delay entre lotes
   }
+
   document.getElementById('progArea').style.display='none';
   document.getElementById('logbox').style.display='none';
   document.getElementById('statsArea').style.display='flex';
   if(!sellSigs.length&&!buySigs.length)document.getElementById('emptyMsg').style.display='block';
-  document.getElementById('updateTxt').textContent='ACTUALIZADO: '+new Date().toLocaleTimeString('es-ES')+' · '+done+' PARES'+(errors>0?' · '+errors+' ERR':'');
+  document.getElementById('updateTxt').textContent=new Date().toLocaleTimeString('es-ES')+' · '+done+' PARES · '+tfLabel+(errors>0?' · '+errors+' ERR':'');
   running=false;startCD(CD);
 }
 
 // ============================================================
-// BUSCADOR UNIVERSAL
+// FAVORITOS
+// ============================================================
+var favorites=[]; // [{id, sym, coinId, rsi}]
+var favsTimer=null;
+var currentCoinData={id:null,sym:null,coinId:null};
+
+function saveFavs(){try{localStorage.setItem('nexus_favs',JSON.stringify(favorites));}catch(e){}}
+function loadFavs(){try{var d=localStorage.getItem('nexus_favs');if(d)favorites=JSON.parse(d);}catch(e){} renderFavs();}
+
+function toggleFav(){
+  if(!currentCoinData.coinId)return;
+  var idx=favorites.findIndex(function(f){return f.coinId===currentCoinData.coinId;});
+  if(idx>=0){
+    favorites.splice(idx,1);
+  } else {
+    if(favorites.length>=5){alert('Máximo 5 favoritos');return;}
+    favorites.push({sym:currentCoinData.sym, coinId:currentCoinData.coinId, rsi:null});
+  }
+  saveFavs();
+  updateFavStar();
+  renderFavs();
+  if(favorites.length>0&&!favsTimer) startFavsLoop();
+}
+
+function updateFavStar(){
+  var star=document.getElementById('favStar');
+  if(!star)return;
+  var inFavs=favorites.some(function(f){return f.coinId===currentCoinData.coinId;});
+  star.classList.toggle('active',inFavs);
+}
+
+function renderFavs(){
+  var el=document.getElementById('favsList');
+  if(!favorites.length){
+    el.innerHTML='<div class="favs-empty">BUSCA UN TOKEN Y PRESIONA &#9733; PARA AGREGAR</div>';
+    return;
+  }
+  el.innerHTML=favorites.map(function(f,i){
+    var rsiVal=f.rsi!==null?f.rsi.toFixed(1):'···';
+    var cls=f.rsi===null?'load':(f.rsi>=70?'high':(f.rsi<=30?'low':'mid'));
+    return '<div class="fav-item">'+
+      '<div class="fav-ticker">'+f.sym.toUpperCase()+'</div>'+
+      '<div class="fav-rsi-val '+cls+'">'+rsiVal+'</div>'+
+      '<span class="fav-del" onclick="removeFav('+i+')">&#10005;</span>'+
+    '</div>';
+  }).join('');
+}
+
+function removeFav(idx){
+  favorites.splice(idx,1);
+  saveFavs();renderFavs();updateFavStar();
+  if(!favorites.length&&favsTimer){clearInterval(favsTimer);favsTimer=null;}
+}
+
+function startFavsLoop(){
+  if(favsTimer)clearInterval(favsTimer);
+  updateFavs();
+  favsTimer=setInterval(updateFavs,60000);// cada 60s
+}
+
+async function updateFavs(){
+  if(!favorites.length)return;
+  var alertRsi=parseInt(document.getElementById('favsRsiAlert').value);
+  for(var i=0;i<favorites.length;i++){
+    var f=favorites[i];
+    try{
+      var r=await fetch('https://api.coingecko.com/api/v3/coins/'+f.coinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',{mode:'cors'});
+      if(!r.ok)continue;
+      var coin=await r.json();
+      var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
+      var rsi=spark.length>=16?calcRSI(spark,14):null;
+      if(rsi!==null){
+        var prev=f.rsi;
+        f.rsi=Math.round(rsi*10)/10;
+        // Alerta si supera el umbral
+        if(rsi>=alertRsi&&(prev===null||prev<alertRsi)){
+          playWatchAlert();
+          vibrate([300,100,300,100,300]);
+          sendNotif('⭐ FAV: '+f.sym.toUpperCase()+' RSI '+f.rsi,'ALERTA: RSI >= '+alertRsi);
+        }
+      }
+    }catch(e){}
+    await new Promise(function(res){setTimeout(res,1200);});// esperar entre peticiones
+  }
+  saveFavs();
+  renderFavs();
+}
+
+// ============================================================
+// BUSCADOR COINGECKO
 // ============================================================
 var cgCache=null,watchTimer=null,watchActive=false,watchCoinId=null,watchSym=null,watchAlerted=false;
 
@@ -747,16 +954,17 @@ async function getCGList(){
 
 async function searchToken(){
   var raw=document.getElementById('searchSym').value.trim().toLowerCase();
+  var tf=document.getElementById('searchTf').value;
   if(!raw)return;
   document.getElementById('searchResult').style.display='none';
   document.getElementById('searchErr').textContent='BUSCANDO...';
-  document.getElementById('searchErr').style.color='#00aaff88';
+  document.getElementById('searchErr').style.color='#00aaff66';
   try{
     var list=await getCGList();
     var match=list.find(function(c){return c.symbol.toLowerCase()===raw||c.id.toLowerCase()===raw||c.name.toLowerCase()===raw;});
-    if(!match)throw new Error('"'+raw.toUpperCase()+'" no encontrado');
+    if(!match)throw new Error('"'+raw.toUpperCase()+'" NO ENCONTRADO');
     var r2=await fetch('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',{mode:'cors'});
-    if(!r2.ok)throw new Error('Error datos');
+    if(!r2.ok)throw new Error('ERROR DE DATOS');
     var coin=await r2.json();
     var md=coin.market_data;
     var price=md.current_price.usd||0;
@@ -770,31 +978,44 @@ async function searchToken(){
     var priceStr=price>=1?price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):price<0.0001?price.toExponential(4):price.toFixed(6);
     var volStr=vol24>=1e9?'$'+(vol24/1e9).toFixed(2)+'B':'$'+(vol24/1e6).toFixed(1)+'M';
     var mcapStr=mcap>=1e9?'$'+(mcap/1e9).toFixed(2)+'B':'$'+(mcap/1e6).toFixed(1)+'M';
-    document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+' / USD';
-    document.getElementById('srPrice').textContent='$'+priceStr+'  |  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H';
+
+    document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+'/USD';
+    document.getElementById('srPrice').textContent='$'+priceStr+'  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H';
     document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
-    document.getElementById('srInfo').textContent='VOL: '+volStr+'  |  MCAP: '+mcapStr+'  |  RANK #'+rank+'  |  RSI 14 · 7D';
+    document.getElementById('srInfo').textContent='VOL '+volStr+'  MCAP '+mcapStr+'  #'+rank+'  RSI 1H·7D';
+
     var rsiEl=document.getElementById('srRsi');
     if(rsi!==null){
       rsiEl.textContent=rsi.toFixed(1);rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
       document.getElementById('srRsiBar').style.width=rsi.toFixed(0)+'%';
       document.getElementById('srRsiBar').style.background=rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
     }else{rsiEl.textContent='--';rsiEl.className='sr-rsi mid';}
+
     var chgBar=Math.min(100,Math.max(0,50+chgPct*2));
     document.getElementById('srChgBar').style.width=chgBar.toFixed(0)+'%';
     document.getElementById('srChgBar').style.background=chgPct>=0?'#00ff88':'#ff4444';
+
     document.getElementById('searchErr').textContent='';
     document.getElementById('searchResult').style.display='block';
+
+    // Guardar datos actuales para favoritos
+    currentCoinData={id:coin.id,sym:coin.symbol.toUpperCase(),coinId:match.id};
+    updateFavStar();
+
+    // Watch
     watchCoinId=match.id;watchSym=coin.symbol;
     if(watchActive)stopWatch();
     var wb=document.getElementById('watchBtn');
-    wb.style.display='inline-flex';wb.textContent='👁 WATCH';wb.classList.remove('active');
-    document.getElementById('watchStatus').textContent='Presiona WATCH para monitorear RSI';
-    document.getElementById('watchStatus').className='watch-status';
+    wb.style.display='inline-flex';wb.textContent='👁';wb.classList.remove('active');
+    document.getElementById('watchStatus').textContent='';
     document.getElementById('watchAlert').style.display='none';
-    requestAnimationFrame(function(){var c=document.getElementById('srCanvas');if(rsiVals.length>0)drawSearchSparkline(c,rsiVals);});
+
+    requestAnimationFrame(function(){
+      var c=document.getElementById('srCanvas');
+      if(rsiVals.length>0)drawSearchSparkline(c,rsiVals);
+    });
   }catch(e){
-    document.getElementById('searchErr').style.color='#ff444477';
+    document.getElementById('searchErr').style.color='#ff444455';
     document.getElementById('searchErr').textContent='ERROR: '+e.message;
   }
 }
@@ -805,8 +1026,8 @@ function startWatch(){
   if(!watchCoinId)return;
   watchActive=true;watchAlerted=false;
   var btn=document.getElementById('watchBtn');
-  btn.textContent='⏹ STOP';btn.classList.add('active');
-  document.getElementById('watchStatus').textContent='MONITOREANDO '+watchSym.toUpperCase()+' — ALERTA EN RSI 85';
+  btn.textContent='⏹';btn.classList.add('active');
+  document.getElementById('watchStatus').textContent='WATCH: '+watchSym.toUpperCase()+' · ALERTA RSI 85';
   document.getElementById('watchStatus').className='watch-status on';
   document.getElementById('watchAlert').style.display='none';
   runWatch();
@@ -814,8 +1035,8 @@ function startWatch(){
 function stopWatch(){
   watchActive=false;if(watchTimer)clearTimeout(watchTimer);
   var btn=document.getElementById('watchBtn');
-  btn.textContent='👁 WATCH';btn.classList.remove('active');
-  document.getElementById('watchStatus').textContent='WATCH DETENIDO';
+  btn.textContent='👁';btn.classList.remove('active');
+  document.getElementById('watchStatus').textContent='';
   document.getElementById('watchStatus').className='watch-status';
   document.getElementById('watchAlert').style.display='none';
 }
@@ -835,41 +1056,38 @@ async function runWatch(){
       document.getElementById('srRsiBar').style.width=rsi.toFixed(0)+'%';
       document.getElementById('srRsiBar').style.background=rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
       var priceStr=price>=1?price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):price.toFixed(6);
-      document.getElementById('srPrice').textContent='$'+priceStr+'  |  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H';
+      document.getElementById('srPrice').textContent='$'+priceStr+'  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'%';
       document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
       var rsiVals=calcRSIArray(spark,14);
       requestAnimationFrame(function(){var c=document.getElementById('srCanvas');if(rsiVals.length>0)drawSearchSparkline(c,rsiVals);});
       var now=new Date().toLocaleTimeString('es-ES');
-      document.getElementById('watchStatus').textContent='WATCH: '+watchSym.toUpperCase()+' RSI '+rsi.toFixed(1)+' · '+now;
       if(rsi>=85&&!watchAlerted){
         watchAlerted=true;
-        playAlertStrong();playAlertStrong();
+        playWatchAlert();vibrate([300,100,300,100,300]);
         sendNotif('RSI 85 — '+watchSym.toUpperCase(),'RSI: '+rsi.toFixed(1)+' | $'+priceStr);
-        document.getElementById('watchAlert').textContent='RSI '+rsi.toFixed(1)+' ALCANZADO — '+watchSym.toUpperCase()+' @ $'+priceStr;
+        document.getElementById('watchAlert').textContent='RSI '+rsi.toFixed(1)+' — '+watchSym.toUpperCase();
         document.getElementById('watchAlert').style.display='block';
       }
       if(rsi<80&&watchAlerted){watchAlerted=false;document.getElementById('watchAlert').style.display='none';}
+      var sec=45;
+      document.getElementById('watchStatus').textContent='WATCH: '+watchSym.toUpperCase()+' RSI '+rsi.toFixed(1)+' · '+now;
     }
   }catch(e){}
   if(watchActive){
-    var sec=45;
-    document.getElementById('watchStatus').textContent='WATCH: '+watchSym.toUpperCase()+' · PROX: '+sec+'s';
-    var tick=setInterval(function(){
-      sec--;if(!watchActive){clearInterval(tick);return;}
-      document.getElementById('watchStatus').textContent='WATCH: '+watchSym.toUpperCase()+' · PROX: '+sec+'s';
-      if(sec<=0)clearInterval(tick);
-    },1000);
     watchTimer=setTimeout(runWatch,45000);
   }
 }
 
+// ENTER en buscador
 document.addEventListener('DOMContentLoaded',function(){
   var inp=document.getElementById('searchSym');
   if(inp)inp.addEventListener('keydown',function(e){if(e.key==='Enter')searchToken();});
 });
 
 window.onload=function(){
-  if('Notification' in window&&Notification.permission==='default') Notification.requestPermission();
+  if('Notification' in window&&Notification.permission==='default')Notification.requestPermission();
+  loadFavs();
+  if(favorites.length>0)startFavsLoop();
   scan();
 };
 </script>
