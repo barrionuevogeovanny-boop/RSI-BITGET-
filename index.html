@@ -81,6 +81,15 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 8px 10px;
     }
+    .ctrl-item.full-row {
+      grid-column: 1 / -1;
+      max-width: 280px;
+      margin: 0 auto;
+      width: 100%;
+      text-align: center;
+    }
+    .ctrl-item.full-row label { display:block; text-align:center; }
+    .ctrl-item.full-row select { text-align:center; }
     .ctrl-item { display: flex; flex-direction: column; gap: 4px; }
     .ctrl-item label {
       font-size: 8px; font-weight: 700;
@@ -330,7 +339,7 @@
   <div class="page active" id="pageScanner">
     <div class="ctrl">
       <div class="ctrl-grid">
-        <div class="ctrl-item c-blue">
+        <div class="ctrl-item c-blue full-row">
           <label>Timeframe</label>
           <select id="tf">
             <option value="15m">15 MIN</option>
@@ -339,16 +348,7 @@
             <option value="1d">1 DIA</option>
           </select>
         </div>
-        <div class="ctrl-item c-blue">
-          <label>Vol Minimo</label>
-          <select id="volMin">
-            <option value="0.5">$0.5M</option>
-            <option value="1" selected>$1M</option>
-            <option value="3">$3M</option>
-            <option value="5">$5M</option>
-            <option value="10">$10M</option>
-          </select>
-        </div>
+
         <div class="ctrl-item c-red">
           <label>RSI Venta &ge;</label>
           <select id="maxRsi">
@@ -774,7 +774,6 @@ async function scan(){
   var tf=document.getElementById('tf').value;
   var maxRsi=parseInt(document.getElementById('maxRsi').value);
   var minRsi=parseInt(document.getElementById('minRsi').value);
-  var volMin=parseFloat(document.getElementById('volMin').value)*1e6;
   var tfLabel={'15m':'15M','1h':'1H','4h':'4H','1d':'1D'}[tf];
 
   document.getElementById('subTxt').textContent='RSI >='+maxRsi+' VENTA  <='+minRsi+' COMPRA · '+tfLabel;
@@ -798,8 +797,7 @@ async function scan(){
              !t.symbol.includes('UPUSDT') &&
              !t.symbol.includes('DOWNUSDT') &&
              !t.symbol.includes('BULLUSDT') &&
-             !t.symbol.includes('BEARUSDT') &&
-             parseFloat(t.quoteVolume)>volMin;
+             !t.symbol.includes('BEARUSDT');
     })
     .sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
     .map(function(t){return t.symbol;});
@@ -953,7 +951,7 @@ async function updateFavs(){
 // ============================================================
 // BUSCADOR COINGECKO
 // ============================================================
-var cgCache=null,watchTimer=null,watchActive=false,watchCoinId=null,watchSym=null,watchAlerted=false;
+var cgCache=null,watchTimer=null,watchActive=false,watchCoinId=null,watchSym=null,watchAlerted=false,watchBinanceSym=null,watchBinanceTf="1h";
 
 async function fetchCG(url){
   // Reintentar hasta 3 veces con delay si falla (rate limit)
@@ -979,102 +977,109 @@ async function getCGList(){
 }
 
 async function searchToken(){
-  var raw=document.getElementById('searchSym').value.trim().toLowerCase();
+  var raw=document.getElementById('searchSym').value.trim().toUpperCase();
   var tf=document.getElementById('searchTf').value;
+  var tfLabel={'15m':'15M','1h':'1H','4h':'4H','1d':'1D'}[tf];
   if(!raw)return;
   document.getElementById('searchResult').style.display='none';
-  document.getElementById('searchErr').textContent='BUSCANDO...';
+  document.getElementById('watchAlert').style.display='none';
   document.getElementById('searchErr').style.color='#00aaff66';
-  try{
-    var list=await getCGList();
-    var match=list.find(function(c){return c.symbol.toLowerCase()===raw||c.id.toLowerCase()===raw||c.name.toLowerCase()===raw;});
-    if(!match)throw new Error('"'+raw.toUpperCase()+'" NO ENCONTRADO');
-    var r2=await fetchCG('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
-    if(!r2.ok)throw new Error('ERROR DE DATOS');
-    var coin=await r2.json();
-    var md=coin.market_data;
-    // Precio: siempre USD, nunca satoshis
-    var price=0;
-    if(md.current_price && md.current_price.usd && md.current_price.usd>0){
-      price=md.current_price.usd;
-    }
-    var chgPct=md.price_change_percentage_24h||0;
-    // Vol y mcap: intentar usd primero, luego calcular del precio*supply
-    var vol24=0,mcap=0;
-    if(md.total_volume){
-      vol24=md.total_volume.usd||md.total_volume.btc*price*100000000||0;
-      // Si sigue siendo 0, usar market_cap_fdv
-    }
-    if(md.market_cap){
-      mcap=md.market_cap.usd||md.fully_diluted_valuation&&md.fully_diluted_valuation.usd||0;
-    }
-    // Alternativa: circulating_supply * price
-    if(mcap===0&&md.circulating_supply&&price>0){
-      mcap=md.circulating_supply*price;
-    }
-    if(vol24===0&&md.total_volume&&md.total_volume.btc&&price>0){
-      // btc vol * precio BTC estimado
-      vol24=md.total_volume.btc*96000; // aprox precio BTC
-    }
-    var rank=coin.market_cap_rank||'?';
-    var spark7=md.sparkline_7d?md.sparkline_7d.price:[];
-    var rsi=spark7.length>=16?calcRSI(spark7,14):null;
-    var rsiVals=spark7.length>=16?calcRSIArray(spark7,14):[];
-    var priceStr;
-    if(price>=1000) priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
-    else if(price>=1) priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4});
-    else if(price>=0.01) priceStr=price.toFixed(4);
-    else if(price>=0.0001) priceStr=price.toFixed(6);
-    else priceStr=price.toFixed(8);
-    function fmtUSD(n){
-      if(n>=1e12)return '$'+(n/1e12).toFixed(2)+'T';
-      if(n>=1e9)return '$'+(n/1e9).toFixed(2)+'B';
-      if(n>=1e6)return '$'+(n/1e6).toFixed(1)+'M';
-      if(n>=1e3)return '$'+(n/1e3).toFixed(1)+'K';
-      return '$'+n.toFixed(0);
-    }
-    var volStr=fmtUSD(vol24);
-    var mcapStr=fmtUSD(mcap);
+  document.getElementById('searchErr').textContent='BUSCANDO...';
 
-    document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+'/USD';
+  function fmtP(p){
+    if(p>=1000)return p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    if(p>=1)return p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4});
+    if(p>=0.01)return p.toFixed(4);
+    if(p>=0.0001)return p.toFixed(6);
+    return p.toFixed(8);
+  }
+  function fmtUSD(n){
+    if(n>=1e12)return '$'+(n/1e12).toFixed(2)+'T';
+    if(n>=1e9)return '$'+(n/1e9).toFixed(2)+'B';
+    if(n>=1e6)return '$'+(n/1e6).toFixed(0)+'M';
+    if(n>=1e3)return '$'+(n/1e3).toFixed(0)+'K';
+    return n>0?'$'+n.toFixed(0):'--';
+  }
+  function showResult(symLabel,priceStr,chgPct,infoHtml,rsi,rsiVals,chgBar){
+    document.getElementById('srSym').textContent=symLabel;
     document.getElementById('srPrice').textContent='$'+priceStr;
     document.getElementById('srPrice').style.color='#00aaff';
-    // Cambio % en su propia linea con color
-    var chgEl=document.getElementById('srInfo');
-    chgEl.innerHTML='<span style="color:'+(chgPct>=0?'#00ff88':'#ff4444')+';font-weight:900;">'+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H</span>'+
-      '  <span style="color:#00aaff88;">VOL '+volStr+'  MCAP '+mcapStr+'  #'+rank+'</span>';
-    
-
+    document.getElementById('srInfo').innerHTML=infoHtml;
     var rsiEl=document.getElementById('srRsi');
     if(rsi!==null){
-      rsiEl.textContent=rsi.toFixed(1);rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
-      document.getElementById('srRsiBar').style.width=rsi.toFixed(0)+'%';
+      rsiEl.textContent=rsi.toFixed(1);
+      rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
+      document.getElementById('srRsiBar').style.width=Math.min(100,rsi).toFixed(0)+'%';
       document.getElementById('srRsiBar').style.background=rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
     }else{rsiEl.textContent='--';rsiEl.className='sr-rsi mid';}
-
-    var chgBar=Math.min(100,Math.max(0,50+chgPct*2));
-    document.getElementById('srChgBar').style.width=chgBar.toFixed(0)+'%';
+    var cb=Math.min(100,Math.max(0,50+chgPct*2));
+    document.getElementById('srChgBar').style.width=cb.toFixed(0)+'%';
     document.getElementById('srChgBar').style.background=chgPct>=0?'#00ff88':'#ff4444';
-
     document.getElementById('searchErr').textContent='';
     document.getElementById('searchResult').style.display='block';
-
-    // Guardar datos actuales para favoritos
-    currentCoinData={id:coin.id,sym:coin.symbol.toUpperCase(),coinId:match.id};
-    updateFavStar();
-
-    // Watch
-    watchCoinId=match.id;watchSym=coin.symbol;
-    if(watchActive)stopWatch();
     var wb=document.getElementById('watchBtn');
     wb.style.display='inline-flex';wb.textContent='👁';wb.classList.remove('active');
     document.getElementById('watchStatus').textContent='';
-    document.getElementById('watchAlert').style.display='none';
-
+    if(watchActive)stopWatch();
     requestAnimationFrame(function(){
       var c=document.getElementById('srCanvas');
-      if(rsiVals.length>0)drawSearchSparkline(c,rsiVals);
+      if(rsiVals&&rsiVals.length>0)drawSearchSparkline(c,rsiVals);
     });
+  }
+
+  // PASO 1: Binance (RSI real por timeframe)
+  var sym=raw.replace('USDT','')+'USDT';
+  try{
+    var rb=await fetch('https://data-api.binance.vision/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70',{mode:'cors'});
+    if(rb.ok){
+      var kdata=await rb.json();
+      if(kdata&&kdata.length>=16){
+        var closes=kdata.map(function(c){return parseFloat(c[4]);});
+        var rsi=calcRSI(closes,14);
+        var rsiVals=calcRSIArray(closes,14);
+        var price=closes[closes.length-1];
+        var chgPct=0,vol24=0;
+        try{
+          var rs=await fetch('https://data-api.binance.vision/api/v3/ticker/24hr?symbol='+sym,{mode:'cors'});
+          if(rs.ok){var sd=await rs.json();chgPct=parseFloat(sd.priceChangePercent)||0;vol24=parseFloat(sd.quoteVolume)||0;}
+        }catch(e){}
+        var infoHtml='<span style="color:'+(chgPct>=0?'#00ff88':'#ff4444')+';font-weight:900;">'+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H</span>'+
+          ' <span style="color:#00aaff66;"> VOL '+fmtUSD(vol24)+' · RSI '+tfLabel+'</span>';
+        watchBinanceSym=sym;watchBinanceTf=tf;watchCoinId=null;watchSym=raw.replace('USDT','');
+        currentCoinData={sym:raw.replace('USDT',''),coinId:null,binance:true};
+        updateFavStar();
+        showResult(raw.replace('USDT','')+'/USDT',fmtP(price),chgPct,infoHtml,rsi,rsiVals);
+        return;
+      }
+    }
+  }catch(e){}
+
+  // PASO 2: CoinGecko fallback
+  try{
+    document.getElementById('searchErr').textContent='BUSCANDO EN MERCADO GLOBAL...';
+    document.getElementById('searchErr').style.color='#ffcc0066';
+    var rw=raw.toLowerCase().replace('usdt','').trim();
+    var list=await getCGList();
+    var match=list.find(function(c){return c.symbol.toLowerCase()===rw||c.id.toLowerCase()===rw;});
+    if(!match)throw new Error('"'+raw+'" NO ENCONTRADO');
+    var r2=await fetchCG('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
+    var coin=await r2.json();
+    var md=coin.market_data;
+    var price2=md.current_price&&md.current_price.usd||0;
+    var chgPct2=md.price_change_percentage_24h||0;
+    var vol2=md.total_volume&&md.total_volume.usd||0;
+    var mcap2=md.market_cap&&md.market_cap.usd||0;
+    if(mcap2===0&&md.circulating_supply&&price2>0)mcap2=md.circulating_supply*price2;
+    var rank=coin.market_cap_rank||'?';
+    var spark=md.sparkline_7d?md.sparkline_7d.price:[];
+    var rsi2=spark.length>=16?calcRSI(spark,14):null;
+    var rsiVals2=spark.length>=16?calcRSIArray(spark,14):[];
+    var infoHtml2='<span style="color:'+(chgPct2>=0?'#00ff88':'#ff4444')+';font-weight:900;">'+(chgPct2>=0?'+':'')+chgPct2.toFixed(2)+'% 24H</span>'+
+      ' <span style="color:#ffcc0055;"> VOL '+fmtUSD(vol2)+' MCAP '+fmtUSD(mcap2)+' #'+rank+' ⚠ RSI APROX</span>';
+    watchBinanceSym=null;watchCoinId=match.id;watchSym=coin.symbol;
+    currentCoinData={sym:coin.symbol.toUpperCase(),coinId:match.id,binance:false};
+    updateFavStar();
+    showResult(coin.symbol.toUpperCase()+'/USD',fmtP(price2),chgPct2,infoHtml2,rsi2,rsiVals2);
   }catch(e){
     document.getElementById('searchErr').style.color='#ff444455';
     document.getElementById('searchErr').textContent='ERROR: '+e.message;
@@ -1104,13 +1109,30 @@ function stopWatch(){
 async function runWatch(){
   if(!watchActive||!watchCoinId)return;
   try{
-    var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+watchCoinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
-    if(!r.ok)throw new Error();
-    var coin=await r.json();
-    var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
-    var rsi=spark.length>=16?calcRSI(spark,14):null;
-    var price=coin.market_data.current_price.usd||0;
-    var chgPct=coin.market_data.price_change_percentage_24h||0;
+    var rsi=null,price=0,chgPct=0,rsiValsW=[];
+    if(watchBinanceSym){
+      // Watch con Binance - RSI real
+      var rw=await fetch('https://data-api.binance.vision/api/v3/klines?symbol='+watchBinanceSym+'&interval='+watchBinanceTf+'&limit=70',{mode:'cors'});
+      if(rw.ok){
+        var kw=await rw.json();
+        var cw=kw.map(function(c){return parseFloat(c[4]);});
+        rsi=calcRSI(cw,14);
+        rsiValsW=calcRSIArray(cw,14);
+        price=cw[cw.length-1];
+        var sw=await fetch('https://data-api.binance.vision/api/v3/ticker/24hr?symbol='+watchBinanceSym,{mode:'cors'});
+        if(sw.ok){var sd=await sw.json();chgPct=parseFloat(sd.priceChangePercent)||0;}
+      }
+    } else if(watchCoinId){
+      var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+watchCoinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
+      if(!r.ok)throw new Error();
+      var coin=await r.json();
+      var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
+      rsi=spark.length>=16?calcRSI(spark,14):null;
+      rsiValsW=spark.length>=16?calcRSIArray(spark,14):[];
+      price=coin.market_data.current_price.usd||0;
+      chgPct=coin.market_data.price_change_percentage_24h||0;
+    }
+
     if(rsi!==null){
       var rsiEl=document.getElementById('srRsi');
       rsiEl.textContent=rsi.toFixed(1);rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
@@ -1124,8 +1146,7 @@ async function runWatch(){
       else priceStr=price.toFixed(8);
       document.getElementById('srPrice').textContent='$'+priceStr+'  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'%';
       document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
-      var rsiVals=calcRSIArray(spark,14);
-      requestAnimationFrame(function(){var c=document.getElementById('srCanvas');if(rsiVals.length>0)drawSearchSparkline(c,rsiVals);});
+      requestAnimationFrame(function(){var c=document.getElementById('srCanvas');if(rsiValsW.length>0)drawSearchSparkline(c,rsiValsW);});
       var now=new Date().toLocaleTimeString('es-ES');
       if(rsi>=85&&!watchAlerted){
         watchAlerted=true;
