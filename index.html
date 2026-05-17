@@ -792,12 +792,21 @@ async function scan(){
     var res=await fetchWithFallback('/api/v3/ticker/24hr');
     var data=await res.json();
     // quoteVolume en Binance = volumen en USDT para pares USDT
+    // Filtrar pares reales - excluir tokens falsos/experimentales/margin
     symbols=data.filter(function(t){
-      return t.symbol.endsWith('USDT') && 
-             !t.symbol.includes('UPUSDT') &&
-             !t.symbol.includes('DOWNUSDT') &&
-             !t.symbol.includes('BULLUSDT') &&
-             !t.symbol.includes('BEARUSDT');
+      var s=t.symbol;
+      var vol=parseFloat(t.quoteVolume)||0;
+      return s.endsWith('USDT') && 
+             vol > 50000 &&          // min $50K vol - elimina tokens fantasma
+             !s.includes('UPUSDT') &&
+             !s.includes('DOWNUSDT') &&
+             !s.includes('BULLUSDT') &&
+             !s.includes('BEARUSDT') &&
+             !s.includes('3LUSDT') &&
+             !s.includes('3SUSDT') &&
+             !s.includes('2LUSDT') &&
+             !s.includes('2SUSDT') &&
+             s.length <= 15;         // simbolos muy largos son tokens raros
     })
     .sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
     .map(function(t){return t.symbol;});
@@ -870,13 +879,22 @@ function saveFavs(){try{localStorage.setItem('nexus_favs',JSON.stringify(favorit
 function loadFavs(){try{var d=localStorage.getItem('nexus_favs');if(d)favorites=JSON.parse(d);}catch(e){} renderFavs();}
 
 function toggleFav(){
-  if(!currentCoinData.coinId)return;
-  var idx=favorites.findIndex(function(f){return f.coinId===currentCoinData.coinId;});
+  if(!currentCoinData.sym)return;
+  // Usar sym como ID unico (funciona para Binance y CoinGecko)
+  var uid=currentCoinData.sym.toUpperCase();
+  var idx=favorites.findIndex(function(f){return f.uid===uid;});
   if(idx>=0){
     favorites.splice(idx,1);
   } else {
-    if(favorites.length>=5){alert('Máximo 5 favoritos');return;}
-    favorites.push({sym:currentCoinData.sym, coinId:currentCoinData.coinId, rsi:null});
+    if(favorites.length>=5){alert('Maximo 5 favoritos');return;}
+    favorites.push({
+      uid: uid,
+      sym: currentCoinData.sym,
+      coinId: currentCoinData.coinId||null,
+      binance: currentCoinData.binance||false,
+      binanceSym: currentCoinData.binance?(uid+'USDT'):null,
+      rsi: null
+    });
   }
   saveFavs();
   updateFavStar();
@@ -887,7 +905,8 @@ function toggleFav(){
 function updateFavStar(){
   var star=document.getElementById('favStar');
   if(!star)return;
-  var inFavs=favorites.some(function(f){return f.coinId===currentCoinData.coinId;});
+  var uid=currentCoinData.sym?currentCoinData.sym.toUpperCase():'';
+  var inFavs=favorites.some(function(f){return f.uid===uid;});
   star.classList.toggle('active',inFavs);
 }
 
@@ -910,7 +929,9 @@ function renderFavs(){
 
 function removeFav(idx){
   favorites.splice(idx,1);
-  saveFavs();renderFavs();updateFavStar();
+  saveFavs();
+  renderFavs();
+  updateFavStar();
   if(!favorites.length&&favsTimer){clearInterval(favsTimer);favsTimer=null;}
 }
 
@@ -923,14 +944,28 @@ function startFavsLoop(){
 async function updateFavs(){
   if(!favorites.length)return;
   var alertRsi=parseInt(document.getElementById('favsRsiAlert').value);
+  // Usar el timeframe del buscador para los favoritos de Binance
+  var favTf=document.getElementById('searchTf')?document.getElementById('searchTf').value:'1h';
   for(var i=0;i<favorites.length;i++){
     var f=favorites[i];
     try{
-      var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+f.coinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
-      if(!r.ok)continue;
-      var coin=await r.json();
-      var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
-      var rsi=spark.length>=16?calcRSI(spark,14):null;
+      var rsi=null;
+      if(f.binance&&f.binanceSym){
+        // Token de Binance - RSI real
+        var rb=await fetch('https://data-api.binance.vision/api/v3/klines?symbol='+f.binanceSym+'&interval='+favTf+'&limit=70',{mode:'cors'});
+        if(rb.ok){
+          var kdata=await rb.json();
+          var closes=kdata.map(function(c){return parseFloat(c[4]);});
+          rsi=calcRSI(closes,14);
+        }
+      } else if(f.coinId){
+        // Token de CoinGecko
+        var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+f.coinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
+        if(!r.ok)continue;
+        var coin=await r.json();
+        var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
+        rsi=spark.length>=16?calcRSI(spark,14):null;
+      }
       if(rsi!==null){
         var prev=f.rsi;
         f.rsi=Math.round(rsi*10)/10;
@@ -1027,11 +1062,25 @@ async function searchToken(){
     });
   }
 
-  // PASO 1: Binance (RSI real por timeframe)
+  // PASO 1: Binance (RSI real por timeframe) - intentar todos los endpoints
   var sym=raw.replace('USDT','')+'USDT';
+  var binanceEndpoints=[
+    'https://data-api.binance.vision',
+    'https://api.binance.com',
+    'https://api1.binance.com',
+    'https://api2.binance.com'
+  ];
   try{
-    var rb=await fetch('https://data-api.binance.vision/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70',{mode:'cors'});
-    if(rb.ok){
+    var rb=null;
+    for(var ei=0;ei<binanceEndpoints.length;ei++){
+      try{
+        var ep=binanceEndpoints[ei];
+        var rbt=await fetch(ep+'/api/v3/klines?symbol='+sym+'&interval='+tf+'&limit=70',{mode:'cors'});
+        if(rbt.ok){rb=rbt;break;}
+      }catch(e){}
+    }
+    if(!rb) throw new Error('no binance');
+    {
       var kdata=await rb.json();
       if(kdata&&kdata.length>=16){
         var closes=kdata.map(function(c){return parseFloat(c[4]);});
