@@ -248,7 +248,7 @@
     .fav-star { cursor:pointer; font-size:16px; color:#ffcc0044; transition:all 0.2s; }
     .fav-star.active { color:#ffcc00; text-shadow:0 0 8px #ffcc00; }
     .sr-price { font-size:13px; font-weight:700; margin-top:3px; font-family:'Orbitron',monospace; color:#00aaff; }
-    .sr-info-txt { font-size:9px; color:#00aaff; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
+    .sr-info-txt { font-size:9px; color:#00aaff88; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
     .sr-rsi-box { text-align:right; }
     .sr-rsi { font-size:28px; font-weight:900; font-family:'Orbitron',monospace; }
     .sr-rsi.high { color:#ff4444; text-shadow:0 0 10px #ff444455; }
@@ -792,10 +792,19 @@ async function scan(){
   try{
     var res=await fetchWithFallback('/api/v3/ticker/24hr');
     var data=await res.json();
-    symbols=data.filter(function(t){return t.symbol.endsWith('USDT')&&parseFloat(t.quoteVolume)>volMin;})
-      .sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
-      .map(function(t){return t.symbol;});
-    addLog(symbols.length+' PARES LISTOS');
+    // quoteVolume en Binance = volumen en USDT para pares USDT
+    symbols=data.filter(function(t){
+      return t.symbol.endsWith('USDT') && 
+             !t.symbol.includes('UPUSDT') &&
+             !t.symbol.includes('DOWNUSDT') &&
+             !t.symbol.includes('BULLUSDT') &&
+             !t.symbol.includes('BEARUSDT') &&
+             parseFloat(t.quoteVolume)>volMin;
+    })
+    .sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
+    .map(function(t){return t.symbol;});
+    addLog(symbols.length+' PARES ACTIVOS');
+    if(symbols.length<30) addLog('BAJA EL VOLUMEN MINIMO PARA VER MAS');
   }catch(e){addLog('ERROR DE CONEXION');running=false;startCD(CD);return;}
 
   var done=0,sellSigs=[],buySigs=[],errors=0;
@@ -841,7 +850,7 @@ async function scan(){
       document.getElementById('progFill').style.width=Math.round(done/symbols.length*100)+'%';
       document.getElementById('progTxt').innerHTML='<span class="pdot"></span>'+done+'/'+symbols.length+' · '+sellSigs.length+'V '+buySigs.length+'C';
     }));
-    await new Promise(function(r){setTimeout(r,80);});// delay entre lotes
+    await new Promise(function(r){setTimeout(r,60);});// delay entre lotes
   }
 
   document.getElementById('progArea').style.display='none';
@@ -952,15 +961,15 @@ async function fetchCG(url){
     try{
       var r=await fetch(url,{mode:'cors'});
       if(r.status===429){// rate limit
-        await new Promise(function(res){setTimeout(res,2000+attempt*1000);});
+        await new Promise(function(res){setTimeout(res,3000+attempt*2000);});
         continue;
       }
       if(r.ok)return r;
     }catch(e){
-      if(attempt<2)await new Promise(function(res){setTimeout(res,1500);});
+      if(attempt<2)await new Promise(function(res){setTimeout(res,2500);});
     }
   }
-  throw new Error('SIN CONEXION — INTENTA EN UNOS SEGUNDOS');
+  throw new Error('LIMITE DE BUSQUEDAS — ESPERA 10 SEGUNDOS E INTENTA');
 }
 
 async function getCGList(){
@@ -984,10 +993,29 @@ async function searchToken(){
     if(!r2.ok)throw new Error('ERROR DE DATOS');
     var coin=await r2.json();
     var md=coin.market_data;
-    var price=md.current_price.usd||0;
+    // Precio: siempre USD, nunca satoshis
+    var price=0;
+    if(md.current_price && md.current_price.usd && md.current_price.usd>0){
+      price=md.current_price.usd;
+    }
     var chgPct=md.price_change_percentage_24h||0;
-    var vol24=md.total_volume.usd||0;
-    var mcap=md.market_cap.usd||0;
+    // Vol y mcap: intentar usd primero, luego calcular del precio*supply
+    var vol24=0,mcap=0;
+    if(md.total_volume){
+      vol24=md.total_volume.usd||md.total_volume.btc*price*100000000||0;
+      // Si sigue siendo 0, usar market_cap_fdv
+    }
+    if(md.market_cap){
+      mcap=md.market_cap.usd||md.fully_diluted_valuation&&md.fully_diluted_valuation.usd||0;
+    }
+    // Alternativa: circulating_supply * price
+    if(mcap===0&&md.circulating_supply&&price>0){
+      mcap=md.circulating_supply*price;
+    }
+    if(vol24===0&&md.total_volume&&md.total_volume.btc&&price>0){
+      // btc vol * precio BTC estimado
+      vol24=md.total_volume.btc*96000; // aprox precio BTC
+    }
     var rank=coin.market_cap_rank||'?';
     var spark7=md.sparkline_7d?md.sparkline_7d.price:[];
     var rsi=spark7.length>=16?calcRSI(spark7,14):null;
@@ -998,14 +1026,23 @@ async function searchToken(){
     else if(price>=0.01) priceStr=price.toFixed(4);
     else if(price>=0.0001) priceStr=price.toFixed(6);
     else priceStr=price.toFixed(8);
-    var volStr=vol24>=1e9?'$'+(vol24/1e9).toFixed(2)+'B':'$'+(vol24/1e6).toFixed(1)+'M';
-    var mcapStr=mcap>=1e9?'$'+(mcap/1e9).toFixed(2)+'B':'$'+(mcap/1e6).toFixed(1)+'M';
+    function fmtUSD(n){
+      if(n>=1e12)return '$'+(n/1e12).toFixed(2)+'T';
+      if(n>=1e9)return '$'+(n/1e9).toFixed(2)+'B';
+      if(n>=1e6)return '$'+(n/1e6).toFixed(1)+'M';
+      if(n>=1e3)return '$'+(n/1e3).toFixed(1)+'K';
+      return '$'+n.toFixed(0);
+    }
+    var volStr=fmtUSD(vol24);
+    var mcapStr=fmtUSD(mcap);
 
     document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+'/USD';
     document.getElementById('srPrice').textContent='$'+priceStr;
     document.getElementById('srPrice').style.color='#00aaff';
-    document.getElementById('srInfo').textContent=(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H  ·  VOL '+volStr+'  ·  MCAP '+mcapStr+'  ·  #'+rank;
-    document.getElementById('srInfo').style.color=chgPct>=0?'#00ff88':'#ff4444';
+    // Cambio % en su propia linea con color
+    var chgEl=document.getElementById('srInfo');
+    chgEl.innerHTML='<span style="color:'+(chgPct>=0?'#00ff88':'#ff4444')+';font-weight:900;">'+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H</span>'+
+      '  <span style="color:#00aaff88;">VOL '+volStr+'  MCAP '+mcapStr+'  #'+rank+'</span>';
     
 
     var rsiEl=document.getElementById('srRsi');
