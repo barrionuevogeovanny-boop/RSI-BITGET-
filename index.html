@@ -247,8 +247,8 @@
     .sr-sym { font-size:17px; font-weight:900; color:#fff; letter-spacing:1px; font-family:'Orbitron',monospace; display:flex; align-items:center; gap:8px; }
     .fav-star { cursor:pointer; font-size:16px; color:#ffcc0044; transition:all 0.2s; }
     .fav-star.active { color:#ffcc00; text-shadow:0 0 8px #ffcc00; }
-    .sr-price { font-size:11px; margin-top:3px; font-family:'Orbitron',monospace; }
-    .sr-info-txt { font-size:8px; color:#00aaff66; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
+    .sr-price { font-size:13px; font-weight:700; margin-top:3px; font-family:'Orbitron',monospace; color:#00aaff; }
+    .sr-info-txt { font-size:9px; color:#00aaff; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-top:2px; font-family:'Orbitron',monospace; }
     .sr-rsi-box { text-align:right; }
     .sr-rsi { font-size:28px; font-weight:900; font-family:'Orbitron',monospace; }
     .sr-rsi.high { color:#ff4444; text-shadow:0 0 10px #ff444455; }
@@ -339,11 +339,12 @@
             <option value="1d">1 DIA</option>
           </select>
         </div>
-        <div class="ctrl-item c-yellow">
+        <div class="ctrl-item c-blue">
           <label>Vol Minimo</label>
           <select id="volMin">
-            <option value="1">$1M</option>
-            <option value="3" selected>$3M</option>
+            <option value="0.5">$0.5M</option>
+            <option value="1" selected>$1M</option>
+            <option value="3">$3M</option>
             <option value="5">$5M</option>
             <option value="10">$10M</option>
           </select>
@@ -918,7 +919,7 @@ async function updateFavs(){
   for(var i=0;i<favorites.length;i++){
     var f=favorites[i];
     try{
-      var r=await fetch('https://api.coingecko.com/api/v3/coins/'+f.coinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',{mode:'cors'});
+      var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+f.coinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
       if(!r.ok)continue;
       var coin=await r.json();
       var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
@@ -945,10 +946,26 @@ async function updateFavs(){
 // ============================================================
 var cgCache=null,watchTimer=null,watchActive=false,watchCoinId=null,watchSym=null,watchAlerted=false;
 
+async function fetchCG(url){
+  // Reintentar hasta 3 veces con delay si falla (rate limit)
+  for(var attempt=0;attempt<3;attempt++){
+    try{
+      var r=await fetch(url,{mode:'cors'});
+      if(r.status===429){// rate limit
+        await new Promise(function(res){setTimeout(res,2000+attempt*1000);});
+        continue;
+      }
+      if(r.ok)return r;
+    }catch(e){
+      if(attempt<2)await new Promise(function(res){setTimeout(res,1500);});
+    }
+  }
+  throw new Error('SIN CONEXION — INTENTA EN UNOS SEGUNDOS');
+}
+
 async function getCGList(){
   if(cgCache)return cgCache;
-  var r=await fetch('https://api.coingecko.com/api/v3/coins/list',{mode:'cors'});
-  if(!r.ok)throw new Error('Error de conexion');
+  var r=await fetchCG('https://api.coingecko.com/api/v3/coins/list');
   cgCache=await r.json();return cgCache;
 }
 
@@ -963,7 +980,7 @@ async function searchToken(){
     var list=await getCGList();
     var match=list.find(function(c){return c.symbol.toLowerCase()===raw||c.id.toLowerCase()===raw||c.name.toLowerCase()===raw;});
     if(!match)throw new Error('"'+raw.toUpperCase()+'" NO ENCONTRADO');
-    var r2=await fetch('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',{mode:'cors'});
+    var r2=await fetchCG('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
     if(!r2.ok)throw new Error('ERROR DE DATOS');
     var coin=await r2.json();
     var md=coin.market_data;
@@ -975,14 +992,21 @@ async function searchToken(){
     var spark7=md.sparkline_7d?md.sparkline_7d.price:[];
     var rsi=spark7.length>=16?calcRSI(spark7,14):null;
     var rsiVals=spark7.length>=16?calcRSIArray(spark7,14):[];
-    var priceStr=price>=1?price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):price<0.0001?price.toExponential(4):price.toFixed(6);
+    var priceStr;
+    if(price>=1000) priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+    else if(price>=1) priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4});
+    else if(price>=0.01) priceStr=price.toFixed(4);
+    else if(price>=0.0001) priceStr=price.toFixed(6);
+    else priceStr=price.toFixed(8);
     var volStr=vol24>=1e9?'$'+(vol24/1e9).toFixed(2)+'B':'$'+(vol24/1e6).toFixed(1)+'M';
     var mcapStr=mcap>=1e9?'$'+(mcap/1e9).toFixed(2)+'B':'$'+(mcap/1e6).toFixed(1)+'M';
 
     document.getElementById('srSym').textContent=coin.symbol.toUpperCase()+'/USD';
-    document.getElementById('srPrice').textContent='$'+priceStr+'  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H';
-    document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
-    document.getElementById('srInfo').textContent='VOL '+volStr+'  MCAP '+mcapStr+'  #'+rank+'  RSI 1H·7D';
+    document.getElementById('srPrice').textContent='$'+priceStr;
+    document.getElementById('srPrice').style.color='#00aaff';
+    document.getElementById('srInfo').textContent=(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H  ·  VOL '+volStr+'  ·  MCAP '+mcapStr+'  ·  #'+rank;
+    document.getElementById('srInfo').style.color=chgPct>=0?'#00ff88':'#ff4444';
+    
 
     var rsiEl=document.getElementById('srRsi');
     if(rsi!==null){
@@ -1043,7 +1067,7 @@ function stopWatch(){
 async function runWatch(){
   if(!watchActive||!watchCoinId)return;
   try{
-    var r=await fetch('https://api.coingecko.com/api/v3/coins/'+watchCoinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true',{mode:'cors'});
+    var r=await fetchCG('https://api.coingecko.com/api/v3/coins/'+watchCoinId+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
     if(!r.ok)throw new Error();
     var coin=await r.json();
     var spark=coin.market_data.sparkline_7d?coin.market_data.sparkline_7d.price:[];
@@ -1055,7 +1079,12 @@ async function runWatch(){
       rsiEl.textContent=rsi.toFixed(1);rsiEl.className='sr-rsi '+(rsi>=70?'high':(rsi<=30?'low':'mid'));
       document.getElementById('srRsiBar').style.width=rsi.toFixed(0)+'%';
       document.getElementById('srRsiBar').style.background=rsi>=70?'#ff4444':(rsi<=30?'#00ff88':'#ffcc00');
-      var priceStr=price>=1?price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4}):price.toFixed(6);
+      var priceStr;
+      if(price>=1000)priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+      else if(price>=1)priceStr=price.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4});
+      else if(price>=0.01)priceStr=price.toFixed(4);
+      else if(price>=0.0001)priceStr=price.toFixed(6);
+      else priceStr=price.toFixed(8);
       document.getElementById('srPrice').textContent='$'+priceStr+'  '+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'%';
       document.getElementById('srPrice').style.color=chgPct>=0?'#00ff88':'#ff4444';
       var rsiVals=calcRSIArray(spark,14);
