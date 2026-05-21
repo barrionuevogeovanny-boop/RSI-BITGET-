@@ -16,16 +16,21 @@ const LIMIT_KLINES= 70;                    // velas por par
 const EXCLUDE = ['UP','DOWN','BULL','BEAR','3L','3S','2L','2S'];
 
 // ─── HTTP helper ─────────────────────────────────────────────
-function get(url) {
+function get(url, timeoutMs = 8000) {
   return new Promise((resolve, reject) => {
-    https.get(url, { headers: { 'User-Agent': 'NexusRSI/1.0' } }, res => {
+    const req = https.get(url, { headers: { 'User-Agent': 'NexusRSI/1.0' } }, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
         try { resolve(JSON.parse(data)); }
         catch(e) { reject(new Error('JSON parse error')); }
       });
-    }).on('error', reject);
+    });
+    req.on('error', reject);
+    req.setTimeout(timeoutMs, () => {
+      req.destroy();
+      reject(new Error('Timeout'));
+    });
   });
 }
 
@@ -92,9 +97,9 @@ async function main() {
   for (const tf of TIMEFRAMES) {
     results[tf] = { sell: [], buy: [], scanned: 0 };
 
-    // Procesar en lotes de 10 con delay
-    for (let i = 0; i < symbols.length; i += 10) {
-      const batch = symbols.slice(i, i + 10);
+    // Procesar en lotes de 20 con delay minimo
+    for (let i = 0; i < symbols.length; i += 20) {
+      const batch = symbols.slice(i, i + 20);
 
       await Promise.all(batch.map(async ({ symbol, price, vol }) => {
         try {
@@ -125,13 +130,13 @@ async function main() {
             console.log(`  [${tf}] BUY  ${symbol} RSI:${entry.rsi}`);
           }
 
-          results[tf].scanned++;
         } catch(e) {
-          // silencioso - continuar con siguiente par
+          // silencioso - continuar
         }
+        results[tf].scanned++;
       }));
 
-      await sleep(100); // 100ms entre lotes
+      await sleep(50); // 50ms entre lotes
     }
 
     console.log(`  [${tf}] Done: ${results[tf].sell.length} ventas, ${results[tf].buy.length} compras`);
