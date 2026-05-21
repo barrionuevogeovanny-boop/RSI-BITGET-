@@ -63,6 +63,15 @@ async function main() {
     tickers = await get('https://data-api.binance.vision/api/v3/ticker/24hr');
   }
 
+  // Binance a veces devuelve objeto con error en vez de array
+  if (!Array.isArray(tickers)) {
+    // Intentar endpoint alternativo directamente
+    tickers = await get('https://data-api.binance.vision/api/v3/ticker/24hr');
+  }
+  if (!Array.isArray(tickers)) {
+    throw new Error('API Binance no devolvio array valido');
+  }
+
   const symbols = tickers
     .filter(t => {
       const s   = t.symbol;
