@@ -1,15 +1,54 @@
 {
-  "updated": "2025-01-01T00:00:00.000Z",
-  "updated_ts": 0,
+  "updated": "2026-05-21T20:47:32.382Z",
+  "updated_ts": 1779396452382,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
     "vol_min": 4000000,
-    "timeframes": ["15m", "1h", "4h"]
+    "timeframes": [
+      "15m",
+      "1h",
+      "4h"
+    ]
   },
   "signals": {
-    "15m": { "sell": [], "buy": [], "scanned": 0 },
-    "1h":  { "sell": [], "buy": [], "scanned": 0 },
-    "4h":  { "sell": [], "buy": [], "scanned": 0 }
+    "15m": {
+      "sell": [],
+      "buy": [],
+      "scanned": 84
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "PLUMEUSDT",
+          "rsi": 82.6,
+          "price": 0.01429,
+          "vol": 4962047.37717,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 84
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "NEARUSDT",
+          "rsi": 81.2,
+          "price": 1.942,
+          "vol": 63629087.3433,
+          "label": "ALTO"
+        },
+        {
+          "sym": "2ZUSDT",
+          "rsi": 80.7,
+          "price": 0.116,
+          "vol": 7307203.21011,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 84
+    }
   }
 }
