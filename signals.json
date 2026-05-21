@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-21T21:03:23.955Z",
-  "updated_ts": 1779397403955,
+  "updated": "2026-05-21T23:39:48.030Z",
+  "updated_ts": 1779406788030,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,40 +15,33 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 84
+      "scanned": 86
     },
     "1h": {
       "sell": [
         {
           "sym": "PLUMEUSDT",
-          "rsi": 84.4,
-          "price": 0.01464,
-          "vol": 5082512.89187,
+          "rsi": 81.3,
+          "price": 0.0145,
+          "vol": 6112064.71979,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 84
+      "scanned": 86
     },
     "4h": {
       "sell": [
         {
           "sym": "NEARUSDT",
-          "rsi": 81.7,
-          "price": 1.954,
-          "vol": 64551404.9207,
-          "label": "ALTO"
-        },
-        {
-          "sym": "2ZUSDT",
-          "rsi": 80.3,
-          "price": 0.11559,
-          "vol": 7215292.35685,
+          "rsi": 80.9,
+          "price": 1.936,
+          "vol": 69231182.9402,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 84
+      "scanned": 86
     }
   }
 }
