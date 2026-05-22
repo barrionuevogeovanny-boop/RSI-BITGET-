@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-21T23:39:48.030Z",
-  "updated_ts": 1779406788030,
+  "updated": "2026-05-22T10:37:42.866Z",
+  "updated_ts": 1779446262866,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,34 +14,71 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 86
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 23.7,
+          "price": 0.011206,
+          "vol": 4221089.941735,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 84
     },
     "1h": {
       "sell": [
         {
-          "sym": "PLUMEUSDT",
-          "rsi": 81.3,
-          "price": 0.0145,
-          "vol": 6112064.71979,
+          "sym": "NEARUSDT",
+          "rsi": 84.8,
+          "price": 2.252,
+          "vol": 142717239.071,
           "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 86
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 24.5,
+          "price": 0.011206,
+          "vol": 4221089.941735,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 84
     },
     "4h": {
       "sell": [
         {
           "sym": "NEARUSDT",
+          "rsi": 89.5,
+          "price": 2.252,
+          "vol": 142717239.071,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ALTUSDT",
+          "rsi": 85.1,
+          "price": 0.00999,
+          "vol": 23706539.4375,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "EDENUSDT",
+          "rsi": 81.7,
+          "price": 0.1596,
+          "vol": 41928447.33969,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LPTUSDT",
           "rsi": 80.9,
-          "price": 1.936,
-          "vol": 69231182.9402,
+          "price": 2.302,
+          "vol": 8737236.50269,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 86
+      "scanned": 84
     }
   }
 }
