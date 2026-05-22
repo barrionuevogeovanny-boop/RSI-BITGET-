@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-22T10:37:42.866Z",
-  "updated_ts": 1779446262866,
+  "updated": "2026-05-22T17:27:07.176Z",
+  "updated_ts": 1779470827176,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,69 +16,40 @@
       "sell": [],
       "buy": [
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 23.7,
-          "price": 0.011206,
-          "vol": 4221089.941735,
-          "label": "SOBREVENDIDO"
+          "sym": "SAHARAUSDT",
+          "rsi": 17.2,
+          "price": 0.03269,
+          "vol": 35722246.17371,
+          "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 83
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "NEARUSDT",
-          "rsi": 84.8,
-          "price": 2.252,
-          "vol": 142717239.071,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 24.5,
-          "price": 0.011206,
-          "vol": 4221089.941735,
-          "label": "SOBREVENDIDO"
+          "sym": "KITEUSDT",
+          "rsi": 16.1,
+          "price": 0.2067,
+          "vol": 4509164.38528,
+          "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 81
     },
     "4h": {
       "sell": [
         {
           "sym": "NEARUSDT",
-          "rsi": 89.5,
-          "price": 2.252,
-          "vol": 142717239.071,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ALTUSDT",
-          "rsi": 85.1,
-          "price": 0.00999,
-          "vol": 23706539.4375,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "EDENUSDT",
-          "rsi": 81.7,
-          "price": 0.1596,
-          "vol": 41928447.33969,
-          "label": "ALTO"
-        },
-        {
-          "sym": "LPTUSDT",
-          "rsi": 80.9,
-          "price": 2.302,
-          "vol": 8737236.50269,
+          "rsi": 80.1,
+          "price": 2.176,
+          "vol": 178424358.3117,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 84
+      "scanned": 81
     }
   }
 }
