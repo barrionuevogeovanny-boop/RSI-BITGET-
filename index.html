@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>NEXUS RSI</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
@@ -873,7 +873,7 @@ async function scan(){
 
   try{
     // Leer signals.json generado por GitHub Actions
-    var REPO_URL='signals.json';
+    var REPO_URL='https://barrionuevogeovanny-boop.github.io/RSI-BITGET-/signals.json';
     var res=await fetch(REPO_URL+'?t='+Date.now(),{cache:'no-store'});
     if(!res.ok) throw new Error('No se pudo cargar signals.json');
     var data=await res.json();
