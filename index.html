@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
- <link rel="manifest" href="manifest.json">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -130,6 +129,16 @@
       cursor: pointer; white-space: nowrap;
     }
     .sound-btn.on { color: #00ffcc; border-color: #00ffcc55; background: rgba(0,255,204,0.12); }
+    .live-btn {
+      background: rgba(255,200,0,0.12); color: #ffcc00;
+      border: 1px solid #ffcc0044; border-radius: 99px;
+      padding: 5px 12px; font-size: 8px; font-weight: 700;
+      font-family: 'Orbitron', monospace; text-transform: uppercase;
+      letter-spacing: 1px; cursor: pointer; white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .live-btn:hover { background: rgba(255,200,0,0.25); }
+    .live-btn:disabled { color: #ffcc0033; border-color: #ffcc0011; cursor: not-allowed; }
 
     /* COUNTDOWN */
     .cd-wrap {
@@ -342,7 +351,7 @@
       <div class="ctrl-grid">
         <div class="ctrl-item c-blue full-row">
           <label>Timeframe</label>
-          <select id="tf">
+          <select id="tf" onchange="onTfChange()">
             <option value="15m">15 MIN</option>
             <option value="1h" selected>1 HORA</option>
             <option value="4h">4 HORAS</option>
@@ -354,10 +363,10 @@
           <label>RSI Venta &ge;</label>
           <select id="maxRsi">
             <option value="70">70</option>
-            <option value="75">75</option>
+            <option value="75" selected>75</option>
             <option value="80">80</option>
             <option value="85">85</option>
-            <option value="90" selected>90</option>
+            <option value="90">90</option>
           </select>
         </div>
         <div class="ctrl-item c-green">
@@ -365,8 +374,8 @@
           <select id="minRsi">
             <option value="35">35</option>
             <option value="30">30</option>
-            <option value="25">25</option>
-            <option value="20" selected>20</option>
+            <option value="25" selected>25</option>
+            <option value="20">20</option>
             <option value="15">15</option>
             <option value="10">10</option>
           </select>
@@ -376,6 +385,7 @@
 
     <div class="top-bar">
       <button class="sound-btn on" id="btnSound" onclick="toggleSound()">🔔 SONIDO</button>
+      <button class="live-btn" id="btnLive" onclick="scanLive15m()" style="display:none">⚡ 15M LIVE</button>
       <div class="cd-wrap">
         <span class="cd-label">NEXT:</span>
         <div class="cbar-bg"><div class="cbar-fill" id="cbarFill" style="width:100%"></div></div>
@@ -414,7 +424,7 @@
       <div class="search-card-title">&#9740; BUSCADOR CRIPTO UNIVERSAL</div>
       <div class="search-row">
         <input class="search-input" id="searchSym" type="text" placeholder="BTC, PEPE..." maxlength="20"/>
-        <select class="search-tf" id="searchTf">
+        <select class="search-tf" id="searchTf" onchange="if(document.getElementById('searchSym').value.trim()) searchToken()">
           <option value="1h" selected>1H</option>
           <option value="15m">15M</option>
           <option value="4h">4H</option>
@@ -758,6 +768,47 @@ async function fetchWithFallback(path){
   throw new Error('Sin conexion');
 }
 
+// ── Control boton LIVE 15M ──────────────────────────────────
+var liveCooldown = false;
+
+function onTfChange(){
+  var tf = document.getElementById('tf').value;
+  var btn = document.getElementById('btnLive');
+  if(tf === '15m'){
+    btn.style.display = 'inline-flex';
+  } else {
+    btn.style.display = 'none';
+  }
+}
+
+async function scanLive15m(){
+  if(liveCooldown) return;
+  liveCooldown = true;
+  var btn = document.getElementById('btnLive');
+  btn.disabled = true;
+
+  // Cooldown visual 38 segundos
+  var secs = 38;
+  var orig = '⚡ 15M LIVE';
+  var iv = setInterval(function(){
+    secs--;
+    btn.textContent = '⏳ ' + secs + 'S';
+    if(secs <= 0){
+      clearInterval(iv);
+      btn.textContent = orig;
+      btn.disabled = false;
+      liveCooldown = false;
+    }
+  }, 1000);
+
+  // Scan directo a Binance para 15m
+  await scanDirect('15m',
+    parseInt(document.getElementById('maxRsi').value),
+    parseInt(document.getElementById('minRsi').value),
+    '15M'
+  );
+}
+
 function startCD(sec){
   if(cdTimer)clearInterval(cdTimer);
   var v=sec;
@@ -881,7 +932,7 @@ async function scanDirect(tf,maxRsi,minRsi,tfLabel){
     var data=await res.json();
     symbols=data.filter(function(t){
       var vol=parseFloat(t.quoteVolume)||0;
-      return t.symbol.endsWith('USDT')&&vol>4000000&&t.symbol.length<=15&&
+      return t.symbol.endsWith('USDT')&&vol>2000000&&t.symbol.length<=15&&
              !['UP','DOWN','BULL','BEAR','3L','3S','2L','2S'].some(function(ex){return t.symbol.includes(ex+'USDT');});
     }).sort(function(a,b){return parseFloat(b.quoteVolume)-parseFloat(a.quoteVolume);})
     .map(function(t){return t.symbol;});
