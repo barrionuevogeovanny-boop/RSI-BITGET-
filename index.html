@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <script src="capacitor.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>NEXUS RSI</title>
@@ -148,6 +149,7 @@
       border-radius: 99px; padding: 5px 12px;
       display: flex; align-items: center; gap: 7px;
     }
+    .cd-wrap.hidden { visibility: hidden; }
     .cd-label { font-size: 8px; color: #00ffcc66; text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; font-family:'Orbitron',monospace; }
     .cbar-bg { flex:1; height:3px; background:#00ffcc11; border-radius:2px; overflow:hidden; }
     .cbar-fill { height:3px; border-radius:2px; transition:width 1s linear; background: linear-gradient(90deg,#00ffcc,#00aaff); box-shadow:0 0 5px #00ffcc; }
@@ -385,7 +387,7 @@
 
     <div class="top-bar">
       <button class="sound-btn on" id="btnSound" onclick="toggleSound()">🔔 SONIDO</button>
-      <button class="live-btn" id="btnLive" onclick="scanLive15m()" style="display:none">⚡ 15M LIVE</button>
+      <button class="live-btn" id="btnLive" onclick="scanLive15m()" style="display:none">⚡ SCANNER</button>
       <div class="cd-wrap">
         <span class="cd-label">NEXT:</span>
         <div class="cbar-bg"><div class="cbar-fill" id="cbarFill" style="width:100%"></div></div>
@@ -776,8 +778,22 @@ function onTfChange(){
   var btn = document.getElementById('btnLive');
   if(tf === '15m'){
     btn.style.display = 'inline-flex';
+    // Parar countdown y scan automatico
+    if(cdTimer){ clearInterval(cdTimer); cdTimer=null; }
+    var cdw=document.querySelector('.cd-wrap');
+    if(cdw)cdw.classList.add('hidden');
+    document.getElementById('cdNum').textContent='--';
+    document.getElementById('cbarFill').style.width='0%';
+    document.getElementById('subTxt').textContent='15M · PRESIONA ⚡ SCANNER';
+    document.getElementById('updateTxt').textContent='';
+    document.getElementById('progArea').style.display='none';
+    document.getElementById('logbox').style.display='none';
+    running=false;
   } else {
+    var cdw=document.querySelector('.cd-wrap');
+    if(cdw)cdw.classList.remove('hidden');
     btn.style.display = 'none';
+    if(!running) scan();
   }
 }
 
@@ -789,13 +805,13 @@ async function scanLive15m(){
 
   // Cooldown visual 38 segundos
   var secs = 38;
-  var orig = '⚡ 15M LIVE';
+  var orig = '⚡ SCANNER';
   var iv = setInterval(function(){
     secs--;
     btn.textContent = '⏳ ' + secs + 'S';
     if(secs <= 0){
       clearInterval(iv);
-      btn.textContent = orig;
+      btn.textContent = '⚡ SCANNER';
       btn.disabled = false;
       liveCooldown = false;
     }
@@ -821,10 +837,26 @@ function startCD(sec){
 }
 
 async function scan(){
-  if(running)return;running=true;
-  if(cdTimer)clearInterval(cdTimer);
+  if(running)return;
 
   var tf=document.getElementById('tf').value;
+
+  // 15M solo se activa con el boton SCANNER manual - sin countdown
+  if(tf === '15m'){
+    running=false;
+    if(cdTimer){ clearInterval(cdTimer); cdTimer=null; }
+    document.getElementById('cdNum').textContent='--';
+    document.getElementById('cbarFill').style.width='0%';
+    document.getElementById('cd-wrap') && (document.getElementById('cd-wrap').style.display='none');
+    document.getElementById('subTxt').textContent='15M · PRESIONA ⚡ SCANNER PARA ACTUALIZAR';
+    document.getElementById('updateTxt').textContent='';
+    document.getElementById('progArea').style.display='none';
+    document.getElementById('logbox').style.display='none';
+    return;
+  }
+
+  running=true;
+  if(cdTimer)clearInterval(cdTimer);
   var maxRsi=parseInt(document.getElementById('maxRsi').value);
   var minRsi=parseInt(document.getElementById('minRsi').value);
   var tfLabel={'15m':'15M','1h':'1H','4h':'4H','1d':'1D'}[tf];
@@ -1224,13 +1256,59 @@ async function searchToken(){
     }
   }catch(e){}
 
-  // PASO 2: CoinGecko fallback
+  // PASO 2: Binance Futuros (PERP) - para tokens como LAB que no están en Spot
+  try{
+    document.getElementById('searchErr').textContent='BUSCANDO EN FUTUROS...';
+    document.getElementById('searchErr').style.color='#ffcc0066';
+    var perpUrl='https://fapi.binance.com/fapi/v1/klines?symbol='+sym+'&interval='+tf+'&limit=70';
+    var rp=await fetch(perpUrl,{mode:'cors'});
+    if(rp.ok){
+      var kperp=await rp.json();
+      if(kperp&&kperp.length>=16){
+        var closes=kperp.map(function(c){return parseFloat(c[4]);});
+        var rsi=calcRSI(closes,14);
+        var rsiVals=calcRSIArray(closes,14);
+        var price=closes[closes.length-1];
+        var chgPct=0,vol24=0;
+        try{
+          var rs=await fetch('https://fapi.binance.com/fapi/v1/ticker/24hr?symbol='+sym,{mode:'cors'});
+          if(rs.ok){var sd=await rs.json();chgPct=parseFloat(sd.priceChangePercent)||0;vol24=parseFloat(sd.quoteVolume)||0;}
+        }catch(e){}
+        function fmtP2(p){
+          if(p>=1000)return p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2});
+          if(p>=1)return p.toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:4});
+          if(p>=0.01)return p.toFixed(4);
+          if(p>=0.0001)return p.toFixed(6);
+          return p.toFixed(8);
+        }
+        function fmtU2(n){
+          if(n>=1e9)return '$'+(n/1e9).toFixed(2)+'B';
+          if(n>=1e6)return '$'+(n/1e6).toFixed(0)+'M';
+          if(n>=1e3)return '$'+(n/1e3).toFixed(0)+'K';
+          return n>0?'$'+n.toFixed(0):'--';
+        }
+        var infoHtml='<span style="color:'+(chgPct>=0?'#00ff88':'#ff4444')+';font-weight:900;">'+(chgPct>=0?'+':'')+chgPct.toFixed(2)+'% 24H</span>'+
+          ' <span style="color:#ffcc0077;"> VOL '+fmtU2(vol24)+' · PERP · RSI '+({'15m':'15M','1h':'1H','4h':'4H','1d':'1D'}[tf]||tf)+'</span>';
+        watchBinanceSym=sym;watchBinanceTf=tf;watchCoinId=null;watchSym=raw.replace('USDT','');
+        currentCoinData={sym:raw.replace('USDT',''),coinId:null,binance:true};
+        updateFavStar();
+        showResult(raw.replace('USDT','')+'/USDT PERP',fmtP2(price),chgPct,infoHtml,rsi,rsiVals);
+        return;
+      }
+    }
+  }catch(e){}
+
+  // PASO 3: CoinGecko fallback
   try{
     document.getElementById('searchErr').textContent='BUSCANDO EN MERCADO GLOBAL...';
     document.getElementById('searchErr').style.color='#ffcc0066';
     var rw=raw.toLowerCase().replace('usdt','').trim();
     var list=await getCGList();
-    var match=list.find(function(c){return c.symbol.toLowerCase()===rw||c.id.toLowerCase()===rw;});
+    // Buscar por symbol exacto, luego por id exacto, luego por nombre parcial
+    var match=list.find(function(c){return c.symbol.toLowerCase()===rw;});
+    if(!match) match=list.find(function(c){return c.id.toLowerCase()===rw;});
+    if(!match) match=list.find(function(c){return c.id.toLowerCase().startsWith(rw);});
+    if(!match) match=list.find(function(c){return c.name.toLowerCase().startsWith(rw);});
     if(!match)throw new Error('"'+raw+'" NO ENCONTRADO');
     var r2=await fetchCG('https://api.coingecko.com/api/v3/coins/'+match.id+'?localization=false&tickers=false&community_data=false&developer_data=false&sparkline=true');
     var coin=await r2.json();
