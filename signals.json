@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-23T19:53:56.073Z",
-  "updated_ts": 1779566036073,
+  "updated": "2026-05-23T22:39:03.832Z",
+  "updated_ts": 1779575943832,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,19 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DYMUSDT",
-          "rsi": 85.5,
-          "price": 0.0272,
-          "vol": 4520637.95053,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZROUSDT",
-          "rsi": 82,
-          "price": 1.318,
-          "vol": 2317638.93551,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 134
+      "scanned": 141
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 134
+      "scanned": 141
     },
     "4h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "RIFUSDT",
-          "rsi": 21.8,
-          "price": 0.0475,
-          "vol": 2666469.3615,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 132
+      "buy": [],
+      "scanned": 139
     }
   }
 }
