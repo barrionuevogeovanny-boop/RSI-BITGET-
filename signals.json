@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-24T19:54:10.743Z",
-  "updated_ts": 1779652450743,
+  "updated": "2026-05-24T23:40:39.077Z",
+  "updated_ts": 1779666039077,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,49 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 113
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 113
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "MORPHOUSDT",
-          "rsi": 80.2,
-          "price": 2.293,
-          "vol": 2661016.31461,
+          "sym": "XAUTUSDT",
+          "rsi": 86.1,
+          "price": 4562.86,
+          "vol": 26031193.79795,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 83.6,
+          "price": 4573.32,
+          "vol": 16908968.934479,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 111
+      "scanned": 109
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 84.2,
+          "price": 1.1657,
+          "vol": 26832852.2756,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 82.6,
+          "price": 4562.86,
+          "vol": 26031193.79795,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 109
+    },
+    "4h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 107
     }
   }
 }
