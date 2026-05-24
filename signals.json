@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-24T11:55:42.186Z",
-  "updated_ts": 1779623742186,
+  "updated": "2026-05-24T15:48:35.407Z",
+  "updated_ts": 1779637715407,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,7 +14,29 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 19.2,
+          "price": 0.0717,
+          "vol": 2447521.5441,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 22.4,
+          "price": 52.82,
+          "vol": 11246039.48816,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZROUSDT",
+          "rsi": 23.6,
+          "price": 1.293,
+          "vol": 2143573.52019,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 118
     },
     "1h": {
