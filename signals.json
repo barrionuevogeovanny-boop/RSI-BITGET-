@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-24T23:40:39.077Z",
-  "updated_ts": 1779666039077,
+  "updated": "2026-05-25T12:47:46.656Z",
+  "updated_ts": 1779713266656,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,17 @@
     "15m": {
       "sell": [
         {
-          "sym": "XAUTUSDT",
-          "rsi": 86.1,
-          "price": 4562.86,
-          "vol": 26031193.79795,
-          "label": "MUY ALTO"
+          "sym": "PHAUSDT",
+          "rsi": 90.1,
+          "price": 0.05,
+          "vol": 5528351.1633,
+          "label": "EXTREMO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 83.6,
-          "price": 4573.32,
-          "vol": 16908968.934479,
+          "sym": "PENDLEUSDT",
+          "rsi": 82,
+          "price": 1.939,
+          "vol": 3227626.3098,
           "label": "ALTO"
         }
       ],
@@ -35,27 +35,50 @@
     "1h": {
       "sell": [
         {
-          "sym": "EURUSDT",
-          "rsi": 84.2,
-          "price": 1.1657,
-          "vol": 26832852.2756,
+          "sym": "PHAUSDT",
+          "rsi": 89.8,
+          "price": 0.05,
+          "vol": 5528351.1633,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 83.4,
+          "price": 0.02455,
+          "vol": 16918172.114964,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "USDCUSDT",
+          "rsi": 23.5,
+          "price": 1.00067,
+          "vol": 1338321264.16602,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 109
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "PHAUSDT",
+          "rsi": 82.4,
+          "price": 0.05,
+          "vol": 5528351.1633,
           "label": "ALTO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 82.6,
-          "price": 4562.86,
-          "vol": 26031193.79795,
+          "sym": "DEXEUSDT",
+          "rsi": 80.7,
+          "price": 17.492,
+          "vol": 6236529.00752,
           "label": "ALTO"
         }
       ],
       "buy": [],
       "scanned": 109
-    },
-    "4h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 107
     }
   }
 }
