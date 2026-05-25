@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-25T12:47:46.656Z",
-  "updated_ts": 1779713266656,
+  "updated": "2026-05-25T18:18:41.818Z",
+  "updated_ts": 1779733121818,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,70 +15,84 @@
     "15m": {
       "sell": [
         {
-          "sym": "PHAUSDT",
-          "rsi": 90.1,
-          "price": 0.05,
-          "vol": 5528351.1633,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 82,
-          "price": 1.939,
-          "vol": 3227626.3098,
+          "sym": "FFUSDT",
+          "rsi": 81.2,
+          "price": 0.09124,
+          "vol": 2340629.359199,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 109
+      "scanned": 118
     },
     "1h": {
       "sell": [
         {
-          "sym": "PHAUSDT",
-          "rsi": 89.8,
-          "price": 0.05,
-          "vol": 5528351.1633,
-          "label": "MUY ALTO"
+          "sym": "PONDUSDT",
+          "rsi": 91.5,
+          "price": 0.00246,
+          "vol": 4562343.00072,
+          "label": "EXTREMO"
         },
         {
-          "sym": "SAGAUSDT",
-          "rsi": 83.4,
-          "price": 0.02455,
-          "vol": 16918172.114964,
+          "sym": "IOUSDT",
+          "rsi": 81.5,
+          "price": 0.1629,
+          "vol": 2518083.892662,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 81.3,
+          "price": 0.4824,
+          "vol": 9507167.80465,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "USDCUSDT",
-          "rsi": 23.5,
-          "price": 1.00067,
-          "vol": 1338321264.16602,
+          "rsi": 23.3,
+          "price": 1.00061,
+          "vol": 1703135819.40749,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
+          "sym": "PONDUSDT",
+          "rsi": 93,
+          "price": 0.00246,
+          "vol": 4562343.00072,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "PHAUSDT",
-          "rsi": 82.4,
-          "price": 0.05,
-          "vol": 5528351.1633,
+          "rsi": 83.3,
+          "price": 0.0511,
+          "vol": 11132236.8181,
           "label": "ALTO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 80.7,
-          "price": 17.492,
-          "vol": 6236529.00752,
+          "rsi": 80.9,
+          "price": 17.52,
+          "vol": 6931238.17371,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NEARUSDT",
+          "rsi": 80.1,
+          "price": 2.76,
+          "vol": 148332314.0873,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 109
+      "scanned": 118
     }
   }
 }
