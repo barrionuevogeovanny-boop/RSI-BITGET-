@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-25T22:17:31.023Z",
-  "updated_ts": 1779747451023,
+  "updated": "2026-05-26T19:29:42.968Z",
+  "updated_ts": 1779823782968,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,55 +16,84 @@
       "sell": [],
       "buy": [
         {
-          "sym": "OPGUSDT",
-          "rsi": 22.3,
-          "price": 0.2091,
-          "vol": 4931011.57773,
+          "sym": "PENDLEUSDT",
+          "rsi": 23.8,
+          "price": 1.812,
+          "vol": 5945772.3468,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 132
     },
     "1h": {
       "sell": [
         {
-          "sym": "PONDUSDT",
-          "rsi": 84,
-          "price": 0.00246,
-          "vol": 5854405.28276,
+          "sym": "REQUSDT",
+          "rsi": 91.2,
+          "price": 0.0969,
+          "vol": 2741043.1357,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 84.3,
+          "price": 1.00131,
+          "vol": 2951426204.52225,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "USD1USDT",
-          "rsi": 24.9,
-          "price": 0.99961,
-          "vol": 156059072.64196,
+          "sym": "MEGAUSDT",
+          "rsi": 23.5,
+          "price": 0.06922,
+          "vol": 3904548.563915,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VETUSDT",
+          "rsi": 24.3,
+          "price": 0.006299,
+          "vol": 3757836.1533712,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HIGHUSDT",
+          "rsi": 24.6,
+          "price": 0.132,
+          "vol": 4240374.259222,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 132
     },
     "4h": {
       "sell": [
         {
-          "sym": "PONDUSDT",
-          "rsi": 93.2,
-          "price": 0.00246,
-          "vol": 5854405.28276,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "NEARUSDT",
-          "rsi": 80.5,
-          "price": 2.775,
-          "vol": 149800190.3245,
-          "label": "ALTO"
+          "sym": "REQUSDT",
+          "rsi": 88.8,
+          "price": 0.0969,
+          "vol": 2741043.1357,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 121
+      "buy": [
+        {
+          "sym": "HIGHUSDT",
+          "rsi": 15.9,
+          "price": 0.132,
+          "vol": 4240374.259222,
+          "label": "BAJO"
+        },
+        {
+          "sym": "MEGAUSDT",
+          "rsi": 21.2,
+          "price": 0.06922,
+          "vol": 3904548.563915,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 132
     }
   }
 }
