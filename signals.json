@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-26T19:29:42.968Z",
-  "updated_ts": 1779823782968,
+  "updated": "2026-05-26T23:43:59.173Z",
+  "updated_ts": 1779839039173,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,84 +16,61 @@
       "sell": [],
       "buy": [
         {
-          "sym": "PENDLEUSDT",
-          "rsi": 23.8,
-          "price": 1.812,
-          "vol": 5945772.3468,
-          "label": "SOBREVENDIDO"
+          "sym": "GUNUSDT",
+          "rsi": 18.1,
+          "price": 0.00909,
+          "vol": 2353359.96909,
+          "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 130
     },
     "1h": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "REQUSDT",
-          "rsi": 91.2,
-          "price": 0.0969,
-          "vol": 2741043.1357,
+          "sym": "GUNUSDT",
+          "rsi": 9.4,
+          "price": 0.00909,
+          "vol": 2353359.96909,
           "label": "EXTREMO"
         },
         {
-          "sym": "USDCUSDT",
-          "rsi": 84.3,
-          "price": 1.00131,
-          "vol": 2951426204.52225,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
           "sym": "MEGAUSDT",
-          "rsi": 23.5,
-          "price": 0.06922,
-          "vol": 3904548.563915,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "VETUSDT",
-          "rsi": 24.3,
-          "price": 0.006299,
-          "vol": 3757836.1533712,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HIGHUSDT",
-          "rsi": 24.6,
-          "price": 0.132,
-          "vol": 4240374.259222,
+          "rsi": 23.6,
+          "price": 0.06841,
+          "vol": 3754861.332062,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 130
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "REQUSDT",
-          "rsi": 88.8,
-          "price": 0.0969,
-          "vol": 2741043.1357,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
+          "sym": "GUNUSDT",
+          "rsi": 12.8,
+          "price": 0.00909,
+          "vol": 2353359.96909,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "HIGHUSDT",
-          "rsi": 15.9,
+          "rsi": 17.4,
           "price": 0.132,
-          "vol": 4240374.259222,
+          "vol": 4487140.351421,
           "label": "BAJO"
         },
         {
           "sym": "MEGAUSDT",
-          "rsi": 21.2,
-          "price": 0.06922,
-          "vol": 3904548.563915,
+          "rsi": 20.1,
+          "price": 0.06841,
+          "vol": 3754861.332062,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 130
     }
   }
 }
