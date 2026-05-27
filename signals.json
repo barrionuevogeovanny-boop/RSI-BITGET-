@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-27T12:33:04.645Z",
-  "updated_ts": 1779885184645,
+  "updated": "2026-05-27T20:36:50.067Z",
+  "updated_ts": 1779914210067,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 84.3,
-          "price": 0.0941,
-          "vol": 8298267.79823,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 124
+      "scanned": 115
     },
     "1h": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "ALLOUSDT",
-          "rsi": 81.5,
-          "price": 0.0941,
-          "vol": 8298267.79823,
-          "label": "ALTO"
+          "sym": "PENDLEUSDT",
+          "rsi": 19.9,
+          "price": 1.604,
+          "vol": 8083865.4891,
+          "label": "BAJO"
         }
       ],
-      "buy": [],
-      "scanned": 124
+      "scanned": 115
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "INITUSDT",
-          "rsi": 19.3,
-          "price": 0.0692,
-          "vol": 2610958.69689,
+          "rsi": 17.7,
+          "price": 0.0685,
+          "vol": 2950502.08266,
           "label": "BAJO"
         },
         {
           "sym": "MEGAUSDT",
-          "rsi": 22.8,
-          "price": 0.06813,
-          "vol": 3127264.114063,
+          "rsi": 22.2,
+          "price": 0.06794,
+          "vol": 2620693.271044,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 115
     }
   }
 }
