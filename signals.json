@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-26T23:43:59.173Z",
-  "updated_ts": 1779839039173,
+  "updated": "2026-05-27T12:33:04.645Z",
+  "updated_ts": 1779885184645,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,64 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "GUNUSDT",
-          "rsi": 18.1,
-          "price": 0.00909,
-          "vol": 2353359.96909,
-          "label": "BAJO"
+          "sym": "ALLOUSDT",
+          "rsi": 84.3,
+          "price": 0.0941,
+          "vol": 8298267.79823,
+          "label": "ALTO"
         }
       ],
-      "scanned": 130
+      "buy": [],
+      "scanned": 124
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "GUNUSDT",
-          "rsi": 9.4,
-          "price": 0.00909,
-          "vol": 2353359.96909,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 23.6,
-          "price": 0.06841,
-          "vol": 3754861.332062,
-          "label": "SOBREVENDIDO"
+          "sym": "ALLOUSDT",
+          "rsi": 81.5,
+          "price": 0.0941,
+          "vol": 8298267.79823,
+          "label": "ALTO"
         }
       ],
-      "scanned": 130
+      "buy": [],
+      "scanned": 124
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "GUNUSDT",
-          "rsi": 12.8,
-          "price": 0.00909,
-          "vol": 2353359.96909,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "HIGHUSDT",
-          "rsi": 17.4,
-          "price": 0.132,
-          "vol": 4487140.351421,
+          "sym": "INITUSDT",
+          "rsi": 19.3,
+          "price": 0.0692,
+          "vol": 2610958.69689,
           "label": "BAJO"
         },
         {
           "sym": "MEGAUSDT",
-          "rsi": 20.1,
-          "price": 0.06841,
-          "vol": 3754861.332062,
+          "rsi": 22.8,
+          "price": 0.06813,
+          "vol": 3127264.114063,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 124
     }
   }
 }
