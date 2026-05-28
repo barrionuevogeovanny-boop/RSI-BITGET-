@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-27T20:36:50.067Z",
-  "updated_ts": 1779914210067,
+  "updated": "2026-05-28T00:14:58.875Z",
+  "updated_ts": 1779927298875,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,41 +14,112 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 115
+      "buy": [
+        {
+          "sym": "GUNUSDT",
+          "rsi": 17.9,
+          "price": 0.00874,
+          "vol": 3007794.37032,
+          "label": "BAJO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 20.1,
+          "price": 3.089,
+          "vol": 25565712.68994,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "OSMOUSDT",
+          "rsi": 21.1,
+          "price": 0.0571,
+          "vol": 6210626.827725,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONDOUSDT",
+          "rsi": 22.7,
+          "price": 0.3815,
+          "vol": 15920538.66518,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 23.4,
+          "price": 0.0688,
+          "vol": 4052293.66469,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BIOUSDT",
+          "rsi": 24.3,
+          "price": 0.031,
+          "vol": 3056420.17314,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 19.9,
-          "price": 1.604,
-          "vol": 8083865.4891,
+          "rsi": 17.2,
+          "price": 1.572,
+          "vol": 8326326.1774,
           "label": "BAJO"
+        },
+        {
+          "sym": "GUNUSDT",
+          "rsi": 21.7,
+          "price": 0.00874,
+          "vol": 3007794.37032,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 24.1,
+          "price": 3.089,
+          "vol": 25565712.68994,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 118
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "INITUSDT",
-          "rsi": 17.7,
-          "price": 0.0685,
-          "vol": 2950502.08266,
+          "rsi": 16.1,
+          "price": 0.0672,
+          "vol": 3078124.73181,
           "label": "BAJO"
         },
         {
+          "sym": "GUNUSDT",
+          "rsi": 23,
+          "price": 0.00874,
+          "vol": 3007794.37032,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "MEGAUSDT",
-          "rsi": 22.2,
-          "price": 0.06794,
-          "vol": 2620693.271044,
+          "rsi": 23.8,
+          "price": 0.06793,
+          "vol": 2652888.144662,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 24.2,
+          "price": 1.572,
+          "vol": 8326326.1774,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 118
     }
   }
 }
