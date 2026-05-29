@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-29T17:33:56.241Z",
-  "updated_ts": 1780076036241,
+  "updated": "2026-05-29T19:55:25.084Z",
+  "updated_ts": 1780084525084,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,64 +13,66 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XLMUSDT",
+          "rsi": 80.5,
+          "price": 0.2377,
+          "vol": 149768376.5773,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "RIFUSDT",
-          "rsi": 24.3,
-          "price": 0.0685,
-          "vol": 2098734.1269,
+          "rsi": 24.2,
+          "price": 0.0666,
+          "vol": 2029894.4795,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 127
     },
     "1h": {
       "sell": [
         {
-          "sym": "HEIUSDT",
-          "rsi": 85.4,
-          "price": 0.1329,
-          "vol": 23864886.20682,
+          "sym": "HEMIUSDT",
+          "rsi": 88.8,
+          "price": 0.00781,
+          "vol": 4590577.884777,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "NOMUSDT",
-          "rsi": 80.8,
-          "price": 0.00229,
-          "vol": 2867060.80269,
-          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 126
+      "scanned": 127
     },
     "4h": {
       "sell": [
         {
           "sym": "HEIUSDT",
-          "rsi": 93.5,
-          "price": 0.1329,
-          "vol": 23864886.20682,
+          "rsi": 91.9,
+          "price": 0.1168,
+          "vol": 28720061.58284,
           "label": "EXTREMO"
         },
         {
           "sym": "XLMUSDT",
-          "rsi": 81.2,
-          "price": 0.213,
-          "vol": 155666809.4469,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 80.2,
-          "price": 0.2566,
-          "vol": 136462346.12029,
-          "label": "ALTO"
+          "rsi": 88.5,
+          "price": 0.2377,
+          "vol": 149768376.5773,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 126
+      "buy": [
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 21.3,
+          "price": 1.414,
+          "vol": 8393077.2739,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 127
     }
   }
 }
