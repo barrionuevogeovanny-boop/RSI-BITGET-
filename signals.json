@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-29T21:50:41.849Z",
-  "updated_ts": 1780091441849,
+  "updated": "2026-05-29T23:00:51.119Z",
+  "updated_ts": 1780095651119,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,49 +14,41 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "EDENUSDT",
-          "rsi": 23.5,
-          "price": 0.0526,
-          "vol": 4967017.67356,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 128
+      "buy": [],
+      "scanned": 129
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 128
+      "scanned": 129
     },
     "4h": {
       "sell": [
         {
-          "sym": "HEIUSDT",
-          "rsi": 91.9,
-          "price": 0.1171,
-          "vol": 31265221.868,
+          "sym": "XLMUSDT",
+          "rsi": 90.5,
+          "price": 0.2549,
+          "vol": 173383444.4312,
           "label": "EXTREMO"
         },
         {
-          "sym": "XLMUSDT",
-          "rsi": 88.9,
-          "price": 0.2416,
-          "vol": 164459225.8676,
-          "label": "MUY ALTO"
+          "sym": "HEIUSDT",
+          "rsi": 83.6,
+          "price": 0.1108,
+          "vol": 32019428.07478,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 20,
-          "price": 1.393,
-          "vol": 8332251.1452,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.6,
+          "price": 1.386,
+          "vol": 8338704.8227,
+          "label": "BAJO"
         }
       ],
-      "scanned": 128
+      "scanned": 129
     }
   }
 }
