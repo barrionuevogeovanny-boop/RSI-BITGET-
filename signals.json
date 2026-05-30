@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-30T04:29:02.803Z",
-  "updated_ts": 1780115342803,
+  "updated": "2026-05-30T07:26:27.511Z",
+  "updated_ts": 1780125987511,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,24 +14,30 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "ZECUSDT",
-          "rsi": 24,
-          "price": 507.22,
-          "vol": 113679272.3618,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 132
     },
     "1h": {
       "sell": [
         {
           "sym": "VTHOUSDT",
-          "rsi": 80.8,
-          "price": 0.000566,
-          "vol": 3768916.162047,
+          "rsi": 87.1,
+          "price": 0.000653,
+          "vol": 5954075.567767,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "NFPUSDT",
+          "rsi": 86.8,
+          "price": 0.01201,
+          "vol": 2971516.80855,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 84.5,
+          "price": 671.18,
+          "vol": 128969157.98002,
           "label": "ALTO"
         }
       ],
@@ -41,54 +47,40 @@
     "4h": {
       "sell": [
         {
-          "sym": "HEIUSDT",
-          "rsi": 87.6,
-          "price": 0.1741,
-          "vol": 50133573.80984,
+          "sym": "VTHOUSDT",
+          "rsi": 87.7,
+          "price": 0.000653,
+          "vol": 5954075.567767,
           "label": "MUY ALTO"
         },
         {
-          "sym": "IDUSDT",
-          "rsi": 83.7,
-          "price": 0.0485,
-          "vol": 31184899.0518,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XLMUSDT",
-          "rsi": 83.3,
-          "price": 0.2791,
-          "vol": 229968310.6873,
-          "label": "ALTO"
-        },
-        {
-          "sym": "IOTAUSDT",
-          "rsi": 80.1,
-          "price": 0.0683,
-          "vol": 7814274.2538,
-          "label": "ALTO"
+          "sym": "HEIUSDT",
+          "rsi": 87.4,
+          "price": 0.1712,
+          "vol": 56680480.05486,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 18,
-          "price": 1.352,
-          "vol": 7920856.1843,
+          "rsi": 17.7,
+          "price": 1.346,
+          "vol": 7569110.8262,
           "label": "BAJO"
         },
         {
           "sym": "GUNUSDT",
-          "rsi": 18.3,
-          "price": 0.00711,
-          "vol": 2006576.55498,
+          "rsi": 18.5,
+          "price": 0.00714,
+          "vol": 2191740.85092,
           "label": "BAJO"
         },
         {
           "sym": "GENIUSUSDT",
-          "rsi": 24.6,
-          "price": 0.4497,
-          "vol": 217611237.01107,
+          "rsi": 24.8,
+          "price": 0.4515,
+          "vol": 145920170.60336,
           "label": "SOBREVENDIDO"
         }
       ],
