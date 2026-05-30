@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-30T11:00:59.886Z",
-  "updated_ts": 1780138859886,
+  "updated": "2026-05-30T12:10:51.308Z",
+  "updated_ts": 1780143051308,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,79 +13,57 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PORTALUSDT",
-          "rsi": 82.1,
-          "price": 0.01182,
-          "vol": 6957526.095692,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 133
+      "scanned": 135
     },
     "1h": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
-          "rsi": 95.2,
-          "price": 0.01182,
-          "vol": 6957526.095692,
-          "label": "EXTREMO"
+          "sym": "BNBUSDT",
+          "rsi": 81.9,
+          "price": 673.8,
+          "vol": 149432713.82246,
+          "label": "ALTO"
         },
         {
-          "sym": "BNBUSDT",
-          "rsi": 84.2,
-          "price": 674.54,
-          "vol": 143438875.79842,
+          "sym": "STGUSDT",
+          "rsi": 81.1,
+          "price": 0.2124,
+          "vol": 3935801.01331,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 133
+      "scanned": 135
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 87.7,
-          "price": 0.01182,
-          "vol": 6957526.095692,
+          "rsi": 87.1,
+          "price": 0.01136,
+          "vol": 10183339.901797,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "NFPUSDT",
-          "rsi": 83,
-          "price": 0.01413,
-          "vol": 11067954.00211,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 81.3,
-          "price": 0.2966,
-          "vol": 66433784.37944,
-          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 16.8,
-          "price": 1.333,
-          "vol": 6968169.4878,
+          "rsi": 17.2,
+          "price": 1.335,
+          "vol": 6851148.3422,
           "label": "BAJO"
         },
         {
           "sym": "GUNUSDT",
-          "rsi": 20.3,
-          "price": 0.00722,
-          "vol": 2296002.63629,
+          "rsi": 21.6,
+          "price": 0.00725,
+          "vol": 2298808.29199,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 135
     }
   }
 }
