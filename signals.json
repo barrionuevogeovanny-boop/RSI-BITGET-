@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-30T17:39:13.322Z",
-  "updated_ts": 1780162753322,
+  "updated": "2026-05-30T18:46:09.757Z",
+  "updated_ts": 1780166769757,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,100 +13,92 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ASTERUSDT",
-          "rsi": 85.8,
-          "price": 0.739,
-          "vol": 16708117.86842,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 81.1,
-          "price": 0.5188,
-          "vol": 12771954.17002,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 118
+      "scanned": 117
     },
     "1h": {
       "sell": [
         {
+          "sym": "BNBUSDT",
+          "rsi": 90.4,
+          "price": 711.86,
+          "vol": 254341139.05245,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "币安人生USDT",
-          "rsi": 87.4,
-          "price": 0.5188,
-          "vol": 12771954.17002,
+          "rsi": 87.3,
+          "price": 0.5173,
+          "vol": 15146077.47851,
           "label": "MUY ALTO"
         },
         {
           "sym": "ASTERUSDT",
-          "rsi": 87,
-          "price": 0.739,
-          "vol": 16708117.86842,
+          "rsi": 86.8,
+          "price": 0.738,
+          "vol": 18537889.63782,
           "label": "MUY ALTO"
         },
         {
-          "sym": "BNBUSDT",
-          "rsi": 84.4,
-          "price": 703.95,
-          "vol": 231050331.29224,
-          "label": "ALTO"
+          "sym": "CAKEUSDT",
+          "rsi": 85.8,
+          "price": 1.504,
+          "vol": 5376952.66942,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 89.2,
-          "price": 0.0122,
-          "vol": 18223003.51317,
+          "rsi": 88.3,
+          "price": 0.01186,
+          "vol": 18809307.271911,
           "label": "MUY ALTO"
         },
         {
           "sym": "BNBUSDT",
-          "rsi": 82.5,
-          "price": 703.95,
-          "vol": 231050331.29224,
-          "label": "ALTO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 82.3,
-          "price": 0.5188,
-          "vol": 12771954.17002,
+          "rsi": 84,
+          "price": 711.86,
+          "vol": 254341139.05245,
           "label": "ALTO"
         },
         {
           "sym": "STGUSDT",
-          "rsi": 81,
-          "price": 0.2229,
-          "vol": 8340875.92249,
+          "rsi": 82.3,
+          "price": 0.2284,
+          "vol": 8566036.52986,
+          "label": "ALTO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 82.1,
+          "price": 0.5173,
+          "vol": 15146077.47851,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "PENDLEUSDT",
-          "rsi": 16.1,
-          "price": 1.318,
-          "vol": 5322373.402,
-          "label": "BAJO"
+          "sym": "GUNUSDT",
+          "rsi": 20.4,
+          "price": 0.00711,
+          "vol": 2316445.27267,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "GUNUSDT",
-          "rsi": 20.5,
-          "price": 0.00712,
-          "vol": 2360013.67951,
+          "sym": "PENDLEUSDT",
+          "rsi": 24.1,
+          "price": 1.354,
+          "vol": 5411645.3516,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 117
     }
   }
 }
