@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-30T12:10:51.308Z",
-  "updated_ts": 1780143051308,
+  "updated": "2026-05-30T14:04:27.181Z",
+  "updated_ts": 1780149867181,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,57 +13,58 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "WLDUSDT",
+          "rsi": 83.3,
+          "price": 0.3238,
+          "vol": 29439493.78187,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 135
+      "scanned": 129
     },
     "1h": {
       "sell": [
         {
           "sym": "BNBUSDT",
-          "rsi": 81.9,
-          "price": 673.8,
-          "vol": 149432713.82246,
-          "label": "ALTO"
-        },
-        {
-          "sym": "STGUSDT",
-          "rsi": 81.1,
-          "price": 0.2124,
-          "vol": 3935801.01331,
+          "rsi": 81.5,
+          "price": 675,
+          "vol": 150662562.18258,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 135
+      "scanned": 129
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 87.1,
-          "price": 0.01136,
-          "vol": 10183339.901797,
+          "rsi": 90,
+          "price": 0.01259,
+          "vol": 14523243.893636,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 17.2,
-          "price": 1.335,
-          "vol": 6851148.3422,
+          "rsi": 16.8,
+          "price": 1.333,
+          "vol": 5721095.4554,
           "label": "BAJO"
         },
         {
           "sym": "GUNUSDT",
-          "rsi": 21.6,
-          "price": 0.00725,
-          "vol": 2298808.29199,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.3,
+          "price": 0.00717,
+          "vol": 2376467.09407,
+          "label": "BAJO"
         }
       ],
-      "scanned": 135
+      "scanned": 129
     }
   }
 }
