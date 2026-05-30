@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-30T14:04:27.181Z",
-  "updated_ts": 1780149867181,
+  "updated": "2026-05-30T15:20:28.632Z",
+  "updated_ts": 1780154428632,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,36 +15,50 @@
     "15m": {
       "sell": [
         {
+          "sym": "CAKEUSDT",
+          "rsi": 86.2,
+          "price": 1.448,
+          "vol": 2483124.29735,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 82.6,
+          "price": 688.28,
+          "vol": 171812459.91438,
+          "label": "ALTO"
+        },
+        {
           "sym": "WLDUSDT",
-          "rsi": 83.3,
-          "price": 0.3238,
-          "vol": 29439493.78187,
+          "rsi": 80.5,
+          "price": 0.34,
+          "vol": 34472532.12987,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 129
+      "scanned": 125
     },
     "1h": {
       "sell": [
         {
           "sym": "BNBUSDT",
-          "rsi": 81.5,
-          "price": 675,
-          "vol": 150662562.18258,
-          "label": "ALTO"
+          "rsi": 87.7,
+          "price": 688.28,
+          "vol": 171812459.91438,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 129
+      "scanned": 125
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 90,
-          "price": 0.01259,
-          "vol": 14523243.893636,
+          "rsi": 87.2,
+          "price": 0.01142,
+          "vol": 15932828.920277,
           "label": "MUY ALTO"
         }
       ],
@@ -52,19 +66,19 @@
         {
           "sym": "PENDLEUSDT",
           "rsi": 16.8,
-          "price": 1.333,
-          "vol": 5721095.4554,
+          "price": 1.332,
+          "vol": 5647701.8788,
           "label": "BAJO"
         },
         {
           "sym": "GUNUSDT",
-          "rsi": 19.3,
-          "price": 0.00717,
-          "vol": 2376467.09407,
+          "rsi": 19.1,
+          "price": 0.00714,
+          "vol": 2324926.94231,
           "label": "BAJO"
         }
       ],
-      "scanned": 129
+      "scanned": 125
     }
   }
 }
