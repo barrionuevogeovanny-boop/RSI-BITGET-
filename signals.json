@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-29T23:00:51.119Z",
-  "updated_ts": 1780095651119,
+  "updated": "2026-05-30T00:15:58.204Z",
+  "updated_ts": 1780100158204,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HBARUSDT",
+          "rsi": 84.7,
+          "price": 0.10269,
+          "vol": 54508428.96648,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 129
+      "scanned": 127
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 129
+      "scanned": 127
     },
     "4h": {
       "sell": [
         {
           "sym": "XLMUSDT",
-          "rsi": 90.5,
-          "price": 0.2549,
-          "vol": 173383444.4312,
+          "rsi": 91.5,
+          "price": 0.2646,
+          "vol": 189373403.5216,
           "label": "EXTREMO"
         },
         {
-          "sym": "HEIUSDT",
-          "rsi": 83.6,
-          "price": 0.1108,
-          "vol": 32019428.07478,
+          "sym": "ALLOUSDT",
+          "rsi": 80,
+          "price": 0.2564,
+          "vol": 122711902.15355,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 19.6,
-          "price": 1.386,
-          "vol": 8338704.8227,
+          "rsi": 20,
+          "price": 1.384,
+          "vol": 8166748.6574,
           "label": "BAJO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     }
   }
 }
