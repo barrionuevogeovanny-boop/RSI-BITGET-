@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T16:21:20.436Z",
-  "updated_ts": 1780244480436,
+  "updated": "2026-05-31T17:34:13.538Z",
+  "updated_ts": 1780248853538,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -17,39 +17,53 @@
       "buy": [
         {
           "sym": "ATOMUSDT",
-          "rsi": 21.8,
-          "price": 1.945,
-          "vol": 3502098.90316,
+          "rsi": 20.2,
+          "price": 1.934,
+          "vol": 3554710.79688,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 121
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "ATOMUSDT",
-          "rsi": 24.4,
-          "price": 1.945,
-          "vol": 3502098.90316,
+          "rsi": 22,
+          "price": 1.934,
+          "vol": 3554710.79688,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EIGENUSDT",
+          "rsi": 24.8,
+          "price": 0.2037,
+          "vol": 2463816.594443,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 121
     },
     "4h": {
       "sell": [
         {
           "sym": "STGUSDT",
-          "rsi": 81.7,
-          "price": 0.2772,
-          "vol": 9569231.03531,
+          "rsi": 84,
+          "price": 0.2971,
+          "vol": 9595614.2266,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 80.4,
+          "price": 0.03473,
+          "vol": 11150155.86735,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 120
+      "scanned": 121
     }
   }
 }
