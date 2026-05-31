@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T10:24:47.454Z",
-  "updated_ts": 1780223087454,
+  "updated": "2026-05-31T11:55:36.216Z",
+  "updated_ts": 1780228536216,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,46 +13,46 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "HOLOUSDT",
-          "rsi": 21.6,
-          "price": 0.0694,
-          "vol": 4094151.39962,
-          "label": "SOBREVENDIDO"
+          "sym": "MANTRAUSDT",
+          "rsi": 88.5,
+          "price": 0.01003,
+          "vol": 5288601.60081,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "GUNUSDT",
+          "rsi": 82.7,
+          "price": 0.00783,
+          "vol": 2064444.82942,
+          "label": "ALTO"
         }
       ],
+      "buy": [],
       "scanned": 118
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "EIGENUSDT",
-          "rsi": 22.3,
-          "price": 0.2067,
-          "vol": 3093742.728408,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HOLOUSDT",
-          "rsi": 23.2,
-          "price": 0.0694,
-          "vol": 4094151.39962,
-          "label": "SOBREVENDIDO"
+          "sym": "MANTRAUSDT",
+          "rsi": 84.4,
+          "price": 0.01003,
+          "vol": 5288601.60081,
+          "label": "ALTO"
         }
       ],
+      "buy": [],
       "scanned": 118
     },
     "4h": {
       "sell": [
         {
           "sym": "STRAXUSDT",
-          "rsi": 90.5,
-          "price": 0.01705,
-          "vol": 9352719.22189,
-          "label": "EXTREMO"
+          "rsi": 85.7,
+          "price": 0.01626,
+          "vol": 11283191.2963,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
