@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T22:10:22.774Z",
-  "updated_ts": 1780265422774,
+  "updated": "2026-05-31T23:17:15.283Z",
+  "updated_ts": 1780269435283,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,84 +15,76 @@
     "15m": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
-          "rsi": 90.6,
-          "price": 0.02936,
-          "vol": 44483013.939871,
+          "sym": "MBOXUSDT",
+          "rsi": 92,
+          "price": 0.014,
+          "vol": 2100473.20261,
           "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 20.2,
-          "price": 4508.33,
-          "vol": 8801024.145668,
-          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 24.8,
-          "price": 4520.12,
-          "vol": 4255586.18386,
-          "label": "SOBREVENDIDO"
+          "sym": "PORTALUSDT",
+          "rsi": 86,
+          "price": 0.03179,
+          "vol": 52474027.535903,
+          "label": "MUY ALTO"
         }
       ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 120
     },
     "1h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 86.5,
-          "price": 0.02936,
-          "vol": 44483013.939871,
-          "label": "MUY ALTO"
+          "rsi": 84.4,
+          "price": 0.03179,
+          "vol": 52474027.535903,
+          "label": "ALTO"
         },
         {
           "sym": "STGUSDT",
-          "rsi": 86.4,
-          "price": 0.4012,
-          "vol": 18338176.14134,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 119
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "STGUSDT",
-          "rsi": 90.9,
-          "price": 0.4012,
-          "vol": 18338176.14134,
-          "label": "EXTREMO"
+          "rsi": 83.7,
+          "price": 0.3975,
+          "vol": 19569452.10097,
+          "label": "ALTO"
         },
         {
-          "sym": "PORTALUSDT",
-          "rsi": 90,
-          "price": 0.02936,
-          "vol": 44483013.939871,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 85.3,
-          "price": 0.03847,
-          "vol": 15982803.40816,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 81.1,
-          "price": 0.6637,
-          "vol": 52716077.1535,
+          "sym": "MBOXUSDT",
+          "rsi": 80.9,
+          "price": 0.014,
+          "vol": 2100473.20261,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 120
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 91,
+          "price": 0.03179,
+          "vol": 52474027.535903,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "STGUSDT",
+          "rsi": 90.8,
+          "price": 0.3975,
+          "vol": 19569452.10097,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 85.4,
+          "price": 0.03853,
+          "vol": 16375878.73408,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 120
     }
   }
 }
