@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T04:54:50.207Z",
-  "updated_ts": 1780203290207,
+  "updated": "2026-05-31T08:11:45.372Z",
+  "updated_ts": 1780215105372,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,87 +13,58 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "LAUSDT",
+          "rsi": 93.8,
+          "price": 0.1462,
+          "vol": 4991135.53489,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 20.4,
-          "price": 0.09063,
-          "vol": 4986694.100714,
+          "sym": "AXSUSDT",
+          "rsi": 23.1,
+          "price": 1.164,
+          "vol": 4797510.21263,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 24.9,
+          "price": 0.0709,
+          "vol": 3190383.07587,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 119
     },
     "1h": {
       "sell": [
         {
-          "sym": "PUNDIXUSDT",
-          "rsi": 95.1,
-          "price": 0.1807,
-          "vol": 5310643.7625,
+          "sym": "LAUSDT",
+          "rsi": 94.8,
+          "price": 0.1462,
+          "vol": 4991135.53489,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "HIVEUSDT",
-          "rsi": 81.2,
-          "price": 0.0661,
-          "vol": 2324681.5683,
-          "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 17.3,
-          "price": 0.09063,
-          "vol": 4986694.100714,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PSGUSDT",
-          "rsi": 20,
-          "price": 0.817,
-          "vol": 11811310.35483,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 115
+      "buy": [],
+      "scanned": 119
     },
     "4h": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
-          "rsi": 89.4,
-          "price": 0.01578,
-          "vol": 36361252.415487,
+          "sym": "LAUSDT",
+          "rsi": 85.9,
+          "price": 0.1462,
+          "vol": 4991135.53489,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "PUNDIXUSDT",
-          "rsi": 89.3,
-          "price": 0.1807,
-          "vol": 5310643.7625,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 80.2,
-          "price": 732,
-          "vol": 445667608.93693,
-          "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "PSGUSDT",
-          "rsi": 23.9,
-          "price": 0.817,
-          "vol": 11811310.35483,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 115
+      "buy": [],
+      "scanned": 119
     }
   }
 }
