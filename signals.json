@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T19:57:54.763Z",
-  "updated_ts": 1780257474763,
+  "updated": "2026-05-31T21:02:53.420Z",
+  "updated_ts": 1780261373420,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,71 +14,55 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "ATOMUSDT",
-          "rsi": 20.9,
-          "price": 1.926,
-          "vol": 3560123.41713,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 120
     },
     "1h": {
       "sell": [
         {
           "sym": "STGUSDT",
-          "rsi": 87.5,
-          "price": 0.3676,
-          "vol": 15734757.09217,
+          "rsi": 89.3,
+          "price": 0.3919,
+          "vol": 17023966.41206,
           "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "ATOMUSDT",
-          "rsi": 20.3,
-          "price": 1.926,
-          "vol": 3560123.41713,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FILUSDT",
-          "rsi": 23.1,
-          "price": 0.92,
-          "vol": 9597792.3078,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 120
     },
     "4h": {
       "sell": [
         {
           "sym": "STGUSDT",
-          "rsi": 89.5,
-          "price": 0.3676,
-          "vol": 15734757.09217,
-          "label": "MUY ALTO"
+          "rsi": 90.5,
+          "price": 0.3919,
+          "vol": 17023966.41206,
+          "label": "EXTREMO"
         },
         {
           "sym": "HOMEUSDT",
-          "rsi": 82.9,
-          "price": 0.03632,
-          "vol": 14173777.56727,
+          "rsi": 83.3,
+          "price": 0.0367,
+          "vol": 14647662.24648,
           "label": "ALTO"
         },
         {
           "sym": "币安人生USDT",
-          "rsi": 80.4,
-          "price": 0.6526,
-          "vol": 48088022.15437,
+          "rsi": 81.2,
+          "price": 0.6646,
+          "vol": 52044391.00615,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 80.5,
+          "price": 0.018,
+          "vol": 38215051.893145,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 120
     }
   }
 }
