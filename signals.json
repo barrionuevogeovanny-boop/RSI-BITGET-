@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T11:55:36.216Z",
-  "updated_ts": 1780228536216,
+  "updated": "2026-05-31T13:39:54.220Z",
+  "updated_ts": 1780234794220,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,48 +15,41 @@
     "15m": {
       "sell": [
         {
-          "sym": "MANTRAUSDT",
-          "rsi": 88.5,
-          "price": 0.01003,
-          "vol": 5288601.60081,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "GUNUSDT",
-          "rsi": 82.7,
-          "price": 0.00783,
-          "vol": 2064444.82942,
-          "label": "ALTO"
+          "rsi": 89.7,
+          "price": 0.01005,
+          "vol": 6344226.62354,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 117
     },
     "1h": {
       "sell": [
         {
-          "sym": "MANTRAUSDT",
-          "rsi": 84.4,
-          "price": 0.01003,
-          "vol": 5288601.60081,
-          "label": "ALTO"
+          "sym": "GUNUSDT",
+          "rsi": 91,
+          "price": 0.01005,
+          "vol": 6344226.62354,
+          "label": "EXTREMO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "STRAXUSDT",
-          "rsi": 85.7,
-          "price": 0.01626,
-          "vol": 11283191.2963,
-          "label": "MUY ALTO"
+          "rsi": 81.9,
+          "price": 0.01652,
+          "vol": 12810050.31436,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 117
     }
   }
 }
