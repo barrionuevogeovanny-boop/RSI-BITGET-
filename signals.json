@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T15:04:54.684Z",
-  "updated_ts": 1780239894684,
+  "updated": "2026-05-31T16:21:20.436Z",
+  "updated_ts": 1780244480436,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,82 +16,40 @@
       "sell": [],
       "buy": [
         {
-          "sym": "ZAMAUSDT",
-          "rsi": 19.8,
-          "price": 0.03513,
-          "vol": 5641875.053,
-          "label": "BAJO"
-        },
-        {
-          "sym": "SUIUSDT",
-          "rsi": 21.4,
-          "price": 0.8757,
-          "vol": 30021529.57711,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 23.2,
-          "price": 0.06029,
-          "vol": 4239623.748029,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FILUSDT",
-          "rsi": 24.6,
-          "price": 0.94,
-          "vol": 8572397.04983,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "ATOMUSDT",
-          "rsi": 24.6,
-          "price": 1.955,
-          "vol": 3462118.7375,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 24.8,
-          "price": 299.3,
-          "vol": 11142596.3645,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 24.8,
-          "price": 8.88,
-          "vol": 7940285.67353,
+          "rsi": 21.8,
+          "price": 1.945,
+          "vol": 3502098.90316,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "SUIUSDT",
-          "rsi": 23.6,
-          "price": 0.8757,
-          "vol": 30021529.57711,
+          "sym": "ATOMUSDT",
+          "rsi": 24.4,
+          "price": 1.945,
+          "vol": 3502098.90316,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "4h": {
       "sell": [
         {
           "sym": "STGUSDT",
-          "rsi": 80.8,
-          "price": 0.2716,
-          "vol": 9619109.92423,
+          "rsi": 81.7,
+          "price": 0.2772,
+          "vol": 9569231.03531,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 120
     }
   }
 }
