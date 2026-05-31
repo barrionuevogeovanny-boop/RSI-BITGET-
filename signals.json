@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-31T13:39:54.220Z",
-  "updated_ts": 1780234794220,
+  "updated": "2026-05-31T15:04:54.684Z",
+  "updated_ts": 1780239894684,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,85 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "GUNUSDT",
-          "rsi": 89.7,
-          "price": 0.01005,
-          "vol": 6344226.62354,
-          "label": "MUY ALTO"
+          "sym": "ZAMAUSDT",
+          "rsi": 19.8,
+          "price": 0.03513,
+          "vol": 5641875.053,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SUIUSDT",
+          "rsi": 21.4,
+          "price": 0.8757,
+          "vol": 30021529.57711,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MEGAUSDT",
+          "rsi": 23.2,
+          "price": 0.06029,
+          "vol": 4239623.748029,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 24.6,
+          "price": 0.94,
+          "vol": 8572397.04983,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ATOMUSDT",
+          "rsi": 24.6,
+          "price": 1.955,
+          "vol": 3462118.7375,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 24.8,
+          "price": 299.3,
+          "vol": 11142596.3645,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 24.8,
+          "price": 8.88,
+          "vol": 7940285.67353,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 117
+      "scanned": 118
     },
     "1h": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "GUNUSDT",
-          "rsi": 91,
-          "price": 0.01005,
-          "vol": 6344226.62354,
-          "label": "EXTREMO"
+          "sym": "SUIUSDT",
+          "rsi": 23.6,
+          "price": 0.8757,
+          "vol": 30021529.57711,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 117
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
-          "sym": "STRAXUSDT",
-          "rsi": 81.9,
-          "price": 0.01652,
-          "vol": 12810050.31436,
+          "sym": "STGUSDT",
+          "rsi": 80.8,
+          "price": 0.2716,
+          "vol": 9619109.92423,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 117
+      "scanned": 118
     }
   }
 }
