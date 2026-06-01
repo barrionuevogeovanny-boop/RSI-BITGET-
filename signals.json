@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T05:20:54.295Z",
-  "updated_ts": 1780291254295,
+  "updated": "2026-06-01T10:35:24.990Z",
+  "updated_ts": 1780310124990,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,47 +16,77 @@
       "sell": [],
       "buy": [
         {
-          "sym": "ALLOUSDT",
-          "rsi": 19.1,
-          "price": 0.2156,
-          "vol": 44676503.1964,
+          "sym": "AIUSDT",
+          "rsi": 16.6,
+          "price": 0.0258,
+          "vol": 2284489.71948,
           "label": "BAJO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 22.6,
+          "price": 284.5,
+          "vol": 15866214.4135,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 22.7,
+          "price": 1.00076,
+          "vol": 909894497.57016,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 132
     },
     "1h": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
-          "rsi": 80.1,
-          "price": 0.04325,
-          "vol": 88479273.628295,
-          "label": "ALTO"
+          "sym": "VICUSDT",
+          "rsi": 92.5,
+          "price": 0.0707,
+          "vol": 10733850.71301,
+          "label": "EXTREMO"
         }
       ],
-      "buy": [],
-      "scanned": 126
+      "buy": [
+        {
+          "sym": "USDCUSDT",
+          "rsi": 20.2,
+          "price": 1.00076,
+          "vol": 909894497.57016,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 23.9,
+          "price": 284.5,
+          "vol": 15866214.4135,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 132
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 94,
-          "price": 0.04325,
-          "vol": 88479273.628295,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 88.9,
-          "price": 0.04239,
-          "vol": 20772076.6085,
-          "label": "MUY ALTO"
+          "rsi": 84.9,
+          "price": 0.03812,
+          "vol": 97926401.16445,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 126
+      "buy": [
+        {
+          "sym": "BCHUSDT",
+          "rsi": 24.8,
+          "price": 284.5,
+          "vol": 15866214.4135,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 132
     }
   }
 }
