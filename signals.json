@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T20:43:35.517Z",
-  "updated_ts": 1780346615517,
+  "updated": "2026-06-01T22:52:22.530Z",
+  "updated_ts": 1780354342530,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,42 +14,41 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 17.5,
-          "price": 0.3435,
-          "vol": 43050955.51616,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 148
+      "buy": [],
+      "scanned": 147
     },
     "1h": {
       "sell": [
         {
-          "sym": "NEARUSDT",
-          "rsi": 81.6,
-          "price": 2.66,
-          "vol": 125086981.9311,
+          "sym": "EPICUSDT",
+          "rsi": 84.8,
+          "price": 0.372,
+          "vol": 8562014.8716,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 148
+      "scanned": 147
     },
     "4h": {
       "sell": [
         {
           "sym": "EPICUSDT",
-          "rsi": 81.7,
-          "price": 0.346,
-          "vol": 8148897.4527,
+          "rsi": 84.6,
+          "price": 0.372,
+          "vol": 8562014.8716,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 84,
+          "price": 0.05224,
+          "vol": 30387722.46921,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 148
+      "scanned": 147
     }
   }
 }
