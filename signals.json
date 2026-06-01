@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T10:35:24.990Z",
-  "updated_ts": 1780310124990,
+  "updated": "2026-06-01T16:26:50.077Z",
+  "updated_ts": 1780331210077,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,77 +16,91 @@
       "sell": [],
       "buy": [
         {
-          "sym": "AIUSDT",
-          "rsi": 16.6,
-          "price": 0.0258,
-          "vol": 2284489.71948,
+          "sym": "PORTALUSDT",
+          "rsi": 19.7,
+          "price": 0.02002,
+          "vol": 111389131.763286,
           "label": "BAJO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 22.6,
-          "price": 284.5,
-          "vol": 15866214.4135,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "USDCUSDT",
-          "rsi": 22.7,
-          "price": 1.00076,
-          "vol": 909894497.57016,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 138
     },
     "1h": {
       "sell": [
         {
-          "sym": "VICUSDT",
-          "rsi": 92.5,
-          "price": 0.0707,
-          "vol": 10733850.71301,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "USDCUSDT",
-          "rsi": 20.2,
-          "price": 1.00076,
-          "vol": 909894497.57016,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 23.9,
-          "price": 284.5,
-          "vol": 15866214.4135,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 132
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "PORTALUSDT",
-          "rsi": 84.9,
-          "price": 0.03812,
-          "vol": 97926401.16445,
+          "sym": "PARTIUSDT",
+          "rsi": 80.1,
+          "price": 0.0503,
+          "vol": 3509198.99764,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "BCHUSDT",
-          "rsi": 24.8,
-          "price": 284.5,
-          "vol": 15866214.4135,
+          "sym": "BTCUSDT",
+          "rsi": 16.6,
+          "price": 71025.99,
+          "vol": 1465847382.6471064,
+          "label": "BAJO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 16.6,
+          "price": 70860,
+          "vol": 2913680.1188917,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 138
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "NOMUSDT",
+          "rsi": 82.7,
+          "price": 0.00293,
+          "vol": 14468078.26008,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 82.5,
+          "price": 0.0495,
+          "vol": 30668717.4014,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 80.9,
+          "price": 0.34,
+          "vol": 6347673.96,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "BTCUSDT",
+          "rsi": 20.8,
+          "price": 71025.99,
+          "vol": 1465847382.6471064,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 21.1,
+          "price": 70860,
+          "vol": 2913680.1188917,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PSGUSDT",
+          "rsi": 23.2,
+          "price": 0.747,
+          "vol": 3053100.10384,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 138
     }
   }
 }
