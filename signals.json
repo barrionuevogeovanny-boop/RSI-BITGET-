@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02T00:04:27.521Z",
-  "updated_ts": 1780358667521,
+  "updated": "2026-06-02T04:57:27.618Z",
+  "updated_ts": 1780376247618,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "ORDIUSDT",
-          "rsi": 83.7,
-          "price": 4.086,
-          "vol": 9322955.90132,
-          "label": "ALTO"
+          "sym": "HEIUSDT",
+          "rsi": 11.5,
+          "price": 0.0732,
+          "vol": 4470780.61047,
+          "label": "MUY BAJO"
         }
       ],
-      "buy": [],
-      "scanned": 147
+      "scanned": 146
     },
     "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 147
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "EPICUSDT",
-          "rsi": 81.9,
-          "price": 0.356,
-          "vol": 9051226.1012,
+          "sym": "WLDUSDT",
+          "rsi": 81.5,
+          "price": 0.4728,
+          "vol": 125852987.84009,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "EDENUSDT",
-          "rsi": 24.5,
-          "price": 0.0471,
-          "vol": 2074808.35865,
+          "sym": "HEIUSDT",
+          "rsi": 23,
+          "price": 0.0732,
+          "vol": 4470780.61047,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 146
+    },
+    "4h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "PSGUSDT",
+          "rsi": 23.8,
+          "price": 0.746,
+          "vol": 2295859.47503,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 24.4,
+          "price": 70821.48,
+          "vol": 1848685923.9862401,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 24.5,
+          "price": 70697.64,
+          "vol": 4130022.4236572,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 146
     }
   }
 }
