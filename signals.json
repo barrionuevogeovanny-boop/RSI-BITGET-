@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02T09:08:38.917Z",
-  "updated_ts": 1780391318917,
+  "updated": "2026-06-02T12:50:47.678Z",
+  "updated_ts": 1780404647678,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,56 +14,56 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 135
+      "buy": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 20.5,
+          "price": 0.10622,
+          "vol": 2850863.028251,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 134
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "BTCUSDT",
-          "rsi": 22,
-          "price": 69659.47,
-          "vol": 2005986481.0580473,
+          "rsi": 21.8,
+          "price": 69104,
+          "vol": 1885390903.2961116,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 23.4,
-          "price": 69566.78,
-          "vol": 4532067.9269954,
+          "rsi": 22.8,
+          "price": 69013.95,
+          "vol": 5149408.4035772,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 134
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 86.6,
-          "price": 0.417,
-          "vol": 12279106.1016,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "BTCUSDT",
-          "rsi": 19.4,
-          "price": 69659.47,
-          "vol": 2005986481.0580473,
+          "rsi": 17.6,
+          "price": 69104,
+          "vol": 1885390903.2961116,
           "label": "BAJO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 19.7,
-          "price": 69566.78,
-          "vol": 4532067.9269954,
+          "rsi": 17.8,
+          "price": 69013.95,
+          "vol": 5149408.4035772,
           "label": "BAJO"
         }
       ],
-      "scanned": 135
+      "scanned": 134
     }
   }
 }
