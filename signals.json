@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-01T22:52:22.530Z",
-  "updated_ts": 1780354342530,
+  "updated": "2026-06-02T00:04:27.521Z",
+  "updated_ts": 1780358667521,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,20 +13,20 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ORDIUSDT",
+          "rsi": 83.7,
+          "price": 4.086,
+          "vol": 9322955.90132,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 147
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 84.8,
-          "price": 0.372,
-          "vol": 8562014.8716,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 147
     },
@@ -34,20 +34,21 @@
       "sell": [
         {
           "sym": "EPICUSDT",
-          "rsi": 84.6,
-          "price": 0.372,
-          "vol": 8562014.8716,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 84,
-          "price": 0.05224,
-          "vol": 30387722.46921,
+          "rsi": 81.9,
+          "price": 0.356,
+          "vol": 9051226.1012,
           "label": "ALTO"
         }
       ],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "EDENUSDT",
+          "rsi": 24.5,
+          "price": 0.0471,
+          "vol": 2074808.35865,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 147
     }
   }
