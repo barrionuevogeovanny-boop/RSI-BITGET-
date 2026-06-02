@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02T12:50:47.678Z",
-  "updated_ts": 1780404647678,
+  "updated": "2026-06-02T17:12:46.281Z",
+  "updated_ts": 1780420366281,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,56 +14,63 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 20.5,
-          "price": 0.10622,
-          "vol": 2850863.028251,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 134
+      "buy": [],
+      "scanned": 138
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "BTCUSDT",
-          "rsi": 21.8,
-          "price": 69104,
-          "vol": 1885390903.2961116,
-          "label": "SOBREVENDIDO"
+          "sym": "WBTCUSDT",
+          "rsi": 17.2,
+          "price": 67346.12,
+          "vol": 6189444.9836941,
+          "label": "BAJO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 22.8,
-          "price": 69013.95,
-          "vol": 5149408.4035772,
+          "sym": "BTCUSDT",
+          "rsi": 17.3,
+          "price": 67491.5,
+          "vol": 1888512972.9606667,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 23.7,
+          "price": 0.00007379,
+          "vol": 6081595.25514079,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 138
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GPSUSDT",
+          "rsi": 80.9,
+          "price": 0.00838,
+          "vol": 2440292.654275,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "BTCUSDT",
-          "rsi": 17.6,
-          "price": 69104,
-          "vol": 1885390903.2961116,
+          "sym": "WBTCUSDT",
+          "rsi": 15.3,
+          "price": 67346.12,
+          "vol": 6189444.9836941,
           "label": "BAJO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 17.8,
-          "price": 69013.95,
-          "vol": 5149408.4035772,
+          "sym": "BTCUSDT",
+          "rsi": 15.7,
+          "price": 67491.5,
+          "vol": 1888512972.9606667,
           "label": "BAJO"
         }
       ],
-      "scanned": 134
+      "scanned": 138
     }
   }
 }
