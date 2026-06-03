@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-03T18:56:45.056Z",
-  "updated_ts": 1780513005056,
+  "updated": "2026-06-03T21:49:31.973Z",
+  "updated_ts": 1780523371973,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,56 +13,26 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "STOUSDT",
-          "rsi": 93.2,
-          "price": 0.0791,
-          "vol": 11296449.82194,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "OPNUSDT",
-          "rsi": 85.6,
-          "price": 0.2543,
-          "vol": 24050716.94673,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "GPSUSDT",
-          "rsi": 21.5,
-          "price": 0.00676,
-          "vol": 12725038.543206,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "sell": [],
+      "buy": [],
       "scanned": 146
     },
     "1h": {
       "sell": [
         {
           "sym": "OPNUSDT",
-          "rsi": 94.2,
-          "price": 0.2543,
-          "vol": 24050716.94673,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "STOUSDT",
-          "rsi": 92.5,
-          "price": 0.0791,
-          "vol": 11296449.82194,
-          "label": "EXTREMO"
+          "rsi": 87.3,
+          "price": 0.2638,
+          "vol": 33044607.94058,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "JSTUSDT",
-          "rsi": 13,
-          "price": 0.0779,
-          "vol": 13474080.544977,
+          "rsi": 13.6,
+          "price": 0.07521,
+          "vol": 14662077.481581,
           "label": "MUY BAJO"
         }
       ],
@@ -72,46 +42,39 @@
       "sell": [
         {
           "sym": "OPNUSDT",
-          "rsi": 85.8,
-          "price": 0.2543,
-          "vol": 24050716.94673,
+          "rsi": 86.8,
+          "price": 0.2638,
+          "vol": 33044607.94058,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "STOUSDT",
-          "rsi": 81.6,
-          "price": 0.0791,
-          "vol": 11296449.82194,
-          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "JSTUSDT",
-          "rsi": 14.7,
-          "price": 0.0779,
-          "vol": 13474080.544977,
+          "rsi": 13,
+          "price": 0.07521,
+          "vol": 14662077.481581,
           "label": "MUY BAJO"
         },
         {
           "sym": "WALUSDT",
-          "rsi": 17.7,
-          "price": 0.0441,
-          "vol": 4595181.18735,
-          "label": "BAJO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 22.8,
-          "price": 66110.61,
-          "vol": 2083644126.619436,
+          "rsi": 23.2,
+          "price": 0.045,
+          "vol": 4398531.60444,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 23.1,
-          "price": 65971.79,
-          "vol": 7476889.5184868,
+          "sym": "BCHUSDT",
+          "rsi": 23.3,
+          "price": 246.2,
+          "vol": 83751960.3067,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 24.5,
+          "price": 65801.04,
+          "vol": 2039709140.6985931,
           "label": "SOBREVENDIDO"
         }
       ],
