@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-03T23:24:55.413Z",
-  "updated_ts": 1780529095413,
+  "updated": "2026-06-04T02:04:48.493Z",
+  "updated_ts": 1780538688493,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,69 +14,1099 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 145
+      "buy": [
+        {
+          "sym": "EDUUSDT",
+          "rsi": 13.3,
+          "price": 0.0347,
+          "vol": 2278986.1064,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "GENIUSUSDT",
+          "rsi": 14.1,
+          "price": 0.4354,
+          "vol": 16591083.67776,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 14.7,
+          "price": 0.03014,
+          "vol": 4667197.11305,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 15.3,
+          "price": 1.00062,
+          "vol": 2350600348.08353,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OSMOUSDT",
+          "rsi": 15.8,
+          "price": 0.0425,
+          "vol": 2866673.457421,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 16.4,
+          "price": 61492.68,
+          "vol": 2448499571.3932896,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 16.4,
+          "price": 1.187,
+          "vol": 4210452.69385,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SEIUSDT",
+          "rsi": 17,
+          "price": 0.05464,
+          "vol": 14277913.516603,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 17.3,
+          "price": 0.03282,
+          "vol": 3164950.800983,
+          "label": "BAJO"
+        },
+        {
+          "sym": "USD1USDT",
+          "rsi": 17.7,
+          "price": 0.99924,
+          "vol": 234080237.0558,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CHIPUSDT",
+          "rsi": 17.9,
+          "price": 0.03367,
+          "vol": 6882777.12475,
+          "label": "BAJO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 17.9,
+          "price": 0.0521,
+          "vol": 2150992.299682,
+          "label": "BAJO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 18,
+          "price": 61365.45,
+          "vol": 7376741.2171911,
+          "label": "BAJO"
+        },
+        {
+          "sym": "GALAUSDT",
+          "rsi": 18.1,
+          "price": 0.00261,
+          "vol": 2879032.43581,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 18.2,
+          "price": 44.3,
+          "vol": 24908460.25969,
+          "label": "BAJO"
+        },
+        {
+          "sym": "AXSUSDT",
+          "rsi": 18.2,
+          "price": 1.008,
+          "vol": 2242014.84091,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ZKUSDT",
+          "rsi": 18.3,
+          "price": 0.01148,
+          "vol": 2368194.316989,
+          "label": "BAJO"
+        },
+        {
+          "sym": "JUPUSDT",
+          "rsi": 18.4,
+          "price": 0.174,
+          "vol": 4899055.26659,
+          "label": "BAJO"
+        },
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 18.6,
+          "price": 26.54,
+          "vol": 5683684.08052,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BIOUSDT",
+          "rsi": 18.7,
+          "price": 0.0293,
+          "vol": 9485978.21084,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 19.2,
+          "price": 0.00006384,
+          "vol": 5666767.86937467,
+          "label": "BAJO"
+        },
+        {
+          "sym": "GMTUSDT",
+          "rsi": 19.3,
+          "price": 0.00895,
+          "vol": 2938218.79301,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OPUSDT",
+          "rsi": 19.4,
+          "price": 0.1086,
+          "vol": 8585932.452069,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CHZUSDT",
+          "rsi": 19.5,
+          "price": 0.02854,
+          "vol": 10330748.60984,
+          "label": "BAJO"
+        },
+        {
+          "sym": "APEUSDT",
+          "rsi": 19.5,
+          "price": 0.1314,
+          "vol": 3036903.181363,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNSOLUSDT",
+          "rsi": 19.7,
+          "price": 74.9,
+          "vol": 2245203.7484,
+          "label": "BAJO"
+        },
+        {
+          "sym": "IOTAUSDT",
+          "rsi": 19.8,
+          "price": 0.0464,
+          "vol": 2342664.6829,
+          "label": "BAJO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 19.9,
+          "price": 0.00000287,
+          "vol": 27990372.53665817,
+          "label": "BAJO"
+        },
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 19.9,
+          "price": 1.205,
+          "vol": 9342625.2564,
+          "label": "BAJO"
+        },
+        {
+          "sym": "POLUSDT",
+          "rsi": 19.9,
+          "price": 0.08824,
+          "vol": 7578250.245326,
+          "label": "BAJO"
+        },
+        {
+          "sym": "TONUSDT",
+          "rsi": 20.2,
+          "price": 1.755,
+          "vol": 56979264.75965,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 20.3,
+          "price": 592.64,
+          "vol": 215196105.31455,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 20.3,
+          "price": 35,
+          "vol": 14957521.62926,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PNUTUSDT",
+          "rsi": 20.4,
+          "price": 0.0434,
+          "vol": 2193638.88613,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZENUSDT",
+          "rsi": 20.6,
+          "price": 4.979,
+          "vol": 5417964.78312,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NOMUSDT",
+          "rsi": 20.7,
+          "price": 0.00197,
+          "vol": 2462743.94414,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 20.8,
+          "price": 0.1887,
+          "vol": 61655310.54807,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 20.8,
+          "price": 0.2697,
+          "vol": 6743259.111143,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEIROUSDT",
+          "rsi": 20.8,
+          "price": 0.00006713,
+          "vol": 2814841.07669586,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ARUSDT",
+          "rsi": 21.5,
+          "price": 2.22,
+          "vol": 13570599.431,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 21.5,
+          "price": 0.01807,
+          "vol": 2746239.67874,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EIGENUSDT",
+          "rsi": 21.6,
+          "price": 0.1838,
+          "vol": 4809985.295993,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 21.7,
+          "price": 1.778,
+          "vol": 13467713.216629,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 21.7,
+          "price": 0.01724,
+          "vol": 14852033.693121,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 21.8,
+          "price": 67.22,
+          "vol": 314749611.3405,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FLOKIUSDT",
+          "rsi": 21.8,
+          "price": 0.00002427,
+          "vol": 3074403.62389899,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HIGHUSDT",
+          "rsi": 21.8,
+          "price": 0.102,
+          "vol": 2125066.336085,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 21.9,
+          "price": 0.3297,
+          "vol": 52100450.66988,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 21.9,
+          "price": 0.0662,
+          "vol": 6204830.87774,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GRTUSDT",
+          "rsi": 22,
+          "price": 0.02129,
+          "vol": 2080472.58734,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MEGAUSDT",
+          "rsi": 22.1,
+          "price": 0.05015,
+          "vol": 3193486.097549,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "OPENUSDT",
+          "rsi": 22.1,
+          "price": 0.2002,
+          "vol": 3604441.55638,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "YBUSDT",
+          "rsi": 22.2,
+          "price": 0.0966,
+          "vol": 2302384.68547,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 22.3,
+          "price": 0.322,
+          "vol": 5043838.9039,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 22.4,
+          "price": 0.01527,
+          "vol": 3454433.992454,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CFGUSDT",
+          "rsi": 22.7,
+          "price": 0.2349,
+          "vol": 3475199.6331,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STXUSDT",
+          "rsi": 22.7,
+          "price": 0.1955,
+          "vol": 2311611.47028,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 22.8,
+          "price": 2.59,
+          "vol": 12944651.66348,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPKUSDT",
+          "rsi": 22.8,
+          "price": 0.019041,
+          "vol": 3859317.279811,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 22.8,
+          "price": 0.00000462,
+          "vol": 4130190.49757535,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VETUSDT",
+          "rsi": 22.8,
+          "price": 0.00519,
+          "vol": 2026154.3826109,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALGOUSDT",
+          "rsi": 22.9,
+          "price": 0.1005,
+          "vol": 5348424.3343,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETCUSDT",
+          "rsi": 23,
+          "price": 7.24,
+          "vol": 4671505.0171,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ATOMUSDT",
+          "rsi": 23,
+          "price": 1.756,
+          "vol": 3266651.27892,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 23.1,
+          "price": 0.3301,
+          "vol": 5091656.915053,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NIGHTUSDT",
+          "rsi": 23.2,
+          "price": 0.03632,
+          "vol": 2250723.97104,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PLUMEUSDT",
+          "rsi": 23.3,
+          "price": 0.01172,
+          "vol": 2528125.69725,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 23.5,
+          "price": 68.97,
+          "vol": 18510691.24759,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 23.5,
+          "price": 0.741,
+          "vol": 11774677.30004,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 23.6,
+          "price": 1.1472,
+          "vol": 177189744.54859,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 24,
+          "price": 0.086,
+          "vol": 9106775.57639,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VIRTUALUSDT",
+          "rsi": 24.1,
+          "price": 0.6523,
+          "vol": 14204560.31839,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 24.1,
+          "price": 0.00000489,
+          "vol": 4224936.12577108,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CRVUSDT",
+          "rsi": 24.1,
+          "price": 0.1896,
+          "vol": 2845790.92636,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 24.2,
+          "price": 1.776,
+          "vol": 3137264.51104,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XPLUSDT",
+          "rsi": 24.3,
+          "price": 0.0818,
+          "vol": 22494713.89943,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 24.4,
+          "price": 0.08635,
+          "vol": 94416173.86267,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WIFUSDT",
+          "rsi": 24.6,
+          "price": 0.168,
+          "vol": 3772190.48772,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ORDIUSDT",
+          "rsi": 24.8,
+          "price": 3.183,
+          "vol": 5149340.18865,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BERAUSDT",
+          "rsi": 24.8,
+          "price": 0.273,
+          "vol": 4731419.169006,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WALUSDT",
+          "rsi": 24.8,
+          "price": 0.0403,
+          "vol": 4349625.15926,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WUSDT",
+          "rsi": 24.8,
+          "price": 0.0113,
+          "vol": 3604194.26515,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "INJUSDT",
+          "rsi": 24.9,
+          "price": 6.029,
+          "vol": 22954714.66035,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 25,
+          "price": 1.017,
+          "vol": 10626503.04546,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 150
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 16.4,
-          "price": 0.07516,
-          "vol": 15075252.099835,
+          "sym": "BTCUSDT",
+          "rsi": 17,
+          "price": 61492.68,
+          "vol": 2448499571.3932896,
           "label": "BAJO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 17.1,
+          "price": 0.1887,
+          "vol": 61655310.54807,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SEIUSDT",
+          "rsi": 17.1,
+          "price": 0.05464,
+          "vol": 14277913.516603,
+          "label": "BAJO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 18,
+          "price": 61365.45,
+          "vol": 7376741.2171911,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 18.2,
+          "price": 1.187,
+          "vol": 4210452.69385,
+          "label": "BAJO"
+        },
+        {
+          "sym": "IOTAUSDT",
+          "rsi": 18.4,
+          "price": 0.0464,
+          "vol": 2342664.6829,
+          "label": "BAJO"
+        },
+        {
+          "sym": "EDUUSDT",
+          "rsi": 19.4,
+          "price": 0.0347,
+          "vol": 2278986.1064,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNSOLUSDT",
+          "rsi": 20.2,
+          "price": 74.9,
+          "vol": 2245203.7484,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 20.5,
+          "price": 592.64,
+          "vol": 215196105.31455,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 20.6,
+          "price": 67.22,
+          "vol": 314749611.3405,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GPSUSDT",
+          "rsi": 21.5,
+          "price": 0.00616,
+          "vol": 14695664.152353,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 21.7,
+          "price": 0.03282,
+          "vol": 3164950.800983,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 21.8,
+          "price": 44.3,
+          "vol": 24908460.25969,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AXSUSDT",
+          "rsi": 21.8,
+          "price": 1.008,
+          "vol": 2242014.84091,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STRAXUSDT",
+          "rsi": 22.1,
+          "price": 0.0107,
+          "vol": 33234991.32709,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WALUSDT",
+          "rsi": 22.1,
+          "price": 0.0403,
+          "vol": 4349625.15926,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 22.2,
+          "price": 0.08635,
+          "vol": 94416173.86267,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GALAUSDT",
+          "rsi": 22.6,
+          "price": 0.00261,
+          "vol": 2879032.43581,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALGOUSDT",
+          "rsi": 22.7,
+          "price": 0.1005,
+          "vol": 5348424.3343,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EULUSDT",
+          "rsi": 23.5,
+          "price": 0.978,
+          "vol": 2610146.54405,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FLOKIUSDT",
+          "rsi": 23.8,
+          "price": 0.00002427,
+          "vol": 3074403.62389899,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 23.9,
+          "price": 0.741,
+          "vol": 11774677.30004,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CHZUSDT",
+          "rsi": 23.9,
+          "price": 0.02854,
+          "vol": 10330748.60984,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 23.9,
+          "price": 0.2697,
+          "vol": 6743259.111143,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 24,
+          "price": 0.00006384,
+          "vol": 5666767.86937467,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 24.2,
+          "price": 1.1472,
+          "vol": 177189744.54859,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZKUSDT",
+          "rsi": 24.2,
+          "price": 0.01148,
+          "vol": 2368194.316989,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 24.3,
+          "price": 0.07474,
+          "vol": 16943606.232999,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 24.4,
+          "price": 0.00000287,
+          "vol": 27990372.53665817,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 24.4,
+          "price": 26.54,
+          "vol": 5683684.08052,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 24.6,
+          "price": 7.564,
+          "vol": 35231709.31935,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 24.6,
+          "price": 0.00000489,
+          "vol": 4224936.12577108,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 24.6,
+          "price": 1.776,
+          "vol": 3137264.51104,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 24.7,
+          "price": 68.97,
+          "vol": 18510691.24759,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 24.7,
+          "price": 0.0521,
+          "vol": 2150992.299682,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VETUSDT",
+          "rsi": 24.7,
+          "price": 0.00519,
+          "vol": 2026154.3826109,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 24.8,
+          "price": 2.59,
+          "vol": 12944651.66348,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEIROUSDT",
+          "rsi": 24.9,
+          "price": 0.00006713,
+          "vol": 2814841.07669586,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STXUSDT",
+          "rsi": 25,
+          "price": 0.1955,
+          "vol": 2311611.47028,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 150
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 13,
-          "price": 0.07516,
-          "vol": 15075252.099835,
+          "sym": "BTCUSDT",
+          "rsi": 13.3,
+          "price": 61492.68,
+          "vol": 2448499571.3932896,
           "label": "MUY BAJO"
         },
         {
-          "sym": "BTCUSDT",
-          "rsi": 18.2,
-          "price": 64392.08,
-          "vol": 1999066583.0301125,
-          "label": "BAJO"
+          "sym": "WBTCUSDT",
+          "rsi": 13.7,
+          "price": 61365.45,
+          "vol": 7376741.2171911,
+          "label": "MUY BAJO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 18.7,
-          "price": 64293.09,
-          "vol": 7584816.6606786,
+          "sym": "WALUSDT",
+          "rsi": 14.7,
+          "price": 0.0403,
+          "vol": 4349625.15926,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 15.7,
+          "price": 0.07474,
+          "vol": 16943606.232999,
           "label": "BAJO"
         },
         {
           "sym": "BCHUSDT",
-          "rsi": 18.8,
-          "price": 240.1,
-          "vol": 81396344.1173,
+          "rsi": 16.3,
+          "price": 231.3,
+          "vol": 83362987.5249,
           "label": "BAJO"
         },
         {
-          "sym": "WALUSDT",
+          "sym": "EDUUSDT",
+          "rsi": 16.8,
+          "price": 0.0347,
+          "vol": 2278986.1064,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNSOLUSDT",
           "rsi": 18.8,
-          "price": 0.0442,
-          "vol": 4277806.45355,
+          "price": 74.9,
+          "vol": 2245203.7484,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 18.9,
+          "price": 67.22,
+          "vol": 314749611.3405,
           "label": "BAJO"
         },
         {
           "sym": "ADAUSDT",
-          "rsi": 24.8,
-          "price": 0.2006,
-          "vol": 52193723.69053,
+          "rsi": 19.3,
+          "price": 0.1887,
+          "vol": 61655310.54807,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 20,
+          "price": 44.3,
+          "vol": 24908460.25969,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 20.2,
+          "price": 0.03282,
+          "vol": 3164950.800983,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 20.5,
+          "price": 1726.48,
+          "vol": 1179209238.231206,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBETHUSDT",
+          "rsi": 21.1,
+          "price": 1901.42,
+          "vol": 9782559.218222,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPKUSDT",
+          "rsi": 21.7,
+          "price": 0.019041,
+          "vol": 3859317.279811,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EULUSDT",
+          "rsi": 21.9,
+          "price": 0.978,
+          "vol": 2610146.54405,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HIGHUSDT",
+          "rsi": 22.1,
+          "price": 0.102,
+          "vol": 2125066.336085,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 22.2,
+          "price": 7.564,
+          "vol": 35231709.31935,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 22.2,
+          "price": 1.187,
+          "vol": 4210452.69385,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "IOTAUSDT",
+          "rsi": 22.4,
+          "price": 0.0464,
+          "vol": 2342664.6829,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 22.5,
+          "price": 0.08635,
+          "vol": 94416173.86267,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 22.8,
+          "price": 1.1472,
+          "vol": 177189744.54859,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETCUSDT",
+          "rsi": 23.1,
+          "price": 7.24,
+          "vol": 4671505.0171,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 23.2,
+          "price": 0.741,
+          "vol": 11774677.30004,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 23.2,
+          "price": 0.2697,
+          "vol": 6743259.111143,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZKUSDT",
+          "rsi": 23.4,
+          "price": 0.01148,
+          "vol": 2368194.316989,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 23.5,
+          "price": 68.97,
+          "vol": 18510691.24759,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 23.5,
+          "price": 0.00006384,
+          "vol": 5666767.86937467,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STXUSDT",
+          "rsi": 23.7,
+          "price": 0.1955,
+          "vol": 2311611.47028,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 23.9,
+          "price": 0.00000287,
+          "vol": 27990372.53665817,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 24.4,
+          "price": 592.64,
+          "vol": 215196105.31455,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 25,
+          "price": 0.00000489,
+          "vol": 4224936.12577108,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 150
     }
   }
 }
