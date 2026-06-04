@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T16:38:32.707Z",
-  "updated_ts": 1780591112707,
+  "updated": "2026-06-04T19:04:35.940Z",
+  "updated_ts": 1780599875940,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ROBOUSDT",
-          "rsi": 80.9,
-          "price": 0.02152,
-          "vol": 4557743.95163,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 166
     },
@@ -34,24 +26,17 @@
       "sell": [],
       "buy": [
         {
-          "sym": "WALUSDT",
-          "rsi": 14,
-          "price": 0.0394,
-          "vol": 2470525.95793,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "ADAUSDT",
-          "rsi": 18.4,
-          "price": 0.1879,
-          "vol": 75144573.32137,
+          "rsi": 18.7,
+          "price": 0.1886,
+          "vol": 75195056.72195,
           "label": "BAJO"
         },
         {
           "sym": "EDUUSDT",
-          "rsi": 24.9,
-          "price": 0.0367,
-          "vol": 3107630.9966,
+          "rsi": 22.6,
+          "price": 0.0365,
+          "vol": 2793878.3515,
           "label": "SOBREVENDIDO"
         }
       ],
