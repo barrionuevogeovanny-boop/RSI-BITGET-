@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T23:50:13.667Z",
-  "updated_ts": 1780617013667,
+  "updated": "2026-06-05T01:56:39.897Z",
+  "updated_ts": 1780624599897,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,62 +14,77 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 155
+      "buy": [
+        {
+          "sym": "SAHARAUSDT",
+          "rsi": 24.1,
+          "price": 0.03217,
+          "vol": 8143271.51675,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 152
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "ZECUSDT",
-          "rsi": 20.5,
-          "price": 448.49,
-          "vol": 371455070.36949,
+          "rsi": 17.8,
+          "price": 428.04,
+          "vol": 429455209.49685,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 20.2,
+          "price": 0.1728,
+          "vol": 71682121.1226,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 152
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "ADAUSDT",
-          "rsi": 15.4,
-          "price": 0.18,
-          "vol": 72066594.17512,
-          "label": "BAJO"
+          "rsi": 13.2,
+          "price": 0.1728,
+          "vol": 71682121.1226,
+          "label": "MUY BAJO"
         },
         {
           "sym": "EDUUSDT",
-          "rsi": 20.3,
-          "price": 0.0354,
-          "vol": 2678792.2671,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.9,
+          "price": 0.0352,
+          "vol": 2188864.4756,
+          "label": "BAJO"
         },
         {
           "sym": "SOLUSDT",
-          "rsi": 24.1,
-          "price": 68.71,
-          "vol": 342736470.14563,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SEIUSDT",
-          "rsi": 24.6,
-          "price": 0.05217,
-          "vol": 13911652.798684,
+          "rsi": 23.8,
+          "price": 68.59,
+          "vol": 305853298.41527,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BNSOLUSDT",
-          "rsi": 24.7,
-          "price": 76.5,
-          "vol": 2732573.3628,
+          "rsi": 24.4,
+          "price": 76.2,
+          "vol": 2933576.1714,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 24.9,
+          "price": 0.03307,
+          "vol": 3075463.26191,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 152
     }
   }
 }
