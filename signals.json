@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T01:53:45.129Z",
-  "updated_ts": 1780797225129,
+  "updated": "2026-06-07T06:16:04.478Z",
+  "updated_ts": 1780812964478,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,71 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 87.5,
-          "price": 29.75,
-          "vol": 4510151.60168,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SUIUSDT",
-          "rsi": 82.4,
-          "price": 0.7506,
-          "vol": 51580311.62524,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 82.2,
-          "price": 0.0698,
-          "vol": 6217727.04407,
-          "label": "ALTO"
-        },
-        {
-          "sym": "LUNCUSDT",
-          "rsi": 82,
-          "price": 0.0000672,
-          "vol": 5471299.47847342,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 123
+      "scanned": 107
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 123
+      "scanned": 107
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 84.9,
-          "price": 0.4509,
-          "vol": 90467641.06617,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "DUSDT",
-          "rsi": 17.4,
-          "price": 0.00569,
-          "vol": 2156902.77265,
-          "label": "BAJO"
-        },
-        {
-          "sym": "NXPCUSDT",
-          "rsi": 22.6,
-          "price": 0.3194,
-          "vol": 2041187.41888,
+          "sym": "EURUSDT",
+          "rsi": 24.1,
+          "price": 1.15,
+          "vol": 13025319.52551,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 107
     }
   }
 }
