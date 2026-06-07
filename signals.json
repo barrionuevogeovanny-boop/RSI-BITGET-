@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T21:37:56.805Z",
-  "updated_ts": 1780868276805,
+  "updated": "2026-06-07T22:43:29.108Z",
+  "updated_ts": 1780872209108,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,24 +16,32 @@
       "sell": [
         {
           "sym": "DUSDT",
-          "rsi": 90.7,
-          "price": 0.00763,
-          "vol": 2130213.183,
-          "label": "EXTREMO"
+          "rsi": 85.5,
+          "price": 0.00796,
+          "vol": 3384452.85112,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 114
+      "scanned": 118
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DUSDT",
+          "rsi": 81.2,
+          "price": 0.00796,
+          "vol": 3384452.85112,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 114
+      "scanned": 118
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 114
+      "scanned": 118
     }
   }
 }
