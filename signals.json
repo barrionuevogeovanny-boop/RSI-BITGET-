@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T14:57:04.352Z",
-  "updated_ts": 1780844224352,
+  "updated": "2026-06-07T16:18:07.369Z",
+  "updated_ts": 1780849087369,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,34 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 15.8,
-          "price": 0.07749,
-          "vol": 5767912.624654,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 108
-    },
-    "1h": {
       "sell": [
         {
-          "sym": "OSMOUSDT",
-          "rsi": 80.9,
-          "price": 0.046,
-          "vol": 2552566.760907,
+          "sym": "MEGAUSDT",
+          "rsi": 81.5,
+          "price": 0.0484,
+          "vol": 2644650.483008,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "JSTUSDT",
-          "rsi": 24.2,
-          "price": 0.07749,
-          "vol": 5767912.624654,
+          "rsi": 22,
+          "price": 0.07673,
+          "vol": 6283438.12452,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 108
+    },
+    "1h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 21.9,
+          "price": 0.07673,
+          "vol": 6283438.12452,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -51,16 +51,16 @@
       "buy": [
         {
           "sym": "NXPCUSDT",
-          "rsi": 18.1,
-          "price": 0.306,
-          "vol": 2286315.62568,
-          "label": "BAJO"
+          "rsi": 20.9,
+          "price": 0.3094,
+          "vol": 2214994.93484,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "EURUSDT",
-          "rsi": 23.6,
+          "rsi": 24.2,
           "price": 1.1492,
-          "vol": 17300051.513,
+          "vol": 18027284.49897,
           "label": "SOBREVENDIDO"
         }
       ],
