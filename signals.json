@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T20:15:22.209Z",
-  "updated_ts": 1780863322209,
+  "updated": "2026-06-07T21:37:56.805Z",
+  "updated_ts": 1780868276805,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,64 +15,19 @@
     "15m": {
       "sell": [
         {
-          "sym": "ATMUSDT",
-          "rsi": 81.2,
-          "price": 1.217,
-          "vol": 2454876.68987,
-          "label": "ALTO"
+          "sym": "DUSDT",
+          "rsi": 90.7,
+          "price": 0.00763,
+          "vol": 2130213.183,
+          "label": "EXTREMO"
         }
       ],
-      "buy": [
-        {
-          "sym": "OPNUSDT",
-          "rsi": 21,
-          "price": 0.1123,
-          "vol": 20398892.66227,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MANTAUSDT",
-          "rsi": 21.5,
-          "price": 0.07703,
-          "vol": 2007653.886259,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 22.8,
-          "price": 0.0856,
-          "vol": 13400545.38079,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MEMEUSDT",
-          "rsi": 23.8,
-          "price": 0.00058,
-          "vol": 3678275.787507,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 114
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ATMUSDT",
-          "rsi": 84.3,
-          "price": 1.217,
-          "vol": 2454876.68987,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "OPNUSDT",
-          "rsi": 24.1,
-          "price": 0.1123,
-          "vol": 20398892.66227,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "sell": [],
+      "buy": [],
       "scanned": 114
     },
     "4h": {
