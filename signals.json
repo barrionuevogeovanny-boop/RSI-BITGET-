@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T17:43:11.290Z",
-  "updated_ts": 1780854191290,
+  "updated": "2026-06-07T18:58:01.948Z",
+  "updated_ts": 1780858681948,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,12 +13,28 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BABYUSDT",
+          "rsi": 80.9,
+          "price": 0.01689,
+          "vol": 6278859.9533,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 109
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPENUSDT",
+          "rsi": 80.3,
+          "price": 0.2116,
+          "vol": 3724327.5591,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 109
     },
