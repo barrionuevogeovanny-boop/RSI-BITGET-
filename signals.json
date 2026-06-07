@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T06:16:04.478Z",
-  "updated_ts": 1780812964478,
+  "updated": "2026-06-07T09:41:49.028Z",
+  "updated_ts": 1780825309028,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,22 +14,45 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 15.2,
+          "price": 1.148,
+          "vol": 14833274.1791,
+          "label": "BAJO"
+        }
+      ],
       "scanned": 107
     },
     "1h": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 19.6,
+          "price": 1.148,
+          "vol": 14833274.1791,
+          "label": "BAJO"
+        }
+      ],
       "scanned": 107
     },
     "4h": {
       "sell": [],
       "buy": [
         {
+          "sym": "NXPCUSDT",
+          "rsi": 18.7,
+          "price": 0.3097,
+          "vol": 2194805.70082,
+          "label": "BAJO"
+        },
+        {
           "sym": "EURUSDT",
-          "rsi": 24.1,
-          "price": 1.15,
-          "vol": 13025319.52551,
+          "rsi": 21,
+          "price": 1.148,
+          "vol": 14833274.1791,
           "label": "SOBREVENDIDO"
         }
       ],
