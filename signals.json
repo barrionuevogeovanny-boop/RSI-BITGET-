@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-07T13:01:56.032Z",
-  "updated_ts": 1780837316032,
+  "updated": "2026-06-07T14:57:04.352Z",
+  "updated_ts": 1780844224352,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,32 +16,55 @@
       "sell": [],
       "buy": [
         {
-          "sym": "NIGHTUSDT",
-          "rsi": 25,
-          "price": 0.02944,
-          "vol": 2033724.681,
+          "sym": "JSTUSDT",
+          "rsi": 15.8,
+          "price": 0.07749,
+          "vol": 5767912.624654,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 108
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "OSMOUSDT",
+          "rsi": 80.9,
+          "price": 0.046,
+          "vol": 2552566.760907,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 24.2,
+          "price": 0.07749,
+          "vol": 5767912.624654,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 110
+      "scanned": 108
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "NXPCUSDT",
-          "rsi": 17.1,
-          "price": 0.3007,
-          "vol": 2361902.85818,
+          "rsi": 18.1,
+          "price": 0.306,
+          "vol": 2286315.62568,
           "label": "BAJO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 23.6,
+          "price": 1.1492,
+          "vol": 17300051.513,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 108
     }
   }
 }
