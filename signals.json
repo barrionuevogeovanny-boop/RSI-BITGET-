@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T02:04:15.842Z",
-  "updated_ts": 1780884255842,
+  "updated": "2026-06-08T06:58:32.884Z",
+  "updated_ts": 1780901912884,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,18 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 113
+      "buy": [
+        {
+          "sym": "ASRUSDT",
+          "rsi": 23.2,
+          "price": 0.961,
+          "vol": 2154951.2482,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 114
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 113
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 113
+      "scanned": 114
     }
   }
 }
