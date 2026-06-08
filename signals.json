@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T21:03:38.842Z",
-  "updated_ts": 1780952618842,
+  "updated": "2026-06-08T22:44:38.763Z",
+  "updated_ts": 1780958678763,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,31 +16,68 @@
       "sell": [],
       "buy": [
         {
-          "sym": "PARTIUSDT",
-          "rsi": 20.9,
-          "price": 0.0517,
-          "vol": 2380076.35959,
-          "label": "SOBREVENDIDO"
+          "sym": "FIDAUSDT",
+          "rsi": 13.8,
+          "price": 0.02321,
+          "vol": 5529263.098463,
+          "label": "MUY BAJO"
         },
         {
-          "sym": "FIDAUSDT",
-          "rsi": 21,
-          "price": 0.02418,
-          "vol": 5977850.55481,
+          "sym": "MEMEUSDT",
+          "rsi": 18.1,
+          "price": 0.000527,
+          "vol": 2217595.923214,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OPGUSDT",
+          "rsi": 19.8,
+          "price": 0.1491,
+          "vol": 10377496.16146,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OPNUSDT",
+          "rsi": 19.9,
+          "price": 0.0945,
+          "vol": 11631330.78462,
+          "label": "BAJO"
+        },
+        {
+          "sym": "EDENUSDT",
+          "rsi": 20,
+          "price": 0.0424,
+          "vol": 4137845.08446,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 117
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 121
+      "buy": [
+        {
+          "sym": "MEMEUSDT",
+          "rsi": 21.5,
+          "price": 0.000527,
+          "vol": 2217595.923214,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 117
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FTTUSDT",
+          "rsi": 83.1,
+          "price": 0.345,
+          "vol": 7904291.151145,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 121
+      "scanned": 117
     }
   }
 }
