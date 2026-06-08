@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T18:35:53.387Z",
-  "updated_ts": 1780943753387,
+  "updated": "2026-06-08T21:03:38.842Z",
+  "updated_ts": 1780952618842,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,7 +14,22 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 20.9,
+          "price": 0.0517,
+          "vol": 2380076.35959,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FIDAUSDT",
+          "rsi": 21,
+          "price": 0.02418,
+          "vol": 5977850.55481,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 121
     },
     "1h": {
