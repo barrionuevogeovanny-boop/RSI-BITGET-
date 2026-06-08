@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T22:44:38.763Z",
-  "updated_ts": 1780958678763,
+  "updated": "2026-06-08T23:51:47.370Z",
+  "updated_ts": 1780962707370,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -17,67 +17,59 @@
       "buy": [
         {
           "sym": "FIDAUSDT",
-          "rsi": 13.8,
-          "price": 0.02321,
-          "vol": 5529263.098463,
+          "rsi": 11,
+          "price": 0.02275,
+          "vol": 5509182.062846,
           "label": "MUY BAJO"
         },
         {
           "sym": "MEMEUSDT",
-          "rsi": 18.1,
-          "price": 0.000527,
-          "vol": 2217595.923214,
-          "label": "BAJO"
-        },
-        {
-          "sym": "OPGUSDT",
-          "rsi": 19.8,
-          "price": 0.1491,
-          "vol": 10377496.16146,
-          "label": "BAJO"
-        },
-        {
-          "sym": "OPNUSDT",
-          "rsi": 19.9,
-          "price": 0.0945,
-          "vol": 11631330.78462,
+          "rsi": 15.7,
+          "price": 0.00052,
+          "vol": 2232630.27788,
           "label": "BAJO"
         },
         {
           "sym": "EDENUSDT",
-          "rsi": 20,
-          "price": 0.0424,
-          "vol": 4137845.08446,
-          "label": "SOBREVENDIDO"
+          "rsi": 17.1,
+          "price": 0.0414,
+          "vol": 4070701.91189,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OPGUSDT",
+          "rsi": 18.2,
+          "price": 0.1467,
+          "vol": 10951418.13583,
+          "label": "BAJO"
+        },
+        {
+          "sym": "OPNUSDT",
+          "rsi": 19.7,
+          "price": 0.094,
+          "vol": 11849313.38603,
+          "label": "BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 118
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "MEMEUSDT",
-          "rsi": 21.5,
-          "price": 0.000527,
-          "vol": 2217595.923214,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.9,
+          "price": 0.00052,
+          "vol": 2232630.27788,
+          "label": "BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 118
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "FTTUSDT",
-          "rsi": 83.1,
-          "price": 0.345,
-          "vol": 7904291.151145,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 118
     }
   }
 }
