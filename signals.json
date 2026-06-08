@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T12:02:31.292Z",
-  "updated_ts": 1780920151292,
+  "updated": "2026-06-08T16:13:10.776Z",
+  "updated_ts": 1780935190777,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,25 +15,40 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 119
     },
     "1h": {
       "sell": [
         {
-          "sym": "DEXEUSDT",
-          "rsi": 84,
-          "price": 23.106,
-          "vol": 3385216.07576,
+          "sym": "FTTUSDT",
+          "rsi": 87.5,
+          "price": 0.3528,
+          "vol": 5806788.51688,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BIOUSDT",
+          "rsi": 83.1,
+          "price": 0.03322,
+          "vol": 9213570.545336,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 117
+      "scanned": 119
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FTTUSDT",
+          "rsi": 85.8,
+          "price": 0.3528,
+          "vol": 5806788.51688,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 117
+      "scanned": 119
     }
   }
 }
