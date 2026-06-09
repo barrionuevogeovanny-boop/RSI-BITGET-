@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T15:36:25.401Z",
-  "updated_ts": 1781019385401,
+  "updated": "2026-06-09T17:35:24.376Z",
+  "updated_ts": 1781026524376,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,56 +13,51 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SENTUSDT",
+          "rsi": 80.2,
+          "price": 0.01813,
+          "vol": 10001072.20781,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "CUSDT",
-          "rsi": 20.2,
-          "price": 0.094,
-          "vol": 4788698.40445,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "POLUSDT",
-          "rsi": 23.6,
-          "price": 0.07364,
-          "vol": 3492413.693647,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 23.7,
-          "price": 4256,
-          "vol": 14295706.65167,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.8,
-          "price": 4266.04,
-          "vol": 11914596.268201,
+          "sym": "FFUSDT",
+          "rsi": 23.4,
+          "price": 0.07837,
+          "vol": 3303908.780857,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "POLUSDT",
-          "rsi": 24.6,
-          "price": 0.07364,
-          "vol": 3492413.693647,
-          "label": "SOBREVENDIDO"
+          "sym": "SENTUSDT",
+          "rsi": 87.4,
+          "price": 0.01813,
+          "vol": 10001072.20781,
+          "label": "MUY ALTO"
         }
       ],
-      "scanned": 118
+      "buy": [],
+      "scanned": 120
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SENTUSDT",
+          "rsi": 86.5,
+          "price": 0.01813,
+          "vol": 10001072.20781,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 118
+      "scanned": 120
     }
   }
 }
