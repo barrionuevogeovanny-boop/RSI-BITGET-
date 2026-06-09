@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T01:45:44.666Z",
-  "updated_ts": 1780969544666,
+  "updated": "2026-06-09T05:54:55.304Z",
+  "updated_ts": 1780984495304,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,68 +16,47 @@
       "sell": [],
       "buy": [
         {
-          "sym": "COSUSDT",
-          "rsi": 15.1,
-          "price": 0.000576,
-          "vol": 2604360.1349399,
+          "sym": "SAHARAUSDT",
+          "rsi": 19.2,
+          "price": 0.0157,
+          "vol": 48655673.9964,
           "label": "BAJO"
-        },
-        {
-          "sym": "FIDAUSDT",
-          "rsi": 17.5,
-          "price": 0.02222,
-          "vol": 5138942.086826,
-          "label": "BAJO"
-        },
-        {
-          "sym": "BABYUSDT",
-          "rsi": 18,
-          "price": 0.01483,
-          "vol": 2964700.15439,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MEMEUSDT",
-          "rsi": 20.9,
-          "price": 0.00051,
-          "vol": 2331147.059674,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PROVEUSDT",
-          "rsi": 24.1,
-          "price": 0.1803,
-          "vol": 4766875.36382,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 122
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "MEMEUSDT",
-          "rsi": 18.2,
-          "price": 0.00051,
-          "vol": 2331147.059674,
-          "label": "BAJO"
+          "sym": "SAHARAUSDT",
+          "rsi": 13.5,
+          "price": 0.0157,
+          "vol": 48655673.9964,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 120
+      "scanned": 122
     },
     "4h": {
       "sell": [],
       "buy": [
         {
+          "sym": "SAHARAUSDT",
+          "rsi": 19.1,
+          "price": 0.0157,
+          "vol": 48655673.9964,
+          "label": "BAJO"
+        },
+        {
           "sym": "COSUSDT",
-          "rsi": 22.6,
-          "price": 0.000576,
-          "vol": 2604360.1349399,
+          "rsi": 23.9,
+          "price": 0.000555,
+          "vol": 2715723.2191768,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 122
     }
   }
 }
