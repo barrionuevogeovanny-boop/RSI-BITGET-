@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T05:54:55.304Z",
-  "updated_ts": 1780984495304,
+  "updated": "2026-06-09T09:33:37.101Z",
+  "updated_ts": 1780997617101,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,14 +13,36 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 81.9,
+          "price": 0.08266,
+          "vol": 3581615.27361,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CHIPUSDT",
+          "rsi": 80,
+          "price": 0.03534,
+          "vol": 4287238.47633,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "SAHARAUSDT",
-          "rsi": 19.2,
-          "price": 0.0157,
-          "vol": 48655673.9964,
+          "sym": "TRXUSDT",
+          "rsi": 19,
+          "price": 0.3226,
+          "vol": 33223422.07757,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 21.6,
+          "price": 0.02838,
+          "vol": 4152679.75304,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 122
@@ -30,10 +52,17 @@
       "buy": [
         {
           "sym": "SAHARAUSDT",
-          "rsi": 13.5,
-          "price": 0.0157,
-          "vol": 48655673.9964,
-          "label": "MUY BAJO"
+          "rsi": 20,
+          "price": 0.01733,
+          "vol": 53453884.24094,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 24.7,
+          "price": 0.3226,
+          "vol": 33223422.07757,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 122
@@ -43,16 +72,9 @@
       "buy": [
         {
           "sym": "SAHARAUSDT",
-          "rsi": 19.1,
-          "price": 0.0157,
-          "vol": 48655673.9964,
-          "label": "BAJO"
-        },
-        {
-          "sym": "COSUSDT",
-          "rsi": 23.9,
-          "price": 0.000555,
-          "vol": 2715723.2191768,
+          "rsi": 23.5,
+          "price": 0.01733,
+          "vol": 53453884.24094,
           "label": "SOBREVENDIDO"
         }
       ],
