@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T09:33:37.101Z",
-  "updated_ts": 1780997617101,
+  "updated": "2026-06-09T12:23:55.441Z",
+  "updated_ts": 1781007835441,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,72 +13,19 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 81.9,
-          "price": 0.08266,
-          "vol": 3581615.27361,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CHIPUSDT",
-          "rsi": 80,
-          "price": 0.03534,
-          "vol": 4287238.47633,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 19,
-          "price": 0.3226,
-          "vol": 33223422.07757,
-          "label": "BAJO"
-        },
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 21.6,
-          "price": 0.02838,
-          "vol": 4152679.75304,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "sell": [],
+      "buy": [],
+      "scanned": 119
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SAHARAUSDT",
-          "rsi": 20,
-          "price": 0.01733,
-          "vol": 53453884.24094,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 24.7,
-          "price": 0.3226,
-          "vol": 33223422.07757,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 119
     },
     "4h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SAHARAUSDT",
-          "rsi": 23.5,
-          "price": 0.01733,
-          "vol": 53453884.24094,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 119
     }
   }
 }
