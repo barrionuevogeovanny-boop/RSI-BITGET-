@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-08T23:51:47.370Z",
-  "updated_ts": 1780962707370,
+  "updated": "2026-06-09T01:45:44.666Z",
+  "updated_ts": 1780969544666,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,60 +16,68 @@
       "sell": [],
       "buy": [
         {
+          "sym": "COSUSDT",
+          "rsi": 15.1,
+          "price": 0.000576,
+          "vol": 2604360.1349399,
+          "label": "BAJO"
+        },
+        {
           "sym": "FIDAUSDT",
-          "rsi": 11,
-          "price": 0.02275,
-          "vol": 5509182.062846,
-          "label": "MUY BAJO"
+          "rsi": 17.5,
+          "price": 0.02222,
+          "vol": 5138942.086826,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BABYUSDT",
+          "rsi": 18,
+          "price": 0.01483,
+          "vol": 2964700.15439,
+          "label": "BAJO"
         },
         {
           "sym": "MEMEUSDT",
-          "rsi": 15.7,
-          "price": 0.00052,
-          "vol": 2232630.27788,
-          "label": "BAJO"
+          "rsi": 20.9,
+          "price": 0.00051,
+          "vol": 2331147.059674,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "EDENUSDT",
-          "rsi": 17.1,
-          "price": 0.0414,
-          "vol": 4070701.91189,
-          "label": "BAJO"
-        },
-        {
-          "sym": "OPGUSDT",
-          "rsi": 18.2,
-          "price": 0.1467,
-          "vol": 10951418.13583,
-          "label": "BAJO"
-        },
-        {
-          "sym": "OPNUSDT",
-          "rsi": 19.7,
-          "price": 0.094,
-          "vol": 11849313.38603,
-          "label": "BAJO"
+          "sym": "PROVEUSDT",
+          "rsi": 24.1,
+          "price": 0.1803,
+          "vol": 4766875.36382,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "MEMEUSDT",
-          "rsi": 19.9,
-          "price": 0.00052,
-          "vol": 2232630.27788,
+          "rsi": 18.2,
+          "price": 0.00051,
+          "vol": 2331147.059674,
           "label": "BAJO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "4h": {
       "sell": [],
-      "buy": [],
-      "scanned": 118
+      "buy": [
+        {
+          "sym": "COSUSDT",
+          "rsi": 22.6,
+          "price": 0.000576,
+          "vol": 2604360.1349399,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 120
     }
   }
 }
