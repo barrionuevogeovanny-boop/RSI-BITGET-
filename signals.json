@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T19:36:42.616Z",
-  "updated_ts": 1781033802616,
+  "updated": "2026-06-09T21:22:58.244Z",
+  "updated_ts": 1781040178244,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,26 +14,42 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 121
+      "buy": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 21.5,
+          "price": 0.07656,
+          "vol": 3665327.853017,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 119
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 121
+      "buy": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 22.2,
+          "price": 0.07656,
+          "vol": 3665327.853017,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 119
     },
     "4h": {
       "sell": [
         {
           "sym": "SENTUSDT",
-          "rsi": 83.2,
-          "price": 0.01689,
-          "vol": 11039630.23611,
+          "rsi": 83.7,
+          "price": 0.01696,
+          "vol": 11873494.70906,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 121
+      "scanned": 119
     }
   }
 }
