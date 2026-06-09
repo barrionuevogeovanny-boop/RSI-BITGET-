@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T12:23:55.441Z",
-  "updated_ts": 1781007835441,
+  "updated": "2026-06-09T15:36:25.401Z",
+  "updated_ts": 1781019385401,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,18 +14,55 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 119
+      "buy": [
+        {
+          "sym": "CUSDT",
+          "rsi": 20.2,
+          "price": 0.094,
+          "vol": 4788698.40445,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "POLUSDT",
+          "rsi": 23.6,
+          "price": 0.07364,
+          "vol": 3492413.693647,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 23.7,
+          "price": 4256,
+          "vol": 14295706.65167,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 24.8,
+          "price": 4266.04,
+          "vol": 11914596.268201,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 119
+      "buy": [
+        {
+          "sym": "POLUSDT",
+          "rsi": 24.6,
+          "price": 0.07364,
+          "vol": 3492413.693647,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 119
+      "scanned": 118
     }
   }
 }
