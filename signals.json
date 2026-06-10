@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-10T04:47:14.294Z",
-  "updated_ts": 1781066834294,
+  "updated": "2026-06-10T08:39:17.050Z",
+  "updated_ts": 1781080757050,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,73 +13,43 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "STRAXUSDT",
-          "rsi": 85.7,
-          "price": 0.01276,
-          "vol": 50349445.6914,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "MOVEUSDT",
-          "rsi": 18.5,
-          "price": 0.0124,
-          "vol": 10375196.71089,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 116
+      "sell": [],
+      "buy": [],
+      "scanned": 121
     },
     "1h": {
       "sell": [
         {
           "sym": "STRAXUSDT",
-          "rsi": 91.5,
-          "price": 0.01276,
-          "vol": 50349445.6914,
-          "label": "EXTREMO"
+          "rsi": 89.2,
+          "price": 0.01381,
+          "vol": 33007467.61528,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 21.7,
-          "price": 4174.17,
-          "vol": 21358515.701653,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 21.9,
-          "price": 4164.01,
-          "vol": 19314008.218051,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 116
+      "buy": [],
+      "scanned": 121
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STRAXUSDT",
+          "rsi": 81.7,
+          "price": 0.01381,
+          "vol": 33007467.61528,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "XAUTUSDT",
-          "rsi": 24.2,
-          "price": 4164.01,
-          "vol": 19314008.218051,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.8,
-          "price": 4174.17,
-          "vol": 21358515.701653,
+          "rsi": 24.6,
+          "price": 4165,
+          "vol": 18922621.072243,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 121
     }
   }
 }
