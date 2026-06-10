@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-09T22:55:29.190Z",
-  "updated_ts": 1781045729190,
+  "updated": "2026-06-10T00:10:26.365Z",
+  "updated_ts": 1781050226365,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,57 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.9,
-          "price": 4231.72,
-          "vol": 15427304.675762,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 25,
-          "price": 4222.67,
-          "vol": 15815038.153533,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 118
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "KATUSDT",
-          "rsi": 80.4,
-          "price": 0.0062,
-          "vol": 6276718.11379,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "FFUSDT",
-          "rsi": 23.2,
-          "price": 0.07634,
-          "vol": 3803228.608278,
+          "rsi": 22.1,
+          "price": 0.07593,
+          "vol": 3591892.870469,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 119
+      "scanned": 118
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SENTUSDT",
-          "rsi": 83.1,
-          "price": 0.01675,
-          "vol": 11946485.02811,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 119
+      "scanned": 118
     }
   }
 }
