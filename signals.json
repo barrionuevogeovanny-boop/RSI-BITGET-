@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-10T15:46:19.627Z",
-  "updated_ts": 1781106379627,
+  "updated": "2026-06-10T18:19:29.635Z",
+  "updated_ts": 1781115569635,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "OPNUSDT",
-          "rsi": 86.5,
-          "price": 0.1085,
-          "vol": 12527321.55287,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ORDIUSDT",
-          "rsi": 84.6,
-          "price": 3.318,
-          "vol": 3716140.81048,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 116
+      "scanned": 112
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "HMSTRUSDT",
-          "rsi": 90.4,
-          "price": 0.0002493,
-          "vol": 9707984.8677387,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 116
+      "scanned": 112
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HMSTRUSDT",
-          "rsi": 83,
-          "price": 0.0002493,
-          "vol": 9707984.8677387,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "XAUTUSDT",
-          "rsi": 20.9,
-          "price": 4121.59,
-          "vol": 134299039.84954,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.7,
+          "price": 4106.72,
+          "vol": 153891475.901909,
+          "label": "BAJO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 21.4,
-          "price": 4131.75,
-          "vol": 26146045.760691,
+          "rsi": 20.2,
+          "price": 4115.68,
+          "vol": 26502474.533486,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 112
     }
   }
 }
