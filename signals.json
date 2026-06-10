@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-10T08:39:17.050Z",
-  "updated_ts": 1781080757050,
+  "updated": "2026-06-10T11:58:09.595Z",
+  "updated_ts": 1781092689595,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,42 +14,92 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 121
+      "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 11,
+          "price": 0.07809,
+          "vol": 4822646.911849,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 19.6,
+          "price": 0.1134,
+          "vol": 3478858.99381,
+          "label": "BAJO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 24.4,
+          "price": 0.07521,
+          "vol": 3624249.809587,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "INJUSDT",
+          "rsi": 24.6,
+          "price": 5.057,
+          "vol": 11382378.75488,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "RENDERUSDT",
+          "rsi": 24.9,
+          "price": 1.535,
+          "vol": 4894013.04412,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 120
     },
     "1h": {
       "sell": [
         {
-          "sym": "STRAXUSDT",
-          "rsi": 89.2,
-          "price": 0.01381,
-          "vol": 33007467.61528,
+          "sym": "HMSTRUSDT",
+          "rsi": 88.9,
+          "price": 0.0002175,
+          "vol": 3677753.9496287,
           "label": "MUY ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 121
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "STRAXUSDT",
-          "rsi": 81.7,
-          "price": 0.01381,
-          "vol": 33007467.61528,
-          "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "XAUTUSDT",
-          "rsi": 24.6,
-          "price": 4165,
-          "vol": 18922621.072243,
+          "sym": "INJUSDT",
+          "rsi": 23.2,
+          "price": 5.057,
+          "vol": 11382378.75488,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 24.9,
+          "price": 0.1134,
+          "vol": 3478858.99381,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 120
+    },
+    "4h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 22.2,
+          "price": 4138.38,
+          "vol": 87215231.269622,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 22.9,
+          "price": 4150.51,
+          "vol": 23745962.470023,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 120
     }
   }
 }
