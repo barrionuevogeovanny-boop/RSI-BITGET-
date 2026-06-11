@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T19:29:16.406Z",
-  "updated_ts": 1781206156406,
+  "updated": "2026-06-11T21:35:51.427Z",
+  "updated_ts": 1781213751427,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,66 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XPLUSDT",
+          "rsi": 81.6,
+          "price": 0.0723,
+          "vol": 7936792.44573,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "TRXUSDT",
-          "rsi": 22.1,
-          "price": 0.3138,
-          "vol": 51709436.45192,
+          "rsi": 24.6,
+          "price": 0.3133,
+          "vol": 53018597.8581,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "TRXUSDT",
-          "rsi": 13.4,
-          "price": 0.3138,
-          "vol": 51709436.45192,
+          "rsi": 12.4,
+          "price": 0.3133,
+          "vol": 53018597.8581,
           "label": "MUY BAJO"
         },
         {
           "sym": "JSTUSDT",
-          "rsi": 21.4,
-          "price": 0.07394,
-          "vol": 4488570.44917,
+          "rsi": 20.9,
+          "price": 0.0731,
+          "vol": 4650972.963994,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STGUSDT",
+          "rsi": 81.2,
+          "price": 0.6434,
+          "vol": 22725515.51806,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "TRXUSDT",
-          "rsi": 23.7,
-          "price": 0.3138,
-          "vol": 51709436.45192,
+          "rsi": 22.7,
+          "price": 0.3133,
+          "vol": 53018597.8581,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     }
   }
 }
