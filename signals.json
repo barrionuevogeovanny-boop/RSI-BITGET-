@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T09:16:44.811Z",
-  "updated_ts": 1781169404811,
+  "updated": "2026-06-11T12:56:08.647Z",
+  "updated_ts": 1781182568647,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,41 +15,64 @@
     "15m": {
       "sell": [
         {
-          "sym": "SXTUSDT",
-          "rsi": 89.2,
-          "price": 0.01097,
-          "vol": 2506307.966346,
-          "label": "MUY ALTO"
+          "sym": "FIDAUSDT",
+          "rsi": 92.7,
+          "price": 0.02724,
+          "vol": 5081114.689411,
+          "label": "EXTREMO"
         }
       ],
-      "buy": [],
-      "scanned": 119
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 14.1,
+          "price": 0.008764,
+          "vol": 2135489.873924,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.5,
+          "price": 0.0768,
+          "vol": 4650516.209767,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "SXTUSDT",
-          "rsi": 91,
-          "price": 0.01097,
-          "vol": 2506307.966346,
-          "label": "EXTREMO"
+          "sym": "FIDAUSDT",
+          "rsi": 82.4,
+          "price": 0.02724,
+          "vol": 5081114.689411,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 119
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 15.7,
+          "price": 0.008764,
+          "vol": 2135489.873924,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "CRVUSDT",
-          "rsi": 83.9,
-          "price": 0.2504,
-          "vol": 12594595.07063,
+          "rsi": 81.1,
+          "price": 0.2461,
+          "vol": 15327425.05261,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 122
     }
   }
 }
