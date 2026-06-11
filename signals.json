@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-10T22:55:00.674Z",
-  "updated_ts": 1781132100674,
+  "updated": "2026-06-11T00:12:03.893Z",
+  "updated_ts": 1781136723893,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,7 +15,7 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 115
+      "scanned": 116
     },
     "1h": {
       "sell": [],
@@ -23,61 +23,54 @@
         {
           "sym": "PAXGUSDT",
           "rsi": 21.1,
-          "price": 4058.34,
-          "vol": 31379200.463766,
+          "price": 4047.42,
+          "vol": 32527883.647999,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "XAUTUSDT",
           "rsi": 21.8,
-          "price": 4050.34,
-          "vol": 162507892.287084,
+          "price": 4040.67,
+          "vol": 166207618.077004,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ZBTUSDT",
-          "rsi": 22.4,
-          "price": 0.1026,
-          "vol": 5856061.71991,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PUMPUSDT",
-          "rsi": 23.7,
-          "price": 0.001368,
-          "vol": 7472576.363729,
+          "sym": "FETUSDT",
+          "rsi": 24.6,
+          "price": 0.1839,
+          "vol": 12234079.00764,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
           "sym": "HMSTRUSDT",
-          "rsi": 82.8,
-          "price": 0.00026,
-          "vol": 16402952.2783392,
+          "rsi": 81.4,
+          "price": 0.0002608,
+          "vol": 16857947.6620652,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "XAUTUSDT",
-          "rsi": 16.2,
-          "price": 4050.34,
-          "vol": 162507892.287084,
+          "rsi": 15.8,
+          "price": 4040.67,
+          "vol": 166207618.077004,
           "label": "BAJO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 16.7,
-          "price": 4058.34,
-          "vol": 31379200.463766,
+          "rsi": 16.2,
+          "price": 4047.42,
+          "vol": 32527883.647999,
           "label": "BAJO"
         }
       ],
-      "scanned": 115
+      "scanned": 116
     }
   }
 }
