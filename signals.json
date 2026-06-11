@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T16:54:11.571Z",
-  "updated_ts": 1781196851571,
+  "updated": "2026-06-11T19:29:16.406Z",
+  "updated_ts": 1781206156406,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -17,60 +17,46 @@
       "buy": [
         {
           "sym": "TRXUSDT",
-          "rsi": 15.7,
-          "price": 0.3164,
-          "vol": 39257374.13092,
-          "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 16,
-          "price": 0.07413,
-          "vol": 4389113.495351,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 123
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 84,
-          "price": 0.681,
-          "vol": 5673658.715,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 17,
-          "price": 0.3164,
-          "vol": 39257374.13092,
-          "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 18.5,
-          "price": 0.07413,
-          "vol": 4389113.495351,
-          "label": "BAJO"
-        },
-        {
-          "sym": "BANANAS31USDT",
-          "rsi": 21.8,
-          "price": 0.008575,
-          "vol": 3424444.932365,
+          "rsi": 22.1,
+          "price": 0.3138,
+          "vol": 51709436.45192,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 128
+    },
+    "1h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 13.4,
+          "price": 0.3138,
+          "vol": 51709436.45192,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 21.4,
+          "price": 0.07394,
+          "vol": 4488570.44917,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 128
     },
     "4h": {
       "sell": [],
-      "buy": [],
-      "scanned": 123
+      "buy": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 23.7,
+          "price": 0.3138,
+          "vol": 51709436.45192,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 128
     }
   }
 }
