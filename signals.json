@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T21:35:51.427Z",
-  "updated_ts": 1781213751427,
+  "updated": "2026-06-11T23:09:20.227Z",
+  "updated_ts": 1781219360227,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,66 +13,42 @@
   },
   "signals": {
     "15m": {
+      "sell": [],
+      "buy": [],
+      "scanned": 126
+    },
+    "1h": {
       "sell": [
         {
-          "sym": "XPLUSDT",
-          "rsi": 81.6,
-          "price": 0.0723,
-          "vol": 7936792.44573,
+          "sym": "LUMIAUSDT",
+          "rsi": 84.2,
+          "price": 0.1068,
+          "vol": 5632487.596643,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 24.6,
-          "price": 0.3133,
-          "vol": 53018597.8581,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 127
-    },
-    "1h": {
-      "sell": [],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 12.4,
-          "price": 0.3133,
-          "vol": 53018597.8581,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 20.9,
-          "price": 0.0731,
-          "vol": 4650972.963994,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 127
+      "buy": [],
+      "scanned": 126
     },
     "4h": {
       "sell": [
         {
           "sym": "STGUSDT",
-          "rsi": 81.2,
-          "price": 0.6434,
-          "vol": 22725515.51806,
+          "rsi": 80.5,
+          "price": 0.6259,
+          "vol": 24775046.85586,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 80.4,
+          "price": 0.1068,
+          "vol": 5632487.596643,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 22.7,
-          "price": 0.3133,
-          "vol": 53018597.8581,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 127
+      "buy": [],
+      "scanned": 126
     }
   }
 }
