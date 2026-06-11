@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-11T00:12:03.893Z",
-  "updated_ts": 1781136723893,
+  "updated": "2026-06-11T04:59:09.352Z",
+  "updated_ts": 1781153949352,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,64 +13,78 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 116
-    },
-    "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "PAXGUSDT",
-          "rsi": 21.1,
-          "price": 4047.42,
-          "vol": 32527883.647999,
-          "label": "SOBREVENDIDO"
+          "sym": "CRVUSDT",
+          "rsi": 83.8,
+          "price": 0.2447,
+          "vol": 8383578.27636,
+          "label": "ALTO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 21.8,
-          "price": 4040.67,
-          "vol": 166207618.077004,
-          "label": "SOBREVENDIDO"
+          "sym": "TIAUSDT",
+          "rsi": 80.9,
+          "price": 0.3282,
+          "vol": 3257830.621706,
+          "label": "ALTO"
         },
         {
-          "sym": "FETUSDT",
-          "rsi": 24.6,
-          "price": 0.1839,
-          "vol": 12234079.00764,
-          "label": "SOBREVENDIDO"
+          "sym": "ZKUSDT",
+          "rsi": 80.1,
+          "price": 0.01113,
+          "vol": 2363357.358364,
+          "label": "ALTO"
         }
       ],
-      "scanned": 116
+      "buy": [],
+      "scanned": 117
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "CRVUSDT",
+          "rsi": 85.1,
+          "price": 0.2447,
+          "vol": 8383578.27636,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ASTRUSDT",
+          "rsi": 82.5,
+          "price": 0.006971,
+          "vol": 4699522.7078658,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HMSTRUSDT",
+          "rsi": 80.5,
+          "price": 0.0003038,
+          "vol": 21580233.3886001,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "HMSTRUSDT",
-          "rsi": 81.4,
-          "price": 0.0002608,
-          "vol": 16857947.6620652,
+          "rsi": 88.2,
+          "price": 0.0003038,
+          "vol": 21580233.3886001,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "CRVUSDT",
+          "rsi": 82.2,
+          "price": 0.2447,
+          "vol": 8383578.27636,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 15.8,
-          "price": 4040.67,
-          "vol": 166207618.077004,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 16.2,
-          "price": 4047.42,
-          "vol": 32527883.647999,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 116
+      "buy": [],
+      "scanned": 117
     }
   }
 }
