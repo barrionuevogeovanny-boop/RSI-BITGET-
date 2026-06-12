@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T20:36:31.459Z",
-  "updated_ts": 1781296591459,
+  "updated": "2026-06-12T22:12:53.477Z",
+  "updated_ts": 1781302373477,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,58 +13,43 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "ORCAUSDT",
-          "rsi": 80.7,
-          "price": 1.33,
-          "vol": 9481014.2824,
-          "label": "ALTO"
+          "sym": "BANKUSDT",
+          "rsi": 22.9,
+          "price": 0.037,
+          "vol": 2149317.32498,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 127
+      "scanned": 125
     },
     "1h": {
       "sell": [
         {
           "sym": "RIFUSDT",
-          "rsi": 84.6,
-          "price": 0.0783,
-          "vol": 2074664.1162,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ORCAUSDT",
-          "rsi": 83.1,
-          "price": 1.33,
-          "vol": 9481014.2824,
-          "label": "ALTO"
+          "rsi": 87.7,
+          "price": 0.0802,
+          "vol": 2384359.2835,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "BANANAS31USDT",
-          "rsi": 22.7,
-          "price": 0.006691,
-          "vol": 7654097.439229,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 127
+      "buy": [],
+      "scanned": 124
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "BANANAS31USDT",
-          "rsi": 22.2,
-          "price": 0.006691,
-          "vol": 7654097.439229,
+          "rsi": 23.4,
+          "price": 0.006779,
+          "vol": 7748235.933666,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 123
     }
   }
 }
