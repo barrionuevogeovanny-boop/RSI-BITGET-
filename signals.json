@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T01:38:23.489Z",
-  "updated_ts": 1781228303489,
+  "updated": "2026-06-12T06:17:49.901Z",
+  "updated_ts": 1781245069901,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,8 +14,16 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 128
+      "buy": [
+        {
+          "sym": "BABYUSDT",
+          "rsi": 24.5,
+          "price": 0.01414,
+          "vol": 27560869.13144,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 129
     },
     "1h": {
       "sell": [],
@@ -23,15 +31,7 @@
       "scanned": 128
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "LUMIAUSDT",
-          "rsi": 81.8,
-          "price": 0.1083,
-          "vol": 7014409.685922,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 128
     }
