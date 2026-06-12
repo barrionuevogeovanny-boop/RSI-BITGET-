@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T06:17:49.901Z",
-  "updated_ts": 1781245069901,
+  "updated": "2026-06-12T10:43:15.358Z",
+  "updated_ts": 1781260995358,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,24 +16,56 @@
       "sell": [],
       "buy": [
         {
-          "sym": "BABYUSDT",
-          "rsi": 24.5,
-          "price": 0.01414,
-          "vol": 27560869.13144,
+          "sym": "BANANAS31USDT",
+          "rsi": 14.9,
+          "price": 0.007222,
+          "vol": 7505538.827466,
+          "label": "MUY BAJO"
+        }
+      ],
+      "scanned": 127
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 87.3,
+          "price": 2.066,
+          "vol": 34292066.333385,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 22.2,
+          "price": 0.007222,
+          "vol": 7505538.827466,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 128
+      "scanned": 127
     },
     "4h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 128
+      "sell": [
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 81,
+          "price": 2.066,
+          "vol": 34292066.333385,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 22.7,
+          "price": 0.007222,
+          "vol": 7505538.827466,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 125
     }
   }
 }
