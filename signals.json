@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T13:51:45.612Z",
-  "updated_ts": 1781272305612,
+  "updated": "2026-06-12T16:36:20.215Z",
+  "updated_ts": 1781282180215,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 131
-    },
-    "1h": {
       "sell": [
         {
-          "sym": "ENJUSDT",
-          "rsi": 86.1,
-          "price": 0.03302,
-          "vol": 3006720.518591,
+          "sym": "USD1USDT",
+          "rsi": 85.4,
+          "price": 1.00067,
+          "vol": 216449517.3808,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 131
+      "scanned": 135
+    },
+    "1h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 135
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 129
+      "scanned": 133
     }
   }
 }
