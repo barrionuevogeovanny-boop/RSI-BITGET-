@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T18:28:17.849Z",
-  "updated_ts": 1781288897849,
+  "updated": "2026-06-12T20:36:31.459Z",
+  "updated_ts": 1781296591459,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,26 +13,41 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 24.4,
-          "price": 0.006881,
-          "vol": 7892055.118987,
-          "label": "SOBREVENDIDO"
+          "sym": "ORCAUSDT",
+          "rsi": 80.7,
+          "price": 1.33,
+          "vol": 9481014.2824,
+          "label": "ALTO"
         }
       ],
+      "buy": [],
       "scanned": 127
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RIFUSDT",
+          "rsi": 84.6,
+          "price": 0.0783,
+          "vol": 2074664.1162,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ORCAUSDT",
+          "rsi": 83.1,
+          "price": 1.33,
+          "vol": 9481014.2824,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "BANANAS31USDT",
-          "rsi": 24.6,
-          "price": 0.006881,
-          "vol": 7892055.118987,
+          "rsi": 22.7,
+          "price": 0.006691,
+          "vol": 7654097.439229,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -43,9 +58,9 @@
       "buy": [
         {
           "sym": "BANANAS31USDT",
-          "rsi": 23.1,
-          "price": 0.006881,
-          "vol": 7892055.118987,
+          "rsi": 22.2,
+          "price": 0.006691,
+          "vol": 7654097.439229,
           "label": "SOBREVENDIDO"
         }
       ],
