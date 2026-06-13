@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13T02:08:07.655Z",
-  "updated_ts": 1781316487655,
+  "updated": "2026-06-13T06:31:23.354Z",
+  "updated_ts": 1781332283354,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 81.6,
-          "price": 0.05047,
-          "vol": 3911651.065733,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 16,
-          "price": 18.998,
-          "vol": 12190107.99922,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 126
+      "sell": [],
+      "buy": [],
+      "scanned": 123
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "ATUSDT",
-          "rsi": 83.1,
-          "price": 0.1541,
-          "vol": 3479613.86721,
-          "label": "ALTO"
+          "rsi": 89.4,
+          "price": 0.1639,
+          "vol": 5569064.74408,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 124
+      "scanned": 121
     }
   }
 }
