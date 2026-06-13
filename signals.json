@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13T06:31:23.354Z",
-  "updated_ts": 1781332283354,
+  "updated": "2026-06-13T09:44:07.922Z",
+  "updated_ts": 1781343847923,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 84.5,
+          "price": 0.000005,
+          "vol": 7094327.78903602,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TAOUSDT",
+          "rsi": 80.2,
+          "price": 243.2,
+          "vol": 32319653.40112,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 123
+      "scanned": 124
     },
     "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 122
+      "sell": [
+        {
+          "sym": "TAOUSDT",
+          "rsi": 84,
+          "price": 243.2,
+          "vol": 32319653.40112,
+          "label": "ALTO"
+        },
+        {
+          "sym": "OPUSDT",
+          "rsi": 81.4,
+          "price": 0.1083,
+          "vol": 4755871.450354,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 24.4,
+          "price": 17.328,
+          "vol": 13977610.47161,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
-          "sym": "ATUSDT",
-          "rsi": 89.4,
-          "price": 0.1639,
-          "vol": 5569064.74408,
-          "label": "MUY ALTO"
+          "sym": "NOTUSDT",
+          "rsi": 81.8,
+          "price": 0.000506,
+          "vol": 4441966.334916,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 121
+      "scanned": 122
     }
   }
 }
