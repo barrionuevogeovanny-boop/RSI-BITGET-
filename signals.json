@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13T11:32:43.336Z",
-  "updated_ts": 1781350363336,
+  "updated": "2026-06-13T13:09:53.719Z",
+  "updated_ts": 1781356193719,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FETUSDT",
+          "rsi": 84.8,
+          "price": 0.2055,
+          "vol": 16211620.24336,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ARKMUSDT",
+          "rsi": 84,
+          "price": 0.1319,
+          "vol": 2459064.8606,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 122
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
           "sym": "TAOUSDT",
-          "rsi": 85.7,
-          "price": 247.1,
-          "vol": 40048170.08832,
+          "rsi": 86.1,
+          "price": 248.1,
+          "vol": 43490394.07812,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 124
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "NOTUSDT",
-          "rsi": 83.7,
-          "price": 0.000522,
-          "vol": 5398421.11337,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 120
+      "scanned": 122
     }
   }
 }
