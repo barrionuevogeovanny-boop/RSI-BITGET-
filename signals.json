@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-12T23:52:41.838Z",
-  "updated_ts": 1781308361838,
+  "updated": "2026-06-13T02:08:07.655Z",
+  "updated_ts": 1781316487655,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,43 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MEGAUSDT",
+          "rsi": 81.6,
+          "price": 0.05047,
+          "vol": 3911651.065733,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 14.4,
-          "price": 19.422,
-          "vol": 11732954.53748,
-          "label": "MUY BAJO"
+          "rsi": 16,
+          "price": 18.998,
+          "vol": 12190107.99922,
+          "label": "BAJO"
         }
       ],
-      "scanned": 124
+      "scanned": 126
     },
     "1h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 125
+    },
+    "4h": {
       "sell": [
         {
-          "sym": "RIFUSDT",
-          "rsi": 85.9,
-          "price": 0.0801,
-          "vol": 2773372.561,
-          "label": "MUY ALTO"
+          "sym": "ATUSDT",
+          "rsi": 83.1,
+          "price": 0.1541,
+          "vol": 3479613.86721,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 123
-    },
-    "4h": {
-      "sell": [],
-      "buy": [
-        {
-          "sym": "BANANAS31USDT",
-          "rsi": 24,
-          "price": 0.006821,
-          "vol": 7795529.860351,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "scanned": 124
     }
   }
 }
