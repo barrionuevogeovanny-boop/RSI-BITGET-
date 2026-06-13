@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13T17:58:40.851Z",
-  "updated_ts": 1781373520851,
+  "updated": "2026-06-13T19:43:48.414Z",
+  "updated_ts": 1781379828414,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,49 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RIFUSDT",
+          "rsi": 83.5,
+          "price": 0.1229,
+          "vol": 13779298.3384,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 119
+      "scanned": 116
     },
     "1h": {
       "sell": [
         {
-          "sym": "TAOUSDT",
-          "rsi": 80.1,
-          "price": 261.3,
-          "vol": 70585858.44427,
-          "label": "ALTO"
+          "sym": "RIFUSDT",
+          "rsi": 86,
+          "price": 0.1229,
+          "vol": 13779298.3384,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
-          "sym": "MMTUSDT",
-          "rsi": 84.2,
-          "price": 0.133,
-          "vol": 2574109.7032,
-          "label": "ALTO"
-        },
-        {
           "sym": "RIFUSDT",
-          "rsi": 83.7,
-          "price": 0.1024,
-          "vol": 11161620.6016,
-          "label": "ALTO"
+          "rsi": 88.7,
+          "price": 0.1229,
+          "vol": 13779298.3384,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "TAOUSDT",
-          "rsi": 81.3,
-          "price": 261.3,
-          "vol": 70585858.44427,
+          "sym": "MMTUSDT",
+          "rsi": 83,
+          "price": 0.1307,
+          "vol": 2890087.69296,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 117
+      "scanned": 114
     }
   }
 }
