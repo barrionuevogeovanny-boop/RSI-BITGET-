@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-14T00:19:56.131Z",
-  "updated_ts": 1781396396131,
+  "updated": "2026-06-14T05:12:55.495Z",
+  "updated_ts": 1781413975495,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,34 +13,51 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 119
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 119
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "MEGAUSDT",
-          "rsi": 86.1,
-          "price": 0.06817,
-          "vol": 19730671.058528,
-          "label": "MUY ALTO"
-        },
+          "sym": "SYNUSDT",
+          "rsi": 82.1,
+          "price": 0.0468,
+          "vol": 3451599.30254,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
         {
-          "sym": "RIFUSDT",
-          "rsi": 84.7,
-          "price": 0.1205,
-          "vol": 18576484.1659,
+          "sym": "ZAMAUSDT",
+          "rsi": 22.8,
+          "price": 0.03149,
+          "vol": 2911296.19897,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 123
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 80,
+          "price": 0.0468,
+          "vol": 3451599.30254,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 117
+      "scanned": 123
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 84.6,
+          "price": 0.0468,
+          "vol": 3451599.30254,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 122
     }
   }
 }
