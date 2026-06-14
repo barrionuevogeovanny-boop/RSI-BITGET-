@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-14T16:49:25.109Z",
-  "updated_ts": 1781455765109,
+  "updated": "2026-06-14T18:04:50.637Z",
+  "updated_ts": 1781460290637,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,79 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 82,
-          "price": 0.07735,
-          "vol": 3074959.986611,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 124
-    },
-    "1h": {
       "sell": [],
       "buy": [
         {
+          "sym": "AVAXUSDT",
+          "rsi": 20.4,
+          "price": 6.469,
+          "vol": 6265790.6938,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 121
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 80.7,
+          "price": 0.01038,
+          "vol": 10410460.51284,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
           "sym": "FFUSDT",
-          "rsi": 16.8,
-          "price": 0.07022,
-          "vol": 3098126.960691,
+          "rsi": 15.9,
+          "price": 0.06942,
+          "vol": 3667525.404737,
           "label": "BAJO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 21.7,
+          "price": 6.469,
+          "vol": 6265790.6938,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 23.2,
+          "price": 0.621,
+          "vol": 2924985.24529,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "PENGUUSDT",
           "rsi": 23.5,
-          "price": 0.006502,
-          "vol": 6907640.262215,
+          "price": 0.006488,
+          "vol": 6783797.086499,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 24.3,
+          "price": 0.01894,
+          "vol": 3697769.71117,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 121
     },
     "4h": {
       "sell": [
         {
           "sym": "OPGUSDT",
-          "rsi": 81.3,
+          "rsi": 81.2,
           "price": 0.2129,
-          "vol": 15266723.75174,
+          "vol": 15851821.61661,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 123
+      "scanned": 120
     }
   }
 }
