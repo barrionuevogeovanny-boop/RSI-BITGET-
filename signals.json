@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-14T13:09:14.573Z",
-  "updated_ts": 1781442554573,
+  "updated": "2026-06-14T15:17:18.521Z",
+  "updated_ts": 1781450238521,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,69 +16,61 @@
       "sell": [],
       "buy": [
         {
-          "sym": "VIRTUALUSDT",
-          "rsi": 22.5,
-          "price": 0.616,
-          "vol": 4207426.40839,
+          "sym": "SHIBUSDT",
+          "rsi": 20.8,
+          "price": 0.00000489,
+          "vol": 3815875.10254968,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ADAUSDT",
-          "rsi": 24.3,
-          "price": 0.1684,
-          "vol": 16167906.50164,
+          "sym": "ROBOUSDT",
+          "rsi": 21.9,
+          "price": 0.01927,
+          "vol": 3123631.98772,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 24.6,
+          "price": 6.532,
+          "vol": 6556512.09928,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 126
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ZKCUSDT",
-          "rsi": 91.5,
-          "price": 0.0697,
-          "vol": 8128166.34466,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 82.7,
-          "price": 0.0622,
-          "vol": 4138475.69321,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BANANAS31USDT",
-          "rsi": 81.8,
-          "price": 0.009706,
-          "vol": 7215511.401998,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "FFUSDT",
-          "rsi": 20.6,
-          "price": 0.07229,
-          "vol": 2223032.063525,
+          "rsi": 19.1,
+          "price": 0.07099,
+          "vol": 2864147.95227,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 24.6,
+          "price": 0.622,
+          "vol": 3425012.3808,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 126
     },
     "4h": {
       "sell": [
         {
-          "sym": "ZKCUSDT",
-          "rsi": 90.7,
-          "price": 0.0697,
-          "vol": 8128166.34466,
-          "label": "EXTREMO"
+          "sym": "OPGUSDT",
+          "rsi": 81,
+          "price": 0.2114,
+          "vol": 14804294.06845,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 124
+      "scanned": 125
     }
   }
 }
