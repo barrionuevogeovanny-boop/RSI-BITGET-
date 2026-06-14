@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-14T05:12:55.495Z",
-  "updated_ts": 1781413975495,
+  "updated": "2026-06-14T08:50:37.629Z",
+  "updated_ts": 1781427037629,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,51 +13,64 @@
   },
   "signals": {
     "15m": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "TSTUSDT",
+          "rsi": 10.2,
+          "price": 0.01384,
+          "vol": 4547927.53697,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 21,
+          "price": 0.07337,
+          "vol": 3422598.136991,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 126
+    },
+    "1h": {
       "sell": [
         {
-          "sym": "SYNUSDT",
-          "rsi": 82.1,
-          "price": 0.0468,
-          "vol": 3451599.30254,
+          "sym": "MITOUSDT",
+          "rsi": 83.4,
+          "price": 0.0242,
+          "vol": 5459390.083995,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 82.5,
+          "price": 0.0683,
+          "vol": 2157102.38123,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "ZAMAUSDT",
-          "rsi": 22.8,
-          "price": 0.03149,
-          "vol": 2911296.19897,
+          "sym": "TSTUSDT",
+          "rsi": 12.7,
+          "price": 0.01384,
+          "vol": 4547927.53697,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 21.6,
+          "price": 0.07337,
+          "vol": 3422598.136991,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 80,
-          "price": 0.0468,
-          "vol": 3451599.30254,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 123
+      "scanned": 126
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 84.6,
-          "price": 0.0468,
-          "vol": 3451599.30254,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 125
     }
   }
 }
