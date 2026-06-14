@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-14T15:17:18.521Z",
-  "updated_ts": 1781450238521,
+  "updated": "2026-06-14T16:49:25.109Z",
+  "updated_ts": 1781455765109,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,64 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "SHIBUSDT",
-          "rsi": 20.8,
-          "price": 0.00000489,
-          "vol": 3815875.10254968,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ROBOUSDT",
-          "rsi": 21.9,
-          "price": 0.01927,
-          "vol": 3123631.98772,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 24.6,
-          "price": 6.532,
-          "vol": 6556512.09928,
-          "label": "SOBREVENDIDO"
+          "sym": "JSTUSDT",
+          "rsi": 82,
+          "price": 0.07735,
+          "vol": 3074959.986611,
+          "label": "ALTO"
         }
       ],
-      "scanned": 126
+      "buy": [],
+      "scanned": 124
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "FFUSDT",
-          "rsi": 19.1,
-          "price": 0.07099,
-          "vol": 2864147.95227,
+          "rsi": 16.8,
+          "price": 0.07022,
+          "vol": 3098126.960691,
           "label": "BAJO"
         },
         {
-          "sym": "ASTERUSDT",
-          "rsi": 24.6,
-          "price": 0.622,
-          "vol": 3425012.3808,
+          "sym": "PENGUUSDT",
+          "rsi": 23.5,
+          "price": 0.006502,
+          "vol": 6907640.262215,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
           "sym": "OPGUSDT",
-          "rsi": 81,
-          "price": 0.2114,
-          "vol": 14804294.06845,
+          "rsi": 81.3,
+          "price": 0.2129,
+          "vol": 15266723.75174,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 125
+      "scanned": 123
     }
   }
 }
