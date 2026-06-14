@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-13T23:09:23.668Z",
-  "updated_ts": 1781392163668,
+  "updated": "2026-06-14T00:19:56.131Z",
+  "updated_ts": 1781396396131,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 80.5,
-          "price": 4215.36,
-          "vol": 68177361.034739,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "ROBOUSDT",
-          "rsi": 17.1,
-          "price": 0.02013,
-          "vol": 3823636.61002,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 118
+      "sell": [],
+      "buy": [],
+      "scanned": 119
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "RIFUSDT",
-          "rsi": 87.1,
-          "price": 0.1259,
-          "vol": 17784847.0478,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 82.5,
-          "price": 0.06467,
-          "vol": 17255032.219959,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 118
+      "scanned": 119
     },
     "4h": {
       "sell": [
         {
-          "sym": "RIFUSDT",
-          "rsi": 89.4,
-          "price": 0.1259,
-          "vol": 17784847.0478,
+          "sym": "MEGAUSDT",
+          "rsi": 86.1,
+          "price": 0.06817,
+          "vol": 19730671.058528,
           "label": "MUY ALTO"
         },
         {
-          "sym": "MEGAUSDT",
-          "rsi": 83.6,
-          "price": 0.06467,
-          "vol": 17255032.219959,
+          "sym": "RIFUSDT",
+          "rsi": 84.7,
+          "price": 0.1205,
+          "vol": 18576484.1659,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 116
+      "scanned": 117
     }
   }
 }
