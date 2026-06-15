@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-15T21:23:59.476Z",
-  "updated_ts": 1781558639476,
+  "updated": "2026-06-15T23:14:54.374Z",
+  "updated_ts": 1781565294374,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,48 +15,56 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 132
+      "scanned": 126
     },
     "1h": {
       "sell": [
         {
           "sym": "SPCXBUSDT",
-          "rsi": 85.8,
-          "price": 194.37,
-          "vol": 14833417.80408,
+          "rsi": 85.2,
+          "price": 198.67,
+          "vol": 15700552.20263,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "TSTUSDT",
-          "rsi": 19.2,
-          "price": 0.01192,
-          "vol": 3279087.539531,
+          "rsi": 16.4,
+          "price": 0.01149,
+          "vol": 3441983.310827,
           "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 126
     },
     "4h": {
       "sell": [
         {
           "sym": "SPCXBUSDT",
-          "rsi": 90,
-          "price": 194.37,
-          "vol": 14833417.80408,
+          "rsi": 91.1,
+          "price": 198.67,
+          "vol": 15700552.20263,
           "label": "EXTREMO"
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 87.3,
-          "price": 0.0092,
-          "vol": 8334116.070558,
+          "rsi": 86.3,
+          "price": 0.00913,
+          "vol": 8274129.058144,
           "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 132
+      "buy": [
+        {
+          "sym": "TSTUSDT",
+          "rsi": 24.2,
+          "price": 0.01149,
+          "vol": 3441983.310827,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 126
     }
   }
 }
