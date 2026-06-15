@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-15T02:04:28.736Z",
-  "updated_ts": 1781489068736,
+  "updated": "2026-06-15T07:33:32.777Z",
+  "updated_ts": 1781508812777,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,63 +13,70 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "WLDUSDT",
-          "rsi": 81.4,
-          "price": 0.5553,
-          "vol": 115765459.04435,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 80,
-          "price": 4318.01,
-          "vol": 14807876.688025,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 124
+      "scanned": 126
     },
     "1h": {
       "sell": [
         {
-          "sym": "PAXGUSDT",
-          "rsi": 86.6,
-          "price": 4318.01,
-          "vol": 14807876.688025,
+          "sym": "ZROUSDT",
+          "rsi": 89.8,
+          "price": 1.074,
+          "vol": 4523879.25612,
           "label": "MUY ALTO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 86.4,
-          "price": 4305.83,
-          "vol": 299171964.957524,
+          "sym": "NEARUSDT",
+          "rsi": 85,
+          "price": 2.383,
+          "vol": 51272178.4682,
           "label": "MUY ALTO"
         },
         {
-          "sym": "BABYUSDT",
-          "rsi": 82.1,
-          "price": 0.01772,
-          "vol": 18372337.12547,
+          "sym": "CHIPUSDT",
+          "rsi": 80.8,
+          "price": 0.04295,
+          "vol": 17773750.80359,
           "label": "ALTO"
         },
         {
-          "sym": "HOLOUSDT",
-          "rsi": 81.1,
-          "price": 0.0728,
-          "vol": 3189042.55385,
+          "sym": "AAVEUSDT",
+          "rsi": 80.8,
+          "price": 70.23,
+          "vol": 6455991.33649,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 80.7,
+          "price": 494.23,
+          "vol": 160118390.76581,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 124
+      "scanned": 126
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 81.3,
+          "price": 172.69,
+          "vol": 3280962.72172,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GPSUSDT",
+          "rsi": 80.9,
+          "price": 0.00847,
+          "vol": 4474239.728792,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 123
+      "scanned": 126
     }
   }
 }
