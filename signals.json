@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-15T18:13:28.675Z",
-  "updated_ts": 1781547208675,
+  "updated": "2026-06-15T21:23:59.476Z",
+  "updated_ts": 1781558639476,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -20,55 +20,20 @@
     "1h": {
       "sell": [
         {
-          "sym": "XRPUSDT",
-          "rsi": 91.3,
-          "price": 1.2807,
-          "vol": 222671413.34205,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "XLMUSDT",
-          "rsi": 86.6,
-          "price": 0.2263,
-          "vol": 76313163.6573,
+          "sym": "SPCXBUSDT",
+          "rsi": 85.8,
+          "price": 194.37,
+          "vol": 14833417.80408,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 85.9,
-          "price": 75.28,
-          "vol": 240971421.46673,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ETHUSDT",
-          "rsi": 80.8,
-          "price": 1829.77,
-          "vol": 869024103.341574,
-          "label": "ALTO"
-        },
-        {
-          "sym": "WBETHUSDT",
-          "rsi": 80.5,
-          "price": 2007.98,
-          "vol": 3167876.900857,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 80.3,
-          "price": 0.00000504,
-          "vol": 9195869.5740918,
-          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "TSTUSDT",
-          "rsi": 20.9,
-          "price": 0.01234,
-          "vol": 2927047.380952,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.2,
+          "price": 0.01192,
+          "vol": 3279087.539531,
+          "label": "BAJO"
         }
       ],
       "scanned": 132
@@ -76,25 +41,18 @@
     "4h": {
       "sell": [
         {
-          "sym": "GPSUSDT",
-          "rsi": 86.6,
-          "price": 0.00912,
-          "vol": 7488508.605304,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "SPCXBUSDT",
-          "rsi": 86.2,
-          "price": 184,
-          "vol": 12084532.95608,
-          "label": "MUY ALTO"
+          "rsi": 90,
+          "price": 194.37,
+          "vol": 14833417.80408,
+          "label": "EXTREMO"
         },
         {
-          "sym": "JUPUSDT",
-          "rsi": 81.9,
-          "price": 0.1999,
-          "vol": 4603843.94242,
-          "label": "ALTO"
+          "sym": "GPSUSDT",
+          "rsi": 87.3,
+          "price": 0.0092,
+          "vol": 8334116.070558,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
