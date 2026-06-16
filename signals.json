@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T17:27:12.421Z",
-  "updated_ts": 1781630832421,
+  "updated": "2026-06-16T20:24:10.513Z",
+  "updated_ts": 1781641450513,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,27 +14,11 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 23.6,
-          "price": 0.0453,
-          "vol": 4727185.53546,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 125
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SENTUSDT",
-          "rsi": 88.8,
-          "price": 0.01986,
-          "vol": 9561469.99772,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 125
     },
@@ -42,17 +26,10 @@
       "sell": [
         {
           "sym": "UNIUSDT",
-          "rsi": 82.9,
-          "price": 3.112,
-          "vol": 46808317.95253,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 80.5,
-          "price": 214.03,
-          "vol": 63662831.16569,
-          "label": "ALTO"
+          "rsi": 86.4,
+          "price": 3.271,
+          "vol": 53647519.7783,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
