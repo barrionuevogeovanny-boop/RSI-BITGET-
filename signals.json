@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T01:48:15.056Z",
-  "updated_ts": 1781574495056,
+  "updated": "2026-06-16T07:10:00.423Z",
+  "updated_ts": 1781593800423,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,72 +14,33 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 23.3,
-          "price": 0.05657,
-          "vol": 13727608.264347,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 125
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "STRAXUSDT",
-          "rsi": 90.1,
-          "price": 0.01117,
-          "vol": 2041298.34819,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 85.5,
-          "price": 2.967,
-          "vol": 21162390.52355,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "TSTUSDT",
-          "rsi": 20.7,
-          "price": 0.01122,
-          "vol": 3814295.841665,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "sell": [],
+      "buy": [],
+      "scanned": 125
     },
     "4h": {
       "sell": [
         {
           "sym": "SPCXBUSDT",
-          "rsi": 93.7,
-          "price": 214.12,
-          "vol": 26643565.10307,
+          "rsi": 93.8,
+          "price": 214.52,
+          "vol": 33570641.59369,
           "label": "EXTREMO"
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 89.7,
-          "price": 0.00962,
-          "vol": 8404397.648479,
+          "rsi": 86.7,
+          "price": 0.00942,
+          "vol": 8074078.541472,
           "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "TSTUSDT",
-          "rsi": 23.3,
-          "price": 0.01122,
-          "vol": 3814295.841665,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 125
     }
   }
 }
