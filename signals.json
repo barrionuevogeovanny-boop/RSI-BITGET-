@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T20:24:10.513Z",
-  "updated_ts": 1781641450513,
+  "updated": "2026-06-16T22:28:20.896Z",
+  "updated_ts": 1781648900896,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,35 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 83.3,
+          "price": 0.00007683,
+          "vol": 3605561.47609183,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 125
+      "scanned": 124
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
           "sym": "UNIUSDT",
-          "rsi": 86.4,
-          "price": 3.271,
-          "vol": 53647519.7783,
+          "rsi": 86.6,
+          "price": 3.281,
+          "vol": 55717325.99468,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 125
+      "scanned": 124
     }
   }
 }
