@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T07:10:00.423Z",
-  "updated_ts": 1781593800423,
+  "updated": "2026-06-16T12:21:54.279Z",
+  "updated_ts": 1781612514279,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,32 +15,32 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 126
     },
     "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 125
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 93.8,
-          "price": 214.52,
-          "vol": 33570641.59369,
-          "label": "EXTREMO"
+          "sym": "PORTALUSDT",
+          "rsi": 88.1,
+          "price": 0.01738,
+          "vol": 7938606.410174,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "GPSUSDT",
-          "rsi": 86.7,
-          "price": 0.00942,
-          "vol": 8074078.541472,
+          "sym": "EPICUSDT",
+          "rsi": 88.1,
+          "price": 0.632,
+          "vol": 3410903.431,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 125
+      "scanned": 126
+    },
+    "4h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 126
     }
   }
 }
