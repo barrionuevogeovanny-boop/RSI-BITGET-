@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-17T21:21:58.537Z",
-  "updated_ts": 1781731318537,
+  "updated": "2026-06-17T22:55:08.960Z",
+  "updated_ts": 1781736908960,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,48 +15,32 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 127
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 80.8,
-          "price": 0.0913,
-          "vol": 6807511.18995,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "EURUSDT",
-          "rsi": 19.9,
+          "rsi": 20.5,
           "price": 1.1514,
-          "vol": 30988628.63368,
-          "label": "BAJO"
+          "vol": 31482078.58841,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 24.8,
-          "price": 14.799,
-          "vol": 5525980.61366,
+          "rsi": 24,
+          "price": 14.77,
+          "vol": 5527017.94028,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 127
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 87.7,
-          "price": 0.0913,
-          "vol": 6807511.18995,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 127
     }
   }
 }
