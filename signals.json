@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-16T23:57:01.136Z",
-  "updated_ts": 1781654221136,
+  "updated": "2026-06-17T04:13:09.775Z",
+  "updated_ts": 1781669589775,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,34 +14,33 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 23.7,
-          "price": 0.03261,
-          "vol": 11543611.90154,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 120
+      "buy": [],
+      "scanned": 121
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 120
+      "scanned": 121
     },
     "4h": {
       "sell": [
         {
           "sym": "UNIUSDT",
           "rsi": 86.7,
-          "price": 3.292,
-          "vol": 56276000.4777,
+          "price": 3.511,
+          "vol": 62430159.1137,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 80.5,
+          "price": 0.4117,
+          "vol": 7113114.149079,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 120
+      "scanned": 121
     }
   }
 }
