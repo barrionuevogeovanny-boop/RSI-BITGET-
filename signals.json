@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-17T12:57:45.033Z",
-  "updated_ts": 1781701065033,
+  "updated": "2026-06-17T16:40:05.493Z",
+  "updated_ts": 1781714405494,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ASTERUSDT",
-          "rsi": 81.1,
-          "price": 0.747,
-          "vol": 40119702.73301,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
-          "sym": "ASTERUSDT",
-          "rsi": 81.2,
-          "price": 0.747,
-          "vol": 40119702.73301,
+          "sym": "MITOUSDT",
+          "rsi": 84.4,
+          "price": 0.02626,
+          "vol": 5952252.254015,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XPLUSDT",
+          "rsi": 83.5,
+          "price": 0.1194,
+          "vol": 41557877.37189,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 20.5,
-          "price": 15.41,
-          "vol": 4188172.76321,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 23.6,
-          "price": 0.03073,
-          "vol": 43687149.26887,
+          "rsi": 25,
+          "price": 15.514,
+          "vol": 4672026.17959,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 114
     }
   }
 }
