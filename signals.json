@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-17T16:40:05.493Z",
-  "updated_ts": 1781714405494,
+  "updated": "2026-06-17T19:12:12.317Z",
+  "updated_ts": 1781723532317,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,41 +14,71 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 114
+      "buy": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 18.3,
+          "price": 1.1519,
+          "vol": 26080941.99102,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 118
     },
     "1h": {
       "sell": [
         {
-          "sym": "MITOUSDT",
-          "rsi": 84.4,
-          "price": 0.02626,
-          "vol": 5952252.254015,
+          "sym": "ETHFIUSDT",
+          "rsi": 81.1,
+          "price": 0.382,
+          "vol": 4821446.7275,
           "label": "ALTO"
         },
         {
           "sym": "XPLUSDT",
-          "rsi": 83.5,
-          "price": 0.1194,
-          "vol": 41557877.37189,
+          "rsi": 80.4,
+          "price": 0.1213,
+          "vol": 50325216.55448,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 80.1,
+          "price": 0.0717,
+          "vol": 3161904.8672,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
+          "sym": "EURUSDT",
+          "rsi": 16,
+          "price": 1.1519,
+          "vol": 26080941.99102,
+          "label": "BAJO"
+        },
+        {
           "sym": "DEXEUSDT",
-          "rsi": 25,
-          "price": 15.514,
-          "vol": 4672026.17959,
+          "rsi": 22.4,
+          "price": 14.817,
+          "vol": 5310631.44374,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 118
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 81.7,
+          "price": 0.0717,
+          "vol": 3161904.8672,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 114
+      "scanned": 118
     }
   }
 }
