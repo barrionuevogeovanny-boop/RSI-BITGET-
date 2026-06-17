@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-17T04:13:09.775Z",
-  "updated_ts": 1781669589775,
+  "updated": "2026-06-17T09:14:02.734Z",
+  "updated_ts": 1781687642734,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,34 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 83.5,
+          "price": 1.0018,
+          "vol": 4710713.2992,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 80.4,
+          "price": 0.3193,
+          "vol": 26697316.90669,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 121
+      "scanned": 117
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 82.6,
+          "price": 1.0018,
+          "vol": 4710713.2992,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 121
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "UNIUSDT",
-          "rsi": 86.7,
-          "price": 3.511,
-          "vol": 62430159.1137,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "TIAUSDT",
-          "rsi": 80.5,
-          "price": 0.4117,
-          "vol": 7113114.149079,
+          "rsi": 82.8,
+          "price": 3.545,
+          "vol": 77792342.25498,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 121
+      "scanned": 117
     }
   }
 }
