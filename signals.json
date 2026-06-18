@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18T00:13:19.378Z",
-  "updated_ts": 1781741599378,
+  "updated": "2026-06-18T05:04:02.096Z",
+  "updated_ts": 1781759042096,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,18 +13,98 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
+      "sell": [
+        {
+          "sym": "ATMUSDT",
+          "rsi": 81.5,
+          "price": 1.39,
+          "vol": 6121989.45214,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "BERAUSDT",
+          "rsi": 19,
+          "price": 0.239,
+          "vol": 2115349.897954,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 21.4,
+          "price": 589.52,
+          "vol": 106458040.84236,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 22.2,
+          "price": 0.639,
+          "vol": 5648424.91925,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 23,
+          "price": 1.1665,
+          "vol": 127953024.81965,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PYTHUSDT",
+          "rsi": 23.6,
+          "price": 0.0374,
+          "vol": 2444528.62543,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 23.9,
+          "price": 6.607,
+          "vol": 19401194.72119,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 24.4,
+          "price": 35.1,
+          "vol": 4858981.19348,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 24.9,
+          "price": 0.971,
+          "vol": 7425713.3111,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 127
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 81.4,
+          "price": 0.03577,
+          "vol": 7415253.91054,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 23.6,
-          "price": 14.534,
-          "vol": 5673504.212,
+          "rsi": 21.8,
+          "price": 13.612,
+          "vol": 7595637.01298,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ORDIUSDT",
+          "rsi": 24.1,
+          "price": 3.132,
+          "vol": 2562435.6944,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -35,9 +115,9 @@
       "buy": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 24.7,
-          "price": 14.534,
-          "vol": 5673504.212,
+          "rsi": 21.3,
+          "price": 13.612,
+          "vol": 7595637.01298,
           "label": "SOBREVENDIDO"
         }
       ],
