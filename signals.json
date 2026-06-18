@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18T09:23:32.518Z",
-  "updated_ts": 1781774612518,
+  "updated": "2026-06-18T12:35:36.937Z",
+  "updated_ts": 1781786136937,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "USDEUSDT",
-          "rsi": 91.4,
-          "price": 1,
-          "vol": 2707244.3785,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "CHIPUSDT",
-          "rsi": 80.2,
-          "price": 0.03773,
-          "vol": 3771937.75617,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 124
+      "scanned": 128
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "BERAUSDT",
-          "rsi": 23.1,
-          "price": 0.233,
-          "vol": 2888794.268839,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 124
+      "buy": [],
+      "scanned": 128
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 85.7,
+          "price": 0.1147,
+          "vol": 17176724.53932,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 124
+      "scanned": 128
     }
   }
 }
