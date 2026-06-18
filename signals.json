@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18T16:04:02.193Z",
-  "updated_ts": 1781798642193,
+  "updated": "2026-06-18T18:32:48.429Z",
+  "updated_ts": 1781807568429,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,176 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SHIBUSDT",
-          "rsi": 18,
-          "price": 0.00000467,
-          "vol": 3562069.19924454,
-          "label": "BAJO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 21.6,
-          "price": 6.278,
-          "vol": 25468753.29433,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SAHARAUSDT",
-          "rsi": 22.1,
-          "price": 0.01359,
-          "vol": 2953458.7261,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 23,
-          "price": 0.1208,
-          "vol": 3135333.16912,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "OPENUSDT",
-          "rsi": 23.3,
-          "price": 0.2121,
-          "vol": 2065566.89112,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ROBOUSDT",
-          "rsi": 23.4,
-          "price": 0.01982,
-          "vol": 2524785.18213,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 23.6,
-          "price": 62556.29,
-          "vol": 1247549140.333676,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 23.8,
-          "price": 62497.26,
-          "vol": 4126867.0435838,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SUIUSDT",
-          "rsi": 24.1,
-          "price": 0.7126,
-          "vol": 39748936.70201,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "OPGUSDT",
-          "rsi": 24.3,
-          "price": 0.1437,
-          "vol": 7323408.65264,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ETHUSDT",
-          "rsi": 25,
-          "price": 1689.08,
-          "vol": 666218832.974648,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 131
+      "buy": [],
+      "scanned": 133
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SHIBUSDT",
-          "rsi": 19.8,
-          "price": 0.00000467,
-          "vol": 3562069.19924454,
-          "label": "BAJO"
-        },
-        {
-          "sym": "GENIUSUSDT",
-          "rsi": 22.1,
-          "price": 0.365,
-          "vol": 5253212.85137,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 23.9,
-          "price": 6.278,
-          "vol": 25468753.29433,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 24.6,
-          "price": 196.5,
-          "vol": 12600549.6147,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ACTUSDT",
-          "rsi": 24.8,
-          "price": 0.00886,
-          "vol": 2329787.898013,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 24.9,
-          "price": 576.11,
-          "vol": 96689972.74088,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 24.9,
-          "price": 175.31,
-          "vol": 39262850.99016,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPKUSDT",
-          "rsi": 24.9,
-          "price": 0.017784,
-          "vol": 2495544.991317,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 131
+      "buy": [],
+      "scanned": 132
     },
     "4h": {
       "sell": [
         {
           "sym": "SYNUSDT",
-          "rsi": 86.6,
-          "price": 0.1194,
-          "vol": 21290518.91563,
+          "rsi": 87.3,
+          "price": 0.1219,
+          "vol": 22019907.53206,
           "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "GENIUSUSDT",
-          "rsi": 24.1,
-          "price": 0.365,
-          "vol": 5253212.85137,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BLURUSDT",
-          "rsi": 24.7,
-          "price": 0.01582,
-          "vol": 2102459.616802,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 131
+      "buy": [],
+      "scanned": 132
     }
   }
 }
