@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-17T22:55:08.960Z",
-  "updated_ts": 1781736908960,
+  "updated": "2026-06-18T00:13:19.378Z",
+  "updated_ts": 1781741599378,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,17 +21,10 @@
       "sell": [],
       "buy": [
         {
-          "sym": "EURUSDT",
-          "rsi": 20.5,
-          "price": 1.1514,
-          "vol": 31482078.58841,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "DEXEUSDT",
-          "rsi": 24,
-          "price": 14.77,
-          "vol": 5527017.94028,
+          "rsi": 23.6,
+          "price": 14.534,
+          "vol": 5673504.212,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -39,7 +32,15 @@
     },
     "4h": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 24.7,
+          "price": 14.534,
+          "vol": 5673504.212,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 127
     }
   }
