@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T20:12:31.502Z",
-  "updated_ts": 1781899951502,
+  "updated": "2026-06-19T21:35:30.847Z",
+  "updated_ts": 1781904930847,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,19 +21,33 @@
       "sell": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 82.5,
-          "price": 0.1241,
-          "vol": 3416969.74861,
+          "rsi": 86,
+          "price": 0.1296,
+          "vol": 4009581.202373,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BICOUSDT",
+          "rsi": 85,
+          "price": 0.0362,
+          "vol": 9218007.86423,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 13.7,
-          "price": 0.422,
-          "vol": 3054219.5161,
+          "rsi": 12.2,
+          "price": 0.413,
+          "vol": 3139935.3855,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "SPKUSDT",
+          "rsi": 24.7,
+          "price": 0.017076,
+          "vol": 2239832.308745,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 112
@@ -42,20 +56,28 @@
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 84.7,
-          "price": 0.0338,
-          "vol": 8368097.132553,
-          "label": "ALTO"
+          "rsi": 90.9,
+          "price": 0.0362,
+          "vol": 9218007.86423,
+          "label": "EXTREMO"
         },
         {
           "sym": "LUMIAUSDT",
-          "rsi": 82.9,
-          "price": 0.1241,
-          "vol": 3416969.74861,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.1296,
+          "vol": 4009581.202373,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "EPICUSDT",
+          "rsi": 24.9,
+          "price": 0.413,
+          "vol": 3139935.3855,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 111
     }
   }
