@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T22:33:47.463Z",
-  "updated_ts": 1781908427463,
+  "updated": "2026-06-19T23:43:41.479Z",
+  "updated_ts": 1781912621479,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,63 +15,63 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 112
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 86.9,
-          "price": 0.131,
-          "vol": 4228802.69678,
+          "rsi": 87.4,
+          "price": 0.132,
+          "vol": 4426546.320581,
           "label": "MUY ALTO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 83.3,
-          "price": 0.0354,
-          "vol": 9788112.469946,
+          "rsi": 83.9,
+          "price": 0.0359,
+          "vol": 10549735.411289,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 10.9,
-          "price": 0.399,
-          "vol": 3294660.2168,
+          "rsi": 10.8,
+          "price": 0.4,
+          "vol": 3397357.7632,
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 112
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 90.5,
-          "price": 0.0354,
-          "vol": 9788112.469946,
+          "rsi": 90.9,
+          "price": 0.0359,
+          "vol": 10549735.411289,
           "label": "EXTREMO"
         },
         {
           "sym": "LUMIAUSDT",
-          "rsi": 85.8,
-          "price": 0.131,
-          "vol": 4228802.69678,
+          "rsi": 86.2,
+          "price": 0.132,
+          "vol": 4426546.320581,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 23.7,
-          "price": 0.399,
-          "vol": 3294660.2168,
+          "rsi": 23.8,
+          "price": 0.4,
+          "vol": 3397357.7632,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 109
     }
   }
 }
