@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T16:44:02.386Z",
-  "updated_ts": 1781887442386,
+  "updated": "2026-06-19T18:24:17.114Z",
+  "updated_ts": 1781893457114,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,64 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BICOUSDT",
-          "rsi": 82.7,
-          "price": 0.031,
-          "vol": 4552718.664867,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AIGENSYNUSDT",
-          "rsi": 81,
-          "price": 0.02656,
-          "vol": 2039099.03659,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 114
+      "scanned": 112
     },
     "1h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 82.3,
-          "price": 0.031,
-          "vol": 4552718.664867,
+          "rsi": 86.2,
+          "price": 0.0345,
+          "vol": 7164274.859978,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "WCTUSDT",
+          "rsi": 83.2,
+          "price": 0.053,
+          "vol": 5065939.840689,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 13.3,
-          "price": 0.426,
-          "vol": 2382874.5443,
+          "rsi": 14.8,
+          "price": 0.429,
+          "vol": 2903513.3296,
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 114
+      "scanned": 112
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 87.6,
-          "price": 0.031,
-          "vol": 4552718.664867,
-          "label": "MUY ALTO"
+          "rsi": 90.1,
+          "price": 0.0345,
+          "vol": 7164274.859978,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "BELUSDT",
+          "rsi": 80.5,
+          "price": 0.1216,
+          "vol": 6095957.05583,
+          "label": "ALTO"
         },
         {
           "sym": "LUMIAUSDT",
-          "rsi": 80.2,
-          "price": 0.119,
-          "vol": 2261889.108521,
+          "rsi": 80.5,
+          "price": 0.1197,
+          "vol": 2439108.905479,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 113
+      "scanned": 111
     }
   }
 }
