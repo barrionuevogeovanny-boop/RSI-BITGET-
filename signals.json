@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T14:21:56.369Z",
-  "updated_ts": 1781878916369,
+  "updated": "2026-06-19T16:44:02.386Z",
+  "updated_ts": 1781887442386,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 82.7,
+          "price": 0.031,
+          "vol": 4552718.664867,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AIGENSYNUSDT",
+          "rsi": 81,
+          "price": 0.02656,
+          "vol": 2039099.03659,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 120
+      "scanned": 114
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 82.3,
+          "price": 0.031,
+          "vol": 4552718.664867,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 13.8,
-          "price": 0.467,
-          "vol": 2058376.7276,
+          "rsi": 13.3,
+          "price": 0.426,
+          "vol": 2382874.5443,
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 120
+      "scanned": 114
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 87.6,
+          "price": 0.031,
+          "vol": 4552718.664867,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 80.2,
+          "price": 0.119,
+          "vol": 2261889.108521,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 119
+      "scanned": 113
     }
   }
 }
