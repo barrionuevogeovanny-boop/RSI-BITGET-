@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T11:12:34.495Z",
-  "updated_ts": 1781867554495,
+  "updated": "2026-06-19T14:21:56.369Z",
+  "updated_ts": 1781878916369,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,56 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 20.9,
-          "price": 0.05438,
-          "vol": 21243936.008295,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 120
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 20.3,
-          "price": 0.508,
-          "vol": 2132817.213,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 23.2,
-          "price": 0.07673,
-          "vol": 4571929.347943,
-          "label": "SOBREVENDIDO"
+          "rsi": 13.8,
+          "price": 0.467,
+          "vol": 2058376.7276,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 119
+      "scanned": 120
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HEIUSDT",
-          "rsi": 84.7,
-          "price": 0.1361,
-          "vol": 17904144.25769,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SYNUSDT",
-          "rsi": 81.1,
-          "price": 0.1492,
-          "vol": 23505809.66812,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 118
+      "scanned": 119
     }
   }
 }
