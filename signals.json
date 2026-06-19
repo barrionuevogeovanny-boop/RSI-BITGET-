@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-18T23:02:34.309Z",
-  "updated_ts": 1781823754309,
+  "updated": "2026-06-19T01:49:27.893Z",
+  "updated_ts": 1781833767893,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,34 +14,18 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "STGUSDT",
-          "rsi": 21.2,
-          "price": 0.2165,
-          "vol": 4720204.09915,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 123
+      "buy": [],
+      "scanned": 120
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 119
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 89.8,
-          "price": 0.1388,
-          "vol": 20133430.02993,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 119
     }
   }
 }
