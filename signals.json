@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T01:53:30.432Z",
-  "updated_ts": 1781920410432,
+  "updated": "2026-06-20T06:12:27.611Z",
+  "updated_ts": 1781935947611,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,58 +13,58 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "AXSUSDT",
-          "rsi": 91.9,
-          "price": 1.077,
-          "vol": 4812618.54236,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [],
-      "scanned": 111
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "AXSUSDT",
-          "rsi": 83.7,
-          "price": 1.077,
-          "vol": 4812618.54236,
-          "label": "ALTO"
+          "sym": "HOMEUSDT",
+          "rsi": 15.2,
+          "price": 0.02287,
+          "vol": 4659590.56993,
+          "label": "BAJO"
         },
         {
-          "sym": "EIGENUSDT",
-          "rsi": 80.2,
-          "price": 0.2742,
-          "vol": 8351950.776802,
+          "sym": "ENJUSDT",
+          "rsi": 22.3,
+          "price": 0.03403,
+          "vol": 2520220.625161,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 110
+    },
+    "1h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 22.9,
+          "price": 0.02287,
+          "vol": 4659590.56993,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 110
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 81.1,
+          "price": 0.0377,
+          "vol": 19057469.881464,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 16.2,
-          "price": 0.406,
-          "vol": 3617142.1896,
-          "label": "BAJO"
+          "rsi": 21.9,
+          "price": 0.375,
+          "vol": 4750986.334,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "BICOUSDT",
-          "rsi": 91.9,
-          "price": 0.0382,
-          "vol": 14577176.584759,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [],
-      "scanned": 110
+      "scanned": 109
     }
   }
 }
