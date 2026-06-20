@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T22:15:30.999Z",
-  "updated_ts": 1781993730999,
+  "updated": "2026-06-20T23:37:28.096Z",
+  "updated_ts": 1781998648096,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,32 +15,41 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 115
+      "scanned": 113
     },
     "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 115
+      "sell": [
+        {
+          "sym": "RESOLVUSDT",
+          "rsi": 85.2,
+          "price": 0.0191,
+          "vol": 3097262.16433,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 21.9,
+          "price": 0.02128,
+          "vol": 5084364.72461,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 86.4,
-          "price": 0.0597,
-          "vol": 34482338.042122,
+          "rsi": 86.9,
+          "price": 0.0602,
+          "vol": 34908365.502385,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "ALICEUSDT",
-          "rsi": 81,
-          "price": 0.1738,
-          "vol": 14216626.846759,
-          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 114
+      "scanned": 112
     }
   }
 }
