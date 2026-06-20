@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-19T23:43:41.479Z",
-  "updated_ts": 1781912621479,
+  "updated": "2026-06-20T01:53:30.432Z",
+  "updated_ts": 1781920410432,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,58 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AXSUSDT",
+          "rsi": 91.9,
+          "price": 1.077,
+          "vol": 4812618.54236,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [],
-      "scanned": 110
+      "scanned": 111
     },
     "1h": {
       "sell": [
         {
-          "sym": "LUMIAUSDT",
-          "rsi": 87.4,
-          "price": 0.132,
-          "vol": 4426546.320581,
-          "label": "MUY ALTO"
+          "sym": "AXSUSDT",
+          "rsi": 83.7,
+          "price": 1.077,
+          "vol": 4812618.54236,
+          "label": "ALTO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 83.9,
-          "price": 0.0359,
-          "vol": 10549735.411289,
+          "sym": "EIGENUSDT",
+          "rsi": 80.2,
+          "price": 0.2742,
+          "vol": 8351950.776802,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 10.8,
-          "price": 0.4,
-          "vol": 3397357.7632,
-          "label": "MUY BAJO"
+          "rsi": 16.2,
+          "price": 0.406,
+          "vol": 3617142.1896,
+          "label": "BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 90.9,
-          "price": 0.0359,
-          "vol": 10549735.411289,
+          "rsi": 91.9,
+          "price": 0.0382,
+          "vol": 14577176.584759,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "LUMIAUSDT",
-          "rsi": 86.2,
-          "price": 0.132,
-          "vol": 4426546.320581,
-          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 23.8,
-          "price": 0.4,
-          "vol": 3397357.7632,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 109
+      "buy": [],
+      "scanned": 110
     }
   }
 }
