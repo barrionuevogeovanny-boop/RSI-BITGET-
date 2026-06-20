@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T09:42:31.634Z",
-  "updated_ts": 1781948551634,
+  "updated": "2026-06-20T11:34:30.960Z",
+  "updated_ts": 1781955270960,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,56 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "RAREUSDT",
-          "rsi": 89.4,
-          "price": 0.017,
-          "vol": 3058584.38098,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 20,
-          "price": 0.3715,
-          "vol": 5147437.62239,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 112
+      "sell": [],
+      "buy": [],
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
-          "sym": "RAREUSDT",
-          "rsi": 93.8,
-          "price": 0.017,
-          "vol": 3058584.38098,
-          "label": "EXTREMO"
+          "sym": "BELUSDT",
+          "rsi": 84.9,
+          "price": 0.1764,
+          "vol": 10427936.21073,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ALICEUSDT",
+          "rsi": 80.6,
+          "price": 0.1409,
+          "vol": 5740579.836053,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 112
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
-          "sym": "RAREUSDT",
-          "rsi": 85.6,
-          "price": 0.017,
-          "vol": 3058584.38098,
+          "sym": "BELUSDT",
+          "rsi": 88.1,
+          "price": 0.1764,
+          "vol": 10427936.21073,
           "label": "MUY ALTO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 84.3,
-          "price": 0.0422,
-          "vol": 22662912.974108,
+          "rsi": 84.9,
+          "price": 0.0433,
+          "vol": 24198882.397615,
           "label": "ALTO"
         },
         {
-          "sym": "BELUSDT",
-          "rsi": 83.6,
-          "price": 0.1504,
-          "vol": 8046838.79835,
+          "sym": "ALICEUSDT",
+          "rsi": 81.3,
+          "price": 0.1409,
+          "vol": 5740579.836053,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 111
+      "scanned": 108
     }
   }
 }
