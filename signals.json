@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T11:34:30.960Z",
-  "updated_ts": 1781955270960,
+  "updated": "2026-06-20T13:10:07.321Z",
+  "updated_ts": 1781961007321,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,56 +13,59 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 109
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 82.2,
+          "price": 0.3254,
+          "vol": 41616791.77904,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "ASRUSDT",
+          "rsi": 22.1,
+          "price": 0.932,
+          "vol": 2016917.6623,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
           "sym": "BELUSDT",
-          "rsi": 84.9,
-          "price": 0.1764,
-          "vol": 10427936.21073,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALICEUSDT",
-          "rsi": 80.6,
-          "price": 0.1409,
-          "vol": 5740579.836053,
+          "rsi": 81.4,
+          "price": 0.1792,
+          "vol": 11162567.09672,
           "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 109
+      "buy": [
+        {
+          "sym": "ASRUSDT",
+          "rsi": 18.1,
+          "price": 0.932,
+          "vol": 2016917.6623,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
           "sym": "BELUSDT",
-          "rsi": 88.1,
-          "price": 0.1764,
-          "vol": 10427936.21073,
+          "rsi": 88.4,
+          "price": 0.1792,
+          "vol": 11162567.09672,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 84.9,
-          "price": 0.0433,
-          "vol": 24198882.397615,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALICEUSDT",
-          "rsi": 81.3,
-          "price": 0.1409,
-          "vol": 5740579.836053,
-          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 108
+      "scanned": 109
     }
   }
 }
