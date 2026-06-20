@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T15:13:21.865Z",
-  "updated_ts": 1781968401865,
+  "updated": "2026-06-20T16:52:11.442Z",
+  "updated_ts": 1781974331442,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,59 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPNUSDT",
+          "rsi": 83.8,
+          "price": 0.0815,
+          "vol": 3336506.53119,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 110
+      "scanned": 109
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MANAUSDT",
+          "rsi": 85.3,
+          "price": 0.0784,
+          "vol": 2161569.8653,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "ASRUSDT",
-          "rsi": 19,
-          "price": 0.915,
-          "vol": 2374539.3078,
-          "label": "BAJO"
+          "rsi": 14.9,
+          "price": 0.893,
+          "vol": 2708951.4813,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 85.3,
-          "price": 0.0438,
-          "vol": 26805862.281849,
-          "label": "MUY ALTO"
+          "rsi": 83.9,
+          "price": 0.0464,
+          "vol": 26041760.798815,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 109
+      "buy": [
+        {
+          "sym": "KITEUSDT",
+          "rsi": 24,
+          "price": 0.1634,
+          "vol": 2207490.45794,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 108
     }
   }
 }
