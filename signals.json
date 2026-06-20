@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T19:50:56.168Z",
-  "updated_ts": 1781985056168,
+  "updated": "2026-06-20T20:59:02.742Z",
+  "updated_ts": 1781989142742,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,33 +15,41 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 114
+      "scanned": 116
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DOLOUSDT",
+          "rsi": 82.3,
+          "price": 0.02922,
+          "vol": 2119179.120064,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "ASRUSDT",
-          "rsi": 21.8,
-          "price": 0.906,
-          "vol": 3038799.7196,
+          "rsi": 24.4,
+          "price": 0.909,
+          "vol": 3156573.3791,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 89.4,
-          "price": 0.0614,
-          "vol": 33553878.388323,
-          "label": "MUY ALTO"
+          "rsi": 84,
+          "price": 0.0588,
+          "vol": 34264446.568819,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 113
+      "scanned": 115
     }
   }
 }
