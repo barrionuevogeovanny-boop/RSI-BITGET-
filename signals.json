@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T06:12:27.611Z",
-  "updated_ts": 1781935947611,
+  "updated": "2026-06-20T09:42:31.634Z",
+  "updated_ts": 1781948551634,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,58 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RAREUSDT",
+          "rsi": 89.4,
+          "price": 0.017,
+          "vol": 3058584.38098,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 15.2,
-          "price": 0.02287,
-          "vol": 4659590.56993,
-          "label": "BAJO"
-        },
-        {
-          "sym": "ENJUSDT",
-          "rsi": 22.3,
-          "price": 0.03403,
-          "vol": 2520220.625161,
+          "sym": "ALLOUSDT",
+          "rsi": 20,
+          "price": 0.3715,
+          "vol": 5147437.62239,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 112
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 22.9,
-          "price": 0.02287,
-          "vol": 4659590.56993,
-          "label": "SOBREVENDIDO"
+          "sym": "RAREUSDT",
+          "rsi": 93.8,
+          "price": 0.017,
+          "vol": 3058584.38098,
+          "label": "EXTREMO"
         }
       ],
-      "scanned": 110
+      "buy": [],
+      "scanned": 112
     },
     "4h": {
       "sell": [
         {
+          "sym": "RAREUSDT",
+          "rsi": 85.6,
+          "price": 0.017,
+          "vol": 3058584.38098,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "BICOUSDT",
-          "rsi": 81.1,
-          "price": 0.0377,
-          "vol": 19057469.881464,
+          "rsi": 84.3,
+          "price": 0.0422,
+          "vol": 22662912.974108,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BELUSDT",
+          "rsi": 83.6,
+          "price": 0.1504,
+          "vol": 8046838.79835,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 21.9,
-          "price": 0.375,
-          "vol": 4750986.334,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 109
+      "buy": [],
+      "scanned": 111
     }
   }
 }
