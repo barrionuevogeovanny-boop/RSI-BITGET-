@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-20T13:10:07.321Z",
-  "updated_ts": 1781961007321,
+  "updated": "2026-06-20T15:13:21.865Z",
+  "updated_ts": 1781968401865,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,18 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 82.2,
-          "price": 0.3254,
-          "vol": 41616791.77904,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "ASRUSDT",
-          "rsi": 22.1,
-          "price": 0.932,
-          "vol": 2016917.6623,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "sell": [],
+      "buy": [],
       "scanned": 110
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "BELUSDT",
-          "rsi": 81.4,
-          "price": 0.1792,
-          "vol": 11162567.09672,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "ASRUSDT",
-          "rsi": 18.1,
-          "price": 0.932,
-          "vol": 2016917.6623,
+          "rsi": 19,
+          "price": 0.915,
+          "vol": 2374539.3078,
           "label": "BAJO"
         }
       ],
@@ -57,10 +33,10 @@
     "4h": {
       "sell": [
         {
-          "sym": "BELUSDT",
-          "rsi": 88.4,
-          "price": 0.1792,
-          "vol": 11162567.09672,
+          "sym": "BICOUSDT",
+          "rsi": 85.3,
+          "price": 0.0438,
+          "vol": 26805862.281849,
           "label": "MUY ALTO"
         }
       ],
