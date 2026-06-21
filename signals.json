@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T18:10:22.887Z",
-  "updated_ts": 1782065422887,
+  "updated": "2026-06-21T20:01:38.297Z",
+  "updated_ts": 1782072098297,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,15 +14,7 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 21.2,
-          "price": 0.419,
-          "vol": 2829085.36,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 102
     },
     "1h": {
@@ -34,9 +26,9 @@
       "sell": [
         {
           "sym": "SAGAUSDT",
-          "rsi": 80.5,
-          "price": 0.01628,
-          "vol": 12964520.338542,
+          "rsi": 81.4,
+          "price": 0.01641,
+          "vol": 13899651.233968,
           "label": "ALTO"
         }
       ],
