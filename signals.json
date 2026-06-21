@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T20:01:38.297Z",
-  "updated_ts": 1782072098297,
+  "updated": "2026-06-21T21:24:16.959Z",
+  "updated_ts": 1782077056959,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,7 +14,22 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "HBARUSDT",
+          "rsi": 22.7,
+          "price": 0.07886,
+          "vol": 3307727.52541,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AXSUSDT",
+          "rsi": 24.7,
+          "price": 1.07,
+          "vol": 9942508.01223,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 102
     },
     "1h": {
@@ -23,15 +38,7 @@
       "scanned": 102
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SAGAUSDT",
-          "rsi": 81.4,
-          "price": 0.01641,
-          "vol": 13899651.233968,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 102
     }
