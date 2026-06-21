@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T14:56:45.869Z",
-  "updated_ts": 1782053805869,
+  "updated": "2026-06-21T16:45:30.166Z",
+  "updated_ts": 1782060330166,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,42 +14,41 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "XPLUSDT",
-          "rsi": 22.6,
-          "price": 0.091,
-          "vol": 19184729.72981,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 103
+      "buy": [],
+      "scanned": 101
     },
     "1h": {
       "sell": [
         {
-          "sym": "IDUSDT",
-          "rsi": 82.6,
-          "price": 0.0328,
-          "vol": 4591984.3137,
+          "sym": "RESOLVUSDT",
+          "rsi": 84.6,
+          "price": 0.0272,
+          "vol": 20783428.56047,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 83.3,
+          "price": 0.01757,
+          "vol": 11328555.197377,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 103
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
-          "sym": "TNSRUSDT",
-          "rsi": 80.3,
-          "price": 0.0485,
-          "vol": 21092687.56004,
-          "label": "ALTO"
+          "sym": "SAGAUSDT",
+          "rsi": 85.1,
+          "price": 0.01757,
+          "vol": 11328555.197377,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 103
+      "scanned": 101
     }
   }
 }
