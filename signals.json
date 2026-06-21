@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T07:02:15.358Z",
-  "updated_ts": 1782025335358,
+  "updated": "2026-06-21T10:38:59.440Z",
+  "updated_ts": 1782038339440,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,51 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TNSRUSDT",
-          "rsi": 91.5,
-          "price": 0.051,
-          "vol": 6852009.89136,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "HEIUSDT",
-          "rsi": 24.8,
-          "price": 0.097,
-          "vol": 5182916.63816,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 97
+      "sell": [],
+      "buy": [],
+      "scanned": 104
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "TNSRUSDT",
-          "rsi": 87.4,
-          "price": 0.051,
-          "vol": 6852009.89136,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 97
+      "scanned": 104
     },
     "4h": {
       "sell": [
         {
           "sym": "TNSRUSDT",
-          "rsi": 92.9,
-          "price": 0.051,
-          "vol": 6852009.89136,
-          "label": "EXTREMO"
+          "rsi": 87.5,
+          "price": 0.0482,
+          "vol": 14971795.75825,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 97
+      "scanned": 104
     }
   }
 }
