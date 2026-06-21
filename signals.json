@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T21:24:16.959Z",
-  "updated_ts": 1782077056959,
+  "updated": "2026-06-21T22:41:00.937Z",
+  "updated_ts": 1782081660937,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,17 +16,38 @@
       "sell": [],
       "buy": [
         {
-          "sym": "HBARUSDT",
-          "rsi": 22.7,
-          "price": 0.07886,
-          "vol": 3307727.52541,
+          "sym": "JTOUSDT",
+          "rsi": 18.8,
+          "price": 0.6573,
+          "vol": 6094171.12992,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 19.9,
+          "price": 179.08,
+          "vol": 2823963.08884,
+          "label": "BAJO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 23.2,
+          "price": 0.1798,
+          "vol": 12380131.82328,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "AXSUSDT",
-          "rsi": 24.7,
-          "price": 1.07,
-          "vol": 9942508.01223,
+          "sym": "PENGUUSDT",
+          "rsi": 24.3,
+          "price": 0.006642,
+          "vol": 3621946.797028,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ICPUSDT",
+          "rsi": 24.6,
+          "price": 2.229,
+          "vol": 3424114.88886,
           "label": "SOBREVENDIDO"
         }
       ],
