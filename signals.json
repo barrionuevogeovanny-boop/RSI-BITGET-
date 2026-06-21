@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T02:03:36.777Z",
-  "updated_ts": 1782007416777,
+  "updated": "2026-06-21T07:02:15.358Z",
+  "updated_ts": 1782025335358,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,51 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TNSRUSDT",
+          "rsi": 91.5,
+          "price": 0.051,
+          "vol": 6852009.89136,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 14.3,
-          "price": 0.01955,
-          "vol": 6802540.65141,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "EDENUSDT",
-          "rsi": 24.2,
-          "price": 0.0462,
-          "vol": 2580023.81608,
+          "sym": "HEIUSDT",
+          "rsi": 24.8,
+          "price": 0.097,
+          "vol": 5182916.63816,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 97
     },
     "1h": {
       "sell": [
         {
-          "sym": "ACEUSDT",
-          "rsi": 84.3,
-          "price": 0.0989,
-          "vol": 5140591.59339,
-          "label": "ALTO"
+          "sym": "TNSRUSDT",
+          "rsi": 87.4,
+          "price": 0.051,
+          "vol": 6852009.89136,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 14.1,
-          "price": 0.01955,
-          "vol": 6802540.65141,
-          "label": "MUY BAJO"
-        }
-      ],
-      "scanned": 107
+      "buy": [],
+      "scanned": 97
     },
     "4h": {
       "sell": [
         {
-          "sym": "BICOUSDT",
-          "rsi": 87.5,
-          "price": 0.0619,
-          "vol": 33331154.448988,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ALICEUSDT",
-          "rsi": 84.6,
-          "price": 0.1936,
-          "vol": 16971865.919755,
-          "label": "ALTO"
+          "sym": "TNSRUSDT",
+          "rsi": 92.9,
+          "price": 0.051,
+          "vol": 6852009.89136,
+          "label": "EXTREMO"
         }
       ],
       "buy": [],
-      "scanned": 107
+      "scanned": 97
     }
   }
 }
