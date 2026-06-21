@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-21T12:28:59.859Z",
-  "updated_ts": 1782044939859,
+  "updated": "2026-06-21T14:56:45.869Z",
+  "updated_ts": 1782053805869,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,51 +13,43 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRUMPUSDT",
-          "rsi": 89.6,
-          "price": 1.961,
-          "vol": 8463991.424911,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "DOLOUSDT",
-          "rsi": 24.2,
-          "price": 0.02474,
-          "vol": 2821775.650169,
+          "sym": "XPLUSDT",
+          "rsi": 22.6,
+          "price": 0.091,
+          "vol": 19184729.72981,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
-          "sym": "TRUMPUSDT",
-          "rsi": 84.2,
-          "price": 1.961,
-          "vol": 8463991.424911,
+          "sym": "IDUSDT",
+          "rsi": 82.6,
+          "price": 0.0328,
+          "vol": 4591984.3137,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 108
+      "scanned": 103
     },
     "4h": {
       "sell": [
         {
           "sym": "TNSRUSDT",
-          "rsi": 93.8,
-          "price": 0.0539,
-          "vol": 18204531.92477,
-          "label": "EXTREMO"
+          "rsi": 80.3,
+          "price": 0.0485,
+          "vol": 21092687.56004,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 108
+      "scanned": 103
     }
   }
 }
