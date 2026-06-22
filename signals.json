@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-22T10:21:10.596Z",
-  "updated_ts": 1782123670596,
+  "updated": "2026-06-22T15:33:54.174Z",
+  "updated_ts": 1782142434174,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,70 +15,63 @@
     "15m": {
       "sell": [
         {
-          "sym": "SYNUSDT",
-          "rsi": 81.5,
-          "price": 0.2869,
-          "vol": 29589954.22083,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DEXEUSDT",
+          "sym": "POLUSDT",
           "rsi": 80.6,
-          "price": 15.859,
-          "vol": 4723482.17921,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 102
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 84.9,
-          "price": 0.2869,
-          "vol": 29589954.22083,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 83.3,
-          "price": 0.331,
-          "vol": 27065084.8483,
-          "label": "ALTO"
-        },
-        {
-          "sym": "IDUSDT",
-          "rsi": 80.3,
-          "price": 0.0392,
-          "vol": 16778550.4184,
+          "price": 0.08213,
+          "vol": 2929280.412538,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "USD1USDT",
-          "rsi": 20.5,
-          "price": 1.00029,
-          "vol": 222894203.0019,
+          "sym": "JSTUSDT",
+          "rsi": 21.7,
+          "price": 0.08239,
+          "vol": 2099463.610394,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GENIUSUSDT",
+          "rsi": 22.9,
+          "price": 0.4041,
+          "vol": 2066247.6838,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 113
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 86.5,
+          "price": 0.332,
+          "vol": 31190825.03471,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 81.6,
+          "price": 18.049,
+          "vol": 8935937.37289,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
-          "sym": "SYNUSDT",
-          "rsi": 85.9,
-          "price": 0.2869,
-          "vol": 29589954.22083,
-          "label": "MUY ALTO"
+          "sym": "MMTUSDT",
+          "rsi": 82.5,
+          "price": 0.1832,
+          "vol": 4365990.59643,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 102
+      "scanned": 113
     }
   }
 }
