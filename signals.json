@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-22T18:57:37.123Z",
-  "updated_ts": 1782154657123,
+  "updated": "2026-06-22T21:32:12.566Z",
+  "updated_ts": 1782163932566,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,77 +16,40 @@
       "sell": [],
       "buy": [
         {
-          "sym": "BICOUSDT",
-          "rsi": 16.1,
-          "price": 0.0299,
-          "vol": 10373128.893084,
-          "label": "BAJO"
-        },
-        {
-          "sym": "XLMUSDT",
-          "rsi": 24.7,
-          "price": 0.203,
-          "vol": 16500861.3749,
+          "sym": "MEUSDT",
+          "rsi": 24.6,
+          "price": 0.0639,
+          "vol": 2502832.979522,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "FIDAUSDT",
-          "rsi": 81.8,
-          "price": 0.0249,
-          "vol": 3259384.589392,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 80.1,
-          "price": 18.059,
-          "vol": 10171814.49808,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "SPCXBUSDT",
-          "rsi": 20.6,
-          "price": 162.84,
-          "vol": 32721430.81149,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 21.5,
-          "price": 0.0299,
-          "vol": 10373128.893084,
+          "rsi": 20.7,
+          "price": 156.84,
+          "vol": 42560903.79076,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "MMTUSDT",
-          "rsi": 86.7,
-          "price": 0.1978,
-          "vol": 5372818.5966,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "EURUSDT",
-          "rsi": 24.2,
-          "price": 1.1435,
-          "vol": 24844945.6211,
+          "sym": "SUSDT",
+          "rsi": 22.2,
+          "price": 0.02538,
+          "vol": 2068928.201011,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 120
     }
   }
 }
