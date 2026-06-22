@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-22T04:26:23.592Z",
-  "updated_ts": 1782102383592,
+  "updated": "2026-06-22T10:21:10.596Z",
+  "updated_ts": 1782123670596,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,72 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "USD1USDT",
-          "rsi": 14,
-          "price": 1.0003,
-          "vol": 170548257.63197,
-          "label": "MUY BAJO"
+          "sym": "SYNUSDT",
+          "rsi": 81.5,
+          "price": 0.2869,
+          "vol": 29589954.22083,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 80.6,
+          "price": 15.859,
+          "vol": 4723482.17921,
+          "label": "ALTO"
         }
       ],
-      "scanned": 104
+      "buy": [],
+      "scanned": 102
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 84.9,
+          "price": 0.2869,
+          "vol": 29589954.22083,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 83.3,
+          "price": 0.331,
+          "vol": 27065084.8483,
+          "label": "ALTO"
+        },
+        {
+          "sym": "IDUSDT",
+          "rsi": 80.3,
+          "price": 0.0392,
+          "vol": 16778550.4184,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "USD1USDT",
-          "rsi": 17,
-          "price": 1.0003,
-          "vol": 170548257.63197,
-          "label": "BAJO"
+          "rsi": 20.5,
+          "price": 1.00029,
+          "vol": 222894203.0019,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 102
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 85.9,
+          "price": 0.2869,
+          "vol": 29589954.22083,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 104
+      "scanned": 102
     }
   }
 }
