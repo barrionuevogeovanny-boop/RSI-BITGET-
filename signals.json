@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-22T15:33:54.174Z",
-  "updated_ts": 1782142434174,
+  "updated": "2026-06-22T18:57:37.123Z",
+  "updated_ts": 1782154657123,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,80 @@
   },
   "signals": {
     "15m": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 16.1,
+          "price": 0.0299,
+          "vol": 10373128.893084,
+          "label": "BAJO"
+        },
+        {
+          "sym": "XLMUSDT",
+          "rsi": 24.7,
+          "price": 0.203,
+          "vol": 16500861.3749,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
+    },
+    "1h": {
       "sell": [
         {
-          "sym": "POLUSDT",
-          "rsi": 80.6,
-          "price": 0.08213,
-          "vol": 2929280.412538,
+          "sym": "FIDAUSDT",
+          "rsi": 81.8,
+          "price": 0.0249,
+          "vol": 3259384.589392,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 80.1,
+          "price": 18.059,
+          "vol": 10171814.49808,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 21.7,
-          "price": 0.08239,
-          "vol": 2099463.610394,
+          "sym": "SPCXBUSDT",
+          "rsi": 20.6,
+          "price": 162.84,
+          "vol": 32721430.81149,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "GENIUSUSDT",
-          "rsi": 22.9,
-          "price": 0.4041,
-          "vol": 2066247.6838,
+          "sym": "BICOUSDT",
+          "rsi": 21.5,
+          "price": 0.0299,
+          "vol": 10373128.893084,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 86.5,
-          "price": 0.332,
-          "vol": 31190825.03471,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 81.6,
-          "price": 18.049,
-          "vol": 8935937.37289,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 113
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 82.5,
-          "price": 0.1832,
-          "vol": 4365990.59643,
-          "label": "ALTO"
+          "rsi": 86.7,
+          "price": 0.1978,
+          "vol": 5372818.5966,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 113
+      "buy": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 24.2,
+          "price": 1.1435,
+          "vol": 24844945.6211,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
     }
   }
 }
