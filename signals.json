@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T18:23:07.833Z",
-  "updated_ts": 1782238987833,
+  "updated": "2026-06-23T20:29:29.737Z",
+  "updated_ts": 1782246569737,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,114 +13,49 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "HEIUSDT",
-          "rsi": 83.8,
-          "price": 0.1202,
-          "vol": 6585433.55464,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 127
+      "scanned": 125
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "HEIUSDT",
-          "rsi": 82.5,
-          "price": 0.1202,
-          "vol": 6585433.55464,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "LTCUSDT",
-          "rsi": 20.4,
-          "price": 42.1,
-          "vol": 13821878.07161,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 23.6,
-          "price": 1970.42,
-          "vol": 5581833.75286,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SAHARAUSDT",
-          "rsi": 24,
-          "price": 0.01124,
-          "vol": 2074687.41713,
+          "rsi": 20.7,
+          "price": 41.97,
+          "vol": 13909952.28224,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "EURUSDT",
-          "rsi": 24.3,
-          "price": 1.1394,
-          "vol": 31338816.81077,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SKYUSDT",
-          "rsi": 24.5,
-          "price": 0.0554,
-          "vol": 2014288.1138,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "OPENUSDT",
-          "rsi": 24.6,
-          "price": 0.1798,
-          "vol": 2643655.17922,
+          "rsi": 24.9,
+          "price": 1.1393,
+          "vol": 30826053.37436,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 125
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "SAHARAUSDT",
-          "rsi": 15.9,
-          "price": 0.01124,
-          "vol": 2074687.41713,
-          "label": "BAJO"
-        },
-        {
           "sym": "EURUSDT",
-          "rsi": 18,
-          "price": 1.1394,
-          "vol": 31338816.81077,
+          "rsi": 17.9,
+          "price": 1.1393,
+          "vol": 30826053.37436,
           "label": "BAJO"
-        },
-        {
-          "sym": "CHZUSDT",
-          "rsi": 21.7,
-          "price": 0.01913,
-          "vol": 4278286.89315,
-          "label": "SOBREVENDIDO"
         },
         {
           "sym": "SUSDT",
-          "rsi": 22.3,
-          "price": 0.02417,
-          "vol": 2354400.027877,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 24.4,
-          "price": 1970.42,
-          "vol": 5581833.75286,
+          "rsi": 22.4,
+          "price": 0.02365,
+          "vol": 2891878.369212,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 125
     }
   }
 }
