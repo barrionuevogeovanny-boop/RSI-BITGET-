@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T11:27:55.153Z",
-  "updated_ts": 1782214075153,
+  "updated": "2026-06-23T13:59:15.791Z",
+  "updated_ts": 1782223155791,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,77 +14,63 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "OPENUSDT",
-          "rsi": 24.9,
-          "price": 0.1821,
-          "vol": 2830216.16047,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 125
+      "buy": [],
+      "scanned": 127
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "FLOKIUSDT",
-          "rsi": 20.9,
-          "price": 0.00002373,
-          "vol": 2055491.5294201,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "OPENUSDT",
-          "rsi": 21.5,
-          "price": 0.1821,
-          "vol": 2830216.16047,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ONDOUSDT",
-          "rsi": 23.4,
-          "price": 0.3129,
-          "vol": 9072845.76523,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LDOUSDT",
-          "rsi": 23.8,
-          "price": 0.2553,
-          "vol": 4533273.136893,
+          "sym": "SNDKBUSDT",
+          "rsi": 22.9,
+          "price": 2005.09,
+          "vol": 6264559.354072,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 127
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GUSDT",
+          "rsi": 81.5,
+          "price": 0.00312,
+          "vol": 3808284.12308,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MMTUSDT",
+          "rsi": 80.6,
+          "price": 0.2096,
+          "vol": 9227114.04237,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "EURUSDT",
           "rsi": 21.5,
-          "price": 1.1413,
-          "vol": 31216676.65993,
+          "price": 1.1405,
+          "vol": 32516178.9783,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "CHZUSDT",
-          "rsi": 21.6,
-          "price": 0.01914,
-          "vol": 5024755.52056,
+          "rsi": 21.9,
+          "price": 0.01915,
+          "vol": 4710807.86687,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "SUSDT",
-          "rsi": 23.1,
-          "price": 0.02464,
-          "vol": 2624036.566038,
+          "rsi": 23.5,
+          "price": 0.0246,
+          "vol": 2675563.725011,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 127
     }
   }
 }
