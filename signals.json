@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T00:17:19.115Z",
-  "updated_ts": 1782173839115,
+  "updated": "2026-06-23T04:33:27.269Z",
+  "updated_ts": 1782189207269,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,74 +13,58 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 90.2,
-          "price": 22.263,
-          "vol": 13547969.31624,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "PUMPUSDT",
-          "rsi": 23.2,
-          "price": 0.001441,
-          "vol": 6679396.144255,
+          "sym": "EIGENUSDT",
+          "rsi": 22.3,
+          "price": 0.2662,
+          "vol": 8748257.697402,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "HMSTRUSDT",
-          "rsi": 23.7,
-          "price": 0.0001673,
-          "vol": 10278650.6420262,
+          "sym": "JSTUSDT",
+          "rsi": 23.6,
+          "price": 0.08287,
+          "vol": 2013005.228269,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 118
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 90.5,
-          "price": 22.263,
-          "vol": 13547969.31624,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "SPCXBUSDT",
-          "rsi": 21.2,
-          "price": 155.65,
-          "vol": 43066401.05979,
-          "label": "SOBREVENDIDO"
+          "rsi": 18.5,
+          "price": 152.5,
+          "vol": 44719009.65855,
+          "label": "BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 82.4,
-          "price": 0.1958,
-          "vol": 5663368.23624,
+          "rsi": 80.9,
+          "price": 0.2007,
+          "vol": 6635510.25012,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "SUSDT",
-          "rsi": 22,
-          "price": 0.02515,
-          "vol": 2152122.145058,
+          "sym": "SPCXBUSDT",
+          "rsi": 23.7,
+          "price": 152.5,
+          "vol": 44719009.65855,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 118
     }
   }
 }
