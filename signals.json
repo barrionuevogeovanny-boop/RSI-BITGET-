@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-24T04:36:03.782Z",
-  "updated_ts": 1782275763782,
+  "updated": "2026-06-24T08:01:34.356Z",
+  "updated_ts": 1782288094356,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,47 +15,40 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 125
+      "scanned": 114
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "EURUSDT",
-          "rsi": 21.2,
-          "price": 1.1379,
-          "vol": 30909448.10338,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "WLDUSDT",
-          "rsi": 21.7,
-          "price": 0.5124,
-          "vol": 72098041.72454,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 24.3,
-          "price": 41.67,
-          "vol": 14824992.90232,
+          "rsi": 24.7,
+          "price": 1.1369,
+          "vol": 27054378.43033,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "EURUSDT",
-          "rsi": 15.6,
-          "price": 1.1379,
-          "vol": 30909448.10338,
+          "rsi": 15.1,
+          "price": 1.1369,
+          "vol": 27054378.43033,
           "label": "BAJO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 24.5,
+          "price": 0.02351,
+          "vol": 2366661.942412,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 114
     }
   }
 }
