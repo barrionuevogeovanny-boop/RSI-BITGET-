@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-24T21:01:06.785Z",
-  "updated_ts": 1782334866785,
+  "updated": "2026-06-24T22:24:21.849Z",
+  "updated_ts": 1782339861849,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,47 +15,47 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 127
+      "scanned": 129
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "ROBOUSDT",
-          "rsi": 21.7,
-          "price": 0.01669,
-          "vol": 2532449.17743,
+          "rsi": 24.1,
+          "price": 0.01677,
+          "vol": 2675448.94136,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUSDT",
+          "rsi": 24.8,
+          "price": 0.02109,
+          "vol": 3931764.429989,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 129
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "SUSDT",
-          "rsi": 19,
-          "price": 0.02119,
-          "vol": 3986501.135489,
+          "rsi": 18.1,
+          "price": 0.02109,
+          "vol": 3931764.429989,
           "label": "BAJO"
         },
         {
-          "sym": "ROBOUSDT",
-          "rsi": 24,
-          "price": 0.01669,
-          "vol": 2532449.17743,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "INJUSDT",
-          "rsi": 24.6,
-          "price": 4.288,
-          "vol": 6111030.95692,
+          "rsi": 22.8,
+          "price": 4.269,
+          "vol": 6497970.1632,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 129
     }
   }
 }
