@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-25T01:36:23.756Z",
-  "updated_ts": 1782351383756,
+  "updated": "2026-06-25T05:49:36.742Z",
+  "updated_ts": 1782366576742,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 82.8,
+          "price": 0.3304,
+          "vol": 62543674.23682,
+          "label": "ALTO"
+        },
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 80.8,
+          "price": 0.0604,
+          "vol": 6523649.37861,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 132
+      "scanned": 134
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 132
+      "scanned": 134
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "QUICKUSDT",
-          "rsi": 87.7,
-          "price": 0.00952,
-          "vol": 2030124.48289,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "SUSDT",
-          "rsi": 16.8,
-          "price": 0.02095,
-          "vol": 4078478.877894,
+          "rsi": 18.3,
+          "price": 0.02105,
+          "vol": 4137218.42885,
           "label": "BAJO"
-        },
-        {
-          "sym": "INJUSDT",
-          "rsi": 21.1,
-          "price": 4.22,
-          "vol": 6726241.697,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 134
     }
   }
 }
