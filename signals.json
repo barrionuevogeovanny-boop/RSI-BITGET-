@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-25T08:41:40.560Z",
-  "updated_ts": 1782376900560,
+  "updated": "2026-06-25T11:23:42.418Z",
+  "updated_ts": 1782386622418,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,57 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "HYPERUSDT",
-          "rsi": 89.5,
-          "price": 0.0834,
-          "vol": 16233630.12625,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PSGUSDT",
-          "rsi": 86.6,
-          "price": 0.608,
-          "vol": 3081090.16761,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "COMPUSDT",
-          "rsi": 25,
-          "price": 15.9,
-          "vol": 2711222.17695,
+          "sym": "CHZUSDT",
+          "rsi": 20.7,
+          "price": 0.0184,
+          "vol": 3870399.39821,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XLMUSDT",
+          "rsi": 21.3,
+          "price": 0.1824,
+          "vol": 17007671.8855,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VIRTUALUSDT",
+          "rsi": 24.4,
+          "price": 0.5401,
+          "vol": 3160924.25546,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 137
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ATMUSDT",
-          "rsi": 82.7,
-          "price": 2.234,
-          "vol": 13345394.0627,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HYPERUSDT",
-          "rsi": 82.4,
-          "price": 0.0834,
-          "vol": 16233630.12625,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PSGUSDT",
-          "rsi": 81.7,
-          "price": 0.608,
-          "vol": 3081090.16761,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 137
     },
@@ -72,10 +49,17 @@
       "buy": [
         {
           "sym": "SUSDT",
-          "rsi": 17.2,
-          "price": 0.02091,
-          "vol": 4173593.683214,
+          "rsi": 16.6,
+          "price": 0.02069,
+          "vol": 4242672.066705,
           "label": "BAJO"
+        },
+        {
+          "sym": "COMPUSDT",
+          "rsi": 24.6,
+          "price": 15.73,
+          "vol": 2889311.83708,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 137
