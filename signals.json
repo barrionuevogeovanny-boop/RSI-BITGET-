@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-24T23:39:59.266Z",
-  "updated_ts": 1782344399266,
+  "updated": "2026-06-25T01:36:23.756Z",
+  "updated_ts": 1782351383756,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,40 +15,40 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 129
+      "scanned": 132
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SUSDT",
-          "rsi": 23.8,
-          "price": 0.02096,
-          "vol": 3976978.96398,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 129
+      "buy": [],
+      "scanned": 132
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "QUICKUSDT",
+          "rsi": 87.7,
+          "price": 0.00952,
+          "vol": 2030124.48289,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "SUSDT",
-          "rsi": 16.6,
-          "price": 0.02096,
-          "vol": 3976978.96398,
+          "rsi": 16.8,
+          "price": 0.02095,
+          "vol": 4078478.877894,
           "label": "BAJO"
         },
         {
           "sym": "INJUSDT",
-          "rsi": 22.6,
-          "price": 4.267,
-          "vol": 6592165.15582,
+          "rsi": 21.1,
+          "price": 4.22,
+          "vol": 6726241.697,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 132
     }
   }
 }
