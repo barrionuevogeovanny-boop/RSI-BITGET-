@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-25T20:28:20.922Z",
-  "updated_ts": 1782419300922,
+  "updated": "2026-06-25T22:04:09.583Z",
+  "updated_ts": 1782425049583,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,60 +15,39 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 130
+      "scanned": 127
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 130
+      "scanned": 127
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "SUSDT",
-          "rsi": 17.5,
-          "price": 0.01983,
-          "vol": 2166792.715767,
-          "label": "BAJO"
+          "sym": "AGLDUSDT",
+          "rsi": 22.7,
+          "price": 0.1245,
+          "vol": 2450287.80049,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "PEPEUSDT",
-          "rsi": 21.5,
-          "price": 0.00000234,
-          "vol": 24388493.05254621,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AGLDUSDT",
-          "rsi": 22.7,
-          "price": 0.1246,
-          "vol": 2427016.47574,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XLMUSDT",
           "rsi": 24.4,
-          "price": 0.1759,
-          "vol": 17410834.257,
+          "price": 0.00000236,
+          "vol": 23818190.82304507,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "OPNUSDT",
-          "rsi": 24.7,
-          "price": 0.0599,
-          "vol": 2981076.69787,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "COMPUSDT",
+          "sym": "SUSDT",
           "rsi": 25,
-          "price": 15.54,
-          "vol": 3440264.72853,
+          "price": 0.02043,
+          "vol": 2180861.692623,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 127
     }
   }
 }
