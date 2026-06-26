@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T18:14:09.172Z",
-  "updated_ts": 1782497649172,
+  "updated": "2026-06-26T20:12:00.227Z",
+  "updated_ts": 1782504720227,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PUNDIXUSDT",
-          "rsi": 80.3,
-          "price": 0.0985,
-          "vol": 2941971.09848,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "LUMIAUSDT",
-          "rsi": 23.2,
-          "price": 0.1197,
-          "vol": 2337805.012812,
-          "label": "SOBREVENDIDO"
+          "sym": "ALLOUSDT",
+          "rsi": 18.6,
+          "price": 0.3613,
+          "vol": 8370946.1085,
+          "label": "BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 24,
-          "price": 21.65,
-          "vol": 4149255.59933,
+          "rsi": 21.1,
+          "price": 20.986,
+          "vol": 4249829.33722,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "JTOUSDT",
-          "rsi": 81.2,
-          "price": 0.8637,
-          "vol": 13375639.68303,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 80.9,
-          "price": 96.82,
-          "vol": 45344773.10947,
+          "sym": "AGLDUSDT",
+          "rsi": 82.6,
+          "price": 0.2122,
+          "vol": 9980422.92264,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "AAVEUSDT",
-          "rsi": 84.2,
-          "price": 96.82,
-          "vol": 45344773.10947,
+          "rsi": 82.6,
+          "price": 94.99,
+          "vol": 47003164.05555,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 123
+      "scanned": 122
     }
   }
 }
