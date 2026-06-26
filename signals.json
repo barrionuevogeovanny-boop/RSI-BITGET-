@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T21:40:42.257Z",
-  "updated_ts": 1782510042258,
+  "updated": "2026-06-26T22:49:42.344Z",
+  "updated_ts": 1782514182344,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,25 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 121
+      "scanned": 122
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 121
+      "scanned": 122
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 83.9,
+          "price": 96.11,
+          "vol": 49916169.31561,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 121
+      "scanned": 122
     }
   }
 }
