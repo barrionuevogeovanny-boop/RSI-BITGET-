@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T01:52:02.859Z",
-  "updated_ts": 1782438722859,
+  "updated": "2026-06-26T05:58:22.077Z",
+  "updated_ts": 1782453502077,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,55 +15,40 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 128
+      "scanned": 134
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "GUSDT",
-          "rsi": 82.9,
-          "price": 0.00414,
-          "vol": 7161128.7313,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 128
+      "scanned": 134
     },
     "4h": {
       "sell": [
         {
           "sym": "GUSDT",
-          "rsi": 84.7,
-          "price": 0.00414,
-          "vol": 7161128.7313,
+          "rsi": 80.6,
+          "price": 0.00404,
+          "vol": 9851168.52309,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "AGLDUSDT",
-          "rsi": 20.6,
-          "price": 0.1203,
-          "vol": 2549477.77399,
+          "sym": "SUSDT",
+          "rsi": 22.3,
+          "price": 0.02008,
+          "vol": 2019053.291332,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PEPEUSDT",
-          "rsi": 23.1,
-          "price": 0.00000233,
-          "vol": 25195051.43823441,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "0GUSDT",
-          "rsi": 24.2,
-          "price": 0.207,
-          "vol": 2142353.34823,
+          "rsi": 23.6,
+          "price": 0.00000234,
+          "vol": 28300715.39965726,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 134
     }
   }
 }
