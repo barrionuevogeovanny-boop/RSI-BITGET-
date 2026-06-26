@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T20:12:00.227Z",
-  "updated_ts": 1782504720227,
+  "updated": "2026-06-26T21:40:42.257Z",
+  "updated_ts": 1782510042258,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,49 +14,18 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 18.6,
-          "price": 0.3613,
-          "vol": 8370946.1085,
-          "label": "BAJO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 21.1,
-          "price": 20.986,
-          "vol": 4249829.33722,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 121
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AGLDUSDT",
-          "rsi": 82.6,
-          "price": 0.2122,
-          "vol": 9980422.92264,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 121
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 82.6,
-          "price": 94.99,
-          "vol": 47003164.05555,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 121
     }
   }
 }
