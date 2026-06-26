@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T16:34:49.156Z",
-  "updated_ts": 1782491689156,
+  "updated": "2026-06-26T18:14:09.172Z",
+  "updated_ts": 1782497649172,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,78 +15,63 @@
     "15m": {
       "sell": [
         {
-          "sym": "JTOUSDT",
-          "rsi": 82.7,
-          "price": 0.8302,
-          "vol": 11774933.52516,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 81.3,
-          "price": 95.39,
-          "vol": 45793212.33035,
+          "sym": "PUNDIXUSDT",
+          "rsi": 80.3,
+          "price": 0.0985,
+          "vol": 2941971.09848,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 23.3,
-          "price": 0.00508,
-          "vol": 2453668.34841,
+          "sym": "LUMIAUSDT",
+          "rsi": 23.2,
+          "price": 0.1197,
+          "vol": 2337805.012812,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 24.4,
-          "price": 22.048,
-          "vol": 3916696.06799,
+          "rsi": 24,
+          "price": 21.65,
+          "vol": 4149255.59933,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 123
     },
     "1h": {
       "sell": [
         {
-          "sym": "AGLDUSDT",
-          "rsi": 86.4,
-          "price": 0.2052,
-          "vol": 7006685.053,
-          "label": "MUY ALTO"
+          "sym": "JTOUSDT",
+          "rsi": 81.2,
+          "price": 0.8637,
+          "vol": 13375639.68303,
+          "label": "ALTO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 82.1,
-          "price": 0.5351,
-          "vol": 4867767.23737,
+          "sym": "AAVEUSDT",
+          "rsi": 80.9,
+          "price": 96.82,
+          "vol": 45344773.10947,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 123
     },
     "4h": {
       "sell": [
         {
           "sym": "AAVEUSDT",
-          "rsi": 83.2,
-          "price": 95.39,
-          "vol": 45793212.33035,
+          "rsi": 84.2,
+          "price": 96.82,
+          "vol": 45344773.10947,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "NFPUSDT",
-          "rsi": 21.4,
-          "price": 0.00508,
-          "vol": 2453668.34841,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 123
     }
   }
 }
