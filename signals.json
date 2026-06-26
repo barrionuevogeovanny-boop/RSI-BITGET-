@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T12:00:12.508Z",
-  "updated_ts": 1782475212508,
+  "updated": "2026-06-26T14:41:07.489Z",
+  "updated_ts": 1782484867489,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,34 +13,88 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "SEIUSDT",
-          "rsi": 22.4,
-          "price": 0.05206,
-          "vol": 9032453.375926,
-          "label": "SOBREVENDIDO"
+          "sym": "KAITOUSDT",
+          "rsi": 83.7,
+          "price": 0.539,
+          "vol": 3301408.42096,
+          "label": "ALTO"
         },
         {
-          "sym": "ZKUSDT",
-          "rsi": 24.7,
-          "price": 0.01002,
-          "vol": 2533886.132445,
+          "sym": "AGLDUSDT",
+          "rsi": 81,
+          "price": 0.1789,
+          "vol": 4038570.00452,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "GUSDT",
+          "rsi": 24.4,
+          "price": 0.0033,
+          "vol": 14060947.96365,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 124
     },
     "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 134
+      "sell": [
+        {
+          "sym": "CITYUSDT",
+          "rsi": 83.2,
+          "price": 0.457,
+          "vol": 2918152.8588,
+          "label": "ALTO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 83.1,
+          "price": 0.539,
+          "vol": 3301408.42096,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AGLDUSDT",
+          "rsi": 81.2,
+          "price": 0.1789,
+          "vol": 4038570.00452,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 21.7,
+          "price": 0.3196,
+          "vol": 38813398.94383,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 124
     },
     "4h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 134
+      "sell": [
+        {
+          "sym": "CITYUSDT",
+          "rsi": 81,
+          "price": 0.457,
+          "vol": 2918152.8588,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "NFPUSDT",
+          "rsi": 23.3,
+          "price": 0.00534,
+          "vol": 2165781.00186,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 124
     }
   }
 }
