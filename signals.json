@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T05:58:22.077Z",
-  "updated_ts": 1782453502077,
+  "updated": "2026-06-26T09:35:25.979Z",
+  "updated_ts": 1782466525979,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,35 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 80.7,
+          "price": 0.5065,
+          "vol": 2383530.89361,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 134
+      "scanned": 136
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 134
+      "scanned": 136
     },
     "4h": {
       "sell": [
         {
           "sym": "GUSDT",
-          "rsi": 80.6,
-          "price": 0.00404,
-          "vol": 9851168.52309,
-          "label": "ALTO"
+          "rsi": 86.3,
+          "price": 0.00431,
+          "vol": 12828557.40319,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "SUSDT",
-          "rsi": 22.3,
-          "price": 0.02008,
-          "vol": 2019053.291332,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 23.6,
-          "price": 0.00000234,
-          "vol": 28300715.39965726,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 134
+      "buy": [],
+      "scanned": 136
     }
   }
 }
