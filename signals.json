@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-25T23:40:18.384Z",
-  "updated_ts": 1782430818384,
+  "updated": "2026-06-26T01:52:02.859Z",
+  "updated_ts": 1782438722859,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,20 +13,20 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "GUSDT",
-          "rsi": 83.9,
-          "price": 0.00391,
-          "vol": 3779590.56886,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 128
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GUSDT",
+          "rsi": 82.9,
+          "price": 0.00414,
+          "vol": 7161128.7313,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 128
     },
@@ -34,39 +34,32 @@
       "sell": [
         {
           "sym": "GUSDT",
-          "rsi": 82,
-          "price": 0.00391,
-          "vol": 3779590.56886,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 80,
-          "price": 0.1766,
-          "vol": 24041763.87945,
+          "rsi": 84.7,
+          "price": 0.00414,
+          "vol": 7161128.7313,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "SUSDT",
-          "rsi": 21.5,
-          "price": 0.02014,
-          "vol": 2140811.032834,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "AGLDUSDT",
-          "rsi": 22.6,
-          "price": 0.1243,
-          "vol": 2490198.25899,
+          "rsi": 20.6,
+          "price": 0.1203,
+          "vol": 2549477.77399,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "OPNUSDT",
-          "rsi": 24.3,
-          "price": 0.0598,
-          "vol": 3077178.92983,
+          "sym": "PEPEUSDT",
+          "rsi": 23.1,
+          "price": 0.00000233,
+          "vol": 25195051.43823441,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "0GUSDT",
+          "rsi": 24.2,
+          "price": 0.207,
+          "vol": 2142353.34823,
           "label": "SOBREVENDIDO"
         }
       ],
