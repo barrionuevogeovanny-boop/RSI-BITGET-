@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T13:21:22.007Z",
-  "updated_ts": 1782566482007,
+  "updated": "2026-06-27T14:57:29.404Z",
+  "updated_ts": 1782572249404,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,19 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 80.5,
+          "price": 0.001373,
+          "vol": 5170592.521091,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 117
+      "scanned": 113
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 113
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 117
+      "scanned": 113
     }
   }
 }
