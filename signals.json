@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T18:38:46.329Z",
-  "updated_ts": 1782585526329,
+  "updated": "2026-06-27T19:56:00.715Z",
+  "updated_ts": 1782590160715,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,83 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "SUSDT",
-          "rsi": 94,
-          "price": 0.02374,
-          "vol": 3389013.045967,
-          "label": "EXTREMO"
+          "sym": "SUIUSDT",
+          "rsi": 19.8,
+          "price": 0.6858,
+          "vol": 21488347.05707,
+          "label": "BAJO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 22.4,
+          "price": 1.668,
+          "vol": 3928998.357825,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 22.6,
+          "price": 0.07469,
+          "vol": 21868462.55011,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 22.8,
+          "price": 152.8,
+          "vol": 5044555.05876,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 23.3,
+          "price": 559.14,
+          "vol": 42845566.68004,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 23.4,
+          "price": 0.828,
+          "vol": 2738063.39624,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 23.7,
+          "price": 6.43,
+          "vol": 18034332.40815,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 24.4,
+          "price": 71.14,
+          "vol": 154516468.7583,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 24.5,
+          "price": 0.1454,
+          "vol": 15585501.02247,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 105
+      "scanned": 102
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SUSDT",
-          "rsi": 87.1,
-          "price": 0.02374,
-          "vol": 3389013.045967,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 102
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 102
     }
   }
 }
