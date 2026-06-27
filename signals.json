@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T08:17:00.542Z",
-  "updated_ts": 1782548220542,
+  "updated": "2026-06-27T10:26:53.400Z",
+  "updated_ts": 1782556013400,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 90.4,
-          "price": 0.08497,
-          "vol": 2342506.032866,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "BELUSDT",
-          "rsi": 20.6,
-          "price": 0.1455,
-          "vol": 8258144.97773,
-          "label": "SOBREVENDIDO"
+          "rsi": 17,
+          "price": 0.135,
+          "vol": 8767010.86595,
+          "label": "BAJO"
         },
         {
-          "sym": "ALLOUSDT",
-          "rsi": 24.3,
-          "price": 0.319,
-          "vol": 13259809.49152,
+          "sym": "APEUSDT",
+          "rsi": 24.9,
+          "price": 0.1392,
+          "vol": 3846999.749555,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 81.7,
+          "price": 0.08564,
+          "vol": 2675906.543147,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 113
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 113
+      "scanned": 114
     }
   }
 }
