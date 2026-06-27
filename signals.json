@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T21:01:09.139Z",
-  "updated_ts": 1782594069139,
+  "updated": "2026-06-27T22:11:52.256Z",
+  "updated_ts": 1782598312256,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,7 +14,29 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "FDUSDUSDT",
+          "rsi": 18.7,
+          "price": 0.9985,
+          "vol": 9056744.268,
+          "label": "BAJO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 19.8,
+          "price": 0.82,
+          "vol": 2716373.23085,
+          "label": "BAJO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 24.4,
+          "price": 33.04,
+          "vol": 3048523.73439,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 99
     },
     "1h": {
