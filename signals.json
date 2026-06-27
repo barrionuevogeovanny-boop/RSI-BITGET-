@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T11:54:45.711Z",
-  "updated_ts": 1782561285711,
+  "updated": "2026-06-27T13:21:22.007Z",
+  "updated_ts": 1782566482007,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,63 +13,17 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PIVXUSDT",
-          "rsi": 93.3,
-          "price": 0.073,
-          "vol": 2309419.8651,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 82.9,
-          "price": 0.5658,
-          "vol": 5265817.3886,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "BELUSDT",
-          "rsi": 14.2,
-          "price": 0.1295,
-          "vol": 8881558.19004,
-          "label": "MUY BAJO"
-        }
-      ],
+      "sell": [],
+      "buy": [],
       "scanned": 117
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PIVXUSDT",
-          "rsi": 91.6,
-          "price": 0.073,
-          "vol": 2309419.8651,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 80.2,
-          "price": 0.5658,
-          "vol": 5265817.3886,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 117
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "PIVXUSDT",
-          "rsi": 86.7,
-          "price": 0.073,
-          "vol": 2309419.8651,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 117
     }
