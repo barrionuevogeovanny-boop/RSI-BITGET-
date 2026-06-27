@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T17:20:36.165Z",
-  "updated_ts": 1782580836165,
+  "updated": "2026-06-27T18:38:46.329Z",
+  "updated_ts": 1782585526329,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,35 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "币安人生USDT",
-          "rsi": 23.1,
-          "price": 0.7041,
-          "vol": 3225528.93497,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SEIUSDT",
-          "rsi": 23.1,
-          "price": 0.05065,
-          "vol": 3588656.099012,
-          "label": "SOBREVENDIDO"
+          "sym": "SUSDT",
+          "rsi": 94,
+          "price": 0.02374,
+          "vol": 3389013.045967,
+          "label": "EXTREMO"
         }
       ],
-      "scanned": 102
+      "buy": [],
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
-          "sym": "KAITOUSDT",
-          "rsi": 80.4,
-          "price": 0.5749,
-          "vol": 3553590.63842,
-          "label": "ALTO"
+          "sym": "SUSDT",
+          "rsi": 87.1,
+          "price": 0.02374,
+          "vol": 3389013.045967,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 102
+      "scanned": 105
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 102
+      "scanned": 105
     }
   }
 }
