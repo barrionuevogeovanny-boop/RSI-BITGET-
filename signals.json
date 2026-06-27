@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T14:57:29.404Z",
-  "updated_ts": 1782572249404,
+  "updated": "2026-06-27T16:06:35.821Z",
+  "updated_ts": 1782576395821,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,25 +15,47 @@
     "15m": {
       "sell": [
         {
+          "sym": "RESOLVUSDT",
+          "rsi": 83.5,
+          "price": 0.0226,
+          "vol": 2954846.08488,
+          "label": "ALTO"
+        },
+        {
           "sym": "PUMPUSDT",
-          "rsi": 80.5,
-          "price": 0.001373,
-          "vol": 5170592.521091,
+          "rsi": 80.7,
+          "price": 0.001394,
+          "vol": 5937664.533372,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 113
+      "scanned": 108
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 81.6,
+          "price": 0.5743,
+          "vol": 3831998.88868,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SYRUPUSDT",
+          "rsi": 80.9,
+          "price": 0.159,
+          "vol": 7038996.04819,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 113
+      "scanned": 108
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 113
+      "scanned": 108
     }
   }
 }
