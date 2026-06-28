@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T17:53:48.052Z",
-  "updated_ts": 1782669228052,
+  "updated": "2026-06-28T19:05:26.306Z",
+  "updated_ts": 1782673526306,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -17,40 +17,31 @@
       "buy": [
         {
           "sym": "MMTUSDT",
-          "rsi": 18.6,
-          "price": 0.171,
-          "vol": 3115508.99009,
-          "label": "BAJO"
+          "rsi": 22.3,
+          "price": 0.1698,
+          "vol": 2910472.79107,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "BELUSDT",
-          "rsi": 19.3,
-          "price": 0.1081,
-          "vol": 3641536.43609,
-          "label": "BAJO"
+          "sym": "KITEUSDT",
+          "rsi": 22.6,
+          "price": 0.1197,
+          "vol": 4481946.20399,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 24.7,
+          "price": 1.613,
+          "vol": 2801159.640972,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 91
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "MAGICUSDT",
-          "rsi": 91.6,
-          "price": 0.0504,
-          "vol": 4724575.33259,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "BELUSDT",
-          "rsi": 16.9,
-          "price": 0.1081,
-          "vol": 3641536.43609,
-          "label": "BAJO"
-        }
-      ],
+      "sell": [],
+      "buy": [],
       "scanned": 91
     },
     "4h": {
@@ -58,9 +49,9 @@
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 21,
-          "price": 0.1213,
-          "vol": 4362024.12008,
+          "rsi": 20.1,
+          "price": 0.1197,
+          "vol": 4481946.20399,
           "label": "SOBREVENDIDO"
         }
       ],
