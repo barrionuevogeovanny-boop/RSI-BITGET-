@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T00:17:32.122Z",
-  "updated_ts": 1782605852122,
+  "updated": "2026-06-28T04:55:46.463Z",
+  "updated_ts": 1782622546463,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "FDUSDUSDT",
-          "rsi": 17.5,
-          "price": 0.9985,
-          "vol": 8968168.9915,
-          "label": "BAJO"
+          "sym": "ACTUSDT",
+          "rsi": 80.4,
+          "price": 0.01073,
+          "vol": 4922280.764976,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CELOUSDT",
+          "rsi": 80.2,
+          "price": 0.06811,
+          "vol": 8482305.848744,
+          "label": "ALTO"
         }
       ],
-      "scanned": 97
+      "buy": [
+        {
+          "sym": "AGLDUSDT",
+          "rsi": 25,
+          "price": 0.186,
+          "vol": 14026386.21265,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 98
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACTUSDT",
+          "rsi": 91,
+          "price": 0.01073,
+          "vol": 4922280.764976,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [],
-      "scanned": 97
+      "scanned": 98
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 97
+      "scanned": 98
     }
   }
 }
