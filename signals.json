@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T04:55:46.463Z",
-  "updated_ts": 1782622546463,
+  "updated": "2026-06-28T08:19:29.104Z",
+  "updated_ts": 1782634769104,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,64 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ACTUSDT",
-          "rsi": 80.4,
-          "price": 0.01073,
-          "vol": 4922280.764976,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CELOUSDT",
-          "rsi": 80.2,
-          "price": 0.06811,
-          "vol": 8482305.848744,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "AGLDUSDT",
-          "rsi": 25,
-          "price": 0.186,
-          "vol": 14026386.21265,
+          "sym": "币安人生USDT",
+          "rsi": 11,
+          "price": 0.5104,
+          "vol": 19833951.38603,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "IDUSDT",
+          "rsi": 23.8,
+          "price": 0.0355,
+          "vol": 2272649.8311,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 95
     },
     "1h": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "ACTUSDT",
-          "rsi": 91,
-          "price": 0.01073,
-          "vol": 4922280.764976,
+          "sym": "币安人生USDT",
+          "rsi": 8.1,
+          "price": 0.5104,
+          "vol": 19833951.38603,
           "label": "EXTREMO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 23.3,
+          "price": 385.08,
+          "vol": 54614832.92159,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 98
+      "scanned": 95
     },
     "4h": {
       "sell": [],
-      "buy": [],
-      "scanned": 98
+      "buy": [
+        {
+          "sym": "币安人生USDT",
+          "rsi": 14.2,
+          "price": 0.5104,
+          "vol": 19833951.38603,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "KITEUSDT",
+          "rsi": 24.7,
+          "price": 0.1269,
+          "vol": 3135582.88624,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 95
     }
   }
 }
