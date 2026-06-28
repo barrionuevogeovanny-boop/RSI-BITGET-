@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T15:40:35.539Z",
-  "updated_ts": 1782661235539,
+  "updated": "2026-06-28T16:47:39.181Z",
+  "updated_ts": 1782665259181,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,66 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "MANTAUSDT",
-          "rsi": 86.1,
-          "price": 0.15111,
-          "vol": 18806013.117867,
-          "label": "MUY ALTO"
+          "sym": "SYRUPUSDT",
+          "rsi": 20.2,
+          "price": 0.1359,
+          "vol": 3250936.53024,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BELUSDT",
+          "rsi": 23.5,
+          "price": 0.1116,
+          "vol": 4058352.65389,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MMTUSDT",
+          "rsi": 24,
+          "price": 0.1746,
+          "vol": 3270646.68628,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 91
+      "scanned": 92
     },
     "1h": {
       "sell": [
         {
-          "sym": "MANTAUSDT",
-          "rsi": 96.9,
-          "price": 0.15111,
-          "vol": 18806013.117867,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "COOKIEUSDT",
-          "rsi": 89.9,
-          "price": 0.0102,
-          "vol": 3145502.76537,
+          "sym": "MAGICUSDT",
+          "rsi": 87,
+          "price": 0.0467,
+          "vol": 2391496.61419,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "BELUSDT",
-          "rsi": 20.6,
-          "price": 0.1141,
-          "vol": 4750276.74497,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.1,
+          "price": 0.1116,
+          "vol": 4058352.65389,
+          "label": "BAJO"
         }
       ],
-      "scanned": 91
+      "scanned": 92
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "MANTAUSDT",
-          "rsi": 92.1,
-          "price": 0.15111,
-          "vol": 18806013.117867,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 22,
-          "price": 0.1229,
-          "vol": 4126525.10446,
+          "rsi": 21.6,
+          "price": 0.1223,
+          "vol": 4198971.52504,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 92
     }
   }
 }
