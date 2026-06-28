@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-28T22:39:43.694Z",
-  "updated_ts": 1782686383694,
+  "updated": "2026-06-28T23:46:31.674Z",
+  "updated_ts": 1782690391674,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TONUSDT",
-          "rsi": 83.5,
-          "price": 1.608,
-          "vol": 4478889.19555,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 25,
-          "price": 4054.32,
-          "vol": 2589302.291204,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 90
+      "sell": [],
+      "buy": [],
+      "scanned": 89
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 90
+      "scanned": 89
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 21.7,
-          "price": 0.1205,
-          "vol": 4830348.27742,
+          "rsi": 21.2,
+          "price": 0.1203,
+          "vol": 4906961.94301,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     }
   }
 }
