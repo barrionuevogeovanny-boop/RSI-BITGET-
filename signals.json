@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T01:57:10.852Z",
-  "updated_ts": 1782698230852,
+  "updated": "2026-06-29T06:50:09.667Z",
+  "updated_ts": 1782715809667,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,25 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 91
+      "scanned": 98
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 91
+      "scanned": 98
     },
     "4h": {
       "sell": [],
-      "buy": [],
-      "scanned": 91
+      "buy": [
+        {
+          "sym": "KITEUSDT",
+          "rsi": 21.3,
+          "price": 0.1199,
+          "vol": 4329340.42884,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 98
     }
   }
 }
