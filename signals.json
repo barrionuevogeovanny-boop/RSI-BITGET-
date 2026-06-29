@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T11:50:39.051Z",
-  "updated_ts": 1782733839051,
+  "updated": "2026-06-29T15:20:48.716Z",
+  "updated_ts": 1782746448716,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,35 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "REUSDT",
-          "rsi": 87.1,
-          "price": 0.7897,
-          "vol": 25095104.17877,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
-          "sym": "REUSDT",
-          "rsi": 80.3,
-          "price": 0.7897,
-          "vol": 25095104.17877,
-          "label": "ALTO"
+          "sym": "ORDIUSDT",
+          "rsi": 85.3,
+          "price": 3.779,
+          "vol": 5577013.36414,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 105
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 19.3,
-          "price": 0.117,
-          "vol": 3716531.80645,
-          "label": "BAJO"
+          "rsi": 21.8,
+          "price": 0.1181,
+          "vol": 3215891.97167,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 114
     }
   }
 }
