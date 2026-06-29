@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T19:57:03.859Z",
-  "updated_ts": 1782763023859,
+  "updated": "2026-06-29T21:27:01.756Z",
+  "updated_ts": 1782768421756,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,56 +14,42 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "MANTAUSDT",
-          "rsi": 24.6,
-          "price": 0.07487,
-          "vol": 11183290.392966,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 119
+      "buy": [],
+      "scanned": 115
     },
     "1h": {
       "sell": [
         {
           "sym": "AIGENSYNUSDT",
-          "rsi": 85,
-          "price": 0.02699,
-          "vol": 4247002.99988,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ENSOUSDT",
-          "rsi": 81.8,
-          "price": 0.659,
-          "vol": 2020820.11982,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 81.5,
-          "price": 164.35,
-          "vol": 30170738.84425,
-          "label": "ALTO"
+          "rsi": 88.6,
+          "price": 0.02839,
+          "vol": 5412714.49273,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 115
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AIGENSYNUSDT",
+          "rsi": 80.3,
+          "price": 0.02839,
+          "vol": 5412714.49273,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 21.5,
-          "price": 0.1169,
-          "vol": 3233600.23897,
+          "rsi": 25,
+          "price": 0.118,
+          "vol": 3092362.40139,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 119
+      "scanned": 115
     }
   }
 }
