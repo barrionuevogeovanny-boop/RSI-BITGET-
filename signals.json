@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T15:20:48.716Z",
-  "updated_ts": 1782746448716,
+  "updated": "2026-06-29T17:56:28.602Z",
+  "updated_ts": 1782755788602,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AIGENSYNUSDT",
+          "rsi": 83,
+          "price": 0.02641,
+          "vol": 2988912.9851,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 114
+      "scanned": 119
     },
     "1h": {
       "sell": [
         {
           "sym": "ORDIUSDT",
-          "rsi": 85.3,
-          "price": 3.779,
-          "vol": 5577013.36414,
-          "label": "MUY ALTO"
+          "rsi": 91.9,
+          "price": 4.286,
+          "vol": 10549795.45365,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "AIGENSYNUSDT",
+          "rsi": 83.1,
+          "price": 0.02641,
+          "vol": 2988912.9851,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 114
+      "scanned": 119
     },
     "4h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "KITEUSDT",
-          "rsi": 21.8,
-          "price": 0.1181,
-          "vol": 3215891.97167,
-          "label": "SOBREVENDIDO"
+          "sym": "ORDIUSDT",
+          "rsi": 83.2,
+          "price": 4.286,
+          "vol": 10549795.45365,
+          "label": "ALTO"
         }
       ],
-      "scanned": 114
+      "buy": [],
+      "scanned": 119
     }
   }
 }
