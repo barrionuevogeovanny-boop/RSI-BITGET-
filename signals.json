@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-30T20:17:41.503Z",
-  "updated_ts": 1782850661503,
+  "updated": "2026-06-30T21:49:56.389Z",
+  "updated_ts": 1782856196389,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,15 +14,7 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "CRCLBUSDT",
-          "rsi": 14.8,
-          "price": 62.36,
-          "vol": 9454788.8286,
-          "label": "MUY BAJO"
-        }
-      ],
+      "buy": [],
       "scanned": 108
     },
     "1h": {
@@ -30,16 +22,30 @@
       "buy": [
         {
           "sym": "CRCLBUSDT",
-          "rsi": 9.4,
-          "price": 62.36,
-          "vol": 9454788.8286,
-          "label": "EXTREMO"
+          "rsi": 15,
+          "price": 63.43,
+          "vol": 9767590.8603,
+          "label": "MUY BAJO"
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 23.3,
-          "price": 0.3156,
-          "vol": 35069461.36679,
+          "rsi": 17.7,
+          "price": 0.3152,
+          "vol": 35771922.62537,
+          "label": "BAJO"
+        },
+        {
+          "sym": "XPLUSDT",
+          "rsi": 22.6,
+          "price": 0.0878,
+          "vol": 13687978.424477,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.1,
+          "price": 0.2562,
+          "vol": 2923046.23908,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -50,16 +56,16 @@
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 19.8,
-          "price": 0.1113,
-          "vol": 3547895.04299,
+          "rsi": 17.8,
+          "price": 0.1098,
+          "vol": 3702434.0075,
           "label": "BAJO"
         },
         {
           "sym": "CRCLBUSDT",
-          "rsi": 20.5,
-          "price": 62.36,
-          "vol": 9454788.8286,
+          "rsi": 23.4,
+          "price": 63.43,
+          "vol": 9767590.8603,
           "label": "SOBREVENDIDO"
         }
       ],
