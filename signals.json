@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-30T18:09:45.150Z",
-  "updated_ts": 1782842985150,
+  "updated": "2026-06-30T20:17:41.503Z",
+  "updated_ts": 1782850661503,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,73 +13,57 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BIOUSDT",
-          "rsi": 86,
-          "price": 0.03061,
-          "vol": 3078326.407473,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "CRCLBUSDT",
-          "rsi": 16.7,
-          "price": 63.89,
-          "vol": 8019106.591,
-          "label": "BAJO"
+          "rsi": 14.8,
+          "price": 62.36,
+          "vol": 9454788.8286,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 84,
-          "price": 0.07227,
-          "vol": 3598097.308739,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "CRCLBUSDT",
-          "rsi": 10.8,
-          "price": 63.89,
-          "vol": 8019106.591,
-          "label": "MUY BAJO"
+          "rsi": 9.4,
+          "price": 62.36,
+          "vol": 9454788.8286,
+          "label": "EXTREMO"
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 20,
-          "price": 0.3154,
-          "vol": 34222380.52528,
-          "label": "BAJO"
+          "rsi": 23.3,
+          "price": 0.3156,
+          "vol": 35069461.36679,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 17.8,
-          "price": 0.1097,
-          "vol": 3564113.48724,
+          "rsi": 19.8,
+          "price": 0.1113,
+          "vol": 3547895.04299,
           "label": "BAJO"
         },
         {
           "sym": "CRCLBUSDT",
-          "rsi": 22.3,
-          "price": 63.89,
-          "vol": 8019106.591,
+          "rsi": 20.5,
+          "price": 62.36,
+          "vol": 9454788.8286,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     }
   }
 }
