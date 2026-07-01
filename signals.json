@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T13:59:31.142Z",
-  "updated_ts": 1782914371142,
+  "updated": "2026-07-01T16:31:36.554Z",
+  "updated_ts": 1782923496555,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,71 +14,56 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 23.7,
-          "price": 163.31,
-          "vol": 47146501.81981,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 102
+      "buy": [],
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
-          "sym": "JUPUSDT",
-          "rsi": 82.6,
-          "price": 0.2389,
-          "vol": 5509819.25418,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 82.1,
-          "price": 0.1476,
-          "vol": 15626191.89105,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 80.6,
-          "price": 2.117,
-          "vol": 4312915.34187,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 102
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 83.3,
-          "price": 0.1476,
-          "vol": 15626191.89105,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 81.1,
-          "price": 2.117,
-          "vol": 4312915.34187,
-          "label": "ALTO"
+          "sym": "NFPUSDT",
+          "rsi": 85.8,
+          "price": 0.01375,
+          "vol": 26144999.66727,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "KITEUSDT",
-          "rsi": 22.6,
-          "price": 0.1062,
-          "vol": 3883062.38026,
-          "label": "SOBREVENDIDO"
+          "sym": "MUBUSDT",
+          "rsi": 20,
+          "price": 1052.88,
+          "vol": 5369817.81486,
+          "label": "BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 105
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "NFPUSDT",
+          "rsi": 85.1,
+          "price": 0.01375,
+          "vol": 26144999.66727,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 81.5,
+          "price": 2.126,
+          "vol": 5101567.5308,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 81.3,
+          "price": 0.1521,
+          "vol": 16302986.42174,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 105
     }
   }
 }
