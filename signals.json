@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T08:48:49.139Z",
-  "updated_ts": 1782895729139,
+  "updated": "2026-07-01T11:46:44.132Z",
+  "updated_ts": 1782906404132,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,49 +13,59 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 80.9,
+          "price": 4025.78,
+          "vol": 15422723.442515,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 105
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "NOMUSDT",
+          "rsi": 83.7,
+          "price": 0.00157,
+          "vol": 2424015.48736,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "USDCUSDT",
-          "rsi": 16,
-          "price": 1.0009,
-          "vol": 2435047708.35186,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MANTAUSDT",
+          "sym": "BICOUSDT",
           "rsi": 24.1,
-          "price": 0.06048,
-          "vol": 4526434.56484,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ESPUSDT",
-          "rsi": 24.2,
-          "price": 0.06462,
-          "vol": 5831485.28693,
+          "price": 0.01507,
+          "vol": 2820953.7363924,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 106
+      "scanned": 105
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 80.9,
+          "price": 0.141,
+          "vol": 13008441.84945,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 24.5,
-          "price": 0.1097,
-          "vol": 3343599.63348,
+          "rsi": 20.9,
+          "price": 0.1055,
+          "vol": 3325479.63426,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 105
     }
   }
 }
