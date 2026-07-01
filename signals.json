@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T11:46:44.132Z",
-  "updated_ts": 1782906404132,
+  "updated": "2026-07-01T13:59:31.142Z",
+  "updated_ts": 1782914371142,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,59 +13,72 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "XAUTUSDT",
-          "rsi": 80.9,
-          "price": 4025.78,
-          "vol": 15422723.442515,
-          "label": "ALTO"
+          "sym": "SPCXBUSDT",
+          "rsi": 23.7,
+          "price": 163.31,
+          "vol": 47146501.81981,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 105
+      "scanned": 102
     },
     "1h": {
       "sell": [
         {
-          "sym": "NOMUSDT",
-          "rsi": 83.7,
-          "price": 0.00157,
-          "vol": 2424015.48736,
+          "sym": "JUPUSDT",
+          "rsi": 82.6,
+          "price": 0.2389,
+          "vol": 5509819.25418,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 82.1,
+          "price": 0.1476,
+          "vol": 15626191.89105,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 80.6,
+          "price": 2.117,
+          "vol": 4312915.34187,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "BICOUSDT",
-          "rsi": 24.1,
-          "price": 0.01507,
-          "vol": 2820953.7363924,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 105
+      "buy": [],
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "ZBTUSDT",
-          "rsi": 80.9,
-          "price": 0.141,
-          "vol": 13008441.84945,
+          "rsi": 83.3,
+          "price": 0.1476,
+          "vol": 15626191.89105,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 81.1,
+          "price": 2.117,
+          "vol": 4312915.34187,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 20.9,
-          "price": 0.1055,
-          "vol": 3325479.63426,
+          "rsi": 22.6,
+          "price": 0.1062,
+          "vol": 3883062.38026,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 102
     }
   }
 }
