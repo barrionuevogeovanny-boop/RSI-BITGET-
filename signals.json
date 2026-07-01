@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T20:25:17.100Z",
-  "updated_ts": 1782937517100,
+  "updated": "2026-07-01T21:58:15.554Z",
+  "updated_ts": 1782943095554,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,109 +13,78 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TLMUSDT",
-          "rsi": 97.2,
-          "price": 0.00194,
-          "vol": 5661108.332099,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 19.4,
-          "price": 0.0626,
-          "vol": 2664052.682535,
-          "label": "BAJO"
-        },
-        {
-          "sym": "THEUSDT",
-          "rsi": 20.7,
-          "price": 0.0468,
-          "vol": 5204580.28081,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 24.6,
-          "price": 0.2384,
-          "vol": 3844294.11101,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 113
+      "sell": [],
+      "buy": [],
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
           "sym": "TLMUSDT",
-          "rsi": 96.5,
-          "price": 0.00194,
-          "vol": 5661108.332099,
+          "rsi": 91.3,
+          "price": 0.00148,
+          "vol": 10169249.228865,
           "label": "EXTREMO"
         },
         {
-          "sym": "PONDUSDT",
-          "rsi": 87.8,
-          "price": 0.00199,
-          "vol": 5185549.27776,
+          "sym": "NFPUSDT",
+          "rsi": 85.8,
+          "price": 0.04107,
+          "vol": 69557187.574,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "PONDUSDT",
+          "rsi": 81.9,
+          "price": 0.00198,
+          "vol": 6796877.97985,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "MUBUSDT",
-          "rsi": 18.8,
-          "price": 1029.89,
-          "vol": 5517754.08348,
-          "label": "BAJO"
-        },
-        {
-          "sym": "FFUSDT",
-          "rsi": 21.2,
-          "price": 0.0626,
-          "vol": 2664052.682535,
+          "rsi": 23.6,
+          "price": 1040.52,
+          "vol": 5886454.69935,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "4h": {
       "sell": [
         {
-          "sym": "TLMUSDT",
-          "rsi": 94,
-          "price": 0.00194,
-          "vol": 5661108.332099,
+          "sym": "NFPUSDT",
+          "rsi": 95.9,
+          "price": 0.04107,
+          "vol": 69557187.574,
           "label": "EXTREMO"
         },
         {
-          "sym": "NFPUSDT",
-          "rsi": 81,
-          "price": 0.03312,
-          "vol": 61238337.5596,
-          "label": "ALTO"
+          "sym": "TLMUSDT",
+          "rsi": 90.1,
+          "price": 0.00148,
+          "vol": 10169249.228865,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "NOMUSDT",
+          "rsi": 86.4,
+          "price": 0.00199,
+          "vol": 14984336.65794,
+          "label": "MUY ALTO"
         },
         {
           "sym": "PONDUSDT",
-          "rsi": 80.8,
-          "price": 0.00199,
-          "vol": 5185549.27776,
+          "rsi": 82.2,
+          "price": 0.00198,
+          "vol": 6796877.97985,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "KITEUSDT",
-          "rsi": 22.6,
-          "price": 0.1022,
-          "vol": 4183861.62107,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 113
+      "buy": [],
+      "scanned": 114
     }
   }
 }
