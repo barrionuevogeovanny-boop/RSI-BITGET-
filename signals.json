@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T04:56:21.768Z",
-  "updated_ts": 1782881781768,
+  "updated": "2026-07-01T08:48:49.139Z",
+  "updated_ts": 1782895729139,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,73 +13,49 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DYDXUSDT",
-          "rsi": 87,
-          "price": 0.23108,
-          "vol": 8097125.3060747,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "JTOUSDT",
-          "rsi": 82.3,
-          "price": 0.7902,
-          "vol": 7066980.90287,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 104
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "DYDXUSDT",
-          "rsi": 87.7,
-          "price": 0.23108,
-          "vol": 8097125.3060747,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 18.1,
-          "price": 62.91,
-          "vol": 11808691.2424,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 104
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "DYDXUSDT",
-          "rsi": 87.2,
-          "price": 0.23108,
-          "vol": 8097125.3060747,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "KITEUSDT",
-          "rsi": 16.7,
-          "price": 0.1081,
-          "vol": 3268002.323,
+          "sym": "USDCUSDT",
+          "rsi": 16,
+          "price": 1.0009,
+          "vol": 2435047708.35186,
           "label": "BAJO"
         },
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 22.5,
-          "price": 62.91,
-          "vol": 11808691.2424,
+          "sym": "MANTAUSDT",
+          "rsi": 24.1,
+          "price": 0.06048,
+          "vol": 4526434.56484,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ESPUSDT",
+          "rsi": 24.2,
+          "price": 0.06462,
+          "vol": 5831485.28693,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
+    },
+    "1h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 106
+    },
+    "4h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "KITEUSDT",
+          "rsi": 24.5,
+          "price": 0.1097,
+          "vol": 3343599.63348,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 106
     }
   }
 }
