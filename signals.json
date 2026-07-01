@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01T18:27:30.101Z",
-  "updated_ts": 1782930450101,
+  "updated": "2026-07-01T20:25:17.100Z",
+  "updated_ts": 1782937517100,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,113 +15,107 @@
     "15m": {
       "sell": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 81.7,
-          "price": 0.02462,
-          "vol": 37057442.77949,
-          "label": "ALTO"
+          "sym": "TLMUSDT",
+          "rsi": 97.2,
+          "price": 0.00194,
+          "vol": 5661108.332099,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
         {
-          "sym": "USD1USDT",
-          "rsi": 14.7,
-          "price": 0.99979,
-          "vol": 171344862.67353,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "FFUSDT",
-          "rsi": 17.9,
-          "price": 0.06361,
-          "vol": 2752927.162804,
+          "rsi": 19.4,
+          "price": 0.0626,
+          "vol": 2664052.682535,
           "label": "BAJO"
         },
         {
-          "sym": "WLDUSDT",
-          "rsi": 22.7,
-          "price": 0.3741,
-          "vol": 35273603.19412,
+          "sym": "THEUSDT",
+          "rsi": 20.7,
+          "price": 0.0468,
+          "vol": 5204580.28081,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.6,
+          "price": 0.2384,
+          "vol": 3844294.11101,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 113
     },
     "1h": {
       "sell": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 94,
-          "price": 0.02462,
-          "vol": 37057442.77949,
+          "sym": "TLMUSDT",
+          "rsi": 96.5,
+          "price": 0.00194,
+          "vol": 5661108.332099,
           "label": "EXTREMO"
         },
         {
-          "sym": "NOMUSDT",
-          "rsi": 85.1,
-          "price": 0.00207,
-          "vol": 7697484.81925,
+          "sym": "PONDUSDT",
+          "rsi": 87.8,
+          "price": 0.00199,
+          "vol": 5185549.27776,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "USD1USDT",
-          "rsi": 21.9,
-          "price": 0.99979,
-          "vol": 171344862.67353,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "MUBUSDT",
-          "rsi": 22.9,
-          "price": 1047.85,
-          "vol": 5232867.71626,
-          "label": "SOBREVENDIDO"
+          "rsi": 18.8,
+          "price": 1029.89,
+          "vol": 5517754.08348,
+          "label": "BAJO"
         },
         {
           "sym": "FFUSDT",
-          "rsi": 24.4,
-          "price": 0.06361,
-          "vol": 2752927.162804,
+          "rsi": 21.2,
+          "price": 0.0626,
+          "vol": 2664052.682535,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 92.7,
-          "price": 0.02462,
-          "vol": 37057442.77949,
+          "sym": "TLMUSDT",
+          "rsi": 94,
+          "price": 0.00194,
+          "vol": 5661108.332099,
           "label": "EXTREMO"
         },
         {
-          "sym": "NOMUSDT",
-          "rsi": 88.1,
-          "price": 0.00207,
-          "vol": 7697484.81925,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 81.6,
-          "price": 0.152,
-          "vol": 16097840.67426,
+          "sym": "NFPUSDT",
+          "rsi": 81,
+          "price": 0.03312,
+          "vol": 61238337.5596,
           "label": "ALTO"
         },
         {
-          "sym": "MORPHOUSDT",
-          "rsi": 81,
-          "price": 2.116,
-          "vol": 5373679.23506,
+          "sym": "PONDUSDT",
+          "rsi": 80.8,
+          "price": 0.00199,
+          "vol": 5185549.27776,
           "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 107
+      "buy": [
+        {
+          "sym": "KITEUSDT",
+          "rsi": 22.6,
+          "price": 0.1022,
+          "vol": 4183861.62107,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 113
     }
   }
 }
