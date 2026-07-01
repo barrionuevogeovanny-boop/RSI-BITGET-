@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-30T22:59:59.253Z",
-  "updated_ts": 1782860399253,
+  "updated": "2026-07-01T00:16:22.546Z",
+  "updated_ts": 1782864982546,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,77 +14,62 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 23.5,
-          "price": 0.2509,
-          "vol": 2923383.95976,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 107
+      "buy": [],
+      "scanned": 108
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "CRCLBUSDT",
-          "rsi": 14.3,
-          "price": 63.15,
-          "vol": 10095386.9788,
-          "label": "MUY BAJO"
+          "rsi": 18.5,
+          "price": 63.6,
+          "vol": 10469217.4779,
+          "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 21.6,
+          "price": 0.315,
+          "vol": 35932891.0306,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "XPLUSDT",
-          "rsi": 20.5,
-          "price": 0.08687,
-          "vol": 14079678.646321,
+          "rsi": 22.1,
+          "price": 0.08678,
+          "vol": 14087442.349557,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 21.1,
-          "price": 0.2509,
-          "vol": 2923383.95976,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 23,
-          "price": 0.3154,
-          "vol": 35793720.70004,
+          "rsi": 24.8,
+          "price": 0.2526,
+          "vol": 3046896.55031,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "KITEUSDT",
-          "rsi": 16.9,
-          "price": 0.1084,
-          "vol": 3779352.87097,
+          "rsi": 16.8,
+          "price": 0.1083,
+          "vol": 3503184.35425,
           "label": "BAJO"
         },
         {
           "sym": "CRCLBUSDT",
-          "rsi": 22.3,
-          "price": 63.15,
-          "vol": 10095386.9788,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 24.9,
-          "price": 0.2509,
-          "vol": 2923383.95976,
+          "rsi": 24.1,
+          "price": 63.6,
+          "vol": 10469217.4779,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     }
   }
 }
