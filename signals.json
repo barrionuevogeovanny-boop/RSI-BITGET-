@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T05:32:47.274Z",
-  "updated_ts": 1782970367275,
+  "updated": "2026-07-02T08:30:19.743Z",
+  "updated_ts": 1782981019743,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,49 +13,43 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 81.9,
+          "price": 1.1428,
+          "vol": 32050078.56445,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 119
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "MEUSDT",
-          "rsi": 91.7,
-          "price": 0.07494,
-          "vol": 3182903.952349,
+          "sym": "BREVUSDT",
+          "rsi": 92.2,
+          "price": 0.1032,
+          "vol": 5907691.17904,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "RIFUSDT",
-          "rsi": 81.5,
-          "price": 0.1387,
-          "vol": 12628104.085,
-          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
-          "sym": "MEUSDT",
-          "rsi": 83.7,
-          "price": 0.07494,
-          "vol": 3182903.952349,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RIFUSDT",
-          "rsi": 82.8,
-          "price": 0.1387,
-          "vol": 12628104.085,
-          "label": "ALTO"
+          "sym": "BREVUSDT",
+          "rsi": 86,
+          "price": 0.1032,
+          "vol": 5907691.17904,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 122
     }
   }
 }
