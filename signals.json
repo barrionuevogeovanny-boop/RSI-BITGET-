@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T15:28:45.582Z",
-  "updated_ts": 1783006125582,
+  "updated": "2026-07-02T17:11:54.249Z",
+  "updated_ts": 1783012314249,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,39 +16,32 @@
       "sell": [],
       "buy": [
         {
-          "sym": "ZAMAUSDT",
-          "rsi": 16.4,
-          "price": 0.03119,
-          "vol": 2297785.78769,
-          "label": "BAJO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 24.3,
-          "price": 0.1182,
-          "vol": 2697206.26224,
+          "sym": "SNDKBUSDT",
+          "rsi": 24.2,
+          "price": 1765.48,
+          "vol": 20552093.488283,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 130
     },
     "1h": {
       "sell": [
         {
           "sym": "UNIUSDT",
-          "rsi": 83.4,
-          "price": 3.185,
-          "vol": 21285225.17686,
+          "rsi": 83.7,
+          "price": 3.252,
+          "vol": 24078578.25804,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 127
+      "scanned": 129
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 127
+      "scanned": 129
     }
   }
 }
