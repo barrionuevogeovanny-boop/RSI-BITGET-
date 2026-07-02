@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T01:27:44.275Z",
-  "updated_ts": 1782955664275,
+  "updated": "2026-07-02T05:32:47.274Z",
+  "updated_ts": 1782970367275,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,49 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 80.2,
-          "price": 1.454,
-          "vol": 3249035.516,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 118
+      "scanned": 119
     },
     "1h": {
       "sell": [
         {
-          "sym": "HEMIUSDT",
-          "rsi": 82.3,
-          "price": 0.00522,
-          "vol": 4157176.296312,
-          "label": "ALTO"
+          "sym": "MEUSDT",
+          "rsi": 91.7,
+          "price": 0.07494,
+          "vol": 3182903.952349,
+          "label": "EXTREMO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 80.3,
-          "price": 0.6359,
-          "vol": 2354611.82121,
+          "sym": "RIFUSDT",
+          "rsi": 81.5,
+          "price": 0.1387,
+          "vol": 12628104.085,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 118
+      "scanned": 119
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MEUSDT",
+          "rsi": 83.7,
+          "price": 0.07494,
+          "vol": 3182903.952349,
+          "label": "ALTO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 82.8,
+          "price": 0.1387,
+          "vol": 12628104.085,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 118
+      "scanned": 119
     }
   }
 }
