@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T22:40:22.078Z",
-  "updated_ts": 1783032022078,
+  "updated": "2026-07-02T23:44:06.952Z",
+  "updated_ts": 1783035846952,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,40 +16,47 @@
       "sell": [],
       "buy": [
         {
-          "sym": "HBARUSDT",
-          "rsi": 20.5,
-          "price": 0.07089,
-          "vol": 7009430.4699,
+          "sym": "METUSDT",
+          "rsi": 24.7,
+          "price": 0.1772,
+          "vol": 3675740.15511,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
-          "sym": "THEUSDT",
-          "rsi": 86.5,
-          "price": 0.0725,
-          "vol": 8378907.39083,
+          "sym": "SKYUSDT",
+          "rsi": 86.2,
+          "price": 0.05915,
+          "vol": 2114335.13839,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
           "sym": "GPSUSDT",
-          "rsi": 83.6,
-          "price": 0.01099,
-          "vol": 2252063.948042,
+          "rsi": 82.9,
+          "price": 0.01087,
+          "vol": 2322711.255726,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SKYUSDT",
+          "rsi": 82.2,
+          "price": 0.05915,
+          "vol": 2114335.13839,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 123
     }
   }
 }
