@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T15:21:12.113Z",
-  "updated_ts": 1783092072113,
+  "updated": "2026-07-03T16:49:17.487Z",
+  "updated_ts": 1783097357487,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,47 +16,47 @@
       "sell": [],
       "buy": [
         {
-          "sym": "GPSUSDT",
-          "rsi": 23.8,
-          "price": 0.0088,
-          "vol": 2951895.345005,
+          "sym": "USDCUSDT",
+          "rsi": 21.2,
+          "price": 1.00063,
+          "vol": 1575931996.05732,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
-          "sym": "HMSTRUSDT",
-          "rsi": 91.9,
-          "price": 0.0002377,
-          "vol": 4884708.620793,
-          "label": "EXTREMO"
+          "sym": "SENTUSDT",
+          "rsi": 85.8,
+          "price": 0.01477,
+          "vol": 5627525.18905,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "GALAUSDT",
-          "rsi": 86,
-          "price": 0.002578,
-          "vol": 2986332.045548,
+          "sym": "HMSTRUSDT",
+          "rsi": 85,
+          "price": 0.0002422,
+          "vol": 6264767.666585,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 116
+      "scanned": 114
     },
     "4h": {
       "sell": [
         {
           "sym": "HMSTRUSDT",
-          "rsi": 81.8,
-          "price": 0.0002377,
-          "vol": 4884708.620793,
+          "rsi": 83.2,
+          "price": 0.0002422,
+          "vol": 6264767.666585,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 115
+      "scanned": 113
     }
   }
 }
