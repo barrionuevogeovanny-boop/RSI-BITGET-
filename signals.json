@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T18:04:43.571Z",
-  "updated_ts": 1783101883571,
+  "updated": "2026-07-03T19:43:54.713Z",
+  "updated_ts": 1783107834713,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,55 +15,69 @@
     "15m": {
       "sell": [
         {
-          "sym": "METUSDT",
-          "rsi": 80.1,
-          "price": 0.1996,
-          "vol": 2176271.47927,
-          "label": "ALTO"
+          "sym": "TLMUSDT",
+          "rsi": 88.4,
+          "price": 0.002577,
+          "vol": 22015848.302393,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 114
+      "scanned": 116
     },
     "1h": {
       "sell": [
         {
           "sym": "ADAUSDT",
-          "rsi": 82.1,
-          "price": 0.1759,
-          "vol": 42022663.13404,
-          "label": "ALTO"
+          "rsi": 86.7,
+          "price": 0.1808,
+          "vol": 47810679.18102,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "SENTUSDT",
-          "rsi": 81.4,
-          "price": 0.0148,
-          "vol": 6336696.38345,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 114
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "ADAUSDT",
-          "rsi": 81,
-          "price": 0.1759,
-          "vol": 42022663.13404,
+          "sym": "OPUSDT",
+          "rsi": 81.6,
+          "price": 0.1077,
+          "vol": 2013288.097841,
           "label": "ALTO"
         },
         {
           "sym": "HMSTRUSDT",
-          "rsi": 81,
-          "price": 0.000233,
-          "vol": 7120052.9597485,
+          "rsi": 80.8,
+          "price": 0.0002468,
+          "vol": 7656033.7899574,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 113
+      "scanned": 116
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "TRBUSDT",
+          "rsi": 85.6,
+          "price": 15.64,
+          "vol": 2573301.12974,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HMSTRUSDT",
+          "rsi": 84,
+          "price": 0.0002468,
+          "vol": 7656033.7899574,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 83.6,
+          "price": 0.1808,
+          "vol": 47810679.18102,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 115
     }
   }
 }
