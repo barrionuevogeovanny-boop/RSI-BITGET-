@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T16:49:17.487Z",
-  "updated_ts": 1783097357487,
+  "updated": "2026-07-03T18:04:43.571Z",
+  "updated_ts": 1783101883571,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,33 +13,33 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "USDCUSDT",
-          "rsi": 21.2,
-          "price": 1.00063,
-          "vol": 1575931996.05732,
-          "label": "SOBREVENDIDO"
+          "sym": "METUSDT",
+          "rsi": 80.1,
+          "price": 0.1996,
+          "vol": 2176271.47927,
+          "label": "ALTO"
         }
       ],
+      "buy": [],
       "scanned": 114
     },
     "1h": {
       "sell": [
         {
-          "sym": "SENTUSDT",
-          "rsi": 85.8,
-          "price": 0.01477,
-          "vol": 5627525.18905,
-          "label": "MUY ALTO"
+          "sym": "ADAUSDT",
+          "rsi": 82.1,
+          "price": 0.1759,
+          "vol": 42022663.13404,
+          "label": "ALTO"
         },
         {
-          "sym": "HMSTRUSDT",
-          "rsi": 85,
-          "price": 0.0002422,
-          "vol": 6264767.666585,
-          "label": "MUY ALTO"
+          "sym": "SENTUSDT",
+          "rsi": 81.4,
+          "price": 0.0148,
+          "vol": 6336696.38345,
+          "label": "ALTO"
         }
       ],
       "buy": [],
@@ -48,10 +48,17 @@
     "4h": {
       "sell": [
         {
+          "sym": "ADAUSDT",
+          "rsi": 81,
+          "price": 0.1759,
+          "vol": 42022663.13404,
+          "label": "ALTO"
+        },
+        {
           "sym": "HMSTRUSDT",
-          "rsi": 83.2,
-          "price": 0.0002422,
-          "vol": 6264767.666585,
+          "rsi": 81,
+          "price": 0.000233,
+          "vol": 7120052.9597485,
           "label": "ALTO"
         }
       ],
