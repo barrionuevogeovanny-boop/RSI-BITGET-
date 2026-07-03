@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T05:01:42.867Z",
-  "updated_ts": 1783054902867,
+  "updated": "2026-07-03T08:18:36.506Z",
+  "updated_ts": 1783066716506,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,33 +15,25 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 124
+      "scanned": 123
     },
     "1h": {
       "sell": [
         {
-          "sym": "ZKPUSDT",
-          "rsi": 86.5,
-          "price": 0.061,
-          "vol": 5807055.4594,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 124
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "ZKPUSDT",
-          "rsi": 83.5,
-          "price": 0.061,
-          "vol": 5807055.4594,
+          "sym": "MANAUSDT",
+          "rsi": 84.8,
+          "price": 0.0691,
+          "vol": 2410988.2126,
           "label": "ALTO"
         }
       ],
       "buy": [],
       "scanned": 123
+    },
+    "4h": {
+      "sell": [],
+      "buy": [],
+      "scanned": 122
     }
   }
 }
