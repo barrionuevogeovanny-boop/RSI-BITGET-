@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T20:44:50.021Z",
-  "updated_ts": 1783111490021,
+  "updated": "2026-07-03T21:47:16.350Z",
+  "updated_ts": 1783115236350,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,97 +15,98 @@
     "15m": {
       "sell": [
         {
-          "sym": "TLMUSDT",
-          "rsi": 92.7,
-          "price": 0.003064,
-          "vol": 25711809.64555,
-          "label": "EXTREMO"
+          "sym": "PEPEUSDT",
+          "rsi": 85.3,
+          "price": 0.00000279,
+          "vol": 18841189.51918223,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "LTCUSDT",
-          "rsi": 86.1,
-          "price": 45.16,
-          "vol": 13282861.13666,
-          "label": "MUY ALTO"
+          "sym": "TLMUSDT",
+          "rsi": 82.7,
+          "price": 0.003014,
+          "vol": 29116193.879888,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 81.8,
+          "price": 0.00000473,
+          "vol": 2203289.00866097,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 119
+      "buy": [
+        {
+          "sym": "NFPUSDT",
+          "rsi": 20,
+          "price": 0.00628,
+          "vol": 5858298.93085,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 118
     },
     "1h": {
       "sell": [
         {
-          "sym": "ADAUSDT",
-          "rsi": 87.3,
-          "price": 0.1816,
-          "vol": 49698153.86624,
+          "sym": "PEPEUSDT",
+          "rsi": 86.4,
+          "price": 0.00000279,
+          "vol": 18841189.51918223,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 83.2,
+          "price": 0.00000473,
+          "vol": 2203289.00866097,
+          "label": "ALTO"
         },
         {
           "sym": "TLMUSDT",
-          "rsi": 82.5,
-          "price": 0.003064,
-          "vol": 25711809.64555,
-          "label": "ALTO"
-        },
-        {
-          "sym": "OPUSDT",
-          "rsi": 82,
-          "price": 0.1079,
-          "vol": 2182113.128711,
-          "label": "ALTO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 81.9,
-          "price": 45.16,
-          "vol": 13282861.13666,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 81.5,
-          "price": 0.00000269,
-          "vol": 16482654.59869427,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HMSTRUSDT",
-          "rsi": 80.2,
-          "price": 0.0002441,
-          "vol": 8001783.5291155,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 119
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "TRBUSDT",
-          "rsi": 86.7,
-          "price": 15.85,
-          "vol": 2809069.00377,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ADAUSDT",
-          "rsi": 83.9,
-          "price": 0.1816,
-          "vol": 49698153.86624,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HMSTRUSDT",
-          "rsi": 83.7,
-          "price": 0.0002441,
-          "vol": 8001783.5291155,
+          "rsi": 82.2,
+          "price": 0.003014,
+          "vol": 29116193.879888,
           "label": "ALTO"
         }
       ],
       "buy": [],
       "scanned": 118
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "TRBUSDT",
+          "rsi": 86.5,
+          "price": 15.83,
+          "vol": 3036036.32432,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HMSTRUSDT",
+          "rsi": 83.3,
+          "price": 0.0002426,
+          "vol": 8280566.9260474,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 82.7,
+          "price": 0.00000279,
+          "vol": 18841189.51918223,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 80.1,
+          "price": 0.04075,
+          "vol": 2127548.238625,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 117
     }
   }
 }
