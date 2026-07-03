@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T01:18:48.972Z",
-  "updated_ts": 1783041528972,
+  "updated": "2026-07-03T05:01:42.867Z",
+  "updated_ts": 1783054902867,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,53 +13,17 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 89.7,
-          "price": 0.0511,
-          "vol": 3893502.96009,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 84.3,
-          "price": 4171.64,
-          "vol": 15174702.76147,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 83.7,
-          "price": 4166.31,
-          "vol": 20181069.097366,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CHZUSDT",
-          "rsi": 81.5,
-          "price": 0.01847,
-          "vol": 2705244.71447,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 124
     },
     "1h": {
       "sell": [
         {
-          "sym": "MIRAUSDT",
-          "rsi": 89.3,
-          "price": 0.0511,
-          "vol": 3893502.96009,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SKYUSDT",
-          "rsi": 86.9,
-          "price": 0.05948,
-          "vol": 2212231.14525,
+          "sym": "ZKPUSDT",
+          "rsi": 86.5,
+          "price": 0.061,
+          "vol": 5807055.4594,
           "label": "MUY ALTO"
         }
       ],
@@ -69,17 +33,10 @@
     "4h": {
       "sell": [
         {
-          "sym": "SKYUSDT",
-          "rsi": 82.7,
-          "price": 0.05948,
-          "vol": 2212231.14525,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 82,
-          "price": 0.0511,
-          "vol": 3893502.96009,
+          "sym": "ZKPUSDT",
+          "rsi": 83.5,
+          "price": 0.061,
+          "vol": 5807055.4594,
           "label": "ALTO"
         }
       ],
