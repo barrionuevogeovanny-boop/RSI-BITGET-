@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T11:03:28.330Z",
-  "updated_ts": 1783076608330,
+  "updated": "2026-07-03T13:03:47.393Z",
+  "updated_ts": 1783083827393,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,63 +15,33 @@
     "15m": {
       "sell": [
         {
-          "sym": "KITEUSDT",
-          "rsi": 81.5,
-          "price": 0.1188,
-          "vol": 4682270.27908,
+          "sym": "XPLUSDT",
+          "rsi": 83.8,
+          "price": 0.10891,
+          "vol": 13179529.998817,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "GPSUSDT",
-          "rsi": 23.1,
-          "price": 0.00982,
-          "vol": 2264934.169453,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 121
+      "buy": [],
+      "scanned": 118
     },
     "1h": {
       "sell": [
         {
-          "sym": "ARPAUSDT",
-          "rsi": 90,
-          "price": 0.01119,
-          "vol": 5856956.689887,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MANAUSDT",
-          "rsi": 88.9,
-          "price": 0.071,
-          "vol": 2787663.9823,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PENGUUSDT",
-          "rsi": 80.3,
-          "price": 0.006853,
-          "vol": 7070978.879117,
+          "sym": "TIAUSDT",
+          "rsi": 80.4,
+          "price": 0.4045,
+          "vol": 6107279.555983,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 121
+      "scanned": 118
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ARPAUSDT",
-          "rsi": 91.8,
-          "price": 0.01119,
-          "vol": 5856956.689887,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 120
+      "scanned": 117
     }
   }
 }
