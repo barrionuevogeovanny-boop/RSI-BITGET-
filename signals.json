@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T21:47:16.350Z",
-  "updated_ts": 1783115236350,
+  "updated": "2026-07-03T22:45:45.953Z",
+  "updated_ts": 1783118745953,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,100 +13,64 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 85.3,
-          "price": 0.00000279,
-          "vol": 18841189.51918223,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "TLMUSDT",
-          "rsi": 82.7,
-          "price": 0.003014,
-          "vol": 29116193.879888,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 81.8,
-          "price": 0.00000473,
-          "vol": 2203289.00866097,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 20,
-          "price": 0.00628,
-          "vol": 5858298.93085,
+          "sym": "HEIUSDT",
+          "rsi": 20.7,
+          "price": 0.1065,
+          "vol": 3801401.84509,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 117
     },
     "1h": {
       "sell": [
         {
-          "sym": "PEPEUSDT",
-          "rsi": 86.4,
-          "price": 0.00000279,
-          "vol": 18841189.51918223,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "BONKUSDT",
-          "rsi": 83.2,
-          "price": 0.00000473,
-          "vol": 2203289.00866097,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TLMUSDT",
-          "rsi": 82.2,
-          "price": 0.003014,
-          "vol": 29116193.879888,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 118
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "TRBUSDT",
-          "rsi": 86.5,
-          "price": 15.83,
-          "vol": 3036036.32432,
+          "rsi": 87.1,
+          "price": 0.00000486,
+          "vol": 2837440.05996772,
           "label": "MUY ALTO"
         },
         {
           "sym": "HMSTRUSDT",
-          "rsi": 83.3,
-          "price": 0.0002426,
-          "vol": 8280566.9260474,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 82.7,
-          "price": 0.00000279,
-          "vol": 18841189.51918223,
-          "label": "ALTO"
-        },
-        {
-          "sym": "NILUSDT",
-          "rsi": 80.1,
-          "price": 0.04075,
-          "vol": 2127548.238625,
+          "rsi": 82.3,
+          "price": 0.0002506,
+          "vol": 8625684.8034158,
           "label": "ALTO"
         }
       ],
       "buy": [],
       "scanned": 117
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "TRBUSDT",
+          "rsi": 86.4,
+          "price": 15.8,
+          "vol": 3133470.19569,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HMSTRUSDT",
+          "rsi": 84.8,
+          "price": 0.0002506,
+          "vol": 8625684.8034158,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 80.2,
+          "price": 0.00000273,
+          "vol": 21130981.96221341,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 116
     }
   }
 }
