@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T08:18:36.506Z",
-  "updated_ts": 1783066716506,
+  "updated": "2026-07-03T11:03:28.330Z",
+  "updated_ts": 1783076608330,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 123
+      "sell": [
+        {
+          "sym": "KITEUSDT",
+          "rsi": 81.5,
+          "price": 0.1188,
+          "vol": 4682270.27908,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "GPSUSDT",
+          "rsi": 23.1,
+          "price": 0.00982,
+          "vol": 2264934.169453,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 121
     },
     "1h": {
       "sell": [
         {
+          "sym": "ARPAUSDT",
+          "rsi": 90,
+          "price": 0.01119,
+          "vol": 5856956.689887,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "MANAUSDT",
-          "rsi": 84.8,
-          "price": 0.0691,
-          "vol": 2410988.2126,
+          "rsi": 88.9,
+          "price": 0.071,
+          "vol": 2787663.9823,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 80.3,
+          "price": 0.006853,
+          "vol": 7070978.879117,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 123
+      "scanned": 121
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ARPAUSDT",
+          "rsi": 91.8,
+          "price": 0.01119,
+          "vol": 5856956.689887,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [],
-      "scanned": 122
+      "scanned": 120
     }
   }
 }
