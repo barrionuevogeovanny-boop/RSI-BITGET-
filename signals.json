@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02T23:44:06.952Z",
-  "updated_ts": 1783035846952,
+  "updated": "2026-07-03T01:18:48.972Z",
+  "updated_ts": 1783041528972,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,25 +13,53 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "METUSDT",
-          "rsi": 24.7,
-          "price": 0.1772,
-          "vol": 3675740.15511,
-          "label": "SOBREVENDIDO"
+          "sym": "MIRAUSDT",
+          "rsi": 89.7,
+          "price": 0.0511,
+          "vol": 3893502.96009,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 84.3,
+          "price": 4171.64,
+          "vol": 15174702.76147,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 83.7,
+          "price": 4166.31,
+          "vol": 20181069.097366,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CHZUSDT",
+          "rsi": 81.5,
+          "price": 0.01847,
+          "vol": 2705244.71447,
+          "label": "ALTO"
         }
       ],
+      "buy": [],
       "scanned": 124
     },
     "1h": {
       "sell": [
         {
+          "sym": "MIRAUSDT",
+          "rsi": 89.3,
+          "price": 0.0511,
+          "vol": 3893502.96009,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "SKYUSDT",
-          "rsi": 86.2,
-          "price": 0.05915,
-          "vol": 2114335.13839,
+          "rsi": 86.9,
+          "price": 0.05948,
+          "vol": 2212231.14525,
           "label": "MUY ALTO"
         }
       ],
@@ -41,17 +69,17 @@
     "4h": {
       "sell": [
         {
-          "sym": "GPSUSDT",
-          "rsi": 82.9,
-          "price": 0.01087,
-          "vol": 2322711.255726,
+          "sym": "SKYUSDT",
+          "rsi": 82.7,
+          "price": 0.05948,
+          "vol": 2212231.14525,
           "label": "ALTO"
         },
         {
-          "sym": "SKYUSDT",
-          "rsi": 82.2,
-          "price": 0.05915,
-          "vol": 2114335.13839,
+          "sym": "MIRAUSDT",
+          "rsi": 82,
+          "price": 0.0511,
+          "vol": 3893502.96009,
           "label": "ALTO"
         }
       ],
