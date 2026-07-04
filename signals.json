@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T20:41:01.755Z",
-  "updated_ts": 1783197661756,
+  "updated": "2026-07-04T21:40:46.639Z",
+  "updated_ts": 1783201246639,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,27 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 108
-    },
-    "1h": {
-      "sell": [],
-      "buy": [],
-      "scanned": 108
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "VANRYUSDT",
+          "sym": "NFPUSDT",
           "rsi": 84.6,
-          "price": 0.004747,
-          "vol": 14828041.355327,
+          "price": 0.00883,
+          "vol": 4248825.26934,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 108
+      "scanned": 107
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "币安人生USDT",
+          "rsi": 81.2,
+          "price": 0.7959,
+          "vol": 14863135.23349,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 107
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "HOTUSDT",
+          "rsi": 83.3,
+          "price": 0.000365,
+          "vol": 2577704.720467,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 82.3,
+          "price": 0.1932,
+          "vol": 61094826.60996,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 107
     }
   }
 }
