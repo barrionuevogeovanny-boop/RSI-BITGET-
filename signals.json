@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T04:57:18.829Z",
-  "updated_ts": 1783141038829,
+  "updated": "2026-07-04T07:47:22.813Z",
+  "updated_ts": 1783151242813,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,55 +15,91 @@
     "15m": {
       "sell": [
         {
-          "sym": "GRAMUSDT",
-          "rsi": 80,
-          "price": 1.77,
-          "vol": 19025578.2253,
-          "label": "ALTO"
+          "sym": "BELUSDT",
+          "rsi": 89.9,
+          "price": 0.1187,
+          "vol": 3039971.62017,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 87.8,
+          "price": 1.0009,
+          "vol": 6063522.0418,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 112
+      "buy": [
+        {
+          "sym": "USD1USDT",
+          "rsi": 24.8,
+          "price": 0.99969,
+          "vol": 118491074.22218,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 116
     },
     "1h": {
       "sell": [
         {
           "sym": "HMSTRUSDT",
-          "rsi": 92.8,
-          "price": 0.0003122,
-          "vol": 16745137.4649687,
+          "rsi": 94.6,
+          "price": 0.000336,
+          "vol": 21719636.9970145,
           "label": "EXTREMO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 86.1,
+          "price": 0.66,
+          "vol": 3735761.7438,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BELUSDT",
+          "rsi": 84.2,
+          "price": 0.1187,
+          "vol": 3039971.62017,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DOGSUSDT",
+          "rsi": 80.8,
+          "price": 0.00004586,
+          "vol": 3529110.40487783,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 112
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
           "sym": "HMSTRUSDT",
-          "rsi": 91.7,
-          "price": 0.0003122,
-          "vol": 16745137.4649687,
+          "rsi": 93,
+          "price": 0.000336,
+          "vol": 21719636.9970145,
           "label": "EXTREMO"
         },
         {
-          "sym": "TRBUSDT",
-          "rsi": 85.1,
-          "price": 16.05,
-          "vol": 4336970.93095,
-          "label": "MUY ALTO"
+          "sym": "DOGSUSDT",
+          "rsi": 82.4,
+          "price": 0.00004586,
+          "vol": 3529110.40487783,
+          "label": "ALTO"
         },
         {
-          "sym": "PEPEUSDT",
-          "rsi": 84.2,
-          "price": 0.00000284,
-          "vol": 26946245.27426474,
+          "sym": "EPICUSDT",
+          "rsi": 81.5,
+          "price": 0.66,
+          "vol": 3735761.7438,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 111
+      "scanned": 115
     }
   }
 }
