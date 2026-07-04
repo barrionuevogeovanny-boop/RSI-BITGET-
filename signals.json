@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T17:39:19.924Z",
-  "updated_ts": 1783186759924,
+  "updated": "2026-07-04T18:39:27.433Z",
+  "updated_ts": 1783190367433,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,33 +13,18 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "LTCUSDT",
-          "rsi": 81.1,
-          "price": 45.7,
-          "vol": 14108695.11244,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 110
     },
     "1h": {
       "sell": [
         {
-          "sym": "ADAUSDT",
-          "rsi": 83.8,
-          "price": 0.1967,
-          "vol": 65388203.37139,
-          "label": "ALTO"
-        },
-        {
           "sym": "VANRYUSDT",
-          "rsi": 80.6,
-          "price": 0.004615,
-          "vol": 10114903.230999,
-          "label": "ALTO"
+          "rsi": 86.2,
+          "price": 0.005362,
+          "vol": 12610859.58477,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
@@ -48,38 +33,38 @@
     "4h": {
       "sell": [
         {
+          "sym": "VANRYUSDT",
+          "rsi": 90.5,
+          "price": 0.005362,
+          "vol": 12610859.58477,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "ETHFIUSDT",
-          "rsi": 86.6,
-          "price": 0.428,
-          "vol": 7377777.5748,
+          "rsi": 87,
+          "price": 0.43,
+          "vol": 7945454.6227,
           "label": "MUY ALTO"
         },
         {
           "sym": "ADAUSDT",
-          "rsi": 83.5,
-          "price": 0.1967,
-          "vol": 65388203.37139,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 81,
-          "price": 1.176,
-          "vol": 112710625.11055,
+          "rsi": 83.2,
+          "price": 0.1954,
+          "vol": 66507824.58466,
           "label": "ALTO"
         },
         {
           "sym": "OGNUSDT",
-          "rsi": 81,
-          "price": 0.01957,
-          "vol": 9967405.23077,
+          "rsi": 82.9,
+          "price": 0.01972,
+          "vol": 10449170.93014,
           "label": "ALTO"
         },
         {
-          "sym": "VANRYUSDT",
-          "rsi": 80.8,
-          "price": 0.004615,
-          "vol": 10114903.230999,
+          "sym": "XRPUSDT",
+          "rsi": 81.3,
+          "price": 1.1772,
+          "vol": 115634812.36181,
           "label": "ALTO"
         }
       ],
