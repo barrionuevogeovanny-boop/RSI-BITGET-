@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T18:39:27.433Z",
-  "updated_ts": 1783190367433,
+  "updated": "2026-07-04T19:52:17.570Z",
+  "updated_ts": 1783194737570,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,61 +15,61 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 110
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
           "sym": "VANRYUSDT",
-          "rsi": 86.2,
-          "price": 0.005362,
-          "vol": 12610859.58477,
-          "label": "MUY ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 110
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "VANRYUSDT",
-          "rsi": 90.5,
-          "price": 0.005362,
-          "vol": 12610859.58477,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 87,
-          "price": 0.43,
-          "vol": 7945454.6227,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ADAUSDT",
-          "rsi": 83.2,
-          "price": 0.1954,
-          "vol": 66507824.58466,
-          "label": "ALTO"
-        },
-        {
-          "sym": "OGNUSDT",
-          "rsi": 82.9,
-          "price": 0.01972,
-          "vol": 10449170.93014,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 81.3,
-          "price": 1.1772,
-          "vol": 115634812.36181,
+          "rsi": 80.8,
+          "price": 0.004975,
+          "vol": 14071526.178186,
           "label": "ALTO"
         }
       ],
       "buy": [],
       "scanned": 109
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 89.1,
+          "price": 0.004975,
+          "vol": 14071526.178186,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 88.1,
+          "price": 0.44,
+          "vol": 8399488.9099,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "OGNUSDT",
+          "rsi": 85.4,
+          "price": 0.01987,
+          "vol": 11858202.49201,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 82.4,
+          "price": 0.1933,
+          "vol": 64408823.01988,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 81.3,
+          "price": 0.726,
+          "vol": 7069383.4848,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 108
     }
   }
 }
