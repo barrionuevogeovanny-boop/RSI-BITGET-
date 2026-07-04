@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T12:38:15.811Z",
-  "updated_ts": 1783168695811,
+  "updated": "2026-07-04T14:13:06.871Z",
+  "updated_ts": 1783174386871,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,91 +15,76 @@
     "15m": {
       "sell": [
         {
-          "sym": "币安人生USDT",
-          "rsi": 82.1,
-          "price": 0.7082,
-          "vol": 2725984.1198,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "JTOUSDT",
-          "rsi": 24.8,
-          "price": 0.7181,
-          "vol": 4808610.23856,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 117
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "OGNUSDT",
-          "rsi": 95.5,
-          "price": 0.0207,
-          "vol": 3768706.29482,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "HMSTRUSDT",
-          "rsi": 90.7,
-          "price": 0.0004076,
-          "vol": 35956763.1381376,
+          "sym": "VANRYUSDT",
+          "rsi": 96.2,
+          "price": 0.00393,
+          "vol": 3160189.828706,
           "label": "EXTREMO"
         }
       ],
       "buy": [],
-      "scanned": 117
+      "scanned": 112
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 88.6,
+          "price": 0.00393,
+          "vol": 3160189.828706,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "OGNUSDT",
+          "rsi": 82.5,
+          "price": 0.02189,
+          "vol": 6396112.37866,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 112
     },
     "4h": {
       "sell": [
         {
-          "sym": "HMSTRUSDT",
-          "rsi": 93.7,
-          "price": 0.0004076,
-          "vol": 35956763.1381376,
+          "sym": "OGNUSDT",
+          "rsi": 91.5,
+          "price": 0.02189,
+          "vol": 6396112.37866,
           "label": "EXTREMO"
         },
         {
-          "sym": "OGNUSDT",
-          "rsi": 89.9,
-          "price": 0.0207,
-          "vol": 3768706.29482,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "DOGSUSDT",
-          "rsi": 82.4,
-          "price": 0.00004874,
-          "vol": 6947866.15053002,
+          "sym": "ETHFIUSDT",
+          "rsi": 84.2,
+          "price": 0.413,
+          "vol": 6754441.754,
           "label": "ALTO"
         },
         {
           "sym": "GLMRUSDT",
           "rsi": 82.4,
-          "price": 0.0115,
-          "vol": 4317369.57835,
+          "price": 0.0113,
+          "vol": 4402943.42533,
           "label": "ALTO"
         },
         {
-          "sym": "MIRAUSDT",
-          "rsi": 82.3,
-          "price": 0.0589,
-          "vol": 5923049.45292,
+          "sym": "VANRYUSDT",
+          "rsi": 81.1,
+          "price": 0.00393,
+          "vol": 3160189.828706,
           "label": "ALTO"
         },
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 81.4,
-          "price": 0.399,
-          "vol": 6273092.1337,
+          "sym": "HMSTRUSDT",
+          "rsi": 80.8,
+          "price": 0.0003748,
+          "vol": 39971020.213029,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 116
+      "scanned": 111
     }
   }
 }
