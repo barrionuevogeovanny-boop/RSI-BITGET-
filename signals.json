@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T22:39:04.309Z",
-  "updated_ts": 1783204744309,
+  "updated": "2026-07-04T23:42:10.620Z",
+  "updated_ts": 1783208530620,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,49 +14,18 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 16.4,
-          "price": 0.34079,
-          "vol": 13535872.939163,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 108
+      "buy": [],
+      "scanned": 107
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 22.3,
-          "price": 0.34079,
-          "vol": 13535872.939163,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 108
+      "buy": [],
+      "scanned": 107
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HOTUSDT",
-          "rsi": 84.6,
-          "price": 0.00037,
-          "vol": 3003153.449997,
-          "label": "ALTO"
-        },
-        {
-          "sym": "VANRYUSDT",
-          "rsi": 84.5,
-          "price": 0.004754,
-          "vol": 17140973.845044,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 108
+      "scanned": 107
     }
   }
 }
