@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T10:38:43.930Z",
-  "updated_ts": 1783247923930,
+  "updated": "2026-07-05T12:03:07.742Z",
+  "updated_ts": 1783252987742,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,42 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 20.3,
-          "price": 0.434,
-          "vol": 7640516.0211,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 100
+      "buy": [],
+      "scanned": 99
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "EPICUSDT",
-          "rsi": 21.3,
+          "rsi": 21.8,
           "price": 0.434,
-          "vol": 7640516.0211,
+          "vol": 7789126.4228,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 99
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HOTUSDT",
-          "rsi": 80.4,
-          "price": 0.000388,
-          "vol": 6199083.629187,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 100
+      "scanned": 99
     }
   }
 }
