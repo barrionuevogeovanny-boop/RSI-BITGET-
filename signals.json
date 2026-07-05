@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T12:03:07.742Z",
-  "updated_ts": 1783252987742,
+  "updated": "2026-07-05T14:01:33.232Z",
+  "updated_ts": 1783260093232,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,21 +13,21 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 82.9,
+          "price": 0.3291,
+          "vol": 26659774.63913,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 99
     },
     "1h": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 21.8,
-          "price": 0.434,
-          "vol": 7789126.4228,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 99
     },
     "4h": {
