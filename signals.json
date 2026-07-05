@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T18:43:14.399Z",
-  "updated_ts": 1783276994399,
+  "updated": "2026-07-05T19:59:27.818Z",
+  "updated_ts": 1783281567818,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,72 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 81.7,
+          "price": 0.667,
+          "vol": 2449769.8216,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 98
+      "scanned": 101
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 89.8,
-          "price": 0.01799,
-          "vol": 3134713.258,
+          "rsi": 89,
+          "price": 0.01793,
+          "vol": 3353751.09459,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "OGUSDT",
+          "rsi": 82,
+          "price": 2.65,
+          "vol": 2124860.4023,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 98
+      "buy": [
+        {
+          "sym": "EPICUSDT",
+          "rsi": 24.6,
+          "price": 0.387,
+          "vol": 9176160.3345,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ORDIUSDT",
+          "rsi": 24.8,
+          "price": 3.226,
+          "vol": 2413820.63503,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
+          "sym": "TRBUSDT",
+          "rsi": 81.5,
+          "price": 17.56,
+          "vol": 3792075.24019,
+          "label": "ALTO"
+        },
+        {
           "sym": "SUNUSDT",
-          "rsi": 82.2,
-          "price": 0.01799,
-          "vol": 3134713.258,
+          "rsi": 81.5,
+          "price": 0.01793,
+          "vol": 3353751.09459,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 98
+      "scanned": 101
     }
   }
 }
