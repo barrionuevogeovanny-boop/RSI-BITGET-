@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T15:20:51.546Z",
-  "updated_ts": 1783264851546,
+  "updated": "2026-07-05T16:30:45.275Z",
+  "updated_ts": 1783269045275,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,54 +16,40 @@
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 81.3,
-          "price": 0.01776,
-          "vol": 2221602.3889,
-          "label": "ALTO"
+          "rsi": 85.3,
+          "price": 0.01786,
+          "vol": 2566819.39434,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 98
+      "scanned": 96
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 86.5,
-          "price": 0.01776,
-          "vol": 2221602.3889,
+          "rsi": 88,
+          "price": 0.01786,
+          "vol": 2566819.39434,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "OPNUSDT",
-          "rsi": 80.9,
-          "price": 0.0769,
-          "vol": 2189189.50959,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 80.8,
-          "price": 0.3298,
-          "vol": 28982103.16248,
-          "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 23.9,
-          "price": 0.395,
-          "vol": 8324053.2837,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 98
+      "buy": [],
+      "scanned": 96
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SUNUSDT",
+          "rsi": 80.6,
+          "price": 0.01786,
+          "vol": 2566819.39434,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 98
+      "scanned": 96
     }
   }
 }
