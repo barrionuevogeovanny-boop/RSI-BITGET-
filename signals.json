@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T05:33:34.700Z",
-  "updated_ts": 1783229614700,
+  "updated": "2026-07-05T08:28:19.346Z",
+  "updated_ts": 1783240099346,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 81.2,
-          "price": 161.06,
-          "vol": 3576371.5931,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "TRUMPUSDT",
-          "rsi": 19.9,
-          "price": 1.738,
-          "vol": 7588454.234025,
-          "label": "BAJO"
+          "rsi": 20.3,
+          "price": 1.705,
+          "vol": 8468937.925245,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 24.2,
+          "price": 0.52,
+          "vol": 7278913.8294,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 104
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 106
+      "scanned": 104
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 106
+      "scanned": 104
     }
   }
 }
