@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T16:30:45.275Z",
-  "updated_ts": 1783269045275,
+  "updated": "2026-07-05T17:39:06.968Z",
+  "updated_ts": 1783273146968,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SUNUSDT",
-          "rsi": 85.3,
-          "price": 0.01786,
-          "vol": 2566819.39434,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 96
+      "scanned": 97
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 88,
+          "rsi": 88.1,
           "price": 0.01786,
-          "vol": 2566819.39434,
+          "vol": 2781021.73332,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 96
+      "scanned": 97
     },
     "4h": {
       "sell": [
         {
+          "sym": "XTZUSDT",
+          "rsi": 80.7,
+          "price": 0.2673,
+          "vol": 2237723.73518,
+          "label": "ALTO"
+        },
+        {
           "sym": "SUNUSDT",
           "rsi": 80.6,
           "price": 0.01786,
-          "vol": 2566819.39434,
+          "vol": 2781021.73332,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 96
+      "scanned": 97
     }
   }
 }
