@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T19:59:27.818Z",
-  "updated_ts": 1783281567818,
+  "updated": "2026-07-05T21:11:26.560Z",
+  "updated_ts": 1783285886560,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,70 +15,48 @@
     "15m": {
       "sell": [
         {
-          "sym": "KAITOUSDT",
-          "rsi": 81.7,
-          "price": 0.667,
-          "vol": 2449769.8216,
+          "sym": "ALICEUSDT",
+          "rsi": 80.1,
+          "price": 0.1437,
+          "vol": 2708179.248911,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 101
+      "scanned": 102
     },
     "1h": {
       "sell": [
         {
-          "sym": "SUNUSDT",
-          "rsi": 89,
-          "price": 0.01793,
-          "vol": 3353751.09459,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "OGUSDT",
-          "rsi": 82,
-          "price": 2.65,
-          "vol": 2124860.4023,
+          "sym": "ALICEUSDT",
+          "rsi": 80.2,
+          "price": 0.1437,
+          "vol": 2708179.248911,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 24.6,
-          "price": 0.387,
-          "vol": 9176160.3345,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ORDIUSDT",
-          "rsi": 24.8,
-          "price": 3.226,
-          "vol": 2413820.63503,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 101
+      "buy": [],
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "TRBUSDT",
-          "rsi": 81.5,
-          "price": 17.56,
-          "vol": 3792075.24019,
+          "rsi": 82.9,
+          "price": 17.86,
+          "vol": 4259592.0116,
           "label": "ALTO"
         },
         {
-          "sym": "SUNUSDT",
-          "rsi": 81.5,
-          "price": 0.01793,
-          "vol": 3353751.09459,
+          "sym": "GIGGLEUSDT",
+          "rsi": 80.4,
+          "price": 29.75,
+          "vol": 8760780.57808,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 101
+      "scanned": 102
     }
   }
 }
