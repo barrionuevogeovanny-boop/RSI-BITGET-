@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-05T22:12:41.711Z",
-  "updated_ts": 1783289561711,
+  "updated": "2026-07-05T23:19:28.770Z",
+  "updated_ts": 1783293568770,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,56 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 80.7,
-          "price": 30.17,
-          "vol": 9358178.40261,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 103
+      "scanned": 106
     },
     "1h": {
       "sell": [
         {
           "sym": "TRBUSDT",
-          "rsi": 81.3,
-          "price": 18.09,
-          "vol": 4966557.60366,
+          "rsi": 83.7,
+          "price": 18.47,
+          "vol": 5251965.44566,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ALICEUSDT",
+          "rsi": 82.5,
+          "price": 0.1472,
+          "vol": 5016945.038333,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NEIROUSDT",
+          "rsi": 80.9,
+          "price": 0.00007015,
+          "vol": 2462678.12924215,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 103
+      "scanned": 106
     },
     "4h": {
       "sell": [
         {
           "sym": "TRBUSDT",
-          "rsi": 83.8,
-          "price": 18.09,
-          "vol": 4966557.60366,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 18.47,
+          "vol": 5251965.44566,
+          "label": "MUY ALTO"
         },
         {
           "sym": "GIGGLEUSDT",
-          "rsi": 81.8,
-          "price": 30.17,
-          "vol": 9358178.40261,
+          "rsi": 82.4,
+          "price": 30.4,
+          "vol": 9523280.97181,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 103
+      "scanned": 106
     }
   }
 }
