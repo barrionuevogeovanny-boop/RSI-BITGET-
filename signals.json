@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T05:36:31.283Z",
-  "updated_ts": 1783316191283,
+  "updated": "2026-07-06T09:39:43.151Z",
+  "updated_ts": 1783330783151,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,24 +16,53 @@
       "sell": [],
       "buy": [
         {
-          "sym": "SUIUSDT",
-          "rsi": 24.6,
-          "price": 0.7357,
-          "vol": 13661138.44323,
+          "sym": "ZECUSDT",
+          "rsi": 18.7,
+          "price": 442.44,
+          "vol": 54208444.45876,
+          "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 23.3,
+          "price": 0.3269,
+          "vol": 43427965.37318,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 24.1,
+          "price": 576.63,
+          "vol": 82182648.55437,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.8,
+          "price": 0.3418,
+          "vol": 3784786.06531,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 109
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 85.7,
+          "price": 26.738,
+          "vol": 3940887.30893,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 106
+      "scanned": 109
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 106
+      "scanned": 109
     }
   }
 }
