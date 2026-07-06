@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T16:38:49.322Z",
-  "updated_ts": 1783355929322,
+  "updated": "2026-07-06T18:30:03.416Z",
+  "updated_ts": 1783362603416,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BLURUSDT",
-          "rsi": 97.6,
-          "price": 0.02032,
-          "vol": 3639327.495903,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "YFIUSDT",
-          "rsi": 91.1,
-          "price": 2753,
-          "vol": 4276290.3403,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 80.6,
-          "price": 0.3833,
-          "vol": 5151157.22211,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 122
     },
@@ -43,57 +21,58 @@
       "sell": [
         {
           "sym": "YFIUSDT",
-          "rsi": 94.8,
-          "price": 2753,
-          "vol": 4276290.3403,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "BLURUSDT",
-          "rsi": 92.1,
-          "price": 0.02032,
-          "vol": 3639327.495903,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 85,
-          "price": 28.603,
-          "vol": 9017647.37245,
-          "label": "ALTO"
+          "rsi": 89.8,
+          "price": 2685,
+          "vol": 6326290.89492,
+          "label": "MUY ALTO"
         },
         {
           "sym": "RIFUSDT",
-          "rsi": 81.9,
-          "price": 0.1293,
-          "vol": 2821187.1288,
+          "rsi": 82.5,
+          "price": 0.1298,
+          "vol": 3224488.1422,
           "label": "ALTO"
         }
       ],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "BONKUSDT",
+          "rsi": 24.6,
+          "price": 0.00000426,
+          "vol": 8681383.08114237,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "YFIUSDT",
-          "rsi": 95.2,
-          "price": 2753,
-          "vol": 4276290.3403,
+          "rsi": 94.7,
+          "price": 2685,
+          "vol": 6326290.89492,
           "label": "EXTREMO"
         },
         {
           "sym": "BLURUSDT",
-          "rsi": 86.4,
-          "price": 0.02032,
-          "vol": 3639327.495903,
+          "rsi": 86.1,
+          "price": 0.02016,
+          "vol": 7140245.962022,
           "label": "MUY ALTO"
         },
         {
-          "sym": "DEXEUSDT",
-          "rsi": 81.5,
-          "price": 28.603,
-          "vol": 9017647.37245,
+          "sym": "PYTHUSDT",
+          "rsi": 81.8,
+          "price": 0.0468,
+          "vol": 7711575.86538,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZROUSDT",
+          "rsi": 80.7,
+          "price": 1.038,
+          "vol": 4542956.47319,
           "label": "ALTO"
         }
       ],
