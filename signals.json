@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T01:11:56.380Z",
-  "updated_ts": 1783300316380,
+  "updated": "2026-07-06T05:36:31.283Z",
+  "updated_ts": 1783316191283,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,41 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 108
+      "buy": [
+        {
+          "sym": "SUIUSDT",
+          "rsi": 24.6,
+          "price": 0.7357,
+          "vol": 13661138.44323,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 106
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "TRBUSDT",
-          "rsi": 81,
-          "price": 18.42,
-          "vol": 6123373.98281,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 108
+      "scanned": 106
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 84.7,
-          "price": 31.26,
-          "vol": 10604327.25144,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TRBUSDT",
-          "rsi": 84.4,
-          "price": 18.42,
-          "vol": 6123373.98281,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 108
+      "scanned": 106
     }
   }
 }
