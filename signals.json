@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T18:30:03.416Z",
-  "updated_ts": 1783362603416,
+  "updated": "2026-07-06T20:28:13.252Z",
+  "updated_ts": 1783369693252,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,67 +13,60 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STGUSDT",
+          "rsi": 86.7,
+          "price": 0.1763,
+          "vol": 2228751.07466,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 83.5,
+          "price": 0.03508,
+          "vol": 3285399.36674,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
       "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "YFIUSDT",
-          "rsi": 89.8,
-          "price": 2685,
-          "vol": 6326290.89492,
-          "label": "MUY ALTO"
+          "sym": "ZAMAUSDT",
+          "rsi": 82,
+          "price": 0.03508,
+          "vol": 3285399.36674,
+          "label": "ALTO"
         },
         {
-          "sym": "RIFUSDT",
-          "rsi": 82.5,
-          "price": 0.1298,
-          "vol": 3224488.1422,
+          "sym": "STGUSDT",
+          "rsi": 81.3,
+          "price": 0.1763,
+          "vol": 2228751.07466,
           "label": "ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "BONKUSDT",
-          "rsi": 24.6,
-          "price": 0.00000426,
-          "vol": 8681383.08114237,
-          "label": "SOBREVENDIDO"
-        }
-      ],
+      "buy": [],
       "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "YFIUSDT",
-          "rsi": 94.7,
-          "price": 2685,
-          "vol": 6326290.89492,
+          "rsi": 91.3,
+          "price": 2602,
+          "vol": 7414169.96606,
           "label": "EXTREMO"
         },
         {
           "sym": "BLURUSDT",
-          "rsi": 86.1,
-          "price": 0.02016,
-          "vol": 7140245.962022,
+          "rsi": 86,
+          "price": 0.02011,
+          "vol": 8179232.740782,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "PYTHUSDT",
-          "rsi": 81.8,
-          "price": 0.0468,
-          "vol": 7711575.86538,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZROUSDT",
-          "rsi": 80.7,
-          "price": 1.038,
-          "vol": 4542956.47319,
-          "label": "ALTO"
         }
       ],
       "buy": [],
