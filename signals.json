@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T20:28:13.252Z",
-  "updated_ts": 1783369693252,
+  "updated": "2026-07-06T21:56:02.943Z",
+  "updated_ts": 1783374962943,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,64 +13,49 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "STGUSDT",
-          "rsi": 86.7,
-          "price": 0.1763,
-          "vol": 2228751.07466,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 83.5,
-          "price": 0.03508,
-          "vol": 3285399.36674,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 122
+      "scanned": 121
     },
     "1h": {
       "sell": [
         {
-          "sym": "ZAMAUSDT",
-          "rsi": 82,
-          "price": 0.03508,
-          "vol": 3285399.36674,
+          "sym": "BLURUSDT",
+          "rsi": 82.5,
+          "price": 0.0221,
+          "vol": 9913017.123465,
           "label": "ALTO"
         },
         {
-          "sym": "STGUSDT",
+          "sym": "ZAMAUSDT",
           "rsi": 81.3,
-          "price": 0.1763,
-          "vol": 2228751.07466,
+          "price": 0.03497,
+          "vol": 3435835.41938,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 121
     },
     "4h": {
       "sell": [
         {
           "sym": "YFIUSDT",
-          "rsi": 91.3,
-          "price": 2602,
-          "vol": 7414169.96606,
+          "rsi": 91.4,
+          "price": 2621,
+          "vol": 8245170.04182,
           "label": "EXTREMO"
         },
         {
           "sym": "BLURUSDT",
-          "rsi": 86,
-          "price": 0.02011,
-          "vol": 8179232.740782,
+          "rsi": 89.3,
+          "price": 0.0221,
+          "vol": 9913017.123465,
           "label": "MUY ALTO"
         }
       ],
       "buy": [],
-      "scanned": 122
+      "scanned": 121
     }
   }
 }
