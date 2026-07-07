@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T16:01:09.530Z",
-  "updated_ts": 1783440069530,
+  "updated": "2026-07-07T18:09:10.689Z",
+  "updated_ts": 1783447750689,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,80 +13,80 @@
   },
   "signals": {
     "15m": {
-      "sell": [
+      "sell": [],
+      "buy": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 86.9,
-          "price": 495.29,
-          "vol": 90908541.19602,
-          "label": "MUY ALTO"
+          "sym": "HMSTRUSDT",
+          "rsi": 15.2,
+          "price": 0.0002539,
+          "vol": 13749717.0526802,
+          "label": "BAJO"
+        },
+        {
+          "sym": "HEIUSDT",
+          "rsi": 23.4,
+          "price": 0.1123,
+          "vol": 4628676.61205,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "buy": [],
-      "scanned": 116
+      "scanned": 123
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 85.3,
-          "price": 0.01872,
-          "vol": 3287245.80435,
-          "label": "MUY ALTO"
+          "rsi": 81.7,
+          "price": 0.01883,
+          "vol": 3917120.25198,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 23.7,
-          "price": 0.03998,
-          "vol": 2362449.276356,
+          "rsi": 22.3,
+          "price": 0.03917,
+          "vol": 2599097.172894,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 123
     },
     "4h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 82,
-          "price": 0.01872,
-          "vol": 3287245.80435,
+          "rsi": 83.6,
+          "price": 0.01883,
+          "vol": 3917120.25198,
           "label": "ALTO"
         },
         {
-          "sym": "BANANAUSDT",
-          "rsi": 80.8,
-          "price": 3.547,
-          "vol": 5732824.781707,
+          "sym": "LDOUSDT",
+          "rsi": 81,
+          "price": 0.307,
+          "vol": 3934804.424077,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SPELLUSDT",
+          "rsi": 80.1,
+          "price": 0.0001103,
+          "vol": 6292284.8199561,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 16.3,
-          "price": 0.03998,
-          "vol": 2362449.276356,
+          "rsi": 15.4,
+          "price": 0.03917,
+          "vol": 2599097.172894,
           "label": "BAJO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 17.8,
-          "price": 1572.3,
-          "vol": 34624772.769303,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 23,
-          "price": 922.41,
-          "vol": 26525726.8069,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 123
     }
   }
 }
