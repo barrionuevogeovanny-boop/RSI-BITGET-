@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T13:26:31.744Z",
-  "updated_ts": 1783430791744,
+  "updated": "2026-07-07T16:01:09.530Z",
+  "updated_ts": 1783440069530,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,80 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ZECUSDT",
+          "rsi": 86.9,
+          "price": 495.29,
+          "vol": 90908541.19602,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 113
+      "scanned": 116
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 83.8,
-          "price": 0.01856,
-          "vol": 2909051.98751,
-          "label": "ALTO"
+          "rsi": 85.3,
+          "price": 0.01872,
+          "vol": 3287245.80435,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 113
+      "buy": [
+        {
+          "sym": "CATIUSDT",
+          "rsi": 23.7,
+          "price": 0.03998,
+          "vol": 2362449.276356,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 81.1,
-          "price": 0.01856,
-          "vol": 2909051.98751,
+          "rsi": 82,
+          "price": 0.01872,
+          "vol": 3287245.80435,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BANANAUSDT",
+          "rsi": 80.8,
+          "price": 3.547,
+          "vol": 5732824.781707,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
+          "sym": "CATIUSDT",
+          "rsi": 16.3,
+          "price": 0.03998,
+          "vol": 2362449.276356,
+          "label": "BAJO"
+        },
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 20.5,
-          "price": 1630.23,
-          "vol": 28086171.431126,
-          "label": "SOBREVENDIDO"
+          "rsi": 17.8,
+          "price": 1572.3,
+          "vol": 34624772.769303,
+          "label": "BAJO"
         },
         {
           "sym": "MUBUSDT",
-          "rsi": 22.7,
-          "price": 931.84,
-          "vol": 22676406.40125,
+          "rsi": 23,
+          "price": 922.41,
+          "vol": 26525726.8069,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 116
     }
   }
 }
