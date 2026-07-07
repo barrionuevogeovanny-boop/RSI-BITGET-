@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T11:12:46.428Z",
-  "updated_ts": 1783422766428,
+  "updated": "2026-07-07T13:26:31.744Z",
+  "updated_ts": 1783430791744,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,58 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ZKUSDT",
-          "rsi": 88.6,
-          "price": 0.01143,
-          "vol": 3477018.18652,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 119
+      "scanned": 113
     },
     "1h": {
       "sell": [
         {
           "sym": "SUNUSDT",
-          "rsi": 80.9,
-          "price": 0.01836,
-          "vol": 2915402.41131,
+          "rsi": 83.8,
+          "price": 0.01856,
+          "vol": 2909051.98751,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 119
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
-          "sym": "BLURUSDT",
-          "rsi": 82.2,
-          "price": 0.02583,
-          "vol": 25187091.07839,
+          "sym": "SUNUSDT",
+          "rsi": 81.1,
+          "price": 0.01856,
+          "vol": 2909051.98751,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 21.8,
-          "price": 1648.14,
-          "vol": 27102189.001317,
+          "rsi": 20.5,
+          "price": 1630.23,
+          "vol": 28086171.431126,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "MUBUSDT",
-          "rsi": 22.6,
-          "price": 930.86,
-          "vol": 23774795.19682,
+          "rsi": 22.7,
+          "price": 931.84,
+          "vol": 22676406.40125,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 119
+      "scanned": 113
     }
   }
 }
