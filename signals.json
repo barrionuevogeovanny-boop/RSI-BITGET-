@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T20:12:36.505Z",
-  "updated_ts": 1783455156505,
+  "updated": "2026-07-07T21:41:36.004Z",
+  "updated_ts": 1783460496004,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,8 +13,38 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
+      "sell": [
+        {
+          "sym": "NFPUSDT",
+          "rsi": 83.9,
+          "price": 0.00692,
+          "vol": 2805689.84485,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "BIOUSDT",
+          "rsi": 23,
+          "price": 0.02827,
+          "vol": 2169642.129288,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JTOUSDT",
+          "rsi": 23.8,
+          "price": 0.7243,
+          "vol": 7043938.94796,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUIUSDT",
+          "rsi": 24.7,
+          "price": 0.722,
+          "vol": 16626060.00403,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 123
     },
     "1h": {
@@ -23,21 +53,13 @@
       "scanned": 123
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SUNUSDT",
-          "rsi": 80.6,
-          "price": 0.01877,
-          "vol": 4295615.19977,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 15.9,
-          "price": 0.03968,
-          "vol": 2651401.356692,
+          "rsi": 16.3,
+          "price": 0.03979,
+          "vol": 2690195.385768,
           "label": "BAJO"
         }
       ],
