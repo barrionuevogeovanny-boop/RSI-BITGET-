@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T11:25:37.727Z",
-  "updated_ts": 1783509937727,
+  "updated": "2026-07-08T13:00:36.671Z",
+  "updated_ts": 1783515636671,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,16 +14,8 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "JTOUSDT",
-          "rsi": 23.6,
-          "price": 0.6138,
-          "vol": 9407217.68836,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 132
+      "buy": [],
+      "scanned": 135
     },
     "1h": {
       "sell": [],
@@ -31,81 +23,39 @@
         {
           "sym": "JTOUSDT",
           "rsi": 19.8,
-          "price": 0.6138,
-          "vol": 9407217.68836,
+          "price": 0.6099,
+          "vol": 10060549.83007,
           "label": "BAJO"
         },
         {
-          "sym": "BONKUSDT",
-          "rsi": 22,
-          "price": 0.00000393,
-          "vol": 4405636.69059967,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GALAUSDT",
-          "rsi": 22,
-          "price": 0.002069,
-          "vol": 2778620.564146,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 22.7,
-          "price": 77.13,
-          "vol": 184627578.74601,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 22.8,
-          "price": 0.1575,
-          "vol": 13637460.10588,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "XLMUSDT",
-          "rsi": 23.9,
-          "price": 0.1827,
-          "vol": 22124613.2825,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "JUPUSDT",
-          "rsi": 24.6,
-          "price": 0.2162,
-          "vol": 5447196.70435,
+          "rsi": 21.8,
+          "price": 0.1815,
+          "vol": 22664309.8123,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 135
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 16.6,
-          "price": 0.03738,
-          "vol": 2426778.064777,
+          "rsi": 16.9,
+          "price": 0.03758,
+          "vol": 2038271.523985,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
-          "rsi": 24.6,
-          "price": 0.1575,
-          "vol": 13637460.10588,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GALAUSDT",
-          "rsi": 24.6,
-          "price": 0.002069,
-          "vol": 2778620.564146,
+          "rsi": 24.2,
+          "price": 0.1573,
+          "vol": 13504681.38637,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 135
     }
   }
 }
