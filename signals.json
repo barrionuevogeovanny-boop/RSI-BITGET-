@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-07T23:38:11.609Z",
-  "updated_ts": 1783467491609,
+  "updated": "2026-07-08T01:08:58.982Z",
+  "updated_ts": 1783472938982,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,50 +14,34 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "IDUSDT",
-          "rsi": 22.3,
-          "price": 0.0371,
-          "vol": 2341318.9918,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 123
+      "buy": [],
+      "scanned": 122
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AGLDUSDT",
-          "rsi": 86.7,
-          "price": 0.1765,
-          "vol": 2378342.8778,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "LDOUSDT",
-          "rsi": 83.7,
-          "price": 0.3153,
-          "vol": 5610264.913791,
+          "rsi": 81.3,
+          "price": 0.3168,
+          "vol": 6099821.157919,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 15.6,
-          "price": 0.03935,
-          "vol": 2712326.663572,
+          "rsi": 18,
+          "price": 0.03977,
+          "vol": 2773434.79782,
           "label": "BAJO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     }
   }
 }
