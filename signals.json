@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T21:16:00.812Z",
-  "updated_ts": 1783545360812,
+  "updated": "2026-07-08T22:18:23.803Z",
+  "updated_ts": 1783549103803,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,41 +13,17 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "OGNUSDT",
-          "rsi": 88.2,
-          "price": 0.02213,
-          "vol": 3427312.20975,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 126
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "OGNUSDT",
-          "rsi": 90.8,
-          "price": 0.02213,
-          "vol": 3427312.20975,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 126
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "OGNUSDT",
-          "rsi": 80.2,
-          "price": 0.02213,
-          "vol": 3427312.20975,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
       "scanned": 125
     }
