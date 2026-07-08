@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-08T01:08:58.982Z",
-  "updated_ts": 1783472938982,
+  "updated": "2026-07-08T04:30:07.749Z",
+  "updated_ts": 1783485007749,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,34 +14,71 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 122
+      "buy": [
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 18.1,
+          "price": 0.01227,
+          "vol": 3442382.54207,
+          "label": "BAJO"
+        },
+        {
+          "sym": "GALAUSDT",
+          "rsi": 24.3,
+          "price": 0.00213,
+          "vol": 2186022.34582,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 123
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 122
+      "buy": [
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 23.1,
+          "price": 6.409,
+          "vol": 14513057.53288,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 23.5,
+          "price": 0.01227,
+          "vol": 3442382.54207,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 123
     },
     "4h": {
       "sell": [
         {
           "sym": "LDOUSDT",
-          "rsi": 81.3,
-          "price": 0.3168,
-          "vol": 6099821.157919,
+          "rsi": 84.3,
+          "price": 0.3283,
+          "vol": 8301024.614889,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CATIUSDT",
-          "rsi": 18,
-          "price": 0.03977,
-          "vol": 2773434.79782,
+          "rsi": 19.9,
+          "price": 0.03982,
+          "vol": 2516450.100403,
           "label": "BAJO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 23.9,
+          "price": 0.01227,
+          "vol": 3442382.54207,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 123
     }
   }
 }
