@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T01:12:33.257Z",
-  "updated_ts": 1783559553257,
+  "updated": "2026-07-09T05:06:13.687Z",
+  "updated_ts": 1783573573687,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,35 +13,27 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "INJUSDT",
-          "rsi": 83.7,
-          "price": 4.856,
-          "vol": 4693147.27779,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 13.1,
-          "price": 0.0939,
-          "vol": 3975516.259225,
-          "label": "MUY BAJO"
+          "sym": "SYRUPUSDT",
+          "rsi": 24.3,
+          "price": 0.1591,
+          "vol": 2687034.4238,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 123
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 130
+      "scanned": 123
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 128
+      "scanned": 121
     }
   }
 }
