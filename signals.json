@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T20:17:08.381Z",
-  "updated_ts": 1783628228381,
+  "updated": "2026-07-09T21:50:22.306Z",
+  "updated_ts": 1783633822307,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,35 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 87.4,
-          "price": 31.685,
-          "vol": 4872266.70908,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "LDOUSDT",
-          "rsi": 24.6,
-          "price": 0.2986,
-          "vol": 5082533.603319,
+          "sym": "币安人生USDT",
+          "rsi": 21.2,
+          "price": 0.6824,
+          "vol": 2991770.8156,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
-          "sym": "DEXEUSDT",
-          "rsi": 83.5,
-          "price": 31.685,
-          "vol": 4872266.70908,
+          "sym": "MORPHOUSDT",
+          "rsi": 81.3,
+          "price": 2.249,
+          "vol": 3601512.37266,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 105
+      "scanned": 103
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 103
+      "scanned": 101
     }
   }
 }
