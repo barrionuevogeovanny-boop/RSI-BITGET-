@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T21:50:22.306Z",
-  "updated_ts": 1783633822307,
+  "updated": "2026-07-09T22:58:56.848Z",
+  "updated_ts": 1783637936848,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,11 +16,11 @@
       "sell": [],
       "buy": [
         {
-          "sym": "币安人生USDT",
-          "rsi": 21.2,
-          "price": 0.6824,
-          "vol": 2991770.8156,
-          "label": "SOBREVENDIDO"
+          "sym": "NFPUSDT",
+          "rsi": 17.7,
+          "price": 0.00306,
+          "vol": 3276963.2207,
+          "label": "BAJO"
         }
       ],
       "scanned": 103
@@ -29,13 +29,21 @@
       "sell": [
         {
           "sym": "MORPHOUSDT",
-          "rsi": 81.3,
-          "price": 2.249,
-          "vol": 3601512.37266,
+          "rsi": 82.9,
+          "price": 2.264,
+          "vol": 3748926.77476,
           "label": "ALTO"
         }
       ],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "NFPUSDT",
+          "rsi": 20.9,
+          "price": 0.00306,
+          "vol": 3276963.2207,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 103
     },
     "4h": {
