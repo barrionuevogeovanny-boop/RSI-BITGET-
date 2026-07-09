@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T05:06:13.687Z",
-  "updated_ts": 1783573573687,
+  "updated": "2026-07-09T08:39:10.525Z",
+  "updated_ts": 1783586350525,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,26 +14,26 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "SYRUPUSDT",
-          "rsi": 24.3,
-          "price": 0.1591,
-          "vol": 2687034.4238,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 123
+      "buy": [],
+      "scanned": 114
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ARBUSDT",
+          "rsi": 81.9,
+          "price": 0.0866,
+          "vol": 11143725.45402,
+          "label": "ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 123
+      "scanned": 114
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 121
+      "scanned": 112
     }
   }
 }
