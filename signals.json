@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T18:25:21.916Z",
-  "updated_ts": 1783621521916,
+  "updated": "2026-07-09T20:17:08.381Z",
+  "updated_ts": 1783628228381,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,40 +15,41 @@
     "15m": {
       "sell": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 82.2,
-          "price": 490.32,
-          "vol": 55370286.28391,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 80,
-          "price": 1940.29,
-          "vol": 13447417.056408,
-          "label": "ALTO"
+          "sym": "DEXEUSDT",
+          "rsi": 87.4,
+          "price": 31.685,
+          "vol": 4872266.70908,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 102
+      "buy": [
+        {
+          "sym": "LDOUSDT",
+          "rsi": 24.6,
+          "price": 0.2986,
+          "vol": 5082533.603319,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
-          "sym": "SKLUSDT",
-          "rsi": 88.5,
-          "price": 0.00391,
-          "vol": 2354403.25879,
-          "label": "MUY ALTO"
+          "sym": "DEXEUSDT",
+          "rsi": 83.5,
+          "price": 31.685,
+          "vol": 4872266.70908,
+          "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 102
+      "scanned": 105
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 100
+      "scanned": 103
     }
   }
 }
