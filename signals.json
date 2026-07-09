@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T08:39:10.525Z",
-  "updated_ts": 1783586350525,
+  "updated": "2026-07-09T11:33:15.653Z",
+  "updated_ts": 1783596795653,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,25 +15,32 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 114
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
+          "sym": "THEUSDT",
+          "rsi": 83.3,
+          "price": 0.0682,
+          "vol": 4089826.12588,
+          "label": "ALTO"
+        },
+        {
           "sym": "ARBUSDT",
-          "rsi": 81.9,
-          "price": 0.0866,
-          "vol": 11143725.45402,
+          "rsi": 81.8,
+          "price": 0.0864,
+          "vol": 13389923.82863,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 114
+      "scanned": 110
     },
     "4h": {
       "sell": [],
       "buy": [],
-      "scanned": 112
+      "scanned": 108
     }
   }
 }
