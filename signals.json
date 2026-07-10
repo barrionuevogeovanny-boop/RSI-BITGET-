@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T15:34:03.196Z",
-  "updated_ts": 1783697643196,
+  "updated": "2026-07-10T17:22:38.430Z",
+  "updated_ts": 1783704158430,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.4,
-          "price": 0.6254,
-          "vol": 2488916.72078,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
     },
     "1h": {
       "sell": [],
@@ -41,17 +34,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 21.4,
+          "price": 0.3079,
+          "vol": 8562692.796053,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
     },
     "4h": {
       "sell": [
         {
-          "sym": "RAREUSDT",
-          "rsi": 84.8,
-          "price": 0.0144,
-          "vol": 3255344.08489,
+          "sym": "JSTUSDT",
+          "rsi": 80.1,
+          "price": 0.10327,
+          "vol": 5325097.561903,
           "label": "ALTO"
         }
       ],
@@ -64,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
     }
   }
 }
