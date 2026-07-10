@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T07:52:52.881Z",
-  "updated_ts": 1783669972881,
+  "updated": "2026-07-10T10:43:14.020Z",
+  "updated_ts": 1783680194020,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SUIUSDT",
+          "rsi": 83.4,
+          "price": 0.7474,
+          "vol": 12267212.9011,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,45 +29,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "USDCUSDT",
-          "rsi": 21.9,
-          "price": 1.00039,
-          "vol": 1822351442.39154,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 22.3,
-          "price": 0.5698,
-          "vol": 5193698.74417,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TLMUSDT",
-          "rsi": 22.6,
-          "price": 0.002059,
-          "vol": 4695986.280642,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     },
     "1h": {
       "sell": [
         {
-          "sym": "SKLUSDT",
-          "rsi": 87.6,
-          "price": 0.0059,
-          "vol": 11599264.37442,
-          "label": "MUY ALTO"
+          "sym": "IOTAUSDT",
+          "rsi": 84.9,
+          "price": 0.0414,
+          "vol": 2021456.1563,
+          "label": "ALTO"
         },
         {
-          "sym": "KATUSDT",
-          "rsi": 84.9,
-          "price": 0.00595,
-          "vol": 4992693.65717,
+          "sym": "SYRUPUSDT",
+          "rsi": 82,
+          "price": 0.1852,
+          "vol": 2216917.2434,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SKLUSDT",
+          "rsi": 80.9,
+          "price": 0.00611,
+          "vol": 14320657.62244,
           "label": "ALTO"
         }
       ],
@@ -72,29 +66,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     },
     "4h": {
       "sell": [
         {
           "sym": "SKLUSDT",
-          "rsi": 92.8,
-          "price": 0.0059,
-          "vol": 11599264.37442,
+          "rsi": 93.3,
+          "price": 0.00611,
+          "vol": 14320657.62244,
           "label": "EXTREMO"
         },
         {
           "sym": "KATUSDT",
-          "rsi": 81.6,
-          "price": 0.00595,
-          "vol": 4992693.65717,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RVNUSDT",
-          "rsi": 81.1,
-          "price": 0.00437,
-          "vol": 2973621.120535,
+          "rsi": 82.9,
+          "price": 0.00607,
+          "vol": 7196445.79893,
           "label": "ALTO"
         }
       ],
@@ -107,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     }
   }
 }
