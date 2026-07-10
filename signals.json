@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T22:33:53.189Z",
-  "updated_ts": 1783722833189,
+  "updated": "2026-07-10T23:33:20.833Z",
+  "updated_ts": 1783726400833,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -29,9 +29,9 @@
       "sell": [
         {
           "sym": "VIRTUALUSDT",
-          "rsi": 86.6,
-          "price": 0.6109,
-          "vol": 6815114.03381,
+          "rsi": 86.7,
+          "price": 0.6145,
+          "vol": 7343922.40413,
           "label": "MUY ALTO"
         }
       ],
@@ -45,24 +45,23 @@
         },
         {
           "sym": "PARTIUSDT",
-          "rsi": 22.7,
-          "price": 0.0387,
-          "vol": 6165073.41585,
+          "rsi": 22,
+          "price": 0.0384,
+          "vol": 6259870.18076,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JTOUSDT",
+          "rsi": 24.1,
+          "price": 0.6149,
+          "vol": 2315366.13306,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 106
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "MMTUSDT",
-          "rsi": 80.4,
-          "price": 0.2081,
-          "vol": 4470861.38572,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
