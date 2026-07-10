@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T10:43:14.020Z",
-  "updated_ts": 1783680194020,
+  "updated": "2026-07-10T12:58:18.204Z",
+  "updated_ts": 1783688298204,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "SUIUSDT",
-          "rsi": 83.4,
-          "price": 0.7474,
-          "vol": 12267212.9011,
-          "label": "ALTO"
+          "sym": "JSTUSDT",
+          "rsi": 89,
+          "price": 0.10393,
+          "vol": 4217674.811429,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -29,31 +29,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 16.2,
+          "price": 0.0433,
+          "vol": 4445283.92363,
+          "label": "BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     },
     "1h": {
       "sell": [
         {
-          "sym": "IOTAUSDT",
-          "rsi": 84.9,
-          "price": 0.0414,
-          "vol": 2021456.1563,
-          "label": "ALTO"
-        },
-        {
           "sym": "SYRUPUSDT",
-          "rsi": 82,
-          "price": 0.1852,
-          "vol": 2216917.2434,
+          "rsi": 83.7,
+          "price": 0.1895,
+          "vol": 3209587.36145,
           "label": "ALTO"
         },
         {
-          "sym": "SKLUSDT",
-          "rsi": 80.9,
-          "price": 0.00611,
-          "vol": 14320657.62244,
+          "sym": "JSTUSDT",
+          "rsi": 81.2,
+          "price": 0.10393,
+          "vol": 4217674.811429,
           "label": "ALTO"
         }
       ],
@@ -64,24 +64,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 24,
+          "price": 0.32158,
+          "vol": 7779800.148675,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
           "sym": "SKLUSDT",
-          "rsi": 93.3,
-          "price": 0.00611,
-          "vol": 14320657.62244,
+          "rsi": 90.2,
+          "price": 0.00582,
+          "vol": 16350676.4338,
           "label": "EXTREMO"
         },
         {
-          "sym": "KATUSDT",
-          "rsi": 82.9,
-          "price": 0.00607,
-          "vol": 7196445.79893,
+          "sym": "JSTUSDT",
+          "rsi": 80.9,
+          "price": 0.10393,
+          "vol": 4217674.811429,
           "label": "ALTO"
         }
       ],
@@ -94,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     }
   }
 }
