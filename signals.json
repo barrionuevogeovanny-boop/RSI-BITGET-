@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T12:58:18.204Z",
-  "updated_ts": 1783688298204,
+  "updated": "2026-07-10T15:34:03.196Z",
+  "updated_ts": 1783697643196,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 89,
-          "price": 0.10393,
-          "vol": 4217674.811429,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,32 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "PARTIUSDT",
-          "rsi": 16.2,
-          "price": 0.0433,
-          "vol": 4445283.92363,
-          "label": "BAJO"
+          "sym": "KAITOUSDT",
+          "rsi": 24.4,
+          "price": 0.6254,
+          "vol": 2488916.72078,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 104
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SYRUPUSDT",
-          "rsi": 83.7,
-          "price": 0.1895,
-          "vol": 3209587.36145,
-          "label": "ALTO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 81.2,
-          "price": 0.10393,
-          "vol": 4217674.811429,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -64,31 +41,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "SYNUSDT",
-          "rsi": 24,
-          "price": 0.32158,
-          "vol": 7779800.148675,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 104
     },
     "4h": {
       "sell": [
         {
-          "sym": "SKLUSDT",
-          "rsi": 90.2,
-          "price": 0.00582,
-          "vol": 16350676.4338,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 80.9,
-          "price": 0.10393,
-          "vol": 4217674.811429,
+          "sym": "RAREUSDT",
+          "rsi": 84.8,
+          "price": 0.0144,
+          "vol": 3255344.08489,
           "label": "ALTO"
         }
       ],
@@ -101,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 104
     }
   }
 }
