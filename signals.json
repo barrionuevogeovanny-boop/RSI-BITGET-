@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T09:54:24.241Z",
-  "updated_ts": 1783763664241,
+  "updated": "2026-07-11T10:58:20.640Z",
+  "updated_ts": 1783767500640,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "USDCUSDT",
-          "rsi": 80.3,
-          "price": 1.00081,
-          "vol": 1903396294.96611,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,9 +21,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 16.7,
+          "price": 0.09907,
+          "vol": 5622499.122778,
+          "label": "BAJO"
+        },
+        {
+          "sym": "HBARUSDT",
+          "rsi": 17.6,
+          "price": 0.06706,
+          "vol": 9502657.2527,
+          "label": "BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     },
     "1h": {
       "sell": [],
@@ -42,9 +48,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "HBARUSDT",
+          "rsi": 22.7,
+          "price": 0.06706,
+          "vol": 9502657.2527,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     },
     "4h": {
       "sell": [],
@@ -57,7 +70,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     }
   }
 }
