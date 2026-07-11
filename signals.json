@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T13:11:30.555Z",
-  "updated_ts": 1783775490555,
+  "updated": "2026-07-11T14:32:28.760Z",
+  "updated_ts": 1783780348760,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "ANKRUSDT",
-          "rsi": 87.4,
-          "price": 0.00423,
-          "vol": 2473654.936772,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 80.9,
-          "price": 98.68,
-          "vol": 19437864.91886,
+          "sym": "ARBUSDT",
+          "rsi": 82.5,
+          "price": 0.0975,
+          "vol": 9928704.6694,
           "label": "ALTO"
         }
       ],
@@ -38,22 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     },
     "1h": {
       "sell": [
         {
           "sym": "TUSDT",
-          "rsi": 96.5,
-          "price": 0.0047,
-          "vol": 3453755.376893,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ANKRUSDT",
-          "rsi": 93.6,
-          "price": 0.00423,
-          "vol": 2473654.936772,
+          "rsi": 96.9,
+          "price": 0.00483,
+          "vol": 4396702.157105,
           "label": "EXTREMO"
         }
       ],
@@ -64,25 +50,32 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 25,
+          "price": 0.0334,
+          "vol": 10389085.68403,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     },
     "4h": {
       "sell": [
         {
           "sym": "TUSDT",
-          "rsi": 90.8,
-          "price": 0.0047,
-          "vol": 3453755.376893,
+          "rsi": 91.5,
+          "price": 0.00483,
+          "vol": 4396702.157105,
           "label": "EXTREMO"
         },
         {
           "sym": "ANKRUSDT",
-          "rsi": 86.9,
-          "price": 0.00423,
-          "vol": 2473654.936772,
-          "label": "MUY ALTO"
+          "rsi": 82.8,
+          "price": 0.00405,
+          "vol": 3324385.583339,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -92,9 +85,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 23.5,
+          "price": 0.0334,
+          "vol": 10389085.68403,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     }
   }
 }
