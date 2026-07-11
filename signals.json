@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T16:29:34.696Z",
-  "updated_ts": 1783787374696,
+  "updated": "2026-07-11T17:32:05.941Z",
+  "updated_ts": 1783791125941,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "SXTUSDT",
-          "rsi": 81.1,
-          "price": 0.00809,
-          "vol": 14132878.512225,
+          "rsi": 81.8,
+          "price": 0.00888,
+          "vol": 17097917.86466,
           "label": "ALTO"
         }
       ],
@@ -31,23 +31,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 94
+      "scanned": 95
     },
     "1h": {
       "sell": [
         {
-          "sym": "TUSDT",
-          "rsi": 94.7,
-          "price": 0.0049,
-          "vol": 5551998.852836,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "SXTUSDT",
-          "rsi": 82.1,
-          "price": 0.00809,
-          "vol": 14132878.512225,
-          "label": "ALTO"
+          "rsi": 89,
+          "price": 0.00888,
+          "vol": 17097917.86466,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -59,16 +52,23 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 94
+      "scanned": 95
     },
     "4h": {
       "sell": [
         {
           "sym": "TUSDT",
-          "rsi": 90.3,
-          "price": 0.0049,
-          "vol": 5551998.852836,
-          "label": "EXTREMO"
+          "rsi": 85.5,
+          "price": 0.00479,
+          "vol": 5893202.153234,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SXTUSDT",
+          "rsi": 81.8,
+          "price": 0.00888,
+          "vol": 17097917.86466,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -80,7 +80,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 94
+      "scanned": 95
     }
   }
 }
