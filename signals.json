@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T10:58:20.640Z",
-  "updated_ts": 1783767500640,
+  "updated": "2026-07-11T11:55:34.870Z",
+  "updated_ts": 1783770934870,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUSDT",
+          "rsi": 97.5,
+          "price": 0.00431,
+          "vol": 2146268.448956,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 81.3,
+          "price": 3.632,
+          "vol": 15831111.69275,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,26 +36,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 16.7,
-          "price": 0.09907,
-          "vol": 5622499.122778,
-          "label": "BAJO"
-        },
-        {
-          "sym": "HBARUSDT",
-          "rsi": 17.6,
-          "price": 0.06706,
-          "vol": 9502657.2527,
-          "label": "BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 97
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUSDT",
+          "rsi": 94.6,
+          "price": 0.00431,
+          "vol": 2146268.448956,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,18 +59,33 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HBARUSDT",
-          "rsi": 22.7,
-          "price": 0.06706,
-          "vol": 9502657.2527,
+          "sym": "PARTIUSDT",
+          "rsi": 21.3,
+          "price": 0.0339,
+          "vol": 9540183.41298,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 97
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUSDT",
+          "rsi": 86.8,
+          "price": 0.00431,
+          "vol": 2146268.448956,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 23.1,
+          "price": 0.0339,
+          "vol": 9540183.41298,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -70,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 97
     }
   }
 }
