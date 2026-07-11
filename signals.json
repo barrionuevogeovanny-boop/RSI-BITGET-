@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T08:22:39.341Z",
-  "updated_ts": 1783758159341,
+  "updated": "2026-07-11T09:54:24.241Z",
+  "updated_ts": 1783763664241,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "USDCUSDT",
+          "rsi": 80.3,
+          "price": 1.00081,
+          "vol": 1903396294.96611,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,13 +29,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 24.8,
-          "price": 0.3289,
-          "vol": 21495549.56929,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 105
