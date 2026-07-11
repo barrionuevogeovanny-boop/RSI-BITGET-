@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T01:02:55.092Z",
-  "updated_ts": 1783731775092,
+  "updated": "2026-07-11T04:21:11.300Z",
+  "updated_ts": 1783743671300,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,18 +21,25 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 24.3,
+          "price": 0.005716,
+          "vol": 7584014.983909,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
           "sym": "VIRTUALUSDT",
-          "rsi": 88.6,
-          "price": 0.6262,
-          "vol": 8261835.8275,
-          "label": "MUY ALTO"
+          "rsi": 84.1,
+          "price": 0.6316,
+          "vol": 10346550.16782,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -44,14 +51,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "PARTIUSDT",
+          "sym": "VANRYUSDT",
           "rsi": 24.4,
-          "price": 0.0386,
-          "vol": 6403676.73787,
+          "price": 0.005716,
+          "vol": 7584014.983909,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     },
     "4h": {
       "sell": [],
@@ -64,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     }
   }
 }
