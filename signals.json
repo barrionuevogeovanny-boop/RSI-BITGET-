@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T04:21:11.300Z",
-  "updated_ts": 1783743671300,
+  "updated": "2026-07-11T06:30:43.272Z",
+  "updated_ts": 1783751443272,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,25 +21,18 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "VANRYUSDT",
-          "rsi": 24.3,
-          "price": 0.005716,
-          "vol": 7584014.983909,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 107
     },
     "1h": {
       "sell": [
         {
           "sym": "VIRTUALUSDT",
-          "rsi": 84.1,
-          "price": 0.6316,
-          "vol": 10346550.16782,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.6382,
+          "vol": 11853682.08181,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -49,19 +42,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "VANRYUSDT",
-          "rsi": 24.4,
-          "price": 0.005716,
-          "vol": 7584014.983909,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 107
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "VIRTUALUSDT",
+          "rsi": 81,
+          "price": 0.6382,
+          "vol": 11853682.08181,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -71,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 107
     }
   }
 }
