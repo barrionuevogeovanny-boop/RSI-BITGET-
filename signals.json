@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T17:32:05.941Z",
-  "updated_ts": 1783791125941,
+  "updated": "2026-07-11T18:29:40.026Z",
+  "updated_ts": 1783794580026,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,10 @@
       "sell": [
         {
           "sym": "SXTUSDT",
-          "rsi": 81.8,
-          "price": 0.00888,
-          "vol": 17097917.86466,
-          "label": "ALTO"
+          "rsi": 87.4,
+          "price": 0.01043,
+          "vol": 20147423.816818,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -31,15 +31,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     },
     "1h": {
       "sell": [
         {
           "sym": "SXTUSDT",
-          "rsi": 89,
-          "price": 0.00888,
-          "vol": 17097917.86466,
+          "rsi": 93.8,
+          "price": 0.01043,
+          "vol": 20147423.816818,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "1MBABYDOGEUSDT",
+          "rsi": 85.8,
+          "price": 0.0003368,
+          "vol": 2904537.0078831,
           "label": "MUY ALTO"
         }
       ],
@@ -52,22 +59,36 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     },
     "4h": {
       "sell": [
         {
-          "sym": "TUSDT",
-          "rsi": 85.5,
-          "price": 0.00479,
-          "vol": 5893202.153234,
+          "sym": "SXTUSDT",
+          "rsi": 88,
+          "price": 0.01043,
+          "vol": 20147423.816818,
           "label": "MUY ALTO"
         },
         {
-          "sym": "SXTUSDT",
-          "rsi": 81.8,
-          "price": 0.00888,
-          "vol": 17097917.86466,
+          "sym": "TUSDT",
+          "rsi": 83,
+          "price": 0.00474,
+          "vol": 6313473.862977,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 82.1,
+          "price": 0.01291,
+          "vol": 2000122.63984,
+          "label": "ALTO"
+        },
+        {
+          "sym": "1MBABYDOGEUSDT",
+          "rsi": 80.6,
+          "price": 0.0003368,
+          "vol": 2904537.0078831,
           "label": "ALTO"
         }
       ],
@@ -80,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     }
   }
 }
