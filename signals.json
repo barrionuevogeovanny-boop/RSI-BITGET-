@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T21:25:19.136Z",
-  "updated_ts": 1783805119136,
+  "updated": "2026-07-11T22:12:21.702Z",
+  "updated_ts": 1783807941702,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,17 +21,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 23.9,
+          "price": 0.3625,
+          "vol": 2570619.92226,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 92
     },
     "1h": {
       "sell": [
         {
           "sym": "1MBABYDOGEUSDT",
-          "rsi": 82.8,
-          "price": 0.0003429,
-          "vol": 4343860.9296821,
+          "rsi": 84,
+          "price": 0.0003458,
+          "vol": 4481599.8280787,
           "label": "ALTO"
         }
       ],
@@ -45,28 +52,28 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 22.1,
-          "price": 0.3641,
-          "vol": 2573031.25884,
+          "rsi": 21.4,
+          "price": 0.3625,
+          "vol": 2570619.92226,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 92
     },
     "4h": {
       "sell": [
         {
           "sym": "SXTUSDT",
-          "rsi": 85.7,
-          "price": 0.0097,
-          "vol": 23565306.938737,
-          "label": "MUY ALTO"
+          "rsi": 84.7,
+          "price": 0.00947,
+          "vol": 23969781.495767,
+          "label": "ALTO"
         },
         {
           "sym": "1MBABYDOGEUSDT",
-          "rsi": 82.7,
-          "price": 0.0003429,
-          "vol": 4343860.9296821,
+          "rsi": 83.6,
+          "price": 0.0003458,
+          "vol": 4481599.8280787,
           "label": "ALTO"
         }
       ],
@@ -79,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 92
     }
   }
 }
