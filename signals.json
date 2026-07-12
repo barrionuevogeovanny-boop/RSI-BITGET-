@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T20:22:59.262Z",
-  "updated_ts": 1783887779262,
+  "updated": "2026-07-12T21:11:06.908Z",
+  "updated_ts": 1783890666908,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "POLUSDT",
-          "rsi": 81.4,
-          "price": 0.08105,
-          "vol": 2115285.495767,
-          "label": "ALTO"
+          "sym": "DODOUSDT",
+          "rsi": 89.4,
+          "price": 0.02442,
+          "vol": 3303114.626426,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -31,15 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "1h": {
       "sell": [
         {
-          "sym": "DEXEUSDT",
-          "rsi": 89.4,
-          "price": 48.19,
-          "vol": 34154939.6152,
+          "sym": "DODOUSDT",
+          "rsi": 86.9,
+          "price": 0.02442,
+          "vol": 3303114.626426,
           "label": "MUY ALTO"
         }
       ],
@@ -52,15 +52,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "4h": {
       "sell": [
         {
-          "sym": "DEXEUSDT",
-          "rsi": 85.2,
-          "price": 48.19,
-          "vol": 34154939.6152,
+          "sym": "DODOUSDT",
+          "rsi": 88,
+          "price": 0.02442,
+          "vol": 3303114.626426,
           "label": "MUY ALTO"
         }
       ],
@@ -71,9 +71,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 24,
+          "price": 0.0311,
+          "vol": 4417633.85753,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     }
   }
 }
