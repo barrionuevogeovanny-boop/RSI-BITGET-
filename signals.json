@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T10:14:08.343Z",
-  "updated_ts": 1783851248343,
+  "updated": "2026-07-12T11:32:47.084Z",
+  "updated_ts": 1783855967084,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,24 +21,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ATMUSDT",
-          "rsi": 24,
-          "price": 2.658,
-          "vol": 3134730.63619,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 81.3,
-          "price": 43.034,
-          "vol": 16128517.49388,
+          "rsi": 82.4,
+          "price": 43.557,
+          "vol": 17686710.88376,
           "label": "ALTO"
         }
       ],
@@ -51,10 +44,25 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUSDT",
+          "rsi": 84.2,
+          "price": 0.0059,
+          "vol": 11807256.074267,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 80.5,
+          "price": 43.557,
+          "vol": 17686710.88376,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -64,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     }
   }
 }
