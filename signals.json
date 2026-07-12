@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T19:30:53.268Z",
-  "updated_ts": 1783884653268,
+  "updated": "2026-07-12T20:22:59.262Z",
+  "updated_ts": 1783887779262,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "POLUSDT",
+          "rsi": 81.4,
+          "price": 0.08105,
+          "vol": 2115285.495767,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,15 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 84
     },
     "1h": {
       "sell": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 88.3,
-          "price": 47.414,
-          "vol": 33017389.75603,
+          "rsi": 89.4,
+          "price": 48.19,
+          "vol": 34154939.6152,
           "label": "MUY ALTO"
         }
       ],
@@ -44,26 +52,19 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 84
     },
     "4h": {
       "sell": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 84.1,
-          "price": 47.414,
-          "vol": 33017389.75603,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 48.19,
+          "vol": 34154939.6152,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "PARTIUSDT",
-          "rsi": 23.3,
-          "price": 0.0307,
-          "vol": 4484748.79055,
-          "label": "SOBREVENDIDO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -72,7 +73,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 84
     }
   }
 }
