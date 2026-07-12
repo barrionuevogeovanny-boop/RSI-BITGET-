@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T22:06:26.507Z",
-  "updated_ts": 1783893986507,
+  "updated": "2026-07-12T23:05:24.924Z",
+  "updated_ts": 1783897524924,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,18 +16,18 @@
       "sell": [],
       "buy": [
         {
-          "sym": "EURUSDT",
-          "rsi": 11.3,
-          "price": 1.1399,
-          "vol": 3927630.51286,
+          "sym": "PAXGUSDT",
+          "rsi": 13.9,
+          "price": 4068.2,
+          "vol": 3183735.738824,
           "label": "MUY BAJO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 14.9,
-          "price": 4083.33,
-          "vol": 2659813.066904,
-          "label": "MUY BAJO"
+          "sym": "XAUTUSDT",
+          "rsi": 15.3,
+          "price": 4066.43,
+          "vol": 4365006.877053,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -37,45 +37,38 @@
           "label": "BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 16.4,
-          "price": 4079.81,
-          "vol": 3560023.213133,
-          "label": "BAJO"
+          "sym": "BCHUSDT",
+          "rsi": 20.8,
+          "price": 240.5,
+          "vol": 5080505.4616,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 22.2,
+          "price": 1.1399,
+          "vol": 4094853.41905,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XPLUSDT",
+          "rsi": 22.6,
+          "price": 0.08859,
+          "vol": 4535365.362869,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 24.5,
+          "price": 0.607,
+          "vol": 2251246.28894,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "BNBUSDT",
-          "rsi": 22.1,
-          "price": 573.74,
-          "vol": 46965954.69823,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GRAMUSDT",
-          "rsi": 22.3,
-          "price": 1.613,
-          "vol": 5313658.18226,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 22.4,
-          "price": 241.1,
-          "vol": 4710930.9872,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 23.8,
-          "price": 1.0875,
-          "vol": 43778925.42605,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "VIRTUALUSDT",
-          "rsi": 24,
-          "price": 0.579,
-          "vol": 4162572.47838,
+          "rsi": 24.6,
+          "price": 573.51,
+          "vol": 48416475.73084,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -85,9 +78,9 @@
       "sell": [
         {
           "sym": "DODOUSDT",
-          "rsi": 80.8,
-          "price": 0.02371,
-          "vol": 4377670.321732,
+          "rsi": 81.9,
+          "price": 0.02401,
+          "vol": 4915088.960622,
           "label": "ALTO"
         }
       ],
@@ -100,17 +93,24 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 20.6,
-          "price": 1.1399,
-          "vol": 3927630.51286,
-          "label": "SOBREVENDIDO"
+          "sym": "PAXGUSDT",
+          "rsi": 17.2,
+          "price": 4068.2,
+          "vol": 3183735.738824,
+          "label": "BAJO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 24.6,
-          "price": 4083.33,
-          "vol": 2659813.066904,
+          "sym": "XAUTUSDT",
+          "rsi": 19.4,
+          "price": 4066.43,
+          "vol": 4365006.877053,
+          "label": "BAJO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 20.8,
+          "price": 1.1399,
+          "vol": 4094853.41905,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -120,10 +120,17 @@
       "sell": [
         {
           "sym": "DODOUSDT",
-          "rsi": 87.2,
-          "price": 0.02371,
-          "vol": 4377670.321732,
+          "rsi": 87.6,
+          "price": 0.02401,
+          "vol": 4915088.960622,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 81.5,
+          "price": 47.127,
+          "vol": 35881887.77719,
+          "label": "ALTO"
         }
       ],
       "buy": [
