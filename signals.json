@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T11:32:47.084Z",
-  "updated_ts": 1783855967084,
+  "updated": "2026-07-12T12:29:48.578Z",
+  "updated_ts": 1783859388578,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     },
     "1h": {
       "sell": [
         {
           "sym": "DEXEUSDT",
-          "rsi": 82.4,
-          "price": 43.557,
-          "vol": 17686710.88376,
-          "label": "ALTO"
+          "rsi": 86.5,
+          "price": 45.666,
+          "vol": 19413811.52042,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -44,22 +44,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
-          "sym": "TUSDT",
-          "rsi": 84.2,
-          "price": 0.0059,
-          "vol": 11807256.074267,
+          "sym": "DEXEUSDT",
+          "rsi": 82.9,
+          "price": 45.666,
+          "vol": 19413811.52042,
           "label": "ALTO"
         },
         {
-          "sym": "DEXEUSDT",
-          "rsi": 80.5,
-          "price": 43.557,
-          "vol": 17686710.88376,
+          "sym": "TUSDT",
+          "rsi": 81.9,
+          "price": 0.00569,
+          "vol": 11593198.841764,
           "label": "ALTO"
         }
       ],
@@ -72,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     }
   }
 }
