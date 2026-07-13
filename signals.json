@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T10:01:07.698Z",
-  "updated_ts": 1783936867698,
+  "updated": "2026-07-13T12:37:17.045Z",
+  "updated_ts": 1783946237045,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,26 +16,60 @@
       "sell": [],
       "buy": [
         {
+          "sym": "LUMIAUSDT",
+          "rsi": 8.9,
+          "price": 0.0749,
+          "vol": 4083787.481208,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 18.4,
+          "price": 0.3266,
+          "vol": 32194039.22058,
+          "label": "BAJO"
+        },
+        {
+          "sym": "HBARUSDT",
+          "rsi": 23.6,
+          "price": 0.06652,
+          "vol": 3978511.72276,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 24,
+          "price": 43.25,
+          "vol": 7756810.15793,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 24.6,
+          "price": 0.27671,
+          "vol": 5754600.731588,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 94
+      "scanned": 96
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "KITEUSDT",
-          "rsi": 86.5,
-          "price": 0.1399,
-          "vol": 7253152.09038,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 7.8,
+          "price": 0.0749,
+          "vol": 4083787.481208,
+          "label": "EXTREMO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -44,26 +78,39 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "TRXUSDT",
+          "rsi": 20.7,
+          "price": 0.3266,
+          "vol": 32194039.22058,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EWYBUSDT",
+          "rsi": 23.2,
+          "price": 168.57,
+          "vol": 3583891.36812,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "DRAMBUSDT",
-          "rsi": 23.9,
-          "price": 57.73,
-          "vol": 3737579.9578,
+          "rsi": 23.7,
+          "price": 57.15,
+          "vol": 3880328.8573,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 94
+      "scanned": 96
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "DCRUSDT",
-          "rsi": 91.3,
-          "price": 15.03,
-          "vol": 5060513.36098,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 13.5,
+          "price": 0.0749,
+          "vol": 4083787.481208,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -72,7 +119,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 94
+      "scanned": 96
     }
   }
 }
