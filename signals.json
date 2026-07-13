@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T21:24:55.696Z",
-  "updated_ts": 1783977895696,
+  "updated": "2026-07-13T22:25:09.099Z",
+  "updated_ts": 1783981509099,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 86.1,
-          "price": 0.1359,
-          "vol": 3483930.14008,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 24.8,
+          "price": 0.3245,
+          "vol": 34919802.56932,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 104
     },
     "1h": {
       "sell": [],
@@ -45,78 +44,71 @@
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 18.4,
-          "price": 0.3255,
-          "vol": 33721776.7283,
-          "label": "BAJO"
-        },
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 19.2,
-          "price": 0.38,
-          "vol": 2593908.2418,
+          "rsi": 15.2,
+          "price": 0.3245,
+          "vol": 34919802.56932,
           "label": "BAJO"
         },
         {
           "sym": "LUMIAUSDT",
-          "rsi": 20.7,
-          "price": 0.0771,
-          "vol": 7714237.71767,
-          "label": "SOBREVENDIDO"
+          "rsi": 17.8,
+          "price": 0.075,
+          "vol": 7822615.867886,
+          "label": "BAJO"
         },
         {
           "sym": "SYNUSDT",
-          "rsi": 23,
-          "price": 0.2445,
-          "vol": 8814481.047894,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 23.3,
-          "price": 1654.54,
-          "vol": 22153098.803702,
+          "rsi": 22,
+          "price": 0.24129,
+          "vol": 8751391.403446,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BONKUSDT",
-          "rsi": 25,
-          "price": 0.00000371,
-          "vol": 2258922.78940986,
+          "rsi": 22.8,
+          "price": 0.00000368,
+          "vol": 2367675.19605713,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 103
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 15.5,
-          "price": 0.0771,
-          "vol": 7714237.71767,
-          "label": "BAJO"
+          "rsi": 14.6,
+          "price": 0.075,
+          "vol": 7822615.867886,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 22.2,
+          "price": 0.00000368,
+          "vol": 2367675.19605713,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 21.3,
-          "price": 4001.43,
-          "vol": 11870205.299185,
+          "rsi": 22.5,
+          "price": 4004.75,
+          "vol": 11001257.696698,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 21.5,
-          "price": 3999.81,
-          "vol": 15104587.903495,
+          "rsi": 22.7,
+          "price": 4003.66,
+          "vol": 13832966.441995,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "SPCXBUSDT",
-          "rsi": 23.2,
-          "price": 139.14,
-          "vol": 20283678.0384,
+          "rsi": 22.9,
+          "price": 138.95,
+          "vol": 20205294.96029,
           "label": "SOBREVENDIDO"
         },
         {
@@ -125,16 +117,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 23.4,
-          "price": 0.00000371,
-          "vol": 2258922.78940986,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 103
     }
   }
 }
