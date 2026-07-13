@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T15:32:40.210Z",
-  "updated_ts": 1783956760210,
+  "updated": "2026-07-13T17:32:52.454Z",
+  "updated_ts": 1783963972454,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 82.9,
+          "price": 0.4658,
+          "vol": 8552862.21867,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,39 +31,26 @@
           "label": "BAJO"
         },
         {
-          "sym": "SYNUSDT",
-          "rsi": 21.2,
-          "price": 0.25573,
-          "vol": 7260453.08563,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 21.5,
-          "price": 40.403,
-          "vol": 26017624.13025,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LUMIAUSDT",
-          "rsi": 23.1,
-          "price": 0.077,
-          "vol": 6189277.234796,
+          "sym": "WLDUSDT",
+          "rsi": 22.7,
+          "price": 0.3976,
+          "vol": 36950718.25227,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 104
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "LUMIAUSDT",
-          "rsi": 11.8,
-          "price": 0.077,
-          "vol": 6189277.234796,
-          "label": "MUY BAJO"
-        },
+          "sym": "ALLOUSDT",
+          "rsi": 81.8,
+          "price": 0.4658,
+          "vol": 8552862.21867,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -64,44 +59,93 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 20.6,
-          "price": 138.93,
-          "vol": 18598504.25159,
-          "label": "SOBREVENDIDO"
+          "sym": "LUMIAUSDT",
+          "rsi": 16.2,
+          "price": 0.0781,
+          "vol": 6828376.635067,
+          "label": "BAJO"
         },
         {
           "sym": "SYNUSDT",
-          "rsi": 20.9,
-          "price": 0.25573,
-          "vol": 7260453.08563,
+          "rsi": 21.2,
+          "price": 0.25271,
+          "vol": 7689239.602432,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 21.2,
-          "price": 0.3262,
-          "vol": 32093706.82439,
+          "rsi": 21.8,
+          "price": 0.326,
+          "vol": 32775739.61438,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 22.1,
+          "price": 138.86,
+          "vol": 19496632.38478,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 23.2,
+          "price": 3999.45,
+          "vol": 10941020.088144,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 23.6,
+          "price": 3999.02,
+          "vol": 14009672.052131,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 24.6,
+          "price": 1687.32,
+          "vol": 21365877.220319,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 24.6,
+          "price": 164.61,
+          "vol": 2972655.99755,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 104
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 14,
-          "price": 0.077,
-          "vol": 6189277.234796,
-          "label": "MUY BAJO"
+          "rsi": 16.9,
+          "price": 0.0781,
+          "vol": 6828376.635067,
+          "label": "BAJO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 21.1,
+          "price": 3999.45,
+          "vol": 10941020.088144,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 21.4,
+          "price": 3999.02,
+          "vol": 14009672.052131,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "SPCXBUSDT",
           "rsi": 23.1,
-          "price": 138.93,
-          "vol": 18598504.25159,
+          "price": 138.86,
+          "vol": 19496632.38478,
           "label": "SOBREVENDIDO"
         },
         {
@@ -110,23 +154,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 23.6,
-          "price": 4016.02,
-          "vol": 9263718.359685,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 23.9,
-          "price": 4014.67,
-          "vol": 13056279.918055,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 104
     }
   }
 }
