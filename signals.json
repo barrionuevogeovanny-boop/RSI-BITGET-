@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-13T12:37:17.045Z",
-  "updated_ts": 1783946237045,
+  "updated": "2026-07-13T15:32:40.210Z",
+  "updated_ts": 1783956760210,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "LUMIAUSDT",
-          "rsi": 8.9,
-          "price": 0.0749,
-          "vol": 4083787.481208,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,45 +23,38 @@
           "label": "BAJO"
         },
         {
-          "sym": "TRXUSDT",
-          "rsi": 18.4,
-          "price": 0.3266,
-          "vol": 32194039.22058,
-          "label": "BAJO"
-        },
-        {
-          "sym": "HBARUSDT",
-          "rsi": 23.6,
-          "price": 0.06652,
-          "vol": 3978511.72276,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 24,
-          "price": 43.25,
-          "vol": 7756810.15793,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "SYNUSDT",
-          "rsi": 24.6,
-          "price": 0.27671,
-          "vol": 5754600.731588,
+          "rsi": 21.2,
+          "price": 0.25573,
+          "vol": 7260453.08563,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 21.5,
+          "price": 40.403,
+          "vol": 26017624.13025,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 23.1,
+          "price": 0.077,
+          "vol": 6189277.234796,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 100
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 7.8,
-          "price": 0.0749,
-          "vol": 4083787.481208,
-          "label": "EXTREMO"
+          "rsi": 11.8,
+          "price": 0.077,
+          "vol": 6189277.234796,
+          "label": "MUY BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -78,38 +64,45 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SPCXBUSDT",
+          "rsi": 20.6,
+          "price": 138.93,
+          "vol": 18598504.25159,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 20.9,
+          "price": 0.25573,
+          "vol": 7260453.08563,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "TRXUSDT",
-          "rsi": 20.7,
-          "price": 0.3266,
-          "vol": 32194039.22058,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "EWYBUSDT",
-          "rsi": 23.2,
-          "price": 168.57,
-          "vol": 3583891.36812,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "DRAMBUSDT",
-          "rsi": 23.7,
-          "price": 57.15,
-          "vol": 3880328.8573,
+          "rsi": 21.2,
+          "price": 0.3262,
+          "vol": 32093706.82439,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 100
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 13.5,
-          "price": 0.0749,
-          "vol": 4083787.481208,
+          "rsi": 14,
+          "price": 0.077,
+          "vol": 6189277.234796,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 23.1,
+          "price": 138.93,
+          "vol": 18598504.25159,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -117,9 +110,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 23.6,
+          "price": 4016.02,
+          "vol": 9263718.359685,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 23.9,
+          "price": 4014.67,
+          "vol": 13056279.918055,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 100
     }
   }
 }
