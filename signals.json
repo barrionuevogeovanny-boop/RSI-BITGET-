@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T07:55:09.307Z",
-  "updated_ts": 1784015709307,
+  "updated": "2026-07-14T09:53:58.243Z",
+  "updated_ts": 1784022838243,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 81.8,
-          "price": 0.7343,
-          "vol": 6073496.26942,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,19 +21,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "KITEUSDT",
-          "rsi": 22.1,
-          "price": 0.1186,
-          "vol": 10605470.17037,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "币安人生USDT",
+          "rsi": 80.7,
+          "price": 0.761,
+          "vol": 10111900.53642,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -49,26 +42,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "LUMIAUSDT",
-          "rsi": 22.4,
-          "price": 0.0724,
-          "vol": 9267394.321267,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 13.9,
-          "price": 0.0724,
-          "vol": 9267394.321267,
-          "label": "MUY BAJO"
+          "rsi": 15.7,
+          "price": 0.0738,
+          "vol": 9745997.335749,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -78,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     }
   }
 }
