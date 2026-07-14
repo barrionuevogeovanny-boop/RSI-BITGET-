@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T19:53:09.446Z",
-  "updated_ts": 1784058789446,
+  "updated": "2026-07-14T20:49:34.939Z",
+  "updated_ts": 1784062174939,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,36 +24,29 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 22.6,
-          "price": 0.111,
-          "vol": 10985965.72648,
+          "rsi": 22.9,
+          "price": 0.1094,
+          "vol": 10240224.81371,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
           "sym": "PORTOUSDT",
-          "rsi": 96.1,
-          "price": 0.572,
-          "vol": 2235221.47978,
+          "rsi": 96.2,
+          "price": 0.578,
+          "vol": 2793645.44089,
           "label": "EXTREMO"
         },
         {
-          "sym": "SKHYBUSDT",
-          "rsi": 85.5,
-          "price": 192.66,
-          "vol": 9405258.1564,
+          "sym": "LAZIOUSDT",
+          "rsi": 86.1,
+          "price": 0.397,
+          "vol": 2056585.12634,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 80.5,
-          "price": 1.116,
-          "vol": 83637569.66197,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -65,31 +58,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTOUSDT",
-          "rsi": 90.9,
-          "price": 0.572,
-          "vol": 2235221.47978,
+          "rsi": 91.2,
+          "price": 0.578,
+          "vol": 2793645.44089,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "POLUSDT",
-          "rsi": 80.7,
-          "price": 0.08487,
-          "vol": 5077028.554637,
-          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 17.3,
-          "price": 0.0739,
-          "vol": 5801429.083751,
+          "rsi": 16.7,
+          "price": 0.0727,
+          "vol": 5750010.801906,
           "label": "BAJO"
         },
         {
@@ -100,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 104
     }
   }
 }
