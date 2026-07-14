@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T11:19:37.395Z",
-  "updated_ts": 1784027977395,
+  "updated": "2026-07-14T12:42:32.481Z",
+  "updated_ts": 1784032952481,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,39 @@
     "15m": {
       "sell": [
         {
-          "sym": "TOWNSUSDT",
-          "rsi": 92.2,
-          "price": 0.00209,
-          "vol": 2014724.11975,
-          "label": "EXTREMO"
+          "sym": "XAUTUSDT",
+          "rsi": 84.5,
+          "price": 4084.59,
+          "vol": 18733430.561086,
+          "label": "ALTO"
         },
         {
-          "sym": "BONKUSDT",
-          "rsi": 87.7,
-          "price": 0.00000389,
-          "vol": 2809519.47021684,
-          "label": "MUY ALTO"
+          "sym": "PAXGUSDT",
+          "rsi": 84.2,
+          "price": 4083.55,
+          "vol": 14915330.406145,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 83,
+          "price": 1.1457,
+          "vol": 22905875.50603,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 82.8,
+          "price": 188.68,
+          "vol": 2746006.19946,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 80,
+          "price": 63432.13,
+          "vol": 1146573256.5341244,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -36,20 +57,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 22.4,
+          "price": 0.1208,
+          "vol": 10071625.14865,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 104
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 84.6,
-          "price": 0.78,
-          "vol": 13216120.28773,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -59,25 +79,17 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 104
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 80.7,
-          "price": 0.78,
-          "vol": 13216120.28773,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 13.7,
-          "price": 0.0719,
-          "vol": 8167728.943684,
-          "label": "MUY BAJO"
+          "rsi": 15.9,
+          "price": 0.0732,
+          "vol": 6664653.205156,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -87,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 103
     }
   }
 }
