@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T17:22:22.513Z",
-  "updated_ts": 1784049742513,
+  "updated": "2026-07-14T18:34:31.992Z",
+  "updated_ts": 1784054071992,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ZECUSDT",
-          "rsi": 81.9,
-          "price": 551.13,
-          "vol": 94471222.66623,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -32,28 +24,21 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 21.6,
-          "price": 0.1149,
-          "vol": 11330038.38309,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 23.3,
-          "price": 0.09926,
-          "vol": 3958315.051397,
+          "rsi": 20.9,
+          "price": 0.1123,
+          "vol": 11673764.5041,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "1h": {
       "sell": [
         {
           "sym": "SKHYBUSDT",
-          "rsi": 81.2,
-          "price": 184.3,
-          "vol": 9080821.11114,
+          "rsi": 84,
+          "price": 189.32,
+          "vol": 9188598.1542,
           "label": "ALTO"
         }
       ],
@@ -66,11 +51,26 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "POLUSDT",
+          "rsi": 80.4,
+          "price": 0.08474,
+          "vol": 5005800.994345,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 20.1,
+          "price": 0.0754,
+          "vol": 5913724.126246,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -79,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 101
     }
   }
 }
