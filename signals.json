@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-14T15:59:36.733Z",
-  "updated_ts": 1784044776733,
+  "updated": "2026-07-14T17:22:22.513Z",
+  "updated_ts": 1784049742513,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,23 +16,9 @@
       "sell": [
         {
           "sym": "ZECUSDT",
-          "rsi": 81.3,
-          "price": 539.97,
-          "vol": 84907738.69899,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 80.5,
-          "price": 64739,
-          "vol": 1234008735.2076368,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DOGEUSDT",
-          "rsi": 80.3,
-          "price": 0.07494,
-          "vol": 30627455.62674,
+          "rsi": 81.9,
+          "price": 551.13,
+          "vol": 94471222.66623,
           "label": "ALTO"
         }
       ],
@@ -46,16 +32,31 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 21.3,
-          "price": 0.117,
-          "vol": 11078317.68744,
+          "rsi": 21.6,
+          "price": 0.1149,
+          "vol": 11330038.38309,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.3,
+          "price": 0.09926,
+          "vol": 3958315.051397,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 81.2,
+          "price": 184.3,
+          "vol": 9080821.11114,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,26 +66,11 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 82.1,
-          "price": 0.7869,
-          "vol": 21202515.79531,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "LUMIAUSDT",
-          "rsi": 17.2,
-          "price": 0.0739,
-          "vol": 4998587.279258,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -93,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 102
     }
   }
 }
