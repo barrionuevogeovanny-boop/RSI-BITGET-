@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-15T11:57:12.157Z",
-  "updated_ts": 1784116632157,
+  "updated": "2026-07-15T13:45:30.894Z",
+  "updated_ts": 1784123130894,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 9.7,
-          "price": 0.09604,
-          "vol": 3744050.512157,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 112
     },
     "1h": {
       "sell": [],
@@ -41,32 +34,26 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 20.5,
-          "price": 0.09604,
-          "vol": 3744050.512157,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 23.5,
-          "price": 0.4886,
-          "vol": 10725685.37367,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 112
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 81.3,
+          "price": 0.07005,
+          "vol": 4976556.410289,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 18.7,
-          "price": 0.0725,
-          "vol": 4103350.28787,
+          "rsi": 19.9,
+          "price": 0.0732,
+          "vol": 3825456.32321,
           "label": "BAJO"
         },
         {
@@ -77,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     }
   }
 }
