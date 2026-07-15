@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-15T17:57:03.557Z",
-  "updated_ts": 1784138223557,
+  "updated": "2026-07-15T19:11:20.606Z",
+  "updated_ts": 1784142680606,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EURUSDT",
-          "rsi": 83.8,
-          "price": 1.148,
-          "vol": 20214269.1714,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,18 +21,39 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 24.1,
+          "price": 0.7243,
+          "vol": 3553338.96838,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 24.4,
+          "price": 33.839,
+          "vol": 24811962.04434,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
+          "sym": "BANKUSDT",
+          "rsi": 88.6,
+          "price": 0.0521,
+          "vol": 2012488.35233,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "SKLUSDT",
-          "rsi": 84,
-          "price": 0.00507,
-          "vol": 2825919.93197,
-          "label": "ALTO"
+          "rsi": 86.6,
+          "price": 0.00527,
+          "vol": 4279143.49264,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -52,18 +65,19 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "4h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "LUMIAUSDT",
-          "rsi": 20,
-          "price": 0.0732,
-          "vol": 2447260.422351,
-          "label": "SOBREVENDIDO"
-        },
+          "sym": "BANKUSDT",
+          "rsi": 85.4,
+          "price": 0.0521,
+          "vol": 2012488.35233,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -72,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     }
   }
 }
