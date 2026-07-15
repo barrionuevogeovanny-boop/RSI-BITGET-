@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-15T08:34:10.780Z",
-  "updated_ts": 1784104450780,
+  "updated": "2026-07-15T10:25:45.744Z",
+  "updated_ts": 1784111145744,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,6 +16,13 @@
       "sell": [],
       "buy": [
         {
+          "sym": "JSTUSDT",
+          "rsi": 14.6,
+          "price": 0.09702,
+          "vol": 3367331.167207,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -23,25 +30,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "MEGAUSDT",
-          "rsi": 24.9,
-          "price": 0.04741,
-          "vol": 2847236.48636,
+          "sym": "EURUSDT",
+          "rsi": 23.9,
+          "price": 1.1421,
+          "vol": 29640866.6521,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ALPINEUSDT",
-          "rsi": 82,
-          "price": 0.371,
-          "vol": 3779316.02246,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -53,22 +52,29 @@
         {
           "sym": "REUSDT",
           "rsi": 22.3,
-          "price": 0.4894,
-          "vol": 2930785.76739,
+          "price": 0.4855,
+          "vol": 4030254.84788,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 24.5,
+          "price": 0.09702,
+          "vol": 3367331.167207,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "LUMIAUSDT",
-          "rsi": 20.6,
-          "price": 0.074,
-          "vol": 4757089.242032,
-          "label": "SOBREVENDIDO"
+          "rsi": 19,
+          "price": 0.073,
+          "vol": 4460322.98238,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -78,7 +84,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     }
   }
 }
