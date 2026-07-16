@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T21:41:54.587Z",
-  "updated_ts": 1784238114587,
+  "updated": "2026-07-16T22:38:10.065Z",
+  "updated_ts": 1784241490065,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FDUSDUSDT",
+          "rsi": 80.3,
+          "price": 0.9992,
+          "vol": 37194042.3765,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,6 +29,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "JTOUSDT",
+          "rsi": 22.8,
+          "price": 0.5676,
+          "vol": 3046869.77308,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 111
@@ -37,9 +52,23 @@
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 23.2,
-          "price": 1418.02,
-          "vol": 18318648.288596,
+          "rsi": 19.8,
+          "price": 1386.17,
+          "vol": 19212371.06869,
+          "label": "BAJO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 23.7,
+          "price": 91.75,
+          "vol": 13405966.96682,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JTOUSDT",
+          "rsi": 24.3,
+          "price": 0.5676,
+          "vol": 3046869.77308,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -51,7 +80,7 @@
           "sym": "BANKUSDT",
           "rsi": 88,
           "price": 0.0618,
-          "vol": 6318242.09322,
+          "vol": 6340046.24988,
           "label": "MUY ALTO"
         }
       ],
@@ -61,6 +90,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 24.8,
+          "price": 1386.17,
+          "vol": 19212371.06869,
           "label": "SOBREVENDIDO"
         }
       ],
