@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T18:44:24.324Z",
-  "updated_ts": 1784227464324,
+  "updated": "2026-07-16T19:47:18.958Z",
+  "updated_ts": 1784231238958,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 83.3,
+          "price": 0.8312,
+          "vol": 5096287.28261,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,16 +29,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 24.6,
-          "price": 0.00000337,
-          "vol": 5923449.39691996,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     },
     "1h": {
       "sell": [],
@@ -43,37 +44,44 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "DRAMBUSDT",
+          "rsi": 19.5,
+          "price": 52.08,
+          "vol": 3477030.415,
+          "label": "BAJO"
+        },
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 22.2,
-          "price": 1422.06,
-          "vol": 16952803.251648,
+          "rsi": 20.4,
+          "price": 1409.09,
+          "vol": 17813955.578576,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "DRAMBUSDT",
-          "rsi": 24.1,
-          "price": 52.48,
-          "vol": 3489561.4791,
+          "sym": "CRCLBUSDT",
+          "rsi": 21.4,
+          "price": 60.48,
+          "vol": 5129658.0961,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 22,
+          "price": 138.72,
+          "vol": 4439893.06872,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 87.9,
-          "price": 0.0611,
-          "vol": 5846261.54885,
+          "rsi": 88.2,
+          "price": 0.0615,
+          "vol": 5975486.743,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "ONDOUSDT",
-          "rsi": 80.3,
-          "price": 0.3808,
-          "vol": 40774637.7894,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -83,16 +91,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 25,
-          "price": 0.00000337,
-          "vol": 5923449.39691996,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     }
   }
 }
