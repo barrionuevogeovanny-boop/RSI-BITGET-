@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T19:47:18.958Z",
-  "updated_ts": 1784231238958,
+  "updated": "2026-07-16T20:36:53.220Z",
+  "updated_ts": 1784234213220,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 83.3,
-          "price": 0.8312,
-          "vol": 5096287.28261,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "1h": {
       "sell": [],
@@ -44,43 +36,36 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "DRAMBUSDT",
-          "rsi": 19.5,
-          "price": 52.08,
-          "vol": 3477030.415,
-          "label": "BAJO"
-        },
-        {
           "sym": "SNDKBUSDT",
-          "rsi": 20.4,
-          "price": 1409.09,
-          "vol": 17813955.578576,
+          "rsi": 21.9,
+          "price": 1412.65,
+          "vol": 18117120.726602,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 21.4,
-          "price": 60.48,
-          "vol": 5129658.0961,
+          "sym": "DRAMBUSDT",
+          "rsi": 23,
+          "price": 52.18,
+          "vol": 3481100.4842,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 22,
-          "price": 138.72,
-          "vol": 4439893.06872,
+          "sym": "SKHYBUSDT",
+          "rsi": 24.8,
+          "price": 153.61,
+          "vol": 11059645.6026,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 88.2,
-          "price": 0.0615,
-          "vol": 5975486.743,
+          "rsi": 87.1,
+          "price": 0.0605,
+          "vol": 6070309.96262,
           "label": "MUY ALTO"
         }
       ],
@@ -93,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     }
   }
 }
