@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T06:33:26.841Z",
-  "updated_ts": 1784183606841,
+  "updated": "2026-07-16T08:57:30.667Z",
+  "updated_ts": 1784192250667,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,20 +24,34 @@
         },
         {
           "sym": "SYNUSDT",
-          "rsi": 24.3,
-          "price": 0.2358,
-          "vol": 6203778.994827,
+          "rsi": 22.3,
+          "price": 0.2321,
+          "vol": 6012678.102996,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "XPLUSDT",
-          "rsi": 24.9,
-          "price": 0.08587,
-          "vol": 8540954.61579,
+          "sym": "HOMEUSDT",
+          "rsi": 24.4,
+          "price": 0.01372,
+          "vol": 10794393.25761,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 24.6,
+          "price": 549.42,
+          "vol": 126994352.29703,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 25,
+          "price": 33.67,
+          "vol": 5565488.4863,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     },
     "1h": {
       "sell": [],
@@ -48,24 +62,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 21.8,
+          "price": 0.00000354,
+          "vol": 4742441.19070023,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 83.7,
-          "price": 0.0558,
-          "vol": 3465925.32328,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ONDOUSDT",
-          "rsi": 80.5,
-          "price": 0.3706,
-          "vol": 30109699.8863,
+          "rsi": 83.4,
+          "price": 0.0555,
+          "vol": 3924924.50301,
           "label": "ALTO"
         }
       ],
@@ -78,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     }
   }
 }
