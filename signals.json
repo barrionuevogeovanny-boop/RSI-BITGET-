@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-15T23:30:36.181Z",
-  "updated_ts": 1784158236181,
+  "updated": "2026-07-16T01:00:18.536Z",
+  "updated_ts": 1784163618536,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "ONDOUSDT",
-          "rsi": 82.9,
-          "price": 0.3679,
-          "vol": 22035297.85349,
+          "sym": "MEGAUSDT",
+          "rsi": 82.1,
+          "price": 0.05078,
+          "vol": 3970512.568897,
           "label": "ALTO"
         }
       ],
@@ -31,25 +31,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "XUSDUSDT",
-          "rsi": 24.9,
-          "price": 1.0008,
-          "vol": 5171079.5757,
+          "sym": "BCHUSDT",
+          "rsi": 22.9,
+          "price": 221.1,
+          "vol": 7977070.73,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.6,
+          "price": 0.09739,
+          "vol": 5956241.481657,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 112
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ONDOUSDT",
-          "rsi": 87.2,
-          "price": 0.3679,
-          "vol": 22035297.85349,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -57,9 +56,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 21.9,
+          "price": 221.1,
+          "vol": 7977070.73,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 112
     },
     "4h": {
       "sell": [],
@@ -72,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 112
     }
   }
 }
