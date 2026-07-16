@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T12:45:09.441Z",
-  "updated_ts": 1784205909441,
+  "updated": "2026-07-16T14:47:41.605Z",
+  "updated_ts": 1784213261605,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ENAUSDT",
+          "rsi": 80.2,
+          "price": 0.086,
+          "vol": 12726135.829831,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,31 +31,32 @@
           "label": "BAJO"
         },
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 23.3,
-          "price": 134.14,
-          "vol": 12045314.49371,
+          "sym": "HOMEUSDT",
+          "rsi": 20.3,
+          "price": 0.0121,
+          "vol": 13352042.67036,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "DODOUSDT",
-          "rsi": 23.6,
-          "price": 0.0231,
-          "vol": 8799973.034429,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 24.7,
-          "price": 855,
-          "vol": 22452253.78997,
+          "rsi": 24.5,
+          "price": 0.02155,
+          "vol": 8278012.968036,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MANTRAUSDT",
+          "rsi": 95.6,
+          "price": 0.00803,
+          "vol": 4959079.7326,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -55,52 +64,38 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 21.3,
-          "price": 855,
-          "vol": 22452253.78997,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "DRAMBUSDT",
-          "rsi": 22.2,
-          "price": 53.42,
-          "vol": 2762668.1721,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOXLBUSDT",
-          "rsi": 24.7,
-          "price": 146.96,
-          "vol": 4356201.42736,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
+          "sym": "MANTRAUSDT",
+          "rsi": 90.1,
+          "price": 0.00803,
+          "vol": 4959079.7326,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "BANKUSDT",
-          "rsi": 86.6,
+          "rsi": 87.1,
           "price": 0.0598,
-          "vol": 5790651.75522,
+          "vol": 6183629.92753,
           "label": "MUY ALTO"
         },
         {
           "sym": "ONDOUSDT",
-          "rsi": 83.1,
-          "price": 0.3797,
-          "vol": 37276680.10137,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.3891,
+          "vol": 37714148.2131,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "BARUSDT",
-          "rsi": 82,
-          "price": 0.324,
-          "vol": 3083393.16277,
+          "sym": "DGBUSDT",
+          "rsi": 81.7,
+          "price": 0.00333,
+          "vol": 2095621.48501,
           "label": "ALTO"
         }
       ],
@@ -113,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     }
   }
 }
