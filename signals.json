@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T15:50:41.903Z",
-  "updated_ts": 1784303441903,
+  "updated": "2026-07-17T16:54:31.345Z",
+  "updated_ts": 1784307271345,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     },
     "1h": {
       "sell": [],
@@ -37,29 +37,22 @@
         },
         {
           "sym": "CHZUSDT",
-          "rsi": 24.6,
-          "price": 0.01598,
-          "vol": 2169667.17686,
+          "rsi": 24.1,
+          "price": 0.01596,
+          "vol": 2248331.8559,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 17.3,
-          "price": 123.53,
-          "vol": 30813201.1739,
-          "label": "BAJO"
-        },
-        {
           "sym": "BONKUSDT",
-          "rsi": 18.9,
-          "price": 0.00000322,
-          "vol": 8587700.15066791,
+          "rsi": 18.3,
+          "price": 0.0000032,
+          "vol": 8328410.53401251,
           "label": "BAJO"
         },
         {
@@ -68,9 +61,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 24.3,
+          "price": 125.84,
+          "vol": 30995214.72805,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     }
   }
 }
