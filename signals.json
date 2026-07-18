@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T09:02:00.432Z",
-  "updated_ts": 1784365320432,
+  "updated": "2026-07-18T10:34:16.145Z",
+  "updated_ts": 1784370856145,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 106
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 80.2,
+          "price": 1.689,
+          "vol": 17161314.249872,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -37,23 +45,23 @@
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 25,
-          "price": 88.24,
-          "vol": 12495282.03186,
+          "rsi": 24.3,
+          "price": 88.02,
+          "vol": 12751933.41216,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 106
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 17.4,
-          "price": 0.000003,
-          "vol": 6078215.10266628,
-          "label": "BAJO"
+          "rsi": 20.5,
+          "price": 0.00000303,
+          "vol": 5988686.33806614,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -63,21 +71,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "REUSDT",
-          "rsi": 24.3,
-          "price": 0.4067,
-          "vol": 105886498.07538,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "HOMEUSDT",
-          "rsi": 24.6,
-          "price": 0.007,
-          "vol": 14096258.95951,
+          "rsi": 24.4,
+          "price": 0.0069,
+          "vol": 12210683.05751,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     }
   }
 }
