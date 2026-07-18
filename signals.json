@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T22:01:51.986Z",
-  "updated_ts": 1784412111986,
+  "updated": "2026-07-18T22:59:21.594Z",
+  "updated_ts": 1784415561595,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TLMUSDT",
+          "rsi": 83.9,
+          "price": 0.001728,
+          "vol": 3270433.727101,
+          "label": "ALTO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 81.8,
+          "price": 0.005285,
+          "vol": 2581954.264273,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +38,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 83
+      "scanned": 85
     },
     "1h": {
       "sell": [],
@@ -36,24 +51,16 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 83
+      "scanned": 85
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "BANKUSDT",
-          "rsi": 81.6,
-          "price": 0.1119,
-          "vol": 29236401.95179,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 16.4,
-          "price": 0.00000281,
-          "vol": 6659186.89263204,
+          "rsi": 15.3,
+          "price": 0.00000279,
+          "vol": 6318280.5950618,
           "label": "BAJO"
         },
         {
@@ -62,9 +69,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "REUSDT",
+          "rsi": 23.7,
+          "price": 0.3951,
+          "vol": 33713085.54111,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 82
+      "scanned": 84
     }
   }
 }
