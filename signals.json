@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T12:32:05.320Z",
-  "updated_ts": 1784377925320,
+  "updated": "2026-07-18T13:59:56.029Z",
+  "updated_ts": 1784383196029,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "WLDUSDT",
-          "rsi": 15.3,
-          "price": 0.3616,
-          "vol": 14900190.96945,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -31,13 +24,13 @@
         },
         {
           "sym": "MANTRAUSDT",
-          "rsi": 16.5,
-          "price": 0.0063,
-          "vol": 2680673.61053,
+          "rsi": 17.7,
+          "price": 0.00622,
+          "vol": 2468024.24082,
           "label": "BAJO"
         }
       ],
-      "scanned": 103
+      "scanned": 97
     },
     "1h": {
       "sell": [],
@@ -50,38 +43,38 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "WLDUSDT",
-          "rsi": 19,
-          "price": 0.3616,
-          "vol": 14900190.96945,
-          "label": "BAJO"
-        },
-        {
           "sym": "TIAUSDT",
-          "rsi": 22.3,
-          "price": 0.359,
-          "vol": 2889523.294575,
+          "rsi": 22.5,
+          "price": 0.3592,
+          "vol": 2666341.288162,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "AAVEUSDT",
-          "rsi": 24.6,
-          "price": 87.85,
-          "vol": 13214653.18628,
+          "sym": "FILUSDT",
+          "rsi": 22.7,
+          "price": 0.744,
+          "vol": 3568202.98464,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 97
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 14.7,
-          "price": 0.00000296,
-          "vol": 5945117.28962792,
+          "rsi": 13.3,
+          "price": 0.0000029,
+          "vol": 5715085.89195565,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "REUSDT",
+          "rsi": 23.3,
+          "price": 0.3997,
+          "vol": 37966245.35828,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -92,20 +85,13 @@
         },
         {
           "sym": "HOMEUSDT",
-          "rsi": 24.3,
-          "price": 0.0069,
-          "vol": 10354898.75345,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 24.9,
-          "price": 0.4063,
-          "vol": 37957317.07979,
+          "rsi": 24.4,
+          "price": 0.00692,
+          "vol": 9819121.59094,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 96
     }
   }
 }
