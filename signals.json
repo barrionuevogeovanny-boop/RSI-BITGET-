@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T00:03:13.510Z",
-  "updated_ts": 1784332993510,
+  "updated": "2026-07-18T03:22:27.068Z",
+  "updated_ts": 1784344947068,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 81.6,
+          "price": 1.632,
+          "vol": 6743043.861735,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,9 +29,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "TREEUSDT",
+          "rsi": 23.3,
+          "price": 0.0376,
+          "vol": 83313320.53998,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 105
     },
     "1h": {
       "sell": [],
@@ -34,33 +49,26 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "TREEUSDT",
+          "rsi": 22,
+          "price": 0.0376,
+          "vol": 83313320.53998,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 104
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 15,
-          "price": 0.00000306,
-          "vol": 6353876.35480258,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "SYNUSDT",
-          "rsi": 22.6,
-          "price": 0.17663,
-          "vol": 7670971.174508,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 23.1,
-          "price": 125.2,
-          "vol": 23294043.36542,
-          "label": "SOBREVENDIDO"
+          "rsi": 17.5,
+          "price": 0.00000308,
+          "vol": 6170733.94214241,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -68,9 +76,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 23.6,
+          "price": 125.18,
+          "vol": 20706729.77027,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 104
     }
   }
 }
