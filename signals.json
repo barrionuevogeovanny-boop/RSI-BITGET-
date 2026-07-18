@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T17:08:42.185Z",
-  "updated_ts": 1784394522185,
+  "updated": "2026-07-18T18:05:35.013Z",
+  "updated_ts": 1784397935013,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,16 +16,9 @@
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 83.7,
-          "price": 0.1111,
-          "vol": 23094275.88937,
-          "label": "ALTO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 81.8,
-          "price": 47.36,
-          "vol": 18093655.97558,
+          "rsi": 82.5,
+          "price": 0.1149,
+          "vol": 25238019.84968,
           "label": "ALTO"
         }
       ],
@@ -36,24 +29,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 21.7,
-          "price": 0.3819,
-          "vol": 33707516.86449,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 88
     },
     "1h": {
       "sell": [
         {
           "sym": "LTCUSDT",
-          "rsi": 84,
-          "price": 47.36,
-          "vol": 18093655.97558,
+          "rsi": 82.3,
+          "price": 47.4,
+          "vol": 19606913.29812,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BANKUSDT",
+          "rsi": 81.7,
+          "price": 0.1149,
+          "vol": 25238019.84968,
           "label": "ALTO"
         }
       ],
@@ -64,61 +57,33 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "TIAUSDT",
-          "rsi": 19.7,
-          "price": 0.3552,
-          "vol": 2720093.83031,
-          "label": "BAJO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 22.3,
-          "price": 0.00000273,
-          "vol": 6372153.82482972,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 23.4,
-          "price": 0.3819,
-          "vol": 33707516.86449,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 24,
-          "price": 0.08152,
-          "vol": 4181990.723029,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 88
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 81.3,
-          "price": 0.1111,
-          "vol": 23094275.88937,
+          "rsi": 82.2,
+          "price": 0.1149,
+          "vol": 25238019.84968,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 11.1,
-          "price": 0.00000273,
-          "vol": 6372153.82482972,
+          "rsi": 14.4,
+          "price": 0.00000278,
+          "vol": 6545275.27926563,
           "label": "MUY BAJO"
         },
         {
           "sym": "REUSDT",
-          "rsi": 20.8,
-          "price": 0.3819,
-          "vol": 33707516.86449,
+          "rsi": 22,
+          "price": 0.391,
+          "vol": 33386279.71132,
           "label": "SOBREVENDIDO"
         },
         {
@@ -129,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 87
     }
   }
 }
