@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T03:22:27.068Z",
-  "updated_ts": 1784344947068,
+  "updated": "2026-07-18T05:39:37.741Z",
+  "updated_ts": 1784353177741,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,32 +13,24 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRUMPUSDT",
-          "rsi": 81.6,
-          "price": 1.632,
-          "vol": 6743043.861735,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "REUSDT",
+          "rsi": 14.1,
+          "price": 0.4137,
+          "vol": 146693208.47066,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "TREEUSDT",
-          "rsi": 23.3,
-          "price": 0.0376,
-          "vol": 83313320.53998,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 106
     },
     "1h": {
       "sell": [],
@@ -51,23 +43,44 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TREEUSDT",
+          "sym": "REUSDT",
           "rsi": 22,
-          "price": 0.0376,
-          "vol": 83313320.53998,
+          "price": 0.4137,
+          "vol": 146693208.47066,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 22.7,
+          "price": 0.00705,
+          "vol": 18011153.69256,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 24.1,
+          "price": 88.6,
+          "vol": 11259698.50941,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TREEUSDT",
+          "rsi": 25,
+          "price": 0.0378,
+          "vol": 72692733.55989,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 17.5,
-          "price": 0.00000308,
-          "vol": 6170733.94214241,
+          "rsi": 16.4,
+          "price": 0.00000304,
+          "vol": 6373037.6474619,
           "label": "BAJO"
         },
         {
@@ -79,13 +92,20 @@
         },
         {
           "sym": "SPCXBUSDT",
-          "rsi": 23.6,
-          "price": 125.18,
-          "vol": 20706729.77027,
+          "rsi": 24,
+          "price": 125.26,
+          "vol": 18893668.18988,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 24.7,
+          "price": 0.00705,
+          "vol": 18011153.69256,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 105
     }
   }
 }
