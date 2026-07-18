@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T21:04:20.998Z",
-  "updated_ts": 1784408660998,
+  "updated": "2026-07-18T22:01:51.986Z",
+  "updated_ts": 1784412111986,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -39,13 +39,21 @@
       "scanned": 83
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BANKUSDT",
+          "rsi": 81.6,
+          "price": 0.1119,
+          "vol": 29236401.95179,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 17.4,
-          "price": 0.00000282,
-          "vol": 6888911.13034862,
+          "rsi": 16.4,
+          "price": 0.00000281,
+          "vol": 6659186.89263204,
           "label": "BAJO"
         },
         {
