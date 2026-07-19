@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T18:35:32.415Z",
-  "updated_ts": 1784486132415,
+  "updated": "2026-07-19T19:48:49.847Z",
+  "updated_ts": 1784490529847,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,27 +21,21 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "CHZUSDT",
-          "rsi": 22.7,
-          "price": 0.0149,
-          "vol": 2120110.91716,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 82
     },
     "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "CHZUSDT",
-          "rsi": 11.6,
-          "price": 0.0149,
-          "vol": 2120110.91716,
-          "label": "MUY BAJO"
-        },
+          "sym": "PUMPUSDT",
+          "rsi": 80.3,
+          "price": 0.001771,
+          "vol": 3751129.662728,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -50,17 +44,24 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "FILUSDT",
+          "rsi": 19,
+          "price": 0.715,
+          "vol": 4008901.75459,
+          "label": "BAJO"
+        },
+        {
           "sym": "DOTUSDT",
-          "rsi": 20.2,
-          "price": 0.816,
-          "vol": 4826449.73621,
+          "rsi": 21.2,
+          "price": 0.814,
+          "vol": 4916741.07081,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "FILUSDT",
-          "rsi": 22.7,
-          "price": 0.718,
-          "vol": 3823315.74765,
+          "sym": "CHZUSDT",
+          "rsi": 24.3,
+          "price": 0.015,
+          "vol": 2167424.56876,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -70,25 +71,25 @@
       "sell": [
         {
           "sym": "YBUSDT",
-          "rsi": 83,
-          "price": 0.0953,
-          "vol": 3469420.06038,
-          "label": "ALTO"
+          "rsi": 85,
+          "price": 0.0963,
+          "vol": 3854969.87132,
+          "label": "MUY ALTO"
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 80.2,
-          "price": 0.2003,
-          "vol": 92015533.29019,
+          "rsi": 82.3,
+          "price": 0.222,
+          "vol": 100289038.61653,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CHZUSDT",
-          "rsi": 17.6,
-          "price": 0.0149,
-          "vol": 2120110.91716,
+          "rsi": 18.7,
+          "price": 0.015,
+          "vol": 2167424.56876,
           "label": "BAJO"
         },
         {
@@ -100,9 +101,9 @@
         },
         {
           "sym": "FILUSDT",
-          "rsi": 24.6,
-          "price": 0.718,
-          "vol": 3823315.74765,
+          "rsi": 23.4,
+          "price": 0.715,
+          "vol": 4008901.75459,
           "label": "SOBREVENDIDO"
         }
       ],
