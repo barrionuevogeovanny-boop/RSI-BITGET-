@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T16:35:36.781Z",
-  "updated_ts": 1784478936781,
+  "updated": "2026-07-19T17:37:45.510Z",
+  "updated_ts": 1784482665510,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,14 @@
           "label": "BAJO"
         },
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 18.5,
-          "price": 129.71,
-          "vol": 2599574.37631,
-          "label": "BAJO"
+          "sym": "WLDUSDT",
+          "rsi": 23.8,
+          "price": 0.3597,
+          "vol": 8484510.41515,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 81
+      "scanned": 82
     },
     "1h": {
       "sell": [],
@@ -44,29 +44,44 @@
         },
         {
           "sym": "CHZUSDT",
-          "rsi": 15.2,
-          "price": 0.01507,
-          "vol": 2036137.16603,
+          "rsi": 17.9,
+          "price": 0.01508,
+          "vol": 2118094.71275,
           "label": "BAJO"
         },
         {
           "sym": "FILUSDT",
-          "rsi": 22.1,
-          "price": 0.72,
-          "vol": 2968169.58713,
+          "rsi": 20.5,
+          "price": 0.717,
+          "vol": 3671321.29801,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 22.7,
+          "price": 0.3597,
+          "vol": 8484510.41515,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 81
+      "scanned": 82
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "YBUSDT",
+          "rsi": 81,
+          "price": 0.0947,
+          "vol": 2938509.95806,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "CHZUSDT",
-          "rsi": 19.5,
-          "price": 0.01507,
-          "vol": 2036137.16603,
+          "rsi": 19.7,
+          "price": 0.01508,
+          "vol": 2118094.71275,
           "label": "BAJO"
         },
         {
@@ -75,9 +90,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 24.3,
+          "price": 0.717,
+          "vol": 3671321.29801,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 80
+      "scanned": 81
     }
   }
 }
