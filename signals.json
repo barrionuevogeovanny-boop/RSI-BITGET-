@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T17:37:45.510Z",
-  "updated_ts": 1784482665510,
+  "updated": "2026-07-19T18:35:32.415Z",
+  "updated_ts": 1784486132415,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,10 @@
           "label": "BAJO"
         },
         {
-          "sym": "WLDUSDT",
-          "rsi": 23.8,
-          "price": 0.3597,
-          "vol": 8484510.41515,
+          "sym": "CHZUSDT",
+          "rsi": 22.7,
+          "price": 0.0149,
+          "vol": 2120110.91716,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -36,6 +36,13 @@
       "sell": [],
       "buy": [
         {
+          "sym": "CHZUSDT",
+          "rsi": 11.6,
+          "price": 0.0149,
+          "vol": 2120110.91716,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
@@ -43,24 +50,17 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "CHZUSDT",
-          "rsi": 17.9,
-          "price": 0.01508,
-          "vol": 2118094.71275,
-          "label": "BAJO"
-        },
-        {
-          "sym": "FILUSDT",
-          "rsi": 20.5,
-          "price": 0.717,
-          "vol": 3671321.29801,
+          "sym": "DOTUSDT",
+          "rsi": 20.2,
+          "price": 0.816,
+          "vol": 4826449.73621,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "WLDUSDT",
+          "sym": "FILUSDT",
           "rsi": 22.7,
-          "price": 0.3597,
-          "vol": 8484510.41515,
+          "price": 0.718,
+          "vol": 3823315.74765,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -70,18 +70,25 @@
       "sell": [
         {
           "sym": "YBUSDT",
-          "rsi": 81,
-          "price": 0.0947,
-          "vol": 2938509.95806,
+          "rsi": 83,
+          "price": 0.0953,
+          "vol": 3469420.06038,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BANKUSDT",
+          "rsi": 80.2,
+          "price": 0.2003,
+          "vol": 92015533.29019,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CHZUSDT",
-          "rsi": 19.7,
-          "price": 0.01508,
-          "vol": 2118094.71275,
+          "rsi": 17.6,
+          "price": 0.0149,
+          "vol": 2120110.91716,
           "label": "BAJO"
         },
         {
@@ -93,9 +100,9 @@
         },
         {
           "sym": "FILUSDT",
-          "rsi": 24.3,
-          "price": 0.717,
-          "vol": 3671321.29801,
+          "rsi": 24.6,
+          "price": 0.718,
+          "vol": 3823315.74765,
           "label": "SOBREVENDIDO"
         }
       ],
