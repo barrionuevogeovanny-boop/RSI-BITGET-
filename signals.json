@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T14:47:54.835Z",
-  "updated_ts": 1784472474836,
+  "updated": "2026-07-19T15:41:39.796Z",
+  "updated_ts": 1784475699796,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,9 +24,9 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 23.6,
-          "price": 33.024,
-          "vol": 7462264.47054,
+          "rsi": 22.2,
+          "price": 32.439,
+          "vol": 5599878.02997,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -35,17 +35,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "BANKUSDT",
-          "rsi": 83.9,
-          "price": 0.2028,
-          "vol": 72921968.10987,
-          "label": "ALTO"
-        },
-        {
           "sym": "TOWNSUSDT",
-          "rsi": 81.8,
-          "price": 0.00239,
-          "vol": 10327004.96663,
+          "rsi": 83.3,
+          "price": 0.00241,
+          "vol": 10940997.5161,
           "label": "ALTO"
         }
       ],
@@ -58,39 +51,24 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "FILUSDT",
-          "rsi": 17.5,
-          "price": 0.724,
-          "vol": 2868089.11468,
+          "sym": "DEXEUSDT",
+          "rsi": 17.4,
+          "price": 32.439,
+          "vol": 5599878.02997,
           "label": "BAJO"
         },
         {
-          "sym": "DEXEUSDT",
-          "rsi": 21.8,
-          "price": 33.024,
-          "vol": 7462264.47054,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GRAMUSDT",
-          "rsi": 24.3,
-          "price": 1.433,
-          "vol": 4365935.22179,
+          "sym": "FILUSDT",
+          "rsi": 23.2,
+          "price": 0.724,
+          "vol": 2973526.9011,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 80
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "BANKUSDT",
-          "rsi": 90.7,
-          "price": 0.2028,
-          "vol": 72921968.10987,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
