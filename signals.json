@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T06:13:19.094Z",
-  "updated_ts": 1784441599094,
+  "updated": "2026-07-19T08:33:44.416Z",
+  "updated_ts": 1784450024416,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 21.5,
+          "price": 4010.06,
+          "vol": 2477467.650426,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 85
+      "scanned": 79
     },
     "1h": {
       "sell": [],
@@ -36,35 +43,35 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 79
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 82.2,
-          "price": 0.1149,
-          "vol": 30766517.74402,
+          "rsi": 82.3,
+          "price": 0.1274,
+          "vol": 34389496.2396,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "BONKUSDT",
-          "rsi": 23.1,
-          "price": 0.00000284,
-          "vol": 5564443.17635936,
-          "label": "SOBREVENDIDO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 24.5,
+          "price": 0.00000285,
+          "vol": 5680862.98311536,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 78
     }
   }
 }
