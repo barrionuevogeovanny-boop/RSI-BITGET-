@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T12:12:10.669Z",
-  "updated_ts": 1784463130669,
+  "updated": "2026-07-19T13:53:38.901Z",
+  "updated_ts": 1784469218901,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BANKUSDT",
-          "rsi": 85,
-          "price": 0.1832,
-          "vol": 56022423.7188,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,31 +21,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "DOTUSDT",
-          "rsi": 22.2,
-          "price": 0.825,
-          "vol": 3493200.78614,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 81
     },
     "1h": {
       "sell": [
         {
-          "sym": "BANKUSDT",
-          "rsi": 84.2,
-          "price": 0.1832,
-          "vol": 56022423.7188,
-          "label": "ALTO"
+          "sym": "SOLVUSDT",
+          "rsi": 92.1,
+          "price": 0.00309,
+          "vol": 2858781.38328,
+          "label": "EXTREMO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 80.6,
-          "price": 0.9607,
-          "vol": 6130427.01707,
+          "sym": "BANKUSDT",
+          "rsi": 80.5,
+          "price": 0.1799,
+          "vol": 64429675.33624,
           "label": "ALTO"
         }
       ],
@@ -67,22 +52,29 @@
         },
         {
           "sym": "FILUSDT",
-          "rsi": 19.9,
-          "price": 0.728,
-          "vol": 3420064.77628,
+          "rsi": 19.3,
+          "price": 0.727,
+          "vol": 2916638.20932,
           "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 81
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
           "rsi": 86.6,
-          "price": 0.1832,
-          "vol": 56022423.7188,
+          "price": 0.1799,
+          "vol": 64429675.33624,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "SOLVUSDT",
+          "rsi": 83.8,
+          "price": 0.00309,
+          "vol": 2858781.38328,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -94,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 83
+      "scanned": 80
     }
   }
 }
