@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T19:48:49.847Z",
-  "updated_ts": 1784490529847,
+  "updated": "2026-07-19T20:33:17.109Z",
+  "updated_ts": 1784493197109,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 82.8,
+          "price": 0.001826,
+          "vol": 4376811.779488,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,16 +31,23 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 82
+      "scanned": 84
     },
     "1h": {
       "sell": [
         {
+          "sym": "PROMUSDT",
+          "rsi": 96,
+          "price": 1.701,
+          "vol": 2281585.06917,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "PUMPUSDT",
-          "rsi": 80.3,
-          "price": 0.001771,
-          "vol": 3751129.662728,
-          "label": "ALTO"
+          "rsi": 85.3,
+          "price": 0.001826,
+          "vol": 4376811.779488,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -45,52 +60,38 @@
         },
         {
           "sym": "FILUSDT",
-          "rsi": 19,
-          "price": 0.715,
-          "vol": 4008901.75459,
-          "label": "BAJO"
-        },
-        {
-          "sym": "DOTUSDT",
-          "rsi": 21.2,
-          "price": 0.814,
-          "vol": 4916741.07081,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "CHZUSDT",
-          "rsi": 24.3,
-          "price": 0.015,
-          "vol": 2167424.56876,
+          "rsi": 24.2,
+          "price": 0.717,
+          "vol": 3916590.55568,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 82
+      "scanned": 84
     },
     "4h": {
       "sell": [
         {
-          "sym": "YBUSDT",
-          "rsi": 85,
-          "price": 0.0963,
-          "vol": 3854969.87132,
-          "label": "MUY ALTO"
+          "sym": "PROMUSDT",
+          "rsi": 90.4,
+          "price": 1.701,
+          "vol": 2281585.06917,
+          "label": "EXTREMO"
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 82.3,
-          "price": 0.222,
-          "vol": 100289038.61653,
+          "rsi": 83,
+          "price": 0.2297,
+          "vol": 103343444.31838,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CHZUSDT",
-          "rsi": 18.7,
-          "price": 0.015,
-          "vol": 2167424.56876,
-          "label": "BAJO"
+          "rsi": 21.1,
+          "price": 0.01506,
+          "vol": 2191842.88303,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -98,16 +99,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FILUSDT",
-          "rsi": 23.4,
-          "price": 0.715,
-          "vol": 4008901.75459,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 81
+      "scanned": 83
     }
   }
 }
