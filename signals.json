@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T08:33:44.416Z",
-  "updated_ts": 1784450024416,
+  "updated": "2026-07-19T10:09:45.801Z",
+  "updated_ts": 1784455785801,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,21 @@
           "label": "BAJO"
         },
         {
+          "sym": "FILUSDT",
+          "rsi": 22,
+          "price": 0.731,
+          "vol": 3123788.16885,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "XAUTUSDT",
-          "rsi": 21.5,
-          "price": 4010.06,
-          "vol": 2477467.650426,
+          "rsi": 24.7,
+          "price": 4008.32,
+          "vol": 2519516.01142,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 79
+      "scanned": 81
     },
     "1h": {
       "sell": [],
@@ -41,17 +48,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 22.1,
+          "price": 0.731,
+          "vol": 3123788.16885,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 79
+      "scanned": 81
     },
     "4h": {
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 82.3,
-          "price": 0.1274,
-          "vol": 34389496.2396,
+          "rsi": 84.5,
+          "price": 0.1401,
+          "vol": 39996675.94959,
           "label": "ALTO"
         }
       ],
@@ -62,16 +76,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 24.5,
-          "price": 0.00000285,
-          "vol": 5680862.98311536,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 78
+      "scanned": 80
     }
   }
 }
