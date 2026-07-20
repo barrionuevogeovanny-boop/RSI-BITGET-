@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-20T10:33:49.185Z",
-  "updated_ts": 1784543629185,
+  "updated": "2026-07-20T12:36:00.662Z",
+  "updated_ts": 1784550960662,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPNUSDT",
+          "rsi": 81.3,
+          "price": 0.0634,
+          "vol": 13305483.09045,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,15 +31,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     },
     "1h": {
       "sell": [
         {
+          "sym": "USDCUSDT",
+          "rsi": 83.2,
+          "price": 1.00088,
+          "vol": 1202905658.38068,
+          "label": "ALTO"
+        },
+        {
           "sym": "ACEUSDT",
-          "rsi": 82.5,
-          "price": 0.1407,
-          "vol": 25509128.12675,
+          "rsi": 83.1,
+          "price": 0.1413,
+          "vol": 30580574.48396,
           "label": "ALTO"
         }
       ],
@@ -44,45 +59,38 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 91.2,
-          "price": 0.1407,
-          "vol": 25509128.12675,
+          "rsi": 90.7,
+          "price": 0.1413,
+          "vol": 30580574.48396,
           "label": "EXTREMO"
         },
         {
           "sym": "PROMUSDT",
-          "rsi": 89.2,
-          "price": 1.824,
-          "vol": 5801822.28063,
+          "rsi": 89.3,
+          "price": 1.836,
+          "vol": 6412936.92019,
           "label": "MUY ALTO"
         },
         {
           "sym": "BANKUSDT",
           "rsi": 80.2,
-          "price": 0.2811,
-          "vol": 136536161.02593,
+          "price": 0.2839,
+          "vol": 124985574.50007,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "ZILUSDT",
-          "rsi": 19.9,
-          "price": 0.00254,
-          "vol": 2858400.144215,
-          "label": "BAJO"
-        },
-        {
           "sym": "币安人生USDT",
-          "rsi": 21.8,
-          "price": 0.6445,
-          "vol": 4646457.51493,
+          "rsi": 21.9,
+          "price": 0.6392,
+          "vol": 4770215.40066,
           "label": "SOBREVENDIDO"
         },
         {
@@ -93,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     }
   }
 }
