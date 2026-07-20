@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-20T04:48:43.610Z",
-  "updated_ts": 1784522923610,
+  "updated": "2026-07-20T07:47:34.009Z",
+  "updated_ts": 1784533654009,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACEUSDT",
+          "rsi": 82.2,
+          "price": 0.1395,
+          "vol": 18347343.84156,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +29,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 22.5,
+          "price": 0.005047,
+          "vol": 7028282.232937,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 96
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACEUSDT",
+          "rsi": 84.2,
+          "price": 0.1395,
+          "vol": 18347343.84156,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -34,47 +57,40 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 21.8,
-          "price": 0.6566,
-          "vol": 2415540.25421,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 24.9,
-          "price": 0.1519,
-          "vol": 3952858.92357,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 96
     },
     "4h": {
       "sell": [
         {
-          "sym": "PROMUSDT",
-          "rsi": 85.6,
-          "price": 1.691,
-          "vol": 4106270.11241,
-          "label": "MUY ALTO"
+          "sym": "ACEUSDT",
+          "rsi": 91.5,
+          "price": 0.1395,
+          "vol": 18347343.84156,
+          "label": "EXTREMO"
         },
         {
-          "sym": "BANKUSDT",
-          "rsi": 83.9,
-          "price": 0.2572,
-          "vol": 126739184.69374,
+          "sym": "PROMUSDT",
+          "rsi": 83.6,
+          "price": 1.635,
+          "vol": 4588328.66923,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ALICEUSDT",
+          "rsi": 80.3,
+          "price": 0.135,
+          "vol": 3498689.931875,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CHZUSDT",
-          "rsi": 17.3,
-          "price": 0.01477,
-          "vol": 2324128.58884,
+          "rsi": 15.3,
+          "price": 0.0147,
+          "vol": 3156231.78212,
           "label": "BAJO"
         },
         {
@@ -83,9 +99,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 24.1,
+          "price": 0.6545,
+          "vol": 4065666.07912,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 24.9,
+          "price": 0.71,
+          "vol": 5396842.36759,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 96
     }
   }
 }
