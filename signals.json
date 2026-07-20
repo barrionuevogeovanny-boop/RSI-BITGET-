@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T23:30:02.404Z",
-  "updated_ts": 1784503802404,
+  "updated": "2026-07-20T01:06:40.135Z",
+  "updated_ts": 1784509600135,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PUMPUSDT",
-          "rsi": 82.5,
-          "price": 0.001972,
-          "vol": 9312950.738509,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ACEUSDT",
-          "rsi": 81,
-          "price": 0.0958,
-          "vol": 5548491.59793,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,38 +21,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 18.5,
-          "price": 3993.39,
-          "vol": 6567449.397184,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 20.8,
-          "price": 3990.51,
-          "vol": 2789700.916731,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "1h": {
       "sell": [
         {
-          "sym": "ACEUSDT",
-          "rsi": 92.1,
-          "price": 0.0958,
-          "vol": 5548491.59793,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "PUMPUSDT",
-          "rsi": 91.8,
-          "price": 0.001972,
-          "vol": 9312950.738509,
+          "rsi": 91.5,
+          "price": 0.002006,
+          "vol": 12167637.031596,
           "label": "EXTREMO"
         }
       ],
@@ -78,52 +42,38 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 24,
-          "price": 1.1433,
-          "vol": 4192206.12373,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.6,
-          "price": 3990.51,
-          "vol": 2789700.916731,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.7,
-          "price": 3993.39,
-          "vol": 6567449.397184,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
           "sym": "PROMUSDT",
-          "rsi": 81.8,
-          "price": 1.598,
-          "vol": 3429718.16431,
+          "rsi": 83.9,
+          "price": 1.645,
+          "vol": 3579231.20455,
           "label": "ALTO"
         },
         {
-          "sym": "ACEUSDT",
-          "rsi": 81.3,
-          "price": 0.0958,
-          "vol": 5548491.59793,
+          "sym": "BANKUSDT",
+          "rsi": 81.4,
+          "price": 0.2276,
+          "vol": 116444987.68349,
           "label": "ALTO"
         },
         {
           "sym": "PUMPUSDT",
-          "rsi": 80.2,
-          "price": 0.001972,
-          "vol": 9312950.738509,
+          "rsi": 81.2,
+          "price": 0.002006,
+          "vol": 12167637.031596,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 80.5,
+          "price": 0.0931,
+          "vol": 7501844.7901,
           "label": "ALTO"
         }
       ],
@@ -131,8 +81,8 @@
         {
           "sym": "CHZUSDT",
           "rsi": 16.7,
-          "price": 0.01483,
-          "vol": 2379506.62864,
+          "price": 0.01481,
+          "vol": 2426928.71023,
           "label": "BAJO"
         },
         {
@@ -143,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 88
     }
   }
 }
