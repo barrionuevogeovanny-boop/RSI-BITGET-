@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T11:20:27.749Z",
-  "updated_ts": 1784632827749,
+  "updated": "2026-07-21T12:47:48.708Z",
+  "updated_ts": 1784638068708,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "KGSTUSDT",
-          "rsi": 15.2,
-          "price": 0.011441,
-          "vol": 3163117.046816,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,17 +23,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "TOWNSUSDT",
-          "rsi": 21.1,
-          "price": 0.00203,
-          "vol": 63462386.71647,
-          "label": "SOBREVENDIDO"
+          "sym": "币安人生USDT",
+          "rsi": 16.5,
+          "price": 0.5835,
+          "vol": 5082777.91895,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 18.2,
+          "price": 0.18991,
+          "vol": 4477528.685074,
+          "label": "BAJO"
         },
         {
           "sym": "TLMUSDT",
-          "rsi": 24.5,
-          "price": 0.001645,
-          "vol": 4559026.025956,
+          "rsi": 24.7,
+          "price": 0.00163,
+          "vol": 4109968.327907,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -49,17 +49,17 @@
     "1h": {
       "sell": [
         {
-          "sym": "ONDOUSDT",
-          "rsi": 85,
-          "price": 0.4023,
-          "vol": 23905735.45935,
+          "sym": "RENDERUSDT",
+          "rsi": 81.3,
+          "price": 1.56,
+          "vol": 2630509.82843,
           "label": "ALTO"
         },
         {
-          "sym": "EPICUSDT",
-          "rsi": 83.4,
-          "price": 0.543,
-          "vol": 3378241.4093,
+          "sym": "ONDOUSDT",
+          "rsi": 81.2,
+          "price": 0.3999,
+          "vol": 25112071.254,
           "label": "ALTO"
         }
       ],
@@ -72,10 +72,31 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "VANRYUSDT",
+          "sym": "RIFUSDT",
+          "rsi": 17.5,
+          "price": 0.0961,
+          "vol": 2110336.5699,
+          "label": "BAJO"
+        },
+        {
+          "sym": "币安人生USDT",
           "rsi": 23.5,
-          "price": 0.004589,
-          "vol": 2330038.085056,
+          "price": 0.5835,
+          "vol": 5082777.91895,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 24.6,
+          "price": 0.18991,
+          "vol": 4477528.685074,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 24.7,
+          "price": 13.991,
+          "vol": 74314364.0534,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -85,20 +106,34 @@
       "sell": [
         {
           "sym": "ERAUSDT",
-          "rsi": 82.1,
-          "price": 0.1028,
-          "vol": 19546856.62134,
+          "rsi": 84.5,
+          "price": 0.1107,
+          "vol": 21560150.43111,
           "label": "ALTO"
         },
         {
           "sym": "EPICUSDT",
-          "rsi": 80.5,
+          "rsi": 80.9,
           "price": 0.543,
-          "vol": 3378241.4093,
+          "vol": 3952542.1185,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "币安人生USDT",
+          "rsi": 15.1,
+          "price": 0.5835,
+          "vol": 5082777.91895,
+          "label": "BAJO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 18.9,
+          "price": 0.0961,
+          "vol": 2110336.5699,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -107,17 +142,17 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 23.4,
-          "price": 0.6274,
-          "vol": 3779834.14524,
+          "sym": "NIGHTUSDT",
+          "rsi": 23.8,
+          "price": 0.01963,
+          "vol": 18993218.67229,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "NIGHTUSDT",
-          "rsi": 23.7,
-          "price": 0.01973,
-          "vol": 18773352.75621,
+          "sym": "DEXEUSDT",
+          "rsi": 24.9,
+          "price": 13.991,
+          "vol": 74314364.0534,
           "label": "SOBREVENDIDO"
         }
       ],
