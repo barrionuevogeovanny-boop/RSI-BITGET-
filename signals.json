@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T01:01:19.564Z",
-  "updated_ts": 1784595679564,
+  "updated": "2026-07-21T04:22:09.193Z",
+  "updated_ts": 1784607729193,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ERAUSDT",
-          "rsi": 93.5,
-          "price": 0.0803,
-          "vol": 2496365.62907,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,59 +23,66 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
           "sym": "ERAUSDT",
-          "rsi": 89.7,
-          "price": 0.0803,
-          "vol": 2496365.62907,
+          "rsi": 92.7,
+          "price": 0.1069,
+          "vol": 10456785.46532,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "LAUSDT",
+          "rsi": 86.2,
+          "price": 0.0587,
+          "vol": 3244638.66488,
           "label": "MUY ALTO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 80.4,
-          "price": 0.10223,
-          "vol": 2935968.290088,
+          "sym": "LDOUSDT",
+          "rsi": 83.4,
+          "price": 0.4019,
+          "vol": 4693873.893621,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 13.3,
-          "price": 0.01794,
-          "vol": 12719879.52044,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "NIGHTUSDT",
+          "rsi": 15.7,
+          "price": 0.01762,
+          "vol": 14208966.10535,
+          "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
-          "sym": "HEMIUSDT",
-          "rsi": 91,
-          "price": 0.00699,
-          "vol": 20241333.106295,
-          "label": "EXTREMO"
+          "sym": "ERAUSDT",
+          "rsi": 86.4,
+          "price": 0.1069,
+          "vol": 10456785.46532,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "NIGHTUSDT",
-          "rsi": 9.3,
-          "price": 0.01794,
-          "vol": 12719879.52044,
+          "rsi": 9,
+          "price": 0.01762,
+          "vol": 14208966.10535,
           "label": "EXTREMO"
         },
         {
@@ -92,16 +91,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZILUSDT",
-          "rsi": 24.7,
-          "price": 0.00245,
-          "vol": 2738679.679703,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     }
   }
 }
