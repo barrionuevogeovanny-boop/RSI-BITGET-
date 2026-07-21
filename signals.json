@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T09:17:52.301Z",
-  "updated_ts": 1784625472301,
+  "updated": "2026-07-21T11:20:27.749Z",
+  "updated_ts": 1784632827749,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,6 +16,13 @@
       "sell": [],
       "buy": [
         {
+          "sym": "KGSTUSDT",
+          "rsi": 15.2,
+          "price": 0.011441,
+          "vol": 3163117.046816,
+          "label": "BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -23,10 +30,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "SYNUSDT",
-          "rsi": 24.8,
-          "price": 0.20311,
-          "vol": 5348835.675441,
+          "sym": "TOWNSUSDT",
+          "rsi": 21.1,
+          "price": 0.00203,
+          "vol": 63462386.71647,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TLMUSDT",
+          "rsi": 24.5,
+          "price": 0.001645,
+          "vol": 4559026.025956,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -36,9 +50,16 @@
       "sell": [
         {
           "sym": "ONDOUSDT",
-          "rsi": 81.8,
-          "price": 0.3916,
-          "vol": 19414131.31322,
+          "rsi": 85,
+          "price": 0.4023,
+          "vol": 23905735.45935,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 83.4,
+          "price": 0.543,
+          "vol": 3378241.4093,
           "label": "ALTO"
         }
       ],
@@ -49,6 +70,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 23.5,
+          "price": 0.004589,
+          "vol": 2330038.085056,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 111
@@ -57,25 +85,39 @@
       "sell": [
         {
           "sym": "ERAUSDT",
-          "rsi": 81.1,
-          "price": 0.1009,
-          "vol": 17052042.50629,
+          "rsi": 82.1,
+          "price": 0.1028,
+          "vol": 19546856.62134,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 80.5,
+          "price": 0.543,
+          "vol": 3378241.4093,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "NIGHTUSDT",
-          "rsi": 21.2,
-          "price": 0.01884,
-          "vol": 17097789.94445,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 23.4,
+          "price": 0.6274,
+          "vol": 3779834.14524,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NIGHTUSDT",
+          "rsi": 23.7,
+          "price": 0.01973,
+          "vol": 18773352.75621,
           "label": "SOBREVENDIDO"
         }
       ],
