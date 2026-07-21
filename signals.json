@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T21:36:01.896Z",
-  "updated_ts": 1784669761896,
+  "updated": "2026-07-21T22:31:26.480Z",
+  "updated_ts": 1784673086480,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 22.8,
+          "price": 6.779,
+          "vol": 98672364.63654,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 110
@@ -28,24 +35,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 82.3,
-          "price": 1636.1,
-          "vol": 18369412.228079,
-          "label": "ALTO"
-        },
-        {
           "sym": "MUBUSDT",
-          "rsi": 82.2,
-          "price": 985.65,
-          "vol": 8196038.26691,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DRAMBUSDT",
-          "rsi": 81.5,
-          "price": 59.92,
-          "vol": 2030390.6592,
+          "rsi": 80.7,
+          "price": 979.55,
+          "vol": 8371345.05247,
           "label": "ALTO"
         }
       ],
@@ -59,44 +52,36 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 22.1,
-          "price": 7.946,
-          "vol": 96525752.45167,
+          "rsi": 20.9,
+          "price": 6.779,
+          "vol": 98672364.63654,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 24,
+          "price": 0.0752,
+          "vol": 5803392.1212,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 110
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ONEUSDT",
-          "rsi": 82.2,
-          "price": 0.00153,
-          "vol": 6762218.00961,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CRCLBUSDT",
-          "rsi": 80.4,
-          "price": 70.82,
-          "vol": 9953737.0296,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "RIFUSDT",
-          "rsi": 13.4,
-          "price": 0.0776,
-          "vol": 5698259.6887,
+          "rsi": 12.8,
+          "price": 0.0752,
+          "vol": 5803392.1212,
           "label": "MUY BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 21.6,
-          "price": 7.946,
-          "vol": 96525752.45167,
+          "rsi": 20.9,
+          "price": 6.779,
+          "vol": 98672364.63654,
           "label": "SOBREVENDIDO"
         },
         {
