@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T14:50:23.654Z",
-  "updated_ts": 1784645423654,
+  "updated": "2026-07-21T16:09:51.806Z",
+  "updated_ts": 1784650191806,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,17 @@
     "15m": {
       "sell": [
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 82.9,
-          "price": 127.99,
-          "vol": 18437099.26302,
+          "sym": "OPNUSDT",
+          "rsi": 85.1,
+          "price": 0.0715,
+          "vol": 108597847.44284,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 82.3,
+          "price": 0.01365,
+          "vol": 2725540.383258,
           "label": "ALTO"
         }
       ],
@@ -29,56 +36,35 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 18.7,
-          "price": 9.363,
-          "vol": 81721313.33802,
-          "label": "BAJO"
-        },
-        {
-          "sym": "RIFUSDT",
-          "rsi": 19.6,
-          "price": 0.0782,
-          "vol": 3931966.2325,
-          "label": "BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
-          "sym": "ONEUSDT",
-          "rsi": 85.4,
-          "price": 0.00153,
-          "vol": 4103129.213296,
+          "sym": "OPNUSDT",
+          "rsi": 87.8,
+          "price": 0.0715,
+          "vol": 108597847.44284,
           "label": "MUY ALTO"
         },
         {
-          "sym": "ONDOUSDT",
-          "rsi": 84.9,
-          "price": 0.4077,
-          "vol": 27901949.16416,
+          "sym": "ONEUSDT",
+          "rsi": 84.1,
+          "price": 0.00159,
+          "vol": 4868954.087332,
           "label": "ALTO"
         },
         {
-          "sym": "OPNUSDT",
-          "rsi": 81,
-          "price": 0.0679,
-          "vol": 106814522.96352,
+          "sym": "MUBUSDT",
+          "rsi": 83.9,
+          "price": 969.38,
+          "vol": 7769070.30896,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "RIFUSDT",
-          "rsi": 10.7,
-          "price": 0.0782,
-          "vol": 3931966.2325,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -88,51 +74,58 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 21.4,
-          "price": 9.363,
-          "vol": 81721313.33802,
+          "rsi": 23.6,
+          "price": 9.952,
+          "vol": 86365263.44465,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 86.3,
-          "price": 0.00153,
-          "vol": 4103129.213296,
+          "rsi": 87.7,
+          "price": 0.00159,
+          "vol": 4868954.087332,
           "label": "MUY ALTO"
         },
         {
-          "sym": "ERAUSDT",
-          "rsi": 82.1,
-          "price": 0.1028,
-          "vol": 23445719.80625,
+          "sym": "EPICUSDT",
+          "rsi": 80.6,
+          "price": 0.541,
+          "vol": 4653609.7462,
           "label": "ALTO"
         },
         {
           "sym": "CRCLBUSDT",
-          "rsi": 81.9,
-          "price": 69.67,
-          "vol": 10478075.734,
+          "rsi": 80.2,
+          "price": 70.74,
+          "vol": 9852681.5335,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
+          "sym": "币安人生USDT",
+          "rsi": 18.2,
+          "price": 0.592,
+          "vol": 5661752.00622,
+          "label": "BAJO"
+        },
+        {
           "sym": "RIFUSDT",
-          "rsi": 13.6,
-          "price": 0.0782,
-          "vol": 3931966.2325,
-          "label": "MUY BAJO"
+          "rsi": 21.8,
+          "price": 0.092,
+          "vol": 4526004.5535,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 22.3,
-          "price": 9.363,
-          "vol": 81721313.33802,
+          "rsi": 22.6,
+          "price": 9.952,
+          "vol": 86365263.44465,
           "label": "SOBREVENDIDO"
         },
         {
@@ -143,7 +136,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     }
   }
 }
