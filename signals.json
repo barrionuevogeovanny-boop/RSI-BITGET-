@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T09:36:24.782Z",
-  "updated_ts": 1784712984782,
+  "updated": "2026-07-22T11:27:44.690Z",
+  "updated_ts": 1784719664690,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PROMUSDT",
+          "rsi": 82.5,
+          "price": 1.697,
+          "vol": 2668067.5281,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,16 +31,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "1h": {
       "sell": [
         {
           "sym": "REUSDT",
-          "rsi": 89.6,
-          "price": 0.4715,
-          "vol": 349471872.55651,
-          "label": "MUY ALTO"
+          "rsi": 90.6,
+          "price": 0.4794,
+          "vol": 388694979.15046,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -44,59 +52,45 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "RIFUSDT",
-          "rsi": 19.2,
-          "price": 0.0479,
-          "vol": 10110454.0748,
-          "label": "BAJO"
-        },
-        {
           "sym": "DEXEUSDT",
-          "rsi": 19.6,
-          "price": 4.684,
-          "vol": 79932110.04747,
-          "label": "BAJO"
+          "rsi": 21.9,
+          "price": 4.734,
+          "vol": 63797949.59753,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "4h": {
       "sell": [
         {
           "sym": "EPICUSDT",
-          "rsi": 83.2,
-          "price": 0.5769,
-          "vol": 5224927.22287,
-          "label": "ALTO"
+          "rsi": 87.8,
+          "price": 0.6318,
+          "vol": 5744357.89166,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "RIFUSDT",
-          "rsi": 9.9,
-          "price": 0.0479,
-          "vol": 10110454.0748,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 19.9,
-          "price": 4.684,
-          "vol": 79932110.04747,
+          "rsi": 16.3,
+          "price": 0.0552,
+          "vol": 10747948.0502,
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 22.5,
-          "price": 0.582,
-          "vol": 5338959.50459,
-          "label": "SOBREVENDIDO"
+          "sym": "DEXEUSDT",
+          "rsi": 20,
+          "price": 4.734,
+          "vol": 63797949.59753,
+          "label": "BAJO"
         },
         {
           "sym": "ATMUSDT",
-          "rsi": 22.5,
-          "price": 1.854,
-          "vol": 4815237.24523,
+          "rsi": 23,
+          "price": 1.88,
+          "vol": 5000559.25935,
           "label": "SOBREVENDIDO"
         },
         {
@@ -107,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     }
   }
 }
