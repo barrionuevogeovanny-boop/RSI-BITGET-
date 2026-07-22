@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T21:31:34.759Z",
-  "updated_ts": 1784755894759,
+  "updated": "2026-07-22T22:36:35.096Z",
+  "updated_ts": 1784759795096,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,10 @@
           "label": "BAJO"
         },
         {
-          "sym": "GOOGLBUSDT",
-          "rsi": 24.2,
-          "price": 328.47,
-          "vol": 3060162.15634,
+          "sym": "TSLABUSDT",
+          "rsi": 22.1,
+          "price": 358.47,
+          "vol": 2421093.43388,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -36,13 +36,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "GOOGLBUSDT",
-          "rsi": 8.6,
-          "price": 328.47,
-          "vol": 3060162.15634,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
@@ -50,10 +43,24 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "GOOGLBUSDT",
+          "rsi": 17.1,
+          "price": 331.12,
+          "vol": 3234791.6103,
+          "label": "BAJO"
+        },
+        {
+          "sym": "TSLABUSDT",
+          "rsi": 18.4,
+          "price": 358.47,
+          "vol": 2421093.43388,
+          "label": "BAJO"
+        },
+        {
           "sym": "DEXEUSDT",
-          "rsi": 23.1,
-          "price": 4.461,
-          "vol": 41670594.10019,
+          "rsi": 22.6,
+          "price": 4.325,
+          "vol": 39574552.67452,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -66,14 +73,14 @@
           "sym": "PYRUSDT",
           "rsi": 15.5,
           "price": 0.089,
-          "vol": 2122734.430181,
+          "vol": 2102864.24028,
           "label": "BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 19.9,
-          "price": 4.461,
-          "vol": 41670594.10019,
+          "rsi": 19.8,
+          "price": 4.325,
+          "vol": 39574552.67452,
           "label": "BAJO"
         },
         {
@@ -81,13 +88,6 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 24.2,
-          "price": 328.47,
-          "vol": 3060162.15634,
           "label": "SOBREVENDIDO"
         }
       ],
