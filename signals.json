@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T17:53:49.022Z",
-  "updated_ts": 1784742829022,
+  "updated": "2026-07-22T18:59:46.219Z",
+  "updated_ts": 1784746786219,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 23.8,
+          "price": 117,
+          "vol": 14787485.84402,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 112
     },
     "1h": {
       "sell": [],
@@ -37,36 +44,36 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 23.6,
-          "price": 4.577,
-          "vol": 49270229.43517,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PYRUSDT",
-          "rsi": 24.3,
-          "price": 0.087,
-          "vol": 2113115.834145,
+          "rsi": 23.5,
+          "price": 4.544,
+          "vol": 44907185.07535,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 112
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "PYRUSDT",
-          "rsi": 16.4,
-          "price": 0.087,
-          "vol": 2113115.834145,
+          "rsi": 16.9,
+          "price": 0.089,
+          "vol": 2115211.739922,
           "label": "BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 20.1,
-          "price": 4.577,
-          "vol": 49270229.43517,
+          "rsi": 20,
+          "price": 4.544,
+          "vol": 44907185.07535,
+          "label": "BAJO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 23,
+          "price": 0.0609,
+          "vol": 8805512.8659,
           "label": "SOBREVENDIDO"
         },
         {
@@ -75,23 +82,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "RIFUSDT",
-          "rsi": 23.6,
-          "price": 0.0618,
-          "vol": 8990243.1658,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ATMUSDT",
-          "rsi": 24.2,
-          "price": 1.881,
-          "vol": 4842966.03862,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 112
     }
   }
 }
