@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T12:59:03.823Z",
-  "updated_ts": 1784725143823,
+  "updated": "2026-07-22T15:08:12.588Z",
+  "updated_ts": 1784732892588,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "JUPUSDT",
-          "rsi": 17.8,
-          "price": 0.1911,
-          "vol": 2108337.68973,
-          "label": "BAJO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     },
     "1h": {
       "sell": [],
@@ -44,29 +37,30 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 22.6,
-          "price": 4.699,
-          "vol": 59386824.13148,
+          "rsi": 23.9,
+          "price": 4.877,
+          "vol": 52575454.96143,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HBARUSDT",
+          "rsi": 81.5,
+          "price": 0.073,
+          "vol": 8743228.92444,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "RIFUSDT",
-          "rsi": 19,
-          "price": 0.0573,
-          "vol": 10552985.4095,
-          "label": "BAJO"
-        },
-        {
           "sym": "DEXEUSDT",
-          "rsi": 20.2,
-          "price": 4.699,
-          "vol": 59386824.13148,
+          "rsi": 20.6,
+          "price": 4.877,
+          "vol": 52575454.96143,
           "label": "SOBREVENDIDO"
         },
         {
@@ -75,9 +69,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 23.8,
+          "price": 0.0617,
+          "vol": 9686013.8891,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 108
     }
   }
 }
