@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T22:36:35.096Z",
-  "updated_ts": 1784759795096,
+  "updated": "2026-07-22T23:36:02.442Z",
+  "updated_ts": 1784763362442,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 22.1,
-          "price": 358.47,
-          "vol": 2421093.43388,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "1h": {
       "sell": [],
@@ -44,43 +37,36 @@
         },
         {
           "sym": "GOOGLBUSDT",
-          "rsi": 17.1,
-          "price": 331.12,
-          "vol": 3234791.6103,
-          "label": "BAJO"
+          "rsi": 20.2,
+          "price": 332.02,
+          "vol": 3275970.98747,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "TSLABUSDT",
-          "rsi": 18.4,
-          "price": 358.47,
-          "vol": 2421093.43388,
-          "label": "BAJO"
+          "rsi": 21.1,
+          "price": 359.32,
+          "vol": 2454204.23005,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 22.6,
-          "price": 4.325,
-          "vol": 39574552.67452,
+          "rsi": 24.9,
+          "price": 4.48,
+          "vol": 36348132.132,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "PYRUSDT",
-          "rsi": 15.5,
-          "price": 0.089,
-          "vol": 2102864.24028,
-          "label": "BAJO"
-        },
-        {
           "sym": "DEXEUSDT",
-          "rsi": 19.8,
-          "price": 4.325,
-          "vol": 39574552.67452,
+          "rsi": 19.9,
+          "price": 4.48,
+          "vol": 36348132.132,
           "label": "BAJO"
         },
         {
@@ -91,7 +77,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     }
   }
 }
