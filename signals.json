@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-22T16:42:13.252Z",
-  "updated_ts": 1784738533252,
+  "updated": "2026-07-22T17:53:49.022Z",
+  "updated_ts": 1784742829022,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "WLFIUSDT",
-          "rsi": 20.1,
-          "price": 0.0551,
-          "vol": 4140197.74626,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "USDCUSDT",
-          "rsi": 20.6,
-          "price": 1.00039,
-          "vol": 1906476404.86495,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 113
@@ -51,51 +37,57 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 22.4,
-          "price": 4.417,
-          "vol": 49969426.25425,
+          "rsi": 23.6,
+          "price": 4.577,
+          "vol": 49270229.43517,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PYRUSDT",
           "rsi": 24.3,
-          "price": 0.086,
-          "vol": 2045448.265556,
+          "price": 0.087,
+          "vol": 2113115.834145,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 113
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HBARUSDT",
-          "rsi": 82.6,
-          "price": 0.07353,
-          "vol": 10032434.31371,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "PYRUSDT",
           "rsi": 16.4,
-          "price": 0.086,
-          "vol": 2045448.265556,
+          "price": 0.087,
+          "vol": 2113115.834145,
           "label": "BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 19.8,
-          "price": 4.417,
-          "vol": 49969426.25425,
-          "label": "BAJO"
+          "rsi": 20.1,
+          "price": 4.577,
+          "vol": 49270229.43517,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 23.6,
+          "price": 0.0618,
+          "vol": 8990243.1658,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ATMUSDT",
+          "rsi": 24.2,
+          "price": 1.881,
+          "vol": 4842966.03862,
           "label": "SOBREVENDIDO"
         }
       ],
