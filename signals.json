@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T21:42:03.972Z",
-  "updated_ts": 1784842923972,
+  "updated": "2026-07-23T22:38:26.865Z",
+  "updated_ts": 1784846306865,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -36,18 +36,25 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TSLABUSDT",
-          "rsi": 18.2,
-          "price": 322.83,
-          "vol": 6633467.55147,
+          "sym": "DEXEUSDT",
+          "rsi": 17.7,
+          "price": 1.985,
+          "vol": 45132441.026,
           "label": "BAJO"
         },
         {
-          "sym": "DEXEUSDT",
+          "sym": "TSLABUSDT",
           "rsi": 19.3,
-          "price": 2.171,
-          "vol": 44490745.02164,
+          "price": 324.2,
+          "vol": 6181356.13612,
           "label": "BAJO"
+        },
+        {
+          "sym": "EIGENUSDT",
+          "rsi": 23.3,
+          "price": 0.2205,
+          "vol": 2500038.470618,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 102
@@ -57,30 +64,30 @@
       "buy": [
         {
           "sym": "TSLABUSDT",
-          "rsi": 15.4,
-          "price": 322.83,
-          "vol": 6633467.55147,
+          "rsi": 17.2,
+          "price": 324.2,
+          "vol": 6181356.13612,
           "label": "BAJO"
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 17.8,
-          "price": 2.171,
-          "vol": 44490745.02164,
+          "rsi": 17.7,
+          "price": 1.985,
+          "vol": 45132441.026,
           "label": "BAJO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 22.8,
-          "price": 319.33,
-          "vol": 3183195.8141,
-          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GOOGLBUSDT",
+          "rsi": 23.8,
+          "price": 319.87,
+          "vol": 3097948.96119,
           "label": "SOBREVENDIDO"
         }
       ],
