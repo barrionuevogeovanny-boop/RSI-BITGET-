@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-23T04:29:42.813Z",
-  "updated_ts": 1784780982813,
+  "updated": "2026-07-23T07:08:09.029Z",
+  "updated_ts": 1784790489029,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EURUSDT",
-          "rsi": 82.7,
-          "price": 1.1439,
-          "vol": 10679524.28044,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "KITEUSDT",
+          "rsi": 21.3,
+          "price": 0.1155,
+          "vol": 128101766.82262,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 102
     },
     "1h": {
       "sell": [],
@@ -44,24 +43,52 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "PYRUSDT",
+          "rsi": 19.5,
+          "price": 0.079,
+          "vol": 2018892.050623,
+          "label": "BAJO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 20.1,
+          "price": 3.523,
+          "vol": 29551045.75067,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "TSLABUSDT",
-          "rsi": 23.2,
-          "price": 358.58,
-          "vol": 2628677.48748,
+          "rsi": 23.6,
+          "price": 358.11,
+          "vol": 2861918.73254,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 24.1,
+          "price": 0.14938,
+          "vol": 8745399.86266,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 102
     },
     "4h": {
       "sell": [],
       "buy": [
         {
+          "sym": "PYRUSDT",
+          "rsi": 11.3,
+          "price": 0.079,
+          "vol": 2018892.050623,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "DEXEUSDT",
-          "rsi": 20.4,
-          "price": 4.2,
-          "vol": 31399480.91071,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.2,
+          "price": 3.523,
+          "vol": 29551045.75067,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -69,16 +96,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ATMUSDT",
-          "rsi": 23.9,
-          "price": 1.826,
-          "vol": 2410623.71183,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 101
     }
   }
 }
