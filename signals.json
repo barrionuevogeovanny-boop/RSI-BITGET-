@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-24T18:57:05.933Z",
-  "updated_ts": 1784919425933,
+  "updated": "2026-07-24T20:19:51.716Z",
+  "updated_ts": 1784924391716,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 80.3,
-          "price": 0.00551,
-          "vol": 3112044.442747,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,18 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 101
+      "scanned": 100
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ACEUSDT",
-          "rsi": 80.8,
-          "price": 0.1069,
-          "vol": 6830206.29458,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -53,50 +37,36 @@
         },
         {
           "sym": "SUIUSDT",
-          "rsi": 16.5,
-          "price": 0.7107,
-          "vol": 19857153.77863,
-          "label": "BAJO"
-        },
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 16.6,
-          "price": 309.93,
-          "vol": 4897355.84286,
+          "rsi": 19.4,
+          "price": 0.7116,
+          "vol": 20037752.1936,
           "label": "BAJO"
         },
         {
           "sym": "SOLUSDT",
-          "rsi": 24.3,
-          "price": 74.01,
-          "vol": 107700094.57906,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 24.4,
-          "price": 1432.88,
-          "vol": 8984589.166039,
+          "rsi": 23.7,
+          "price": 73.93,
+          "vol": 107069680.14717,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 100
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "TSLABUSDT",
-          "rsi": 16.4,
-          "price": 309.93,
-          "vol": 4897355.84286,
+          "rsi": 19.9,
+          "price": 313.71,
+          "vol": 4727505.27227,
           "label": "BAJO"
         },
         {
           "sym": "STXUSDT",
-          "rsi": 17.3,
-          "price": 0.1454,
-          "vol": 3538286.36975,
+          "rsi": 20,
+          "price": 0.146,
+          "vol": 3683354.99625,
           "label": "BAJO"
         },
         {
