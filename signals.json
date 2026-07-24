@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-24T20:19:51.716Z",
-  "updated_ts": 1784924391716,
+  "updated": "2026-07-24T21:32:36.584Z",
+  "updated_ts": 1784928756584,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ETCUSDT",
+          "rsi": 20.7,
+          "price": 6.54,
+          "vol": 3368408.6727,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 100
@@ -37,16 +44,23 @@
         },
         {
           "sym": "SUIUSDT",
-          "rsi": 19.4,
-          "price": 0.7116,
-          "vol": 20037752.1936,
-          "label": "BAJO"
+          "rsi": 20.2,
+          "price": 0.7117,
+          "vol": 20139014.58236,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "SOLUSDT",
-          "rsi": 23.7,
-          "price": 73.93,
-          "vol": 107069680.14717,
+          "rsi": 21.5,
+          "price": 73.71,
+          "vol": 110740457.78587,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETCUSDT",
+          "rsi": 24.4,
+          "price": 6.54,
+          "vol": 3368408.6727,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -56,17 +70,17 @@
       "sell": [],
       "buy": [
         {
-          "sym": "TSLABUSDT",
-          "rsi": 19.9,
-          "price": 313.71,
-          "vol": 4727505.27227,
+          "sym": "STXUSDT",
+          "rsi": 19.3,
+          "price": 0.1458,
+          "vol": 3765204.6477,
           "label": "BAJO"
         },
         {
-          "sym": "STXUSDT",
-          "rsi": 20,
-          "price": 0.146,
-          "vol": 3683354.99625,
+          "sym": "TSLABUSDT",
+          "rsi": 19.5,
+          "price": 313.44,
+          "vol": 4665255.26846,
           "label": "BAJO"
         },
         {
@@ -74,6 +88,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETCUSDT",
+          "rsi": 23.4,
+          "price": 6.54,
+          "vol": 3368408.6727,
           "label": "SOBREVENDIDO"
         }
       ],
