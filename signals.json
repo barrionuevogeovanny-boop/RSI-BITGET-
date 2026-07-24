@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-24T21:32:36.584Z",
-  "updated_ts": 1784928756584,
+  "updated": "2026-07-24T23:40:53.209Z",
+  "updated_ts": 1784936453209,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,18 +23,32 @@
           "label": "BAJO"
         },
         {
-          "sym": "ETCUSDT",
-          "rsi": 20.7,
-          "price": 6.54,
-          "vol": 3368408.6727,
+          "sym": "ETHFIUSDT",
+          "rsi": 19,
+          "price": 0.4186,
+          "vol": 2336101.40287,
+          "label": "BAJO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 24.9,
+          "price": 0.6372,
+          "vol": 4394260.91698,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 103
     },
     "1h": {
       "sell": [],
       "buy": [
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 13.5,
+          "price": 0.4186,
+          "vol": 2336101.40287,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -44,43 +58,29 @@
         },
         {
           "sym": "SUIUSDT",
-          "rsi": 20.2,
-          "price": 0.7117,
-          "vol": 20139014.58236,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 21.5,
-          "price": 73.71,
-          "vol": 110740457.78587,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ETCUSDT",
-          "rsi": 24.4,
-          "price": 6.54,
-          "vol": 3368408.6727,
+          "rsi": 23.5,
+          "price": 0.7104,
+          "vol": 20030661.46123,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 103
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "STXUSDT",
-          "rsi": 19.3,
-          "price": 0.1458,
-          "vol": 3765204.6477,
+          "rsi": 15,
+          "price": 0.1444,
+          "vol": 3835629.52631,
           "label": "BAJO"
         },
         {
           "sym": "TSLABUSDT",
-          "rsi": 19.5,
-          "price": 313.44,
-          "vol": 4665255.26846,
+          "rsi": 18.9,
+          "price": 311.5,
+          "vol": 4687938.86045,
           "label": "BAJO"
         },
         {
@@ -94,11 +94,11 @@
           "sym": "ETCUSDT",
           "rsi": 23.4,
           "price": 6.54,
-          "vol": 3368408.6727,
+          "vol": 3350211.9597,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 102
     }
   }
 }
