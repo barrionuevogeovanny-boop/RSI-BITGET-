@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T16:27:18.812Z",
-  "updated_ts": 1784996838812,
+  "updated": "2026-07-25T17:31:03.281Z",
+  "updated_ts": 1785000663281,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,36 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 90.3,
+          "price": 0.006221,
+          "vol": 2408297.281588,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 88.6,
+          "price": 0.3334,
+          "vol": 18724340.42552,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 87.3,
+          "price": 0.07279,
+          "vol": 33770810.11903,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 83.4,
+          "price": 0.00000496,
+          "vol": 12180062.5559414,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,22 +52,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
           "sym": "SHIBUSDT",
-          "rsi": 93.3,
-          "price": 0.00000478,
-          "vol": 9129191.91449877,
+          "rsi": 95,
+          "price": 0.00000496,
+          "vol": 12180062.5559414,
           "label": "EXTREMO"
         },
         {
           "sym": "AVAXUSDT",
-          "rsi": 84.3,
-          "price": 6.609,
-          "vol": 14880090.15343,
+          "rsi": 83.4,
+          "price": 6.653,
+          "vol": 17447859.94261,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 83.1,
+          "price": 0.07279,
+          "vol": 33770810.11903,
           "label": "ALTO"
         }
       ],
@@ -52,41 +88,41 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 19.8,
-          "price": 0.3345,
-          "vol": 22509430.18297,
-          "label": "BAJO"
+          "rsi": 24.4,
+          "price": 0.3393,
+          "vol": 24885568.82742,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "4h": {
       "sell": [
         {
           "sym": "SHIBUSDT",
-          "rsi": 84.8,
-          "price": 0.00000478,
-          "vol": 9129191.91449877,
-          "label": "ALTO"
+          "rsi": 87.8,
+          "price": 0.00000496,
+          "vol": 12180062.5559414,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 23.3,
-          "price": 0.3345,
-          "vol": 22509430.18297,
-          "label": "SOBREVENDIDO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.8,
+          "price": 0.3393,
+          "vol": 24885568.82742,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     }
   }
 }
