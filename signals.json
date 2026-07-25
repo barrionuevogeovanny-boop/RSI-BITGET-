@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T12:37:52.187Z",
-  "updated_ts": 1784983072187,
+  "updated": "2026-07-25T14:16:06.564Z",
+  "updated_ts": 1784988966564,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 88.7,
+          "price": 6.546,
+          "vol": 9856021.01009,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,25 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 98
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 81.7,
+          "price": 6.546,
+          "vol": 9856021.01009,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 80.4,
+          "price": 0.00000434,
+          "vol": 2594272.0890954,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -37,41 +60,41 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 24.3,
-          "price": 0.3811,
-          "vol": 16253765.34222,
+          "rsi": 21.4,
+          "price": 0.3485,
+          "vol": 20151197.67448,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 98
     },
     "4h": {
       "sell": [
         {
           "sym": "EULUSDT",
           "rsi": 89.8,
-          "price": 1.675,
-          "vol": 12633220.7778,
+          "price": 1.677,
+          "vol": 14066656.13283,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 19.4,
-          "price": 311.39,
-          "vol": 2566955.05355,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.6,
+          "price": 0.3485,
+          "vol": 20151197.67448,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 98
     }
   }
 }
