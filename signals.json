@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T11:35:31.026Z",
-  "updated_ts": 1784979331026,
+  "updated": "2026-07-25T12:37:52.187Z",
+  "updated_ts": 1784983072187,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 10.6,
-          "price": 109.87,
-          "vol": 17381766.79878,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     },
     "1h": {
       "sell": [],
@@ -44,30 +37,30 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 19.5,
-          "price": 0.3727,
-          "vol": 16093891.61944,
-          "label": "BAJO"
+          "rsi": 24.3,
+          "price": 0.3811,
+          "vol": 16253765.34222,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "EULUSDT",
-          "rsi": 92,
-          "price": 1.643,
-          "vol": 11429851.49354,
-          "label": "EXTREMO"
+          "rsi": 89.8,
+          "price": 1.675,
+          "vol": 12633220.7778,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "TSLABUSDT",
-          "rsi": 19.3,
-          "price": 311.24,
-          "vol": 2942301.87538,
+          "rsi": 19.4,
+          "price": 311.39,
+          "vol": 2566955.05355,
           "label": "BAJO"
         },
         {
@@ -78,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 102
     }
   }
 }
