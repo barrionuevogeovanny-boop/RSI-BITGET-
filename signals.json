@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T08:35:39.761Z",
-  "updated_ts": 1784968539761,
+  "updated": "2026-07-25T10:13:19.774Z",
+  "updated_ts": 1784974399774,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,24 +21,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 19.7,
-          "price": 0.3823,
-          "vol": 13221717.97483,
-          "label": "BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
-          "sym": "DEXEUSDT",
-          "rsi": 81.5,
-          "price": 6.159,
-          "vol": 180501227.75232,
+          "sym": "EULUSDT",
+          "rsi": 80.1,
+          "price": 1.651,
+          "vol": 8732299.76701,
           "label": "ALTO"
         }
       ],
@@ -52,43 +45,37 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 17,
-          "price": 0.3823,
-          "vol": 13221717.97483,
+          "rsi": 19.7,
+          "price": 0.3793,
+          "vol": 15485979.88682,
           "label": "BAJO"
-        },
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 23.2,
-          "price": 0.4135,
-          "vol": 2368797.76237,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 24.9,
-          "price": 475.75,
-          "vol": 52115259.00888,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EULUSDT",
+          "rsi": 92.1,
+          "price": 1.651,
+          "vol": 8732299.76701,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "STXUSDT",
-          "rsi": 11.7,
-          "price": 0.1366,
-          "vol": 2196346.29895,
+          "rsi": 11.6,
+          "price": 0.1365,
+          "vol": 2058596.74692,
           "label": "MUY BAJO"
         },
         {
           "sym": "TSLABUSDT",
-          "rsi": 19.9,
-          "price": 311.82,
-          "vol": 3738596.34869,
+          "rsi": 19.5,
+          "price": 311.58,
+          "vol": 3433337.79338,
           "label": "BAJO"
         },
         {
@@ -97,16 +84,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 24.8,
-          "price": 475.75,
-          "vol": 52115259.00888,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     }
   }
 }
