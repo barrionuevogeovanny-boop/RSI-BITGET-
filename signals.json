@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T06:37:23.356Z",
-  "updated_ts": 1784961443356,
+  "updated": "2026-07-25T08:35:39.761Z",
+  "updated_ts": 1784968539761,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "ALLOUSDT",
-          "rsi": 11,
-          "price": 0.4144,
-          "vol": 7897103.02961,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,29 +23,22 @@
           "label": "BAJO"
         },
         {
-          "sym": "ADAUSDT",
-          "rsi": 22.6,
-          "price": 0.1619,
-          "vol": 8338657.28766,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PENGUUSDT",
-          "rsi": 25,
-          "price": 0.005956,
-          "vol": 2749502.161157,
-          "label": "SOBREVENDIDO"
+          "sym": "ALLOUSDT",
+          "rsi": 19.7,
+          "price": 0.3823,
+          "vol": 13221717.97483,
+          "label": "BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "1h": {
       "sell": [
         {
-          "sym": "EULUSDT",
-          "rsi": 83.3,
-          "price": 1.445,
-          "vol": 3889651.31665,
+          "sym": "DEXEUSDT",
+          "rsi": 81.5,
+          "price": 6.159,
+          "vol": 180501227.75232,
           "label": "ALTO"
         }
       ],
@@ -65,80 +51,44 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 18.7,
-          "price": 0.4143,
-          "vol": 2388223.00936,
+          "sym": "ALLOUSDT",
+          "rsi": 17,
+          "price": 0.3823,
+          "vol": 13221717.97483,
           "label": "BAJO"
         },
         {
-          "sym": "ALLOUSDT",
-          "rsi": 20.9,
-          "price": 0.4144,
-          "vol": 7897103.02961,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "STXUSDT",
+          "sym": "ETHFIUSDT",
           "rsi": 23.2,
-          "price": 0.1355,
-          "vol": 2264947.77561,
+          "price": 0.4135,
+          "vol": 2368797.76237,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ONDOUSDT",
-          "rsi": 23.7,
-          "price": 0.3758,
-          "vol": 10461401.43686,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "VIRTUALUSDT",
-          "rsi": 24.2,
-          "price": 0.5788,
-          "vol": 3269361.63767,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SUIUSDT",
-          "rsi": 24.6,
-          "price": 0.706,
-          "vol": 20164110.96534,
+          "sym": "ZECUSDT",
+          "rsi": 24.9,
+          "price": 475.75,
+          "vol": 52115259.00888,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "EULUSDT",
-          "rsi": 88.9,
-          "price": 1.445,
-          "vol": 3889651.31665,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 82.2,
-          "price": 0.06273,
-          "vol": 22999779.95395,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "STXUSDT",
-          "rsi": 11.2,
-          "price": 0.1355,
-          "vol": 2264947.77561,
+          "rsi": 11.7,
+          "price": 0.1366,
+          "vol": 2196346.29895,
           "label": "MUY BAJO"
         },
         {
           "sym": "TSLABUSDT",
-          "rsi": 19.5,
-          "price": 311.83,
-          "vol": 4067257.16781,
+          "rsi": 19.9,
+          "price": 311.82,
+          "vol": 3738596.34869,
           "label": "BAJO"
         },
         {
@@ -150,13 +100,13 @@
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 24.9,
-          "price": 477.65,
-          "vol": 52055813.64351,
+          "rsi": 24.8,
+          "price": 475.75,
+          "vol": 52115259.00888,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     }
   }
 }
