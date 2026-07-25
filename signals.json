@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T20:34:45.144Z",
-  "updated_ts": 1785011685144,
+  "updated": "2026-07-25T21:30:15.821Z",
+  "updated_ts": 1785015015821,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,23 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
           "sym": "AVAXUSDT",
-          "rsi": 87.6,
-          "price": 6.728,
-          "vol": 18995228.71937,
+          "rsi": 88.1,
+          "price": 6.745,
+          "vol": 20516907.805,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "WIFUSDT",
+          "rsi": 83,
+          "price": 0.1571,
+          "vol": 2057283.550341,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -44,18 +51,10 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "QIUSDT",
-          "rsi": 81.7,
-          "price": 0.001651,
-          "vol": 4092659.103016,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     }
   }
 }
