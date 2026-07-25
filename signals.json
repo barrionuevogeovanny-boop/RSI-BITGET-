@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T14:16:06.564Z",
-  "updated_ts": 1784988966564,
+  "updated": "2026-07-25T15:32:12.088Z",
+  "updated_ts": 1784993532088,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,18 @@
     "15m": {
       "sell": [
         {
-          "sym": "AVAXUSDT",
-          "rsi": 88.7,
-          "price": 6.546,
-          "vol": 9856021.01009,
-          "label": "MUY ALTO"
+          "sym": "SHIBUSDT",
+          "rsi": 91.2,
+          "price": 0.00000457,
+          "vol": 4393656.16392043,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 82.9,
+          "price": 0.615,
+          "vol": 2027538.79549,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,24 +36,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 24.7,
+          "price": 0.0891,
+          "vol": 8480129.9049,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
-          "sym": "AVAXUSDT",
-          "rsi": 81.7,
-          "price": 6.546,
-          "vol": 9856021.01009,
-          "label": "ALTO"
+          "sym": "SHIBUSDT",
+          "rsi": 90.2,
+          "price": 0.00000457,
+          "vol": 4393656.16392043,
+          "label": "EXTREMO"
         },
         {
-          "sym": "SHIBUSDT",
-          "rsi": 80.4,
-          "price": 0.00000434,
-          "vol": 2594272.0890954,
+          "sym": "AVAXUSDT",
+          "rsi": 83.2,
+          "price": 6.585,
+          "vol": 13009960.85872,
           "label": "ALTO"
         }
       ],
@@ -60,24 +74,16 @@
         },
         {
           "sym": "ALLOUSDT",
-          "rsi": 21.4,
-          "price": 0.3485,
-          "vol": 20151197.67448,
+          "rsi": 22.6,
+          "price": 0.3542,
+          "vol": 20653007.934,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 90
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "EULUSDT",
-          "rsi": 89.8,
-          "price": 1.677,
-          "vol": 14066656.13283,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -85,16 +91,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 24.6,
-          "price": 0.3485,
-          "vol": 20151197.67448,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 90
     }
   }
 }
