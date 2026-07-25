@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T22:29:32.309Z",
-  "updated_ts": 1785018572309,
+  "updated": "2026-07-25T23:32:49.723Z",
+  "updated_ts": 1785022369723,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,18 +21,25 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 24.2,
+          "price": 0.0791,
+          "vol": 7229608.841,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 86
     },
     "1h": {
       "sell": [
         {
           "sym": "AVAXUSDT",
-          "rsi": 90,
-          "price": 6.819,
-          "vol": 21952940.69915,
-          "label": "MUY ALTO"
+          "rsi": 82.9,
+          "price": 6.768,
+          "vol": 25154267.66054,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -44,7 +51,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 87
+      "scanned": 86
     },
     "4h": {
       "sell": [],
@@ -57,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 86
     }
   }
 }
