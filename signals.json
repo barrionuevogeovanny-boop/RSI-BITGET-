@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-25T04:26:29.966Z",
-  "updated_ts": 1784953589966,
+  "updated": "2026-07-25T06:37:23.356Z",
+  "updated_ts": 1784961443356,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,6 +16,13 @@
       "sell": [],
       "buy": [
         {
+          "sym": "ALLOUSDT",
+          "rsi": 11,
+          "price": 0.4144,
+          "vol": 7897103.02961,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -23,17 +30,32 @@
           "label": "BAJO"
         },
         {
-          "sym": "ALLOUSDT",
-          "rsi": 24.2,
-          "price": 0.4884,
-          "vol": 6421609.25032,
+          "sym": "ADAUSDT",
+          "rsi": 22.6,
+          "price": 0.1619,
+          "vol": 8338657.28766,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 25,
+          "price": 0.005956,
+          "vol": 2749502.161157,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EULUSDT",
+          "rsi": 83.3,
+          "price": 1.445,
+          "vol": 3889651.31665,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,37 +65,80 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "ONDOUSDT",
-          "rsi": 22.3,
-          "price": 0.3756,
-          "vol": 10698126.32515,
+          "sym": "ETHFIUSDT",
+          "rsi": 18.7,
+          "price": 0.4143,
+          "vol": 2388223.00936,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 20.9,
+          "price": 0.4144,
+          "vol": 7897103.02961,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 23.3,
-          "price": 0.4178,
-          "vol": 2384236.6763,
+          "sym": "STXUSDT",
+          "rsi": 23.2,
+          "price": 0.1355,
+          "vol": 2264947.77561,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONDOUSDT",
+          "rsi": 23.7,
+          "price": 0.3758,
+          "vol": 10461401.43686,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VIRTUALUSDT",
+          "rsi": 24.2,
+          "price": 0.5788,
+          "vol": 3269361.63767,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUIUSDT",
+          "rsi": 24.6,
+          "price": 0.706,
+          "vol": 20164110.96534,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EULUSDT",
+          "rsi": 88.9,
+          "price": 1.445,
+          "vol": 3889651.31665,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 82.2,
+          "price": 0.06273,
+          "vol": 22999779.95395,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "STXUSDT",
-          "rsi": 13.3,
-          "price": 0.1384,
-          "vol": 2740382.20342,
+          "rsi": 11.2,
+          "price": 0.1355,
+          "vol": 2264947.77561,
           "label": "MUY BAJO"
         },
         {
           "sym": "TSLABUSDT",
           "rsi": 19.5,
-          "price": 311.9,
-          "vol": 4273732.73293,
+          "price": 311.83,
+          "vol": 4067257.16781,
           "label": "BAJO"
         },
         {
@@ -82,9 +147,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 24.9,
+          "price": 477.65,
+          "vol": 52055813.64351,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 100
     }
   }
 }
