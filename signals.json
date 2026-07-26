@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T01:10:03.108Z",
-  "updated_ts": 1785028203108,
+  "updated": "2026-07-26T04:39:24.582Z",
+  "updated_ts": 1785040764582,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TAOUSDT",
+          "rsi": 89.7,
+          "price": 196.5,
+          "vol": 6597022.97478,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,17 +29,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 23.8,
+          "price": 0.00611,
+          "vol": 2656915.33164,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 83
     },
     "1h": {
       "sell": [
         {
-          "sym": "AVAXUSDT",
-          "rsi": 80.9,
-          "price": 6.762,
-          "vol": 25893447.87644,
+          "sym": "ORDIUSDT",
+          "rsi": 83.1,
+          "price": 3.987,
+          "vol": 2572021.33752,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 80.2,
+          "price": 0.0000054,
+          "vol": 33023798.79809238,
           "label": "ALTO"
         }
       ],
@@ -44,15 +66,29 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 83
     },
     "4h": {
       "sell": [
         {
           "sym": "EULUSDT",
-          "rsi": 83.3,
-          "price": 2.177,
-          "vol": 32755240.20461,
+          "rsi": 84.4,
+          "price": 2.276,
+          "vol": 40933406.52061,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DIAUSDT",
+          "rsi": 84.2,
+          "price": 0.1191,
+          "vol": 2174904.6487,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 81.8,
+          "price": 0.0000054,
+          "vol": 33023798.79809238,
           "label": "ALTO"
         }
       ],
@@ -65,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 83
     }
   }
 }
