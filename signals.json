@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T13:54:40.825Z",
-  "updated_ts": 1785074080825,
+  "updated": "2026-07-26T14:59:40.304Z",
+  "updated_ts": 1785077980304,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,23 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 91
     },
     "1h": {
       "sell": [
         {
+          "sym": "ESPUSDT",
+          "rsi": 90.9,
+          "price": 0.09977,
+          "vol": 7221837.55881,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "KAITOUSDT",
-          "rsi": 85.1,
-          "price": 1.2158,
-          "vol": 11966738.25483,
-          "label": "MUY ALTO"
+          "rsi": 81.4,
+          "price": 1.1997,
+          "vol": 13156731.81868,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -44,22 +51,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 91
     },
     "4h": {
       "sell": [
         {
-          "sym": "EULUSDT",
-          "rsi": 85.9,
-          "price": 2.512,
-          "vol": 44437229.35787,
-          "label": "MUY ALTO"
+          "sym": "ESPUSDT",
+          "rsi": 83.7,
+          "price": 0.09977,
+          "vol": 7221837.55881,
+          "label": "ALTO"
         },
         {
-          "sym": "DIAUSDT",
-          "rsi": 83.3,
-          "price": 0.1379,
-          "vol": 8018654.40084,
+          "sym": "EULUSDT",
+          "rsi": 80.9,
+          "price": 2.423,
+          "vol": 45537400.54538,
           "label": "ALTO"
         }
       ],
@@ -73,13 +80,13 @@
         },
         {
           "sym": "WLDUSDT",
-          "rsi": 23.9,
-          "price": 0.3324,
-          "vol": 10951067.1037,
+          "rsi": 24.7,
+          "price": 0.3341,
+          "vol": 11513359.46721,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 91
     }
   }
 }
