@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T11:00:17.035Z",
-  "updated_ts": 1785063617035,
+  "updated": "2026-07-26T12:10:17.777Z",
+  "updated_ts": 1785067817777,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,25 @@
     "15m": {
       "sell": [
         {
+          "sym": "KAITOUSDT",
+          "rsi": 83.4,
+          "price": 1.1892,
+          "vol": 8741496.29692,
+          "label": "ALTO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 82.4,
+          "price": 3.853,
+          "vol": 7401544.58113,
+          "label": "ALTO"
+        },
+        {
           "sym": "AAVEUSDT",
-          "rsi": 86.2,
-          "price": 95.89,
-          "vol": 9580991.86103,
-          "label": "MUY ALTO"
+          "rsi": 81.7,
+          "price": 95.91,
+          "vol": 10161023.27162,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,13 +43,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SCRUSDT",
-          "rsi": 23.9,
-          "price": 0.02075,
-          "vol": 2837468.590586,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 90
@@ -43,17 +50,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "LPTUSDT",
-          "rsi": 96,
-          "price": 1.639,
-          "vol": 5119009.39215,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 81.3,
-          "price": 47.21,
-          "vol": 9114268.10409,
+          "sym": "KAITOUSDT",
+          "rsi": 83.6,
+          "price": 1.1892,
+          "vol": 8741496.29692,
           "label": "ALTO"
         }
       ],
@@ -72,23 +72,23 @@
       "sell": [
         {
           "sym": "DIAUSDT",
-          "rsi": 93.1,
-          "price": 0.1485,
-          "vol": 6775815.03828,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "LPTUSDT",
-          "rsi": 85,
-          "price": 1.639,
-          "vol": 5119009.39215,
-          "label": "ALTO"
+          "rsi": 87.7,
+          "price": 0.1409,
+          "vol": 7309113.46637,
+          "label": "MUY ALTO"
         },
         {
           "sym": "EULUSDT",
-          "rsi": 84.7,
-          "price": 2.433,
-          "vol": 44367965.86312,
+          "rsi": 85.5,
+          "price": 2.515,
+          "vol": 44543150.47658,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LPTUSDT",
+          "rsi": 82,
+          "price": 1.592,
+          "vol": 6492821.06728,
           "label": "ALTO"
         }
       ],
@@ -102,9 +102,9 @@
         },
         {
           "sym": "WLDUSDT",
-          "rsi": 24.9,
-          "price": 0.3347,
-          "vol": 11424423.16347,
+          "rsi": 24.7,
+          "price": 0.3339,
+          "vol": 11324630.10352,
           "label": "SOBREVENDIDO"
         }
       ],
