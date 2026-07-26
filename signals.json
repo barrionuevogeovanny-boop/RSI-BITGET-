@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T12:10:17.777Z",
-  "updated_ts": 1785067817777,
+  "updated": "2026-07-26T13:54:40.825Z",
+  "updated_ts": 1785074080825,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 83.4,
-          "price": 1.1892,
-          "vol": 8741496.29692,
-          "label": "ALTO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 82.4,
-          "price": 3.853,
-          "vol": 7401544.58113,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 81.7,
-          "price": 95.91,
-          "vol": 10161023.27162,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -45,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     },
     "1h": {
       "sell": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 83.6,
-          "price": 1.1892,
-          "vol": 8741496.29692,
-          "label": "ALTO"
+          "rsi": 85.1,
+          "price": 1.2158,
+          "vol": 11966738.25483,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -66,29 +44,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
-          "sym": "DIAUSDT",
-          "rsi": 87.7,
-          "price": 0.1409,
-          "vol": 7309113.46637,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "EULUSDT",
-          "rsi": 85.5,
-          "price": 2.515,
-          "vol": 44543150.47658,
+          "rsi": 85.9,
+          "price": 2.512,
+          "vol": 44437229.35787,
           "label": "MUY ALTO"
         },
         {
-          "sym": "LPTUSDT",
-          "rsi": 82,
-          "price": 1.592,
-          "vol": 6492821.06728,
+          "sym": "DIAUSDT",
+          "rsi": 83.3,
+          "price": 0.1379,
+          "vol": 8018654.40084,
           "label": "ALTO"
         }
       ],
@@ -102,13 +73,13 @@
         },
         {
           "sym": "WLDUSDT",
-          "rsi": 24.7,
-          "price": 0.3339,
-          "vol": 11324630.10352,
+          "rsi": 23.9,
+          "price": 0.3324,
+          "vol": 10951067.1037,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 89
     }
   }
 }
