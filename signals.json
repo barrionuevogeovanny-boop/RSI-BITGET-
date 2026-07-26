@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T04:39:24.582Z",
-  "updated_ts": 1785040764582,
+  "updated": "2026-07-26T07:18:32.540Z",
+  "updated_ts": 1785050312540,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TAOUSDT",
-          "rsi": 89.7,
-          "price": 196.5,
-          "vol": 6597022.97478,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,31 +21,38 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 23.8,
-          "price": 0.00611,
-          "vol": 2656915.33164,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 83
+      "scanned": 85
     },
     "1h": {
       "sell": [
         {
-          "sym": "ORDIUSDT",
-          "rsi": 83.1,
-          "price": 3.987,
-          "vol": 2572021.33752,
+          "sym": "SHIBUSDT",
+          "rsi": 86.3,
+          "price": 0.00000574,
+          "vol": 40905266.51217702,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "NEIROUSDT",
+          "rsi": 82.2,
+          "price": 0.00006609,
+          "vol": 2321705.85774413,
           "label": "ALTO"
         },
         {
-          "sym": "SHIBUSDT",
-          "rsi": 80.2,
-          "price": 0.0000054,
-          "vol": 33023798.79809238,
+          "sym": "ORDIUSDT",
+          "rsi": 81.1,
+          "price": 4.035,
+          "vol": 4111794.42566,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 80.7,
+          "price": 0.00000303,
+          "vol": 24405824.16407817,
           "label": "ALTO"
         }
       ],
@@ -66,30 +65,30 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 83
+      "scanned": 85
     },
     "4h": {
       "sell": [
         {
-          "sym": "EULUSDT",
-          "rsi": 84.4,
-          "price": 2.276,
-          "vol": 40933406.52061,
-          "label": "ALTO"
-        },
-        {
           "sym": "DIAUSDT",
-          "rsi": 84.2,
-          "price": 0.1191,
-          "vol": 2174904.6487,
-          "label": "ALTO"
+          "rsi": 90.6,
+          "price": 0.1364,
+          "vol": 4629016.10631,
+          "label": "EXTREMO"
         },
         {
           "sym": "SHIBUSDT",
-          "rsi": 81.8,
-          "price": 0.0000054,
-          "vol": 33023798.79809238,
-          "label": "ALTO"
+          "rsi": 86,
+          "price": 0.00000574,
+          "vol": 40905266.51217702,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "EULUSDT",
+          "rsi": 85.1,
+          "price": 2.34,
+          "vol": 45228140.74027,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -101,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 83
+      "scanned": 85
     }
   }
 }
