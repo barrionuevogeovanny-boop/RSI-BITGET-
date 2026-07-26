@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T07:18:32.540Z",
-  "updated_ts": 1785050312540,
+  "updated": "2026-07-26T09:27:12.178Z",
+  "updated_ts": 1785058032178,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,36 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 89
     },
     "1h": {
       "sell": [
         {
-          "sym": "SHIBUSDT",
-          "rsi": 86.3,
-          "price": 0.00000574,
-          "vol": 40905266.51217702,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "NEIROUSDT",
-          "rsi": 82.2,
-          "price": 0.00006609,
-          "vol": 2321705.85774413,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ORDIUSDT",
-          "rsi": 81.1,
-          "price": 4.035,
-          "vol": 4111794.42566,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 80.7,
-          "price": 0.00000303,
-          "vol": 24405824.16407817,
+          "sym": "LTCUSDT",
+          "rsi": 82.1,
+          "price": 47.23,
+          "vol": 9214033.00836,
           "label": "ALTO"
         }
       ],
@@ -65,29 +44,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
           "sym": "DIAUSDT",
-          "rsi": 90.6,
-          "price": 0.1364,
-          "vol": 4629016.10631,
+          "rsi": 91,
+          "price": 0.1384,
+          "vol": 5256018.70054,
           "label": "EXTREMO"
         },
         {
-          "sym": "SHIBUSDT",
-          "rsi": 86,
-          "price": 0.00000574,
-          "vol": 40905266.51217702,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "EULUSDT",
-          "rsi": 85.1,
-          "price": 2.34,
-          "vol": 45228140.74027,
+          "rsi": 87,
+          "price": 2.545,
+          "vol": 46946955.30999,
           "label": "MUY ALTO"
         }
       ],
@@ -100,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 85
+      "scanned": 89
     }
   }
 }
