@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T20:32:57.527Z",
-  "updated_ts": 1785097977527,
+  "updated": "2026-07-26T21:31:37.155Z",
+  "updated_ts": 1785101497155,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,32 @@
     "15m": {
       "sell": [
         {
+          "sym": "XAUTUSDT",
+          "rsi": 87.8,
+          "price": 4065.29,
+          "vol": 22051467.842421,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "EURUSDT",
-          "rsi": 92.4,
-          "price": 1.1397,
-          "vol": 14044362.37581,
-          "label": "EXTREMO"
+          "rsi": 85.7,
+          "price": 1.1399,
+          "vol": 19743612.22416,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 84.2,
+          "price": 4070.46,
+          "vol": 2539704.376233,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 82.4,
+          "price": 0.001953,
+          "vol": 5555518.81854,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -31,15 +52,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "1h": {
       "sell": [
         {
           "sym": "EURUSDT",
-          "rsi": 84.7,
-          "price": 1.1397,
-          "vol": 14044362.37581,
+          "rsi": 85.7,
+          "price": 1.1399,
+          "vol": 19743612.22416,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 83.4,
+          "price": 0.001953,
+          "vol": 5555518.81854,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 80.8,
+          "price": 1922.99,
+          "vol": 199477339.600693,
           "label": "ALTO"
         }
       ],
@@ -52,10 +87,18 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ESPUSDT",
+          "rsi": 88,
+          "price": 0.11116,
+          "vol": 18948736.78058,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     }
   }
 }
