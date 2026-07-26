@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T09:27:12.178Z",
-  "updated_ts": 1785058032178,
+  "updated": "2026-07-26T11:00:17.035Z",
+  "updated_ts": 1785063617035,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 86.2,
+          "price": 95.89,
+          "vol": 9580991.86103,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,17 +29,31 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SCRUSDT",
+          "rsi": 23.9,
+          "price": 0.02075,
+          "vol": 2837468.590586,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
+          "sym": "LPTUSDT",
+          "rsi": 96,
+          "price": 1.639,
+          "vol": 5119009.39215,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "LTCUSDT",
-          "rsi": 82.1,
-          "price": 47.23,
-          "vol": 9214033.00836,
+          "rsi": 81.3,
+          "price": 47.21,
+          "vol": 9114268.10409,
           "label": "ALTO"
         }
       ],
@@ -44,23 +66,30 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "4h": {
       "sell": [
         {
           "sym": "DIAUSDT",
-          "rsi": 91,
-          "price": 0.1384,
-          "vol": 5256018.70054,
+          "rsi": 93.1,
+          "price": 0.1485,
+          "vol": 6775815.03828,
           "label": "EXTREMO"
         },
         {
+          "sym": "LPTUSDT",
+          "rsi": 85,
+          "price": 1.639,
+          "vol": 5119009.39215,
+          "label": "ALTO"
+        },
+        {
           "sym": "EULUSDT",
-          "rsi": 87,
-          "price": 2.545,
-          "vol": 46946955.30999,
-          "label": "MUY ALTO"
+          "rsi": 84.7,
+          "price": 2.433,
+          "vol": 44367965.86312,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -70,9 +99,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 24.9,
+          "price": 0.3347,
+          "vol": 11424423.16347,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     }
   }
 }
