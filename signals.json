@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-27T01:13:37.642Z",
-  "updated_ts": 1785114817642,
+  "updated": "2026-07-27T04:53:32.642Z",
+  "updated_ts": 1785128012642,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "NEARUSDT",
-          "rsi": 80.5,
-          "price": 1.845,
-          "vol": 9806746.0948,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,32 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 91
+      "scanned": 97
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 93.1,
-          "price": 4101.23,
-          "vol": 7491963.997282,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 92.6,
-          "price": 4097.1,
-          "vol": 26128705.54121,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 91.6,
-          "price": 1.1416,
-          "vol": 29846431.50483,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,18 +36,10 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 91
+      "scanned": 97
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ESPUSDT",
-          "rsi": 87.8,
-          "price": 0.11032,
-          "vol": 26560583.25339,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -87,7 +49,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 97
     }
   }
 }
