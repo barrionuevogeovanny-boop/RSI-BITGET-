@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-27T04:53:32.642Z",
-  "updated_ts": 1785128012642,
+  "updated": "2026-07-27T08:22:18.119Z",
+  "updated_ts": 1785140538119,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 97
+      "scanned": 96
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DIAUSDT",
+          "rsi": 81.5,
+          "price": 0.1932,
+          "vol": 11121430.53281,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,10 +44,25 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 97
+      "scanned": 96
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DIAUSDT",
+          "rsi": 90.8,
+          "price": 0.1932,
+          "vol": 11121430.53281,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 82.9,
+          "price": 0.04461,
+          "vol": 5768485.176589,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -49,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 96
     }
   }
 }
