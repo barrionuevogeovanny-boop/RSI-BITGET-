@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29T17:58:24.713Z",
-  "updated_ts": 1785347904713,
+  "updated": "2026-07-29T19:23:23.265Z",
+  "updated_ts": 1785353003265,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,16 +16,16 @@
       "sell": [
         {
           "sym": "REUSDT",
-          "rsi": 91.2,
-          "price": 0.4858,
-          "vol": 6843556.20841,
+          "rsi": 91,
+          "price": 0.5236,
+          "vol": 8620085.02153,
           "label": "EXTREMO"
         },
         {
-          "sym": "HOLOUSDT",
-          "rsi": 83.5,
-          "price": 0.0788,
-          "vol": 4807134.10317,
+          "sym": "EURUSDT",
+          "rsi": 82.5,
+          "price": 1.1466,
+          "vol": 17905470.68571,
           "label": "ALTO"
         }
       ],
@@ -38,15 +38,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
           "sym": "HOLOUSDT",
-          "rsi": 82.5,
-          "price": 0.0788,
-          "vol": 4807134.10317,
+          "rsi": 80.8,
+          "price": 0.079,
+          "vol": 5118077.07526,
           "label": "ALTO"
         }
       ],
@@ -59,7 +59,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     },
     "4h": {
       "sell": [],
@@ -70,9 +70,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 24.5,
+          "price": 0.598,
+          "vol": 5863490.64758,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 103
     }
   }
 }
