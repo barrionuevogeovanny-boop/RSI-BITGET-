@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T21:53:11.817Z",
-  "updated_ts": 1785448391817,
+  "updated": "2026-07-30T22:55:56.039Z",
+  "updated_ts": 1785452156039,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "PENGUUSDT",
-          "rsi": 80.6,
-          "price": 0.006114,
-          "vol": 3521131.657913,
+          "sym": "INJUSDT",
+          "rsi": 80.4,
+          "price": 4.981,
+          "vol": 5469088.74579,
           "label": "ALTO"
         }
       ],
@@ -29,13 +29,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SYNUSDT",
-          "rsi": 22,
-          "price": 0.10742,
-          "vol": 2324723.829476,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 106
@@ -44,23 +37,23 @@
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 91,
-          "price": 0.2711,
-          "vol": 10472011.86961,
+          "rsi": 90.6,
+          "price": 0.2681,
+          "vol": 10874185.78556,
           "label": "EXTREMO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 82.7,
-          "price": 11.46,
-          "vol": 9645031.6813,
+          "rsi": 82.8,
+          "price": 11.56,
+          "vol": 9763077.7354,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 82.6,
-          "price": 1351.65,
-          "vol": 130123621.555667,
+          "rsi": 82.3,
+          "price": 1346.42,
+          "vol": 130477456.00913,
           "label": "ALTO"
         }
       ],
@@ -74,16 +67,9 @@
         },
         {
           "sym": "SYNUSDT",
-          "rsi": 20.6,
-          "price": 0.10742,
-          "vol": 2324723.829476,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BANKUSDT",
-          "rsi": 24.8,
-          "price": 0.0623,
-          "vol": 84459301.80951,
+          "rsi": 23.4,
+          "price": 0.1083,
+          "vol": 2393892.297704,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -93,9 +79,9 @@
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 84.3,
-          "price": 0.2711,
-          "vol": 10472011.86961,
+          "rsi": 83.9,
+          "price": 0.2681,
+          "vol": 10874185.78556,
           "label": "ALTO"
         }
       ],
@@ -105,6 +91,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 24.9,
+          "price": 0.2807,
+          "vol": 4777585.59451,
           "label": "SOBREVENDIDO"
         }
       ],
