@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T18:08:21.707Z",
-  "updated_ts": 1785434901707,
+  "updated": "2026-07-30T19:48:14.068Z",
+  "updated_ts": 1785440894068,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,23 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
           "sym": "MMTUSDT",
           "rsi": 85.5,
-          "price": 0.2426,
-          "vol": 7506197.40249,
+          "price": 0.2517,
+          "vol": 8989588.27328,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 82.3,
-          "price": 1.469,
-          "vol": 3007086.50522,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -52,29 +45,30 @@
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 24.5,
-          "price": 0.0706,
-          "vol": 80782326.10682,
+          "rsi": 21.4,
+          "price": 0.0557,
+          "vol": 83536719.62632,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 105
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MMTUSDT",
+          "rsi": 81.3,
+          "price": 0.2517,
+          "vol": 8989588.27328,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "METABUSDT",
-          "rsi": 16.5,
-          "price": 533.08,
-          "vol": 2010215.22413,
-          "label": "BAJO"
-        },
-        {
           "sym": "STRKUSDT",
-          "rsi": 17,
-          "price": 0.02512,
-          "vol": 3066142.6593692,
+          "rsi": 17.6,
+          "price": 0.0252,
+          "vol": 3016490.5156657,
           "label": "BAJO"
         },
         {
@@ -83,9 +77,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BANKUSDT",
+          "rsi": 24.8,
+          "price": 0.0557,
+          "vol": 83536719.62632,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANAUSDT",
+          "rsi": 24.8,
+          "price": 1.011,
+          "vol": 2162375.04621,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 104
     }
   }
 }
