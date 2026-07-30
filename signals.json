@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T11:22:57.234Z",
-  "updated_ts": 1785410577234,
+  "updated": "2026-07-30T12:59:52.953Z",
+  "updated_ts": 1785416392953,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,35 +15,28 @@
     "15m": {
       "sell": [
         {
-          "sym": "BNBUSDT",
-          "rsi": 83.5,
-          "price": 588.97,
-          "vol": 63424911.8524,
+          "sym": "UNIUSDT",
+          "rsi": 82,
+          "price": 4.21,
+          "vol": 19547873.75525,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DRAMBUSDT",
+          "rsi": 81.2,
+          "price": 47.53,
+          "vol": 3437216.4453,
           "label": "ALTO"
         },
         {
           "sym": "GIGGLEUSDT",
-          "rsi": 81.8,
-          "price": 27.08,
-          "vol": 2959284.31802,
+          "rsi": 80.3,
+          "price": 28.26,
+          "vol": 4045292.92977,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 13.7,
-          "price": 1.0419,
-          "vol": 22217047.00307,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "BANKUSDT",
-          "rsi": 15.6,
-          "price": 0.0855,
-          "vol": 66567102.97325,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -52,7 +45,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     },
     "1h": {
       "sell": [],
@@ -66,29 +59,22 @@
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 21.2,
-          "price": 0.0855,
-          "vol": 66567102.97325,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 22.4,
-          "price": 1.0419,
-          "vol": 22217047.00307,
+          "rsi": 23.6,
+          "price": 0.0877,
+          "vol": 73170638.7203,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "STRKUSDT",
-          "rsi": 18.6,
-          "price": 0.02554,
-          "vol": 2398920.7262935,
+          "rsi": 19.7,
+          "price": 0.02548,
+          "vol": 2825552.8066492,
           "label": "BAJO"
         },
         {
@@ -99,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 101
     }
   }
 }
