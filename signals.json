@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-29T23:33:22.374Z",
-  "updated_ts": 1785368002374,
+  "updated": "2026-07-30T00:57:57.902Z",
+  "updated_ts": 1785373077902,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 21.4,
+          "price": 0.02591,
+          "vol": 2013984.9057773,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "1h": {
       "sell": [],
@@ -34,18 +41,39 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 24.7,
+          "price": 0.02591,
+          "vol": 2013984.9057773,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "4h": {
       "sell": [],
       "buy": [
         {
+          "sym": "ASTERUSDT",
+          "rsi": 20.8,
+          "price": 0.589,
+          "vol": 7838771.96373,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 20.8,
+          "price": 0.02591,
+          "vol": 2013984.9057773,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "SNXXBUSDT",
-          "rsi": 22.4,
-          "price": 6.69,
-          "vol": 10272004.7808,
+          "rsi": 22.5,
+          "price": 6.73,
+          "vol": 9681571.4916,
           "label": "SOBREVENDIDO"
         },
         {
@@ -56,14 +84,21 @@
           "label": "SOBREVENDIDO"
         },
         {
+          "sym": "DASHUSDT",
+          "rsi": 24.1,
+          "price": 29.22,
+          "vol": 4916990.83071,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 24.8,
-          "price": 1007.88,
-          "vol": 89387503.366603,
+          "rsi": 25,
+          "price": 1011.34,
+          "vol": 87854373.231605,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     }
   }
 }
