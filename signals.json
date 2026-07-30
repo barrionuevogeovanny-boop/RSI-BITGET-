@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T16:52:33.254Z",
-  "updated_ts": 1785430353254,
+  "updated": "2026-07-30T18:08:21.707Z",
+  "updated_ts": 1785434901707,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 85.9,
-          "price": 0.10176,
-          "vol": 2527667.086657,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 83.8,
-          "price": 4.455,
-          "vol": 28596128.85258,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 80.8,
-          "price": 1.458,
-          "vol": 2399541.08909,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -45,29 +23,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
-          "sym": "UNIUSDT",
-          "rsi": 85,
-          "price": 4.455,
-          "vol": 28596128.85258,
+          "sym": "MMTUSDT",
+          "rsi": 85.5,
+          "price": 0.2426,
+          "vol": 7506197.40249,
           "label": "MUY ALTO"
         },
         {
-          "sym": "MMTUSDT",
-          "rsi": 82.5,
-          "price": 0.231,
-          "vol": 5537819.80732,
-          "label": "ALTO"
-        },
-        {
           "sym": "CAKEUSDT",
-          "rsi": 80.4,
-          "price": 1.458,
-          "vol": 2399541.08909,
+          "rsi": 82.3,
+          "price": 1.469,
+          "vol": 3007086.50522,
           "label": "ALTO"
         }
       ],
@@ -81,29 +52,29 @@
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 19.8,
-          "price": 0.0692,
-          "vol": 78327556.75301,
-          "label": "BAJO"
+          "rsi": 24.5,
+          "price": 0.0706,
+          "vol": 80782326.10682,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 109
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "METABUSDT",
-          "rsi": 15.5,
-          "price": 530.88,
-          "vol": 2018303.39875,
+          "rsi": 16.5,
+          "price": 533.08,
+          "vol": 2010215.22413,
           "label": "BAJO"
         },
         {
           "sym": "STRKUSDT",
-          "rsi": 16.8,
-          "price": 0.02508,
-          "vol": 3166125.554617,
+          "rsi": 17,
+          "price": 0.02512,
+          "vol": 3066142.6593692,
           "label": "BAJO"
         },
         {
@@ -114,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     }
   }
 }
