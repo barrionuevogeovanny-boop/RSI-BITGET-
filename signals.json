@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T06:38:15.286Z",
-  "updated_ts": 1785393495286,
+  "updated": "2026-07-30T09:16:38.360Z",
+  "updated_ts": 1785402998360,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 88.4,
-          "price": 0.8571,
-          "vol": 2732058.19074,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,20 +21,26 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BANKUSDT",
+          "rsi": 19.6,
+          "price": 0.1106,
+          "vol": 60100574.62046,
+          "label": "BAJO"
+        },
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 23.6,
+          "price": 0.0702,
+          "vol": 6674999.50538,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 85.2,
-          "price": 0.8571,
-          "vol": 2732058.19074,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -52,17 +50,17 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "STRKUSDT",
-          "rsi": 19.2,
-          "price": 0.02558,
-          "vol": 2144394.2867409,
-          "label": "BAJO"
+          "rsi": 20.1,
+          "price": 0.02582,
+          "vol": 2264341.2118773,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -70,16 +68,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 24.2,
-          "price": 6.81,
-          "vol": 9204949.9122,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 98
     }
   }
 }
