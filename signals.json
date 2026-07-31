@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T21:19:01.421Z",
-  "updated_ts": 1785532741421,
+  "updated": "2026-07-31T22:26:43.107Z",
+  "updated_ts": 1785536803107,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,27 +21,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 16.3,
-          "price": 93.79,
-          "vol": 14437946.47011,
-          "label": "BAJO"
         }
       ],
       "scanned": 113
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ORDIUSDT",
-          "rsi": 84.3,
-          "price": 3.617,
-          "vol": 5077648.42993,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -54,13 +39,21 @@
       "scanned": 113
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 80.5,
+          "price": 45.75,
+          "vol": 40023003.75295,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "ATOMUSDT",
-          "rsi": 22.2,
-          "price": 1.226,
-          "vol": 2221326.7879,
+          "rsi": 22,
+          "price": 1.225,
+          "vol": 2204406.76709,
           "label": "SOBREVENDIDO"
         },
         {
