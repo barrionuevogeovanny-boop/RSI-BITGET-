@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T03:34:27.486Z",
-  "updated_ts": 1785468867486,
+  "updated": "2026-07-31T06:32:09.042Z",
+  "updated_ts": 1785479529043,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,24 +21,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "VANAUSDT",
-          "rsi": 19.1,
-          "price": 0.933,
-          "vol": 2789695.13312,
-          "label": "BAJO"
         }
       ],
-      "scanned": 108
+      "scanned": 105
     },
     "1h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 83.9,
-          "price": 0.2923,
-          "vol": 14633645.65568,
+          "rsi": 84.2,
+          "price": 0.3024,
+          "vol": 16509100.84381,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 81.4,
+          "price": 33.14,
+          "vol": 11119962.37537,
           "label": "ALTO"
         }
       ],
@@ -51,56 +51,42 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "VANAUSDT",
-          "rsi": 17.8,
-          "price": 0.933,
-          "vol": 2789695.13312,
-          "label": "BAJO"
+          "sym": "AAPLBUSDT",
+          "rsi": 22.7,
+          "price": 312.58,
+          "vol": 3943170.46532,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 105
     },
     "4h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 83.9,
-          "price": 0.2923,
-          "vol": 14633645.65568,
+          "rsi": 84.9,
+          "price": 0.3024,
+          "vol": 16509100.84381,
           "label": "ALTO"
         },
         {
-          "sym": "RLCUSDT",
-          "rsi": 81.7,
-          "price": 0.3159,
-          "vol": 2076060.80816,
+          "sym": "GIGGLEUSDT",
+          "rsi": 83.6,
+          "price": 33.14,
+          "vol": 11119962.37537,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "VANAUSDT",
-          "rsi": 19.5,
-          "price": 0.933,
-          "vol": 2789695.13312,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "STRKUSDT",
-          "rsi": 24.4,
-          "price": 0.02531,
-          "vol": 2896768.7181377,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 103
     }
   }
 }
