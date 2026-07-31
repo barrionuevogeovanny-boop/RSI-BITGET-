@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T18:42:26.619Z",
-  "updated_ts": 1785523346620,
+  "updated": "2026-07-31T20:08:34.087Z",
+  "updated_ts": 1785528514087,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,15 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 116
     },
     "1h": {
       "sell": [
         {
-          "sym": "ORDIUSDT",
-          "rsi": 80.6,
-          "price": 3.527,
-          "vol": 4570988.21097,
+          "sym": "GIGGLEUSDT",
+          "rsi": 80.7,
+          "price": 46.5,
+          "vol": 37722042.43762,
           "label": "ALTO"
         }
       ],
@@ -44,37 +44,45 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "AAPLBUSDT",
-          "rsi": 20.9,
-          "price": 302.78,
-          "vol": 4704658.1092,
+          "sym": "VANAUSDT",
+          "rsi": 23.9,
+          "price": 0.885,
+          "vol": 3860692.44645,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "VANAUSDT",
-          "rsi": 24.8,
-          "price": 0.889,
-          "vol": 3908343.43177,
+          "sym": "HYPERUSDT",
+          "rsi": 24.7,
+          "price": 0.0552,
+          "vol": 2007496.73134,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 116
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 82.1,
+          "price": 46.5,
+          "vol": 37722042.43762,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "VANAUSDT",
-          "rsi": 22.9,
-          "price": 0.889,
-          "vol": 3908343.43177,
+          "sym": "ATOMUSDT",
+          "rsi": 22.2,
+          "price": 1.226,
+          "vol": 2212007.47106,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ATOMUSDT",
-          "rsi": 23,
-          "price": 1.229,
-          "vol": 2196008.26156,
+          "sym": "VANAUSDT",
+          "rsi": 22.6,
+          "price": 0.885,
+          "vol": 3860692.44645,
           "label": "SOBREVENDIDO"
         },
         {
@@ -86,13 +94,13 @@
         },
         {
           "sym": "HYPERUSDT",
-          "rsi": 24.7,
-          "price": 0.0553,
-          "vol": 2013079.23061,
+          "rsi": 24.4,
+          "price": 0.0552,
+          "vol": 2007496.73134,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 114
     }
   }
 }
