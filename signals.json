@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T13:17:43.442Z",
-  "updated_ts": 1785503863442,
+  "updated": "2026-07-31T15:32:00.808Z",
+  "updated_ts": 1785511920808,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,17 +21,45 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 17.4,
+          "price": 62598,
+          "vol": 1250021394.6135244,
+          "label": "BAJO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 18.8,
+          "price": 62579.23,
+          "vol": 2185945.9774137,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 19.2,
+          "price": 59.15,
+          "vol": 10171234.5568,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 19.4,
+          "price": 0.3488,
+          "vol": 2865893.354311,
+          "label": "BAJO"
         }
       ],
-      "scanned": 111
+      "scanned": 115
     },
     "1h": {
       "sell": [
         {
-          "sym": "AXTIBUSDT",
-          "rsi": 80.7,
-          "price": 66.99,
-          "vol": 2852125.6207,
+          "sym": "MUBARAKUSDT",
+          "rsi": 81.6,
+          "price": 0.01375,
+          "vol": 2631178.246277,
           "label": "ALTO"
         }
       ],
@@ -45,48 +73,90 @@
         },
         {
           "sym": "AAPLBUSDT",
-          "rsi": 19.7,
-          "price": 307.63,
-          "vol": 4564437.26132,
+          "rsi": 15.2,
+          "price": 302.43,
+          "vol": 4599350.2449,
           "label": "BAJO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 21,
+          "price": 62598,
+          "vol": 1250021394.6135244,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 21,
+          "price": 59.15,
+          "vol": 10171234.5568,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 21.2,
+          "price": 62579.23,
+          "vol": 2185945.9774137,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANAUSDT",
+          "rsi": 23.2,
+          "price": 0.891,
+          "vol": 3962140.42151,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 23.3,
+          "price": 1858.25,
+          "vol": 443713487.3472,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LINKUSDT",
+          "rsi": 23.9,
+          "price": 8.101,
+          "vol": 11887888.80475,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 23.9,
+          "price": 0.00000277,
+          "vol": 2157471.50512231,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
           "sym": "MUBARAKUSDT",
-          "rsi": 80.7,
-          "price": 0.01327,
-          "vol": 2305154.891054,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AXTIBUSDT",
-          "rsi": 80.6,
-          "price": 66.99,
-          "vol": 2852125.6207,
+          "rsi": 84.9,
+          "price": 0.01375,
+          "vol": 2631178.246277,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "VANAUSDT",
+          "rsi": 23,
+          "price": 0.891,
+          "vol": 3962140.42151,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "VANAUSDT",
-          "rsi": 23.9,
-          "price": 0.902,
-          "vol": 4014065.7142,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 113
     }
   }
 }
