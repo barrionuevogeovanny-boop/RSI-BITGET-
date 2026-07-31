@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T06:32:09.042Z",
-  "updated_ts": 1785479529043,
+  "updated": "2026-07-31T09:25:48.581Z",
+  "updated_ts": 1785489948581,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,24 +21,52 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 17.9,
+          "price": 206.4,
+          "vol": 6562961.7558,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ZROUSDT",
+          "rsi": 19,
+          "price": 0.707,
+          "vol": 2072236.17409,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 23.9,
+          "price": 63703.03,
+          "vol": 1175796243.6596718,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 24.6,
+          "price": 4051.97,
+          "vol": 12636559.388676,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 84.2,
-          "price": 0.3024,
-          "vol": 16509100.84381,
+          "rsi": 84.5,
+          "price": 0.3094,
+          "vol": 18226302.85748,
           "label": "ALTO"
         },
         {
-          "sym": "GIGGLEUSDT",
-          "rsi": 81.4,
-          "price": 33.14,
-          "vol": 11119962.37537,
+          "sym": "BROCCOLI714USDT",
+          "rsi": 83.7,
+          "price": 0.01496,
+          "vol": 2139003.36573,
           "label": "ALTO"
         }
       ],
@@ -51,42 +79,63 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ZROUSDT",
+          "rsi": 20.2,
+          "price": 0.707,
+          "vol": 2072236.17409,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "AAPLBUSDT",
-          "rsi": 22.7,
-          "price": 312.58,
-          "vol": 3943170.46532,
+          "rsi": 23.4,
+          "price": 310.04,
+          "vol": 4621622.12365,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 84.9,
-          "price": 0.3024,
-          "vol": 16509100.84381,
-          "label": "ALTO"
-        },
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 83.6,
-          "price": 33.14,
-          "vol": 11119962.37537,
-          "label": "ALTO"
+          "rsi": 85.5,
+          "price": 0.3094,
+          "vol": 18226302.85748,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "ZROUSDT",
+          "rsi": 22,
+          "price": 0.707,
+          "vol": 2072236.17409,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 23.4,
+          "price": 0.02515,
+          "vol": 2302868.5850605,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANAUSDT",
+          "rsi": 24.1,
+          "price": 0.908,
+          "vol": 4022544.67811,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 108
     }
   }
 }
