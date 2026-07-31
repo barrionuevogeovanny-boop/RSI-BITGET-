@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T22:26:43.107Z",
-  "updated_ts": 1785536803107,
+  "updated": "2026-07-31T23:29:18.494Z",
+  "updated_ts": 1785540558494,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "1h": {
       "sell": [],
@@ -36,24 +36,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "4h": {
       "sell": [
         {
           "sym": "GIGGLEUSDT",
-          "rsi": 80.5,
-          "price": 45.75,
-          "vol": 40023003.75295,
+          "rsi": 82.4,
+          "price": 46.97,
+          "vol": 40656555.15405,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "ATOMUSDT",
-          "rsi": 22,
-          "price": 1.225,
-          "vol": 2204406.76709,
+          "rsi": 21.9,
+          "price": 1.224,
+          "vol": 2213159.43281,
           "label": "SOBREVENDIDO"
         },
         {
@@ -62,9 +62,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANAUSDT",
+          "rsi": 24.7,
+          "price": 0.895,
+          "vol": 3878395.1242,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 112
     }
   }
 }
