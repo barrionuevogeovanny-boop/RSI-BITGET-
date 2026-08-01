@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T12:48:22.000Z",
-  "updated_ts": 1785588502000,
+  "updated": "2026-08-01T14:16:43.269Z",
+  "updated_ts": 1785593803269,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EPICUSDT",
-          "rsi": 88.9,
-          "price": 0.9369,
-          "vol": 5504027.32912,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,23 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 20.8,
-          "price": 579.14,
-          "vol": 59935759.72059,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 24.8,
-          "price": 1.411,
-          "vol": 2004201.9231,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 88
     },
     "1h": {
       "sell": [],
@@ -56,16 +34,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 23.2,
-          "price": 1.411,
-          "vol": 2004201.9231,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 88
     },
     "4h": {
       "sell": [],
@@ -78,7 +49,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 88
     }
   }
 }
