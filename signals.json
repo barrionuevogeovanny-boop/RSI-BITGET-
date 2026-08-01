@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T15:32:11.490Z",
-  "updated_ts": 1785598331490,
+  "updated": "2026-08-01T16:31:23.452Z",
+  "updated_ts": 1785601883452,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "1h": {
       "sell": [],
@@ -36,10 +36,18 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AEVOUSDT",
+          "rsi": 86.3,
+          "price": 0.02509,
+          "vol": 4337179.0627871,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -49,7 +57,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     }
   }
 }
