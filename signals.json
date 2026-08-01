@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T19:48:15.206Z",
-  "updated_ts": 1785613695206,
+  "updated": "2026-08-01T20:35:50.290Z",
+  "updated_ts": 1785616550290,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,16 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "QQQBUSDT",
-          "rsi": 15.1,
-          "price": 683.62,
-          "vol": 2210392.92214,
-          "label": "BAJO"
-        },
+          "sym": "HEIUSDT",
+          "rsi": 80.9,
+          "price": 0.0972,
+          "vol": 2714075.45179,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -31,51 +32,45 @@
         },
         {
           "sym": "DOGEUSDT",
-          "rsi": 19.5,
-          "price": 0.06857,
-          "vol": 18968648.15343,
+          "rsi": 19,
+          "price": 0.06855,
+          "vol": 18805995.96744,
           "label": "BAJO"
         },
         {
-          "sym": "SOLUSDT",
-          "rsi": 21.1,
-          "price": 71.29,
-          "vol": 82115139.16856,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 21.7,
-          "price": 1.0525,
-          "vol": 27237403.0137,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "AVAXUSDT",
-          "rsi": 22.2,
-          "price": 6.141,
-          "vol": 6140361.16497,
+          "rsi": 21.4,
+          "price": 6.135,
+          "vol": 6504778.93709,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONDOUSDT",
+          "rsi": 21.6,
+          "price": 0.3772,
+          "vol": 8353753.12731,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "ETHUSDT",
-          "rsi": 22.4,
-          "price": 1837.16,
-          "vol": 206005067.267426,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 24.8,
-          "price": 0.1379,
-          "vol": 3801115.08214,
+          "rsi": 23.4,
+          "price": 1837.06,
+          "vol": 205221023.247505,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HEIUSDT",
+          "rsi": 88.1,
+          "price": 0.0972,
+          "vol": 2714075.45179,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -85,21 +80,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SOLUSDT",
-          "rsi": 22.2,
-          "price": 71.29,
-          "vol": 82115139.16856,
+          "sym": "ETHUSDT",
+          "rsi": 22.6,
+          "price": 1837.06,
+          "vol": 205221023.247505,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ETHUSDT",
-          "rsi": 22.6,
-          "price": 1837.16,
-          "vol": 206005067.267426,
+          "sym": "AVAXUSDT",
+          "rsi": 24.2,
+          "price": 6.135,
+          "vol": 6504778.93709,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "4h": {
       "sell": [],
@@ -112,7 +107,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     }
   }
 }
