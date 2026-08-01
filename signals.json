@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T07:04:33.532Z",
-  "updated_ts": 1785567873532,
+  "updated": "2026-08-01T09:16:08.482Z",
+  "updated_ts": 1785575768482,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 25,
+          "price": 0.08964,
+          "vol": 4246337.8144,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 103
     },
     "1h": {
       "sell": [],
@@ -36,7 +43,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 108
+      "scanned": 103
     },
     "4h": {
       "sell": [],
@@ -47,9 +54,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 24.6,
+          "price": 0.08964,
+          "vol": 4246337.8144,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 103
     }
   }
 }
