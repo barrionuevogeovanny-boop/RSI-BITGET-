@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T01:05:35.111Z",
-  "updated_ts": 1785546335111,
+  "updated": "2026-08-01T04:30:47.732Z",
+  "updated_ts": 1785558647732,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "1000SATSUSDT",
-          "rsi": 87.3,
-          "price": 0.00001336,
-          "vol": 3889614.08966559,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "HBARUSDT",
-          "rsi": 82,
-          "price": 0.06957,
-          "vol": 2752384.34749,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,41 +21,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 24.4,
-          "price": 91.72,
-          "vol": 16068938.85841,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 108
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "1000SATSUSDT",
-          "rsi": 92.5,
-          "price": 0.00001336,
-          "vol": 3889614.08966559,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ORDIUSDT",
-          "rsi": 85.1,
-          "price": 3.802,
-          "vol": 6451093.78299,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "NEIROUSDT",
-          "rsi": 82.1,
-          "price": 0.00006539,
-          "vol": 2265063.59591076,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -78,47 +34,18 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 23.4,
-          "price": 91.72,
-          "vol": 16068938.85841,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 108
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "1000SATSUSDT",
-          "rsi": 91,
-          "price": 0.00001336,
-          "vol": 3889614.08966559,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 81,
-          "price": 47.39,
-          "vol": 45104374.28193,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "AAPLBUSDT",
-          "rsi": 21,
-          "price": 307.21,
-          "vol": 4260724.34924,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "VANAUSDT",
-          "rsi": 23,
-          "price": 0.884,
-          "vol": 3730255.6408,
+          "rsi": 22,
+          "price": 308.3,
+          "vol": 3230242.76733,
           "label": "SOBREVENDIDO"
         },
         {
@@ -127,16 +54,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ATOMUSDT",
-          "rsi": 23.5,
-          "price": 1.228,
-          "vol": 2228449.71257,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 108
     }
   }
 }
