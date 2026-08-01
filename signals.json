@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T09:16:08.482Z",
-  "updated_ts": 1785575768482,
+  "updated": "2026-08-01T10:51:14.505Z",
+  "updated_ts": 1785581474505,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,28 @@
           "label": "BAJO"
         },
         {
-          "sym": "SYNUSDT",
-          "rsi": 25,
-          "price": 0.08964,
-          "vol": 4246337.8144,
+          "sym": "BNBUSDT",
+          "rsi": 16.7,
+          "price": 581.46,
+          "vol": 58720901.06295,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 19.6,
+          "price": 1.412,
+          "vol": 2131983.80479,
+          "label": "BAJO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 24.9,
+          "price": 1.1534,
+          "vol": 20246702.22714,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "1h": {
       "sell": [],
@@ -41,9 +55,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 23.3,
+          "price": 1.412,
+          "vol": 2131983.80479,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     },
     "4h": {
       "sell": [],
@@ -54,16 +75,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SYNUSDT",
-          "rsi": 24.6,
-          "price": 0.08964,
-          "vol": 4246337.8144,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 102
     }
   }
 }
