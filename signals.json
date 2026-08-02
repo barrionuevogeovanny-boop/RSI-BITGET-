@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T01:08:51.734Z",
-  "updated_ts": 1785632931734,
+  "updated": "2026-08-02T04:35:31.369Z",
+  "updated_ts": 1785645331369,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ENAUSDT",
+          "rsi": 89.7,
+          "price": 0.0873,
+          "vol": 12397748.312248,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LINKUSDT",
+          "rsi": 85.3,
+          "price": 8.362,
+          "vol": 9246906.12394,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "XLMUSDT",
+          "rsi": 84.9,
+          "price": 0.1757,
+          "vol": 4388115.8526,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 82.7,
+          "price": 0.1838,
+          "vol": 25173714.95085,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 82.1,
+          "price": 585.05,
+          "vol": 65135207.14484,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 81.7,
+          "price": 1.0816,
+          "vol": 31070503.86899,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +66,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 89
     },
     "1h": {
       "sell": [],
@@ -36,7 +79,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 89
     },
     "4h": {
       "sell": [],
@@ -49,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 89
     }
   }
 }
