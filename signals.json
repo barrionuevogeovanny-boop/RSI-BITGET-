@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T19:54:49.931Z",
-  "updated_ts": 1785700489931,
+  "updated": "2026-08-02T20:47:20.536Z",
+  "updated_ts": 1785703640536,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 81.9,
-          "price": 486.49,
-          "vol": 26631725.94322,
+          "sym": "EURUSDT",
+          "rsi": 84.7,
+          "price": 1.1552,
+          "vol": 10061214.11375,
           "label": "ALTO"
         },
         {
-          "sym": "INJUSDT",
-          "rsi": 81.1,
-          "price": 5.13,
-          "vol": 2428488.49409,
+          "sym": "ZECUSDT",
+          "rsi": 82.1,
+          "price": 489.97,
+          "vol": 29815026.22536,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 81.9,
+          "price": 4055.19,
+          "vol": 21744514.34298,
           "label": "ALTO"
         }
       ],
@@ -41,7 +48,15 @@
       "scanned": 84
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EDENUSDT",
+          "rsi": 81.1,
+          "price": 0.04321,
+          "vol": 2045438.689107,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
