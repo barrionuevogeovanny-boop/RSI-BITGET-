@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T11:59:55.602Z",
-  "updated_ts": 1785671995602,
+  "updated": "2026-08-02T13:45:13.616Z",
+  "updated_ts": 1785678313616,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,25 +21,18 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ETHUSDT",
-          "rsi": 23.3,
-          "price": 1852.25,
-          "vol": 258909193.603476,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     },
     "1h": {
       "sell": [
         {
           "sym": "MANTRAUSDT",
-          "rsi": 88.4,
-          "price": 0.00617,
-          "vol": 4733664.84521,
-          "label": "MUY ALTO"
+          "rsi": 82.2,
+          "price": 0.00642,
+          "vol": 6530919.3652,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -51,15 +44,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     },
     "4h": {
       "sell": [
         {
           "sym": "ADAUSDT",
-          "rsi": 81.8,
-          "price": 0.1888,
-          "vol": 35461895.33336,
+          "rsi": 81.9,
+          "price": 0.1889,
+          "vol": 40632113.82604,
           "label": "ALTO"
         }
       ],
@@ -72,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     }
   }
 }
