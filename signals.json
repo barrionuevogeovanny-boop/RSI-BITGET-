@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T20:47:20.536Z",
-  "updated_ts": 1785703640536,
+  "updated": "2026-08-02T21:39:26.976Z",
+  "updated_ts": 1785706766976,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,24 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "EURUSDT",
-          "rsi": 84.7,
-          "price": 1.1552,
-          "vol": 10061214.11375,
+          "sym": "NBISBUSDT",
+          "rsi": 93.9,
+          "price": 216.58,
+          "vol": 2755049.40478,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "EWYBUSDT",
+          "rsi": 83.1,
+          "price": 163.34,
+          "vol": 2309184.97269,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 82.1,
-          "price": 489.97,
-          "vol": 29815026.22536,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 81.9,
-          "price": 4055.19,
-          "vol": 21744514.34298,
+          "rsi": 80.8,
+          "price": 492.12,
+          "vol": 31280814.10841,
           "label": "ALTO"
         }
       ],
@@ -45,15 +45,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "1h": {
       "sell": [
         {
+          "sym": "NBISBUSDT",
+          "rsi": 83.9,
+          "price": 216.58,
+          "vol": 2755049.40478,
+          "label": "ALTO"
+        },
+        {
           "sym": "EDENUSDT",
-          "rsi": 81.1,
-          "price": 0.04321,
-          "vol": 2045438.689107,
+          "rsi": 82.5,
+          "price": 0.04376,
+          "vol": 2317918.980651,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 80.2,
+          "price": 1.427,
+          "vol": 2637437.80239,
           "label": "ALTO"
         }
       ],
@@ -66,7 +80,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     },
     "4h": {
       "sell": [],
@@ -79,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 84
+      "scanned": 85
     }
   }
 }
