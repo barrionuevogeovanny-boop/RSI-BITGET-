@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T04:35:31.369Z",
-  "updated_ts": 1785645331369,
+  "updated": "2026-08-02T07:13:58.530Z",
+  "updated_ts": 1785654838530,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,45 +15,24 @@
     "15m": {
       "sell": [
         {
+          "sym": "AVAXUSDT",
+          "rsi": 82.9,
+          "price": 6.618,
+          "vol": 13582294.51962,
+          "label": "ALTO"
+        },
+        {
           "sym": "ENAUSDT",
-          "rsi": 89.7,
-          "price": 0.0873,
-          "vol": 12397748.312248,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "LINKUSDT",
-          "rsi": 85.3,
-          "price": 8.362,
-          "vol": 9246906.12394,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "XLMUSDT",
-          "rsi": 84.9,
-          "price": 0.1757,
-          "vol": 4388115.8526,
+          "rsi": 82.3,
+          "price": 0.0888,
+          "vol": 15820167.50201,
           "label": "ALTO"
         },
         {
-          "sym": "ADAUSDT",
-          "rsi": 82.7,
-          "price": 0.1838,
-          "vol": 25173714.95085,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 82.1,
-          "price": 585.05,
-          "vol": 65135207.14484,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XRPUSDT",
+          "sym": "EURUSDT",
           "rsi": 81.7,
-          "price": 1.0816,
-          "vol": 31070503.86899,
+          "price": 1.1536,
+          "vol": 2911496.3264,
           "label": "ALTO"
         }
       ],
@@ -66,10 +45,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 92
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ENAUSDT",
+          "rsi": 81.9,
+          "price": 0.0888,
+          "vol": 15820167.50201,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -79,7 +66,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 92
     },
     "4h": {
       "sell": [],
@@ -92,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 92
     }
   }
 }
