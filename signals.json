@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T22:37:43.424Z",
-  "updated_ts": 1785710263424,
+  "updated": "2026-08-02T23:38:00.002Z",
+  "updated_ts": 1785713880002,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 85.2,
+          "price": 0.01549,
+          "vol": 2882338.6203018,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,40 +29,69 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 19.3,
+          "price": 0.04921,
+          "vol": 7709953.03558,
+          "label": "BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     },
     "1h": {
       "sell": [
         {
+          "sym": "BICOUSDT",
+          "rsi": 93.7,
+          "price": 0.01549,
+          "vol": 2882338.6203018,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "EDENUSDT",
-          "rsi": 83.3,
-          "price": 0.04406,
-          "vol": 2489967.621671,
+          "rsi": 82.9,
+          "price": 0.04392,
+          "vol": 2741603.972944,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ALGOUSDT",
+          "rsi": 80.3,
+          "price": 0.0868,
+          "vol": 2301732.808,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "币安人生USDT",
+          "rsi": 13,
+          "price": 0.5736,
+          "vol": 2325945.50592,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 14.5,
-          "price": 0.5786,
-          "vol": 2074925.93797,
-          "label": "MUY BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BICOUSDT",
+          "rsi": 86.8,
+          "price": 0.01549,
+          "vol": 2882338.6203018,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,13 +102,13 @@
         },
         {
           "sym": "币安人生USDT",
-          "rsi": 24.6,
-          "price": 0.5786,
-          "vol": 2074925.93797,
+          "rsi": 23.3,
+          "price": 0.5736,
+          "vol": 2325945.50592,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     }
   }
 }
