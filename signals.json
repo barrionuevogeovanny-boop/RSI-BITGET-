@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T16:39:48.994Z",
-  "updated_ts": 1785688788994,
+  "updated": "2026-08-02T17:43:37.477Z",
+  "updated_ts": 1785692617477,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 85.9,
+          "price": 0.01131,
+          "vol": 2795712.730729,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,15 +44,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "4h": {
       "sell": [
         {
           "sym": "ADAUSDT",
-          "rsi": 81.7,
-          "price": 0.1899,
-          "vol": 45496427.48779,
+          "rsi": 81.1,
+          "price": 0.1896,
+          "vol": 44995620.89769,
           "label": "ALTO"
         }
       ],
@@ -57,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     }
   }
 }
