@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T09:23:00.840Z",
-  "updated_ts": 1785662580840,
+  "updated": "2026-08-02T10:55:47.030Z",
+  "updated_ts": 1785668147030,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "EURUSDT",
-          "rsi": 87.8,
-          "price": 1.1539,
-          "vol": 2913778.09712,
-          "label": "MUY ALTO"
+          "sym": "MANTRAUSDT",
+          "rsi": 95.1,
+          "price": 0.00632,
+          "vol": 3425086.93332,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -29,25 +29,25 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 22.3,
+          "price": 0.3266,
+          "vol": 21891795.03103,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     },
     "1h": {
       "sell": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 84.6,
-          "price": 0.00833,
-          "vol": 16318739.17614,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ARBUSDT",
-          "rsi": 80.4,
-          "price": 0.0821,
-          "vol": 3310106.86454,
-          "label": "ALTO"
+          "sym": "MANTRAUSDT",
+          "rsi": 90.4,
+          "price": 0.00632,
+          "vol": 3425086.93332,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -59,22 +59,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     },
     "4h": {
       "sell": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 82.8,
-          "price": 0.00833,
-          "vol": 16318739.17614,
-          "label": "ALTO"
-        },
-        {
           "sym": "ADAUSDT",
-          "rsi": 80.4,
-          "price": 0.1868,
-          "vol": 33108863.34186,
+          "rsi": 80.7,
+          "price": 0.1873,
+          "vol": 34849365.25554,
           "label": "ALTO"
         }
       ],
@@ -87,7 +80,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     }
   }
 }
