@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T21:39:26.976Z",
-  "updated_ts": 1785706766976,
+  "updated": "2026-08-02T22:37:43.424Z",
+  "updated_ts": 1785710263424,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "NBISBUSDT",
-          "rsi": 93.9,
-          "price": 216.58,
-          "vol": 2755049.40478,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EWYBUSDT",
-          "rsi": 83.1,
-          "price": 163.34,
-          "vol": 2309184.97269,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 80.8,
-          "price": 492.12,
-          "vol": 31280814.10841,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -45,29 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "1h": {
       "sell": [
         {
-          "sym": "NBISBUSDT",
-          "rsi": 83.9,
-          "price": 216.58,
-          "vol": 2755049.40478,
-          "label": "ALTO"
-        },
-        {
           "sym": "EDENUSDT",
-          "rsi": 82.5,
-          "price": 0.04376,
-          "vol": 2317918.980651,
-          "label": "ALTO"
-        },
-        {
-          "sym": "GRAMUSDT",
-          "rsi": 80.2,
-          "price": 1.427,
-          "vol": 2637437.80239,
+          "rsi": 83.3,
+          "price": 0.04406,
+          "vol": 2489967.621671,
           "label": "ALTO"
         }
       ],
@@ -78,9 +42,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 14.5,
+          "price": 0.5786,
+          "vol": 2074925.93797,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     },
     "4h": {
       "sell": [],
@@ -91,9 +62,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 24.6,
+          "price": 0.5786,
+          "vol": 2074925.93797,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 85
+      "scanned": 86
     }
   }
 }
