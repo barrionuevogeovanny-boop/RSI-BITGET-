@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T08:14:19.379Z",
-  "updated_ts": 1785744859379,
+  "updated": "2026-08-03T11:46:10.805Z",
+  "updated_ts": 1785757570805,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 88.6,
-          "price": 0.0439,
-          "vol": 59332876.17473,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 81.5,
-          "price": 0.01986,
-          "vol": 2017298.01771,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,39 +23,31 @@
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 19.5,
-          "price": 0.5318,
-          "vol": 4185937.51402,
-          "label": "BAJO"
+          "sym": "SPCXBUSDT",
+          "rsi": 21.7,
+          "price": 106.27,
+          "vol": 9132577.22615,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "INJUSDT",
-          "rsi": 22.4,
-          "price": 4.919,
-          "vol": 3545834.95363,
+          "sym": "VANRYUSDT",
+          "rsi": 22.9,
+          "price": 0.003232,
+          "vol": 3532205.034143,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "REUSDT",
+          "rsi": 22.9,
+          "price": 0.3983,
+          "vol": 2674932.80334,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 93
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ACEUSDT",
-          "rsi": 82.8,
-          "price": 0.0745,
-          "vol": 2474100.70993,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 81.4,
-          "price": 0.0439,
-          "vol": 59332876.17473,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -80,53 +57,88 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 16.5,
-          "price": 0.5318,
-          "vol": 4185937.51402,
+          "sym": "MUBUSDT",
+          "rsi": 16.8,
+          "price": 791.66,
+          "vol": 12932666.07223,
           "label": "BAJO"
         },
         {
-          "sym": "VICUSDT",
-          "rsi": 18.2,
-          "price": 0.0268,
-          "vol": 2168090.154082,
+          "sym": "SOXLBUSDT",
+          "rsi": 17.4,
+          "price": 107.83,
+          "vol": 11809797.68039,
           "label": "BAJO"
         },
         {
-          "sym": "MMTUSDT",
-          "rsi": 24.2,
-          "price": 0.1522,
-          "vol": 2419378.73583,
+          "sym": "SPCXBUSDT",
+          "rsi": 19.9,
+          "price": 106.27,
+          "vol": 9132577.22615,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 20.9,
+          "price": 138.38,
+          "vol": 14752184.31263,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 23,
+          "price": 1166.91,
+          "vol": 15030657.295097,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 24.5,
+          "price": 8.57,
+          "vol": 3255605.5892,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 24.5,
+          "price": 0.003232,
+          "vol": 3532205.034143,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 93
     },
     "4h": {
       "sell": [
         {
+          "sym": "WAXPUSDT",
+          "rsi": 84.7,
+          "price": 0.00466,
+          "vol": 2249299.18497,
+          "label": "ALTO"
+        },
+        {
           "sym": "TUTUSDT",
+          "rsi": 80.1,
+          "price": 0.01985,
+          "vol": 3060381.33126,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BICOUSDT",
           "rsi": 80,
-          "price": 0.01986,
-          "vol": 2017298.01771,
+          "price": 0.01815,
+          "vol": 15131081.4751292,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "VICUSDT",
-          "rsi": 14.5,
-          "price": 0.0268,
-          "vol": 2168090.154082,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "币安人生USDT",
-          "rsi": 15.5,
-          "price": 0.5318,
-          "vol": 4185937.51402,
-          "label": "BAJO"
+          "rsi": 21.9,
+          "price": 0.5489,
+          "vol": 4841156.77255,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -134,9 +146,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "VANRYUSDT",
+          "rsi": 24.7,
+          "price": 0.003232,
+          "vol": 3532205.034143,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 93
     }
   }
 }
