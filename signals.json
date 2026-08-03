@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T22:28:21.243Z",
-  "updated_ts": 1785796101243,
+  "updated": "2026-08-03T23:37:50.969Z",
+  "updated_ts": 1785800270969,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "RIFUSDT",
+          "rsi": 24.9,
+          "price": 0.075,
+          "vol": 2275426.4454,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 99
     },
     "1h": {
       "sell": [],
@@ -36,7 +43,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 99
     },
     "4h": {
       "sell": [],
@@ -49,7 +56,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 99
     }
   }
 }
