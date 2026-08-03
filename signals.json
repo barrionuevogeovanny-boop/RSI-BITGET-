@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T16:35:04.832Z",
-  "updated_ts": 1785774904832,
+  "updated": "2026-08-03T18:22:01.454Z",
+  "updated_ts": 1785781321454,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "TRUMPUSDT",
-          "rsi": 83.1,
-          "price": 1.495,
-          "vol": 3790201.073544,
+          "sym": "HOMEUSDT",
+          "rsi": 82.1,
+          "price": 0.00829,
+          "vol": 12532080.19864,
           "label": "ALTO"
         }
       ],
@@ -32,27 +32,13 @@
         },
         {
           "sym": "USDCUSDT",
-          "rsi": 20.2,
-          "price": 1.00086,
-          "vol": 1558676660.31609,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 20.9,
-          "price": 3.903,
-          "vol": 17687046.50081,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GIGGLEUSDT",
-          "rsi": 23.3,
-          "price": 38.6,
-          "vol": 14074521.59737,
+          "rsi": 23.2,
+          "price": 1.00082,
+          "vol": 1567895238.715,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "1h": {
       "sell": [],
@@ -65,42 +51,28 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 80.4,
-          "price": 0.01831,
-          "vol": 21521661.3079208,
+          "rsi": 82.2,
+          "price": 0.01909,
+          "vol": 22651489.2385817,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 23.1,
-          "price": 0.5429,
-          "vol": 5394422.89553,
-          "label": "SOBREVENDIDO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BANKUSDT",
-          "rsi": 25,
-          "price": 0.0415,
-          "vol": 12066839.60205,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     }
   }
 }
