@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T11:51:00.604Z",
-  "updated_ts": 1785844260604,
+  "updated": "2026-08-04T13:28:14.789Z",
+  "updated_ts": 1785850094789,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "BANKUSDT",
-          "rsi": 82.3,
-          "price": 0.0516,
-          "vol": 19491434.78852,
+          "rsi": 80,
+          "price": 0.0558,
+          "vol": 25841883.6085,
           "label": "ALTO"
         }
       ],
@@ -29,16 +29,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "LDOUSDT",
-          "rsi": 21.2,
-          "price": 0.3028,
-          "vol": 3000272.556251,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     },
     "1h": {
       "sell": [],
@@ -51,16 +44,16 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 86.6,
-          "price": 0.02365,
-          "vol": 7170170.48004,
-          "label": "MUY ALTO"
+          "rsi": 82.3,
+          "price": 0.02352,
+          "vol": 7075182.13887,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -72,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     }
   }
 }
