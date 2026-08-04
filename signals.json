@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T01:04:25.141Z",
-  "updated_ts": 1785805465141,
+  "updated": "2026-08-04T04:23:57.793Z",
+  "updated_ts": 1785817437793,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,17 +23,10 @@
           "label": "BAJO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 20,
-          "price": 1.328,
-          "vol": 8097018.69523,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LINKUSDT",
-          "rsi": 24.4,
-          "price": 8.12,
-          "vol": 9103460.91362,
+          "sym": "GIGGLEUSDT",
+          "rsi": 22.6,
+          "price": 35.98,
+          "vol": 14127199.07031,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -50,17 +43,25 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 25,
-          "price": 1.328,
-          "vol": 8097018.69523,
+          "sym": "RIFUSDT",
+          "rsi": 24.9,
+          "price": 0.0721,
+          "vol": 2461013.207,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 98
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUTUSDT",
+          "rsi": 81.9,
+          "price": 0.0216,
+          "vol": 5654611.50477,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
