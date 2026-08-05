@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T11:08:57.328Z",
-  "updated_ts": 1785928137328,
+  "updated": "2026-08-05T13:01:28.594Z",
+  "updated_ts": 1785934888594,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 82.5,
-          "price": 0.329,
-          "vol": 37151473.54389,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,22 +23,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
           "sym": "FIDAUSDT",
-          "rsi": 81.1,
-          "price": 0.0215,
-          "vol": 5221946.500067,
+          "rsi": 83.8,
+          "price": 0.0221,
+          "vol": 6643495.417384,
           "label": "ALTO"
         },
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 80.4,
-          "price": 66.91,
-          "vol": 13448851.0029,
+          "sym": "KITEUSDT",
+          "rsi": 80.6,
+          "price": 0.1044,
+          "vol": 4895632.10947,
           "label": "ALTO"
         }
       ],
@@ -57,56 +49,42 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 24.1,
-          "price": 0.4852,
-          "vol": 4768755.99951,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     },
     "4h": {
       "sell": [
         {
-          "sym": "SPYBUSDT",
-          "rsi": 87.2,
-          "price": 774.86,
-          "vol": 2436381.58684,
+          "sym": "FIDAUSDT",
+          "rsi": 88,
+          "price": 0.0221,
+          "vol": 6643495.417384,
           "label": "MUY ALTO"
         },
         {
-          "sym": "FIDAUSDT",
-          "rsi": 86.2,
-          "price": 0.0215,
-          "vol": 5221946.500067,
+          "sym": "SPYBUSDT",
+          "rsi": 87.5,
+          "price": 775.39,
+          "vol": 2250927.34309,
           "label": "MUY ALTO"
         },
         {
           "sym": "HFTUSDT",
-          "rsi": 84.5,
-          "price": 0.01738,
-          "vol": 12757024.6905222,
-          "label": "ALTO"
+          "rsi": 86.7,
+          "price": 0.019158,
+          "vol": 13513534.9529907,
+          "label": "MUY ALTO"
         },
         {
           "sym": "QQQBUSDT",
-          "rsi": 81.1,
-          "price": 724.51,
-          "vol": 6062250.6163,
+          "rsi": 81.3,
+          "price": 724.92,
+          "vol": 6003771.21984,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "币安人生USDT",
-          "rsi": 21.6,
-          "price": 0.4852,
-          "vol": 4768755.99951,
-          "label": "SOBREVENDIDO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
@@ -115,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 103
     }
   }
 }
