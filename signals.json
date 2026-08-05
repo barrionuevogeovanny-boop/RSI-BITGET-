@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T15:22:34.629Z",
-  "updated_ts": 1785943354629,
+  "updated": "2026-08-05T16:57:00.433Z",
+  "updated_ts": 1785949020433,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 82.5,
-          "price": 4251,
-          "vol": 27834163.234681,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 82.3,
-          "price": 4240.12,
-          "vol": 36276803.965627,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 107
+      "scanned": 109
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 85.4,
-          "price": 4251,
-          "vol": 27834163.234681,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 85.1,
-          "price": 4240.12,
-          "vol": 36276803.965627,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,29 +36,29 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 107
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "PAXGUSDT",
-          "rsi": 85.1,
-          "price": 4251,
-          "vol": 27834163.234681,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 84.7,
-          "price": 4240.12,
-          "vol": 36276803.965627,
+          "rsi": 84,
+          "price": 4232.77,
+          "vol": 31188125.411525,
           "label": "ALTO"
         },
         {
-          "sym": "FIDAUSDT",
-          "rsi": 81.1,
-          "price": 0.02086,
-          "vol": 7544412.534746,
+          "sym": "XAUTUSDT",
+          "rsi": 83.5,
+          "price": 4221.49,
+          "vol": 37696432.931212,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 81.6,
+          "price": 221.58,
+          "vol": 3878909.67702,
           "label": "ALTO"
         }
       ],
@@ -101,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 109
     }
   }
 }
