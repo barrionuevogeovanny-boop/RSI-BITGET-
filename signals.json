@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T23:02:26.637Z",
-  "updated_ts": 1785884546637,
+  "updated": "2026-08-05T00:12:04.348Z",
+  "updated_ts": 1785888724348,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 18.7,
+          "price": 0.3514,
+          "vol": 5347351.09788,
+          "label": "BAJO"
         }
       ],
       "scanned": 100
@@ -29,23 +36,30 @@
       "sell": [
         {
           "sym": "HEIUSDT",
-          "rsi": 89.3,
-          "price": 0.1282,
-          "vol": 8462989.34294,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SPYBUSDT",
-          "rsi": 82,
-          "price": 773.42,
-          "vol": 2179130.57873,
-          "label": "ALTO"
+          "rsi": 92.7,
+          "price": 0.1295,
+          "vol": 8879134.61148,
+          "label": "EXTREMO"
         },
         {
           "sym": "QQQBUSDT",
-          "rsi": 80,
-          "price": 722.14,
-          "vol": 8278154.94198,
+          "rsi": 81.4,
+          "price": 722.91,
+          "vol": 8242122.02397,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SPYBUSDT",
+          "rsi": 80.9,
+          "price": 773.45,
+          "vol": 2209886.53929,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 80.1,
+          "price": 216.39,
+          "vol": 3392375.2314,
           "label": "ALTO"
         }
       ],
@@ -56,6 +70,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 19.7,
+          "price": 0.3514,
+          "vol": 5347351.09788,
+          "label": "BAJO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 23.5,
+          "price": 0.2786,
+          "vol": 9330148.491749,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 100
@@ -64,46 +92,53 @@
       "sell": [
         {
           "sym": "HEIUSDT",
-          "rsi": 86.9,
-          "price": 0.1282,
-          "vol": 8462989.34294,
+          "rsi": 87.3,
+          "price": 0.1295,
+          "vol": 8879134.61148,
           "label": "MUY ALTO"
         },
         {
           "sym": "SPYBUSDT",
-          "rsi": 86.2,
-          "price": 773.42,
-          "vol": 2179130.57873,
+          "rsi": 85.6,
+          "price": 773.45,
+          "vol": 2209886.53929,
           "label": "MUY ALTO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 81.7,
-          "price": 0.02294,
-          "vol": 12224721.4500873,
+          "sym": "DOTUSDT",
+          "rsi": 80.4,
+          "price": 0.864,
+          "vol": 4833527.17922,
           "label": "ALTO"
         },
         {
-          "sym": "DOTUSDT",
-          "rsi": 80.9,
-          "price": 0.867,
-          "vol": 4555272.4388,
+          "sym": "QQQBUSDT",
+          "rsi": 80.1,
+          "price": 722.91,
+          "vol": 8242122.02397,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "LDOUSDT",
-          "rsi": 22.2,
-          "price": 0.2827,
-          "vol": 9202971.479738,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.4,
+          "price": 0.2786,
+          "vol": 9330148.491749,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 24.5,
+          "price": 0.3514,
+          "vol": 5347351.09788,
           "label": "SOBREVENDIDO"
         }
       ],
