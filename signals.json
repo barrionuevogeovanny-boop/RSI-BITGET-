@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-05T22:31:28.832Z",
-  "updated_ts": 1785969088832,
+  "updated": "2026-08-05T23:31:25.138Z",
+  "updated_ts": 1785972685138,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 82.8,
-          "price": 0.1303,
-          "vol": 4248139.37426,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,13 +21,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 24.7,
-          "price": 594.35,
-          "vol": 77637584.14669,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 112
@@ -44,16 +29,16 @@
       "sell": [
         {
           "sym": "DODOUSDT",
-          "rsi": 95.3,
-          "price": 0.02969,
-          "vol": 9307992.263931,
-          "label": "EXTREMO"
+          "rsi": 82.6,
+          "price": 0.0278,
+          "vol": 10174962.835629,
+          "label": "ALTO"
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 84.3,
-          "price": 0.1303,
-          "vol": 4248139.37426,
+          "rsi": 81,
+          "price": 0.1282,
+          "vol": 4682484.53062,
           "label": "ALTO"
         }
       ],
@@ -72,58 +57,51 @@
       "sell": [
         {
           "sym": "DODOUSDT",
-          "rsi": 89.9,
-          "price": 0.02969,
-          "vol": 9307992.263931,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 85.1,
-          "price": 0.2713,
-          "vol": 52112147.87556,
+          "rsi": 88.2,
+          "price": 0.0278,
+          "vol": 10174962.835629,
           "label": "MUY ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 84.8,
-          "price": 4243.75,
-          "vol": 32737635.146277,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 84.3,
-          "price": 4232.16,
-          "vol": 39559954.494867,
-          "label": "ALTO"
+          "rsi": 85.6,
+          "price": 4256.32,
+          "vol": 32830602.119751,
+          "label": "MUY ALTO"
         },
         {
           "sym": "HMSTRUSDT",
-          "rsi": 83.8,
-          "price": 0.0001964,
-          "vol": 3461746.2947855,
-          "label": "ALTO"
+          "rsi": 85.5,
+          "price": 0.0002009,
+          "vol": 3683152.8673507,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HEIUSDT",
+          "rsi": 85.3,
+          "price": 0.2749,
+          "vol": 52694949.03731,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 85.2,
+          "price": 4244.15,
+          "vol": 39556454.529044,
+          "label": "MUY ALTO"
         },
         {
           "sym": "HFTUSDT",
           "rsi": 82.2,
-          "price": 0.018298,
-          "vol": 17995295.1722594,
+          "price": 0.018311,
+          "vol": 18019705.9905171,
           "label": "ALTO"
         },
         {
           "sym": "NVDABUSDT",
-          "rsi": 80.5,
-          "price": 220.54,
-          "vol": 3368758.38692,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 80.2,
-          "price": 0.02738,
-          "vol": 18225284.2973913,
+          "rsi": 80.9,
+          "price": 220.9,
+          "vol": 3319586.70556,
           "label": "ALTO"
         }
       ],
