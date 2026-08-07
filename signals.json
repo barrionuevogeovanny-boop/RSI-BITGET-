@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T21:23:53.615Z",
-  "updated_ts": 1786137833615,
+  "updated": "2026-08-07T22:03:19.567Z",
+  "updated_ts": 1786140199567,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,27 +21,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 22.7,
-          "price": 0.506,
-          "vol": 3302985.52415,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 82.3,
-          "price": 133.77,
-          "vol": 102617013.94155,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -52,35 +37,35 @@
         },
         {
           "sym": "NEARUSDT",
-          "rsi": 24.5,
-          "price": 1.592,
-          "vol": 17977159.9121,
+          "rsi": 23,
+          "price": 1.587,
+          "vol": 18082247.2055,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 86,
-          "price": 0.05252,
-          "vol": 46764419.2013295,
-          "label": "MUY ALTO"
+          "rsi": 84.9,
+          "price": 0.05222,
+          "vol": 46804222.4714819,
+          "label": "ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 82.5,
-          "price": 4329.76,
-          "vol": 38492845.154073,
+          "rsi": 82.4,
+          "price": 4329.57,
+          "vol": 38477292.299699,
           "label": "ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 82,
-          "price": 4340.68,
-          "vol": 20442410.788293,
+          "rsi": 82.1,
+          "price": 4341.32,
+          "vol": 20468845.144304,
           "label": "ALTO"
         }
       ],
@@ -94,13 +79,13 @@
         },
         {
           "sym": "BONKUSDT",
-          "rsi": 24.9,
-          "price": 0.00000249,
-          "vol": 8489802.15360056,
+          "rsi": 24.4,
+          "price": 0.00000248,
+          "vol": 8524585.42587115,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     }
   }
 }
