@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T15:35:18.111Z",
-  "updated_ts": 1786116918111,
+  "updated": "2026-08-07T16:29:06.005Z",
+  "updated_ts": 1786120146005,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,18 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 124
+      "scanned": 122
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 80.8,
-          "price": 127.19,
-          "vol": 87497525.05166,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,52 +36,38 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 124
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 91.2,
-          "price": 0.05171,
-          "vol": 43768583.6680418,
+          "rsi": 92.5,
+          "price": 0.0561,
+          "vol": 44052912.2241651,
           "label": "EXTREMO"
         },
         {
           "sym": "C98USDT",
-          "rsi": 85.4,
-          "price": 0.01669,
-          "vol": 4720532.526407,
+          "rsi": 88.4,
+          "price": 0.01719,
+          "vol": 4907955.016914,
           "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 82.4,
-          "price": 4329.41,
-          "vol": 37392051.867314,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 82.2,
-          "price": 4342.57,
-          "vol": 21243622.298114,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 80.2,
-          "price": 0.3532,
-          "vol": 13785239.98583,
+          "rsi": 80,
+          "price": 4316.43,
+          "vol": 36574573.255371,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "BONKUSDT",
-          "rsi": 20.5,
+          "rsi": 23.3,
           "price": 0.00000247,
-          "vol": 7572229.18815902,
+          "vol": 7868412.42921497,
           "label": "SOBREVENDIDO"
         },
         {
@@ -100,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 122
     }
   }
 }
