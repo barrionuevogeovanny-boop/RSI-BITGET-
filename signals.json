@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T06:36:55.080Z",
-  "updated_ts": 1786084615080,
+  "updated": "2026-08-07T07:55:29.365Z",
+  "updated_ts": 1786089329365,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,26 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 20.2,
+          "price": 0.00000258,
+          "vol": 4400172.87514098,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 24,
+          "price": 0.1318,
+          "vol": 14785278.35678,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 125
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ESPUSDT",
-          "rsi": 80.1,
-          "price": 0.06917,
-          "vol": 2739543.39698,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -49,18 +55,25 @@
     "4h": {
       "sell": [
         {
-          "sym": "XAIUSDT",
-          "rsi": 87.3,
-          "price": 0.00787,
-          "vol": 4342639.186711,
+          "sym": "BICOUSDT",
+          "rsi": 88,
+          "price": 0.04374,
+          "vol": 33832989.7394043,
           "label": "MUY ALTO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 86.9,
-          "price": 0.04192,
-          "vol": 32927360.9257001,
+          "sym": "XAIUSDT",
+          "rsi": 86.5,
+          "price": 0.00775,
+          "vol": 5423309.635519,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 84.4,
+          "price": 0.155,
+          "vol": 33793075.23106,
+          "label": "ALTO"
         }
       ],
       "buy": [
