@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T22:03:19.567Z",
-  "updated_ts": 1786140199567,
+  "updated": "2026-08-07T22:49:54.712Z",
+  "updated_ts": 1786142994712,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 115
+      "scanned": 116
     },
     "1h": {
       "sell": [],
@@ -37,35 +37,49 @@
         },
         {
           "sym": "NEARUSDT",
-          "rsi": 23,
-          "price": 1.587,
-          "vol": 18082247.2055,
+          "rsi": 24.4,
+          "price": 1.592,
+          "vol": 18149140.2785,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 84.9,
-          "price": 0.05222,
-          "vol": 46804222.4714819,
-          "label": "ALTO"
+          "rsi": 89,
+          "price": 0.05353,
+          "vol": 46830952.2691655,
+          "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 82.4,
-          "price": 4329.57,
-          "vol": 38477292.299699,
+          "rsi": 82.7,
+          "price": 4332.84,
+          "vol": 38275893.798304,
           "label": "ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 82.1,
-          "price": 4341.32,
-          "vol": 20468845.144304,
+          "rsi": 82.3,
+          "price": 4343.67,
+          "vol": 20381011.258593,
+          "label": "ALTO"
+        },
+        {
+          "sym": "C98USDT",
+          "rsi": 82.3,
+          "price": 0.01721,
+          "vol": 5863692.861968,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 80.2,
+          "price": 0.03904,
+          "vol": 11393555.67418,
           "label": "ALTO"
         }
       ],
@@ -81,11 +95,11 @@
           "sym": "BONKUSDT",
           "rsi": 24.4,
           "price": 0.00000248,
-          "vol": 8524585.42587115,
+          "vol": 8535320.95897427,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 116
     }
   }
 }
