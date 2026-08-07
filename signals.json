@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T09:54:07.280Z",
-  "updated_ts": 1786096447280,
+  "updated": "2026-08-07T10:44:15.937Z",
+  "updated_ts": 1786099455937,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,16 +16,16 @@
       "sell": [
         {
           "sym": "EPICUSDT",
-          "rsi": 84.6,
-          "price": 1.0443,
-          "vol": 14563705.7979,
-          "label": "ALTO"
+          "rsi": 88.9,
+          "price": 1.1166,
+          "vol": 16271462.11196,
+          "label": "MUY ALTO"
         },
         {
           "sym": "C98USDT",
-          "rsi": 81.9,
-          "price": 0.01713,
-          "vol": 2172372.773493,
+          "rsi": 82.8,
+          "price": 0.01793,
+          "vol": 2754548.186289,
           "label": "ALTO"
         }
       ],
@@ -36,24 +36,38 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BONKUSDT",
+          "rsi": 21.6,
+          "price": 0.0000025,
+          "vol": 6225449.00173935,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 24.3,
+          "price": 0.1225,
+          "vol": 37663086.56659,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 125
     },
     "1h": {
       "sell": [
         {
           "sym": "C98USDT",
-          "rsi": 95.4,
-          "price": 0.01713,
-          "vol": 2172372.773493,
+          "rsi": 96.2,
+          "price": 0.01793,
+          "vol": 2754548.186289,
           "label": "EXTREMO"
         },
         {
           "sym": "ESPUSDT",
-          "rsi": 80.3,
-          "price": 0.07059,
-          "vol": 4220968.0037,
+          "rsi": 81,
+          "price": 0.07096,
+          "vol": 4367433.29307,
           "label": "ALTO"
         }
       ],
@@ -66,42 +80,49 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 126
+      "scanned": 125
     },
     "4h": {
       "sell": [
         {
           "sym": "C98USDT",
-          "rsi": 91.6,
-          "price": 0.01713,
-          "vol": 2172372.773493,
+          "rsi": 92.6,
+          "price": 0.01793,
+          "vol": 2754548.186289,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 89.5,
-          "price": 0.04717,
-          "vol": 37207281.2815147,
+          "rsi": 90.5,
+          "price": 0.04979,
+          "vol": 39292959.6400003,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "XAIUSDT",
+          "rsi": 87.2,
+          "price": 0.00789,
+          "vol": 6851949.530735,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "BONKUSDT",
+          "rsi": 21.9,
+          "price": 0.0000025,
+          "vol": 6225449.00173935,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 24.8,
-          "price": 0.00000256,
-          "vol": 5900292.50182606,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 125
     }
   }
 }
