@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-07T23:20:39.423Z",
-  "updated_ts": 1786144839423,
+  "updated": "2026-08-07T23:52:40.490Z",
+  "updated_ts": 1786146760490,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -34,6 +34,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 23,
+          "price": 1.00038,
+          "vol": 1375606802.95926,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEARUSDT",
+          "rsi": 25,
+          "price": 1.592,
+          "vol": 18225119.7139,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 116
@@ -42,30 +56,30 @@
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 90.1,
-          "price": 0.05389,
-          "vol": 46791718.5367316,
+          "rsi": 91.2,
+          "price": 0.05419,
+          "vol": 46570756.7439523,
           "label": "EXTREMO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 82.7,
-          "price": 4332.85,
-          "vol": 38210884.686407,
+          "rsi": 82.5,
+          "price": 4330.7,
+          "vol": 37636094.991405,
           "label": "ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 82.3,
-          "price": 4343.68,
-          "vol": 20258215.606347,
+          "rsi": 82.2,
+          "price": 4342.09,
+          "vol": 20198699.225731,
           "label": "ALTO"
         },
         {
-          "sym": "C98USDT",
-          "rsi": 80.1,
-          "price": 0.01706,
-          "vol": 5924694.277137,
+          "sym": "TUTUSDT",
+          "rsi": 80.2,
+          "price": 0.03902,
+          "vol": 11531932.54885,
           "label": "ALTO"
         }
       ],
@@ -81,7 +95,7 @@
           "sym": "BONKUSDT",
           "rsi": 24.9,
           "price": 0.00000249,
-          "vol": 8522038.15082775,
+          "vol": 8567037.40523575,
           "label": "SOBREVENDIDO"
         }
       ],
