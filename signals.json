@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T20:47:42.620Z",
-  "updated_ts": 1786222062620,
+  "updated": "2026-08-08T21:14:12.759Z",
+  "updated_ts": 1786223652759,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,79 +21,79 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 21.9,
+          "price": 0.10049,
+          "vol": 2276274.40092,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "1h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 85.2,
-          "price": 0.07996,
-          "vol": 51928587.23955,
+          "rsi": 85.9,
+          "price": 0.0816,
+          "vol": 53216363.34202,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 13.6,
+          "price": 0.10049,
+          "vol": 2276274.40092,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 14.9,
-          "price": 0.10082,
-          "vol": 2214900.170179,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "USD1USDT",
-          "rsi": 22.8,
-          "price": 1.00008,
-          "vol": 106113436.75681,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 94.6,
-          "price": 0.07996,
-          "vol": 51928587.23955,
+          "rsi": 94.8,
+          "price": 0.0816,
+          "vol": 53216363.34202,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
           "rsi": 80.6,
-          "price": 0.05722,
-          "vol": 34549266.4627474,
+          "price": 0.05723,
+          "vol": 33965585.3746832,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 22.8,
+          "price": 0.10049,
+          "vol": 2276274.40092,
+          "label": "SOBREVENDIDO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 23.8,
-          "price": 0.10082,
-          "vol": 2214900.170179,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 91
+      "scanned": 90
     }
   }
 }
