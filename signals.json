@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T15:26:29.428Z",
-  "updated_ts": 1786202789428,
+  "updated": "2026-08-08T15:56:07.789Z",
+  "updated_ts": 1786204567789,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SOLUSDT",
-          "rsi": 82,
-          "price": 76.6,
-          "vol": 114458672.94231,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SUIUSDT",
-          "rsi": 80.9,
-          "price": 0.7034,
-          "vol": 13518798.85626,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,36 +23,36 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 93
+      "scanned": 94
     },
     "1h": {
       "sell": [
         {
           "sym": "1000CATUSDT",
-          "rsi": 92.9,
-          "price": 0.0023,
-          "vol": 5744844.721773,
+          "rsi": 90.8,
+          "price": 0.0022,
+          "vol": 6265957.404538,
           "label": "EXTREMO"
         },
         {
           "sym": "TUTUSDT",
-          "rsi": 88.2,
-          "price": 0.06978,
-          "vol": 34176500.19351,
+          "rsi": 88.5,
+          "price": 0.07035,
+          "vol": 34739815.58007,
           "label": "MUY ALTO"
         },
         {
           "sym": "BNBUSDT",
-          "rsi": 82.3,
-          "price": 605.49,
-          "vol": 57857028.83083,
+          "rsi": 82.4,
+          "price": 605.46,
+          "vol": 57785928.53642,
           "label": "ALTO"
         },
         {
           "sym": "SOLUSDT",
-          "rsi": 81.6,
-          "price": 76.6,
-          "vol": 114458672.94231,
+          "rsi": 80.4,
+          "price": 76.46,
+          "vol": 115945789.19056,
           "label": "ALTO"
         }
       ],
@@ -80,50 +65,57 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 24.9,
-          "price": 0.7073,
-          "vol": 9422506.43338,
+          "sym": "JSTUSDT",
+          "rsi": 21.2,
+          "price": 0.10177,
+          "vol": 2064602.279654,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 94
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 93.2,
-          "price": 0.06978,
-          "vol": 34176500.19351,
+          "rsi": 93.3,
+          "price": 0.07035,
+          "vol": 34739815.58007,
           "label": "EXTREMO"
         },
         {
           "sym": "1000CATUSDT",
-          "rsi": 93.1,
-          "price": 0.0023,
-          "vol": 5744844.721773,
+          "rsi": 92.2,
+          "price": 0.0022,
+          "vol": 6265957.404538,
           "label": "EXTREMO"
         },
         {
+          "sym": "CETUSUSDT",
+          "rsi": 86.1,
+          "price": 0.01997,
+          "vol": 2175556.921781,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "BICOUSDT",
-          "rsi": 84.8,
-          "price": 0.05663,
-          "vol": 40922876.8255834,
-          "label": "ALTO"
+          "rsi": 85.5,
+          "price": 0.05792,
+          "vol": 40382337.5953081,
+          "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 80.9,
-          "price": 4329.49,
-          "vol": 9559149.042484,
+          "rsi": 81.3,
+          "price": 4332.44,
+          "vol": 9282786.919161,
           "label": "ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 80.6,
-          "price": 4342.72,
-          "vol": 6400435.697525,
+          "rsi": 80.9,
+          "price": 4345.37,
+          "vol": 6329577.448264,
           "label": "ALTO"
         }
       ],
@@ -134,16 +126,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.5,
-          "price": 0.7073,
-          "vol": 9422506.43338,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 94
     }
   }
 }
