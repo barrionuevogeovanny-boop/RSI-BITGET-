@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T20:12:04.219Z",
-  "updated_ts": 1786219924219,
+  "updated": "2026-08-08T20:47:42.620Z",
+  "updated_ts": 1786222062620,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     },
     "1h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 83.7,
-          "price": 0.0785,
-          "vol": 50749176.15453,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.07996,
+          "vol": 51928587.23955,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -45,29 +45,36 @@
         },
         {
           "sym": "JSTUSDT",
-          "rsi": 15.4,
-          "price": 0.10093,
-          "vol": 2197459.409262,
-          "label": "BAJO"
+          "rsi": 14.9,
+          "price": 0.10082,
+          "vol": 2214900.170179,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "USD1USDT",
+          "rsi": 22.8,
+          "price": 1.00008,
+          "vol": 106113436.75681,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 93.6,
-          "price": 0.0785,
-          "vol": 50749176.15453,
+          "rsi": 94.6,
+          "price": 0.07996,
+          "vol": 51928587.23955,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 85.5,
-          "price": 0.05877,
-          "vol": 35058822.5320231,
-          "label": "MUY ALTO"
+          "rsi": 80.6,
+          "price": 0.05722,
+          "vol": 34549266.4627474,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -80,13 +87,13 @@
         },
         {
           "sym": "JSTUSDT",
-          "rsi": 24.2,
-          "price": 0.10093,
-          "vol": 2197459.409262,
+          "rsi": 23.8,
+          "price": 0.10082,
+          "vol": 2214900.170179,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 90
+      "scanned": 91
     }
   }
 }
