@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T06:26:31.191Z",
-  "updated_ts": 1786170391191,
+  "updated": "2026-08-08T07:28:53.453Z",
+  "updated_ts": 1786174133453,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "PENGUUSDT",
-          "rsi": 80.5,
-          "price": 0.006284,
-          "vol": 3638305.886777,
+          "sym": "DODOUSDT",
+          "rsi": 80.9,
+          "price": 0.02382,
+          "vol": 4145143.3822,
           "label": "ALTO"
         }
       ],
@@ -29,18 +29,32 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 19,
+          "price": 0.7602,
+          "vol": 5592954.62773,
+          "label": "BAJO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     },
     "1h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 88.1,
-          "price": 0.232,
-          "vol": 35753897.73561,
+          "rsi": 88.3,
+          "price": 0.2322,
+          "vol": 52661199.39253,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 82.5,
+          "price": 0.04808,
+          "vol": 15717553.13757,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -50,31 +64,45 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 23,
+          "price": 0.7602,
+          "vol": 5592954.62773,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     },
     "4h": {
       "sell": [
         {
-          "sym": "BICOUSDT",
-          "rsi": 93.6,
-          "price": 0.06222,
-          "vol": 49848399.4792872,
-          "label": "EXTREMO"
+          "sym": "TUTUSDT",
+          "rsi": 86.8,
+          "price": 0.04808,
+          "vol": 15717553.13757,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "TUTUSDT",
-          "rsi": 85.4,
-          "price": 0.04544,
-          "vol": 14806071.06056,
+          "sym": "BICOUSDT",
+          "rsi": 86.6,
+          "price": 0.05689,
+          "vol": 50436219.2755837,
           "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
+          "rsi": 80.6,
+          "price": 4327.21,
+          "vol": 33967261.67243,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
           "rsi": 80,
-          "price": 4325.85,
-          "vol": 34587978.020012,
+          "price": 4338.9,
+          "vol": 18622530.818876,
           "label": "ALTO"
         }
       ],
@@ -85,16 +113,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPKUSDT",
-          "rsi": 24.9,
-          "price": 0.014686,
-          "vol": 2202618.796982,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     }
   }
 }
