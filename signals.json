@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T05:48:58.561Z",
-  "updated_ts": 1786168138561,
+  "updated": "2026-08-08T06:26:31.191Z",
+  "updated_ts": 1786170391191,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 80.5,
+          "price": 0.006284,
+          "vol": 3638305.886777,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,10 +37,10 @@
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 83.3,
-          "price": 0.2139,
-          "vol": 32492833.45328,
-          "label": "ALTO"
+          "rsi": 88.1,
+          "price": 0.232,
+          "vol": 35753897.73561,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -50,17 +58,24 @@
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 93,
-          "price": 0.05949,
-          "vol": 49748716.5130917,
+          "rsi": 93.6,
+          "price": 0.06222,
+          "vol": 49848399.4792872,
           "label": "EXTREMO"
         },
         {
           "sym": "TUTUSDT",
-          "rsi": 85.2,
-          "price": 0.0451,
-          "vol": 14176977.64309,
+          "rsi": 85.4,
+          "price": 0.04544,
+          "vol": 14806071.06056,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 80,
+          "price": 4325.85,
+          "vol": 34587978.020012,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -69,6 +84,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPKUSDT",
+          "rsi": 24.9,
+          "price": 0.014686,
+          "vol": 2202618.796982,
           "label": "SOBREVENDIDO"
         }
       ],
