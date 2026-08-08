@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T00:45:21.727Z",
-  "updated_ts": 1786149921727,
+  "updated": "2026-08-08T02:45:07.629Z",
+  "updated_ts": 1786157107629,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SAGAUSDT",
-          "rsi": 23.1,
-          "price": 0.0136,
-          "vol": 3117876.44869,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "1h": {
       "sell": [],
@@ -41,39 +34,18 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "NEARUSDT",
-          "rsi": 24.8,
-          "price": 1.591,
-          "vol": 18448969.9179,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
           "sym": "BICOUSDT",
-          "rsi": 91.6,
-          "price": 0.05435,
-          "vol": 46163669.2835753,
+          "rsi": 93,
+          "price": 0.05881,
+          "vol": 47769679.6272059,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 82.1,
-          "price": 4330.68,
-          "vol": 37290052.992248,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 81.6,
-          "price": 4342.65,
-          "vol": 20686890.087102,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -86,13 +58,13 @@
         },
         {
           "sym": "BONKUSDT",
-          "rsi": 25,
-          "price": 0.00000249,
-          "vol": 8660507.2601778,
+          "rsi": 24.4,
+          "price": 0.00000248,
+          "vol": 8835234.39097544,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     }
   }
 }
