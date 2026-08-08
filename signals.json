@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T23:11:18.510Z",
-  "updated_ts": 1786230678510,
+  "updated": "2026-08-08T23:44:24.555Z",
+  "updated_ts": 1786232664555,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TUTUSDT",
-          "rsi": 82.6,
-          "price": 0.10973,
-          "vol": 66942418.41534,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -37,9 +29,9 @@
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 92.9,
-          "price": 0.10973,
-          "vol": 66942418.41534,
+          "rsi": 91.6,
+          "price": 0.10289,
+          "vol": 71399011.13645,
           "label": "EXTREMO"
         }
       ],
@@ -53,10 +45,10 @@
         },
         {
           "sym": "JSTUSDT",
-          "rsi": 20.3,
-          "price": 0.10046,
-          "vol": 2427426.665339,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.2,
+          "price": 0.10025,
+          "vol": 2439449.702418,
+          "label": "BAJO"
         }
       ],
       "scanned": 90
@@ -65,39 +57,39 @@
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 96.7,
-          "price": 0.10973,
-          "vol": 66942418.41534,
+          "rsi": 96.4,
+          "price": 0.10289,
+          "vol": 71399011.13645,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 87.1,
-          "price": 0.06099,
-          "vol": 34071410.2384284,
+          "rsi": 88.2,
+          "price": 0.06352,
+          "vol": 34725894.2390421,
           "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 80.4,
-          "price": 4333.96,
-          "vol": 4040872.727639,
+          "rsi": 80.3,
+          "price": 4333.28,
+          "vol": 3888077.792013,
           "label": "ALTO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 80.3,
-          "price": 4348.18,
-          "vol": 5005204.497555,
+          "rsi": 80.1,
+          "price": 4347.05,
+          "vol": 4965298.861809,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "JSTUSDT",
-          "rsi": 22.7,
-          "price": 0.10046,
-          "vol": 2427426.665339,
+          "rsi": 22,
+          "price": 0.10025,
+          "vol": 2439449.702418,
           "label": "SOBREVENDIDO"
         },
         {
