@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T02:37:00.721Z",
-  "updated_ts": 1786243020721,
+  "updated": "2026-08-09T04:03:26.415Z",
+  "updated_ts": 1786248206415,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "IOTXUSDT",
-          "rsi": 84.8,
-          "price": 0.00383,
-          "vol": 4421476.25541,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,31 +21,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 25,
-          "price": 1.1559,
-          "vol": 2441493.26123,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     },
     "1h": {
       "sell": [
         {
-          "sym": "IOTXUSDT",
-          "rsi": 95.8,
-          "price": 0.00383,
-          "vol": 4421476.25541,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "TUTUSDT",
-          "rsi": 89,
-          "price": 0.1295,
-          "vol": 96494562.59839,
+          "rsi": 88.4,
+          "price": 0.14166,
+          "vol": 110465034.97268,
           "label": "MUY ALTO"
         }
       ],
@@ -66,36 +44,36 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 97.4,
-          "price": 0.1295,
-          "vol": 96494562.59839,
+          "rsi": 97.7,
+          "price": 0.14166,
+          "vol": 110465034.97268,
           "label": "EXTREMO"
         },
         {
           "sym": "IOTXUSDT",
-          "rsi": 95.6,
-          "price": 0.00383,
-          "vol": 4421476.25541,
+          "rsi": 93.9,
+          "price": 0.00338,
+          "vol": 5514033.17682,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 90.5,
-          "price": 0.07022,
-          "vol": 35500912.7416018,
-          "label": "EXTREMO"
+          "rsi": 89.4,
+          "price": 0.06823,
+          "vol": 33614711.8204448,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "TSTUSDT",
-          "rsi": 81.1,
-          "price": 0.01913,
-          "vol": 12450292.304596,
+          "sym": "SAGAUSDT",
+          "rsi": 82.5,
+          "price": 0.01794,
+          "vol": 5458468.151751,
           "label": "ALTO"
         }
       ],
@@ -108,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 88
     }
   }
 }
