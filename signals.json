@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T04:03:26.415Z",
-  "updated_ts": 1786248206415,
+  "updated": "2026-08-09T05:13:52.946Z",
+  "updated_ts": 1786252432946,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,15 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "1h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 88.4,
-          "price": 0.14166,
-          "vol": 110465034.97268,
+          "rsi": 89.3,
+          "price": 0.14793,
+          "vol": 116422596.0017,
           "label": "MUY ALTO"
         }
       ],
@@ -44,36 +44,43 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
           "sym": "TUTUSDT",
-          "rsi": 97.7,
-          "price": 0.14166,
-          "vol": 110465034.97268,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "IOTXUSDT",
-          "rsi": 93.9,
-          "price": 0.00338,
-          "vol": 5514033.17682,
+          "rsi": 97.9,
+          "price": 0.14793,
+          "vol": 116422596.0017,
           "label": "EXTREMO"
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 89.4,
-          "price": 0.06823,
-          "vol": 33614711.8204448,
-          "label": "MUY ALTO"
+          "rsi": 91.1,
+          "price": 0.07216,
+          "vol": 33899327.046231,
+          "label": "EXTREMO"
         },
         {
           "sym": "SAGAUSDT",
-          "rsi": 82.5,
-          "price": 0.01794,
-          "vol": 5458468.151751,
+          "rsi": 85.8,
+          "price": 0.01902,
+          "vol": 9532843.711289,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "IOTXUSDT",
+          "rsi": 85.5,
+          "price": 0.00326,
+          "vol": 6322423.15496,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 81.9,
+          "price": 0.017,
+          "vol": 3988988.282206,
           "label": "ALTO"
         }
       ],
@@ -86,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     }
   }
 }
