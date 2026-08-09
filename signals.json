@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T14:46:28.460Z",
-  "updated_ts": 1786286788460,
+  "updated": "2026-08-09T15:14:47.450Z",
+  "updated_ts": 1786288487450,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "NILUSDT",
+          "rsi": 84.6,
+          "price": 0.03863,
+          "vol": 2305367.635277,
+          "label": "ALTO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 82.9,
+          "price": 0.3232,
+          "vol": 7054187.37877,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,36 +38,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 97
+      "scanned": 94
     },
     "1h": {
       "sell": [
         {
-          "sym": "SHELLUSDT",
-          "rsi": 89.9,
-          "price": 0.023,
-          "vol": 2864907.64619,
+          "sym": "PARTIUSDT",
+          "rsi": 89.1,
+          "price": 0.0271,
+          "vol": 3280894.21105,
           "label": "MUY ALTO"
         },
         {
-          "sym": "PARTIUSDT",
-          "rsi": 89.4,
-          "price": 0.0272,
-          "vol": 3213361.82735,
+          "sym": "SHELLUSDT",
+          "rsi": 89.1,
+          "price": 0.0229,
+          "vol": 3193321.07205,
           "label": "MUY ALTO"
         },
         {
           "sym": "PUMPUSDT",
-          "rsi": 83.1,
-          "price": 0.002725,
-          "vol": 15595143.865654,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BANANAS31USDT",
-          "rsi": 80.3,
-          "price": 0.008714,
-          "vol": 2708170.083353,
+          "rsi": 82.7,
+          "price": 0.002713,
+          "vol": 15625287.198563,
           "label": "ALTO"
         }
       ],
@@ -65,57 +73,57 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 97
+      "scanned": 94
     },
     "4h": {
       "sell": [
         {
+          "sym": "BMTUSDT",
+          "rsi": 96.8,
+          "price": 0.02459,
+          "vol": 26341602.182268,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 90.7,
+          "price": 0.02129,
+          "vol": 14946414.771697,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "SHELLUSDT",
-          "rsi": 89.9,
-          "price": 0.023,
-          "vol": 2864907.64619,
+          "rsi": 89.2,
+          "price": 0.0229,
+          "vol": 3193321.07205,
           "label": "MUY ALTO"
         },
         {
           "sym": "BANANAS31USDT",
-          "rsi": 89,
-          "price": 0.008714,
-          "vol": 2708170.083353,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MUBARAKUSDT",
-          "rsi": 88.8,
-          "price": 0.01988,
-          "vol": 14517480.395351,
+          "rsi": 89.1,
+          "price": 0.00876,
+          "vol": 3011192.82302,
           "label": "MUY ALTO"
         },
         {
           "sym": "PARTIUSDT",
-          "rsi": 84.2,
-          "price": 0.0272,
-          "vol": 3213361.82735,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BMTUSDT",
-          "rsi": 83.7,
-          "price": 0.02291,
-          "vol": 25480096.915947,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CRVUSDT",
-          "rsi": 80.7,
-          "price": 0.2379,
-          "vol": 2904891.87281,
+          "rsi": 83.8,
+          "price": 0.0271,
+          "vol": 3280894.21105,
           "label": "ALTO"
         },
         {
           "sym": "TUTUSDT",
-          "rsi": 80.6,
-          "price": 0.15264,
-          "vol": 254239840.62692,
+          "rsi": 83.3,
+          "price": 0.15616,
+          "vol": 258096247.19957,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CRVUSDT",
+          "rsi": 81.6,
+          "price": 0.2393,
+          "vol": 2975232.44741,
           "label": "ALTO"
         }
       ],
@@ -128,7 +136,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 94
     }
   }
 }
