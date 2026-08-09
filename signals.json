@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T15:48:58.926Z",
-  "updated_ts": 1786290538926,
+  "updated": "2026-08-09T16:15:28.380Z",
+  "updated_ts": 1786292128380,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,24 @@
       "sell": [
         {
           "sym": "TRUMPUSDT",
-          "rsi": 88.8,
-          "price": 1.515,
-          "vol": 2323439.405777,
-          "label": "MUY ALTO"
+          "rsi": 91.8,
+          "price": 1.526,
+          "vol": 2739012.124826,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 82.8,
+          "price": 0.006618,
+          "vol": 4032779.46951,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SUIUSDT",
+          "rsi": 80,
+          "price": 0.7017,
+          "vol": 9637712.13126,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -36,32 +50,25 @@
     "1h": {
       "sell": [
         {
-          "sym": "PARTIUSDT",
-          "rsi": 90.6,
-          "price": 0.0275,
-          "vol": 3351114.79001,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "BOMEUSDT",
-          "rsi": 88.6,
-          "price": 0.0007521,
-          "vol": 2230613.1742627,
-          "label": "MUY ALTO"
+          "rsi": 84.5,
+          "price": 0.0007504,
+          "vol": 2412245.2638325,
+          "label": "ALTO"
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 86.7,
-          "price": 0.00861,
-          "vol": 2199948.456181,
-          "label": "MUY ALTO"
+          "rsi": 83.9,
+          "price": 0.00864,
+          "vol": 2419039.718073,
+          "label": "ALTO"
         },
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 85.5,
-          "price": 0.009206,
-          "vol": 3362518.163949,
-          "label": "MUY ALTO"
+          "sym": "NEIROUSDT",
+          "rsi": 82.1,
+          "price": 0.00007176,
+          "vol": 2024767.25060712,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -79,51 +86,51 @@
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 97,
-          "price": 0.02507,
-          "vol": 27208047.854897,
+          "rsi": 96.9,
+          "price": 0.0251,
+          "vol": 28054289.031778,
           "label": "EXTREMO"
         },
         {
           "sym": "MUBARAKUSDT",
           "rsi": 91.6,
-          "price": 0.02211,
-          "vol": 15798422.076066,
+          "price": 0.02212,
+          "vol": 16403255.221607,
           "label": "EXTREMO"
         },
         {
           "sym": "BANANAS31USDT",
-          "rsi": 91.4,
-          "price": 0.009206,
-          "vol": 3362518.163949,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "PARTIUSDT",
-          "rsi": 85.2,
-          "price": 0.0275,
-          "vol": 3351114.79001,
+          "rsi": 85.9,
+          "price": 0.009182,
+          "vol": 3585056.481463,
           "label": "MUY ALTO"
         },
         {
+          "sym": "NEIROUSDT",
+          "rsi": 82.6,
+          "price": 0.00007176,
+          "vol": 2024767.25060712,
+          "label": "ALTO"
+        },
+        {
           "sym": "CRVUSDT",
-          "rsi": 82.7,
+          "rsi": 82,
           "price": 0.2414,
-          "vol": 3267633.3269,
+          "vol": 3288020.33241,
+          "label": "ALTO"
+        },
+        {
+          "sym": "THEUSDT",
+          "rsi": 80.6,
+          "price": 0.0656,
+          "vol": 4262677.55889,
           "label": "ALTO"
         },
         {
           "sym": "BOMEUSDT",
-          "rsi": 82.2,
-          "price": 0.0007521,
-          "vol": 2230613.1742627,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BROCCOLI714USDT",
-          "rsi": 80.1,
-          "price": 0.02022,
-          "vol": 8124269.11524,
+          "rsi": 80,
+          "price": 0.0007504,
+          "vol": 2412245.2638325,
           "label": "ALTO"
         }
       ],
@@ -133,6 +140,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 24.8,
+          "price": 0.6677,
+          "vol": 9720920.0632,
           "label": "SOBREVENDIDO"
         }
       ],
