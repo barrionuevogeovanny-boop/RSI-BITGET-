@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T02:56:58.923Z",
-  "updated_ts": 1786330618923,
+  "updated": "2026-08-10T04:38:06.019Z",
+  "updated_ts": 1786336686019,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ESPUSDT",
-          "rsi": 81.4,
-          "price": 0.07995,
-          "vol": 5553653.93108,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,25 +21,25 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 21.2,
-          "price": 0.1006,
-          "vol": 3791419.477951,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 115
     },
     "1h": {
       "sell": [
         {
           "sym": "NILUSDT",
-          "rsi": 87.9,
-          "price": 0.04569,
-          "vol": 4027243.12466,
-          "label": "MUY ALTO"
+          "rsi": 83.1,
+          "price": 0.04604,
+          "vol": 5086078.022157,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ACTUSDT",
+          "rsi": 82.2,
+          "price": 0.01228,
+          "vol": 2413451.936936,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -60,42 +52,28 @@
         },
         {
           "sym": "EPICUSDT",
-          "rsi": 17.9,
-          "price": 0.5192,
-          "vol": 25064575.6531,
+          "rsi": 19.5,
+          "price": 0.5108,
+          "vol": 26039609.94899,
           "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.7,
-          "price": 4315.56,
-          "vol": 7739833.686644,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.9,
-          "price": 4303.63,
-          "vol": 11942934.333715,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 90.5,
-          "price": 0.03743,
-          "vol": 69688817.71995,
+          "rsi": 91.5,
+          "price": 0.04024,
+          "vol": 75202973.213819,
           "label": "EXTREMO"
         },
         {
-          "sym": "TUTUSDT",
+          "sym": "ADXUSDT",
           "rsi": 81.5,
-          "price": 0.19732,
-          "vol": 262430947.97684,
+          "price": 0.067,
+          "vol": 2066853.1378,
           "label": "ALTO"
         }
       ],
@@ -108,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 115
     }
   }
 }
