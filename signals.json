@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T23:03:02.464Z",
-  "updated_ts": 1786402982464,
+  "updated": "2026-08-10T23:46:15.211Z",
+  "updated_ts": 1786405575211,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,38 +24,16 @@
         },
         {
           "sym": "RENDERUSDT",
-          "rsi": 20.7,
-          "price": 1.265,
-          "vol": 3391690.99725,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ONDOUSDT",
-          "rsi": 22.9,
-          "price": 0.3382,
-          "vol": 6959018.19786,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FETUSDT",
           "rsi": 23.3,
-          "price": 0.1339,
-          "vol": 5770927.80496,
+          "price": 1.261,
+          "vol": 3673038.96941,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 117
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "RADUSDT",
-          "rsi": 82.8,
-          "price": 0.272,
-          "vol": 3291918.4248,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,15 +43,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 120
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "RADUSDT",
-          "rsi": 91.9,
-          "price": 0.272,
-          "vol": 3291918.4248,
+          "rsi": 90.6,
+          "price": 0.261,
+          "vol": 3745864.4546,
           "label": "EXTREMO"
         }
       ],
@@ -86,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 117
     }
   }
 }
