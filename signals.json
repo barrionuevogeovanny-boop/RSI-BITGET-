@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T16:38:16.326Z",
-  "updated_ts": 1786379896326,
+  "updated": "2026-08-10T17:33:32.700Z",
+  "updated_ts": 1786383212700,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 83.1,
-          "price": 0.01207,
-          "vol": 12340676.00653,
+          "sym": "ICPUSDT",
+          "rsi": 80.5,
+          "price": 2.322,
+          "vol": 6899580.18041,
           "label": "ALTO"
         }
       ],
@@ -29,31 +29,17 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ETHUSDT",
-          "rsi": 21.4,
-          "price": 1875.55,
-          "vol": 381466093.737432,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 22.8,
-          "price": 64119.26,
-          "vol": 787599512.6190721,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "HOMEUSDT",
-          "rsi": 84.7,
-          "price": 0.01207,
-          "vol": 12340676.00653,
+          "sym": "ICPUSDT",
+          "rsi": 80.5,
+          "price": 2.322,
+          "vol": 6899580.18041,
           "label": "ALTO"
         }
       ],
@@ -64,16 +50,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "ETHUSDT",
-          "rsi": 24.2,
-          "price": 1875.55,
-          "vol": 381466093.737432,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 122
     },
     "4h": {
       "sell": [],
@@ -86,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 122
     }
   }
 }
