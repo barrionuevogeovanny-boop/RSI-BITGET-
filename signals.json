@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T14:52:56.910Z",
-  "updated_ts": 1786373576910,
+  "updated": "2026-08-10T15:49:07.254Z",
+  "updated_ts": 1786376947254,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 83.3,
+          "price": 0.01137,
+          "vol": 8440897.79789,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +29,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 21.2,
+          "price": 1877.21,
+          "vol": 357702523.940497,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 121
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 81.7,
+          "price": 0.01137,
+          "vol": 8440897.79789,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -34,9 +57,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 24.9,
+          "price": 1877.21,
+          "vol": 357702523.940497,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 121
     },
     "4h": {
       "sell": [],
@@ -49,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 121
     }
   }
 }
