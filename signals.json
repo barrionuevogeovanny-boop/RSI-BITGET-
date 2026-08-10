@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T07:57:16.741Z",
-  "updated_ts": 1786348636741,
+  "updated": "2026-08-10T09:22:42.013Z",
+  "updated_ts": 1786353762013,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "WLDUSDT",
-          "rsi": 85.3,
-          "price": 0.3509,
-          "vol": 15818592.3401,
-          "label": "MUY ALTO"
+          "sym": "CHIPUSDT",
+          "rsi": 83.9,
+          "price": 0.0237,
+          "vol": 2240092.47649,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -31,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 113
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "JTOUSDT",
+          "rsi": 85.1,
+          "price": 0.5727,
+          "vol": 2335060.07151,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,18 +52,10 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 113
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ACTUSDT",
-          "rsi": 81.3,
-          "price": 0.01351,
-          "vol": 6192112.483455,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 113
     }
   }
 }
