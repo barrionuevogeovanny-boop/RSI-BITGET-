@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T21:01:35.225Z",
-  "updated_ts": 1786395695225,
+  "updated": "2026-08-10T21:52:00.775Z",
+  "updated_ts": 1786398720775,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 21.4,
+          "price": 0.00000453,
+          "vol": 3731498.51075587,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "1h": {
       "sell": [],
@@ -36,7 +43,7 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [],
@@ -49,7 +56,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     }
   }
 }
