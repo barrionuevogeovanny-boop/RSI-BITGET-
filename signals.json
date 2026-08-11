@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-10T23:46:15.211Z",
-  "updated_ts": 1786405575211,
+  "updated": "2026-08-11T00:36:09.785Z",
+  "updated_ts": 1786408569785,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,16 +24,31 @@
         },
         {
           "sym": "RENDERUSDT",
-          "rsi": 23.3,
-          "price": 1.261,
-          "vol": 3673038.96941,
+          "rsi": 20.4,
+          "price": 1.253,
+          "vol": 4047562.86679,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ADAUSDT",
+          "rsi": 24,
+          "price": 0.1899,
+          "vol": 14001133.01616,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 82,
+          "price": 0.0555,
+          "vol": 3546794.92503,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,18 +58,10 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "RADUSDT",
-          "rsi": 90.6,
-          "price": 0.261,
-          "vol": 3745864.4546,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -64,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     }
   }
 }
