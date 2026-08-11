@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T00:36:09.785Z",
-  "updated_ts": 1786408569785,
+  "updated": "2026-08-11T02:38:32.438Z",
+  "updated_ts": 1786415912438,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ENAUSDT",
+          "rsi": 80.5,
+          "price": 0.0913,
+          "vol": 9399622.236006,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,20 +29,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "RENDERUSDT",
-          "rsi": 20.4,
-          "price": 1.253,
-          "vol": 4047562.86679,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ADAUSDT",
-          "rsi": 24,
-          "price": 0.1899,
-          "vol": 14001133.01616,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 115
@@ -42,10 +36,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "WLFIUSDT",
-          "rsi": 82,
-          "price": 0.0555,
-          "vol": 3546794.92503,
+          "sym": "CRVUSDT",
+          "rsi": 81.1,
+          "price": 0.2683,
+          "vol": 8086957.63049,
           "label": "ALTO"
         }
       ],
@@ -61,7 +55,15 @@
       "scanned": 115
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "CRVUSDT",
+          "rsi": 81,
+          "price": 0.2683,
+          "vol": 8086957.63049,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
