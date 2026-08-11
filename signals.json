@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T05:18:27.712Z",
-  "updated_ts": 1786425507712,
+  "updated": "2026-08-11T06:08:55.664Z",
+  "updated_ts": 1786428535664,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,21 @@
           "label": "BAJO"
         },
         {
-          "sym": "NEIROUSDT",
-          "rsi": 19.2,
-          "price": 0.00006742,
-          "vol": 2075951.80985731,
-          "label": "BAJO"
+          "sym": "TSTUSDT",
+          "rsi": 21.3,
+          "price": 0.01694,
+          "vol": 27751657.764912,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BROCCOLI714USDT",
+          "rsi": 24.2,
+          "price": 0.01663,
+          "vol": 4659297.83551,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     },
     "1h": {
       "sell": [],
@@ -43,18 +50,10 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "CRVUSDT",
-          "rsi": 80.8,
-          "price": 0.2679,
-          "vol": 9572801.39703,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -62,9 +61,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 24.6,
+          "price": 0.6495,
+          "vol": 3986961.37255,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     }
   }
 }
