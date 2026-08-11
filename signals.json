@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T10:28:49.535Z",
-  "updated_ts": 1786444129535,
+  "updated": "2026-08-11T11:21:58.853Z",
+  "updated_ts": 1786447318853,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 91.2,
-          "price": 0.3372,
-          "vol": 26041755.00952,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,13 +21,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "RENDERUSDT",
-          "rsi": 22.3,
-          "price": 1.233,
-          "vol": 5943722.07037,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 107
@@ -44,26 +29,33 @@
       "sell": [
         {
           "sym": "TRXUSDT",
-          "rsi": 89.5,
-          "price": 0.3372,
-          "vol": 26041755.00952,
-          "label": "MUY ALTO"
+          "rsi": 83.8,
+          "price": 0.336,
+          "vol": 28028962.25281,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LINKUSDT",
+          "rsi": 80.2,
+          "price": 8.675,
+          "vol": 22461076.95819,
+          "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "MOVRUSDT",
+          "rsi": 13,
+          "price": 0.947,
+          "vol": 2343178.387466,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 23.8,
-          "price": 485.09,
-          "vol": 48150688.60124,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 107
@@ -72,13 +64,20 @@
       "sell": [
         {
           "sym": "TRXUSDT",
-          "rsi": 84.7,
-          "price": 0.3372,
-          "vol": 26041755.00952,
+          "rsi": 82.8,
+          "price": 0.336,
+          "vol": 28028962.25281,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "MOVRUSDT",
+          "rsi": 16.4,
+          "price": 0.947,
+          "vol": 2343178.387466,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
