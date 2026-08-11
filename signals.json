@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T22:01:38.836Z",
-  "updated_ts": 1786485698836,
+  "updated": "2026-08-11T22:54:33.883Z",
+  "updated_ts": 1786488873883,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     },
     "1h": {
       "sell": [
         {
           "sym": "HOLOUSDT",
-          "rsi": 87.6,
-          "price": 0.0853,
-          "vol": 7580589.56949,
-          "label": "MUY ALTO"
+          "rsi": 94.5,
+          "price": 0.0899,
+          "vol": 8660255.68208,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -44,29 +44,43 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "MEGAUSDT",
+          "rsi": 22.8,
+          "price": 0.03334,
+          "vol": 2155444.543771,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "GOOGLBUSDT",
-          "rsi": 22.1,
-          "price": 345.36,
-          "vol": 2031385.77029,
+          "rsi": 23.6,
+          "price": 345.6,
+          "vol": 2139648.78633,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "MOVRUSDT",
-          "rsi": 24.5,
-          "price": 0.919,
-          "vol": 3845423.840359,
+          "rsi": 24.1,
+          "price": 0.916,
+          "vol": 3906531.673703,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
           "sym": "HOLOUSDT",
-          "rsi": 82.4,
-          "price": 0.0853,
-          "vol": 7580589.56949,
+          "rsi": 85,
+          "price": 0.0899,
+          "vol": 8660255.68208,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LUNAUSDT",
+          "rsi": 80.5,
+          "price": 0.049,
+          "vol": 8284870.494484,
           "label": "ALTO"
         }
       ],
@@ -75,14 +89,14 @@
           "sym": "RVNUSDT",
           "rsi": 19.8,
           "price": 0.00291,
-          "vol": 2027719.261383,
+          "vol": 2038827.99305,
           "label": "BAJO"
         },
         {
           "sym": "MOVRUSDT",
-          "rsi": 21.6,
-          "price": 0.919,
-          "vol": 3845423.840359,
+          "rsi": 21.5,
+          "price": 0.916,
+          "vol": 3906531.673703,
           "label": "SOBREVENDIDO"
         },
         {
@@ -94,13 +108,13 @@
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 24.4,
-          "price": 0.64,
-          "vol": 2747200.32991,
+          "rsi": 25,
+          "price": 0.6413,
+          "vol": 2742720.7367,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     }
   }
 }
