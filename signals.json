@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T12:03:06.336Z",
-  "updated_ts": 1786449786336,
+  "updated": "2026-08-11T13:33:57.630Z",
+  "updated_ts": 1786455237630,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,68 +21,53 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 24.3,
+          "price": 3.841,
+          "vol": 8761387.35539,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 89.5,
-          "price": 0.337,
-          "vol": 28748784.45981,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MITOUSDT",
-          "rsi": 88.4,
-          "price": 0.0298,
-          "vol": 4464259.831718,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "MOVRUSDT",
-          "rsi": 5.9,
-          "price": 0.922,
-          "vol": 2495925.849636,
-          "label": "EXTREMO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "MOVRUSDT",
+          "rsi": 15.8,
+          "price": 0.938,
+          "vol": 2844771.032309,
+          "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
-          "sym": "TRXUSDT",
-          "rsi": 84.6,
-          "price": 0.337,
-          "vol": 28748784.45981,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MITOUSDT",
-          "rsi": 80.2,
-          "price": 0.0298,
-          "vol": 4464259.831718,
+          "sym": "LUNAUSDT",
+          "rsi": 83.7,
+          "price": 0.0469,
+          "vol": 3250603.895084,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 15.2,
-          "price": 0.922,
-          "vol": 2495925.849636,
+          "rsi": 17.6,
+          "price": 0.938,
+          "vol": 2844771.032309,
           "label": "BAJO"
         },
         {
@@ -93,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     }
   }
 }
