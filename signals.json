@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T13:33:57.630Z",
-  "updated_ts": 1786455237630,
+  "updated": "2026-08-11T14:38:57.944Z",
+  "updated_ts": 1786459137944,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,16 +24,38 @@
         },
         {
           "sym": "UNIUSDT",
-          "rsi": 24.3,
-          "price": 3.841,
-          "vol": 8761387.35539,
+          "rsi": 20,
+          "price": 3.81,
+          "vol": 9950989.49969,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 24.5,
+          "price": 6.39,
+          "vol": 6283861.51751,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 24.7,
+          "price": 0.788,
+          "vol": 3491184.35264,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "LUNAUSDT",
+          "rsi": 90.1,
+          "price": 0.0507,
+          "vol": 4727451.739244,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,31 +66,31 @@
         },
         {
           "sym": "MOVRUSDT",
-          "rsi": 15.8,
-          "price": 0.938,
-          "vol": 2844771.032309,
-          "label": "BAJO"
+          "rsi": 21.1,
+          "price": 0.949,
+          "vol": 3016214.260095,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "LUNAUSDT",
-          "rsi": 83.7,
-          "price": 0.0469,
-          "vol": 3250603.895084,
-          "label": "ALTO"
+          "rsi": 89.2,
+          "price": 0.0507,
+          "vol": 4727451.739244,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 17.6,
-          "price": 0.938,
-          "vol": 2844771.032309,
-          "label": "BAJO"
+          "rsi": 21.1,
+          "price": 0.949,
+          "vol": 3016214.260095,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -76,9 +98,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 25,
+          "price": 0.6498,
+          "vol": 3548262.50414,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     }
   }
 }
