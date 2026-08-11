@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T09:35:04.106Z",
-  "updated_ts": 1786440904106,
+  "updated": "2026-08-11T10:28:49.535Z",
+  "updated_ts": 1786444129535,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 91.2,
+          "price": 0.3372,
+          "vol": 26041755.00952,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,17 +31,25 @@
           "label": "BAJO"
         },
         {
-          "sym": "TSTUSDT",
-          "rsi": 22.6,
-          "price": 0.01537,
-          "vol": 24136779.885941,
+          "sym": "RENDERUSDT",
+          "rsi": 22.3,
+          "price": 1.233,
+          "vol": 5943722.07037,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 89.5,
+          "price": 0.3372,
+          "vol": 26041755.00952,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -45,15 +61,23 @@
         {
           "sym": "ZECUSDT",
           "rsi": 23.8,
-          "price": 485.64,
-          "vol": 49102644.21668,
+          "price": 485.09,
+          "vol": 48150688.60124,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 84.7,
+          "price": 0.3372,
+          "vol": 26041755.00952,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -63,7 +87,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 107
     }
   }
 }
