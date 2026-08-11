@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-11T07:33:40.863Z",
-  "updated_ts": 1786433620863,
+  "updated": "2026-08-11T08:33:09.767Z",
+  "updated_ts": 1786437189767,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,23 +13,8 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "AUDIOUSDT",
-          "rsi": 91.5,
-          "price": 0.0141,
-          "vol": 2525520.444746,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "TSTUSDT",
-          "rsi": 15.3,
-          "price": 0.0154,
-          "vol": 28717416.072873,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -38,32 +23,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "DEXEUSDT",
-          "rsi": 23.4,
-          "price": 2.036,
-          "vol": 3889117.40152,
+          "sym": "AAOIBUSDT",
+          "rsi": 21.2,
+          "price": 127.4,
+          "vol": 3621825.73129,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "MUBARAKUSDT",
-          "rsi": 23.7,
-          "price": 0.01717,
-          "vol": 12793602.862504,
+          "sym": "TSTUSDT",
+          "rsi": 22.8,
+          "price": 0.01562,
+          "vol": 27202069.662132,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AUDIOUSDT",
-          "rsi": 83.6,
-          "price": 0.0141,
-          "vol": 2525520.444746,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,23 +50,23 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 22.1,
-          "price": 0.09713,
-          "vol": 3004475.35656,
+          "sym": "ZECUSDT",
+          "rsi": 24,
+          "price": 485.43,
+          "vol": 47976659.19575,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
-          "sym": "AUDIOUSDT",
-          "rsi": 87.4,
-          "price": 0.0141,
-          "vol": 2525520.444746,
-          "label": "MUY ALTO"
+          "sym": "MAVUSDT",
+          "rsi": 80.9,
+          "price": 0.01124,
+          "vol": 3530985.02751,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -101,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     }
   }
 }
