@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T19:14:45.016Z",
-  "updated_ts": 1786562085016,
+  "updated": "2026-08-12T20:05:25.767Z",
+  "updated_ts": 1786565125767,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "NBISBUSDT",
+          "rsi": 87,
+          "price": 262.4,
+          "vol": 7011269.13538,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,50 +31,36 @@
           "label": "BAJO"
         },
         {
-          "sym": "ICPUSDT",
-          "rsi": 20.4,
-          "price": 2.179,
-          "vol": 2462504.63926,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ENAUSDT",
-          "rsi": 22.3,
-          "price": 0.0867,
-          "vol": 6668887.929314,
+          "sym": "ARBUSDT",
+          "rsi": 24.4,
+          "price": 0.0772,
+          "vol": 3429447.68006,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 90.7,
-          "price": 248.69,
-          "vol": 6640498.97452,
+          "rsi": 93.2,
+          "price": 262.4,
+          "vol": 7011269.13538,
           "label": "EXTREMO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 84.7,
-          "price": 154.56,
-          "vol": 28923973.31603,
-          "label": "ALTO"
+          "rsi": 85.1,
+          "price": 154.94,
+          "vol": 28618440.07131,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 84.3,
-          "price": 147.83,
-          "vol": 49016625.12002,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SMCIBUSDT",
-          "rsi": 83.2,
-          "price": 37.83,
-          "vol": 2790909.481,
+          "sym": "KORUBUSDT",
+          "rsi": 81.9,
+          "price": 20.48,
+          "vol": 7334623.5738,
           "label": "ALTO"
         }
       ],
@@ -79,53 +73,53 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 15.7,
-          "price": 0.4572,
-          "vol": 17873462.02766,
+          "sym": "BABYUSDT",
+          "rsi": 17.5,
+          "price": 0.01061,
+          "vol": 123457177.97388,
           "label": "BAJO"
         },
         {
-          "sym": "BABYUSDT",
-          "rsi": 19.1,
-          "price": 0.01066,
-          "vol": 123822983.43544,
-          "label": "BAJO"
+          "sym": "KAITOUSDT",
+          "rsi": 21.6,
+          "price": 0.4704,
+          "vol": 17928825.89633,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 84.9,
-          "price": 248.69,
-          "vol": 6640498.97452,
-          "label": "ALTO"
+          "rsi": 87.4,
+          "price": 262.4,
+          "vol": 7011269.13538,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SMCIBUSDT",
-          "rsi": 81.9,
-          "price": 37.83,
-          "vol": 2790909.481,
+          "rsi": 80.8,
+          "price": 37.51,
+          "vol": 2586370.2142,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 12.3,
-          "price": 0.4572,
-          "vol": 17873462.02766,
-          "label": "MUY BAJO"
+          "rsi": 16.1,
+          "price": 0.4704,
+          "vol": 17928825.89633,
+          "label": "BAJO"
         },
         {
           "sym": "ONEUSDT",
-          "rsi": 18.7,
-          "price": 0.00081,
-          "vol": 12851804.020567,
-          "label": "BAJO"
+          "rsi": 20.2,
+          "price": 0.00082,
+          "vol": 12926858.94558,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -135,7 +129,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 113
     }
   }
 }
