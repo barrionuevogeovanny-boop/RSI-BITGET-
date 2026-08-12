@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T17:04:51.034Z",
-  "updated_ts": 1786554291034,
+  "updated": "2026-08-12T18:03:03.922Z",
+  "updated_ts": 1786557783922,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,17 @@
     "15m": {
       "sell": [
         {
+          "sym": "COTIUSDT",
+          "rsi": 84.2,
+          "price": 0.01408,
+          "vol": 4263448.43754,
+          "label": "ALTO"
+        },
+        {
           "sym": "NBISBUSDT",
-          "rsi": 84.8,
-          "price": 247.59,
-          "vol": 5900022.49341,
+          "rsi": 81.2,
+          "price": 249.01,
+          "vol": 6566845.52199,
           "label": "ALTO"
         }
       ],
@@ -31,17 +38,10 @@
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 21.4,
-          "price": 0.4634,
-          "vol": 3734346.97418,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "BABYUSDT",
-          "rsi": 24.2,
-          "price": 0.01079,
-          "vol": 126536842.96067,
+          "rsi": 23.4,
+          "price": 0.01071,
+          "vol": 125686810.55713,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -51,51 +51,58 @@
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 95.2,
-          "price": 247.59,
-          "vol": 5900022.49341,
+          "rsi": 93.2,
+          "price": 249.01,
+          "vol": 6566845.52199,
           "label": "EXTREMO"
         },
         {
-          "sym": "DRAMBUSDT",
-          "rsi": 81.9,
-          "price": 54.83,
-          "vol": 2289302.7654,
-          "label": "ALTO"
+          "sym": "COTIUSDT",
+          "rsi": 86,
+          "price": 0.01408,
+          "vol": 4263448.43754,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SPCXBUSDT",
-          "rsi": 81.6,
-          "price": 144.48,
-          "vol": 45979044.06778,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 81.6,
-          "price": 928.06,
-          "vol": 10844819.64973,
+          "rsi": 83,
+          "price": 145.77,
+          "vol": 46578755.20053,
           "label": "ALTO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 81.5,
-          "price": 152.46,
-          "vol": 28651867.06852,
+          "rsi": 82.2,
+          "price": 153.4,
+          "vol": 28686828.92296,
           "label": "ALTO"
         },
         {
           "sym": "MUUBUSDT",
-          "rsi": 81.5,
-          "price": 29.62,
-          "vol": 2212280.7878,
+          "rsi": 81.8,
+          "price": 29.95,
+          "vol": 2090915.5853,
           "label": "ALTO"
         },
         {
-          "sym": "KORUBUSDT",
-          "rsi": 80.4,
-          "price": 20.07,
-          "vol": 7584697.4988,
+          "sym": "DRAMBUSDT",
+          "rsi": 81.7,
+          "price": 55.09,
+          "vol": 2346658.6988,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MUBUSDT",
+          "rsi": 81.2,
+          "price": 933.11,
+          "vol": 11537129.4061,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LITEBUSDT",
+          "rsi": 80.7,
+          "price": 963.91,
+          "vol": 3776949.43829,
           "label": "ALTO"
         }
       ],
@@ -108,25 +115,18 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 16.2,
-          "price": 0.4652,
-          "vol": 16725816.2333,
-          "label": "BAJO"
-        },
-        {
           "sym": "BABYUSDT",
-          "rsi": 17.6,
-          "price": 0.01079,
-          "vol": 126536842.96067,
+          "rsi": 17.7,
+          "price": 0.01071,
+          "vol": 125686810.55713,
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 23.4,
-          "price": 0.4634,
-          "vol": 3734346.97418,
-          "label": "SOBREVENDIDO"
+          "sym": "KAITOUSDT",
+          "rsi": 17.7,
+          "price": 0.4696,
+          "vol": 17224713.88029,
+          "label": "BAJO"
         }
       ],
       "scanned": 111
@@ -135,25 +135,32 @@
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 84.6,
-          "price": 247.59,
-          "vol": 5900022.49341,
+          "rsi": 85,
+          "price": 249.01,
+          "vol": 6566845.52199,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SMCIBUSDT",
+          "rsi": 80.6,
+          "price": 37.29,
+          "vol": 2779533.8794,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 14,
-          "price": 0.4652,
-          "vol": 16725816.2333,
-          "label": "MUY BAJO"
+          "rsi": 15.7,
+          "price": 0.4696,
+          "vol": 17224713.88029,
+          "label": "BAJO"
         },
         {
           "sym": "ONEUSDT",
-          "rsi": 21.7,
-          "price": 0.00083,
-          "vol": 12531028.477028,
+          "rsi": 23.1,
+          "price": 0.00084,
+          "vol": 12693842.824862,
           "label": "SOBREVENDIDO"
         },
         {
