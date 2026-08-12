@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T04:27:40.141Z",
-  "updated_ts": 1786508860141,
+  "updated": "2026-08-12T05:56:04.122Z",
+  "updated_ts": 1786514164122,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 24.1,
+          "price": 0.4912,
+          "vol": 2402106.32238,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 24.9,
+          "price": 0.0972,
+          "vol": 2284568.85387,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 119
     },
     "1h": {
       "sell": [],
@@ -37,44 +51,57 @@
         },
         {
           "sym": "RVNUSDT",
-          "rsi": 23.9,
-          "price": 0.00277,
-          "vol": 2286301.443396,
+          "rsi": 19.5,
+          "price": 0.0027,
+          "vol": 2391844.045737,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 22,
+          "price": 0.0972,
+          "vol": 2284568.85387,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 24.9,
+          "price": 0.06353,
+          "vol": 46219758.72066,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 119
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "HOLOUSDT",
-          "rsi": 81.3,
-          "price": 0.0927,
-          "vol": 19571119.39325,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "ONEUSDT",
-          "rsi": 15.1,
-          "price": 0.00097,
-          "vol": 6450896.45387,
-          "label": "BAJO"
+          "rsi": 10.2,
+          "price": 0.0008,
+          "vol": 7696550.372636,
+          "label": "MUY BAJO"
         },
         {
           "sym": "RVNUSDT",
-          "rsi": 16.7,
-          "price": 0.00277,
-          "vol": 2286301.443396,
-          "label": "BAJO"
+          "rsi": 14.6,
+          "price": 0.0027,
+          "vol": 2391844.045737,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "MOVRUSDT",
+          "rsi": 21.5,
+          "price": 0.894,
+          "vol": 4464390.802142,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 21.9,
-          "price": 0.6273,
-          "vol": 2875730.33488,
+          "rsi": 21.8,
+          "price": 0.6267,
+          "vol": 2849216.71563,
           "label": "SOBREVENDIDO"
         },
         {
@@ -85,14 +112,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "MOVRUSDT",
-          "rsi": 24.6,
-          "price": 0.91,
-          "vol": 4371852.214778,
+          "sym": "DEXEUSDT",
+          "rsi": 24.8,
+          "price": 1.929,
+          "vol": 4114789.89222,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 119
     }
   }
 }
