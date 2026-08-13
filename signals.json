@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-12T23:56:21.341Z",
-  "updated_ts": 1786578981341,
+  "updated": "2026-08-13T01:51:38.599Z",
+  "updated_ts": 1786585898599,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,38 +21,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ARBUSDT",
-          "rsi": 16.4,
-          "price": 0.0741,
-          "vol": 4245150.95299,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 22.5,
-          "price": 0.00000268,
-          "vol": 10886904.37177932,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 112
     },
     "1h": {
       "sell": [
         {
-          "sym": "NBISBUSDT",
-          "rsi": 81.9,
-          "price": 253.84,
-          "vol": 7636975.73812,
+          "sym": "KORUBUSDT",
+          "rsi": 83.1,
+          "price": 20.73,
+          "vol": 8021249.0382,
           "label": "ALTO"
         },
         {
-          "sym": "KORUBUSDT",
-          "rsi": 81.5,
-          "price": 20.54,
-          "vol": 7653829.0771,
+          "sym": "NBISBUSDT",
+          "rsi": 82,
+          "price": 254.54,
+          "vol": 7623220.24044,
           "label": "ALTO"
         }
       ],
@@ -66,59 +52,52 @@
         },
         {
           "sym": "BABYUSDT",
-          "rsi": 15.4,
-          "price": 0.01023,
-          "vol": 118681457.15496,
-          "label": "BAJO"
-        },
-        {
-          "sym": "ARBUSDT",
-          "rsi": 18.7,
-          "price": 0.0741,
-          "vol": 4245150.95299,
-          "label": "BAJO"
-        },
-        {
-          "sym": "FILUSDT",
-          "rsi": 21.9,
-          "price": 0.67,
-          "vol": 5445360.470499,
+          "rsi": 20.6,
+          "price": 0.01029,
+          "vol": 115144722.66326,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "PEPEUSDT",
-          "rsi": 22,
-          "price": 0.00000268,
-          "vol": 10886904.37177932,
+          "sym": "ARBUSDT",
+          "rsi": 24.3,
+          "price": 0.0745,
+          "vol": 4366503.71345,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 24.4,
+          "price": 1.391,
+          "vol": 5509303.477167,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 22.8,
-          "price": 0.4591,
-          "vol": 18862927.46556,
+          "rsi": 24.6,
+          "price": 0.4503,
+          "vol": 19732677.69283,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 81.1,
-          "price": 253.84,
-          "vol": 7636975.73812,
+          "rsi": 81.6,
+          "price": 254.54,
+          "vol": 7623220.24044,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 15.5,
-          "price": 0.4591,
-          "vol": 18862927.46556,
-          "label": "BAJO"
+          "rsi": 14.8,
+          "price": 0.4503,
+          "vol": 19732677.69283,
+          "label": "MUY BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -129,13 +108,13 @@
         },
         {
           "sym": "ONEUSDT",
-          "rsi": 24.7,
-          "price": 0.00085,
-          "vol": 13391292.128875,
+          "rsi": 23.8,
+          "price": 0.00082,
+          "vol": 10640977.952345,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     }
   }
 }
