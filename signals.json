@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T07:01:12.934Z",
-  "updated_ts": 1786604472934,
+  "updated": "2026-08-13T08:38:29.923Z",
+  "updated_ts": 1786610309923,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,17 +23,25 @@
           "label": "BAJO"
         },
         {
-          "sym": "TUTUSDT",
-          "rsi": 22.8,
-          "price": 0.05644,
-          "vol": 41314119.84502,
+          "sym": "AXTIBUSDT",
+          "rsi": 23.6,
+          "price": 74.71,
+          "vol": 2852221.5231,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ATMUSDT",
+          "rsi": 87,
+          "price": 2.024,
+          "vol": 4155493.90873,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,16 +51,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ATMUSDT",
+          "rsi": 86.5,
+          "price": 2.024,
+          "vol": 4155493.90873,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 18.1,
-          "price": 0.4595,
-          "vol": 20170294.12968,
+          "rsi": 19.6,
+          "price": 0.4598,
+          "vol": 20634019.96683,
           "label": "BAJO"
         },
         {
@@ -63,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 110
     }
   }
 }
