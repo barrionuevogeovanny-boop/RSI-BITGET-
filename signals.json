@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T22:22:17.047Z",
-  "updated_ts": 1786659737047,
+  "updated": "2026-08-13T23:08:48.223Z",
+  "updated_ts": 1786662528223,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,10 @@
       "sell": [
         {
           "sym": "EDENUSDT",
-          "rsi": 81.1,
-          "price": 0.07172,
-          "vol": 10573522.747245,
-          "label": "ALTO"
+          "rsi": 85.5,
+          "price": 0.07797,
+          "vol": 12359603.593654,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -31,36 +31,36 @@
           "label": "BAJO"
         },
         {
-          "sym": "ENSOUSDT",
-          "rsi": 23.3,
-          "price": 0.782,
-          "vol": 2149704.83944,
+          "sym": "ONEUSDT",
+          "rsi": 20.5,
+          "price": 0.00074,
+          "vol": 2445302.241815,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ONEUSDT",
-          "rsi": 24.7,
-          "price": 0.00075,
-          "vol": 2497270.150799,
+          "sym": "ENSOUSDT",
+          "rsi": 23.4,
+          "price": 0.78,
+          "vol": 2135631.03394,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 107
     },
     "1h": {
       "sell": [
         {
           "sym": "EDENUSDT",
-          "rsi": 93.6,
-          "price": 0.07172,
-          "vol": 10573522.747245,
+          "rsi": 96.4,
+          "price": 0.07797,
+          "vol": 12359603.593654,
           "label": "EXTREMO"
         },
         {
           "sym": "ETHFIUSDT",
           "rsi": 81.9,
           "price": 0.4416,
-          "vol": 5430485.07301,
+          "vol": 5634294.11234,
           "label": "ALTO"
         }
       ],
@@ -74,65 +74,65 @@
         },
         {
           "sym": "ENSOUSDT",
-          "rsi": 19.3,
-          "price": 0.782,
-          "vol": 2149704.83944,
+          "rsi": 19,
+          "price": 0.78,
+          "vol": 2135631.03394,
           "label": "BAJO"
         },
         {
           "sym": "TUTUSDT",
-          "rsi": 24.2,
-          "price": 0.03627,
-          "vol": 29509958.00501,
+          "rsi": 23.8,
+          "price": 0.03522,
+          "vol": 29777957.68115,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 107
     },
     "4h": {
       "sell": [
         {
           "sym": "EDENUSDT",
-          "rsi": 90.9,
-          "price": 0.07172,
-          "vol": 10573522.747245,
+          "rsi": 92.4,
+          "price": 0.07797,
+          "vol": 12359603.593654,
           "label": "EXTREMO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 82.1,
-          "price": 1551.28,
-          "vol": 69180031.32692,
+          "rsi": 82.6,
+          "price": 1562.24,
+          "vol": 69753902.857782,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 81.9,
-          "price": 14.52,
-          "vol": 8353933.874,
+          "rsi": 82.6,
+          "price": 14.76,
+          "vol": 8436773.8758,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "ENSOUSDT",
-          "rsi": 19.3,
-          "price": 0.782,
-          "vol": 2149704.83944,
+          "rsi": 19.2,
+          "price": 0.78,
+          "vol": 2135631.03394,
+          "label": "BAJO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 19.8,
+          "price": 0.4332,
+          "vol": 9787589.78516,
           "label": "BAJO"
         },
         {
           "sym": "ONEUSDT",
-          "rsi": 21.6,
-          "price": 0.00075,
-          "vol": 2497270.150799,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 22.1,
-          "price": 0.44,
-          "vol": 9879788.22453,
+          "rsi": 21.1,
+          "price": 0.00074,
+          "vol": 2445302.241815,
           "label": "SOBREVENDIDO"
         },
         {
@@ -143,7 +143,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 107
     }
   }
 }
