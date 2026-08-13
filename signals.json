@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T18:04:41.798Z",
-  "updated_ts": 1786644281798,
+  "updated": "2026-08-13T19:15:41.050Z",
+  "updated_ts": 1786648541050,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,17 @@
     "15m": {
       "sell": [
         {
+          "sym": "EDENUSDT",
+          "rsi": 89.9,
+          "price": 0.06142,
+          "vol": 4493001.765951,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "ETHFIUSDT",
-          "rsi": 81,
-          "price": 0.4185,
-          "vol": 3821734.60093,
+          "rsi": 82,
+          "price": 0.429,
+          "vol": 4519378.98933,
           "label": "ALTO"
         }
       ],
@@ -31,57 +38,43 @@
           "label": "BAJO"
         },
         {
+          "sym": "KAITOUSDT",
+          "rsi": 23.4,
+          "price": 0.4243,
+          "vol": 10252560.97842,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "BCHUSDT",
-          "rsi": 21.3,
-          "price": 205.9,
-          "vol": 4200804.792,
+          "rsi": 24.3,
+          "price": 206,
+          "vol": 4247009.749,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     },
     "1h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 88.4,
-          "price": 1562.85,
-          "vol": 66075996.573802,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 87.6,
-          "price": 14.68,
-          "vol": 7388538.0125,
-          "label": "MUY ALTO"
+          "sym": "EDENUSDT",
+          "rsi": 91.9,
+          "price": 0.06142,
+          "vol": 4493001.765951,
+          "label": "EXTREMO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 84,
-          "price": 166.95,
-          "vol": 13104328.10672,
+          "rsi": 80.6,
+          "price": 166.66,
+          "vol": 13015715.02959,
           "label": "ALTO"
         },
         {
-          "sym": "MUBUSDT",
-          "rsi": 80.4,
-          "price": 971.55,
-          "vol": 18428001.75391,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DRAMBUSDT",
-          "rsi": 80.4,
-          "price": 57.64,
-          "vol": 3490460.1866,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EDENUSDT",
-          "rsi": 80.1,
-          "price": 0.05199,
-          "vol": 2680608.089711,
+          "sym": "SNDKBUSDT",
+          "rsi": 80.5,
+          "price": 1538.68,
+          "vol": 68038999.966046,
           "label": "ALTO"
         }
       ],
@@ -94,53 +87,74 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ENSOUSDT",
+          "rsi": 21.8,
+          "price": 0.798,
+          "vol": 2077874.77348,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "BCHUSDT",
-          "rsi": 22.1,
-          "price": 205.9,
-          "vol": 4200804.792,
+          "rsi": 22.7,
+          "price": 206,
+          "vol": 4247009.749,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "TUTUSDT",
-          "rsi": 25,
-          "price": 0.04114,
-          "vol": 30254676.24788,
+          "rsi": 24.5,
+          "price": 0.03996,
+          "vol": 30231316.20587,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
-          "sym": "SNXXBUSDT",
-          "rsi": 83.3,
-          "price": 14.68,
-          "vol": 7388538.0125,
-          "label": "ALTO"
+          "sym": "EDENUSDT",
+          "rsi": 86.5,
+          "price": 0.06142,
+          "vol": 4493001.765951,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 83.2,
-          "price": 1562.85,
-          "vol": 66075996.573802,
+          "rsi": 82.2,
+          "price": 1538.68,
+          "vol": 68038999.966046,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 82.2,
+          "price": 14.26,
+          "vol": 7628265.4768,
           "label": "ALTO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 80.4,
-          "price": 166.95,
-          "vol": 13104328.10672,
+          "rsi": 80.3,
+          "price": 166.66,
+          "vol": 13015715.02959,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.5,
-          "price": 0.4456,
-          "vol": 10187228.65622,
+          "rsi": 18,
+          "price": 0.4243,
+          "vol": 10252560.97842,
           "label": "BAJO"
+        },
+        {
+          "sym": "ENSOUSDT",
+          "rsi": 20.7,
+          "price": 0.798,
+          "vol": 2077874.77348,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -148,9 +162,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONEUSDT",
+          "rsi": 23.7,
+          "price": 0.00079,
+          "vol": 2687806.46631,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 112
+      "scanned": 111
     }
   }
 }
