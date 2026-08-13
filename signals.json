@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T20:00:31.921Z",
-  "updated_ts": 1786651231921,
+  "updated": "2026-08-13T20:54:07.177Z",
+  "updated_ts": 1786654447177,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EDENUSDT",
-          "rsi": 80,
-          "price": 0.06172,
-          "vol": 5977401.181852,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,20 +21,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ALLOUSDT",
-          "rsi": 19.8,
-          "price": 0.27,
-          "vol": 34306016.17565,
-          "label": "BAJO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 23.9,
-          "price": 0.03742,
-          "vol": 30154436.65946,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 110
@@ -51,10 +29,10 @@
       "sell": [
         {
           "sym": "EDENUSDT",
-          "rsi": 83.3,
-          "price": 0.06172,
-          "vol": 5977401.181852,
-          "label": "ALTO"
+          "rsi": 85.5,
+          "price": 0.0622,
+          "vol": 7205104.881718,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -67,30 +45,16 @@
         },
         {
           "sym": "ENSOUSDT",
-          "rsi": 21.4,
-          "price": 0.795,
-          "vol": 2097985.91503,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 23.1,
-          "price": 0.03742,
-          "vol": 30154436.65946,
+          "rsi": 20.9,
+          "price": 0.792,
+          "vol": 2122375.795,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BCHUSDT",
-          "rsi": 24.8,
-          "price": 206.3,
-          "vol": 4328993.1624,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "POLUSDT",
-          "rsi": 25,
-          "price": 0.07266,
-          "vol": 2894388.127421,
+          "rsi": 23.2,
+          "price": 205.8,
+          "vol": 4399034.4145,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -99,40 +63,47 @@
     "4h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 81,
-          "price": 1531.95,
-          "vol": 68581473.508255,
+          "sym": "EDENUSDT",
+          "rsi": 82.5,
+          "price": 0.0622,
+          "vol": 7205104.881718,
           "label": "ALTO"
         },
         {
-          "sym": "EDENUSDT",
-          "rsi": 80.8,
-          "price": 0.06172,
-          "vol": 5977401.181852,
+          "sym": "SNDKBUSDT",
+          "rsi": 81.9,
+          "price": 1547.59,
+          "vol": 69043509.227385,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 80.6,
-          "price": 14.15,
-          "vol": 7894421.505,
+          "rsi": 81.7,
+          "price": 14.47,
+          "vol": 8186981.1476,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 18,
-          "price": 0.4261,
-          "vol": 10217218.21823,
+          "rsi": 19,
+          "price": 0.4297,
+          "vol": 10190240.07872,
           "label": "BAJO"
         },
         {
           "sym": "ENSOUSDT",
-          "rsi": 21.5,
-          "price": 0.795,
-          "vol": 2097985.91503,
+          "rsi": 20.2,
+          "price": 0.792,
+          "vol": 2122375.795,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONEUSDT",
+          "rsi": 22.5,
+          "price": 0.00077,
+          "vol": 2547185.402759,
           "label": "SOBREVENDIDO"
         },
         {
@@ -140,13 +111,6 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ONEUSDT",
-          "rsi": 23.6,
-          "price": 0.00079,
-          "vol": 2624883.771594,
           "label": "SOBREVENDIDO"
         }
       ],
