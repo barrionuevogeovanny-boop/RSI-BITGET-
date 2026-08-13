@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T05:37:29.809Z",
-  "updated_ts": 1786599449809,
+  "updated": "2026-08-13T07:01:12.934Z",
+  "updated_ts": 1786604472934,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SEIUSDT",
-          "rsi": 82.9,
-          "price": 0.04176,
-          "vol": 2342867.558565,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,14 +23,14 @@
           "label": "BAJO"
         },
         {
-          "sym": "STORJUSDT",
-          "rsi": 21.8,
-          "price": 0.0399,
-          "vol": 5639333.9556,
+          "sym": "TUTUSDT",
+          "rsi": 22.8,
+          "price": 0.05644,
+          "vol": 41314119.84502,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 113
     },
     "1h": {
       "sell": [],
@@ -49,34 +41,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.7,
-          "price": 0.4492,
-          "vol": 19992842.06841,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 113
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "NBISBUSDT",
-          "rsi": 80.9,
-          "price": 254.4,
-          "vol": 7743381.3098,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 14.6,
-          "price": 0.4492,
-          "vol": 19992842.06841,
-          "label": "MUY BAJO"
+          "rsi": 18.1,
+          "price": 0.4595,
+          "vol": 20170294.12968,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -84,16 +61,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ONEUSDT",
-          "rsi": 24.9,
-          "price": 0.00083,
-          "vol": 7080559.432127,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 112
     }
   }
 }
