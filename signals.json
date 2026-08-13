@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T13:58:43.083Z",
-  "updated_ts": 1786629523083,
+  "updated": "2026-08-13T15:02:23.841Z",
+  "updated_ts": 1786633343841,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,31 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "SPYBUSDT",
-          "rsi": 85.9,
-          "price": 777.57,
-          "vol": 3623056.35978,
+          "sym": "ATOMUSDT",
+          "rsi": 87,
+          "price": 1.53,
+          "vol": 2105954.44403,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "GPSUSDT",
-          "rsi": 85.2,
-          "price": 0.01162,
-          "vol": 2929516.202622,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "NBISBUSDT",
-          "rsi": 82.4,
-          "price": 270.17,
-          "vol": 8850498.63238,
-          "label": "ALTO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 80.1,
-          "price": 159.44,
-          "vol": 16611824.56811,
+          "rsi": 81.6,
+          "price": 163.8,
+          "vol": 11691401.6291,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MUBUSDT",
+          "rsi": 81.5,
+          "price": 959,
+          "vol": 15963119.65306,
           "label": "ALTO"
         }
       ],
@@ -50,6 +43,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 19.9,
+          "price": 0.04718,
+          "vol": 29797707.40131,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 23.7,
+          "price": 141.08,
+          "vol": 40363020.217,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 107
@@ -57,24 +64,24 @@
     "1h": {
       "sell": [
         {
-          "sym": "GPSUSDT",
-          "rsi": 91.7,
-          "price": 0.01162,
-          "vol": 2929516.202622,
-          "label": "EXTREMO"
+          "sym": "ATOMUSDT",
+          "rsi": 85.7,
+          "price": 1.53,
+          "vol": 2105954.44403,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SPYBUSDT",
-          "rsi": 81.9,
-          "price": 777.57,
-          "vol": 3623056.35978,
+          "rsi": 82.3,
+          "price": 777.75,
+          "vol": 3934581.07959,
           "label": "ALTO"
         },
         {
-          "sym": "NBISBUSDT",
-          "rsi": 81.6,
-          "price": 270.17,
-          "vol": 8850498.63238,
+          "sym": "SKHYBUSDT",
+          "rsi": 82.2,
+          "price": 163.8,
+          "vol": 11691401.6291,
           "label": "ALTO"
         }
       ],
@@ -93,32 +100,32 @@
       "sell": [
         {
           "sym": "NBISBUSDT",
-          "rsi": 81.3,
-          "price": 270.17,
-          "vol": 8850498.63238,
-          "label": "ALTO"
-        },
-        {
-          "sym": "GPSUSDT",
-          "rsi": 80.9,
-          "price": 0.01162,
-          "vol": 2929516.202622,
+          "rsi": 81.1,
+          "price": 267.73,
+          "vol": 8608656.21268,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "KAITOUSDT",
-          "rsi": 20.5,
-          "price": 0.452,
-          "vol": 11512772.77472,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 24.2,
+          "price": 0.4638,
+          "vol": 10506272.90225,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONEUSDT",
+          "rsi": 24.2,
+          "price": 0.0008,
+          "vol": 3553119.038131,
           "label": "SOBREVENDIDO"
         }
       ],
