@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T21:58:13.235Z",
-  "updated_ts": 1786744693235,
+  "updated": "2026-08-14T22:27:15.005Z",
+  "updated_ts": 1786746435005,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACEUSDT",
+          "rsi": 81.2,
+          "price": 0.3767,
+          "vol": 75947528.48023,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,6 +29,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "XLMUSDT",
+          "rsi": 17.4,
+          "price": 0.1566,
+          "vol": 4698527.0021,
+          "label": "BAJO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 20.4,
+          "price": 0.9891,
+          "vol": 63505940.43381,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 24,
+          "price": 0.0733,
+          "vol": 2541915.11026,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 114
@@ -29,16 +58,16 @@
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 82.7,
-          "price": 0.338,
-          "vol": 72836460.47024,
-          "label": "ALTO"
+          "rsi": 86,
+          "price": 0.3767,
+          "vol": 75947528.48023,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 80.3,
-          "price": 1660.07,
-          "vol": 58738758.601907,
+          "rsi": 80.7,
+          "price": 1662.02,
+          "vol": 59390097.137336,
           "label": "ALTO"
         }
       ],
@@ -52,9 +81,9 @@
         },
         {
           "sym": "LTCUSDT",
-          "rsi": 20.8,
-          "price": 43.57,
-          "vol": 9949059.84974,
+          "rsi": 23.9,
+          "price": 43.62,
+          "vol": 9700755.14361,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -64,53 +93,74 @@
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 93.3,
-          "price": 0.338,
-          "vol": 72836460.47024,
+          "rsi": 94.4,
+          "price": 0.3767,
+          "vol": 75947528.48023,
           "label": "EXTREMO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 82.3,
-          "price": 1660.07,
-          "vol": 58738758.601907,
+          "rsi": 82.5,
+          "price": 1662.02,
+          "vol": 59390097.137336,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 81.9,
-          "price": 16.5,
-          "vol": 15218400.6223,
+          "rsi": 82.1,
+          "price": 16.56,
+          "vol": 15494969.1084,
           "label": "ALTO"
         },
         {
           "sym": "NBISBUSDT",
           "rsi": 81.3,
-          "price": 277.28,
-          "vol": 2710332.40794,
+          "price": 277.32,
+          "vol": 2717566.08693,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ALICEUSDT",
+          "rsi": 80.6,
+          "price": 0.1467,
+          "vol": 10725001.944267,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.5,
-          "price": 0.4034,
-          "vol": 4356754.84771,
+          "rsi": 19.2,
+          "price": 0.403,
+          "vol": 4379694.63976,
           "label": "BAJO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 23.3,
-          "price": 43.57,
-          "vol": 9949059.84974,
-          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 23.7,
+          "price": 43.62,
+          "vol": 9700755.14361,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 24.4,
+          "price": 0.533,
+          "vol": 3305930.35314,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 24.8,
+          "price": 3.182,
+          "vol": 23392904.85013,
           "label": "SOBREVENDIDO"
         }
       ],
