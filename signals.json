@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T19:05:54.679Z",
-  "updated_ts": 1786734354679,
+  "updated": "2026-08-14T19:52:28.702Z",
+  "updated_ts": 1786737148702,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,12 +21,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "PROMUSDT",
+          "rsi": 23.9,
+          "price": 2.319,
+          "vol": 7675334.23245,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACEUSDT",
+          "rsi": 80.2,
+          "price": 0.3131,
+          "vol": 65934403.35505,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -37,58 +52,44 @@
         },
         {
           "sym": "LTCUSDT",
-          "rsi": 21.6,
-          "price": 43.68,
-          "vol": 9208941.40033,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 23.4,
-          "price": 3.18,
-          "vol": 22342361.32476,
+          "rsi": 21.7,
+          "price": 43.69,
+          "vol": 9830754.28422,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     },
     "4h": {
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 92.1,
-          "price": 0.3032,
-          "vol": 63000631.02796,
+          "rsi": 92.5,
+          "price": 0.3131,
+          "vol": 65934403.35505,
           "label": "EXTREMO"
         },
         {
-          "sym": "ALICEUSDT",
-          "rsi": 83.1,
-          "price": 0.1475,
-          "vol": 8988266.186679,
+          "sym": "NBISBUSDT",
+          "rsi": 80.6,
+          "price": 275.24,
+          "vol": 2679944.06757,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 80.7,
-          "price": 1633.23,
-          "vol": 57131906.607356,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
           "rsi": 80.2,
-          "price": 16.04,
-          "vol": 14856384.6022,
+          "price": 1624,
+          "vol": 56750578.117628,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 16.1,
-          "price": 0.3964,
-          "vol": 4525673.21941,
+          "rsi": 16,
+          "price": 0.3953,
+          "vol": 4530394.75164,
           "label": "BAJO"
         },
         {
@@ -100,20 +101,13 @@
         },
         {
           "sym": "LTCUSDT",
-          "rsi": 24.3,
-          "price": 43.68,
-          "vol": 9208941.40033,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 24.8,
-          "price": 3.18,
-          "vol": 22342361.32476,
+          "rsi": 24.2,
+          "price": 43.69,
+          "vol": 9830754.28422,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 113
     }
   }
 }
