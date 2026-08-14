@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T06:49:05.438Z",
-  "updated_ts": 1786690145438,
+  "updated": "2026-08-14T08:04:11.322Z",
+  "updated_ts": 1786694651322,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "2ZUSDT",
-          "rsi": 90.1,
-          "price": 0.05993,
-          "vol": 2517667.90586,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,11 +28,11 @@
     "1h": {
       "sell": [
         {
-          "sym": "2ZUSDT",
-          "rsi": 88.4,
-          "price": 0.05993,
-          "vol": 2517667.90586,
-          "label": "MUY ALTO"
+          "sym": "ACEUSDT",
+          "rsi": 81.6,
+          "price": 0.1484,
+          "vol": 8101288.41986,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -50,6 +42,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 20.6,
+          "price": 0.539,
+          "vol": 2379362.98166,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 104
@@ -58,18 +57,25 @@
       "sell": [],
       "buy": [
         {
-          "sym": "KAITOUSDT",
-          "rsi": 16.9,
-          "price": 0.4073,
-          "vol": 9002176.55984,
+          "sym": "ENSOUSDT",
+          "rsi": 17.2,
+          "price": 0.756,
+          "vol": 2497112.09728,
           "label": "BAJO"
         },
         {
-          "sym": "ENSOUSDT",
-          "rsi": 17.9,
-          "price": 0.766,
-          "vol": 2475482.53648,
+          "sym": "KAITOUSDT",
+          "rsi": 17.3,
+          "price": 0.4112,
+          "vol": 7983508.2684,
           "label": "BAJO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 22.8,
+          "price": 0.539,
+          "vol": 2379362.98166,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
