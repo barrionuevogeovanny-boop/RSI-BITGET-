@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T08:04:11.322Z",
-  "updated_ts": 1786694651322,
+  "updated": "2026-08-14T09:16:18.284Z",
+  "updated_ts": 1786698978284,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GPSUSDT",
+          "rsi": 82.3,
+          "price": 0.01174,
+          "vol": 4272114.552519,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 81.1,
+          "price": 0.1623,
+          "vol": 9780572.11103,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,10 +44,10 @@
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 81.6,
-          "price": 0.1484,
-          "vol": 8101288.41986,
-          "label": "ALTO"
+          "rsi": 87,
+          "price": 0.1623,
+          "vol": 9780572.11103,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -42,13 +57,6 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "APTUSDT",
-          "rsi": 20.6,
-          "price": 0.539,
-          "vol": 2379362.98166,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 104
@@ -57,24 +65,17 @@
       "sell": [],
       "buy": [
         {
-          "sym": "ENSOUSDT",
-          "rsi": 17.2,
-          "price": 0.756,
-          "vol": 2497112.09728,
-          "label": "BAJO"
-        },
-        {
           "sym": "KAITOUSDT",
-          "rsi": 17.3,
-          "price": 0.4112,
-          "vol": 7983508.2684,
+          "rsi": 17.7,
+          "price": 0.4124,
+          "vol": 7848970.23068,
           "label": "BAJO"
         },
         {
-          "sym": "APTUSDT",
-          "rsi": 22.8,
-          "price": 0.539,
-          "vol": 2379362.98166,
+          "sym": "ENSOUSDT",
+          "rsi": 21.3,
+          "price": 0.768,
+          "vol": 2421418.98111,
           "label": "SOBREVENDIDO"
         },
         {
