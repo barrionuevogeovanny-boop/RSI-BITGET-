@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T16:05:04.859Z",
-  "updated_ts": 1786723504859,
+  "updated": "2026-08-14T17:05:43.210Z",
+  "updated_ts": 1786727143210,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SHIBUSDT",
-          "rsi": 81.9,
-          "price": 0.00000466,
-          "vol": 2554766.11133812,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ALICEUSDT",
-          "rsi": 80.4,
-          "price": 0.1458,
-          "vol": 5499373.553268,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,43 +23,36 @@
           "label": "BAJO"
         },
         {
-          "sym": "INJUSDT",
-          "rsi": 24.2,
-          "price": 4.228,
-          "vol": 4171316.3582,
+          "sym": "ATMUSDT",
+          "rsi": 22.2,
+          "price": 1.568,
+          "vol": 3221519.09939,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "1h": {
       "sell": [
         {
           "sym": "ALICEUSDT",
-          "rsi": 87.7,
-          "price": 0.1458,
-          "vol": 5499373.553268,
+          "rsi": 86.5,
+          "price": 0.1507,
+          "vol": 7238686.241718,
           "label": "MUY ALTO"
         },
         {
           "sym": "ACEUSDT",
-          "rsi": 83.4,
-          "price": 0.2801,
-          "vol": 48627305.02916,
+          "rsi": 84.1,
+          "price": 0.2876,
+          "vol": 54237274.33155,
           "label": "ALTO"
         },
         {
           "sym": "AAOIBUSDT",
-          "rsi": 83.1,
-          "price": 149.82,
-          "vol": 2248046.44617,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 82.2,
-          "price": 1.1591,
-          "vol": 6465731.53765,
+          "rsi": 80.1,
+          "price": 148.55,
+          "vol": 2319132.75754,
           "label": "ALTO"
         }
       ],
@@ -87,45 +65,59 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "INJUSDT",
-          "rsi": 17.8,
-          "price": 4.228,
-          "vol": 4171316.3582,
-          "label": "BAJO"
-        },
-        {
-          "sym": "LTCUSDT",
-          "rsi": 21.5,
-          "price": 43.94,
-          "vol": 7714190.99971,
+          "sym": "UNIUSDT",
+          "rsi": 24.7,
+          "price": 3.223,
+          "vol": 21656933.46076,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "ACEUSDT",
-          "rsi": 91.1,
-          "price": 0.2801,
-          "vol": 48627305.02916,
+          "rsi": 91.4,
+          "price": 0.2876,
+          "vol": 54237274.33155,
           "label": "EXTREMO"
         },
         {
           "sym": "ALICEUSDT",
-          "rsi": 83.3,
-          "price": 0.1458,
-          "vol": 5499373.553268,
+          "rsi": 85.1,
+          "price": 0.1507,
+          "vol": 7238686.241718,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "NBISBUSDT",
+          "rsi": 81.2,
+          "price": 277.75,
+          "vol": 2278244.71551,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 80.6,
+          "price": 1629.96,
+          "vol": 60702753.532723,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 80.1,
+          "price": 15.99,
+          "vol": 15302043.5592,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 16.8,
-          "price": 0.4046,
-          "vol": 5284868.34491,
+          "rsi": 16.5,
+          "price": 0.4022,
+          "vol": 5119705.65168,
           "label": "BAJO"
         },
         {
@@ -136,7 +128,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 111
     }
   }
 }
