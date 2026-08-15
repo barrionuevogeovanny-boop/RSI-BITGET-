@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T00:57:18.034Z",
-  "updated_ts": 1786755438034,
+  "updated": "2026-08-15T02:13:35.832Z",
+  "updated_ts": 1786760015832,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,18 @@
     "15m": {
       "sell": [
         {
-          "sym": "ICPUSDT",
-          "rsi": 82.5,
-          "price": 2.319,
-          "vol": 3297905.90498,
-          "label": "ALTO"
+          "sym": "LINKUSDT",
+          "rsi": 89.7,
+          "price": 9.477,
+          "vol": 21370166.17168,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 87.8,
+          "price": 0.0191,
+          "vol": 7210936.6884,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -36,11 +43,18 @@
     "1h": {
       "sell": [
         {
-          "sym": "ICPUSDT",
-          "rsi": 80.1,
-          "price": 2.319,
-          "vol": 3297905.90498,
-          "label": "ALTO"
+          "sym": "ROBOUSDT",
+          "rsi": 86.5,
+          "price": 0.0191,
+          "vol": 7210936.6884,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LINKUSDT",
+          "rsi": 85.1,
+          "price": 9.477,
+          "vol": 21370166.17168,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -57,27 +71,20 @@
     "4h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 81.2,
-          "price": 1654.84,
-          "vol": 58647961.563013,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 81,
-          "price": 16.42,
-          "vol": 15627093.1054,
+          "sym": "ROBOUSDT",
+          "rsi": 80.1,
+          "price": 0.0191,
+          "vol": 7210936.6884,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 20,
-          "price": 0.402,
-          "vol": 4148538.5656,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.5,
+          "price": 0.3965,
+          "vol": 4112091.94139,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
