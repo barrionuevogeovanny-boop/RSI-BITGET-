@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T02:13:35.832Z",
-  "updated_ts": 1786760015832,
+  "updated": "2026-08-15T03:05:53.956Z",
+  "updated_ts": 1786763153956,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,25 @@
     "15m": {
       "sell": [
         {
-          "sym": "LINKUSDT",
-          "rsi": 89.7,
-          "price": 9.477,
-          "vol": 21370166.17168,
-          "label": "MUY ALTO"
+          "sym": "AVAXUSDT",
+          "rsi": 92.1,
+          "price": 6.816,
+          "vol": 10901488.46595,
+          "label": "EXTREMO"
         },
         {
-          "sym": "ROBOUSDT",
-          "rsi": 87.8,
-          "price": 0.0191,
-          "vol": 7210936.6884,
-          "label": "MUY ALTO"
+          "sym": "LINKUSDT",
+          "rsi": 90.9,
+          "price": 9.711,
+          "vol": 26560817.25956,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 83.4,
+          "price": 0.777,
+          "vol": 2872633.89803,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -38,23 +45,30 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "1h": {
       "sell": [
         {
-          "sym": "ROBOUSDT",
-          "rsi": 86.5,
-          "price": 0.0191,
-          "vol": 7210936.6884,
+          "sym": "LINKUSDT",
+          "rsi": 87.1,
+          "price": 9.711,
+          "vol": 26560817.25956,
           "label": "MUY ALTO"
         },
         {
-          "sym": "LINKUSDT",
-          "rsi": 85.1,
-          "price": 9.477,
-          "vol": 21370166.17168,
-          "label": "MUY ALTO"
+          "sym": "ROBOUSDT",
+          "rsi": 84.3,
+          "price": 0.01852,
+          "vol": 9024381.58017,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 83.7,
+          "price": 6.816,
+          "vol": 10901488.46595,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -66,24 +80,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
-          "sym": "ROBOUSDT",
-          "rsi": 80.1,
-          "price": 0.0191,
-          "vol": 7210936.6884,
+          "sym": "LINKUSDT",
+          "rsi": 82.3,
+          "price": 9.711,
+          "vol": 26560817.25956,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.5,
-          "price": 0.3965,
-          "vol": 4112091.94139,
+          "rsi": 19.8,
+          "price": 0.3997,
+          "vol": 3842081.2706,
           "label": "BAJO"
         },
         {
@@ -94,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 115
     }
   }
 }
