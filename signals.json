@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T19:52:09.148Z",
-  "updated_ts": 1786823529148,
+  "updated": "2026-08-15T20:07:50.351Z",
+  "updated_ts": 1786824470351,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,16 @@
       "sell": [
         {
           "sym": "CHIPUSDT",
-          "rsi": 82.1,
-          "price": 0.02661,
-          "vol": 3573970.707,
+          "rsi": 83.9,
+          "price": 0.02689,
+          "vol": 3745295.57802,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ONGUSDT",
+          "rsi": 81.8,
+          "price": 0.04927,
+          "vol": 2401965.43353,
           "label": "ALTO"
         }
       ],
@@ -29,16 +36,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "EPICUSDT",
-          "rsi": 24.5,
-          "price": 0.3346,
-          "vol": 4919921.78493,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 92
+      "scanned": 91
     },
     "1h": {
       "sell": [],
@@ -52,30 +52,30 @@
         },
         {
           "sym": "FETUSDT",
-          "rsi": 22.5,
-          "price": 0.1285,
-          "vol": 8042052.86641,
+          "rsi": 21.9,
+          "price": 0.128,
+          "vol": 8047757.82237,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 92
+      "scanned": 91
     },
     "4h": {
       "sell": [
         {
           "sym": "HEMIUSDT",
-          "rsi": 85.4,
-          "price": 0.00689,
-          "vol": 17681225.593934,
+          "rsi": 86.6,
+          "price": 0.00708,
+          "vol": 17977147.776576,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 18,
-          "price": 0.3826,
-          "vol": 3309245.45654,
+          "rsi": 17.9,
+          "price": 0.3816,
+          "vol": 3309791.18638,
           "label": "BAJO"
         },
         {
@@ -84,16 +84,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 25,
-          "price": 0.02057,
-          "vol": 5532848.6454484,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 92
+      "scanned": 91
     }
   }
 }
