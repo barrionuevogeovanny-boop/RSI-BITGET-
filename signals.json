@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T13:58:50.598Z",
-  "updated_ts": 1786802330598,
+  "updated": "2026-08-15T14:28:36.191Z",
+  "updated_ts": 1786804116191,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ENSOUSDT",
-          "rsi": 83.1,
-          "price": 0.868,
-          "vol": 3797796.48039,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,25 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "DOLOUSDT",
-          "rsi": 24.4,
-          "price": 0.02038,
-          "vol": 9091145.445942,
+          "sym": "EPICUSDT",
+          "rsi": 24.3,
+          "price": 0.3434,
+          "vol": 5192381.97561,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 101
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "COWUSDT",
-          "rsi": 81.6,
-          "price": 0.1631,
-          "vol": 17424108.56435,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -59,24 +43,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 92.9,
-          "price": 0.1631,
-          "vol": 17424108.56435,
-          "label": "EXTREMO"
+          "rsi": 88.3,
+          "price": 0.1582,
+          "vol": 17963727.91377,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
           "rsi": 18.4,
-          "price": 0.3857,
-          "vol": 3667932.39119,
+          "price": 0.3854,
+          "vol": 3665380.43166,
           "label": "BAJO"
         },
         {
@@ -87,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 101
     }
   }
 }
