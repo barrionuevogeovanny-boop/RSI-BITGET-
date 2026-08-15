@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T04:16:10.128Z",
-  "updated_ts": 1786767370128,
+  "updated": "2026-08-15T04:50:00.742Z",
+  "updated_ts": 1786769400742,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,32 +21,18 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 24.1,
-          "price": 138.87,
-          "vol": 18862596.71829,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "1h": {
       "sell": [
         {
           "sym": "ROBOUSDT",
-          "rsi": 88.1,
-          "price": 0.02002,
-          "vol": 10777143.06047,
+          "rsi": 88.6,
+          "price": 0.02012,
+          "vol": 11962511.95932,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 82.1,
-          "price": 6.771,
-          "vol": 13576036.94576,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -58,24 +44,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     },
     "4h": {
       "sell": [
         {
           "sym": "ROBOUSDT",
-          "rsi": 81.4,
-          "price": 0.02002,
-          "vol": 10777143.06047,
+          "rsi": 82,
+          "price": 0.02012,
+          "vol": 11962511.95932,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.4,
-          "price": 0.3955,
-          "vol": 3850787.5498,
+          "rsi": 19.2,
+          "price": 0.393,
+          "vol": 3882397.33512,
           "label": "BAJO"
         },
         {
@@ -86,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 111
     }
   }
 }
