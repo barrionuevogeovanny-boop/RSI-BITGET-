@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T09:33:20.441Z",
-  "updated_ts": 1786786400441,
+  "updated": "2026-08-15T09:53:23.382Z",
+  "updated_ts": 1786787603382,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,16 +16,23 @@
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 99.3,
-          "price": 0.1631,
-          "vol": 4163623.90406,
+          "rsi": 99.4,
+          "price": 0.1659,
+          "vol": 6488872.14198,
           "label": "EXTREMO"
         },
         {
+          "sym": "BMTUSDT",
+          "rsi": 84.4,
+          "price": 0.01948,
+          "vol": 5403345.546389,
+          "label": "ALTO"
+        },
+        {
           "sym": "ETHFIUSDT",
-          "rsi": 82.3,
-          "price": 0.4829,
-          "vol": 5985182.73487,
+          "rsi": 80.2,
+          "price": 0.4825,
+          "vol": 5979273.40209,
           "label": "ALTO"
         }
       ],
@@ -39,21 +46,21 @@
         },
         {
           "sym": "EDENUSDT",
-          "rsi": 23.9,
-          "price": 0.04858,
-          "vol": 14058671.609362,
+          "rsi": 22.1,
+          "price": 0.04795,
+          "vol": 13944095.464482,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 97.7,
-          "price": 0.1631,
-          "vol": 4163623.90406,
+          "rsi": 97.8,
+          "price": 0.1659,
+          "vol": 6488872.14198,
           "label": "EXTREMO"
         }
       ],
@@ -66,15 +73,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 92.8,
-          "price": 0.1631,
-          "vol": 4163623.90406,
+          "rsi": 93.3,
+          "price": 0.1659,
+          "vol": 6488872.14198,
           "label": "EXTREMO"
         }
       ],
@@ -82,8 +89,8 @@
         {
           "sym": "KAITOUSDT",
           "rsi": 18.9,
-          "price": 0.391,
-          "vol": 3705394.1994,
+          "price": 0.3912,
+          "vol": 3716030.80729,
           "label": "BAJO"
         },
         {
@@ -94,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     }
   }
 }
