@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-14T23:55:04.795Z",
-  "updated_ts": 1786751704795,
+  "updated": "2026-08-15T00:57:18.034Z",
+  "updated_ts": 1786755438034,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ICPUSDT",
+          "rsi": 82.5,
+          "price": 2.319,
+          "vol": 3297905.90498,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 114
+      "scanned": 116
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ICPUSDT",
+          "rsi": 80.1,
+          "price": 2.319,
+          "vol": 3297905.90498,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,46 +52,32 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 114
+      "scanned": 116
     },
     "4h": {
       "sell": [
         {
-          "sym": "ALICEUSDT",
-          "rsi": 84.2,
-          "price": 0.156,
-          "vol": 11528459.64884,
-          "label": "ALTO"
-        },
-        {
           "sym": "SNDKBUSDT",
-          "rsi": 82.3,
-          "price": 1657.63,
-          "vol": 59069746.398828,
+          "rsi": 81.2,
+          "price": 1654.84,
+          "vol": 58647961.563013,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 81.9,
-          "price": 16.48,
-          "vol": 15707907.9636,
-          "label": "ALTO"
-        },
-        {
-          "sym": "NBISBUSDT",
-          "rsi": 81.3,
-          "price": 277.39,
-          "vol": 2805412.54137,
+          "rsi": 81,
+          "price": 16.42,
+          "vol": 15627093.1054,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.7,
-          "price": 0.404,
-          "vol": 4227830.10215,
-          "label": "BAJO"
+          "rsi": 20,
+          "price": 0.402,
+          "vol": 4148538.5656,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -85,7 +87,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 116
     }
   }
 }
