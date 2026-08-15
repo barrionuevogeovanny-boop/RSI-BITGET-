@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T22:55:06.653Z",
-  "updated_ts": 1786834506653,
+  "updated": "2026-08-15T23:15:12.817Z",
+  "updated_ts": 1786835712817,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -17,10 +17,10 @@
       "buy": [
         {
           "sym": "AVAXUSDT",
-          "rsi": 14.2,
-          "price": 6.401,
-          "vol": 18735985.0362,
-          "label": "MUY BAJO"
+          "rsi": 9.2,
+          "price": 6.325,
+          "vol": 20104377.80732,
+          "label": "EXTREMO"
         },
         {
           "sym": "NFPUSDT",
@@ -30,39 +30,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 20.1,
-          "price": 0.3662,
-          "vol": 3681216.54057,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "EURUSDT",
-          "rsi": 20.2,
+          "rsi": 19.4,
           "price": 1.1574,
-          "vol": 2717731.01464,
-          "label": "SOBREVENDIDO"
+          "vol": 2723867.64737,
+          "label": "BAJO"
         },
         {
-          "sym": "HEIUSDT",
-          "rsi": 24.7,
-          "price": 0.1252,
-          "vol": 10961601.14525,
+          "sym": "FILUSDT",
+          "rsi": 21.2,
+          "price": 0.6783,
+          "vol": 3730705.68495,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 88
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "CHIPUSDT",
-          "rsi": 80.7,
-          "price": 0.02768,
-          "vol": 5267422.34395,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -72,30 +57,31 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 24.2,
-          "price": 0.0201,
-          "vol": 5940909.4012003,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.5,
-          "price": 0.3662,
-          "vol": 3681216.54057,
+          "sym": "FETUSDT",
+          "rsi": 24.7,
+          "price": 0.1277,
+          "vol": 7896990.98628,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 88
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HEMIUSDT",
+          "rsi": 82.3,
+          "price": 0.00694,
+          "vol": 21289382.062825,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 16.2,
-          "price": 0.3662,
-          "vol": 3681216.54057,
+          "rsi": 16.4,
+          "price": 0.3688,
+          "vol": 3737271.1424,
           "label": "BAJO"
         },
         {
@@ -103,13 +89,6 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 24.5,
-          "price": 0.0201,
-          "vol": 5940909.4012003,
           "label": "SOBREVENDIDO"
         }
       ],
