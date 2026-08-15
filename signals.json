@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T14:50:05.897Z",
-  "updated_ts": 1786805405897,
+  "updated": "2026-08-15T15:04:08.329Z",
+  "updated_ts": 1786806248329,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 23.5,
+          "price": 0.3408,
+          "vol": 5213544.6858,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 100
     },
     "1h": {
       "sell": [],
@@ -36,15 +43,22 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 100
     },
     "4h": {
       "sell": [
         {
+          "sym": "COWUSDT",
+          "rsi": 83.9,
+          "price": 0.1551,
+          "vol": 19056542.25626,
+          "label": "ALTO"
+        },
+        {
           "sym": "HEMIUSDT",
-          "rsi": 81.2,
-          "price": 0.0063,
-          "vol": 8453532.644746,
+          "rsi": 81.1,
+          "price": 0.00623,
+          "vol": 9638934.847763,
           "label": "ALTO"
         }
       ],
@@ -52,8 +66,8 @@
         {
           "sym": "KAITOUSDT",
           "rsi": 18.1,
-          "price": 0.3835,
-          "vol": 3643618.2255,
+          "price": 0.3829,
+          "vol": 3634450.61086,
           "label": "BAJO"
         },
         {
@@ -64,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 100
     }
   }
 }
