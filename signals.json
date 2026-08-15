@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T08:39:18.242Z",
-  "updated_ts": 1786783158242,
+  "updated": "2026-08-15T09:01:54.317Z",
+  "updated_ts": 1786784514317,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "HEMIUSDT",
-          "rsi": 83.1,
-          "price": 0.00594,
-          "vol": 2609178.477855,
-          "label": "ALTO"
-        },
-        {
           "sym": "ETHFIUSDT",
-          "rsi": 82.8,
-          "price": 0.4737,
-          "vol": 5547451.06468,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.4794,
+          "vol": 5735962.63144,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -36,27 +29,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "XUSDUSDT",
-          "rsi": 24.9,
-          "price": 1.0011,
-          "vol": 3904737.1423,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 110
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 88.6,
-          "price": 0.00594,
-          "vol": 2609178.477855,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,9 +51,9 @@
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.2,
-          "price": 0.3937,
-          "vol": 3509763.16052,
+          "rsi": 19.3,
+          "price": 0.394,
+          "vol": 3670360.00546,
           "label": "BAJO"
         },
         {
