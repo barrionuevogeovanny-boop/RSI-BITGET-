@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T05:12:10.823Z",
-  "updated_ts": 1786770730823,
+  "updated": "2026-08-15T05:41:46.667Z",
+  "updated_ts": 1786772506667,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EPICUSDT",
+          "rsi": 82.5,
+          "price": 0.423,
+          "vol": 3307412.2209,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,15 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 111
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
           "sym": "ROBOUSDT",
-          "rsi": 88.2,
+          "rsi": 87.9,
           "price": 0.0202,
-          "vol": 12458288.6232,
+          "vol": 13965780.59679,
           "label": "MUY ALTO"
         }
       ],
@@ -44,25 +52,25 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 111
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "ROBOUSDT",
-          "rsi": 82.5,
+          "rsi": 82.3,
           "price": 0.0202,
-          "vol": 12458288.6232,
+          "vol": 13965780.59679,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.2,
-          "price": 0.3935,
-          "vol": 3911065.86983,
-          "label": "BAJO"
+          "rsi": 20.3,
+          "price": 0.3985,
+          "vol": 3854524.29334,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -72,7 +80,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 109
     }
   }
 }
