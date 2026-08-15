@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T09:01:54.317Z",
-  "updated_ts": 1786784514317,
+  "updated": "2026-08-15T09:33:20.441Z",
+  "updated_ts": 1786786400441,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,18 @@
     "15m": {
       "sell": [
         {
+          "sym": "COWUSDT",
+          "rsi": 99.3,
+          "price": 0.1631,
+          "vol": 4163623.90406,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "ETHFIUSDT",
-          "rsi": 85.2,
-          "price": 0.4794,
-          "vol": 5735962.63144,
-          "label": "MUY ALTO"
+          "rsi": 82.3,
+          "price": 0.4829,
+          "vol": 5985182.73487,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,12 +36,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "EDENUSDT",
+          "rsi": 23.9,
+          "price": 0.04858,
+          "vol": 14058671.609362,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 108
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COWUSDT",
+          "rsi": 97.7,
+          "price": 0.1631,
+          "vol": 4163623.90406,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,16 +66,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 110
+      "scanned": 108
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COWUSDT",
+          "rsi": 92.8,
+          "price": 0.1631,
+          "vol": 4163623.90406,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.3,
-          "price": 0.394,
-          "vol": 3670360.00546,
+          "rsi": 18.9,
+          "price": 0.391,
+          "vol": 3705394.1994,
           "label": "BAJO"
         },
         {
@@ -64,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 108
     }
   }
 }
