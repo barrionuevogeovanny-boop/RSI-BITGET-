@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T10:57:43.884Z",
-  "updated_ts": 1786791463884,
+  "updated": "2026-08-15T11:21:43.286Z",
+  "updated_ts": 1786792903286,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,10 @@
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 85.4,
-          "price": 0.1576,
-          "vol": 8806487.44294,
-          "label": "MUY ALTO"
+          "rsi": 82.1,
+          "price": 0.1605,
+          "vol": 9656130.1904,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,31 +29,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "EDENUSDT",
-          "rsi": 18.3,
-          "price": 0.04573,
-          "vol": 13822461.55967,
-          "label": "BAJO"
         }
       ],
-      "scanned": 106
+      "scanned": 107
     },
     "1h": {
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 97.5,
-          "price": 0.1576,
-          "vol": 8806487.44294,
+          "rsi": 97.7,
+          "price": 0.1605,
+          "vol": 9656130.1904,
           "label": "EXTREMO"
         },
         {
           "sym": "WALUSDT",
-          "rsi": 91,
-          "price": 0.026,
-          "vol": 3495729.65665,
+          "rsi": 90.7,
+          "price": 0.0259,
+          "vol": 3720565.49875,
           "label": "EXTREMO"
         }
       ],
@@ -66,15 +59,15 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 106
+      "scanned": 107
     },
     "4h": {
       "sell": [
         {
           "sym": "COWUSDT",
-          "rsi": 92.3,
-          "price": 0.1576,
-          "vol": 8806487.44294,
+          "rsi": 92.6,
+          "price": 0.1605,
+          "vol": 9656130.1904,
           "label": "EXTREMO"
         }
       ],
@@ -82,8 +75,8 @@
         {
           "sym": "KAITOUSDT",
           "rsi": 18.5,
-          "price": 0.3876,
-          "vol": 3711284.02185,
+          "price": 0.387,
+          "vol": 3683507.78761,
           "label": "BAJO"
         },
         {
@@ -94,7 +87,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 107
     }
   }
 }
