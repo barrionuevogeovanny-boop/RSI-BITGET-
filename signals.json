@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T11:31:52.240Z",
-  "updated_ts": 1786879912240,
+  "updated": "2026-08-16T11:50:12.548Z",
+  "updated_ts": 1786881012548,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "CHIPUSDT",
-          "rsi": 80.5,
-          "price": 0.03138,
-          "vol": 13710254.06108,
+          "sym": "PORTALUSDT",
+          "rsi": 82.5,
+          "price": 0.01278,
+          "vol": 5165505.746856,
           "label": "ALTO"
         }
       ],
@@ -31,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 82
+      "scanned": 83
     },
     "1h": {
       "sell": [],
@@ -44,31 +44,23 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 82
+      "scanned": 83
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "CHIPUSDT",
-          "rsi": 83.6,
-          "price": 0.03138,
-          "vol": 13710254.06108,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.5,
-          "price": 0.3609,
-          "vol": 5355341.33313,
+          "rsi": 19.3,
+          "price": 0.3592,
+          "vol": 5391607.43692,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
-          "rsi": 21.9,
-          "price": 0.1245,
-          "vol": 9403452.4285,
+          "rsi": 21.2,
+          "price": 0.1243,
+          "vol": 9400025.39153,
           "label": "SOBREVENDIDO"
         },
         {
@@ -79,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 82
+      "scanned": 83
     }
   }
 }
