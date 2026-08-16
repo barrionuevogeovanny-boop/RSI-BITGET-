@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T22:46:54.251Z",
-  "updated_ts": 1786920414251,
+  "updated": "2026-08-16T23:00:00.947Z",
+  "updated_ts": 1786921200947,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,42 +23,21 @@
           "label": "BAJO"
         },
         {
-          "sym": "BTCUSDT",
-          "rsi": 20.1,
-          "price": 62767.07,
-          "vol": 285338820.4811269,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "BNBUSDT",
-          "rsi": 20.9,
-          "price": 601.92,
-          "vol": 48498495.49317,
+          "rsi": 22.2,
+          "price": 602.27,
+          "vol": 48675772.48301,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BANKUSDT",
           "rsi": 23.1,
           "price": 0.0352,
-          "vol": 2853116.42326,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 23.4,
-          "price": 0.9932,
-          "vol": 25091161.10051,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 23.9,
-          "price": 74.41,
-          "vol": 51017608.58797,
+          "vol": 2848441.89664,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     },
     "1h": {
       "sell": [],
@@ -71,45 +50,45 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 90,
-          "price": 0.01856,
-          "vol": 21091657.271,
+          "rsi": 90.1,
+          "price": 0.01866,
+          "vol": 21288225.234696,
           "label": "EXTREMO"
         }
       ],
       "buy": [
         {
           "sym": "VANRYUSDT",
-          "rsi": 13.3,
-          "price": 0.000962,
-          "vol": 2011607.208781,
+          "rsi": 14.2,
+          "price": 0.001032,
+          "vol": 2016203.713796,
           "label": "MUY BAJO"
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.2,
-          "price": 0.3476,
-          "vol": 5808838.22558,
+          "rsi": 19.4,
+          "price": 0.3483,
+          "vol": 5796292.09873,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
-          "rsi": 21.4,
-          "price": 0.1221,
-          "vol": 8968047.13493,
+          "rsi": 21.2,
+          "price": 0.122,
+          "vol": 8952455.26101,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "APTUSDT",
           "rsi": 23.1,
           "price": 0.521,
-          "vol": 2654900.20715,
+          "vol": 2667202.51059,
           "label": "SOBREVENDIDO"
         },
         {
@@ -120,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     }
   }
 }
