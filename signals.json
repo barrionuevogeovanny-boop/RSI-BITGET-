@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T13:52:13.729Z",
-  "updated_ts": 1786888333729,
+  "updated": "2026-08-16T14:11:03.967Z",
+  "updated_ts": 1786889463967,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,24 @@
       "sell": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 93.6,
-          "price": 0.0626,
-          "vol": 6690277.5834,
+          "rsi": 93.8,
+          "price": 0.0627,
+          "vol": 6871479.97144,
           "label": "EXTREMO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 83.5,
+          "price": 1.429,
+          "vol": 2129240.375427,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GIGGLEUSDT",
+          "rsi": 82.7,
+          "price": 32.54,
+          "vol": 2494960.92267,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -37,23 +51,16 @@
       "sell": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 84.1,
-          "price": 0.0626,
-          "vol": 6690277.5834,
+          "rsi": 84.4,
+          "price": 0.0627,
+          "vol": 6871479.97144,
           "label": "ALTO"
         },
         {
           "sym": "PORTALUSDT",
-          "rsi": 82.5,
-          "price": 0.0155,
-          "vol": 11071217.776198,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TOWNSUSDT",
-          "rsi": 81.9,
-          "price": 0.00242,
-          "vol": 2037299.73364,
+          "rsi": 84.1,
+          "price": 0.01563,
+          "vol": 11541313.353435,
           "label": "ALTO"
         }
       ],
@@ -72,32 +79,39 @@
       "sell": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 86.4,
-          "price": 0.0626,
-          "vol": 6690277.5834,
+          "rsi": 86.6,
+          "price": 0.0627,
+          "vol": 6871479.97144,
           "label": "MUY ALTO"
         },
         {
           "sym": "PORTALUSDT",
-          "rsi": 84.1,
-          "price": 0.0155,
-          "vol": 11071217.776198,
+          "rsi": 84.8,
+          "price": 0.01563,
+          "vol": 11541313.353435,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CHIPUSDT",
+          "rsi": 81,
+          "price": 0.02989,
+          "vol": 18641631.18981,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 18.4,
-          "price": 0.3532,
-          "vol": 5544493.66333,
+          "rsi": 18.2,
+          "price": 0.3513,
+          "vol": 5553381.52748,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
-          "rsi": 21,
-          "price": 0.1242,
-          "vol": 9537342.08879,
+          "rsi": 20.7,
+          "price": 0.1241,
+          "vol": 9556573.46691,
           "label": "SOBREVENDIDO"
         },
         {
