@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T20:46:36.130Z",
-  "updated_ts": 1786913196130,
+  "updated": "2026-08-16T21:01:06.067Z",
+  "updated_ts": 1786914066067,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RAREUSDT",
+          "rsi": 81.9,
+          "price": 0.01323,
+          "vol": 2725930.77577,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +29,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "REUSDT",
+          "rsi": 24.4,
+          "price": 0.4253,
+          "vol": 3045045.25218,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RAREUSDT",
+          "rsi": 85.1,
+          "price": 0.01323,
+          "vol": 2725930.77577,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,25 +59,32 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 87.9,
-          "price": 0.01707,
-          "vol": 18493650.311903,
-          "label": "MUY ALTO"
+          "rsi": 84.8,
+          "price": 0.01646,
+          "vol": 18797944.587391,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.2,
-          "price": 0.3476,
-          "vol": 6010817.94818,
+          "rsi": 18.2,
+          "price": 0.3459,
+          "vol": 6014132.01964,
           "label": "BAJO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 22.1,
+          "price": 0.1228,
+          "vol": 8287066.42227,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -62,16 +92,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 23.7,
-          "price": 0.1236,
-          "vol": 8244117.07526,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 89
+      "scanned": 90
     }
   }
 }
