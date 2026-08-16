@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T16:26:52.817Z",
-  "updated_ts": 1786897612817,
+  "updated": "2026-08-16T16:51:21.216Z",
+  "updated_ts": 1786899081216,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,31 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "BTCUSDT",
-          "rsi": 87.5,
-          "price": 63332.43,
-          "vol": 272459240.7083741,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "XLMUSDT",
-          "rsi": 86.3,
-          "price": 0.1592,
-          "vol": 3375981.4827,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "WLDUSDT",
-          "rsi": 83.8,
-          "price": 0.3646,
-          "vol": 10518278.26421,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 80.3,
-          "price": 0.5199,
-          "vol": 3623134.43381,
+          "rsi": 82.4,
+          "price": 0.3657,
+          "vol": 10363604.50849,
           "label": "ALTO"
         }
       ],
@@ -50,20 +29,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 22,
+          "price": 1.827,
+          "vol": 2696483.30631,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 80.7,
-          "price": 0.5199,
-          "vol": 3623134.43381,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -74,38 +52,31 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 24.5,
-          "price": 1.843,
-          "vol": 2580943.53912,
+          "rsi": 22.2,
+          "price": 1.827,
+          "vol": 2696483.30631,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     },
     "4h": {
       "sell": [
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 80.1,
-          "price": 0.5199,
-          "vol": 3623134.43381,
+          "sym": "PORTALUSDT",
+          "rsi": 81,
+          "price": 0.01421,
+          "vol": 11807362.135566,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 18.6,
-          "price": 0.3525,
-          "vol": 5770690.91969,
+          "rsi": 17.2,
+          "price": 0.3456,
+          "vol": 5861682.71617,
           "label": "BAJO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 22.7,
-          "price": 0.1241,
-          "vol": 9407826.75348,
-          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -113,9 +84,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 23.8,
+          "price": 0.1243,
+          "vol": 9311476.8491,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 88
     }
   }
 }
