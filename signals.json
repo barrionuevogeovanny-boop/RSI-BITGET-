@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T17:08:24.079Z",
-  "updated_ts": 1786900104079,
+  "updated": "2026-08-16T17:31:30.213Z",
+  "updated_ts": 1786901490213,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "WLDUSDT",
-          "rsi": 87,
-          "price": 0.3694,
-          "vol": 10726182.92477,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 80.1,
+          "price": 0.5177,
+          "vol": 3796256.62989,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,24 +44,24 @@
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 80.9,
-          "price": 0.01429,
-          "vol": 12316499.144442,
+          "rsi": 84,
+          "price": 0.0152,
+          "vol": 12673914.825785,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 17.1,
-          "price": 0.3457,
-          "vol": 5929603.01551,
+          "rsi": 17.5,
+          "price": 0.3488,
+          "vol": 6017724.9769,
           "label": "BAJO"
         },
         {
@@ -72,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 88
+      "scanned": 89
     }
   }
 }
