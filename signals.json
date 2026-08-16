@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T19:57:56.369Z",
-  "updated_ts": 1786910276369,
+  "updated": "2026-08-16T20:25:42.256Z",
+  "updated_ts": 1786911942256,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,25 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 24.3,
-          "price": 0.4751,
-          "vol": 4933181.01895,
+          "sym": "REUSDT",
+          "rsi": 24.8,
+          "price": 0.428,
+          "vol": 2982090.84829,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 88
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "BELUSDT",
-          "rsi": 90.5,
-          "price": 0.1235,
-          "vol": 3398733.42119,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -52,37 +44,44 @@
         },
         {
           "sym": "DEXEUSDT",
-          "rsi": 23.4,
-          "price": 1.82,
-          "vol": 2934170.78685,
+          "rsi": 23.6,
+          "price": 1.819,
+          "vol": 2938994.17245,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "HOMEUSDT",
-          "rsi": 24.6,
-          "price": 0.00725,
-          "vol": 6452017.14356,
+          "rsi": 24.4,
+          "price": 0.00723,
+          "vol": 6410313.49115,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 88
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 86.8,
-          "price": 0.01644,
-          "vol": 17337266.173732,
+          "rsi": 87.6,
+          "price": 0.01688,
+          "vol": 17947724.545009,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 80.6,
+          "price": 0.0603,
+          "vol": 9265088.30261,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 17,
-          "price": 0.3441,
-          "vol": 6072945.93153,
+          "rsi": 19.4,
+          "price": 0.3482,
+          "vol": 6042036.77714,
           "label": "BAJO"
         },
         {
@@ -93,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 87
+      "scanned": 88
     }
   }
 }
