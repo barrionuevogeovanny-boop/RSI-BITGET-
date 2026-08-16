@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T11:50:12.548Z",
-  "updated_ts": 1786881012548,
+  "updated": "2026-08-16T12:01:35.501Z",
+  "updated_ts": 1786881695501,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
+          "sym": "WLFIUSDT",
           "rsi": 82.5,
-          "price": 0.01278,
-          "vol": 5165505.746856,
+          "price": 0.0599,
+          "vol": 4385294.37665,
           "label": "ALTO"
         }
       ],
@@ -47,20 +47,28 @@
       "scanned": 83
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 80.9,
+          "price": 0.0599,
+          "vol": 4385294.37665,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.3,
-          "price": 0.3592,
-          "vol": 5391607.43692,
+          "rsi": 19.4,
+          "price": 0.3584,
+          "vol": 5411105.6745,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
           "rsi": 21.2,
           "price": 0.1243,
-          "vol": 9400025.39153,
+          "vol": 9401458.78159,
           "label": "SOBREVENDIDO"
         },
         {
