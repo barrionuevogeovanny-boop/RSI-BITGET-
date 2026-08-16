@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T08:11:30.800Z",
-  "updated_ts": 1786867890800,
+  "updated": "2026-08-16T08:46:18.712Z",
+  "updated_ts": 1786869978712,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COTIUSDT",
+          "rsi": 82.8,
+          "price": 0.012,
+          "vol": 3283035.61179,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -42,25 +50,25 @@
       "sell": [
         {
           "sym": "HEMIUSDT",
-          "rsi": 89.6,
-          "price": 0.00859,
-          "vol": 34736952.582549,
-          "label": "MUY ALTO"
+          "rsi": 84.9,
+          "price": 0.00839,
+          "vol": 34873450.574304,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "FETUSDT",
-          "rsi": 20.9,
-          "price": 0.1241,
-          "vol": 8938681.12279,
+          "sym": "KAITOUSDT",
+          "rsi": 20.2,
+          "price": 0.3622,
+          "vol": 4897511.92243,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 22.7,
-          "price": 0.3669,
-          "vol": 4837592.64896,
+          "sym": "FETUSDT",
+          "rsi": 22.5,
+          "price": 0.1246,
+          "vol": 9141834.31778,
           "label": "SOBREVENDIDO"
         },
         {
