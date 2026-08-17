@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T09:42:25.471Z",
-  "updated_ts": 1786959745471,
+  "updated": "2026-08-17T10:15:29.671Z",
+  "updated_ts": 1786961729671,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,36 +13,14 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 81,
-          "price": 1.997,
-          "vol": 4043819.16033,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "BFUSDUSDT",
-          "rsi": 14.5,
-          "price": 0.999,
-          "vol": 8150697.7941,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "CRVUSDT",
-          "rsi": 23,
-          "price": 0.2426,
-          "vol": 3371237.27633,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 100
@@ -51,9 +29,9 @@
       "sell": [
         {
           "sym": "GPSUSDT",
-          "rsi": 85,
-          "price": 0.01546,
-          "vol": 15145398.995786,
+          "rsi": 87.4,
+          "price": 0.01626,
+          "vol": 17860253.935246,
           "label": "MUY ALTO"
         }
       ],
@@ -76,7 +54,15 @@
       "scanned": 100
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GPSUSDT",
+          "rsi": 81.8,
+          "price": 0.01626,
+          "vol": 17860253.935246,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -88,16 +74,16 @@
         {
           "sym": "KAITOUSDT",
           "rsi": 19.3,
-          "price": 0.3363,
-          "vol": 5751138.2936,
+          "price": 0.3364,
+          "vol": 5719533.57071,
           "label": "BAJO"
         },
         {
           "sym": "FETUSDT",
-          "rsi": 19.4,
-          "price": 0.1196,
-          "vol": 10678621.19086,
-          "label": "BAJO"
+          "rsi": 22.7,
+          "price": 0.1204,
+          "vol": 10681602.62756,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
