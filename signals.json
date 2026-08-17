@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T13:29:51.584Z",
-  "updated_ts": 1786973391584,
+  "updated": "2026-08-17T14:02:51.746Z",
+  "updated_ts": 1786975371746,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "POLUSDT",
-          "rsi": 85.8,
-          "price": 0.07835,
-          "vol": 2939674.304862,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 103
+      "scanned": 109
     },
     "1h": {
       "sell": [
         {
           "sym": "POLUSDT",
-          "rsi": 87.6,
-          "price": 0.07835,
-          "vol": 2939674.304862,
-          "label": "MUY ALTO"
+          "rsi": 83.4,
+          "price": 0.0781,
+          "vol": 3046583.927294,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -59,10 +51,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 109
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 80.1,
+          "price": 1776,
+          "vol": 30560801.613154,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -79,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 103
+      "scanned": 109
     }
   }
 }
