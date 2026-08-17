@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T04:21:50.831Z",
-  "updated_ts": 1786940510831,
+  "updated": "2026-08-17T05:03:26.892Z",
+  "updated_ts": 1786943006892,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,17 @@
       "sell": [
         {
           "sym": "GPSUSDT",
-          "rsi": 90.6,
-          "price": 0.01395,
-          "vol": 5936526.027855,
-          "label": "EXTREMO"
+          "rsi": 85.9,
+          "price": 0.01523,
+          "vol": 8417054.349445,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 81.3,
+          "price": 0.002898,
+          "vol": 6807018.620745,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -31,22 +38,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 98
+      "scanned": 97
     },
     "1h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 83.2,
-          "price": 1724.55,
-          "vol": 9215226.960599,
+          "sym": "GPSUSDT",
+          "rsi": 84.4,
+          "price": 0.01523,
+          "vol": 8417054.349445,
           "label": "ALTO"
         },
         {
-          "sym": "GPSUSDT",
-          "rsi": 80.5,
-          "price": 0.01395,
-          "vol": 5936526.027855,
+          "sym": "SNDKBUSDT",
+          "rsi": 83.7,
+          "price": 1726.48,
+          "vol": 9607122.367368,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 80.2,
+          "price": 143.28,
+          "vol": 4782253.03137,
           "label": "ALTO"
         }
       ],
@@ -66,29 +80,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 97
     },
     "4h": {
       "sell": [
         {
           "sym": "PORTALUSDT",
-          "rsi": 88.4,
-          "price": 0.01871,
-          "vol": 28058464.370603,
+          "rsi": 86.8,
+          "price": 0.01857,
+          "vol": 28746206.536168,
           "label": "MUY ALTO"
         },
         {
-          "sym": "ONGUSDT",
-          "rsi": 83.3,
-          "price": 0.05919,
-          "vol": 6927211.70433,
+          "sym": "SNDKBUSDT",
+          "rsi": 83,
+          "price": 1726.48,
+          "vol": 9607122.367368,
           "label": "ALTO"
         },
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 82.7,
-          "price": 1724.55,
-          "vol": 9215226.960599,
+          "sym": "ONGUSDT",
+          "rsi": 80.8,
+          "price": 0.05857,
+          "vol": 6904448.60429,
           "label": "ALTO"
         }
       ],
@@ -101,10 +115,10 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "FETUSDT",
-          "rsi": 22,
-          "price": 0.1215,
-          "vol": 8872640.61226,
+          "sym": "KAITOUSDT",
+          "rsi": 23.2,
+          "price": 0.3455,
+          "vol": 5829556.29602,
           "label": "SOBREVENDIDO"
         },
         {
@@ -113,16 +127,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.8,
-          "price": 0.3482,
-          "vol": 5828124.6545,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 97
     }
   }
 }
