@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T20:02:56.116Z",
-  "updated_ts": 1786996976116,
+  "updated": "2026-08-17T20:37:02.150Z",
+  "updated_ts": 1786999022150,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 81.2,
+          "price": 0.3043,
+          "vol": 28701424.92401,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,17 +31,25 @@
           "label": "BAJO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 23.8,
-          "price": 0.01964,
-          "vol": 4984725.4992799,
+          "sym": "SOPHUSDT",
+          "rsi": 24.4,
+          "price": 0.00343,
+          "vol": 2519683.21104,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 110
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ALLOUSDT",
+          "rsi": 80.6,
+          "price": 0.3043,
+          "vol": 28701424.92401,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -53,22 +69,7 @@
       "scanned": 110
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 81.2,
-          "price": 1793.41,
-          "vol": 43673668.099023,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 80.1,
-          "price": 19.17,
-          "vol": 8266663.8533,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -86,9 +87,9 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 24.4,
-          "price": 0.0775,
-          "vol": 2153941.14182,
+          "rsi": 24.1,
+          "price": 0.0773,
+          "vol": 2156603.84597,
           "label": "SOBREVENDIDO"
         }
       ],
