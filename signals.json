@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T05:44:27.739Z",
-  "updated_ts": 1786945467739,
+  "updated": "2026-08-17T06:20:53.481Z",
+  "updated_ts": 1786947653481,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,29 +23,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     },
     "1h": {
       "sell": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 85.5,
-          "price": 1737.7,
-          "vol": 10370960.620392,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "GPSUSDT",
-          "rsi": 83.3,
-          "price": 0.01491,
-          "vol": 9542929.03433,
+          "rsi": 82.8,
+          "price": 1739.91,
+          "vol": 10972171.278839,
           "label": "ALTO"
         },
         {
-          "sym": "MUBUSDT",
-          "rsi": 80.4,
-          "price": 1004.15,
-          "vol": 2533516.83222,
+          "sym": "GPSUSDT",
+          "rsi": 80.7,
+          "price": 0.01475,
+          "vol": 10241502.322463,
           "label": "ALTO"
         }
       ],
@@ -65,22 +58,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     },
     "4h": {
       "sell": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 83.7,
-          "price": 1737.7,
-          "vol": 10370960.620392,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ONGUSDT",
-          "rsi": 83.4,
-          "price": 0.05928,
-          "vol": 6905364.22473,
+          "rsi": 83.9,
+          "price": 1739.91,
+          "vol": 10972171.278839,
           "label": "ALTO"
         }
       ],
@@ -93,21 +79,21 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "KAITOUSDT",
+          "rsi": 19.9,
+          "price": 0.3394,
+          "vol": 5910443.59098,
+          "label": "BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24,
-          "price": 0.3466,
-          "vol": 5834613.6639,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 98
+      "scanned": 99
     }
   }
 }
