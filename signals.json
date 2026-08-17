@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T10:15:29.671Z",
-  "updated_ts": 1786961729671,
+  "updated": "2026-08-17T10:49:43.461Z",
+  "updated_ts": 1786963783461,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,17 +21,24 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BFUSDUSDT",
+          "rsi": 21.8,
+          "price": 0.999,
+          "vol": 18752607.8573,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 103
     },
     "1h": {
       "sell": [
         {
           "sym": "GPSUSDT",
-          "rsi": 87.4,
-          "price": 0.01626,
-          "vol": 17860253.935246,
+          "rsi": 87.7,
+          "price": 0.01643,
+          "vol": 19355259.224822,
           "label": "MUY ALTO"
         }
       ],
@@ -51,15 +58,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 103
     },
     "4h": {
       "sell": [
         {
           "sym": "GPSUSDT",
-          "rsi": 81.8,
-          "price": 0.01626,
-          "vol": 17860253.935246,
+          "rsi": 82.1,
+          "price": 0.01643,
+          "vol": 19355259.224822,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 81.1,
+          "price": 1732.61,
+          "vol": 14816830.089971,
           "label": "ALTO"
         }
       ],
@@ -73,16 +87,9 @@
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 19.3,
-          "price": 0.3364,
-          "vol": 5719533.57071,
-          "label": "BAJO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 22.7,
-          "price": 0.1204,
-          "vol": 10681602.62756,
+          "rsi": 20.3,
+          "price": 0.3404,
+          "vol": 5526257.3222,
           "label": "SOBREVENDIDO"
         },
         {
@@ -91,9 +98,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 23.7,
+          "price": 0.1206,
+          "vol": 10695173.09557,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 103
     }
   }
 }
