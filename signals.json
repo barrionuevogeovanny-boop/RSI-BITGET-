@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T19:20:46.088Z",
-  "updated_ts": 1786994446088,
+  "updated": "2026-08-17T19:46:43.429Z",
+  "updated_ts": 1786996003429,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "BICOUSDT",
+          "rsi": 24.9,
+          "price": 0.01977,
+          "vol": 4921633.8086412,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "POLUSDT",
-          "rsi": 81.7,
-          "price": 0.08217,
-          "vol": 5523881.805257,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,22 +50,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
-          "sym": "POLUSDT",
-          "rsi": 82.4,
-          "price": 0.08217,
-          "vol": 5523881.805257,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 80.9,
-          "price": 2.126,
-          "vol": 2963664.81662,
+          "sym": "SNDKBUSDT",
+          "rsi": 80.4,
+          "price": 1783.3,
+          "vol": 42979475.785884,
           "label": "ALTO"
         }
       ],
@@ -86,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 110
     }
   }
 }
