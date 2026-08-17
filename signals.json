@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T18:03:44.186Z",
-  "updated_ts": 1786989824186,
+  "updated": "2026-08-17T18:53:29.572Z",
+  "updated_ts": 1786992809572,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "POLUSDT",
+          "rsi": 84.4,
+          "price": 0.08295,
+          "vol": 5202455.056456,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,16 +31,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 108
+      "scanned": 110
     },
     "1h": {
       "sell": [
         {
           "sym": "POLUSDT",
-          "rsi": 81.3,
-          "price": 0.07904,
-          "vol": 3584096.544661,
-          "label": "ALTO"
+          "rsi": 91.8,
+          "price": 0.08295,
+          "vol": 5202455.056456,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -51,22 +59,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 110
     },
     "4h": {
       "sell": [
         {
-          "sym": "MORPHOUSDT",
-          "rsi": 81.1,
-          "price": 2.127,
-          "vol": 2919752.36646,
+          "sym": "POLUSDT",
+          "rsi": 83.7,
+          "price": 0.08295,
+          "vol": 5202455.056456,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 80.9,
-          "price": 1787.72,
-          "vol": 41492119.911036,
+          "rsi": 80.3,
+          "price": 1783.64,
+          "vol": 41980826.237338,
           "label": "ALTO"
         }
       ],
@@ -84,16 +92,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZBTUSDT",
-          "rsi": 23.9,
-          "price": 0.0766,
-          "vol": 2102238.41745,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 110
     }
   }
 }
