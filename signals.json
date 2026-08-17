@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T19:46:43.429Z",
-  "updated_ts": 1786996003429,
+  "updated": "2026-08-17T20:02:56.116Z",
+  "updated_ts": 1786996976116,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,9 +24,9 @@
         },
         {
           "sym": "BICOUSDT",
-          "rsi": 24.9,
-          "price": 0.01977,
-          "vol": 4921633.8086412,
+          "rsi": 23.8,
+          "price": 0.01964,
+          "vol": 4984725.4992799,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -56,9 +56,16 @@
       "sell": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 80.4,
-          "price": 1783.3,
-          "vol": 42979475.785884,
+          "rsi": 81.2,
+          "price": 1793.41,
+          "vol": 43673668.099023,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 80.1,
+          "price": 19.17,
+          "vol": 8266663.8533,
           "label": "ALTO"
         }
       ],
@@ -75,6 +82,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZBTUSDT",
+          "rsi": 24.4,
+          "price": 0.0775,
+          "vol": 2153941.14182,
           "label": "SOBREVENDIDO"
         }
       ],
