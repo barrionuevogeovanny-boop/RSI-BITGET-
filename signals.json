@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T23:30:14.051Z",
-  "updated_ts": 1787009414051,
+  "updated": "2026-08-17T23:49:46.149Z",
+  "updated_ts": 1787010586150,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "PROMUSDT",
-          "rsi": 23,
-          "price": 1.944,
-          "vol": 2010404.26815,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "1h": {
       "sell": [],
@@ -50,29 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     },
     "4h": {
       "sell": [
         {
           "sym": "AXTIBUSDT",
-          "rsi": 84.1,
-          "price": 95.45,
-          "vol": 2070563.5645,
+          "rsi": 83,
+          "price": 95.21,
+          "vol": 2071215.5069,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 82.9,
-          "price": 1814.92,
-          "vol": 46155849.391498,
+          "rsi": 82.6,
+          "price": 1810.32,
+          "vol": 46320568.298994,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 81.9,
-          "price": 19.63,
-          "vol": 9014922.0616,
+          "rsi": 81.4,
+          "price": 19.47,
+          "vol": 9055175.5003,
           "label": "ALTO"
         }
       ],
@@ -86,9 +79,9 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 21.4,
-          "price": 0.0751,
-          "vol": 2128718.36403,
+          "rsi": 22.3,
+          "price": 0.0759,
+          "vol": 2140075.13428,
           "label": "SOBREVENDIDO"
         },
         {
@@ -99,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 108
     }
   }
 }
