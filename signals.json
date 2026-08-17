@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T14:02:51.746Z",
-  "updated_ts": 1786975371746,
+  "updated": "2026-08-17T14:38:00.767Z",
+  "updated_ts": 1786977480767,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,15 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 106
     },
     "1h": {
       "sell": [
         {
           "sym": "POLUSDT",
-          "rsi": 83.4,
-          "price": 0.0781,
-          "vol": 3046583.927294,
+          "rsi": 82.4,
+          "price": 0.07806,
+          "vol": 3117561.644503,
           "label": "ALTO"
         }
       ],
@@ -51,15 +51,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 106
     },
     "4h": {
       "sell": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 80.1,
-          "price": 1776,
-          "vol": 30560801.613154,
+          "rsi": 81.3,
+          "price": 1791.25,
+          "vol": 33496024.784349,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 80.2,
+          "price": 19.15,
+          "vol": 6181604.4372,
           "label": "ALTO"
         }
       ],
@@ -79,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 106
     }
   }
 }
