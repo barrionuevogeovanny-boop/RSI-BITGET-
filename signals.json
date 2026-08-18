@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T06:30:21.241Z",
-  "updated_ts": 1787034621241,
+  "updated": "2026-08-18T07:21:17.478Z",
+  "updated_ts": 1787037677478,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EDENUSDT",
+          "rsi": 81.2,
+          "price": 0.05871,
+          "vol": 8595537.598099,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,27 +29,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SPYBUSDT",
-          "rsi": 21.8,
-          "price": 770.08,
-          "vol": 2507436.89681,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 113
     },
     "1h": {
       "sell": [],
       "buy": [
-        {
-          "sym": "SPYBUSDT",
-          "rsi": 13.2,
-          "price": 770.08,
-          "vol": 2507436.89681,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -50,10 +44,24 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SPYBUSDT",
+          "rsi": 17.3,
+          "price": 770.18,
+          "vol": 2495685.30819,
+          "label": "BAJO"
+        },
+        {
           "sym": "GALAUSDT",
-          "rsi": 20.1,
-          "price": 0.001424,
-          "vol": 3764635.689166,
+          "rsi": 21,
+          "price": 0.001425,
+          "vol": 4021510.140518,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PROMUSDT",
+          "rsi": 21,
+          "price": 1.833,
+          "vol": 2073569.56235,
           "label": "SOBREVENDIDO"
         },
         {
@@ -64,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 113
     },
     "4h": {
       "sell": [],
@@ -78,10 +86,10 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 19.9,
-          "price": 0.001424,
-          "vol": 3764635.689166,
-          "label": "BAJO"
+          "rsi": 20.6,
+          "price": 0.001425,
+          "vol": 4021510.140518,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -91,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 111
+      "scanned": 113
     }
   }
 }
