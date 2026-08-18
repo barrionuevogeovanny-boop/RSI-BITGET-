@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T23:49:46.149Z",
-  "updated_ts": 1787010586150,
+  "updated": "2026-08-18T00:22:58.101Z",
+  "updated_ts": 1787012578101,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 24.4,
+          "price": 0.322,
+          "vol": 6915875.04981,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 108
@@ -48,24 +55,24 @@
     "4h": {
       "sell": [
         {
-          "sym": "AXTIBUSDT",
-          "rsi": 83,
-          "price": 95.21,
-          "vol": 2071215.5069,
-          "label": "ALTO"
-        },
-        {
           "sym": "SNDKBUSDT",
-          "rsi": 82.6,
-          "price": 1810.32,
-          "vol": 46320568.298994,
+          "rsi": 81.6,
+          "price": 1804.42,
+          "vol": 45334540.914236,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 81.4,
-          "price": 19.47,
-          "vol": 9055175.5003,
+          "rsi": 80.8,
+          "price": 19.41,
+          "vol": 9142596.676,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AXTIBUSDT",
+          "rsi": 80.4,
+          "price": 94.66,
+          "vol": 2027058.3086,
           "label": "ALTO"
         }
       ],
@@ -79,9 +86,9 @@
         },
         {
           "sym": "ZBTUSDT",
-          "rsi": 22.3,
-          "price": 0.0759,
-          "vol": 2140075.13428,
+          "rsi": 23.2,
+          "price": 0.0766,
+          "vol": 2153083.58469,
           "label": "SOBREVENDIDO"
         },
         {
