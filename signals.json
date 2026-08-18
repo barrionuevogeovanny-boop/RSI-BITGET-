@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T11:10:48.261Z",
-  "updated_ts": 1787051448261,
+  "updated": "2026-08-18T11:39:44.586Z",
+  "updated_ts": 1787053184586,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -26,7 +26,15 @@
       "scanned": 107
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPNUSDT",
+          "rsi": 87.5,
+          "price": 0.0604,
+          "vol": 2141466.82419,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,10 +44,17 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SOXLBUSDT",
+          "rsi": 22.8,
+          "price": 135.21,
+          "vol": 6957001.15484,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "GALAUSDT",
-          "rsi": 20.3,
-          "price": 0.001412,
-          "vol": 4361723.562543,
+          "rsi": 23,
+          "price": 0.001419,
+          "vol": 4407972.314087,
           "label": "SOBREVENDIDO"
         },
         {
@@ -64,9 +79,9 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 19.4,
-          "price": 0.001412,
-          "vol": 4361723.562543,
+          "rsi": 19.8,
+          "price": 0.001419,
+          "vol": 4407972.314087,
           "label": "BAJO"
         },
         {
