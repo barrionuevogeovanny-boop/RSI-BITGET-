@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T00:22:58.101Z",
-  "updated_ts": 1787012578101,
+  "updated": "2026-08-18T01:55:50.377Z",
+  "updated_ts": 1787018150377,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "KAITOUSDT",
-          "rsi": 24.4,
-          "price": 0.322,
-          "vol": 6915875.04981,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     },
     "1h": {
       "sell": [],
@@ -50,32 +43,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 81.6,
-          "price": 1804.42,
-          "vol": 45334540.914236,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 80.8,
-          "price": 19.41,
-          "vol": 9142596.676,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AXTIBUSDT",
-          "rsi": 80.4,
-          "price": 94.66,
-          "vol": 2027058.3086,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -85,13 +56,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "ZBTUSDT",
-          "rsi": 23.2,
-          "price": 0.0766,
-          "vol": 2153083.58469,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -99,7 +63,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 109
     }
   }
 }
