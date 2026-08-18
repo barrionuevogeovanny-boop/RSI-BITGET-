@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T16:33:13.143Z",
-  "updated_ts": 1787070793143,
+  "updated": "2026-08-18T17:00:42.984Z",
+  "updated_ts": 1787072442984,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "ALPINEUSDT",
-          "rsi": 88.1,
-          "price": 0.402,
-          "vol": 2677380.42127,
+          "rsi": 86.9,
+          "price": 0.42,
+          "vol": 3873309.30868,
           "label": "MUY ALTO"
         }
       ],
@@ -32,29 +32,29 @@
         },
         {
           "sym": "USDCUSDT",
-          "rsi": 18.1,
-          "price": 1.00064,
-          "vol": 1194384943.1827,
+          "rsi": 16.2,
+          "price": 1.00061,
+          "vol": 1199754569.40333,
           "label": "BAJO"
+        },
+        {
+          "sym": "NBISBUSDT",
+          "rsi": 24.3,
+          "price": 248.19,
+          "vol": 2628114.67245,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "1h": {
       "sell": [
         {
           "sym": "ALPINEUSDT",
-          "rsi": 93.7,
-          "price": 0.402,
-          "vol": 2677380.42127,
+          "rsi": 92.3,
+          "price": 0.42,
+          "vol": 3873309.30868,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "LAUSDT",
-          "rsi": 86.1,
-          "price": 0.0588,
-          "vol": 2597098.31707,
-          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -67,23 +67,23 @@
         },
         {
           "sym": "EWYBUSDT",
-          "rsi": 18,
-          "price": 170.79,
-          "vol": 3529986.4898,
-          "label": "BAJO"
+          "rsi": 20.8,
+          "price": 171.86,
+          "vol": 3492683.45265,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "KORUBUSDT",
-          "rsi": 19.4,
-          "price": 18.16,
-          "vol": 11945817.4324,
-          "label": "BAJO"
+          "rsi": 21.7,
+          "price": 18.44,
+          "vol": 12029037.8139,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "SOXLBUSDT",
-          "rsi": 21.5,
-          "price": 125.83,
-          "vol": 6637530.43493,
+          "rsi": 21.8,
+          "price": 126.19,
+          "vol": 6611331.64872,
           "label": "SOBREVENDIDO"
         },
         {
@@ -94,30 +94,30 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "SPYBUSDT",
-          "rsi": 23.9,
-          "price": 768.34,
-          "vol": 2860148.88632,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "INTCBUSDT",
-          "rsi": 24.2,
-          "price": 96.07,
-          "vol": 2870465.63658,
+          "rsi": 24.7,
+          "price": 96.27,
+          "vol": 2854383.76686,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "4h": {
       "sell": [
         {
           "sym": "ALPINEUSDT",
-          "rsi": 85.8,
-          "price": 0.402,
-          "vol": 2677380.42127,
+          "rsi": 87.6,
+          "price": 0.42,
+          "vol": 3873309.30868,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "POLUSDT",
+          "rsi": 80.7,
+          "price": 0.08255,
+          "vol": 7358229.069006,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -130,10 +130,10 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 20.8,
-          "price": 0.001413,
-          "vol": 5006285.779713,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.5,
+          "price": 0.001391,
+          "vol": 5167008.652495,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -144,20 +144,13 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 24,
-          "price": 96.07,
-          "vol": 2870465.63658,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "QQQBUSDT",
           "rsi": 24.4,
-          "price": 719.2,
-          "vol": 3696217.45903,
+          "price": 96.27,
+          "vol": 2854383.76686,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     }
   }
 }
