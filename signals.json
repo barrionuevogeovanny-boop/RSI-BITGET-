@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T07:21:17.478Z",
-  "updated_ts": 1787037677478,
+  "updated": "2026-08-18T07:58:24.681Z",
+  "updated_ts": 1787039904681,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EDENUSDT",
-          "rsi": 81.2,
-          "price": 0.05871,
-          "vol": 8595537.598099,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SPYBUSDT",
+          "rsi": 19.7,
+          "price": 769.18,
+          "vol": 2491163.78294,
+          "label": "BAJO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     },
     "1h": {
       "sell": [],
@@ -45,23 +44,16 @@
         },
         {
           "sym": "SPYBUSDT",
-          "rsi": 17.3,
-          "price": 770.18,
-          "vol": 2495685.30819,
-          "label": "BAJO"
+          "rsi": 14.7,
+          "price": 769.18,
+          "vol": 2491163.78294,
+          "label": "MUY BAJO"
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 21,
-          "price": 0.001425,
-          "vol": 4021510.140518,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PROMUSDT",
-          "rsi": 21,
-          "price": 1.833,
-          "vol": 2073569.56235,
+          "rsi": 21.4,
+          "price": 0.001428,
+          "vol": 4118400.272187,
           "label": "SOBREVENDIDO"
         },
         {
@@ -72,7 +64,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     },
     "4h": {
       "sell": [],
@@ -86,9 +78,9 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 20.6,
-          "price": 0.001425,
-          "vol": 4021510.140518,
+          "rsi": 20.8,
+          "price": 0.001428,
+          "vol": 4118400.272187,
           "label": "SOBREVENDIDO"
         },
         {
@@ -97,9 +89,23 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPYBUSDT",
+          "rsi": 24,
+          "price": 769.18,
+          "vol": 2491163.78294,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUIUSDT",
+          "rsi": 24.6,
+          "price": 0.6466,
+          "vol": 22995544.34568,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 110
     }
   }
 }
