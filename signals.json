@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T19:57:45.003Z",
-  "updated_ts": 1787083065003,
+  "updated": "2026-08-18T20:26:22.657Z",
+  "updated_ts": 1787084782657,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 23.8,
+          "price": 0.04119,
+          "vol": 2245063.04403,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 103
@@ -37,16 +44,23 @@
         },
         {
           "sym": "EWYBUSDT",
-          "rsi": 19.6,
-          "price": 170.84,
-          "vol": 2717667.15807,
+          "rsi": 17.8,
+          "price": 170.07,
+          "vol": 2638172.0109,
           "label": "BAJO"
         },
         {
           "sym": "KORUBUSDT",
-          "rsi": 22.3,
-          "price": 18.14,
-          "vol": 12286716.9394,
+          "rsi": 20.9,
+          "price": 17.85,
+          "vol": 12377414.9134,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 22.6,
+          "price": 4339.41,
+          "vol": 10688274.66228,
           "label": "SOBREVENDIDO"
         },
         {
@@ -57,24 +71,17 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "MSTRBUSDT",
+          "sym": "XAUTUSDT",
           "rsi": 23.7,
-          "price": 92.96,
-          "vol": 6139613.69711,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.1,
-          "price": 4343.43,
-          "vol": 10559368.070384,
+          "price": 4332.67,
+          "vol": 30309919.0448,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 24.4,
-          "price": 155.72,
-          "vol": 8683729.50624,
+          "rsi": 24.3,
+          "price": 155.68,
+          "vol": 8664298.95304,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -83,10 +90,10 @@
     "4h": {
       "sell": [
         {
-          "sym": "ALPINEUSDT",
-          "rsi": 84.5,
-          "price": 0.398,
-          "vol": 6249076.90014,
+          "sym": "POLUSDT",
+          "rsi": 80.2,
+          "price": 0.08236,
+          "vol": 5841923.314536,
           "label": "ALTO"
         }
       ],
@@ -100,16 +107,16 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 20.1,
-          "price": 0.001401,
-          "vol": 5257188.479273,
+          "rsi": 22.3,
+          "price": 0.001411,
+          "vol": 5295565.765322,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "QQQBUSDT",
-          "rsi": 23.1,
-          "price": 718.13,
-          "vol": 3745016.07514,
+          "rsi": 23,
+          "price": 718.05,
+          "vol": 3790202.00431,
           "label": "SOBREVENDIDO"
         },
         {
