@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T12:59:08.257Z",
-  "updated_ts": 1787057948257,
+  "updated": "2026-08-18T13:47:50.337Z",
+  "updated_ts": 1787060870337,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SOXSBUSDT",
+          "rsi": 82.1,
+          "price": 43.65,
+          "vol": 2778900.5705,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +29,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 17.5,
+          "price": 131.61,
+          "vol": 7059242.30839,
+          "label": "BAJO"
         }
       ],
       "scanned": 105
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SOXSBUSDT",
+          "rsi": 81.9,
+          "price": 43.65,
+          "vol": 2778900.5705,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,24 +59,24 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "GALAUSDT",
-          "rsi": 22.1,
-          "price": 0.001414,
-          "vol": 4569722.471067,
-          "label": "SOBREVENDIDO"
+          "sym": "SOXLBUSDT",
+          "rsi": 19,
+          "price": 131.61,
+          "vol": 7059242.30839,
+          "label": "BAJO"
         },
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 22.4,
-          "price": 134.96,
-          "vol": 6943295.12446,
+          "sym": "GALAUSDT",
+          "rsi": 21.1,
+          "price": 0.001405,
+          "vol": 4639351.388353,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "QQQBUSDT",
-          "rsi": 23.1,
-          "price": 721.8,
-          "vol": 2002928.36574,
+          "rsi": 21.2,
+          "price": 720.78,
+          "vol": 3065791.97637,
           "label": "SOBREVENDIDO"
         },
         {
@@ -70,9 +93,9 @@
       "sell": [
         {
           "sym": "MORPHOUSDT",
-          "rsi": 81.7,
-          "price": 2.183,
-          "vol": 2488682.38085,
+          "rsi": 81.5,
+          "price": 2.181,
+          "vol": 2489654.28919,
           "label": "ALTO"
         }
       ],
@@ -86,9 +109,9 @@
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 19.5,
-          "price": 0.001414,
-          "vol": 4569722.471067,
+          "rsi": 19,
+          "price": 0.001405,
+          "vol": 4639351.388353,
           "label": "BAJO"
         },
         {
