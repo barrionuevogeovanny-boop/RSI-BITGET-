@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T11:39:44.586Z",
-  "updated_ts": 1787053184586,
+  "updated": "2026-08-18T11:59:28.241Z",
+  "updated_ts": 1787054368241,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPNUSDT",
+          "rsi": 82,
+          "price": 0.061,
+          "vol": 2450656.29915,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,15 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "1h": {
       "sell": [
         {
           "sym": "OPNUSDT",
-          "rsi": 87.5,
-          "price": 0.0604,
-          "vol": 2141466.82419,
+          "rsi": 88.4,
+          "price": 0.061,
+          "vol": 2450656.29915,
           "label": "MUY ALTO"
         }
       ],
@@ -44,31 +52,39 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 22.8,
-          "price": 135.21,
-          "vol": 6957001.15484,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GALAUSDT",
-          "rsi": 23,
-          "price": 0.001419,
-          "vol": 4407972.314087,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GALAUSDT",
+          "rsi": 23.4,
+          "price": 0.00142,
+          "vol": 4444053.4772,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 23.4,
+          "price": 135.74,
+          "vol": 6952943.81443,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "OPNUSDT",
+          "rsi": 80.4,
+          "price": 0.061,
+          "vol": 2450656.29915,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -80,8 +96,8 @@
         {
           "sym": "GALAUSDT",
           "rsi": 19.8,
-          "price": 0.001419,
-          "vol": 4407972.314087,
+          "price": 0.00142,
+          "vol": 4444053.4772,
           "label": "BAJO"
         },
         {
@@ -92,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     }
   }
 }
