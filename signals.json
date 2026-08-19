@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T11:11:19.419Z",
-  "updated_ts": 1787137879419,
+  "updated": "2026-08-19T11:39:32.569Z",
+  "updated_ts": 1787139572569,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,16 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "DOTUSDT",
-          "rsi": 80.5,
-          "price": 0.777,
-          "vol": 3791080.42733,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "CFGUSDT",
+          "rsi": 15.4,
+          "price": 0.1318,
+          "vol": 2457426.29651,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -31,38 +30,45 @@
           "label": "BAJO"
         },
         {
-          "sym": "CFGUSDT",
-          "rsi": 16.1,
-          "price": 0.1331,
-          "vol": 2391310.21594,
-          "label": "BAJO"
+          "sym": "PORTALUSDT",
+          "rsi": 20.9,
+          "price": 0.0117,
+          "vol": 3384291.993069,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NBISBUSDT",
+          "rsi": 24,
+          "price": 230,
+          "vol": 2779357.17083,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SUNUSDT",
+          "rsi": 24.7,
+          "price": 0.01693,
+          "vol": 3177366.35323,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 108
     },
     "1h": {
       "sell": [
         {
-          "sym": "ZROUSDT",
-          "rsi": 85.1,
-          "price": 0.852,
-          "vol": 2142201.7251,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MUBARAKUSDT",
-          "rsi": 81.7,
-          "price": 0.01944,
-          "vol": 2473972.267889,
+          "sym": "EURUSDT",
+          "rsi": 81.4,
+          "price": 1.1617,
+          "vol": 6837042.66891,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "CFGUSDT",
-          "rsi": 12,
-          "price": 0.1331,
-          "vol": 2391310.21594,
+          "rsi": 10.6,
+          "price": 0.1318,
+          "vol": 2457426.29651,
           "label": "MUY BAJO"
         },
         {
@@ -74,9 +80,9 @@
         },
         {
           "sym": "SUNUSDT",
-          "rsi": 21.8,
-          "price": 0.01694,
-          "vol": 3138711.06292,
+          "rsi": 21.4,
+          "price": 0.01693,
+          "vol": 3177366.35323,
           "label": "SOBREVENDIDO"
         },
         {
@@ -88,30 +94,37 @@
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 24.4,
-          "price": 0.01209,
-          "vol": 22042978.021792,
+          "rsi": 23.4,
+          "price": 0.01197,
+          "vol": 22056320.571174,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 23.7,
+          "price": 0.0117,
+          "vol": 3384291.993069,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 108
     },
     "4h": {
       "sell": [
         {
           "sym": "CAKEUSDT",
-          "rsi": 81.5,
-          "price": 1.557,
-          "vol": 3019758.6485,
+          "rsi": 80.9,
+          "price": 1.554,
+          "vol": 3081350.15927,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SUNUSDT",
-          "rsi": 9.8,
-          "price": 0.01694,
-          "vol": 3138711.06292,
+          "rsi": 9.7,
+          "price": 0.01693,
+          "vol": 3177366.35323,
           "label": "EXTREMO"
         },
         {
@@ -125,14 +138,14 @@
           "sym": "GALAUSDT",
           "rsi": 17.1,
           "price": 0.001352,
-          "vol": 3069711.269896,
+          "vol": 3037368.090712,
           "label": "BAJO"
         },
         {
           "sym": "CFGUSDT",
-          "rsi": 22.3,
-          "price": 0.1331,
-          "vol": 2391310.21594,
+          "rsi": 21.6,
+          "price": 0.1318,
+          "vol": 2457426.29651,
           "label": "SOBREVENDIDO"
         },
         {
@@ -143,7 +156,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 108
     }
   }
 }
