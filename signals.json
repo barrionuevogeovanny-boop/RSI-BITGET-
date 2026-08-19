@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T07:32:24.299Z",
-  "updated_ts": 1787124744299,
+  "updated": "2026-08-19T08:05:38.198Z",
+  "updated_ts": 1787126738198,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 81.2,
+          "price": 166.56,
+          "vol": 23625873.93465,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,16 +52,24 @@
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 24.7,
-          "price": 0.01237,
-          "vol": 23113696.96455,
+          "rsi": 24.9,
+          "price": 0.01225,
+          "vol": 23004032.007511,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 104
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ACMUSDT",
+          "rsi": 85.7,
+          "price": 0.338,
+          "vol": 3612851.4213,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -64,16 +80,16 @@
         },
         {
           "sym": "SUNUSDT",
-          "rsi": 12.1,
-          "price": 0.01712,
-          "vol": 2974687.90355,
+          "rsi": 11.6,
+          "price": 0.01709,
+          "vol": 2980221.85951,
           "label": "MUY BAJO"
         },
         {
           "sym": "GALAUSDT",
-          "rsi": 18,
-          "price": 0.001367,
-          "vol": 2823343.648762,
+          "rsi": 18.5,
+          "price": 0.001366,
+          "vol": 2773045.698114,
           "label": "BAJO"
         },
         {
