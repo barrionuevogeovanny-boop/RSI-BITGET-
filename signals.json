@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-19T17:54:05.964Z",
-  "updated_ts": 1787162045964,
+  "updated": "2026-08-19T18:22:30.201Z",
+  "updated_ts": 1787163750201,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,19 +15,19 @@
     "15m": {
       "sell": [
         {
-          "sym": "ETHUSDT",
-          "rsi": 82.2,
-          "price": 2091.08,
-          "vol": 983979369.181228,
+          "sym": "REUSDT",
+          "rsi": 83.7,
+          "price": 0.5092,
+          "vol": 30984873.31842,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "JSTUSDT",
-          "rsi": 13.4,
-          "price": 0.10412,
-          "vol": 2154388.56281,
+          "rsi": 12.2,
+          "price": 0.10384,
+          "vol": 2245262.457473,
           "label": "MUY BAJO"
         },
         {
@@ -36,94 +36,80 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 24,
+          "price": 0.01046,
+          "vol": 6146448.897284,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 24.6,
+          "price": 1.00027,
+          "vol": 1702041968.60885,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 128
     },
     "1h": {
       "sell": [
         {
           "sym": "ETHUSDT",
-          "rsi": 91.8,
-          "price": 2091.08,
-          "vol": 983979369.181228,
+          "rsi": 90.1,
+          "price": 2087.78,
+          "vol": 1003719987.390629,
           "label": "EXTREMO"
         },
         {
+          "sym": "REUSDT",
+          "rsi": 89.8,
+          "price": 0.5092,
+          "vol": 30984873.31842,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "SOLUSDT",
-          "rsi": 85.6,
-          "price": 81.68,
-          "vol": 229635185.57023,
+          "rsi": 85.7,
+          "price": 81.67,
+          "vol": 231719169.62952,
           "label": "MUY ALTO"
         },
         {
           "sym": "BTCUSDT",
-          "rsi": 84.9,
-          "price": 68201.05,
-          "vol": 1545374222.7733002,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 68305.99,
+          "vol": 1567522559.5415926,
+          "label": "MUY ALTO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 84.7,
-          "price": 68201.59,
-          "vol": 3489040.3102412,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TREEUSDT",
-          "rsi": 84.3,
-          "price": 0.0459,
-          "vol": 8358527.08714,
-          "label": "ALTO"
-        },
-        {
-          "sym": "REUSDT",
-          "rsi": 84,
-          "price": 0.4897,
-          "vol": 28039837.28617,
-          "label": "ALTO"
-        },
-        {
-          "sym": "INJUSDT",
-          "rsi": 83.8,
-          "price": 4.408,
-          "vol": 3719814.02507,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 83.6,
-          "price": 1.1672,
-          "vol": 16185944.79613,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 82.8,
-          "price": 553.49,
-          "vol": 117106854.22457,
+          "rsi": 85,
+          "price": 68279.14,
+          "vol": 3486711.9708404,
           "label": "ALTO"
         },
         {
           "sym": "XRPUSDT",
-          "rsi": 82.7,
-          "price": 1.0612,
-          "vol": 111538543.57553,
+          "rsi": 83.2,
+          "price": 1.0621,
+          "vol": 113438664.45093,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 82.5,
+          "price": 1.1673,
+          "vol": 16999801.12167,
           "label": "ALTO"
         },
         {
           "sym": "EURIUSDT",
-          "rsi": 82,
-          "price": 1.1666,
-          "vol": 13117105.35313,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 80.9,
-          "price": 617.55,
-          "vol": 89895767.53595,
+          "rsi": 81.8,
+          "price": 1.1668,
+          "vol": 13306678.55281,
           "label": "ALTO"
         }
       ],
@@ -136,31 +122,24 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "BICOUSDT",
-          "rsi": 17.5,
-          "price": 0.01657,
-          "vol": 2696867.7125456,
-          "label": "BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 17.9,
-          "price": 0.4183,
-          "vol": 3280723.37735,
-          "label": "BAJO"
-        },
-        {
           "sym": "JSTUSDT",
-          "rsi": 21.3,
-          "price": 0.10412,
-          "vol": 2154388.56281,
+          "rsi": 20.3,
+          "price": 0.10384,
+          "vol": 2245262.457473,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PORTALUSDT",
-          "rsi": 21.7,
-          "price": 0.01056,
-          "vol": 6103527.105839,
+          "rsi": 21,
+          "price": 0.01046,
+          "vol": 6146448.897284,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 22.1,
+          "price": 1.00027,
+          "vol": 1702041968.60885,
           "label": "SOBREVENDIDO"
         },
         {
@@ -171,64 +150,64 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 128
     },
     "4h": {
       "sell": [
         {
           "sym": "ETHUSDT",
-          "rsi": 87.7,
-          "price": 2091.08,
-          "vol": 983979369.181228,
+          "rsi": 87.5,
+          "price": 2087.78,
+          "vol": 1003719987.390629,
           "label": "MUY ALTO"
         },
         {
           "sym": "TREEUSDT",
-          "rsi": 87.2,
-          "price": 0.0459,
-          "vol": 8358527.08714,
+          "rsi": 86,
+          "price": 0.0448,
+          "vol": 8875669.44833,
           "label": "MUY ALTO"
         },
         {
           "sym": "CAKEUSDT",
-          "rsi": 84.5,
-          "price": 1.582,
-          "vol": 4171605.71378,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 81.9,
-          "price": 81.68,
-          "vol": 229635185.57023,
-          "label": "ALTO"
+          "rsi": 85.1,
+          "price": 1.587,
+          "vol": 4462229.87752,
+          "label": "MUY ALTO"
         },
         {
           "sym": "EURUSDT",
-          "rsi": 81.4,
-          "price": 1.1672,
-          "vol": 16185944.79613,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EURIUSDT",
-          "rsi": 81,
-          "price": 1.1666,
-          "vol": 13117105.35313,
+          "rsi": 81.9,
+          "price": 1.1673,
+          "vol": 16999801.12167,
           "label": "ALTO"
         },
         {
           "sym": "BTCUSDT",
-          "rsi": 80.4,
-          "price": 68201.05,
-          "vol": 1545374222.7733002,
+          "rsi": 81.6,
+          "price": 68305.99,
+          "vol": 1567522559.5415926,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 81.5,
+          "price": 81.67,
+          "vol": 231719169.62952,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURIUSDT",
+          "rsi": 81.2,
+          "price": 1.1668,
+          "vol": 13306678.55281,
           "label": "ALTO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 80.2,
-          "price": 68201.59,
-          "vol": 3489040.3102412,
+          "rsi": 81.2,
+          "price": 68279.14,
+          "vol": 3486711.9708404,
           "label": "ALTO"
         }
       ],
@@ -241,35 +220,28 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SUNUSDT",
+          "rsi": 22.4,
+          "price": 0.01704,
+          "vol": 3322591.61553,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GALAUSDT",
+          "rsi": 22.6,
+          "price": 0.00137,
+          "vol": 3030783.938815,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SUNUSDT",
-          "rsi": 23.9,
-          "price": 0.01706,
-          "vol": 3357569.7915,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BICOUSDT",
-          "rsi": 24.4,
-          "price": 0.01657,
-          "vol": 2696867.7125456,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GALAUSDT",
-          "rsi": 24.5,
-          "price": 0.00138,
-          "vol": 3040315.50547,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 128
     }
   }
 }
