@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T15:48:16.826Z",
-  "updated_ts": 1787413696826,
+  "updated": "2026-08-22T16:00:47.703Z",
+  "updated_ts": 1787414447703,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ONGUSDT",
+          "rsi": 22.6,
+          "price": 0.06864,
+          "vol": 12272734.40035,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 204
@@ -49,51 +56,51 @@
       "sell": [
         {
           "sym": "SCUSDT",
-          "rsi": 88.9,
-          "price": 0.000686,
-          "vol": 4677047.771166,
+          "rsi": 88.4,
+          "price": 0.000672,
+          "vol": 4746126.869047,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "CVXUSDT",
-          "rsi": 83.3,
-          "price": 2.14,
-          "vol": 3216806.436831,
-          "label": "ALTO"
         },
         {
           "sym": "SKYUSDT",
           "rsi": 82.9,
-          "price": 0.06751,
-          "vol": 3076797.33753,
+          "price": 0.06749,
+          "vol": 3066252.88548,
           "label": "ALTO"
         },
         {
-          "sym": "FFUSDT",
-          "rsi": 81.6,
-          "price": 0.07774,
-          "vol": 5264523.855075,
+          "sym": "CVXUSDT",
+          "rsi": 82.6,
+          "price": 2.109,
+          "vol": 3252084.00618,
           "label": "ALTO"
         },
         {
-          "sym": "PUMPUSDT",
-          "rsi": 81.2,
-          "price": 0.004713,
-          "vol": 101416563.679586,
+          "sym": "POLUSDT",
+          "rsi": 81.5,
+          "price": 0.11002,
+          "vol": 32699721.816767,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
           "rsi": 81,
-          "price": 789.93,
-          "vol": 512603885.47819,
+          "price": 790.33,
+          "vol": 512269385.34778,
           "label": "ALTO"
         },
         {
-          "sym": "POLUSDT",
-          "rsi": 80.8,
-          "price": 0.10949,
-          "vol": 32400455.254151,
+          "sym": "FFUSDT",
+          "rsi": 81,
+          "price": 0.07766,
+          "vol": 5104885.952174,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 80.6,
+          "price": 0.004669,
+          "vol": 101425483.58662,
           "label": "ALTO"
         }
       ],
