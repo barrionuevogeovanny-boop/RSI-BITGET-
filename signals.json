@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T14:22:57.885Z",
-  "updated_ts": 1787408577885,
+  "updated": "2026-08-22T14:44:18.973Z",
+  "updated_ts": 1787409858973,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ONGUSDT",
+          "rsi": 24.2,
+          "price": 0.07186,
+          "vol": 11822904.5566,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 203
@@ -49,44 +56,37 @@
       "sell": [
         {
           "sym": "SCUSDT",
-          "rsi": 89.7,
-          "price": 0.0007,
-          "vol": 3796084.837726,
-          "label": "MUY ALTO"
+          "rsi": 90.8,
+          "price": 0.00073,
+          "vol": 3994608.236426,
+          "label": "EXTREMO"
         },
         {
           "sym": "SKYUSDT",
-          "rsi": 83.1,
-          "price": 0.06758,
-          "vol": 3046046.64775,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 81.8,
-          "price": 123.44,
-          "vol": 49966271.08021,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CVXUSDT",
-          "rsi": 81.8,
-          "price": 2.092,
-          "vol": 2992690.169438,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 81.7,
-          "price": 792.97,
-          "vol": 506927759.6855,
+          "rsi": 82.5,
+          "price": 0.06733,
+          "vol": 3029673.67531,
           "label": "ALTO"
         },
         {
           "sym": "PUMPUSDT",
-          "rsi": 80.5,
-          "price": 0.004653,
-          "vol": 101115659.892256,
+          "rsi": 82,
+          "price": 0.004796,
+          "vol": 101580670.854816,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 81.3,
+          "price": 792.1,
+          "vol": 503946506.44006,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 80.6,
+          "price": 123,
+          "vol": 49917609.55792,
           "label": "ALTO"
         }
       ],
