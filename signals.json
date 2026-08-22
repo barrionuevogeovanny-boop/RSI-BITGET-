@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T10:00:43.072Z",
-  "updated_ts": 1787392843072,
+  "updated": "2026-08-22T10:32:12.281Z",
+  "updated_ts": 1787394732281,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "ONGUSDT",
+          "rsi": 23.6,
+          "price": 0.07431,
+          "vol": 14524108.61058,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEXOUSDT",
+          "rsi": 24.5,
+          "price": 0.797,
+          "vol": 3214969.18536,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 24.6,
+          "price": 0.652,
+          "vol": 49034874.07564,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 213
@@ -48,52 +69,10 @@
     "4h": {
       "sell": [
         {
-          "sym": "POLUSDT",
-          "rsi": 88,
-          "price": 0.11233,
-          "vol": 27763922.846228,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "ZECUSDT",
-          "rsi": 82.4,
-          "price": 794.95,
-          "vol": 526603927.75878,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 82.3,
-          "price": 122.38,
-          "vol": 54457556.15803,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PEPEUSDT",
-          "rsi": 81.8,
-          "price": 0.00000407,
-          "vol": 159308869.30770725,
-          "label": "ALTO"
-        },
-        {
-          "sym": "IOTAUSDT",
-          "rsi": 81.5,
-          "price": 0.0456,
-          "vol": 2029821.5706,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SKYUSDT",
-          "rsi": 80.9,
-          "price": 0.06656,
-          "vol": 3022955.56572,
-          "label": "ALTO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 80.1,
-          "price": 77011.12,
-          "vol": 6010665.8258313,
+          "rsi": 80.6,
+          "price": 786.88,
+          "vol": 534306325.56181,
           "label": "ALTO"
         }
       ],
@@ -114,9 +93,9 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 23.8,
-          "price": 88.66,
-          "vol": 2450289.67789,
+          "rsi": 23.3,
+          "price": 88.45,
+          "vol": 2422867.71848,
           "label": "SOBREVENDIDO"
         }
       ],
