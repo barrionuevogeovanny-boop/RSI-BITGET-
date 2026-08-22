@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T10:52:48.367Z",
-  "updated_ts": 1787395968367,
+  "updated": "2026-08-22T11:10:42.595Z",
+  "updated_ts": 1787397042595,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 213
+      "scanned": 212
     },
     "1h": {
       "sell": [],
@@ -43,36 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 213
+      "scanned": 212
     },
     "4h": {
       "sell": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 81.6,
-          "price": 791.7,
-          "vol": 534683813.19286,
-          "label": "ALTO"
-        },
-        {
           "sym": "POLUSDT",
-          "rsi": 80.7,
-          "price": 0.10946,
-          "vol": 29893289.660723,
+          "rsi": 84.8,
+          "price": 0.11129,
+          "vol": 30099024.084467,
           "label": "ALTO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 80.7,
-          "price": 77085.57,
-          "vol": 6007329.56364,
+          "sym": "BERAUSDT",
+          "rsi": 80.9,
+          "price": 0.1975,
+          "vol": 5104445.3883008,
           "label": "ALTO"
         },
         {
           "sym": "TRUMPUSDT",
-          "rsi": 80.1,
-          "price": 2.705,
-          "vol": 226180313.094854,
+          "rsi": 80.8,
+          "price": 2.708,
+          "vol": 228814090.706593,
           "label": "ALTO"
         }
       ],
@@ -93,13 +86,13 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 23.7,
-          "price": 88.63,
-          "vol": 2406144.41854,
+          "rsi": 23.5,
+          "price": 88.55,
+          "vol": 2397555.60285,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 213
+      "scanned": 212
     }
   }
 }
