@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T21:53:21.020Z",
-  "updated_ts": 1787435601020,
+  "updated": "2026-08-22T22:11:57.136Z",
+  "updated_ts": 1787436717136,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,19 +21,27 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ONTUSDT",
-          "rsi": 23.2,
-          "price": 0.04628,
-          "vol": 4259217.40732,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 188
+      "scanned": 187
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 83.7,
+          "price": 1.1797,
+          "vol": 15032813.56967,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURIUSDT",
+          "rsi": 83.7,
+          "price": 1.1793,
+          "vol": 11284498.69183,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,29 +58,57 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 188
+      "scanned": 187
     },
     "4h": {
       "sell": [
         {
           "sym": "SCUSDT",
-          "rsi": 88.3,
-          "price": 0.000708,
-          "vol": 6195309.072475,
+          "rsi": 86,
+          "price": 0.000669,
+          "vol": 6321748.189799,
           "label": "MUY ALTO"
         },
         {
+          "sym": "PUMPUSDT",
+          "rsi": 83.8,
+          "price": 0.004957,
+          "vol": 112659705.999256,
+          "label": "ALTO"
+        },
+        {
           "sym": "FFUSDT",
-          "rsi": 82.6,
-          "price": 0.07867,
-          "vol": 4730565.205977,
+          "rsi": 83.2,
+          "price": 0.07916,
+          "vol": 4724038.463002,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CVXUSDT",
+          "rsi": 83.1,
+          "price": 2.124,
+          "vol": 3508874.978619,
           "label": "ALTO"
         },
         {
           "sym": "EURIUSDT",
-          "rsi": 80.3,
-          "price": 1.178,
-          "vol": 11068896.65668,
+          "rsi": 81.4,
+          "price": 1.1793,
+          "vol": 11284498.69183,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 81.2,
+          "price": 1.1797,
+          "vol": 15032813.56967,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 81.1,
+          "price": 126.61,
+          "vol": 46580652.68557,
           "label": "ALTO"
         }
       ],
@@ -92,7 +128,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 188
+      "scanned": 187
     }
   }
 }
