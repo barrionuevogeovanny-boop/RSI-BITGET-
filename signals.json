@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T14:44:18.973Z",
-  "updated_ts": 1787409858973,
+  "updated": "2026-08-22T15:00:20.267Z",
+  "updated_ts": 1787410820268,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,13 +24,13 @@
         },
         {
           "sym": "ONGUSDT",
-          "rsi": 24.2,
-          "price": 0.07186,
-          "vol": 11822904.5566,
+          "rsi": 23.4,
+          "price": 0.07172,
+          "vol": 11886873.09949,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 203
+      "scanned": 204
     },
     "1h": {
       "sell": [],
@@ -50,43 +50,50 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 203
+      "scanned": 204
     },
     "4h": {
       "sell": [
         {
           "sym": "SCUSDT",
-          "rsi": 90.8,
-          "price": 0.00073,
-          "vol": 3994608.236426,
+          "rsi": 91,
+          "price": 0.000731,
+          "vol": 4257248.837394,
           "label": "EXTREMO"
         },
         {
           "sym": "SKYUSDT",
-          "rsi": 82.5,
-          "price": 0.06733,
-          "vol": 3029673.67531,
+          "rsi": 83.3,
+          "price": 0.06771,
+          "vol": 3067336.99898,
           "label": "ALTO"
         },
         {
           "sym": "PUMPUSDT",
-          "rsi": 82,
-          "price": 0.004796,
-          "vol": 101580670.854816,
+          "rsi": 81.2,
+          "price": 0.004712,
+          "vol": 101003282.329213,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 81.3,
-          "price": 792.1,
-          "vol": 503946506.44006,
+          "rsi": 80.6,
+          "price": 790.24,
+          "vol": 506375924.07175,
           "label": "ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 80.6,
-          "price": 123,
-          "vol": 49917609.55792,
+          "rsi": 80.4,
+          "price": 122.93,
+          "vol": 49457881.91961,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80.3,
+          "price": 0.07689,
+          "vol": 5257760.001532,
           "label": "ALTO"
         }
       ],
@@ -106,7 +113,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 203
+      "scanned": 204
     }
   }
 }
