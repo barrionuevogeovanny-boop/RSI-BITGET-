@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T13:57:32.870Z",
-  "updated_ts": 1787407052870,
+  "updated": "2026-08-22T14:22:57.885Z",
+  "updated_ts": 1787408577885,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 204
+      "scanned": 203
     },
     "1h": {
       "sell": [],
@@ -43,64 +43,50 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 204
+      "scanned": 203
     },
     "4h": {
       "sell": [
         {
           "sym": "SCUSDT",
-          "rsi": 91.9,
-          "price": 0.000759,
-          "vol": 3491479.407331,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 84.5,
-          "price": 124.83,
-          "vol": 50111639.94231,
-          "label": "ALTO"
+          "rsi": 89.7,
+          "price": 0.0007,
+          "vol": 3796084.837726,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SKYUSDT",
           "rsi": 83.1,
           "price": 0.06758,
-          "vol": 3037554.34411,
+          "vol": 3046046.64775,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 81.8,
+          "price": 123.44,
+          "vol": 49966271.08021,
           "label": "ALTO"
         },
         {
           "sym": "CVXUSDT",
-          "rsi": 82.4,
-          "price": 2.105,
-          "vol": 2959869.441378,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PUMPUSDT",
-          "rsi": 82.3,
-          "price": 0.004829,
-          "vol": 99593750.082295,
+          "rsi": 81.8,
+          "price": 2.092,
+          "vol": 2992690.169438,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 82.1,
-          "price": 794.83,
-          "vol": 509276972.4159,
+          "rsi": 81.7,
+          "price": 792.97,
+          "vol": 506927759.6855,
           "label": "ALTO"
         },
         {
-          "sym": "WBTCUSDT",
-          "rsi": 81.1,
-          "price": 77232.56,
-          "vol": 5662836.3176666,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 80.9,
-          "price": 77256,
-          "vol": 2023944582.260296,
+          "sym": "PUMPUSDT",
+          "rsi": 80.5,
+          "price": 0.004653,
+          "vol": 101115659.892256,
           "label": "ALTO"
         }
       ],
@@ -120,7 +106,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 204
+      "scanned": 203
     }
   }
 }
