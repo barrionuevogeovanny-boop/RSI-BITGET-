@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T11:34:14.143Z",
-  "updated_ts": 1787398454143,
+  "updated": "2026-08-22T11:52:52.770Z",
+  "updated_ts": 1787399572770,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 213
+      "scanned": 211
     },
     "1h": {
       "sell": [],
@@ -43,57 +43,64 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 213
+      "scanned": 211
     },
     "4h": {
       "sell": [
         {
           "sym": "POLUSDT",
-          "rsi": 86.4,
-          "price": 0.11184,
-          "vol": 30292333.445467,
+          "rsi": 85.6,
+          "price": 0.11146,
+          "vol": 30513042.986349,
           "label": "MUY ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 82.1,
-          "price": 122.11,
-          "vol": 50340356.7781,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BERAUSDT",
-          "rsi": 81.9,
-          "price": 0.1994,
-          "vol": 4504631.0540174,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CVXUSDT",
-          "rsi": 80.8,
-          "price": 2.07,
-          "vol": 2689041.129094,
-          "label": "ALTO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 80.4,
-          "price": 76950.8,
-          "vol": 5811879.3128308,
+          "rsi": 83.5,
+          "price": 122.69,
+          "vol": 49812544.45594,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 80.2,
-          "price": 785.03,
-          "vol": 525819905.44496,
+          "rsi": 82.1,
+          "price": 792.94,
+          "vol": 521973193.35461,
           "label": "ALTO"
         },
         {
-          "sym": "BTCUSDT",
-          "rsi": 80.1,
-          "price": 77054.1,
-          "vol": 2374597352.783613,
+          "sym": "BERAUSDT",
+          "rsi": 82,
+          "price": 0.2001,
+          "vol": 4369883.9091521,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SKYUSDT",
+          "rsi": 81.2,
+          "price": 0.0667,
+          "vol": 3033263.1695,
+          "label": "ALTO"
+        },
+        {
+          "sym": "CVXUSDT",
+          "rsi": 81.1,
+          "price": 2.067,
+          "vol": 2718434.609452,
+          "label": "ALTO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 80.7,
+          "price": 77085.84,
+          "vol": 5821516.4499066,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TRUMPUSDT",
+          "rsi": 80,
+          "price": 2.697,
+          "vol": 233553324.581145,
           "label": "ALTO"
         }
       ],
@@ -114,13 +121,13 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 23.7,
-          "price": 88.63,
-          "vol": 2362312.32443,
+          "rsi": 23.8,
+          "price": 88.7,
+          "vol": 2291127.06476,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 213
+      "scanned": 211
     }
   }
 }
