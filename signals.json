@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T11:10:42.595Z",
-  "updated_ts": 1787397042595,
+  "updated": "2026-08-22T11:34:14.143Z",
+  "updated_ts": 1787398454143,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 212
+      "scanned": 213
     },
     "1h": {
       "sell": [],
@@ -43,29 +43,57 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 212
+      "scanned": 213
     },
     "4h": {
       "sell": [
         {
           "sym": "POLUSDT",
-          "rsi": 84.8,
-          "price": 0.11129,
-          "vol": 30099024.084467,
+          "rsi": 86.4,
+          "price": 0.11184,
+          "vol": 30292333.445467,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 82.1,
+          "price": 122.11,
+          "vol": 50340356.7781,
           "label": "ALTO"
         },
         {
           "sym": "BERAUSDT",
-          "rsi": 80.9,
-          "price": 0.1975,
-          "vol": 5104445.3883008,
+          "rsi": 81.9,
+          "price": 0.1994,
+          "vol": 4504631.0540174,
           "label": "ALTO"
         },
         {
-          "sym": "TRUMPUSDT",
+          "sym": "CVXUSDT",
           "rsi": 80.8,
-          "price": 2.708,
-          "vol": 228814090.706593,
+          "price": 2.07,
+          "vol": 2689041.129094,
+          "label": "ALTO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 80.4,
+          "price": 76950.8,
+          "vol": 5811879.3128308,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 80.2,
+          "price": 785.03,
+          "vol": 525819905.44496,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 80.1,
+          "price": 77054.1,
+          "vol": 2374597352.783613,
           "label": "ALTO"
         }
       ],
@@ -86,13 +114,13 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 23.5,
-          "price": 88.55,
-          "vol": 2397555.60285,
+          "rsi": 23.7,
+          "price": 88.63,
+          "vol": 2362312.32443,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 212
+      "scanned": 213
     }
   }
 }
