@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T14:48:25.538Z",
-  "updated_ts": 1787496505538,
+  "updated": "2026-08-23T15:06:14.149Z",
+  "updated_ts": 1787497574149,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 81.2,
+          "price": 166.58,
+          "vol": 2191354.73464,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -26,7 +34,22 @@
       "scanned": 137
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 81.4,
+          "price": 1.947,
+          "vol": 8126045.7398,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 81,
+          "price": 2.628,
+          "vol": 4488320.91163,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
