@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T18:39:56.404Z",
-  "updated_ts": 1787510396404,
+  "updated": "2026-08-23T19:02:14.473Z",
+  "updated_ts": 1787511734473,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SPKUSDT",
-          "rsi": 84.8,
-          "price": 0.023279,
-          "vol": 8109734.51276,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -34,22 +26,7 @@
       "scanned": 136
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SPKUSDT",
-          "rsi": 86.9,
-          "price": 0.023279,
-          "vol": 8109734.51276,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SKHYBUSDT",
-          "rsi": 80.7,
-          "price": 168.01,
-          "vol": 2786132.93371,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -71,24 +48,24 @@
     "4h": {
       "sell": [
         {
-          "sym": "SPKUSDT",
-          "rsi": 84,
-          "price": 0.023279,
-          "vol": 8109734.51276,
-          "label": "ALTO"
+          "sym": "FFUSDT",
+          "rsi": 85.2,
+          "price": 0.09011,
+          "vol": 9237405.763383,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "FFUSDT",
-          "rsi": 82.6,
-          "price": 0.08671,
-          "vol": 9003610.655104,
+          "sym": "SPKUSDT",
+          "rsi": 81.7,
+          "price": 0.02212,
+          "vol": 8860799.301391,
           "label": "ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 80.8,
-          "price": 139.86,
-          "vol": 44646964.84764,
+          "rsi": 81,
+          "price": 140.57,
+          "vol": 45041827.93637,
           "label": "ALTO"
         }
       ],
