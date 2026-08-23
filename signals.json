@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T07:10:08.989Z",
-  "updated_ts": 1787469008989,
+  "updated": "2026-08-23T07:45:58.967Z",
+  "updated_ts": 1787471158967,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "EURIUSDT",
-          "rsi": 96.8,
-          "price": 1.2107,
-          "vol": 12653885.0151,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 96,
-          "price": 1.211,
-          "vol": 14858187.01098,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 148
+      "scanned": 145
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "EURUSDT",
-          "rsi": 96.4,
-          "price": 1.211,
-          "vol": 14858187.01098,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EURIUSDT",
-          "rsi": 96.4,
-          "price": 1.2107,
-          "vol": 12653885.0151,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,29 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 145
     },
     "4h": {
       "sell": [
         {
           "sym": "EURIUSDT",
-          "rsi": 93.5,
-          "price": 1.2107,
-          "vol": 12653885.0151,
+          "rsi": 91.3,
+          "price": 1.1986,
+          "vol": 13154998.08478,
           "label": "EXTREMO"
         },
         {
           "sym": "EURUSDT",
-          "rsi": 93.3,
-          "price": 1.211,
-          "vol": 14858187.01098,
+          "rsi": 91,
+          "price": 1.1988,
+          "vol": 17866033.135,
           "label": "EXTREMO"
         },
         {
           "sym": "FFUSDT",
-          "rsi": 88.9,
-          "price": 0.08565,
-          "vol": 7779251.583252,
+          "rsi": 87.3,
+          "price": 0.08324,
+          "vol": 8163860.739202,
           "label": "MUY ALTO"
         }
       ],
@@ -115,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 145
     }
   }
 }
