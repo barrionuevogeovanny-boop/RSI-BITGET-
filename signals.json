@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T20:00:13.049Z",
-  "updated_ts": 1787515213049,
+  "updated": "2026-08-23T20:32:19.051Z",
+  "updated_ts": 1787517139051,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,16 +24,9 @@
         },
         {
           "sym": "EURUSDT",
-          "rsi": 22.7,
-          "price": 1.1694,
-          "vol": 21482085.76347,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 24.7,
-          "price": 0.00915,
-          "vol": 4083791.923834,
+          "rsi": 22.6,
+          "price": 1.1692,
+          "vol": 21339876.55277,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -43,10 +36,17 @@
       "sell": [
         {
           "sym": "SPKUSDT",
-          "rsi": 85.9,
-          "price": 0.02315,
-          "vol": 10118947.874461,
+          "rsi": 86,
+          "price": 0.023123,
+          "vol": 10786559.529482,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 82.4,
+          "price": 0.010224,
+          "vol": 30169143.0361,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -70,17 +70,24 @@
     "4h": {
       "sell": [
         {
-          "sym": "FFUSDT",
-          "rsi": 83.6,
-          "price": 0.08788,
-          "vol": 9787720.358288,
+          "sym": "SPKUSDT",
+          "rsi": 83.4,
+          "price": 0.023123,
+          "vol": 10786559.529482,
           "label": "ALTO"
         },
         {
-          "sym": "SPKUSDT",
-          "rsi": 83.4,
-          "price": 0.02315,
-          "vol": 10118947.874461,
+          "sym": "PENGUUSDT",
+          "rsi": 81.4,
+          "price": 0.010224,
+          "vol": 30169143.0361,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80.8,
+          "price": 0.08727,
+          "vol": 9830013.261704,
           "label": "ALTO"
         }
       ],
