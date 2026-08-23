@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T11:31:16.429Z",
-  "updated_ts": 1787484676429,
+  "updated": "2026-08-23T11:50:09.559Z",
+  "updated_ts": 1787485809559,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,23 +16,23 @@
       "sell": [
         {
           "sym": "PAXGUSDT",
-          "rsi": 81.2,
-          "price": 4600.07,
-          "vol": 6674087.420601,
-          "label": "ALTO"
+          "rsi": 85.1,
+          "price": 4603.48,
+          "vol": 7253011.321248,
+          "label": "MUY ALTO"
         },
         {
           "sym": "EIGENUSDT",
-          "rsi": 80.7,
-          "price": 0.2244,
-          "vol": 3043139.276402,
+          "rsi": 83.1,
+          "price": 0.2255,
+          "vol": 3075915.99814,
           "label": "ALTO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 80.6,
-          "price": 1.538,
-          "vol": 10511732.38174,
+          "sym": "PENDLEUSDT",
+          "rsi": 82.4,
+          "price": 1.754,
+          "vol": 3098374.4478,
           "label": "ALTO"
         }
       ],
@@ -45,7 +45,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 131
+      "scanned": 132
     },
     "1h": {
       "sell": [],
@@ -65,10 +65,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 132
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 80.1,
+          "price": 0.08284,
+          "vol": 8918261.64299,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -85,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 132
     }
   }
 }
