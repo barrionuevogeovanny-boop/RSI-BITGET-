@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T11:05:22.298Z",
-  "updated_ts": 1787483122298,
+  "updated": "2026-08-23T11:31:16.429Z",
+  "updated_ts": 1787484676429,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,24 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 85.8,
-          "price": 0.6455,
-          "vol": 7587724.27775,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "EIGENUSDT",
-          "rsi": 85,
-          "price": 0.2244,
-          "vol": 2760533.854375,
+          "sym": "PAXGUSDT",
+          "rsi": 81.2,
+          "price": 4600.07,
+          "vol": 6674087.420601,
           "label": "ALTO"
         },
         {
-          "sym": "PAXGUSDT",
+          "sym": "EIGENUSDT",
           "rsi": 80.7,
-          "price": 4599.96,
-          "vol": 6341397.35903,
+          "price": 0.2244,
+          "vol": 3043139.276402,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 80.6,
+          "price": 1.538,
+          "vol": 10511732.38174,
           "label": "ALTO"
         }
       ],
@@ -45,7 +45,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 134
+      "scanned": 131
     },
     "1h": {
       "sell": [],
@@ -65,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -85,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 131
     }
   }
 }
