@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T19:02:14.473Z",
-  "updated_ts": 1787511734473,
+  "updated": "2026-08-23T19:29:32.585Z",
+  "updated_ts": 1787513372585,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,32 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SPKUSDT",
+          "rsi": 86.2,
+          "price": 0.022936,
+          "vol": 9482229.718285,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 82.4,
+          "price": 169.06,
+          "vol": 3077968.60411,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 80.5,
+          "price": 0.009989,
+          "vol": 26851475.326931,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,29 +65,36 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     },
     "4h": {
       "sell": [
         {
-          "sym": "FFUSDT",
-          "rsi": 85.2,
-          "price": 0.09011,
-          "vol": 9237405.763383,
-          "label": "MUY ALTO"
+          "sym": "SPKUSDT",
+          "rsi": 83.4,
+          "price": 0.022936,
+          "vol": 9482229.718285,
+          "label": "ALTO"
         },
         {
-          "sym": "SPKUSDT",
-          "rsi": 81.7,
-          "price": 0.02212,
-          "vol": 8860799.301391,
+          "sym": "FFUSDT",
+          "rsi": 81.8,
+          "price": 0.08581,
+          "vol": 9639784.483158,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 80.2,
+          "price": 0.009989,
+          "vol": 26851475.326931,
           "label": "ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 81,
-          "price": 140.57,
-          "vol": 45041827.93637,
+          "rsi": 80.1,
+          "price": 139.45,
+          "vol": 44775738.43811,
           "label": "ALTO"
         }
       ],
@@ -85,7 +114,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     }
   }
 }
