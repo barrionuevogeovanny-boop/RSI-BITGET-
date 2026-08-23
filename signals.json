@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T10:48:03.219Z",
-  "updated_ts": 1787482083219,
+  "updated": "2026-08-23T11:05:22.298Z",
+  "updated_ts": 1787483122298,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,29 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 85.8,
+          "price": 0.6455,
+          "vol": 7587724.27775,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "EIGENUSDT",
+          "rsi": 85,
+          "price": 0.2244,
+          "vol": 2760533.854375,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 80.7,
+          "price": 4599.96,
+          "vol": 6341397.35903,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
