@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T19:29:32.585Z",
-  "updated_ts": 1787513372585,
+  "updated": "2026-08-23T19:47:40.463Z",
+  "updated_ts": 1787514460463,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,31 +21,38 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 24.2,
+          "price": 1.1695,
+          "vol": 21412666.07911,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     },
     "1h": {
       "sell": [
         {
           "sym": "SPKUSDT",
-          "rsi": 86.2,
-          "price": 0.022936,
-          "vol": 9482229.718285,
+          "rsi": 85.9,
+          "price": 0.022893,
+          "vol": 9872522.70802,
           "label": "MUY ALTO"
         },
         {
           "sym": "SKHYBUSDT",
-          "rsi": 82.4,
-          "price": 169.06,
-          "vol": 3077968.60411,
+          "rsi": 82.5,
+          "price": 169.07,
+          "vol": 3276139.27599,
           "label": "ALTO"
         },
         {
           "sym": "PENGUUSDT",
-          "rsi": 80.5,
-          "price": 0.009989,
-          "vol": 26851475.326931,
+          "rsi": 80,
+          "price": 0.009944,
+          "vol": 27626705.077028,
           "label": "ALTO"
         }
       ],
@@ -65,36 +72,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     },
     "4h": {
       "sell": [
         {
-          "sym": "SPKUSDT",
-          "rsi": 83.4,
-          "price": 0.022936,
-          "vol": 9482229.718285,
-          "label": "ALTO"
-        },
-        {
           "sym": "FFUSDT",
-          "rsi": 81.8,
-          "price": 0.08581,
-          "vol": 9639784.483158,
+          "rsi": 83.4,
+          "price": 0.08786,
+          "vol": 9748326.617099,
           "label": "ALTO"
         },
         {
-          "sym": "PENGUUSDT",
-          "rsi": 80.2,
-          "price": 0.009989,
-          "vol": 26851475.326931,
+          "sym": "SPKUSDT",
+          "rsi": 83.3,
+          "price": 0.022893,
+          "vol": 9872522.70802,
           "label": "ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 80.1,
-          "price": 139.45,
-          "vol": 44775738.43811,
+          "rsi": 80,
+          "price": 139.42,
+          "vol": 45010742.53082,
           "label": "ALTO"
         }
       ],
@@ -114,7 +114,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     }
   }
 }
