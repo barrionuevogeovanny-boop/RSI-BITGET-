@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T11:50:09.559Z",
-  "updated_ts": 1787485809559,
+  "updated": "2026-08-23T12:10:45.110Z",
+  "updated_ts": 1787487045110,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 85.1,
-          "price": 4603.48,
-          "vol": 7253011.321248,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "EIGENUSDT",
-          "rsi": 83.1,
-          "price": 0.2255,
-          "vol": 3075915.99814,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 82.4,
-          "price": 1.754,
-          "vol": 3098374.4478,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -68,15 +46,7 @@
       "scanned": 132
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 80.1,
-          "price": 0.08284,
-          "vol": 8918261.64299,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
