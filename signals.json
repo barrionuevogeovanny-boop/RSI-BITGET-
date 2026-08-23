@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T10:24:34.074Z",
-  "updated_ts": 1787480674074,
+  "updated": "2026-08-23T10:48:03.219Z",
+  "updated_ts": 1787482083219,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ENAUSDT",
-          "rsi": 83.3,
-          "price": 0.1795,
-          "vol": 84017573.977238,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ETHFIUSDT",
-          "rsi": 80.6,
-          "price": 0.6235,
-          "vol": 6714022.67159,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "BFUSDUSDT",
-          "rsi": 22.5,
-          "price": 0.9994,
-          "vol": 3907377.9604,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 134
     },
     "1h": {
       "sell": [],
@@ -65,18 +43,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 134
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 88.4,
-          "price": 0.08508,
-          "vol": 8614895.815679,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -93,7 +63,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 134
     }
   }
 }
