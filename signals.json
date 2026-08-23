@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T15:33:15.990Z",
-  "updated_ts": 1787499195990,
+  "updated": "2026-08-23T15:52:38.799Z",
+  "updated_ts": 1787500358799,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 80.9,
+          "price": 0.009177,
+          "vol": 15368439.396781,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,15 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     },
     "1h": {
       "sell": [
         {
           "sym": "MORPHOUSDT",
-          "rsi": 80.8,
-          "price": 2.627,
-          "vol": 4791812.69081,
+          "rsi": 82.5,
+          "price": 2.671,
+          "vol": 4903237.11325,
           "label": "ALTO"
         }
       ],
@@ -51,15 +59,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     },
     "4h": {
       "sell": [
         {
           "sym": "AAVEUSDT",
-          "rsi": 80.4,
-          "price": 139.22,
-          "vol": 45569439.53331,
+          "rsi": 80.8,
+          "price": 140.06,
+          "vol": 46069281.62187,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80,
+          "price": 0.08415,
+          "vol": 9152553.033567,
           "label": "ALTO"
         }
       ],
@@ -79,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 135
     }
   }
 }
