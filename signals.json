@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T23:40:03.152Z",
-  "updated_ts": 1787528403152,
+  "updated": "2026-08-23T23:56:04.651Z",
+  "updated_ts": 1787529364651,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,29 +23,22 @@
           "label": "BAJO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 18.7,
-          "price": 1.1683,
-          "vol": 20786189.11627,
-          "label": "BAJO"
-        },
-        {
           "sym": "HEMIUSDT",
-          "rsi": 20.6,
-          "price": 0.00886,
-          "vol": 4021343.937691,
+          "rsi": 20.9,
+          "price": 0.00889,
+          "vol": 4075460.853444,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 138
     },
     "1h": {
       "sell": [
         {
           "sym": "MORPHOUSDT",
-          "rsi": 83.3,
-          "price": 2.91,
-          "vol": 10612981.23518,
+          "rsi": 83.4,
+          "price": 2.914,
+          "vol": 10773490.90068,
           "label": "ALTO"
         }
       ],
@@ -65,22 +58,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 138
     },
     "4h": {
       "sell": [
         {
           "sym": "SPKUSDT",
-          "rsi": 81.2,
-          "price": 0.022867,
-          "vol": 12844956.692486,
+          "rsi": 83.7,
+          "price": 0.023061,
+          "vol": 13075830.892491,
           "label": "ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 80.7,
-          "price": 141.56,
-          "vol": 48778312.42088,
+          "rsi": 80.6,
+          "price": 141.53,
+          "vol": 48798816.49824,
           "label": "ALTO"
         }
       ],
@@ -100,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 138
     }
   }
 }
