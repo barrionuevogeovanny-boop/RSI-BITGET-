@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T14:25:44.137Z",
-  "updated_ts": 1787495144137,
+  "updated": "2026-08-23T14:48:25.538Z",
+  "updated_ts": 1787496505538,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,71 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "WLDUSDT",
-          "rsi": 85.9,
-          "price": 0.408,
-          "vol": 22619567.61521,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 85,
-          "price": 1.941,
-          "vol": 7135142.7993,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 84.4,
-          "price": 2.631,
-          "vol": 3797128.63755,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EIGENUSDT",
-          "rsi": 82.1,
-          "price": 0.2392,
-          "vol": 3967514.134735,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZENUSDT",
-          "rsi": 81.9,
-          "price": 5.746,
-          "vol": 8256235.94222,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SEIUSDT",
-          "rsi": 80.8,
-          "price": 0.04781,
-          "vol": 3219203.647835,
-          "label": "ALTO"
-        },
-        {
-          "sym": "TRUMPUSDT",
-          "rsi": 80.4,
-          "price": 2.891,
-          "vol": 125196540.474793,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PYTHUSDT",
-          "rsi": 80.1,
-          "price": 0.05428,
-          "vol": 14944389.769061,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PLUMEUSDT",
-          "rsi": 80.1,
-          "price": 0.01372,
-          "vol": 3641186.51175,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -87,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 137
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 81.1,
-          "price": 1.941,
-          "vol": 7135142.7993,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 80.9,
-          "price": 2.631,
-          "vol": 3797128.63755,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -122,25 +43,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 137
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "FFUSDT",
-          "rsi": 81.3,
-          "price": 0.0855,
-          "vol": 9724871.382882,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AAVEUSDT",
-          "rsi": 80.2,
-          "price": 138.59,
-          "vol": 40807624.85875,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -157,7 +63,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 137
     }
   }
 }
