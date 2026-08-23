@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T13:38:38.393Z",
-  "updated_ts": 1787492318394,
+  "updated": "2026-08-23T13:57:57.388Z",
+  "updated_ts": 1787493477388,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,58 +16,93 @@
       "sell": [
         {
           "sym": "PENDLEUSDT",
-          "rsi": 93,
-          "price": 1.885,
-          "vol": 4911757.8248,
+          "rsi": 94.7,
+          "price": 1.946,
+          "vol": 5889227.6342,
           "label": "EXTREMO"
         },
         {
           "sym": "UNIUSDT",
-          "rsi": 88.3,
+          "rsi": 88.4,
           "price": 4.612,
-          "vol": 38721260.55047,
+          "vol": 41119597.57193,
           "label": "MUY ALTO"
         },
         {
           "sym": "AAVEUSDT",
-          "rsi": 86.8,
-          "price": 139.86,
-          "vol": 37959951.45716,
+          "rsi": 87.2,
+          "price": 140.31,
+          "vol": 39259968.53265,
           "label": "MUY ALTO"
         },
         {
-          "sym": "ZENUSDT",
-          "rsi": 82.2,
-          "price": 5.651,
-          "vol": 7721842.05842,
+          "sym": "SPKUSDT",
+          "rsi": 85.4,
+          "price": 0.019631,
+          "vol": 2662848.233128,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 84.5,
+          "price": 0.4062,
+          "vol": 22343543.65234,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LUNCUSDT",
+          "rsi": 83.8,
+          "price": 0.00005689,
+          "vol": 2632568.19225708,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 83.1,
+          "price": 0.1032,
+          "vol": 7546715.66415,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EIGENUSDT",
+          "rsi": 82.8,
+          "price": 0.2347,
+          "vol": 3550798.452434,
           "label": "ALTO"
         },
         {
           "sym": "TAOUSDT",
-          "rsi": 81,
-          "price": 231.4,
-          "vol": 21708977.52528,
+          "rsi": 82.6,
+          "price": 232.7,
+          "vol": 22582133.04211,
           "label": "ALTO"
         },
         {
           "sym": "LDOUSDT",
-          "rsi": 80.8,
-          "price": 0.3921,
-          "vol": 4131612.194107,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SPKUSDT",
-          "rsi": 80.7,
-          "price": 0.019211,
-          "vol": 2564612.794095,
+          "rsi": 82.4,
+          "price": 0.3952,
+          "vol": 4429368.670479,
           "label": "ALTO"
         },
         {
           "sym": "SEIUSDT",
-          "rsi": 80,
-          "price": 0.04753,
-          "vol": 3210864.349427,
+          "rsi": 81.1,
+          "price": 0.04765,
+          "vol": 3261153.78983,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZENUSDT",
+          "rsi": 80.6,
+          "price": 5.688,
+          "vol": 8000343.20835,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 80.4,
+          "price": 2.566,
+          "vol": 3388390.88517,
           "label": "ALTO"
         }
       ],
@@ -83,7 +118,15 @@
       "scanned": 131
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 81.2,
+          "price": 1.946,
+          "vol": 5889227.6342,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -105,24 +148,17 @@
     "4h": {
       "sell": [
         {
-          "sym": "FFUSDT",
-          "rsi": 82.1,
-          "price": 0.08635,
-          "vol": 9650694.931391,
-          "label": "ALTO"
-        },
-        {
           "sym": "AAVEUSDT",
-          "rsi": 80.8,
-          "price": 139.86,
-          "vol": 37959951.45716,
+          "rsi": 81,
+          "price": 140.31,
+          "vol": 39259968.53265,
           "label": "ALTO"
         },
         {
-          "sym": "PUMPUSDT",
-          "rsi": 80.1,
-          "price": 0.005388,
-          "vol": 92892590.382735,
+          "sym": "FFUSDT",
+          "rsi": 80.9,
+          "price": 0.08513,
+          "vol": 9676430.79138,
           "label": "ALTO"
         }
       ],
