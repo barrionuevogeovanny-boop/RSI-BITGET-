@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T08:03:27.363Z",
-  "updated_ts": 1787472207363,
+  "updated": "2026-08-23T08:42:57.549Z",
+  "updated_ts": 1787474577549,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,32 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "MSTRBUSDT",
-          "rsi": 23.6,
-          "price": 116.51,
-          "vol": 2257991.42376,
+          "sym": "BFUSDUSDT",
+          "rsi": 22.6,
+          "price": 0.9994,
+          "vol": 4162786.8288,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 144
+      "scanned": 141
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "EURIUSDT",
-          "rsi": 91.3,
-          "price": 1.2086,
-          "vol": 13246224.61237,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 90.7,
-          "price": 1.2089,
-          "vol": 18944891.87252,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,29 +50,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 144
+      "scanned": 141
     },
     "4h": {
       "sell": [
         {
-          "sym": "EURIUSDT",
-          "rsi": 93.2,
-          "price": 1.2086,
-          "vol": 13246224.61237,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "EURUSDT",
-          "rsi": 92.9,
-          "price": 1.2089,
-          "vol": 18944891.87252,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "FFUSDT",
-          "rsi": 89.1,
-          "price": 0.08559,
-          "vol": 8251119.720407,
+          "rsi": 88.9,
+          "price": 0.0857,
+          "vol": 8377765.528971,
           "label": "MUY ALTO"
         }
       ],
@@ -107,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 144
+      "scanned": 141
     }
   }
 }
