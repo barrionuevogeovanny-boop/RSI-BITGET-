@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T12:10:45.110Z",
-  "updated_ts": 1787487045110,
+  "updated": "2026-08-23T13:00:53.131Z",
+  "updated_ts": 1787490053131,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,36 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PENDLEUSDT",
+          "rsi": 88.7,
+          "price": 1.811,
+          "vol": 3990753.3369,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 81.7,
+          "price": 135.17,
+          "vol": 33874520.18026,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 81.7,
+          "price": 4603.76,
+          "vol": 7695603.498519,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 81.1,
+          "price": 4592.46,
+          "vol": 6136850.703636,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +52,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     },
     "1h": {
       "sell": [],
@@ -43,10 +72,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 82.3,
+          "price": 0.08656,
+          "vol": 9465246.214294,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -63,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     }
   }
 }
