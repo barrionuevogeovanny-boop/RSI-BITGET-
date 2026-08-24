@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T11:14:11.734Z",
-  "updated_ts": 1787570051734,
+  "updated": "2026-08-24T11:45:10.215Z",
+  "updated_ts": 1787571910215,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SYRUPUSDT",
-          "rsi": 83.2,
-          "price": 0.207,
-          "vol": 2822508.21589,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,24 +36,10 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SNXXBUSDT",
-          "rsi": 22.1,
-          "price": 13.39,
-          "vol": 2259248.4689,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 23.7,
-          "price": 1511.6,
-          "vol": 9533013.062576,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -71,16 +49,23 @@
       "sell": [
         {
           "sym": "PROMUSDT",
-          "rsi": 86.4,
-          "price": 3.913,
-          "vol": 16717246.89919,
+          "rsi": 86.7,
+          "price": 3.936,
+          "vol": 17065535.98627,
           "label": "MUY ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 80.3,
-          "price": 4626.3,
-          "vol": 19450994.933901,
+          "rsi": 82.7,
+          "price": 4641.34,
+          "vol": 20056812.267463,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 81.4,
+          "price": 4650.83,
+          "vol": 17918646.05932,
           "label": "ALTO"
         }
       ],
