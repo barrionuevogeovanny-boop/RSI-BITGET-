@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T04:25:17.874Z",
-  "updated_ts": 1787545517874,
+  "updated": "2026-08-24T05:10:17.532Z",
+  "updated_ts": 1787548217532,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 24.3,
-          "price": 1537.71,
-          "vol": 6142019.119986,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "1h": {
       "sell": [],
@@ -50,15 +43,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "4h": {
       "sell": [
         {
+          "sym": "PROMUSDT",
+          "rsi": 82.7,
+          "price": 3.516,
+          "vol": 10420679.35274,
+          "label": "ALTO"
+        },
+        {
           "sym": "FFUSDT",
-          "rsi": 81.3,
-          "price": 0.09001,
-          "vol": 8086830.135146,
+          "rsi": 80.4,
+          "price": 0.08896,
+          "vol": 7667691.148502,
           "label": "ALTO"
         }
       ],
@@ -78,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     }
   }
 }
