@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T02:36:05.545Z",
-  "updated_ts": 1787538965545,
+  "updated": "2026-08-24T03:34:57.094Z",
+  "updated_ts": 1787542497094,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,14 +16,35 @@
       "sell": [],
       "buy": [
         {
+          "sym": "SNDKBUSDT",
+          "rsi": 13.3,
+          "price": 1529.92,
+          "vol": 5718868.990362,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "MUBUSDT",
+          "rsi": 24,
+          "price": 939.15,
+          "vol": 4345787.19521,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 24.9,
+          "price": 160.05,
+          "vol": 6570730.28951,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "1h": {
       "sell": [],
@@ -36,29 +57,43 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SNDKBUSDT",
+          "rsi": 22.5,
+          "price": 1529.92,
+          "vol": 5718868.990362,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MUBUSDT",
+          "rsi": 23.8,
+          "price": 939.15,
+          "vol": 4345787.19521,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "4h": {
       "sell": [
         {
           "sym": "XAUTUSDT",
-          "rsi": 80.9,
-          "price": 4630.84,
-          "vol": 15567114.321347,
+          "rsi": 80.5,
+          "price": 4626.58,
+          "vol": 16112795.342671,
           "label": "ALTO"
         },
         {
-          "sym": "PAXGUSDT",
+          "sym": "FFUSDT",
           "rsi": 80.1,
-          "price": 4644.85,
-          "vol": 15999138.878462,
+          "price": 0.08868,
+          "vol": 8354878.391903,
           "label": "ALTO"
         }
       ],
@@ -78,7 +113,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     }
   }
 }
