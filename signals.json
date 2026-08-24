@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T17:51:40.876Z",
-  "updated_ts": 1787593900876,
+  "updated": "2026-08-24T18:18:59.877Z",
+  "updated_ts": 1787595539877,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "AMPUSDT",
-          "rsi": 80.8,
-          "price": 0.000557,
-          "vol": 2455193.259767,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,34 +21,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "ACEUSDT",
-          "rsi": 21.5,
-          "price": 0.2154,
-          "vol": 10009332.31687,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 24.3,
-          "price": 0.00812,
-          "vol": 5183575.956456,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 143
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AMPUSDT",
-          "rsi": 91.2,
-          "price": 0.000557,
-          "vol": 2455193.259767,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -67,9 +37,9 @@
         },
         {
           "sym": "NVDABUSDT",
-          "rsi": 20.5,
-          "price": 209.72,
-          "vol": 2571967.89069,
+          "rsi": 21.6,
+          "price": 209.85,
+          "vol": 2563616.63749,
           "label": "SOBREVENDIDO"
         },
         {
@@ -86,9 +56,9 @@
       "sell": [
         {
           "sym": "AMPUSDT",
-          "rsi": 84.6,
-          "price": 0.000557,
-          "vol": 2455193.259767,
+          "rsi": 84.9,
+          "price": 0.00056,
+          "vol": 3643294.77459,
           "label": "ALTO"
         }
       ],
@@ -109,9 +79,9 @@
         },
         {
           "sym": "NVDABUSDT",
-          "rsi": 23.9,
-          "price": 209.72,
-          "vol": 2571967.89069,
+          "rsi": 24.1,
+          "price": 209.85,
+          "vol": 2563616.63749,
           "label": "SOBREVENDIDO"
         }
       ],
