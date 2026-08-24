@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T23:56:04.651Z",
-  "updated_ts": 1787529364651,
+  "updated": "2026-08-24T01:08:41.692Z",
+  "updated_ts": 1787533721692,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STORJUSDT",
+          "rsi": 90.6,
+          "price": 0.051,
+          "vol": 3642929.7118,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,27 +29,12 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 20.9,
-          "price": 0.00889,
-          "vol": 4075460.853444,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 141
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 83.4,
-          "price": 2.914,
-          "vol": 10773490.90068,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,22 +51,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 141
     },
     "4h": {
       "sell": [
         {
           "sym": "SPKUSDT",
-          "rsi": 83.7,
-          "price": 0.023061,
-          "vol": 13075830.892491,
+          "rsi": 80.5,
+          "price": 0.022854,
+          "vol": 14636139.795969,
           "label": "ALTO"
         },
         {
-          "sym": "AAVEUSDT",
-          "rsi": 80.6,
-          "price": 141.53,
-          "vol": 48798816.49824,
+          "sym": "STORJUSDT",
+          "rsi": 80.4,
+          "price": 0.051,
+          "vol": 3642929.7118,
           "label": "ALTO"
         }
       ],
@@ -93,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 141
     }
   }
 }
