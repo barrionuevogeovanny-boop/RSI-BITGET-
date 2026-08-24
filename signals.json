@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T09:12:44.949Z",
-  "updated_ts": 1787562764949,
+  "updated": "2026-08-24T10:04:29.828Z",
+  "updated_ts": 1787565869828,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 138
+      "scanned": 139
     },
     "1h": {
       "sell": [],
@@ -43,22 +43,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 139
     },
     "4h": {
       "sell": [
         {
           "sym": "PROMUSDT",
-          "rsi": 86,
-          "price": 3.845,
-          "vol": 15060056.91035,
-          "label": "MUY ALTO"
+          "rsi": 83.8,
+          "price": 3.79,
+          "vol": 15728127.54029,
+          "label": "ALTO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 80.2,
-          "price": 4624.85,
-          "vol": 18788701.614684,
+          "rsi": 81.2,
+          "price": 4631.14,
+          "vol": 18926162.25563,
           "label": "ALTO"
         }
       ],
@@ -78,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 139
     }
   }
 }
