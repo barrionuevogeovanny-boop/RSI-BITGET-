@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-24T21:04:24.950Z",
-  "updated_ts": 1787605464950,
+  "updated": "2026-08-24T21:39:03.898Z",
+  "updated_ts": 1787607543898,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -37,9 +37,9 @@
         },
         {
           "sym": "NVDABUSDT",
-          "rsi": 20.1,
-          "price": 208.8,
-          "vol": 2760392.29698,
+          "rsi": 21,
+          "price": 208.89,
+          "vol": 2760107.1897,
           "label": "SOBREVENDIDO"
         },
         {
@@ -53,7 +53,15 @@
       "scanned": 144
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AMPUSDT",
+          "rsi": 81,
+          "price": 0.000524,
+          "vol": 6837636.035009,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -63,17 +71,17 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "NVDABUSDT",
-          "rsi": 23.2,
-          "price": 208.8,
-          "vol": 2760392.29698,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834002.83185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 23.7,
+          "price": 208.89,
+          "vol": 2760107.1897,
           "label": "SOBREVENDIDO"
         }
       ],
