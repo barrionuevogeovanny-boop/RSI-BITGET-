@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T14:58:57.725Z",
-  "updated_ts": 1787669937725,
+  "updated": "2026-08-25T15:49:15.788Z",
+  "updated_ts": 1787672955788,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "TLMUSDT",
-          "rsi": 91.2,
-          "price": 0.001663,
-          "vol": 2776696.626224,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "FFUSDT",
-          "rsi": 85,
-          "price": 0.09728,
-          "vol": 3669532.574007,
-          "label": "ALTO"
+          "rsi": 91.6,
+          "price": 0.10255,
+          "vol": 5234489.238725,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -38,23 +31,30 @@
           "label": "BAJO"
         },
         {
-          "sym": "MUBARAKUSDT",
-          "rsi": 22,
-          "price": 0.01994,
-          "vol": 3650537.36405,
+          "sym": "XUSDUSDT",
+          "rsi": 24,
+          "price": 1.0003,
+          "vol": 2285138.6386,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 150
+      "scanned": 147
     },
     "1h": {
       "sell": [
         {
           "sym": "TLMUSDT",
-          "rsi": 88.8,
-          "price": 0.001663,
-          "vol": 2776696.626224,
+          "rsi": 89.8,
+          "price": 0.001689,
+          "vol": 3734822.076406,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80.1,
+          "price": 0.10255,
+          "vol": 5234489.238725,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -67,17 +67,10 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 16.9,
-          "price": 0.00823,
-          "vol": 4139487.396716,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MUBARAKUSDT",
-          "rsi": 22.8,
-          "price": 0.01994,
-          "vol": 3650537.36405,
-          "label": "SOBREVENDIDO"
+          "rsi": 14.5,
+          "price": 0.00811,
+          "vol": 3837106.737004,
+          "label": "MUY BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -85,12 +78,34 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 23.5,
+          "price": 0.01998,
+          "vol": 3570924.811124,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 150
+      "scanned": 147
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 80.3,
+          "price": 0.02767,
+          "vol": 2085589.61656,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80,
+          "price": 0.10255,
+          "vol": 5234489.238725,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -107,7 +122,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 150
+      "scanned": 147
     }
   }
 }
