@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T06:01:19.821Z",
-  "updated_ts": 1787637679821,
+  "updated": "2026-08-25T07:01:28.508Z",
+  "updated_ts": 1787641288508,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "STXUSDT",
-          "rsi": 85.3,
-          "price": 0.276,
-          "vol": 5302759.02853,
-          "label": "MUY ALTO"
+          "sym": "USDEUSDT",
+          "rsi": 80.5,
+          "price": 1,
+          "vol": 3467898.8796,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,19 +29,20 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
-        },
-        {
-          "sym": "SCRTUSDT",
-          "rsi": 24.3,
-          "price": 0.0163,
-          "vol": 2434794.30577,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STXUSDT",
+          "rsi": 80.9,
+          "price": 0.2806,
+          "vol": 7117048.1919,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,7 +59,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     },
     "4h": {
       "sell": [],
@@ -78,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     }
   }
 }
