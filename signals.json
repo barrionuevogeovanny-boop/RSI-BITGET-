@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T05:34:16.492Z",
-  "updated_ts": 1787636056492,
+  "updated": "2026-08-25T06:01:19.821Z",
+  "updated_ts": 1787637679821,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,10 @@
       "sell": [
         {
           "sym": "STXUSDT",
-          "rsi": 81.5,
-          "price": 0.2658,
-          "vol": 4976003.85581,
-          "label": "ALTO"
+          "rsi": 85.3,
+          "price": 0.276,
+          "vol": 5302759.02853,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -29,9 +29,16 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "SCRTUSDT",
+          "rsi": 24.3,
+          "price": 0.0163,
+          "vol": 2434794.30577,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 146
     },
     "1h": {
       "sell": [],
@@ -51,7 +58,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 146
     },
     "4h": {
       "sell": [],
@@ -71,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 146
     }
   }
 }
