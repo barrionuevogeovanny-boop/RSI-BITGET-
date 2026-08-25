@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T01:32:30.095Z",
-  "updated_ts": 1787621550095,
+  "updated": "2026-08-25T02:43:08.313Z",
+  "updated_ts": 1787625788314,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "RAYUSDT",
-          "rsi": 80.9,
-          "price": 0.8481,
-          "vol": 2066880.62484,
+          "sym": "WIFUSDT",
+          "rsi": 86.3,
+          "price": 0.2289,
+          "vol": 4242085.049826,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 82.8,
+          "price": 0.3467,
+          "vol": 31489044.89368,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 81.2,
+          "price": 81096,
+          "vol": 2613130227.4485297,
           "label": "ALTO"
         }
       ],
@@ -31,7 +45,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 144
+      "scanned": 146
     },
     "1h": {
       "sell": [],
@@ -44,13 +58,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HEMIUSDT",
-          "rsi": 21,
-          "price": 0.00734,
-          "vol": 6352456.699181,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -58,18 +65,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 144
+      "scanned": 146
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 80.2,
-          "price": 4655.51,
-          "vol": 28337946.121507,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -86,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 144
+      "scanned": 146
     }
   }
 }
