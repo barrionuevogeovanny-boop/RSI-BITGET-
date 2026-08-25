@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T19:19:27.357Z",
-  "updated_ts": 1787685567357,
+  "updated": "2026-08-25T19:49:22.103Z",
+  "updated_ts": 1787687362103,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 84,
-          "price": 0.02086,
-          "vol": 5178740.508892,
+          "rsi": 84.7,
+          "price": 0.02204,
+          "vol": 7010382.994795,
           "label": "ALTO"
         }
       ],
@@ -32,10 +32,24 @@
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 19.9,
-          "price": 0.339,
-          "vol": 39508011.5719,
+          "rsi": 19.1,
+          "price": 0.3386,
+          "vol": 40603924.45303,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 22.1,
+          "price": 0.0988,
+          "vol": 3023725.410863,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 23.7,
+          "price": 0.02537,
+          "vol": 2248109.74038,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 140
@@ -44,9 +58,9 @@
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 91.5,
-          "price": 0.02086,
-          "vol": 5178740.508892,
+          "rsi": 92.9,
+          "price": 0.02204,
+          "vol": 7010382.994795,
           "label": "EXTREMO"
         }
       ],
@@ -60,9 +74,16 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 20.1,
-          "price": 0.00805,
-          "vol": 4026357.246638,
+          "rsi": 20.6,
+          "price": 0.00809,
+          "vol": 4191939.854682,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 21.8,
+          "price": 0.3386,
+          "vol": 40603924.45303,
           "label": "SOBREVENDIDO"
         },
         {
@@ -71,19 +92,20 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 23.3,
-          "price": 0.339,
-          "vol": 39508011.5719,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 140
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BMTUSDT",
+          "rsi": 81.1,
+          "price": 0.02204,
+          "vol": 7010382.994795,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
