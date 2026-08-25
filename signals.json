@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T02:43:08.313Z",
-  "updated_ts": 1787625788314,
+  "updated": "2026-08-25T03:32:32.881Z",
+  "updated_ts": 1787628752881,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,25 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "WIFUSDT",
-          "rsi": 86.3,
-          "price": 0.2289,
-          "vol": 4242085.049826,
+          "sym": "PROMUSDT",
+          "rsi": 86.4,
+          "price": 4.582,
+          "vol": 21700127.03683,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 82.8,
-          "price": 0.3467,
-          "vol": 31489044.89368,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 81.2,
-          "price": 81096,
-          "vol": 2613130227.4485297,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -45,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 146
+      "scanned": 144
     },
     "1h": {
       "sell": [],
@@ -65,10 +51,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 144
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PROMUSDT",
+          "rsi": 82.7,
+          "price": 4.582,
+          "vol": 21700127.03683,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -85,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 144
     }
   }
 }
