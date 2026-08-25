@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T14:06:00.724Z",
-  "updated_ts": 1787666760724,
+  "updated": "2026-08-25T14:58:57.725Z",
+  "updated_ts": 1787669937725,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TLMUSDT",
+          "rsi": 91.2,
+          "price": 0.001663,
+          "vol": 2776696.626224,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 85,
+          "price": 0.09728,
+          "vol": 3669532.574007,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,31 +38,25 @@
           "label": "BAJO"
         },
         {
-          "sym": "GIGGLEUSDT",
-          "rsi": 19.6,
-          "price": 33.76,
-          "vol": 4153849.45072,
-          "label": "BAJO"
-        },
-        {
           "sym": "MUBARAKUSDT",
-          "rsi": 23.7,
-          "price": 0.02023,
-          "vol": 3596070.869352,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PEOPLEUSDT",
-          "rsi": 24.8,
-          "price": 0.00825,
-          "vol": 4014350.712068,
+          "rsi": 22,
+          "price": 0.01994,
+          "vol": 3650537.36405,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TLMUSDT",
+          "rsi": 88.8,
+          "price": 0.001663,
+          "vol": 2776696.626224,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,10 +67,17 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 17.9,
-          "price": 0.00825,
-          "vol": 4014350.712068,
+          "rsi": 16.9,
+          "price": 0.00823,
+          "vol": 4139487.396716,
           "label": "BAJO"
+        },
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 22.8,
+          "price": 0.01994,
+          "vol": 3650537.36405,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "VANRYUSDT",
@@ -69,16 +85,9 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MUBARAKUSDT",
-          "rsi": 24.2,
-          "price": 0.02023,
-          "vol": 3596070.869352,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     },
     "4h": {
       "sell": [],
@@ -98,7 +107,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     }
   }
 }
