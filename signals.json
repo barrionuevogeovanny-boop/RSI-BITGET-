@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T10:16:11.219Z",
-  "updated_ts": 1787652971219,
+  "updated": "2026-08-25T10:52:42.953Z",
+  "updated_ts": 1787655162953,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,31 +23,32 @@
           "label": "BAJO"
         },
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 21.7,
-          "price": 86.07,
-          "vol": 14281971.0352,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 22,
-          "price": 0.3423,
-          "vol": 33675921.27214,
+          "sym": "MUBARAKUSDT",
+          "rsi": 24.9,
+          "price": 0.02118,
+          "vol": 3595627.565493,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 23.3,
-          "price": 0.00864,
-          "vol": 3547246.975558,
+          "rsi": 24.9,
+          "price": 0.00863,
+          "vol": 3564506.169441,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 149
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HOLOUSDT",
+          "rsi": 81.6,
+          "price": 0.0777,
+          "vol": 3427853.83046,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,9 +59,9 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 19.8,
-          "price": 0.00864,
-          "vol": 3547246.975558,
+          "rsi": 19.6,
+          "price": 0.00863,
+          "vol": 3564506.169441,
           "label": "BAJO"
         },
         {
@@ -71,7 +72,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 149
     },
     "4h": {
       "sell": [],
@@ -91,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 149
     }
   }
 }
