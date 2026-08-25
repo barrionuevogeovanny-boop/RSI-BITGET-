@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T04:58:05.933Z",
-  "updated_ts": 1787633885933,
+  "updated": "2026-08-25T05:34:16.492Z",
+  "updated_ts": 1787636056492,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "PROMUSDT",
-          "rsi": 84.9,
-          "price": 4.933,
-          "vol": 21794400.58354,
-          "label": "ALTO"
-        },
-        {
           "sym": "STXUSDT",
-          "rsi": 80.2,
-          "price": 0.2557,
-          "vol": 4516592.00861,
+          "rsi": 81.5,
+          "price": 0.2658,
+          "vol": 4976003.85581,
           "label": "ALTO"
         }
       ],
@@ -38,18 +31,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 145
+      "scanned": 147
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PROMUSDT",
-          "rsi": 82.2,
-          "price": 4.933,
-          "vol": 21794400.58354,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,18 +51,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 147
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "PROMUSDT",
-          "rsi": 85.2,
-          "price": 4.933,
-          "vol": 21794400.58354,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -94,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 147
     }
   }
 }
