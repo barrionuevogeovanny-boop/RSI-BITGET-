@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T07:51:30.917Z",
-  "updated_ts": 1787644290917,
+  "updated": "2026-08-25T08:25:08.555Z",
+  "updated_ts": 1787646308555,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,10 +16,10 @@
       "sell": [
         {
           "sym": "USDEUSDT",
-          "rsi": 80.3,
-          "price": 1,
-          "vol": 3469443.4471,
-          "label": "ALTO"
+          "rsi": 85.6,
+          "price": 1.0001,
+          "vol": 3439721.4577,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -31,14 +31,14 @@
           "label": "BAJO"
         },
         {
-          "sym": "OPUSDT",
-          "rsi": 24.6,
-          "price": 0.1044,
-          "vol": 2949256.430623,
+          "sym": "PEOPLEUSDT",
+          "rsi": 22.8,
+          "price": 0.00875,
+          "vol": 3322967.680184,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 149
     },
     "1h": {
       "sell": [],
@@ -52,9 +52,9 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 22,
-          "price": 0.00894,
-          "vol": 2651624.487509,
+          "rsi": 20.9,
+          "price": 0.00875,
+          "vol": 3322967.680184,
           "label": "SOBREVENDIDO"
         },
         {
@@ -65,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 149
     },
     "4h": {
       "sell": [],
@@ -85,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 149
     }
   }
 }
