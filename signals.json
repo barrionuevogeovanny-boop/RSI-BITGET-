@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T07:01:28.508Z",
-  "updated_ts": 1787641288508,
+  "updated": "2026-08-25T07:51:30.917Z",
+  "updated_ts": 1787644290917,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "USDEUSDT",
-          "rsi": 80.5,
+          "rsi": 80.3,
           "price": 1,
-          "vol": 3467898.8796,
+          "vol": 3469443.4471,
           "label": "ALTO"
         }
       ],
@@ -29,20 +29,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "OPUSDT",
+          "rsi": 24.6,
+          "price": 0.1044,
+          "vol": 2949256.430623,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 148
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "STXUSDT",
-          "rsi": 80.9,
-          "price": 0.2806,
-          "vol": 7117048.1919,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -52,6 +51,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "PEOPLEUSDT",
+          "rsi": 22,
+          "price": 0.00894,
+          "vol": 2651624.487509,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -59,7 +65,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 148
     },
     "4h": {
       "sell": [],
@@ -79,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 148
     }
   }
 }
