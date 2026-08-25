@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T13:14:39.049Z",
-  "updated_ts": 1787663679049,
+  "updated": "2026-08-25T14:06:00.724Z",
+  "updated_ts": 1787666760724,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ONTUSDT",
-          "rsi": 81.3,
-          "price": 0.05747,
-          "vol": 4461081.42524,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,17 +23,24 @@
           "label": "BAJO"
         },
         {
+          "sym": "GIGGLEUSDT",
+          "rsi": 19.6,
+          "price": 33.76,
+          "vol": 4153849.45072,
+          "label": "BAJO"
+        },
+        {
           "sym": "MUBARAKUSDT",
-          "rsi": 22,
-          "price": 0.02053,
-          "vol": 3566706.02203,
+          "rsi": 23.7,
+          "price": 0.02023,
+          "vol": 3596070.869352,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 23,
-          "price": 0.00835,
-          "vol": 3809148.45437,
+          "rsi": 24.8,
+          "price": 0.00825,
+          "vol": 4014350.712068,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -59,9 +58,9 @@
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 16.4,
-          "price": 0.00835,
-          "vol": 3809148.45437,
+          "rsi": 17.9,
+          "price": 0.00825,
+          "vol": 4014350.712068,
           "label": "BAJO"
         },
         {
@@ -69,6 +68,13 @@
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 24.2,
+          "price": 0.02023,
+          "vol": 3596070.869352,
           "label": "SOBREVENDIDO"
         }
       ],
