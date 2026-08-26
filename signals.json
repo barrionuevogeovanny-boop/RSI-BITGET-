@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T05:54:17.759Z",
-  "updated_ts": 1787723657759,
+  "updated": "2026-08-26T06:35:33.995Z",
+  "updated_ts": 1787726133995,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PORTALUSDT",
-          "rsi": 91.4,
-          "price": 0.02111,
-          "vol": 5902899.686762,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 140
+      "scanned": 139
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PORTALUSDT",
-          "rsi": 83.9,
-          "price": 0.02111,
-          "vol": 5902899.686762,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EDENUSDT",
-          "rsi": 80.9,
-          "price": 0.05808,
-          "vol": 3305914.384725,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,7 +43,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 140
+      "scanned": 139
     },
     "4h": {
       "sell": [],
@@ -86,7 +63,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 140
+      "scanned": 139
     }
   }
 }
