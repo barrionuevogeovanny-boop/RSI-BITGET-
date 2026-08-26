@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T09:00:11.560Z",
-  "updated_ts": 1787734811560,
+  "updated": "2026-08-26T09:50:43.804Z",
+  "updated_ts": 1787737843804,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,21 @@
           "label": "BAJO"
         },
         {
-          "sym": "FFUSDT",
-          "rsi": 20.4,
-          "price": 0.08898,
-          "vol": 10413858.997519,
+          "sym": "XPLUSDT",
+          "rsi": 23.5,
+          "price": 0.08785,
+          "vol": 14164951.409207,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TLMUSDT",
+          "rsi": 23.5,
+          "price": 0.001468,
+          "vol": 7203492.056949,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 131
     },
     "1h": {
       "sell": [],
@@ -50,7 +57,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -70,7 +77,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 131
     }
   }
 }
