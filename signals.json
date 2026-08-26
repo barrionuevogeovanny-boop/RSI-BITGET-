@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T09:50:43.804Z",
-  "updated_ts": 1787737843804,
+  "updated": "2026-08-26T10:20:32.048Z",
+  "updated_ts": 1787739632048,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,6 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 23.5,
-          "price": 0.08785,
-          "vol": 14164951.409207,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TLMUSDT",
-          "rsi": 23.5,
-          "price": 0.001468,
-          "vol": 7203492.056949,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 131
@@ -60,7 +46,15 @@
       "scanned": 131
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BMTUSDT",
+          "rsi": 82.5,
+          "price": 0.02677,
+          "vol": 30412694.016042,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
