@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T15:58:23.006Z",
-  "updated_ts": 1787759903006,
+  "updated": "2026-08-26T16:50:19.686Z",
+  "updated_ts": 1787763019686,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "CATIUSDT",
-          "rsi": 82.6,
-          "price": 0.05422,
-          "vol": 2378665.58005,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,18 +21,25 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "POLUSDT",
+          "rsi": 21.7,
+          "price": 0.10994,
+          "vol": 16016503.961029,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 128
     },
     "1h": {
       "sell": [
         {
           "sym": "ONGUSDT",
-          "rsi": 83.9,
-          "price": 0.16904,
-          "vol": 49701661.33023,
-          "label": "ALTO"
+          "rsi": 85.6,
+          "price": 0.17843,
+          "vol": 50276056.13953,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -53,9 +52,9 @@
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 17.8,
-          "price": 0.00957,
-          "vol": 4021785.671396,
+          "rsi": 17.7,
+          "price": 0.00946,
+          "vol": 4039855.512125,
           "label": "BAJO"
         },
         {
@@ -66,10 +65,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ONGUSDT",
+          "rsi": 81.1,
+          "price": 0.17843,
+          "vol": 50276056.13953,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -86,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     }
   }
 }
