@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T12:43:51.937Z",
-  "updated_ts": 1787748231937,
+  "updated": "2026-08-26T13:40:43.356Z",
+  "updated_ts": 1787751643356,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ONGUSDT",
+          "rsi": 81.5,
+          "price": 0.1284,
+          "vol": 29325049.10294,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 81.4,
+          "price": 0.05195,
+          "vol": 25133065.05971,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,14 +38,21 @@
           "label": "BAJO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 24.5,
-          "price": 0.5063,
-          "vol": 2399503.18864,
+          "sym": "GPSUSDT",
+          "rsi": 17.5,
+          "price": 0.0097,
+          "vol": 4204624.392604,
+          "label": "BAJO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 24.4,
+          "price": 1.398,
+          "vol": 9482327.29814,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 130
     },
     "1h": {
       "sell": [],
@@ -43,6 +65,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "GPSUSDT",
+          "rsi": 16.1,
+          "price": 0.0097,
+          "vol": 4204624.392604,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -50,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 130
     },
     "4h": {
       "sell": [],
@@ -70,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 130
     }
   }
 }
