@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T06:35:33.995Z",
-  "updated_ts": 1787726133995,
+  "updated": "2026-08-26T07:29:03.434Z",
+  "updated_ts": 1787729343434,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 139
+      "scanned": 137
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EDENUSDT",
+          "rsi": 80.6,
+          "price": 0.06112,
+          "vol": 5039345.738931,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 137
     },
     "4h": {
       "sell": [],
@@ -63,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 137
     }
   }
 }
