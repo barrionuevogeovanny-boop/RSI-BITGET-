@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T14:25:44.752Z",
-  "updated_ts": 1787754344752,
+  "updated": "2026-08-26T15:58:23.006Z",
+  "updated_ts": 1787759903006,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,60 +15,32 @@
     "15m": {
       "sell": [
         {
-          "sym": "ONGUSDT",
-          "rsi": 91.8,
-          "price": 0.17754,
-          "vol": 38221682.70776,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ONTUSDT",
-          "rsi": 83.6,
-          "price": 0.05809,
-          "vol": 5725270.66728,
+          "sym": "CATIUSDT",
+          "rsi": 82.6,
+          "price": 0.05422,
+          "vol": 2378665.58005,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "GPSUSDT",
-          "rsi": 15.7,
-          "price": 0.00952,
-          "vol": 4422659.649659,
-          "label": "BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "NVDABUSDT",
-          "rsi": 22,
-          "price": 210.59,
-          "vol": 2155234.42741,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 22.4,
-          "price": 342.18,
-          "vol": 2104342.29716,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     },
     "1h": {
       "sell": [
         {
           "sym": "ONGUSDT",
-          "rsi": 85,
-          "price": 0.17754,
-          "vol": 38221682.70776,
-          "label": "MUY ALTO"
+          "rsi": 83.9,
+          "price": 0.16904,
+          "vol": 49701661.33023,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -81,10 +53,10 @@
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 15,
-          "price": 0.00952,
-          "vol": 4422659.649659,
-          "label": "MUY BAJO"
+          "rsi": 17.8,
+          "price": 0.00957,
+          "vol": 4021785.671396,
+          "label": "BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -94,18 +66,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ONGUSDT",
-          "rsi": 81.1,
-          "price": 0.17754,
-          "vol": 38221682.70776,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -122,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     }
   }
 }
