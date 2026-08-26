@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T08:09:13.031Z",
-  "updated_ts": 1787731753031,
+  "updated": "2026-08-26T09:00:11.560Z",
+  "updated_ts": 1787734811560,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 20.4,
+          "price": 0.08898,
+          "vol": 10413858.997519,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 133
     },
     "1h": {
       "sell": [],
@@ -43,7 +50,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 133
     },
     "4h": {
       "sell": [],
@@ -63,7 +70,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 133
     }
   }
 }
