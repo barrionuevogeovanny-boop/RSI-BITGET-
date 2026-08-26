@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T04:05:25.548Z",
-  "updated_ts": 1787717125548,
+  "updated": "2026-08-26T04:51:33.116Z",
+  "updated_ts": 1787719893116,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,21 @@
           "label": "BAJO"
         },
         {
-          "sym": "KMNOUSDT",
-          "rsi": 22.9,
-          "price": 0.02393,
-          "vol": 2363917.92702,
+          "sym": "EURUSDT",
+          "rsi": 23.4,
+          "price": 1.1664,
+          "vol": 13047069.39585,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STORJUSDT",
+          "rsi": 24.1,
+          "price": 0.0399,
+          "vol": 3002379.2144,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 145
     },
     "1h": {
       "sell": [],
@@ -50,7 +57,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 145
     },
     "4h": {
       "sell": [],
@@ -70,7 +77,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 145
     }
   }
 }
