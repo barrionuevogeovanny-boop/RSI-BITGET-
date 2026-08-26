@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T03:15:55.426Z",
-  "updated_ts": 1787714155426,
+  "updated": "2026-08-26T04:05:25.548Z",
+  "updated_ts": 1787717125548,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,19 @@
           "price": 0.00181,
           "vol": 3834002.83185,
           "label": "BAJO"
+        },
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 22.9,
+          "price": 0.02393,
+          "vol": 2363917.92702,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 143
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "BMTUSDT",
-          "rsi": 88.5,
-          "price": 0.02759,
-          "vol": 17430769.097178,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -54,15 +53,7 @@
       "scanned": 143
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "BMTUSDT",
-          "rsi": 88.2,
-          "price": 0.02759,
-          "vol": 17430769.097178,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
