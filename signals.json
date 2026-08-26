@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T13:40:43.356Z",
-  "updated_ts": 1787751643356,
+  "updated": "2026-08-26T14:25:44.752Z",
+  "updated_ts": 1787754344752,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,20 +16,27 @@
       "sell": [
         {
           "sym": "ONGUSDT",
-          "rsi": 81.5,
-          "price": 0.1284,
-          "vol": 29325049.10294,
-          "label": "ALTO"
+          "rsi": 91.8,
+          "price": 0.17754,
+          "vol": 38221682.70776,
+          "label": "EXTREMO"
         },
         {
-          "sym": "TUTUSDT",
-          "rsi": 81.4,
-          "price": 0.05195,
-          "vol": 25133065.05971,
+          "sym": "ONTUSDT",
+          "rsi": 83.6,
+          "price": 0.05809,
+          "vol": 5725270.66728,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "GPSUSDT",
+          "rsi": 15.7,
+          "price": 0.00952,
+          "vol": 4422659.649659,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -38,24 +45,32 @@
           "label": "BAJO"
         },
         {
-          "sym": "GPSUSDT",
-          "rsi": 17.5,
-          "price": 0.0097,
-          "vol": 4204624.392604,
-          "label": "BAJO"
+          "sym": "NVDABUSDT",
+          "rsi": 22,
+          "price": 210.59,
+          "vol": 2155234.42741,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 24.4,
-          "price": 1.398,
-          "vol": 9482327.29814,
+          "sym": "GOOGLBUSDT",
+          "rsi": 22.4,
+          "price": 342.18,
+          "vol": 2104342.29716,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 130
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ONGUSDT",
+          "rsi": 85,
+          "price": 0.17754,
+          "vol": 38221682.70776,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,10 +81,10 @@
         },
         {
           "sym": "GPSUSDT",
-          "rsi": 16.1,
-          "price": 0.0097,
-          "vol": 4204624.392604,
-          "label": "BAJO"
+          "rsi": 15,
+          "price": 0.00952,
+          "vol": 4422659.649659,
+          "label": "MUY BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -82,7 +97,15 @@
       "scanned": 130
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ONGUSDT",
+          "rsi": 81.1,
+          "price": 0.17754,
+          "vol": 38221682.70776,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
