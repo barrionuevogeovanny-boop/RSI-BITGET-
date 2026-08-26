@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T23:50:12.196Z",
-  "updated_ts": 1787701812196,
+  "updated": "2026-08-26T00:25:49.137Z",
+  "updated_ts": 1787703949137,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,24 +23,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "KMNOUSDT",
-          "rsi": 19.5,
-          "price": 0.02425,
-          "vol": 2373832.41437,
-          "label": "BAJO"
-        },
-        {
           "sym": "TRXUSDT",
-          "rsi": 20.3,
-          "price": 0.3362,
-          "vol": 45129626.92611,
+          "rsi": 21.6,
+          "price": 0.3356,
+          "vol": 45516592.14403,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "KAITOUSDT",
-          "rsi": 24.9,
-          "price": 0.3182,
-          "vol": 3142575.53882,
+          "rsi": 22.5,
+          "price": 0.3166,
+          "vol": 3223966.80295,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 23.1,
+          "price": 0.02432,
+          "vol": 2367778.40981,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -50,10 +50,10 @@
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 87.8,
-          "price": 0.02348,
-          "vol": 13231271.039518,
-          "label": "MUY ALTO"
+          "rsi": 83.5,
+          "price": 0.02311,
+          "vol": 13662275.015581,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -66,23 +66,23 @@
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 15.8,
-          "price": 0.3362,
-          "vol": 45129626.92611,
-          "label": "BAJO"
+          "rsi": 14.6,
+          "price": 0.3356,
+          "vol": 45516592.14403,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "KAITOUSDT",
+          "rsi": 22.6,
+          "price": 0.3166,
+          "vol": 3223966.80295,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "PEOPLEUSDT",
-          "rsi": 18.1,
-          "price": 0.00782,
-          "vol": 4694159.870548,
-          "label": "BAJO"
-        },
-        {
-          "sym": "APTUSDT",
-          "rsi": 22.7,
-          "price": 0.562,
-          "vol": 6356875.54007,
+          "rsi": 23.1,
+          "price": 0.00791,
+          "vol": 4703973.576961,
           "label": "SOBREVENDIDO"
         },
         {
@@ -93,17 +93,10 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "KAITOUSDT",
-          "rsi": 23.8,
-          "price": 0.3182,
-          "vol": 3142575.53882,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRUMPUSDT",
-          "rsi": 25,
-          "price": 2.166,
-          "vol": 33714201.899657,
+          "sym": "XLMUSDT",
+          "rsi": 24.5,
+          "price": 0.1821,
+          "vol": 22837139.0686,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -113,9 +106,9 @@
       "sell": [
         {
           "sym": "BMTUSDT",
-          "rsi": 83.5,
-          "price": 0.02348,
-          "vol": 13231271.039518,
+          "rsi": 82.6,
+          "price": 0.02311,
+          "vol": 13662275.015581,
           "label": "ALTO"
         }
       ],
