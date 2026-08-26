@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T11:26:33.182Z",
-  "updated_ts": 1787743593182,
+  "updated": "2026-08-26T11:55:35.436Z",
+  "updated_ts": 1787745335436,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "NOMUSDT",
+          "sym": "BICOUSDT",
           "rsi": 85.6,
-          "price": 0.00178,
-          "vol": 2411449.95437,
+          "price": 0.02457,
+          "vol": 7065939.4092011,
           "label": "MUY ALTO"
         }
       ],
@@ -29,27 +29,12 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 24.3,
-          "price": 0.09867,
-          "vol": 2493846.949737,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "NOMUSDT",
-          "rsi": 81.3,
-          "price": 0.00178,
-          "vol": 2411449.95437,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     },
     "4h": {
       "sell": [],
@@ -86,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 129
     }
   }
 }
