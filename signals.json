@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T10:29:58.230Z",
-  "updated_ts": 1787826598230,
+  "updated": "2026-08-27T20:42:22.179Z",
+  "updated_ts": 1787863342179,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BMTUSDT",
+          "rsi": 83.6,
+          "price": 0.02438,
+          "vol": 16587194.413981,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 135
+      "scanned": 129
     },
     "1h": {
       "sell": [],
@@ -36,6 +44,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "JSTUSDT",
+          "rsi": 19.5,
+          "price": 0.09709,
+          "vol": 2992494.161088,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -43,25 +58,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 129
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "BEAMXUSDT",
-          "rsi": 83.7,
-          "price": 0.001923,
-          "vol": 9117675.534934,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HUMAUSDT",
-          "rsi": 81.1,
-          "price": 0.02549,
-          "vol": 2560269.98771,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -78,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 129
     }
   }
 }
