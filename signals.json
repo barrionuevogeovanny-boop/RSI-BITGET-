@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T17:12:46.885Z",
-  "updated_ts": 1788023566885,
+  "updated": "2026-08-29T19:44:55.000Z",
+  "updated_ts": 1788032695000,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "UNIUSDT",
-          "rsi": 87,
-          "price": 4.639,
-          "vol": 13849732.62873,
-          "label": "MUY ALTO"
+          "sym": "HUMAUSDT",
+          "rsi": 83.2,
+          "price": 0.02236,
+          "vol": 4928432.57868,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,9 +29,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "POLUSDT",
+          "rsi": 18.5,
+          "price": 0.10255,
+          "vol": 4116276.153584,
+          "label": "BAJO"
         }
       ],
-      "scanned": 102
+      "scanned": 96
     },
     "1h": {
       "sell": [],
@@ -51,15 +58,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 96
     },
     "4h": {
       "sell": [
         {
           "sym": "PROMUSDT",
-          "rsi": 83.2,
-          "price": 6.386,
-          "vol": 12040640.32468,
+          "rsi": 84.9,
+          "price": 6.706,
+          "vol": 15800285.49618,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 81.4,
+          "price": 0.05742,
+          "vol": 11943142.338264,
           "label": "ALTO"
         }
       ],
@@ -79,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 96
     }
   }
 }
