@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T00:46:40.538Z",
-  "updated_ts": 1787964400538,
+  "updated": "2026-08-29T07:27:26.272Z",
+  "updated_ts": 1787988446272,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,23 +13,8 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "HOMEUSDT",
-          "rsi": 87.7,
-          "price": 0.00637,
-          "vol": 2230511.79996,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "BFUSDUSDT",
-          "rsi": 11.2,
-          "price": 0.9998,
-          "vol": 2443527.7918,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -38,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 138
+      "scanned": 124
     },
     "1h": {
       "sell": [],
@@ -51,20 +36,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HUMAUSDT",
-          "rsi": 19.5,
-          "price": 0.02088,
-          "vol": 3419607.39089,
-          "label": "BAJO"
-        },
-        {
-          "sym": "FOGOUSDT",
-          "rsi": 21,
-          "price": 0.00749,
-          "vol": 2530301.70673,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -72,25 +43,24 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "BCHUSDT",
-          "rsi": 24.7,
-          "price": 245.7,
-          "vol": 13413355.08,
+          "sym": "XAUTUSDT",
+          "rsi": 24.2,
+          "price": 4454.26,
+          "vol": 45754190.645495,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 25,
+          "price": 4457.23,
+          "vol": 27016092.966734,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 124
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 86.4,
-          "price": 2.443,
-          "vol": 34147656.42963,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -100,21 +70,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "FOGOUSDT",
-          "rsi": 20.6,
-          "price": 0.00749,
-          "vol": 2530301.70673,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FOGOUSDT",
+          "rsi": 23.8,
+          "price": 0.00759,
+          "vol": 2821767.4929,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 124
     }
   }
 }
