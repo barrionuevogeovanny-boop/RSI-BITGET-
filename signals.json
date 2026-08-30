@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T05:16:54.039Z",
-  "updated_ts": 1788067014039,
+  "updated": "2026-08-30T10:30:52.773Z",
+  "updated_ts": 1788085852773,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,16 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 15.5,
-          "price": 0.09569,
-          "vol": 2099108.97419,
-          "label": "BAJO"
-        },
+          "sym": "AUCTIONUSDT",
+          "rsi": 88.3,
+          "price": 3.781,
+          "vol": 4443643.35145,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -30,10 +31,32 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 92
+      "scanned": 93
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AUCTIONUSDT",
+          "rsi": 93.9,
+          "price": 3.781,
+          "vol": 4443643.35145,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "ZKCUSDT",
+          "rsi": 84,
+          "price": 0.0671,
+          "vol": 11748670.06682,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZKUSDT",
+          "rsi": 80.5,
+          "price": 0.00942,
+          "vol": 6530781.878416,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,13 +66,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 17.7,
-          "price": 0.09569,
-          "vol": 2099108.97419,
-          "label": "BAJO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -57,16 +73,30 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 92
+      "scanned": 93
     },
     "4h": {
       "sell": [
         {
-          "sym": "PROMUSDT",
-          "rsi": 87.7,
-          "price": 7.286,
-          "vol": 26604585.64523,
-          "label": "MUY ALTO"
+          "sym": "ZKCUSDT",
+          "rsi": 90.3,
+          "price": 0.0671,
+          "vol": 11748670.06682,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "AUCTIONUSDT",
+          "rsi": 83.9,
+          "price": 3.781,
+          "vol": 4443643.35145,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZKPUSDT",
+          "rsi": 81.2,
+          "price": 0.0629,
+          "vol": 12891545.71685,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -85,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 92
+      "scanned": 93
     }
   }
 }
