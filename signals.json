@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T14:56:10.453Z",
-  "updated_ts": 1788101770453,
+  "updated": "2026-08-30T18:24:30.036Z",
+  "updated_ts": 1788114270036,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 82.9,
-          "price": 1.852,
-          "vol": 3862351.80451,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 99
+      "scanned": 101
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "CAKEUSDT",
-          "rsi": 86.6,
-          "price": 1.852,
-          "vol": 3862351.80451,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ORCAUSDT",
-          "rsi": 80.8,
-          "price": 1.376,
-          "vol": 2198347.29011,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,22 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
-          "sym": "ZKCUSDT",
-          "rsi": 91,
-          "price": 0.0696,
-          "vol": 18184254.91234,
-          "label": "EXTREMO"
+          "sym": "TNSRUSDT",
+          "rsi": 85,
+          "price": 0.0424,
+          "vol": 7073805.05569,
+          "label": "ALTO"
         },
         {
-          "sym": "TNSRUSDT",
-          "rsi": 82.2,
-          "price": 0.0406,
-          "vol": 4487998.03409,
+          "sym": "ZKCUSDT",
+          "rsi": 83.5,
+          "price": 0.0652,
+          "vol": 21881352.7356,
+          "label": "ALTO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 81.9,
+          "price": 5.422,
+          "vol": 68521755.62619,
           "label": "ALTO"
         }
       ],
@@ -101,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 101
     }
   }
 }
