@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-30T10:30:52.773Z",
-  "updated_ts": 1788085852773,
+  "updated": "2026-08-30T14:56:10.453Z",
+  "updated_ts": 1788101770453,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "AUCTIONUSDT",
-          "rsi": 88.3,
-          "price": 3.781,
-          "vol": 4443643.35145,
-          "label": "MUY ALTO"
+          "sym": "CAKEUSDT",
+          "rsi": 82.9,
+          "price": 1.852,
+          "vol": 3862351.80451,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -31,29 +31,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 93
+      "scanned": 99
     },
     "1h": {
       "sell": [
         {
-          "sym": "AUCTIONUSDT",
-          "rsi": 93.9,
-          "price": 3.781,
-          "vol": 4443643.35145,
-          "label": "EXTREMO"
+          "sym": "CAKEUSDT",
+          "rsi": 86.6,
+          "price": 1.852,
+          "vol": 3862351.80451,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "ZKCUSDT",
-          "rsi": 84,
-          "price": 0.0671,
-          "vol": 11748670.06682,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZKUSDT",
-          "rsi": 80.5,
-          "price": 0.00942,
-          "vol": 6530781.878416,
+          "sym": "ORCAUSDT",
+          "rsi": 80.8,
+          "price": 1.376,
+          "vol": 2198347.29011,
           "label": "ALTO"
         }
       ],
@@ -73,29 +66,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 99
     },
     "4h": {
       "sell": [
         {
           "sym": "ZKCUSDT",
-          "rsi": 90.3,
-          "price": 0.0671,
-          "vol": 11748670.06682,
+          "rsi": 91,
+          "price": 0.0696,
+          "vol": 18184254.91234,
           "label": "EXTREMO"
         },
         {
-          "sym": "AUCTIONUSDT",
-          "rsi": 83.9,
-          "price": 3.781,
-          "vol": 4443643.35145,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZKPUSDT",
-          "rsi": 81.2,
-          "price": 0.0629,
-          "vol": 12891545.71685,
+          "sym": "TNSRUSDT",
+          "rsi": 82.2,
+          "price": 0.0406,
+          "vol": 4487998.03409,
           "label": "ALTO"
         }
       ],
@@ -115,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 99
     }
   }
 }
