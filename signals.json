@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-01T18:07:53.699Z",
-  "updated_ts": 1788286073699,
+  "updated": "2026-09-01T20:59:49.785Z",
+  "updated_ts": 1788296389785,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,71 +13,34 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "FILUSDT",
-          "rsi": 83.4,
-          "price": 0.7807,
-          "vol": 13258399.561643,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 13.2,
-          "price": 0.3224,
-          "vol": 39185788.70149,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "MITOUSDT",
-          "rsi": 23.3,
-          "price": 0.01984,
-          "vol": 2440328.459784,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MIRAUSDT",
-          "rsi": 24.6,
-          "price": 0.04259,
-          "vol": 2079501.50525,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 125
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "FILUSDT",
-          "rsi": 84.4,
-          "price": 0.7807,
-          "vol": 13258399.561643,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 9.6,
-          "price": 0.3224,
-          "vol": 39185788.70149,
-          "label": "EXTREMO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 22,
+          "price": 0.3233,
+          "vol": 42169967.6693,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "VANRYUSDT",
@@ -87,7 +50,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 125
     },
     "4h": {
       "sell": [],
@@ -101,16 +64,16 @@
         },
         {
           "sym": "TRXUSDT",
-          "rsi": 17.1,
-          "price": 0.3224,
-          "vol": 39185788.70149,
+          "rsi": 17.8,
+          "price": 0.3233,
+          "vol": 42169967.6693,
           "label": "BAJO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 22.4,
-          "price": 4340.54,
-          "vol": 32149640.590056,
+          "rsi": 22.5,
+          "price": 4333.84,
+          "vol": 32995207.802223,
           "label": "SOBREVENDIDO"
         },
         {
@@ -122,13 +85,13 @@
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 24.1,
-          "price": 4349.35,
-          "vol": 17057585.882875,
+          "rsi": 24,
+          "price": 4341.78,
+          "vol": 18043179.836419,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 125
     }
   }
 }
