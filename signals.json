@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02T09:54:48.017Z",
-  "updated_ts": 1788342888017,
+  "updated": "2026-09-02T14:00:39.898Z",
+  "updated_ts": 1788357639898,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 81.8,
-          "price": 0.10371,
-          "vol": 4235021.834258,
+          "sym": "METABUSDT",
+          "rsi": 88.5,
+          "price": 593.99,
+          "vol": 3879579.07536,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 82.3,
+          "price": 4383.51,
+          "vol": 45791859.810367,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 82.3,
+          "price": 4393.54,
+          "vol": 35841981.256354,
           "label": "ALTO"
         }
       ],
@@ -31,10 +45,17 @@
           "label": "BAJO"
         },
         {
+          "sym": "SPCXBUSDT",
+          "rsi": 20.3,
+          "price": 138.76,
+          "vol": 9694301.98159,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "TUTUSDT",
-          "rsi": 21,
-          "price": 0.0271,
-          "vol": 15035548.96868,
+          "rsi": 24,
+          "price": 0.02637,
+          "vol": 12710475.02513,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -43,10 +64,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "TUSDT",
-          "rsi": 82.7,
-          "price": 0.00469,
-          "vol": 5906289.377901,
+          "sym": "ROBOUSDT",
+          "rsi": 80.7,
+          "price": 0.01436,
+          "vol": 2674142.93053,
           "label": "ALTO"
         }
       ],
@@ -59,6 +80,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "TUTUSDT",
+          "rsi": 22.2,
+          "price": 0.02637,
+          "vol": 12710475.02513,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -67,9 +95,9 @@
         },
         {
           "sym": "MITOUSDT",
-          "rsi": 24,
-          "price": 0.01829,
-          "vol": 3338259.887283,
+          "rsi": 23.3,
+          "price": 0.01796,
+          "vol": 3671893.2395,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -79,9 +107,9 @@
       "sell": [
         {
           "sym": "TUSDT",
-          "rsi": 85.8,
-          "price": 0.00469,
-          "vol": 5906289.377901,
+          "rsi": 86.3,
+          "price": 0.00557,
+          "vol": 12049675.877984,
           "label": "MUY ALTO"
         }
       ],
@@ -94,17 +122,10 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TRXUSDT",
-          "rsi": 20.7,
-          "price": 0.3228,
-          "vol": 43066024.60151,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "MITOUSDT",
-          "rsi": 22.7,
-          "price": 0.01829,
-          "vol": 3338259.887283,
+          "rsi": 22,
+          "price": 0.01796,
+          "vol": 3671893.2395,
           "label": "SOBREVENDIDO"
         },
         {
@@ -112,13 +133,6 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.2,
-          "price": 4311.15,
-          "vol": 50551758.654286,
           "label": "SOBREVENDIDO"
         }
       ],
