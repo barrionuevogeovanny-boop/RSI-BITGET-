@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02T17:50:10.612Z",
-  "updated_ts": 1788371410612,
+  "updated": "2026-09-02T20:08:21.045Z",
+  "updated_ts": 1788379701045,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,19 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 22.3,
+          "price": 0.01093,
+          "vol": 7121412.023,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 118
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "EGLDUSDT",
-          "rsi": 80.8,
-          "price": 4.653,
-          "vol": 3321748.72383,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,11 +43,11 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TUTUSDT",
-          "rsi": 18.3,
-          "price": 0.02531,
-          "vol": 12421794.15042,
-          "label": "BAJO"
+          "sym": "MITOUSDT",
+          "rsi": 22.7,
+          "price": 0.01752,
+          "vol": 3326308.839309,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "VANRYUSDT",
@@ -56,17 +55,24 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ROBOUSDT",
+          "rsi": 25,
+          "price": 0.01093,
+          "vol": 7121412.023,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
           "sym": "EGLDUSDT",
-          "rsi": 82.7,
-          "price": 4.653,
-          "vol": 3321748.72383,
+          "rsi": 83.3,
+          "price": 4.683,
+          "vol": 3832068.6155,
           "label": "ALTO"
         }
       ],
@@ -80,9 +86,9 @@
         },
         {
           "sym": "MITOUSDT",
-          "rsi": 21.9,
-          "price": 0.01788,
-          "vol": 3614362.710408,
+          "rsi": 20.3,
+          "price": 0.01752,
+          "vol": 3326308.839309,
           "label": "SOBREVENDIDO"
         },
         {
@@ -91,16 +97,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "JTOUSDT",
-          "rsi": 24.5,
-          "price": 0.419,
-          "vol": 2007839.38635,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 118
     }
   }
 }
