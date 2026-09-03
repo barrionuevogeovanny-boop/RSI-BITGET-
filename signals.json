@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T19:56:23.567Z",
-  "updated_ts": 1788465383567,
+  "updated": "2026-09-03T22:17:52.760Z",
+  "updated_ts": 1788473872760,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MSTRBUSDT",
-          "rsi": 81.2,
-          "price": 144.79,
-          "vol": 11360214.3669,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,13 +21,6 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "CATIUSDT",
-          "rsi": 23.6,
-          "price": 0.05074,
-          "vol": 5441321.2075,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 138
@@ -43,59 +28,17 @@
     "1h": {
       "sell": [
         {
+          "sym": "LISTAUSDT",
+          "rsi": 83.1,
+          "price": 0.0824,
+          "vol": 2195456.143,
+          "label": "ALTO"
+        },
+        {
           "sym": "MSTRBUSDT",
-          "rsi": 91.3,
-          "price": 144.79,
-          "vol": 11360214.3669,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 86,
-          "price": 0.02292,
-          "vol": 3545971.34035,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 85,
-          "price": 967.43,
-          "vol": 203228966.36122,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CRCLBUSDT",
-          "rsi": 84.1,
-          "price": 102.84,
-          "vol": 21887388.4256,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 81.8,
-          "price": 81747.33,
-          "vol": 1411757334.5596874,
-          "label": "ALTO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 81.8,
-          "price": 81576.84,
-          "vol": 3069679.4195164,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HOODBUSDT",
-          "rsi": 81.8,
-          "price": 124.52,
-          "vol": 3065773.37274,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DOGEUSDT",
-          "rsi": 80.8,
-          "price": 0.08921,
-          "vol": 92075807.52806,
+          "rsi": 82.2,
+          "price": 143.2,
+          "vol": 12033996.65909,
           "label": "ALTO"
         }
       ],
@@ -109,10 +52,10 @@
         },
         {
           "sym": "USDCUSDT",
-          "rsi": 22.7,
-          "price": 0.99982,
-          "vol": 3141462713.03663,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.9,
+          "price": 0.99975,
+          "vol": 3373682063.27947,
+          "label": "BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -125,22 +68,7 @@
       "scanned": 138
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 81.9,
-          "price": 0.02292,
-          "vol": 3545971.34035,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HOODBUSDT",
-          "rsi": 80.7,
-          "price": 124.52,
-          "vol": 3065773.37274,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
