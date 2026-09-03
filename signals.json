@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T05:00:53.739Z",
-  "updated_ts": 1788411653739,
+  "updated": "2026-09-03T09:37:24.034Z",
+  "updated_ts": 1788428244034,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,36 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 84.5,
-          "price": 4431.24,
-          "vol": 25663270.905354,
-          "label": "ALTO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 82,
-          "price": 4443.91,
-          "vol": 18974003.315023,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 81.9,
-          "price": 0.02025,
-          "vol": 27640719.913494,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ARUSDT",
-          "rsi": 81.3,
-          "price": 2.584,
-          "vol": 5316900.01754,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,17 +21,24 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "AVGOBUSDT",
+          "rsi": 23.5,
+          "price": 355.15,
+          "vol": 3195957.26107,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 123
     },
     "1h": {
       "sell": [
         {
-          "sym": "ARUSDT",
-          "rsi": 80.4,
-          "price": 2.584,
-          "vol": 5316900.01754,
+          "sym": "CHIPUSDT",
+          "rsi": 80.9,
+          "price": 0.05262,
+          "vol": 11479823.40843,
           "label": "ALTO"
         }
       ],
@@ -80,10 +58,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 123
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ARBUSDT",
+          "rsi": 80.1,
+          "price": 0.1371,
+          "vol": 45346486.98104,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -93,21 +79,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "MITOUSDT",
-          "rsi": 19.4,
-          "price": 0.01703,
-          "vol": 3244416.581953,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TUTUSDT",
+          "rsi": 24.5,
+          "price": 0.02463,
+          "vol": 11265945.20824,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 123
     }
   }
 }
