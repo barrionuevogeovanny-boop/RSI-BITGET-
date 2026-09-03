@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T09:37:24.034Z",
-  "updated_ts": 1788428244034,
+  "updated": "2026-09-03T13:51:05.999Z",
+  "updated_ts": 1788443465999,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,57 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 95,
+          "price": 147.83,
+          "vol": 12144647.23413,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 94.6,
+          "price": 1.002,
+          "vol": 2801370.208,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "TWTUSDT",
+          "rsi": 90.3,
+          "price": 0.5982,
+          "vol": 2401294.7719,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "HOODBUSDT",
+          "rsi": 87.7,
+          "price": 120.16,
+          "vol": 2563195.09647,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 85.4,
+          "price": 97.23,
+          "vol": 16050799.1846,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "MSTRBUSDT",
+          "rsi": 85.4,
+          "price": 132.39,
+          "vol": 9147936.79461,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 80.1,
+          "price": 0.329,
+          "vol": 20611486.72662,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,24 +71,52 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "AVGOBUSDT",
-          "rsi": 23.5,
-          "price": 355.15,
-          "vol": 3195957.26107,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
-          "sym": "CHIPUSDT",
+          "sym": "XUSDUSDT",
+          "rsi": 87.9,
+          "price": 1.002,
+          "vol": 2801370.208,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 87.5,
+          "price": 97.23,
+          "vol": 16050799.1846,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HOODBUSDT",
+          "rsi": 86.9,
+          "price": 120.16,
+          "vol": 2563195.09647,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 85.3,
+          "price": 147.83,
+          "vol": 12144647.23413,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "TWTUSDT",
+          "rsi": 85.1,
+          "price": 0.5982,
+          "vol": 2401294.7719,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "MSTRBUSDT",
           "rsi": 80.9,
-          "price": 0.05262,
-          "vol": 11479823.40843,
+          "price": 132.39,
+          "vol": 9147936.79461,
           "label": "ALTO"
         }
       ],
@@ -58,18 +136,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 124
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ARBUSDT",
-          "rsi": 80.1,
-          "price": 0.1371,
-          "vol": 45346486.98104,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -79,21 +149,21 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "AVGOBUSDT",
+          "rsi": 19.5,
+          "price": 346.55,
+          "vol": 3709997.52389,
+          "label": "BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 24.5,
-          "price": 0.02463,
-          "vol": 11265945.20824,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 124
     }
   }
 }
