@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T00:36:51.641Z",
-  "updated_ts": 1788395811641,
+  "updated": "2026-09-03T05:00:53.739Z",
+  "updated_ts": 1788411653739,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,32 @@
     "15m": {
       "sell": [
         {
-          "sym": "ANKRUSDT",
-          "rsi": 95.5,
-          "price": 0.00489,
-          "vol": 2628048.965037,
-          "label": "EXTREMO"
+          "sym": "XAUTUSDT",
+          "rsi": 84.5,
+          "price": 4431.24,
+          "vol": 25663270.905354,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 82,
+          "price": 4443.91,
+          "vol": 18974003.315023,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HEMIUSDT",
+          "rsi": 81.9,
+          "price": 0.02025,
+          "vol": 27640719.913494,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ARUSDT",
+          "rsi": 81.3,
+          "price": 2.584,
+          "vol": 5316900.01754,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,32 +50,18 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "SOPHUSDT",
-          "rsi": 19.1,
-          "price": 0.00379,
-          "vol": 3465637.11519,
-          "label": "BAJO"
-        },
-        {
-          "sym": "SCUSDT",
-          "rsi": 23.7,
-          "price": 0.000712,
-          "vol": 2468476.83732,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 120
     },
     "1h": {
       "sell": [
         {
-          "sym": "ANKRUSDT",
-          "rsi": 88.8,
-          "price": 0.00489,
-          "vol": 2628048.965037,
-          "label": "MUY ALTO"
+          "sym": "ARUSDT",
+          "rsi": 80.4,
+          "price": 2.584,
+          "vol": 5316900.01754,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -66,13 +73,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "MITOUSDT",
-          "rsi": 16.7,
-          "price": 0.01688,
-          "vol": 3261261.600209,
-          "label": "BAJO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -80,18 +80,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 120
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ANKRUSDT",
-          "rsi": 84.2,
-          "price": 0.00489,
-          "vol": 2628048.965037,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -102,9 +94,9 @@
         },
         {
           "sym": "MITOUSDT",
-          "rsi": 18.4,
-          "price": 0.01688,
-          "vol": 3261261.600209,
+          "rsi": 19.4,
+          "price": 0.01703,
+          "vol": 3244416.581953,
           "label": "BAJO"
         },
         {
@@ -115,7 +107,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 120
     }
   }
 }
