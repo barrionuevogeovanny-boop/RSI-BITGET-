@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T19:14:50.684Z",
-  "updated_ts": 1788549290684,
+  "updated": "2026-09-04T21:31:48.333Z",
+  "updated_ts": 1788557508333,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 144
+      "scanned": 143
     },
     "1h": {
       "sell": [],
@@ -43,10 +43,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 142
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DASHUSDT",
+          "rsi": 80.4,
+          "price": 58.63,
+          "vol": 56781660.32933,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -63,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 142
     }
   }
 }
