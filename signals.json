@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T21:31:48.333Z",
-  "updated_ts": 1788557508333,
+  "updated": "2026-09-04T23:13:51.597Z",
+  "updated_ts": 1788563631597,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 143
+      "scanned": 144
     },
     "1h": {
       "sell": [],
@@ -43,15 +43,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "4h": {
       "sell": [
         {
+          "sym": "ENJUSDT",
+          "rsi": 84.3,
+          "price": 0.02972,
+          "vol": 2980662.590891,
+          "label": "ALTO"
+        },
+        {
           "sym": "DASHUSDT",
-          "rsi": 80.4,
-          "price": 58.63,
-          "vol": 56781660.32933,
+          "rsi": 81.8,
+          "price": 60.22,
+          "vol": 62804368.29039,
           "label": "ALTO"
         }
       ],
@@ -71,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     }
   }
 }
