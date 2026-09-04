@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T00:09:34.524Z",
-  "updated_ts": 1788480574524,
+  "updated": "2026-09-04T04:28:46.365Z",
+  "updated_ts": 1788496126365,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "LPTUSDT",
-          "rsi": 81.1,
-          "price": 1.461,
-          "vol": 2763907.08999,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HIVEUSDT",
-          "rsi": 80.9,
-          "price": 0.0485,
-          "vol": 4149085.5039,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -75,13 +60,6 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 24.1,
-          "price": 0.02361,
-          "vol": 11073243.47355,
           "label": "SOBREVENDIDO"
         }
       ],
