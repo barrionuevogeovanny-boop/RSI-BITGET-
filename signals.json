@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T16:54:27.814Z",
-  "updated_ts": 1788540867814,
+  "updated": "2026-09-04T19:14:50.684Z",
+  "updated_ts": 1788549290684,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 86,
-          "price": 1726.85,
-          "vol": 37994192.998741,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 85.5,
-          "price": 17.1,
-          "vol": 6910301.493,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 142
+      "scanned": 144
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 81.3,
-          "price": 1726.85,
-          "vol": 37994192.998741,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 80.7,
-          "price": 17.1,
-          "vol": 6910301.493,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,25 +43,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 143
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 80.5,
-          "price": 1726.85,
-          "vol": 37994192.998741,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNXXBUSDT",
-          "rsi": 80,
-          "price": 17.1,
-          "vol": 6910301.493,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -108,7 +63,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 143
     }
   }
 }
