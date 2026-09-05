@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T17:35:27.927Z",
-  "updated_ts": 1788629727927,
+  "updated": "2026-09-05T19:26:50.381Z",
+  "updated_ts": 1788636410381,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,72 +16,65 @@
       "sell": [
         {
           "sym": "SUSHIUSDT",
-          "rsi": 96,
-          "price": 0.2421,
-          "vol": 2175692.03229,
+          "rsi": 90.5,
+          "price": 0.2795,
+          "vol": 5900972.53127,
           "label": "EXTREMO"
         },
         {
-          "sym": "MSTRBUSDT",
-          "rsi": 80.9,
-          "price": 144.59,
-          "vol": 3777317.21428,
-          "label": "ALTO"
-        },
-        {
           "sym": "UNIUSDT",
-          "rsi": 80.3,
-          "price": 6.781,
-          "vol": 44600876.76611,
+          "rsi": 84.3,
+          "price": 7.202,
+          "vol": 56267295.40685,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 6.9,
-          "price": 0.01048,
-          "vol": 14736807.34917,
-          "label": "EXTREMO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "HEMIUSDT",
+          "rsi": 19.6,
+          "price": 0.01092,
+          "vol": 17622769.302359,
+          "label": "BAJO"
         }
       ],
-      "scanned": 125
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
           "sym": "SUSHIUSDT",
-          "rsi": 93.1,
-          "price": 0.2421,
-          "vol": 2175692.03229,
+          "rsi": 96.2,
+          "price": 0.2795,
+          "vol": 5900972.53127,
           "label": "EXTREMO"
         },
         {
           "sym": "BNBUSDT",
           "rsi": 84.6,
-          "price": 778.03,
-          "vol": 234438653.44898,
+          "price": 777.7,
+          "vol": 241070228.7116,
           "label": "ALTO"
         },
         {
           "sym": "CAKEUSDT",
-          "rsi": 82.7,
-          "price": 2.252,
-          "vol": 16107912.45215,
+          "rsi": 82.1,
+          "price": 2.265,
+          "vol": 17543015.04671,
           "label": "ALTO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 82.6,
-          "price": 0.6154,
-          "vol": 9234081.05463,
+          "sym": "UNIUSDT",
+          "rsi": 82,
+          "price": 7.202,
+          "vol": 56267295.40685,
           "label": "ALTO"
         }
       ],
@@ -95,9 +88,9 @@
         },
         {
           "sym": "HEMIUSDT",
-          "rsi": 15.3,
-          "price": 0.01048,
-          "vol": 14736807.34917,
+          "rsi": 16.9,
+          "price": 0.01092,
+          "vol": 17622769.302359,
           "label": "BAJO"
         },
         {
@@ -108,43 +101,57 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
-          "sym": "DASHUSDT",
-          "rsi": 85.8,
-          "price": 68.75,
-          "vol": 93214920.39672,
+          "sym": "SUSHIUSDT",
+          "rsi": 85.7,
+          "price": 0.2795,
+          "vol": 5900972.53127,
           "label": "MUY ALTO"
         },
         {
-          "sym": "币安人生USDT",
-          "rsi": 84.2,
-          "price": 0.6154,
-          "vol": 9234081.05463,
-          "label": "ALTO"
-        },
-        {
           "sym": "BNBUSDT",
-          "rsi": 82.2,
-          "price": 778.03,
-          "vol": 234438653.44898,
+          "rsi": 82.1,
+          "price": 777.7,
+          "vol": 241070228.7116,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 81.8,
-          "price": 1764.28,
-          "vol": 12280072.767104,
+          "rsi": 81.9,
+          "price": 1765.98,
+          "vol": 10473337.703524,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 81.4,
+          "price": 0.4006,
+          "vol": 3194923.94541,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 80.9,
-          "price": 17.82,
-          "vol": 2311306.756,
+          "rsi": 81.2,
+          "price": 17.88,
+          "vol": 2148754.4868,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ARUSDT",
+          "rsi": 80.4,
+          "price": 3.078,
+          "vol": 4921610.18611,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 80.1,
+          "price": 66.91,
+          "vol": 93061877.05724,
           "label": "ALTO"
         }
       ],
@@ -164,7 +171,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 123
     }
   }
 }
