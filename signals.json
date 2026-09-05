@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T12:47:10.806Z",
-  "updated_ts": 1788612430806,
+  "updated": "2026-09-05T15:36:57.883Z",
+  "updated_ts": 1788622617883,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "ASTERUSDT",
-          "rsi": 92,
-          "price": 0.84,
-          "vol": 23694267.00899,
-          "label": "EXTREMO"
+          "sym": "币安人生USDT",
+          "rsi": 81.3,
+          "price": 0.5756,
+          "vol": 5623327.73448,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,6 +29,13 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "HEMIUSDT",
+          "rsi": 23,
+          "price": 0.01278,
+          "vol": 11710499.549081,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 126
@@ -36,31 +43,17 @@
     "1h": {
       "sell": [
         {
-          "sym": "1000CATUSDT",
-          "rsi": 86.8,
-          "price": 0.002489,
-          "vol": 2454994.0591576,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ASTERUSDT",
-          "rsi": 83.6,
-          "price": 0.84,
-          "vol": 23694267.00899,
+          "sym": "NMRUSDT",
+          "rsi": 84,
+          "price": 10.43,
+          "vol": 2295574.8282,
           "label": "ALTO"
         },
         {
-          "sym": "CAKEUSDT",
-          "rsi": 81.1,
-          "price": 2.188,
-          "vol": 12327330.03586,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 80.6,
-          "price": 758.63,
-          "vol": 162738605.13631,
+          "sym": "币安人生USDT",
+          "rsi": 82.3,
+          "price": 0.5756,
+          "vol": 5623327.73448,
           "label": "ALTO"
         }
       ],
@@ -85,38 +78,38 @@
     "4h": {
       "sell": [
         {
-          "sym": "DASHUSDT",
-          "rsi": 86.1,
-          "price": 69.37,
-          "vol": 94912542.50359,
+          "sym": "1000CATUSDT",
+          "rsi": 87.3,
+          "price": 0.002643,
+          "vol": 4502825.7103225,
           "label": "MUY ALTO"
         },
         {
-          "sym": "1000CATUSDT",
-          "rsi": 84.9,
-          "price": 0.002489,
-          "vol": 2454994.0591576,
-          "label": "ALTO"
+          "sym": "DASHUSDT",
+          "rsi": 85.8,
+          "price": 68.79,
+          "vol": 96655770.30706,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "DCRUSDT",
-          "rsi": 81.7,
-          "price": 17.12,
-          "vol": 4278602.06733,
+          "sym": "NMRUSDT",
+          "rsi": 84.1,
+          "price": 10.43,
+          "vol": 2295574.8282,
           "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 81.1,
-          "price": 1760,
-          "vol": 35836086.990256,
+          "rsi": 81.5,
+          "price": 1761.58,
+          "vol": 16535773.854664,
           "label": "ALTO"
         },
         {
           "sym": "SNXXBUSDT",
-          "rsi": 80.7,
-          "price": 17.75,
-          "vol": 6347515.0475,
+          "rsi": 80.8,
+          "price": 17.76,
+          "vol": 3162905.4834,
           "label": "ALTO"
         }
       ],
