@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T23:13:51.597Z",
-  "updated_ts": 1788563631597,
+  "updated": "2026-09-05T00:59:25.973Z",
+  "updated_ts": 1788569965973,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ZKUSDT",
+          "rsi": 87.4,
+          "price": 0.00997,
+          "vol": 2217862.037844,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 144
+      "scanned": 143
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DASHUSDT",
+          "rsi": 81.7,
+          "price": 64.69,
+          "vol": 73632019.13165,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,23 +59,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 142
     },
     "4h": {
       "sell": [
         {
-          "sym": "ENJUSDT",
-          "rsi": 84.3,
-          "price": 0.02972,
-          "vol": 2980662.590891,
-          "label": "ALTO"
-        },
-        {
           "sym": "DASHUSDT",
-          "rsi": 81.8,
-          "price": 60.22,
-          "vol": 62804368.29039,
-          "label": "ALTO"
+          "rsi": 85.1,
+          "price": 64.69,
+          "vol": 73632019.13165,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -78,7 +87,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 142
     }
   }
 }
