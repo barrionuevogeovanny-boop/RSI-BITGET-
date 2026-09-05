@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T00:59:25.973Z",
-  "updated_ts": 1788569965973,
+  "updated": "2026-09-05T05:31:51.745Z",
+  "updated_ts": 1788586311745,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "ZKUSDT",
-          "rsi": 87.4,
-          "price": 0.00997,
-          "vol": 2217862.037844,
-          "label": "MUY ALTO"
+          "sym": "AEROUSDT",
+          "rsi": 80.9,
+          "price": 0.525,
+          "vol": 2836771.22029,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -36,10 +36,24 @@
     "1h": {
       "sell": [
         {
+          "sym": "DCRUSDT",
+          "rsi": 89.6,
+          "price": 17.51,
+          "vol": 3288921.94995,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "DASHUSDT",
-          "rsi": 81.7,
-          "price": 64.69,
-          "vol": 73632019.13165,
+          "rsi": 83,
+          "price": 71.59,
+          "vol": 82356317.79088,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZENUSDT",
+          "rsi": 82,
+          "price": 7.766,
+          "vol": 23695573.72217,
           "label": "ALTO"
         }
       ],
@@ -59,16 +73,51 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 143
     },
     "4h": {
       "sell": [
         {
           "sym": "DASHUSDT",
-          "rsi": 85.1,
-          "price": 64.69,
-          "vol": 73632019.13165,
+          "rsi": 88.4,
+          "price": 71.59,
+          "vol": 82356317.79088,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "DCRUSDT",
+          "rsi": 87.4,
+          "price": 17.51,
+          "vol": 3288921.94995,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "NOMUSDT",
+          "rsi": 86.2,
+          "price": 0.00201,
+          "vol": 7331151.82234,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ZENUSDT",
+          "rsi": 83.5,
+          "price": 7.766,
+          "vol": 23695573.72217,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 82.4,
+          "price": 1771.08,
+          "vol": 41769344.819795,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 81.9,
+          "price": 17.98,
+          "vol": 7540678.8891,
+          "label": "ALTO"
         }
       ],
       "buy": [
