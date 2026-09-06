@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T18:18:25.801Z",
-  "updated_ts": 1788718705801,
+  "updated": "2026-09-06T20:30:32.578Z",
+  "updated_ts": 1788726632578,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,22 +23,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 125
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 82.2,
-          "price": 123.57,
-          "vol": 2878673.70647,
-          "label": "ALTO"
+          "sym": "TAOUSDT",
+          "rsi": 87,
+          "price": 269.4,
+          "vol": 49522358.51143,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "TAOUSDT",
-          "rsi": 81.8,
-          "price": 259,
-          "vol": 37566584.5953,
+          "sym": "SOXLBUSDT",
+          "rsi": 80.7,
+          "price": 124.23,
+          "vol": 3028672.39443,
           "label": "ALTO"
         }
       ],
@@ -58,22 +58,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
-          "sym": "RAYUSDT",
-          "rsi": 86.7,
-          "price": 1.3571,
-          "vol": 31341207.95612,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "ZECUSDT",
-          "rsi": 81.9,
-          "price": 1227.04,
-          "vol": 370425297.31826,
+          "rsi": 81.3,
+          "price": 1215.12,
+          "vol": 379804656.19976,
           "label": "ALTO"
         }
       ],
@@ -93,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 123
     }
   }
 }
