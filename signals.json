@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T05:40:47.427Z",
-  "updated_ts": 1788673247427,
+  "updated": "2026-09-06T09:39:40.958Z",
+  "updated_ts": 1788687580958,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,43 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ZECUSDT",
-          "rsi": 90.2,
-          "price": 1175.82,
-          "vol": 197288023.2862,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ZENUSDT",
-          "rsi": 85.5,
-          "price": 7.872,
-          "vol": 21759922.51376,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "EPICUSDT",
-          "rsi": 85.4,
-          "price": 0.4397,
-          "vol": 3777160.82118,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "XVGUSDT",
-          "rsi": 81.4,
-          "price": 0.002978,
-          "vol": 2124318.9437,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DASHUSDT",
-          "rsi": 80.9,
-          "price": 78.22,
-          "vol": 72238668.13945,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -59,23 +23,23 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 129
+      "scanned": 126
     },
     "1h": {
       "sell": [
         {
-          "sym": "RAYUSDT",
-          "rsi": 89.7,
-          "price": 1.1471,
-          "vol": 9736317.35791,
-          "label": "MUY ALTO"
+          "sym": "ZECUSDT",
+          "rsi": 81.9,
+          "price": 1183.48,
+          "vol": 250664640.78911,
+          "label": "ALTO"
         },
         {
-          "sym": "ZECUSDT",
-          "rsi": 86.9,
-          "price": 1175.82,
-          "vol": 197288023.2862,
-          "label": "MUY ALTO"
+          "sym": "JUPUSDT",
+          "rsi": 80.8,
+          "price": 0.251,
+          "vol": 8732028.31655,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -94,57 +58,50 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 126
     },
     "4h": {
       "sell": [
         {
-          "sym": "IOSTUSDT",
-          "rsi": 91.1,
-          "price": 0.000789,
-          "vol": 2497159.018403,
+          "sym": "EPICUSDT",
+          "rsi": 91.4,
+          "price": 0.4797,
+          "vol": 5605993.99332,
           "label": "EXTREMO"
         },
         {
-          "sym": "EPICUSDT",
-          "rsi": 88.4,
-          "price": 0.4397,
-          "vol": 3777160.82118,
+          "sym": "GRTUSDT",
+          "rsi": 85.6,
+          "price": 0.0205,
+          "vol": 4039136.34992,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "RAYUSDT",
-          "rsi": 87.1,
-          "price": 1.1471,
-          "vol": 9736317.35791,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ARBUSDT",
-          "rsi": 84.9,
-          "price": 0.1951,
-          "vol": 97233998.42633,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DASHUSDT",
-          "rsi": 84.7,
-          "price": 78.22,
-          "vol": 72238668.13945,
-          "label": "ALTO"
         },
         {
           "sym": "SNDKBUSDT",
           "rsi": 82.7,
-          "price": 1782.2,
-          "vol": 5323496.619696,
+          "price": 1783.01,
+          "vol": 5122152.162689,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 82,
-          "price": 1175.82,
-          "vol": 197288023.2862,
+          "rsi": 82.6,
+          "price": 1183.48,
+          "vol": 250664640.78911,
+          "label": "ALTO"
+        },
+        {
+          "sym": "IOSTUSDT",
+          "rsi": 81.1,
+          "price": 0.000749,
+          "vol": 3129885.150834,
+          "label": "ALTO"
+        },
+        {
+          "sym": "RAYUSDT",
+          "rsi": 80.2,
+          "price": 1.1572,
+          "vol": 13188309.66403,
           "label": "ALTO"
         }
       ],
@@ -164,7 +121,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 125
     }
   }
 }
