@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T13:07:01.497Z",
-  "updated_ts": 1788700021497,
+  "updated": "2026-09-06T16:12:19.644Z",
+  "updated_ts": 1788711139644,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,29 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "RAYUSDT",
-          "rsi": 82.3,
-          "price": 1.3569,
-          "vol": 20063175.43874,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 81.4,
-          "price": 0.06152,
-          "vol": 8362835.00339,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ORCAUSDT",
-          "rsi": 81.4,
-          "price": 1.485,
-          "vol": 3449363.08947,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,41 +21,12 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "1000CATUSDT",
-          "rsi": 21.1,
-          "price": 0.002181,
-          "vol": 6870801.9546597,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 128
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 89.3,
-          "price": 0.06152,
-          "vol": 8362835.00339,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "RAYUSDT",
-          "rsi": 83.8,
-          "price": 1.3569,
-          "vol": 20063175.43874,
-          "label": "ALTO"
-        },
-        {
-          "sym": "JUPUSDT",
-          "rsi": 81.7,
-          "price": 0.2687,
-          "vol": 14049664.79659,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -94,37 +43,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 128
     },
     "4h": {
       "sell": [
         {
           "sym": "RAYUSDT",
-          "rsi": 86.5,
-          "price": 1.3569,
-          "vol": 20063175.43874,
+          "rsi": 86.1,
+          "price": 1.3402,
+          "vol": 27425959.66362,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "COTIUSDT",
-          "rsi": 83.1,
-          "price": 0.01879,
-          "vol": 9680235.48537,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 81.9,
-          "price": 1787.44,
-          "vol": 5542512.278636,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 80.8,
-          "price": 1177.15,
-          "vol": 280847758.97756,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -143,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 127
     }
   }
 }
