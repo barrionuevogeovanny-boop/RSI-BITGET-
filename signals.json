@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T22:15:43.118Z",
-  "updated_ts": 1788732943118,
+  "updated": "2026-09-06T23:58:56.658Z",
+  "updated_ts": 1788739136658,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,24 +21,17 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 24.7,
-          "price": 0.08841,
-          "vol": 9295965.405427,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 123
     },
     "1h": {
       "sell": [
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 82.3,
-          "price": 124.5,
-          "vol": 3198462.37393,
+          "sym": "TIAUSDT",
+          "rsi": 82.6,
+          "price": 0.4424,
+          "vol": 8740030.206118,
           "label": "ALTO"
         }
       ],
@@ -58,22 +51,36 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 123
     },
     "4h": {
       "sell": [
         {
-          "sym": "FIDAUSDT",
-          "rsi": 83.6,
-          "price": 0.02235,
-          "vol": 5776174.760593,
+          "sym": "LINKUSDT",
+          "rsi": 83.5,
+          "price": 13.244,
+          "vol": 52154264.31325,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 82.5,
+          "price": 0.4424,
+          "vol": 8740030.206118,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 81.5,
-          "price": 1218.59,
-          "vol": 403554419.71999,
+          "rsi": 82.1,
+          "price": 1228.95,
+          "vol": 425302428.98013,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FIDAUSDT",
+          "rsi": 81.3,
+          "price": 0.02192,
+          "vol": 6237051.625921,
           "label": "ALTO"
         }
       ],
@@ -93,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 122
     }
   }
 }
