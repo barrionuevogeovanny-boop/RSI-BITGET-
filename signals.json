@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T23:11:55.645Z",
-  "updated_ts": 1788649915645,
+  "updated": "2026-09-06T00:58:15.747Z",
+  "updated_ts": 1788656295747,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ARBUSDT",
+          "rsi": 80.7,
+          "price": 0.1928,
+          "vol": 61667107.68842,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,30 +31,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
           "sym": "ARBUSDT",
-          "rsi": 84.8,
-          "price": 0.1781,
-          "vol": 48154125.67868,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SUSHIUSDT",
-          "rsi": 84.5,
-          "price": 0.26,
-          "vol": 10339638.47848,
-          "label": "ALTO"
-        },
-        {
-          "sym": "OPUSDT",
-          "rsi": 81.1,
-          "price": 0.1108,
-          "vol": 8659263.413284,
-          "label": "ALTO"
+          "rsi": 87.5,
+          "price": 0.1928,
+          "vol": 61667107.68842,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -58,50 +52,36 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HEMIUSDT",
-          "rsi": 16.8,
-          "price": 0.01068,
-          "vol": 19640235.295911,
-          "label": "BAJO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "HEMIUSDT",
+          "rsi": 24.4,
+          "price": 0.01109,
+          "vol": 20181526.905908,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "ARBUSDT",
-          "rsi": 84.2,
-          "price": 0.1781,
-          "vol": 48154125.67868,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EPICUSDT",
-          "rsi": 82.2,
-          "price": 0.4039,
-          "vol": 3277913.46184,
-          "label": "ALTO"
+          "rsi": 86.9,
+          "price": 0.1928,
+          "vol": 61667107.68842,
+          "label": "MUY ALTO"
         },
         {
           "sym": "SNDKBUSDT",
-          "rsi": 81.1,
-          "price": 1764.43,
-          "vol": 6824723.217292,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SUSHIUSDT",
-          "rsi": 80.2,
-          "price": 0.26,
-          "vol": 10339638.47848,
+          "rsi": 80,
+          "price": 1761.17,
+          "vol": 6667216.699036,
           "label": "ALTO"
         }
       ],
@@ -121,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 121
     }
   }
 }
