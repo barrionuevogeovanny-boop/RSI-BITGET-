@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T00:58:15.747Z",
-  "updated_ts": 1788656295747,
+  "updated": "2026-09-06T05:40:47.427Z",
+  "updated_ts": 1788673247427,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,38 @@
     "15m": {
       "sell": [
         {
-          "sym": "ARBUSDT",
-          "rsi": 80.7,
-          "price": 0.1928,
-          "vol": 61667107.68842,
+          "sym": "ZECUSDT",
+          "rsi": 90.2,
+          "price": 1175.82,
+          "vol": 197288023.2862,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "ZENUSDT",
+          "rsi": 85.5,
+          "price": 7.872,
+          "vol": 21759922.51376,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 85.4,
+          "price": 0.4397,
+          "vol": 3777160.82118,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "XVGUSDT",
+          "rsi": 81.4,
+          "price": 0.002978,
+          "vol": 2124318.9437,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 80.9,
+          "price": 78.22,
+          "vol": 72238668.13945,
           "label": "ALTO"
         }
       ],
@@ -31,15 +59,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 122
+      "scanned": 129
     },
     "1h": {
       "sell": [
         {
-          "sym": "ARBUSDT",
-          "rsi": 87.5,
-          "price": 0.1928,
-          "vol": 61667107.68842,
+          "sym": "RAYUSDT",
+          "rsi": 89.7,
+          "price": 1.1471,
+          "vol": 9736317.35791,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 86.9,
+          "price": 1175.82,
+          "vol": 197288023.2862,
           "label": "MUY ALTO"
         }
       ],
@@ -57,31 +92,59 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 24.4,
-          "price": 0.01109,
-          "vol": 20181526.905908,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 129
     },
     "4h": {
       "sell": [
         {
-          "sym": "ARBUSDT",
-          "rsi": 86.9,
-          "price": 0.1928,
-          "vol": 61667107.68842,
+          "sym": "IOSTUSDT",
+          "rsi": 91.1,
+          "price": 0.000789,
+          "vol": 2497159.018403,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 88.4,
+          "price": 0.4397,
+          "vol": 3777160.82118,
           "label": "MUY ALTO"
         },
         {
+          "sym": "RAYUSDT",
+          "rsi": 87.1,
+          "price": 1.1471,
+          "vol": 9736317.35791,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 84.9,
+          "price": 0.1951,
+          "vol": 97233998.42633,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 84.7,
+          "price": 78.22,
+          "vol": 72238668.13945,
+          "label": "ALTO"
+        },
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 80,
-          "price": 1761.17,
-          "vol": 6667216.699036,
+          "rsi": 82.7,
+          "price": 1782.2,
+          "vol": 5323496.619696,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 82,
+          "price": 1175.82,
+          "vol": 197288023.2862,
           "label": "ALTO"
         }
       ],
@@ -101,7 +164,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 128
     }
   }
 }
