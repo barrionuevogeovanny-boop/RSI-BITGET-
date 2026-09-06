@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T09:39:40.958Z",
-  "updated_ts": 1788687580958,
+  "updated": "2026-09-06T13:07:01.497Z",
+  "updated_ts": 1788700021497,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,29 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RAYUSDT",
+          "rsi": 82.3,
+          "price": 1.3569,
+          "vol": 20063175.43874,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 81.4,
+          "price": 0.06152,
+          "vol": 8362835.00339,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ORCAUSDT",
+          "rsi": 81.4,
+          "price": 1.485,
+          "vol": 3449363.08947,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,24 +43,38 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "1000CATUSDT",
+          "rsi": 21.1,
+          "price": 0.002181,
+          "vol": 6870801.9546597,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 127
     },
     "1h": {
       "sell": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 81.9,
-          "price": 1183.48,
-          "vol": 250664640.78911,
+          "sym": "ZAMAUSDT",
+          "rsi": 89.3,
+          "price": 0.06152,
+          "vol": 8362835.00339,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "RAYUSDT",
+          "rsi": 83.8,
+          "price": 1.3569,
+          "vol": 20063175.43874,
           "label": "ALTO"
         },
         {
           "sym": "JUPUSDT",
-          "rsi": 80.8,
-          "price": 0.251,
-          "vol": 8732028.31655,
+          "rsi": 81.7,
+          "price": 0.2687,
+          "vol": 14049664.79659,
           "label": "ALTO"
         }
       ],
@@ -58,50 +94,36 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 127
     },
     "4h": {
       "sell": [
         {
-          "sym": "EPICUSDT",
-          "rsi": 91.4,
-          "price": 0.4797,
-          "vol": 5605993.99332,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "GRTUSDT",
-          "rsi": 85.6,
-          "price": 0.0205,
-          "vol": 4039136.34992,
+          "sym": "RAYUSDT",
+          "rsi": 86.5,
+          "price": 1.3569,
+          "vol": 20063175.43874,
           "label": "MUY ALTO"
         },
         {
+          "sym": "COTIUSDT",
+          "rsi": 83.1,
+          "price": 0.01879,
+          "vol": 9680235.48537,
+          "label": "ALTO"
+        },
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 82.7,
-          "price": 1783.01,
-          "vol": 5122152.162689,
+          "rsi": 81.9,
+          "price": 1787.44,
+          "vol": 5542512.278636,
           "label": "ALTO"
         },
         {
           "sym": "ZECUSDT",
-          "rsi": 82.6,
-          "price": 1183.48,
-          "vol": 250664640.78911,
-          "label": "ALTO"
-        },
-        {
-          "sym": "IOSTUSDT",
-          "rsi": 81.1,
-          "price": 0.000749,
-          "vol": 3129885.150834,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RAYUSDT",
-          "rsi": 80.2,
-          "price": 1.1572,
-          "vol": 13188309.66403,
+          "rsi": 80.8,
+          "price": 1177.15,
+          "vol": 280847758.97756,
           "label": "ALTO"
         }
       ],
@@ -121,7 +143,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 126
     }
   }
 }
