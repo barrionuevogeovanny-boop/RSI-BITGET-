@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T23:58:56.658Z",
-  "updated_ts": 1788739136658,
+  "updated": "2026-09-07T04:01:53.418Z",
+  "updated_ts": 1788753713419,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "CFGUSDT",
+          "rsi": 90.6,
+          "price": 0.1335,
+          "vol": 4812298.80509,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,18 +29,39 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 24.4,
+          "price": 0.05438,
+          "vol": 16102406.23475,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JUPUSDT",
+          "rsi": 24.6,
+          "price": 0.2463,
+          "vol": 19432059.21144,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 24.9,
+          "price": 0.176,
+          "vol": 71897837.81046,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "TIAUSDT",
-          "rsi": 82.6,
-          "price": 0.4424,
-          "vol": 8740030.206118,
-          "label": "ALTO"
+          "sym": "CFGUSDT",
+          "rsi": 93,
+          "price": 0.1335,
+          "vol": 4812298.80509,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -44,6 +73,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "PAXGUSDT",
+          "rsi": 22.6,
+          "price": 4402.29,
+          "vol": 7799251.866556,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -51,36 +87,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
-          "sym": "LINKUSDT",
-          "rsi": 83.5,
-          "price": 13.244,
-          "vol": 52154264.31325,
+          "sym": "CFGUSDT",
+          "rsi": 81.1,
+          "price": 0.1335,
+          "vol": 4812298.80509,
           "label": "ALTO"
         },
         {
-          "sym": "TIAUSDT",
-          "rsi": 82.5,
-          "price": 0.4424,
-          "vol": 8740030.206118,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 82.1,
-          "price": 1228.95,
-          "vol": 425302428.98013,
-          "label": "ALTO"
-        },
-        {
-          "sym": "FIDAUSDT",
-          "rsi": 81.3,
-          "price": 0.02192,
-          "vol": 6237051.625921,
+          "sym": "ORCAUSDT",
+          "rsi": 80.6,
+          "price": 1.576,
+          "vol": 11111248.07445,
           "label": "ALTO"
         }
       ],
