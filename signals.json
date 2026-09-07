@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T15:04:50.551Z",
-  "updated_ts": 1788793490551,
+  "updated": "2026-09-07T19:06:55.104Z",
+  "updated_ts": 1788808015104,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,9 +16,9 @@
       "sell": [
         {
           "sym": "AEROUSDT",
-          "rsi": 81.2,
-          "price": 0.5747,
-          "vol": 2805715.45995,
+          "rsi": 81.4,
+          "price": 0.6256,
+          "vol": 6582597.96997,
           "label": "ALTO"
         }
       ],
@@ -31,24 +31,25 @@
           "label": "BAJO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 23.4,
-          "price": 0.1062,
-          "vol": 3451972.733782,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 24.6,
-          "price": 0.3349,
-          "vol": 23719539.68637,
+          "sym": "DASHUSDT",
+          "rsi": 24.2,
+          "price": 63.88,
+          "vol": 35049698.58759,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 128
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AEROUSDT",
+          "rsi": 81.7,
+          "price": 0.6256,
+          "vol": 6582597.96997,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -56,13 +57,6 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "MUY BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 21.5,
-          "price": 0.1062,
-          "vol": 3451972.733782,
-          "label": "SOBREVENDIDO"
         },
         {
           "sym": "VANRYUSDT",
@@ -77,24 +71,31 @@
     "4h": {
       "sell": [
         {
-          "sym": "IOSTUSDT",
-          "rsi": 86.3,
-          "price": 0.000914,
-          "vol": 3405816.384677,
+          "sym": "KAVAUSDT",
+          "rsi": 88.7,
+          "price": 0.05852,
+          "vol": 2511530.7041,
           "label": "MUY ALTO"
         },
         {
-          "sym": "SOLVUSDT",
-          "rsi": 82.2,
-          "price": 0.00462,
-          "vol": 5831672.58308,
-          "label": "ALTO"
+          "sym": "IOSTUSDT",
+          "rsi": 86.6,
+          "price": 0.000951,
+          "vol": 4845431.092244,
+          "label": "MUY ALTO"
         },
         {
           "sym": "INJUSDT",
-          "rsi": 81.1,
-          "price": 5.712,
-          "vol": 11597894.21432,
+          "rsi": 85.9,
+          "price": 6.01,
+          "vol": 17252276.38738,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 80,
+          "price": 1.085,
+          "vol": 24424365.43225,
           "label": "ALTO"
         }
       ],
