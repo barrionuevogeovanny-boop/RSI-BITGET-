@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T19:06:55.104Z",
-  "updated_ts": 1788808015104,
+  "updated": "2026-09-07T21:59:06.785Z",
+  "updated_ts": 1788818346785,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "AEROUSDT",
-          "rsi": 81.4,
-          "price": 0.6256,
-          "vol": 6582597.96997,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,27 +21,12 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "DASHUSDT",
-          "rsi": 24.2,
-          "price": 63.88,
-          "vol": 35049698.58759,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AEROUSDT",
-          "rsi": 81.7,
-          "price": 0.6256,
-          "vol": 6582597.96997,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,36 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "4h": {
       "sell": [
         {
           "sym": "KAVAUSDT",
-          "rsi": 88.7,
-          "price": 0.05852,
-          "vol": 2511530.7041,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "IOSTUSDT",
-          "rsi": 86.6,
-          "price": 0.000951,
-          "vol": 4845431.092244,
+          "rsi": 88.9,
+          "price": 0.0587,
+          "vol": 2761020.958792,
           "label": "MUY ALTO"
         },
         {
           "sym": "INJUSDT",
-          "rsi": 85.9,
-          "price": 6.01,
-          "vol": 17252276.38738,
+          "rsi": 85.3,
+          "price": 6.216,
+          "vol": 22840235.33561,
           "label": "MUY ALTO"
         },
         {
-          "sym": "DOTUSDT",
-          "rsi": 80,
-          "price": 1.085,
-          "vol": 24424365.43225,
+          "sym": "IOSTUSDT",
+          "rsi": 84.8,
+          "price": 0.00098,
+          "vol": 5814710.663654,
           "label": "ALTO"
         }
       ],
@@ -115,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     }
   }
 }
