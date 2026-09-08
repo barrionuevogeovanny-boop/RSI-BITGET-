@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-08T09:00:11.048Z",
-  "updated_ts": 1788858011048,
+  "updated": "2026-09-08T13:29:13.317Z",
+  "updated_ts": 1788874153317,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,22 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 129
+      "scanned": 132
     },
     "1h": {
       "sell": [
         {
-          "sym": "SOPHUSDT",
-          "rsi": 90.4,
-          "price": 0.01079,
-          "vol": 45967333.22322,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "HAEDALUSDT",
-          "rsi": 89.4,
-          "price": 0.02237,
-          "vol": 2570988.317587,
+          "sym": "GLMRUSDT",
+          "rsi": 87.4,
+          "price": 0.007998,
+          "vol": 2394186.6390885,
           "label": "MUY ALTO"
         }
       ],
@@ -58,23 +51,23 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 132
     },
     "4h": {
       "sell": [
         {
-          "sym": "SOPHUSDT",
-          "rsi": 94.4,
-          "price": 0.01079,
-          "vol": 45967333.22322,
-          "label": "EXTREMO"
+          "sym": "GLMRUSDT",
+          "rsi": 85.9,
+          "price": 0.007998,
+          "vol": 2394186.6390885,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "HAEDALUSDT",
-          "rsi": 85.1,
-          "price": 0.02237,
-          "vol": 2570988.317587,
-          "label": "MUY ALTO"
+          "sym": "FFUSDT",
+          "rsi": 84.2,
+          "price": 0.14329,
+          "vol": 8509610.170843,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -93,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 132
     }
   }
 }
