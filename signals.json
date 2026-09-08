@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T21:59:06.785Z",
-  "updated_ts": 1788818346785,
+  "updated": "2026-09-08T00:07:32.710Z",
+  "updated_ts": 1788826052710,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 84.8,
+          "price": 1.0008,
+          "vol": 5077684.1021,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,9 +29,23 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "SOXLBUSDT",
+          "rsi": 21.4,
+          "price": 122.27,
+          "vol": 3334262.52422,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 23.1,
+          "price": 149.06,
+          "vol": 2345841.87265,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 125
     },
     "1h": {
       "sell": [],
@@ -43,29 +65,36 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 125
     },
     "4h": {
       "sell": [
         {
           "sym": "KAVAUSDT",
-          "rsi": 88.9,
-          "price": 0.0587,
-          "vol": 2761020.958792,
+          "rsi": 88.5,
+          "price": 0.05885,
+          "vol": 2879899.205598,
           "label": "MUY ALTO"
         },
         {
           "sym": "INJUSDT",
-          "rsi": 85.3,
-          "price": 6.216,
-          "vol": 22840235.33561,
-          "label": "MUY ALTO"
+          "rsi": 82.7,
+          "price": 6.174,
+          "vol": 23579595.25077,
+          "label": "ALTO"
         },
         {
-          "sym": "IOSTUSDT",
-          "rsi": 84.8,
-          "price": 0.00098,
-          "vol": 5814710.663654,
+          "sym": "SOPHUSDT",
+          "rsi": 81,
+          "price": 0.00577,
+          "vol": 8767287.9233,
+          "label": "ALTO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 80.1,
+          "price": 0.479,
+          "vol": 67616098.06361,
           "label": "ALTO"
         }
       ],
@@ -85,7 +114,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 125
     }
   }
 }
