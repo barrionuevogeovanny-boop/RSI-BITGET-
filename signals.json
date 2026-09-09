@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T05:03:36.237Z",
-  "updated_ts": 1788930216237,
+  "updated": "2026-09-09T09:37:17.647Z",
+  "updated_ts": 1788946637647,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "ZECUSDT",
-          "rsi": 82.3,
-          "price": 1243.39,
-          "vol": 224908132.93399,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XUSDUSDT",
-          "rsi": 81.1,
-          "price": 1.0003,
-          "vol": 4246151.5842,
-          "label": "ALTO"
+          "sym": "PHAUSDT",
+          "rsi": 89.9,
+          "price": 0.0295,
+          "vol": 2256163.0929,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -38,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 137
+      "scanned": 134
     },
     "1h": {
       "sell": [],
@@ -58,10 +51,25 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 134
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "FFUSDT",
+          "rsi": 84.3,
+          "price": 0.15732,
+          "vol": 18508414.078108,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ATOMUSDT",
+          "rsi": 81.6,
+          "price": 1.991,
+          "vol": 8018459.63083,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -78,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 137
+      "scanned": 134
     }
   }
 }
