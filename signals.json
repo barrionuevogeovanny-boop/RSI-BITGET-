@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-09T09:37:17.647Z",
-  "updated_ts": 1788946637647,
+  "updated": "2026-09-09T13:53:17.091Z",
+  "updated_ts": 1788961997091,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,18 @@
     "15m": {
       "sell": [
         {
-          "sym": "PHAUSDT",
-          "rsi": 89.9,
-          "price": 0.0295,
-          "vol": 2256163.0929,
-          "label": "MUY ALTO"
+          "sym": "SKHYBUSDT",
+          "rsi": 83.1,
+          "price": 194.75,
+          "vol": 3656700.71919,
+          "label": "ALTO"
+        },
+        {
+          "sym": "COTIUSDT",
+          "rsi": 82.6,
+          "price": 0.01916,
+          "vol": 3632206.07969,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,9 +36,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "GOOGLBUSDT",
+          "rsi": 22.7,
+          "price": 329.12,
+          "vol": 3015185.39337,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 138
     },
     "1h": {
       "sell": [],
@@ -44,6 +58,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "GOOGLBUSDT",
+          "rsi": 19.9,
+          "price": 329.12,
+          "vol": 3015185.39337,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -51,22 +72,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 138
     },
     "4h": {
       "sell": [
         {
           "sym": "FFUSDT",
-          "rsi": 84.3,
-          "price": 0.15732,
-          "vol": 18508414.078108,
+          "rsi": 81.9,
+          "price": 0.15115,
+          "vol": 12322554.595958,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SCUSDT",
+          "rsi": 81.6,
+          "price": 0.000905,
+          "vol": 2154435.634003,
           "label": "ALTO"
         },
         {
           "sym": "ATOMUSDT",
-          "rsi": 81.6,
-          "price": 1.991,
-          "vol": 8018459.63083,
+          "rsi": 80.4,
+          "price": 1.952,
+          "vol": 9873909.59805,
           "label": "ALTO"
         }
       ],
@@ -79,6 +107,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "GOOGLBUSDT",
+          "rsi": 21.6,
+          "price": 329.12,
+          "vol": 3015185.39337,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -86,7 +121,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 138
     }
   }
 }
