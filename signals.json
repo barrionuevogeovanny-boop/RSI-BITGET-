@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T00:17:39.995Z",
-  "updated_ts": 1788999459995,
+  "updated": "2026-09-10T04:53:11.742Z",
+  "updated_ts": 1789015991742,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "REZUSDT",
+          "rsi": 86.6,
+          "price": 0.003711,
+          "vol": 2661927.1046682,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,48 +29,13 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 16.8,
-          "price": 0.4807,
-          "vol": 2357413.90847,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 19.9,
-          "price": 0.03799,
-          "vol": 3701241.880137,
-          "label": "BAJO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 23.3,
-          "price": 0.02046,
-          "vol": 6977348.63178,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 24.9,
-          "price": 6.124,
-          "vol": 55484653.25478,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 152
+      "scanned": 155
     },
     "1h": {
       "sell": [],
       "buy": [
-        {
-          "sym": "ONGUSDT",
-          "rsi": 13.4,
-          "price": 0.08218,
-          "vol": 2182006.28466,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -71,31 +44,38 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ONGUSDT",
+          "rsi": 17.9,
+          "price": 0.08011,
+          "vol": 2144850.2865,
+          "label": "BAJO"
+        },
+        {
+          "sym": "HEIUSDT",
+          "rsi": 19.3,
+          "price": 0.1134,
+          "vol": 2513808.9208,
+          "label": "BAJO"
+        },
+        {
           "sym": "BANKUSDT",
-          "rsi": 20.5,
-          "price": 0.0303,
-          "vol": 3656350.62651,
+          "rsi": 22.9,
+          "price": 0.0295,
+          "vol": 3591963.08792,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "UNIUSDT",
-          "rsi": 21.5,
-          "price": 6.124,
-          "vol": 55484653.25478,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TUTUSDT",
-          "rsi": 21.6,
-          "price": 0.02046,
-          "vol": 6977348.63178,
+          "sym": "SANDUSDT",
+          "rsi": 22.9,
+          "price": 0.03629,
+          "vol": 3188942.28491,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "币安人生USDT",
-          "rsi": 22.2,
-          "price": 0.4807,
-          "vol": 2357413.90847,
+          "rsi": 23.2,
+          "price": 0.47,
+          "vol": 3916723.32608,
           "label": "SOBREVENDIDO"
         },
         {
@@ -104,45 +84,17 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 23.7,
-          "price": 0.1194,
-          "vol": 2121873.59506,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "MEGAUSDT",
-          "rsi": 23.8,
-          "price": 0.03799,
-          "vol": 3701241.880137,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SANDUSDT",
-          "rsi": 24.2,
-          "price": 0.03669,
-          "vol": 2930932.17795,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "HEMIUSDT",
-          "rsi": 24.6,
-          "price": 0.0066,
-          "vol": 8178322.441843,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 154
     },
     "4h": {
       "sell": [
         {
-          "sym": "FFUSDT",
-          "rsi": 80.7,
-          "price": 0.15203,
-          "vol": 9566311.598421,
+          "sym": "VTHOUSDT",
+          "rsi": 81.3,
+          "price": 0.000664,
+          "vol": 10093781.666246,
           "label": "ALTO"
         }
       ],
@@ -156,23 +108,30 @@
         },
         {
           "sym": "BANKUSDT",
-          "rsi": 17.6,
-          "price": 0.0303,
-          "vol": 3656350.62651,
+          "rsi": 15.6,
+          "price": 0.0295,
+          "vol": 3591963.08792,
           "label": "BAJO"
         },
         {
           "sym": "SKYUSDT",
-          "rsi": 22.3,
-          "price": 0.06209,
-          "vol": 2054499.18651,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.3,
+          "price": 0.06073,
+          "vol": 2582060.16776,
+          "label": "BAJO"
         },
         {
           "sym": "HEIUSDT",
-          "rsi": 22.8,
-          "price": 0.1194,
-          "vol": 2121873.59506,
+          "rsi": 19.4,
+          "price": 0.1134,
+          "vol": 2513808.9208,
+          "label": "BAJO"
+        },
+        {
+          "sym": "DEXEUSDT",
+          "rsi": 21.7,
+          "price": 1.797,
+          "vol": 3051341.58945,
           "label": "SOBREVENDIDO"
         },
         {
@@ -184,20 +143,27 @@
         },
         {
           "sym": "TRUMPUSDT",
-          "rsi": 24.4,
-          "price": 2.018,
-          "vol": 28664676.025006,
+          "rsi": 23.6,
+          "price": 2.001,
+          "vol": 31606121.324248,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MITOUSDT",
+          "rsi": 24.1,
+          "price": 0.01389,
+          "vol": 4485018.314206,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "ONGUSDT",
           "rsi": 24.7,
-          "price": 0.08218,
-          "vol": 2182006.28466,
+          "price": 0.08011,
+          "vol": 2144850.2865,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 154
     }
   }
 }
