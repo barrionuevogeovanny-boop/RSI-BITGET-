@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11T15:10:24.838Z",
-  "updated_ts": 1789139424838,
+  "updated": "2026-09-11T18:31:14.589Z",
+  "updated_ts": 1789151474589,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "AAPLBUSDT",
-          "rsi": 81.5,
-          "price": 335.14,
-          "vol": 2111897.96055,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,25 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "ORCLBUSDT",
-          "rsi": 22.8,
-          "price": 152.35,
-          "vol": 2100268.68253,
+          "sym": "ATOMUSDT",
+          "rsi": 23.2,
+          "price": 1.645,
+          "vol": 4113218.50361,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 140
+      "scanned": 139
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AAPLBUSDT",
-          "rsi": 82.9,
-          "price": 335.14,
-          "vol": 2111897.96055,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,18 +50,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 140
+      "scanned": 139
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "AAPLBUSDT",
-          "rsi": 80.4,
-          "price": 335.14,
-          "vol": 2111897.96055,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -88,10 +64,10 @@
         },
         {
           "sym": "RVNUSDT",
-          "rsi": 22.1,
-          "price": 0.00229,
-          "vol": 2524624.303572,
-          "label": "SOBREVENDIDO"
+          "rsi": 18.7,
+          "price": 0.00224,
+          "vol": 2047090.816631,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -101,7 +77,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 138
     }
   }
 }
