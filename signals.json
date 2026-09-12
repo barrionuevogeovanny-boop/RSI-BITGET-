@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T16:16:22.902Z",
-  "updated_ts": 1789229782902,
+  "updated": "2026-09-12T18:27:49.652Z",
+  "updated_ts": 1789237669652,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 81.5,
+          "price": 0.003908,
+          "vol": 21127708.37491,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,20 +29,33 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "VIRTUALUSDT",
+          "rsi": 22.3,
+          "price": 0.6257,
+          "vol": 2051363.37915,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XPLUSDT",
+          "rsi": 22.9,
+          "price": 0.08124,
+          "vol": 5575261.497116,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BCHUSDT",
+          "rsi": 24.3,
+          "price": 227.3,
+          "vol": 6905353.4872,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 102
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "LSKUSDT",
-          "rsi": 80.1,
-          "price": 0.259,
-          "vol": 13424216.26724,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,15 +72,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 102
     },
     "4h": {
       "sell": [
         {
           "sym": "LSKUSDT",
-          "rsi": 87.8,
-          "price": 0.259,
-          "vol": 13424216.26724,
+          "rsi": 89.2,
+          "price": 0.2664,
+          "vol": 15370738.43923,
           "label": "MUY ALTO"
         }
       ],
@@ -79,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 102
     }
   }
 }
