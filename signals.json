@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T13:07:54.158Z",
-  "updated_ts": 1789218474158,
+  "updated": "2026-09-12T16:16:22.902Z",
+  "updated_ts": 1789229782902,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,19 +21,20 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.1,
-          "price": 4348.2,
-          "vol": 7979401.398694,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 109
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "LSKUSDT",
+          "rsi": 80.1,
+          "price": 0.259,
+          "vol": 13424216.26724,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,15 +51,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "LSKUSDT",
-          "rsi": 86.6,
-          "price": 0.2326,
-          "vol": 9607961.04739,
+          "rsi": 87.8,
+          "price": 0.259,
+          "vol": 13424216.26724,
           "label": "MUY ALTO"
         }
       ],
@@ -78,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 109
     }
   }
 }
