@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T20:48:29.146Z",
-  "updated_ts": 1789246109146,
+  "updated": "2026-09-12T22:37:53.128Z",
+  "updated_ts": 1789252673128,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -24,29 +24,22 @@
         },
         {
           "sym": "NVDABUSDT",
-          "rsi": 20.9,
-          "price": 218.74,
-          "vol": 3014369.87648,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 23.4,
-          "price": 1623.78,
-          "vol": 2105988.550626,
+          "rsi": 23.7,
+          "price": 218.28,
+          "vol": 3121778.00015,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     },
     "1h": {
       "sell": [
         {
-          "sym": "ILVUSDT",
-          "rsi": 92.1,
-          "price": 3.84,
-          "vol": 2447590.48067,
-          "label": "EXTREMO"
+          "sym": "REZUSDT",
+          "rsi": 81.4,
+          "price": 0.004158,
+          "vol": 43339286.9713314,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -65,16 +58,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     },
     "4h": {
       "sell": [
         {
-          "sym": "ILVUSDT",
-          "rsi": 81.4,
-          "price": 3.84,
-          "vol": 2447590.48067,
-          "label": "ALTO"
+          "sym": "LSKUSDT",
+          "rsi": 87,
+          "price": 0.2688,
+          "vol": 18218809.87978,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -93,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 96
+      "scanned": 95
     }
   }
 }
