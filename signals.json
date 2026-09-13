@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T22:37:53.128Z",
-  "updated_ts": 1789252673128,
+  "updated": "2026-09-13T00:17:58.096Z",
+  "updated_ts": 1789258678096,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,25 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "NVDABUSDT",
-          "rsi": 23.7,
-          "price": 218.28,
-          "vol": 3121778.00015,
+          "sym": "GPSUSDT",
+          "rsi": 23.6,
+          "price": 0.00928,
+          "vol": 2671163.69578,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "REZUSDT",
-          "rsi": 81.4,
-          "price": 0.004158,
-          "vol": 43339286.9713314,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,6 +43,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "GPSUSDT",
+          "rsi": 21.4,
+          "price": 0.00928,
+          "vol": 2671163.69578,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -58,15 +57,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     },
     "4h": {
       "sell": [
         {
+          "sym": "KAVAUSDT",
+          "rsi": 89,
+          "price": 0.07261,
+          "vol": 2016822.04344,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "LSKUSDT",
-          "rsi": 87,
-          "price": 0.2688,
-          "vol": 18218809.87978,
+          "rsi": 88.1,
+          "price": 0.325,
+          "vol": 23995500.74287,
           "label": "MUY ALTO"
         }
       ],
@@ -86,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 94
     }
   }
 }
