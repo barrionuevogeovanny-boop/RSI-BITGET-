@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T19:37:32.817Z",
-  "updated_ts": 1789328252817,
+  "updated": "2026-09-13T21:40:33.195Z",
+  "updated_ts": 1789335633195,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
           "sym": "FILUSDT",
-          "rsi": 86,
-          "price": 0.9898,
-          "vol": 32041337.598101,
-          "label": "MUY ALTO"
+          "rsi": 85,
+          "price": 0.9943,
+          "vol": 34354377.449968,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -51,29 +51,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "FILUSDT",
-          "rsi": 83.5,
-          "price": 0.9898,
-          "vol": 32041337.598101,
+          "rsi": 84,
+          "price": 0.9943,
+          "vol": 34354377.449968,
           "label": "ALTO"
         },
         {
           "sym": "CVCUSDT",
-          "rsi": 82,
-          "price": 0.03608,
-          "vol": 18733974.8169,
-          "label": "ALTO"
-        },
-        {
-          "sym": "REZUSDT",
-          "rsi": 80,
-          "price": 0.005105,
-          "vol": 49705517.432004,
+          "rsi": 83.1,
+          "price": 0.0362,
+          "vol": 19961192.00391,
           "label": "ALTO"
         }
       ],
@@ -86,13 +79,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 22,
-          "price": 1563.15,
-          "vol": 9159623.044727,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -100,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 123
+      "scanned": 122
     }
   }
 }
