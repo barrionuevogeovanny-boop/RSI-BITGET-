@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T23:31:29.475Z",
-  "updated_ts": 1789342289475,
+  "updated": "2026-09-14T01:31:51.446Z",
+  "updated_ts": 1789349511446,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,14 +23,14 @@
           "label": "BAJO"
         },
         {
-          "sym": "TRXUSDT",
-          "rsi": 16.2,
-          "price": 0.3389,
-          "vol": 19053943.93879,
+          "sym": "SOXLBUSDT",
+          "rsi": 17.2,
+          "price": 111.62,
+          "vol": 7392435.03258,
           "label": "BAJO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "1h": {
       "sell": [],
@@ -43,14 +43,28 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SOXLBUSDT",
+          "rsi": 22.9,
+          "price": 111.62,
+          "vol": 7392435.03258,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MARSCOINUSDT",
+          "rsi": 24.7,
+          "price": 0.0933,
+          "vol": 19928697.81575,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "4h": {
       "sell": [],
@@ -63,6 +77,20 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SNDKBUSDT",
+          "rsi": 21,
+          "price": 1556,
+          "vol": 10676494.356861,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 23.3,
+          "price": 214.31,
+          "vol": 3159974.87849,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -70,7 +98,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     }
   }
 }
