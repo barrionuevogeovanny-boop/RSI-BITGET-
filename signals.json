@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-14T22:09:14.876Z",
-  "updated_ts": 1789423754876,
+  "updated": "2026-09-15T00:36:26.442Z",
+  "updated_ts": 1789432586442,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ASTRUSDT",
+          "rsi": 83.8,
+          "price": 0.00648,
+          "vol": 2187388.9669014,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,23 +29,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "VTHOUSDT",
-          "rsi": 20,
-          "price": 0.00064,
-          "vol": 9144440.799398,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOPHUSDT",
-          "rsi": 23.8,
-          "price": 0.00396,
-          "vol": 2440395.4805,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 137
     },
     "1h": {
       "sell": [],
@@ -57,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 136
     },
     "4h": {
       "sell": [],
@@ -70,28 +64,21 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "EURIUSDT",
+          "rsi": 22.1,
+          "price": 1.1544,
+          "vol": 3194257.30166,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "KORUBUSDT",
-          "rsi": 24.2,
-          "price": 19.05,
-          "vol": 4155126.578,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "EURIUSDT",
-          "rsi": 24.5,
-          "price": 1.1551,
-          "vol": 2984585.71646,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 138
+      "scanned": 136
     }
   }
 }
