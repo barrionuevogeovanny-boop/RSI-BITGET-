@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-15T10:09:38.496Z",
-  "updated_ts": 1789466978496,
+  "updated": "2026-09-15T14:58:59.057Z",
+  "updated_ts": 1789484339057,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,17 +13,144 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "USDCUSDT",
+          "rsi": 82,
+          "price": 1.00051,
+          "vol": 2974980861.3615,
+          "label": "ALTO"
+        },
+        {
+          "sym": "RLUSDUSDT",
+          "rsi": 80.4,
+          "price": 1.0006,
+          "vol": 73858633.6862,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
+        {
+          "sym": "ETHUSDT",
+          "rsi": 14.8,
+          "price": 2408.61,
+          "vol": 1024346164.738366,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ARUSDT",
+          "rsi": 16.6,
+          "price": 2.555,
+          "vol": 2132134.62537,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNCBUSDT",
+          "rsi": 17.4,
+          "price": 4.83,
+          "vol": 6303624.713,
+          "label": "BAJO"
+        },
+        {
+          "sym": "INJUSDT",
+          "rsi": 18.4,
+          "price": 5.672,
+          "vol": 11029236.70957,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CHIPUSDT",
+          "rsi": 19.7,
+          "price": 0.03779,
+          "vol": 2830615.61671,
+          "label": "BAJO"
+        },
+        {
+          "sym": "RAYUSDT",
+          "rsi": 20.1,
+          "price": 1.2978,
+          "vol": 5887671.83293,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 21.4,
+          "price": 0.3337,
+          "vol": 2373828.228463,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 21.7,
+          "price": 75823.47,
+          "vol": 3053786.8054351,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 22.7,
+          "price": 145.3,
+          "vol": 9279671.86649,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 22.9,
+          "price": 75970.01,
+          "vol": 1350279857.084755,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 23.2,
+          "price": 98.79,
+          "vol": 249427274.24846,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 23.2,
+          "price": 88.96,
+          "vol": 16007547.3613,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 23.7,
+          "price": 1.322,
+          "vol": 6187027.41472,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DASHUSDT",
+          "rsi": 23.8,
+          "price": 51.34,
+          "vol": 8636306.90808,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 24.3,
+          "price": 51.6,
+          "vol": 14984196.80138,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 24.5,
+          "price": 0.3367,
+          "vol": 33871968.47108,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 124
     },
     "1h": {
       "sell": [],
@@ -36,14 +163,84 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ZROUSDT",
+          "rsi": 18.8,
+          "price": 0.923,
+          "vol": 5166306.90022,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CHIPUSDT",
+          "rsi": 20.4,
+          "price": 0.03779,
+          "vol": 2830615.61671,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNCBUSDT",
+          "rsi": 20.7,
+          "price": 4.83,
+          "vol": 6303624.713,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "INJUSDT",
+          "rsi": 22.1,
+          "price": 5.672,
+          "vol": 11029236.70957,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 22.3,
+          "price": 75970.01,
+          "vol": 1350279857.084755,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 22.3,
+          "price": 75823.47,
+          "vol": 3053786.8054351,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 22.5,
+          "price": 2408.61,
+          "vol": 1024346164.738366,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 23.9,
+          "price": 0.3337,
+          "vol": 2373828.228463,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MORPHOUSDT",
+          "rsi": 24,
+          "price": 2.091,
+          "vol": 2622135.47476,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LTCUSDT",
+          "rsi": 24.5,
+          "price": 51.6,
+          "vol": 14984196.80138,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 124
     },
     "4h": {
       "sell": [],
@@ -56,13 +253,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "EURIUSDT",
-          "rsi": 20,
-          "price": 1.1537,
-          "vol": 3620762.11665,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -70,7 +260,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 123
     }
   }
 }
