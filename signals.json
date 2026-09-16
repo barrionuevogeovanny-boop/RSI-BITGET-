@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-16T12:13:01.039Z",
-  "updated_ts": 1789560781039,
+  "updated": "2026-09-16T16:58:25.923Z",
+  "updated_ts": 1789577905923,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,16 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 131
+      "scanned": 124
     },
     "1h": {
       "sell": [
         {
           "sym": "HEIUSDT",
-          "rsi": 86.2,
-          "price": 0.1338,
-          "vol": 5187221.02792,
-          "label": "MUY ALTO"
+          "rsi": 91.2,
+          "price": 0.1455,
+          "vol": 11082557.65455,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -44,6 +44,34 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "CRVUSDT",
+          "rsi": 19.1,
+          "price": 0.3015,
+          "vol": 4652430.27185,
+          "label": "BAJO"
+        },
+        {
+          "sym": "MMTUSDT",
+          "rsi": 19.2,
+          "price": 0.1256,
+          "vol": 2806244.24023,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SKYUSDT",
+          "rsi": 20.5,
+          "price": 0.05679,
+          "vol": 2082012.57604,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 21.6,
+          "price": 0.772,
+          "vol": 19055063.427867,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -51,23 +79,23 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "MMTUSDT",
-          "rsi": 24.4,
-          "price": 0.1294,
-          "vol": 2542419.71183,
+          "sym": "HOLOUSDT",
+          "rsi": 24.3,
+          "price": 0.0543,
+          "vol": 59665227.14816,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 124
     },
     "4h": {
       "sell": [
         {
-          "sym": "SYNUSDT",
-          "rsi": 86.8,
-          "price": 0.21393,
-          "vol": 33385876.364074,
-          "label": "MUY ALTO"
+          "sym": "HEIUSDT",
+          "rsi": 81.2,
+          "price": 0.1455,
+          "vol": 11082557.65455,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -80,16 +108,23 @@
         },
         {
           "sym": "MMTUSDT",
-          "rsi": 17,
-          "price": 0.1294,
-          "vol": 2542419.71183,
-          "label": "BAJO"
+          "rsi": 14.3,
+          "price": 0.1256,
+          "vol": 2806244.24023,
+          "label": "MUY BAJO"
         },
         {
-          "sym": "BONKUSDT",
+          "sym": "HOLOUSDT",
+          "rsi": 22.2,
+          "price": 0.0543,
+          "vol": 59665227.14816,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SKYUSDT",
           "rsi": 22.7,
-          "price": 0.00000252,
-          "vol": 3571646.52861673,
+          "price": 0.05679,
+          "vol": 2082012.57604,
           "label": "SOBREVENDIDO"
         },
         {
@@ -98,23 +133,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZKCUSDT",
-          "rsi": 24.2,
-          "price": 0.038,
-          "vol": 3198134.75573,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "APTUSDT",
-          "rsi": 24.6,
-          "price": 0.533,
-          "vol": 7634167.76518,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 123
     }
   }
 }
