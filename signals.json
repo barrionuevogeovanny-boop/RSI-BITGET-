@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17T10:21:03.292Z",
-  "updated_ts": 1789640463292,
+  "updated": "2026-09-17T15:05:31.415Z",
+  "updated_ts": 1789657531415,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,17 +21,31 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "KITEUSDT",
+          "rsi": 23.1,
+          "price": 0.1029,
+          "vol": 4644530.64179,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 131
     },
     "1h": {
       "sell": [
         {
-          "sym": "ONEUSDT",
-          "rsi": 83.1,
-          "price": 0.001492,
-          "vol": 17121251.1099992,
+          "sym": "PROVEUSDT",
+          "rsi": 81.1,
+          "price": 0.1927,
+          "vol": 4041007.55899,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 80.1,
+          "price": 219.42,
+          "vol": 7714793.46011,
           "label": "ALTO"
         }
       ],
@@ -51,23 +65,23 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 131
     },
     "4h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 93.4,
-          "price": 0.001492,
-          "vol": 17121251.1099992,
+          "rsi": 92.5,
+          "price": 0.00167,
+          "vol": 23012350.6620116,
           "label": "EXTREMO"
         },
         {
           "sym": "AVAUSDT",
-          "rsi": 82.8,
-          "price": 0.267,
-          "vol": 11369569.21333,
-          "label": "ALTO"
+          "rsi": 86,
+          "price": 0.309,
+          "vol": 19611229.80101,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -86,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 126
+      "scanned": 131
     }
   }
 }
