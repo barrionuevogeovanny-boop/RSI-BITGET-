@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17T22:00:22.744Z",
-  "updated_ts": 1789682422744,
+  "updated": "2026-09-18T00:03:42.331Z",
+  "updated_ts": 1789689822331,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,23 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     },
     "1h": {
       "sell": [
         {
           "sym": "COTIUSDT",
-          "rsi": 87.8,
-          "price": 0.02472,
-          "vol": 14468230.09032,
+          "rsi": 87.7,
+          "price": 0.02525,
+          "vol": 17691339.50019,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "BNCBUSDT",
-          "rsi": 84.4,
-          "price": 5.46,
-          "vol": 3326993.539,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -58,23 +51,30 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     },
     "4h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 92.1,
-          "price": 0.001674,
-          "vol": 31426484.3424369,
+          "rsi": 94.5,
+          "price": 0.001975,
+          "vol": 37280626.7365268,
           "label": "EXTREMO"
         },
         {
           "sym": "COTIUSDT",
           "rsi": 88.1,
-          "price": 0.02472,
-          "vol": 14468230.09032,
+          "price": 0.02525,
+          "vol": 17691339.50019,
           "label": "MUY ALTO"
+        },
+        {
+          "sym": "NEARUSDT",
+          "rsi": 83.7,
+          "price": 3.169,
+          "vol": 215715580.0512,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -93,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 127
     }
   }
 }
