@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-19T21:37:56.536Z",
-  "updated_ts": 1789853876536,
+  "updated": "2026-09-19T23:31:27.827Z",
+  "updated_ts": 1789860687827,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,52 +21,17 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "PENDLEUSDT",
-          "rsi": 20,
-          "price": 2.599,
-          "vol": 6486750.2704,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "EGLDUSDT",
-          "rsi": 21.2,
-          "price": 3.871,
-          "vol": 2495346.8433,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "LSKUSDT",
-          "rsi": 24.4,
-          "price": 0.398,
-          "vol": 13859612.5875,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 152
     },
     "1h": {
       "sell": [
         {
-          "sym": "SKLUSDT",
-          "rsi": 85.1,
-          "price": 0.0045,
-          "vol": 2661100.01899,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ONEUSDT",
-          "rsi": 84.9,
-          "price": 0.00485,
-          "vol": 68719884.9043613,
-          "label": "ALTO"
-        },
-        {
-          "sym": "CELRUSDT",
-          "rsi": 80.1,
-          "price": 0.002914,
-          "vol": 3037941.5892748,
+          "sym": "AVAXUSDT",
+          "rsi": 80.2,
+          "price": 9.97,
+          "vol": 81026047.56835,
           "label": "ALTO"
         }
       ],
@@ -86,50 +51,85 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 152
     },
     "4h": {
       "sell": [
         {
+          "sym": "CELRUSDT",
+          "rsi": 94,
+          "price": 0.003338,
+          "vol": 6924156.2219697,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "AVAXUSDT",
-          "rsi": 90.3,
-          "price": 9.612,
-          "vol": 77132864.7316,
+          "rsi": 91.8,
+          "price": 9.97,
+          "vol": 81026047.56835,
           "label": "EXTREMO"
         },
         {
           "sym": "ONEUSDT",
-          "rsi": 90.2,
-          "price": 0.00485,
-          "vol": 68719884.9043613,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "BANKUSDT",
-          "rsi": 86.9,
-          "price": 0.0382,
-          "vol": 122121103.61224,
+          "rsi": 87.1,
+          "price": 0.004263,
+          "vol": 80698246.7290209,
           "label": "MUY ALTO"
         },
         {
+          "sym": "BANKUSDT",
+          "rsi": 87,
+          "price": 0.0381,
+          "vol": 125631038.50526,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "HOMEUSDT",
+          "rsi": 86.2,
+          "price": 0.00659,
+          "vol": 3864772.65829,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ENAUSDT",
+          "rsi": 82.8,
+          "price": 0.2046,
+          "vol": 98048821.761999,
+          "label": "ALTO"
+        },
+        {
           "sym": "ZAMAUSDT",
-          "rsi": 81.7,
-          "price": 0.08286,
-          "vol": 51668344.37232,
+          "rsi": 82.8,
+          "price": 0.08341,
+          "vol": 52685738.72036,
           "label": "ALTO"
         },
         {
           "sym": "SKLUSDT",
-          "rsi": 80.7,
-          "price": 0.0045,
-          "vol": 2661100.01899,
+          "rsi": 82.4,
+          "price": 0.00462,
+          "vol": 5398918.61682,
           "label": "ALTO"
         },
         {
-          "sym": "CELRUSDT",
-          "rsi": 80.2,
-          "price": 0.002914,
-          "vol": 3037941.5892748,
+          "sym": "NILUSDT",
+          "rsi": 82,
+          "price": 0.05082,
+          "vol": 2197541.572036,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GUSDT",
+          "rsi": 81.4,
+          "price": 0.01077,
+          "vol": 44361000.46039,
+          "label": "ALTO"
+        },
+        {
+          "sym": "INJUSDT",
+          "rsi": 80.3,
+          "price": 8.039,
+          "vol": 36417090.62447,
           "label": "ALTO"
         }
       ],
@@ -149,7 +149,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 152
     }
   }
 }
