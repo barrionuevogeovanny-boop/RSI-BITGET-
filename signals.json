@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T06:53:20.965Z",
-  "updated_ts": 1789887200965,
+  "updated": "2026-09-20T11:55:03.045Z",
+  "updated_ts": 1789905303045,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,32 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "CRCLBUSDT",
-          "rsi": 22.4,
-          "price": 89.31,
-          "vol": 13075327.9226,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPYBUSDT",
-          "rsi": 23.7,
-          "price": 760.85,
-          "vol": 3676189.11907,
-          "label": "SOBREVENDIDO"
+          "sym": "JSTUSDT",
+          "rsi": 16.2,
+          "price": 0.11372,
+          "vol": 4090957.742777,
+          "label": "BAJO"
         }
       ],
-      "scanned": 149
+      "scanned": 153
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ONGUSDT",
-          "rsi": 81.9,
-          "price": 0.0909,
-          "vol": 2922948.81047,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -65,64 +50,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 153
     },
     "4h": {
       "sell": [
         {
           "sym": "CELRUSDT",
-          "rsi": 97.5,
-          "price": 0.004893,
-          "vol": 23583174.7303612,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "CTSIUSDT",
-          "rsi": 89.9,
-          "price": 0.0325,
-          "vol": 4615118.12022,
+          "rsi": 89.4,
+          "price": 0.004089,
+          "vol": 30153773.1462134,
           "label": "MUY ALTO"
         },
         {
-          "sym": "GUSDT",
-          "rsi": 88.9,
-          "price": 0.01471,
-          "vol": 58706983.5488,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SKLUSDT",
-          "rsi": 87.6,
-          "price": 0.00505,
-          "vol": 8653536.00085,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "CUSDT",
-          "rsi": 86,
-          "price": 0.0924,
-          "vol": 6320689.64806,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "ZAMAUSDT",
-          "rsi": 82.5,
-          "price": 0.08596,
-          "vol": 53272868.80535,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ONGUSDT",
-          "rsi": 81.5,
-          "price": 0.0909,
-          "vol": 2922948.81047,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HOMEUSDT",
+          "sym": "PROVEUSDT",
           "rsi": 81.2,
-          "price": 0.00666,
-          "vol": 4132056.94283,
+          "price": 0.2261,
+          "vol": 9015939.38327,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 80.3,
+          "price": 10.308,
+          "vol": 104437015.2796,
           "label": "ALTO"
         }
       ],
@@ -142,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 153
     }
   }
 }
