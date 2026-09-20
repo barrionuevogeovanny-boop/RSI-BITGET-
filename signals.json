@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T20:50:51.939Z",
-  "updated_ts": 1789937451939,
+  "updated": "2026-09-20T22:44:36.928Z",
+  "updated_ts": 1789944276928,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,59 +15,59 @@
     "15m": {
       "sell": [
         {
-          "sym": "FFUSDT",
-          "rsi": 90.3,
-          "price": 0.16174,
-          "vol": 3732877.543164,
-          "label": "EXTREMO"
-        },
-        {
           "sym": "EURUSDT",
-          "rsi": 81.2,
-          "price": 1.1537,
-          "vol": 6909302.53012,
-          "label": "ALTO"
+          "rsi": 93.7,
+          "price": 1.1604,
+          "vol": 7109128.98504,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 10.6,
+          "price": 0.11145,
+          "vol": 3434762.399536,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 24.8,
-          "price": 0.1135,
-          "vol": 3105962.713743,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     },
     "1h": {
       "sell": [
         {
-          "sym": "NILUSDT",
-          "rsi": 86.8,
-          "price": 0.06274,
-          "vol": 4222240.510308,
-          "label": "MUY ALTO"
+          "sym": "EURUSDT",
+          "rsi": 91.1,
+          "price": 1.1604,
+          "vol": 7109128.98504,
+          "label": "EXTREMO"
         },
         {
-          "sym": "FFUSDT",
-          "rsi": 86.7,
-          "price": 0.16174,
-          "vol": 3732877.543164,
+          "sym": "NILUSDT",
+          "rsi": 88.2,
+          "price": 0.06498,
+          "vol": 4841471.433996,
           "label": "MUY ALTO"
         },
         {
           "sym": "KMNOUSDT",
-          "rsi": 80.1,
-          "price": 0.03227,
-          "vol": 2449129.57222,
+          "rsi": 82.3,
+          "price": 0.0329,
+          "vol": 2716975.50066,
+          "label": "ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 80.6,
+          "price": 0.175,
+          "vol": 7686996.994555,
           "label": "ALTO"
         }
       ],
@@ -87,50 +87,43 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     },
     "4h": {
       "sell": [
         {
           "sym": "NILUSDT",
-          "rsi": 84.9,
-          "price": 0.06274,
-          "vol": 4222240.510308,
+          "rsi": 86.3,
+          "price": 0.06498,
+          "vol": 4841471.433996,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LUNAUSDT",
+          "rsi": 85.1,
+          "price": 0.0559,
+          "vol": 9235142.690212,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "FFUSDT",
+          "rsi": 83.9,
+          "price": 0.175,
+          "vol": 7686996.994555,
           "label": "ALTO"
         },
         {
           "sym": "PROVEUSDT",
-          "rsi": 80.6,
-          "price": 0.2262,
-          "vol": 58793422.33373,
+          "rsi": 81.4,
+          "price": 0.2274,
+          "vol": 58793321.03409,
           "label": "ALTO"
         },
         {
           "sym": "AVAXUSDT",
-          "rsi": 80.4,
-          "price": 11.218,
-          "vol": 153071029.4298,
-          "label": "ALTO"
-        },
-        {
-          "sym": "NEARUSDT",
-          "rsi": 80.4,
-          "price": 4.186,
-          "vol": 322576793.6106,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SUSDT",
-          "rsi": 80.2,
-          "price": 0.04001,
-          "vol": 7820797.94611,
-          "label": "ALTO"
-        },
-        {
-          "sym": "LUNAUSDT",
-          "rsi": 80.1,
-          "price": 0.0547,
-          "vol": 8964065.390167,
+          "rsi": 80.7,
+          "price": 11.287,
+          "vol": 154904732.45272,
           "label": "ALTO"
         }
       ],
@@ -150,7 +143,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     }
   }
 }
