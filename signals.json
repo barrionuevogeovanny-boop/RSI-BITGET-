@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T15:18:25.670Z",
-  "updated_ts": 1789917505670,
+  "updated": "2026-09-20T18:13:12.224Z",
+  "updated_ts": 1789927992224,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "AVAXUSDT",
-          "rsi": 83.2,
-          "price": 11.235,
-          "vol": 132132841.90324,
+          "sym": "NILUSDT",
+          "rsi": 91.5,
+          "price": 0.057,
+          "vol": 2035289.471551,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 82.2,
+          "price": 0.03171,
+          "vol": 2253912.41416,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SEIUSDT",
+          "rsi": 81.1,
+          "price": 0.05141,
+          "vol": 8472548.67404,
           "label": "ALTO"
         }
       ],
@@ -31,15 +45,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 148
+      "scanned": 153
     },
     "1h": {
       "sell": [
         {
-          "sym": "HBARUSDT",
-          "rsi": 80,
-          "price": 0.08942,
-          "vol": 26493067.34546,
+          "sym": "FTTUSDT",
+          "rsi": 89,
+          "price": 0.2655,
+          "vol": 3941259.221183,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "LUNAUSDT",
+          "rsi": 83.7,
+          "price": 0.057,
+          "vol": 7648889.326648,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 83.5,
+          "price": 0.03504,
+          "vol": 22518479.086586,
           "label": "ALTO"
         }
       ],
@@ -59,22 +87,43 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 153
     },
     "4h": {
       "sell": [
         {
-          "sym": "AVAXUSDT",
-          "rsi": 85.2,
-          "price": 11.235,
-          "vol": 132132841.90324,
+          "sym": "LUNAUSDT",
+          "rsi": 86.3,
+          "price": 0.057,
+          "vol": 7648889.326648,
           "label": "MUY ALTO"
         },
         {
-          "sym": "CELRUSDT",
-          "rsi": 81.4,
-          "price": 0.003946,
-          "vol": 33410578.305136,
+          "sym": "FTTUSDT",
+          "rsi": 85.4,
+          "price": 0.2655,
+          "vol": 3941259.221183,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 81.8,
+          "price": 11.228,
+          "vol": 152510192.29043,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 81.8,
+          "price": 0.03504,
+          "vol": 22518479.086586,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 80.2,
+          "price": 0.057,
+          "vol": 2035289.471551,
           "label": "ALTO"
         }
       ],
@@ -94,7 +143,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 148
+      "scanned": 153
     }
   }
 }
