@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T11:55:03.045Z",
-  "updated_ts": 1789905303045,
+  "updated": "2026-09-20T15:18:25.670Z",
+  "updated_ts": 1789917505670,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 83.2,
+          "price": 11.235,
+          "vol": 132132841.90324,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,19 +29,20 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 16.2,
-          "price": 0.11372,
-          "vol": 4090957.742777,
-          "label": "BAJO"
         }
       ],
-      "scanned": 153
+      "scanned": 148
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HBARUSDT",
+          "rsi": 80,
+          "price": 0.08942,
+          "vol": 26493067.34546,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,29 +59,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 148
     },
     "4h": {
       "sell": [
         {
-          "sym": "CELRUSDT",
-          "rsi": 89.4,
-          "price": 0.004089,
-          "vol": 30153773.1462134,
+          "sym": "AVAXUSDT",
+          "rsi": 85.2,
+          "price": 11.235,
+          "vol": 132132841.90324,
           "label": "MUY ALTO"
         },
         {
-          "sym": "PROVEUSDT",
-          "rsi": 81.2,
-          "price": 0.2261,
-          "vol": 9015939.38327,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AVAXUSDT",
-          "rsi": 80.3,
-          "price": 10.308,
-          "vol": 104437015.2796,
+          "sym": "CELRUSDT",
+          "rsi": 81.4,
+          "price": 0.003946,
+          "vol": 33410578.305136,
           "label": "ALTO"
         }
       ],
@@ -92,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 148
     }
   }
 }
