@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-20T18:13:12.224Z",
-  "updated_ts": 1789927992224,
+  "updated": "2026-09-20T20:50:51.939Z",
+  "updated_ts": 1789937451939,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,24 +15,17 @@
     "15m": {
       "sell": [
         {
-          "sym": "NILUSDT",
-          "rsi": 91.5,
-          "price": 0.057,
-          "vol": 2035289.471551,
+          "sym": "FFUSDT",
+          "rsi": 90.3,
+          "price": 0.16174,
+          "vol": 3732877.543164,
           "label": "EXTREMO"
         },
         {
-          "sym": "KMNOUSDT",
-          "rsi": 82.2,
-          "price": 0.03171,
-          "vol": 2253912.41416,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SEIUSDT",
-          "rsi": 81.1,
-          "price": 0.05141,
-          "vol": 8472548.67404,
+          "sym": "EURUSDT",
+          "rsi": 81.2,
+          "price": 1.1537,
+          "vol": 6909302.53012,
           "label": "ALTO"
         }
       ],
@@ -43,31 +36,38 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 24.8,
+          "price": 0.1135,
+          "vol": 3105962.713743,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 155
     },
     "1h": {
       "sell": [
         {
-          "sym": "FTTUSDT",
-          "rsi": 89,
-          "price": 0.2655,
-          "vol": 3941259.221183,
+          "sym": "NILUSDT",
+          "rsi": 86.8,
+          "price": 0.06274,
+          "vol": 4222240.510308,
           "label": "MUY ALTO"
         },
         {
-          "sym": "LUNAUSDT",
-          "rsi": 83.7,
-          "price": 0.057,
-          "vol": 7648889.326648,
-          "label": "ALTO"
+          "sym": "FFUSDT",
+          "rsi": 86.7,
+          "price": 0.16174,
+          "vol": 3732877.543164,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "SAGAUSDT",
-          "rsi": 83.5,
-          "price": 0.03504,
-          "vol": 22518479.086586,
+          "sym": "KMNOUSDT",
+          "rsi": 80.1,
+          "price": 0.03227,
+          "vol": 2449129.57222,
           "label": "ALTO"
         }
       ],
@@ -87,43 +87,50 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 155
     },
     "4h": {
       "sell": [
         {
-          "sym": "LUNAUSDT",
-          "rsi": 86.3,
-          "price": 0.057,
-          "vol": 7648889.326648,
-          "label": "MUY ALTO"
+          "sym": "NILUSDT",
+          "rsi": 84.9,
+          "price": 0.06274,
+          "vol": 4222240.510308,
+          "label": "ALTO"
         },
         {
-          "sym": "FTTUSDT",
-          "rsi": 85.4,
-          "price": 0.2655,
-          "vol": 3941259.221183,
-          "label": "MUY ALTO"
+          "sym": "PROVEUSDT",
+          "rsi": 80.6,
+          "price": 0.2262,
+          "vol": 58793422.33373,
+          "label": "ALTO"
         },
         {
           "sym": "AVAXUSDT",
-          "rsi": 81.8,
-          "price": 11.228,
-          "vol": 152510192.29043,
+          "rsi": 80.4,
+          "price": 11.218,
+          "vol": 153071029.4298,
           "label": "ALTO"
         },
         {
-          "sym": "SAGAUSDT",
-          "rsi": 81.8,
-          "price": 0.03504,
-          "vol": 22518479.086586,
+          "sym": "NEARUSDT",
+          "rsi": 80.4,
+          "price": 4.186,
+          "vol": 322576793.6106,
           "label": "ALTO"
         },
         {
-          "sym": "NILUSDT",
+          "sym": "SUSDT",
           "rsi": 80.2,
-          "price": 0.057,
-          "vol": 2035289.471551,
+          "price": 0.04001,
+          "vol": 7820797.94611,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LUNAUSDT",
+          "rsi": 80.1,
+          "price": 0.0547,
+          "vol": 8964065.390167,
           "label": "ALTO"
         }
       ],
@@ -143,7 +150,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 155
     }
   }
 }
