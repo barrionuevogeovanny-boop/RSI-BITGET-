@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-22T06:51:48.148Z",
-  "updated_ts": 1790059908148,
+  "updated": "2026-09-22T12:08:00.324Z",
+  "updated_ts": 1790078880324,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,43 +23,36 @@
           "label": "BAJO"
         },
         {
-          "sym": "SOPHUSDT",
-          "rsi": 18.6,
-          "price": 0.0039,
-          "vol": 2162933.23164,
+          "sym": "PROMUSDT",
+          "rsi": 18.4,
+          "price": 4.602,
+          "vol": 2317966.58001,
           "label": "BAJO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 23.9,
+          "price": 0.3455,
+          "vol": 48994278.25688,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 184
+      "scanned": 179
     },
     "1h": {
       "sell": [
         {
-          "sym": "MUBARAKUSDT",
-          "rsi": 89.2,
-          "price": 0.06063,
-          "vol": 29570057.427656,
+          "sym": "KITEUSDT",
+          "rsi": 89.6,
+          "price": 0.1348,
+          "vol": 3834936.06145,
           "label": "MUY ALTO"
         },
         {
-          "sym": "TSTUSDT",
-          "rsi": 82.2,
-          "price": 0.01822,
-          "vol": 3231004.980695,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BROCCOLI714USDT",
-          "rsi": 82.1,
-          "price": 0.02296,
-          "vol": 3920869.98031,
-          "label": "ALTO"
-        },
-        {
-          "sym": "KITEUSDT",
-          "rsi": 80.1,
-          "price": 0.1263,
-          "vol": 2240487.78247,
+          "sym": "MUBARAKUSDT",
+          "rsi": 83,
+          "price": 0.06766,
+          "vol": 42272615.105015,
           "label": "ALTO"
         }
       ],
@@ -73,10 +66,10 @@
         },
         {
           "sym": "SOPHUSDT",
-          "rsi": 15.7,
-          "price": 0.0039,
-          "vol": 2162933.23164,
-          "label": "BAJO"
+          "rsi": 14.5,
+          "price": 0.00379,
+          "vol": 3056741.60656,
+          "label": "MUY BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -86,71 +79,64 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 184
+      "scanned": 179
     },
     "4h": {
       "sell": [
         {
           "sym": "MUBARAKUSDT",
-          "rsi": 89.8,
-          "price": 0.06063,
-          "vol": 29570057.427656,
-          "label": "MUY ALTO"
+          "rsi": 91.9,
+          "price": 0.06766,
+          "vol": 42272615.105015,
+          "label": "EXTREMO"
         },
         {
-          "sym": "COOKIEUSDT",
-          "rsi": 87.8,
-          "price": 0.0134,
-          "vol": 2484157.47784,
+          "sym": "BROCCOLI714USDT",
+          "rsi": 88.6,
+          "price": 0.02412,
+          "vol": 5495456.88029,
           "label": "MUY ALTO"
         },
         {
           "sym": "NILUSDT",
-          "rsi": 85.9,
-          "price": 0.07598,
-          "vol": 7305185.576285,
+          "rsi": 87.7,
+          "price": 0.07951,
+          "vol": 7932536.14439,
           "label": "MUY ALTO"
         },
         {
-          "sym": "BROCCOLI714USDT",
-          "rsi": 85.9,
-          "price": 0.02296,
-          "vol": 3920869.98031,
+          "sym": "KITEUSDT",
+          "rsi": 85.4,
+          "price": 0.1348,
+          "vol": 3834936.06145,
           "label": "MUY ALTO"
         },
         {
-          "sym": "XNOUSDT",
-          "rsi": 82.8,
-          "price": 0.435,
-          "vol": 2880517.0175,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ARKMUSDT",
-          "rsi": 82.3,
-          "price": 0.1304,
-          "vol": 4057640.10939,
-          "label": "ALTO"
-        },
-        {
-          "sym": "KERNELUSDT",
-          "rsi": 81.7,
-          "price": 0.0631,
-          "vol": 7540987.31024,
-          "label": "ALTO"
-        },
-        {
-          "sym": "BONKUSDT",
-          "rsi": 81.6,
-          "price": 0.00000359,
-          "vol": 15201145.57353931,
+          "sym": "HOTUSDT",
+          "rsi": 83.3,
+          "price": 0.00047,
+          "vol": 2467097.612348,
           "label": "ALTO"
         },
         {
           "sym": "TSTUSDT",
-          "rsi": 80.2,
-          "price": 0.01822,
-          "vol": 3231004.980695,
+          "rsi": 82.5,
+          "price": 0.01913,
+          "vol": 4831182.211449,
+          "label": "ALTO"
+        },
+        {
+          "sym": "KERNELUSDT",
+          "rsi": 81.3,
+          "price": 0.0633,
+          "vol": 8303543.63565,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TAOUSDT",
+          "rsi": 80.6,
+          "price": 320.4,
+          "vol": 103361528.58246,
           "label": "ALTO"
         }
       ],
@@ -168,16 +154,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SOXSBUSDT",
-          "rsi": 24.2,
-          "price": 35.7,
-          "vol": 2397676.0983,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 184
+      "scanned": 179
     }
   }
 }
