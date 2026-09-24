@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T10:06:24.290Z",
-  "updated_ts": 1790244384290,
+  "updated": "2026-09-24T15:00:13.367Z",
+  "updated_ts": 1790262013367,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,40 +21,20 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 16.3,
-          "price": 0.3387,
-          "vol": 41133356.33344,
-          "label": "BAJO"
-        },
-        {
-          "sym": "MARSCOINUSDT",
-          "rsi": 19.8,
-          "price": 0.1117,
-          "vol": 28717024.6514,
-          "label": "BAJO"
-        },
-        {
-          "sym": "HEIUSDT",
-          "rsi": 21.2,
-          "price": 0.1429,
-          "vol": 2196140.84813,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 24.2,
-          "price": 1.4588,
-          "vol": 365409945.80091,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 182
+      "scanned": 165
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BROCCOLI714USDT",
+          "rsi": 86.3,
+          "price": 0.03179,
+          "vol": 12517424.40153,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -64,38 +44,32 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 20.6,
-          "price": 147.4,
-          "vol": 13419199.67717,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "QQQBUSDT",
-          "rsi": 21,
-          "price": 733.24,
-          "vol": 5877833.24795,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AGPUBUSDT",
-          "rsi": 22.6,
-          "price": 11.68,
-          "vol": 2282421.6503,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 23.5,
+          "price": 221.59,
+          "vol": 7767758.09843,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 182
+      "scanned": 164
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BROCCOLI714USDT",
+          "rsi": 84.7,
+          "price": 0.03179,
+          "vol": 12517424.40153,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -112,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 181
+      "scanned": 164
     }
   }
 }
