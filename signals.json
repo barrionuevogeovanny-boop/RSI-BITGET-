@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-23T22:11:09.162Z",
-  "updated_ts": 1790201469162,
+  "updated": "2026-09-24T00:30:11.636Z",
+  "updated_ts": 1790209811636,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ONEUSDT",
+          "rsi": 24.6,
+          "price": 0.002523,
+          "vol": 15251672.2612798,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 192
+      "scanned": 190
     },
     "1h": {
       "sell": [],
@@ -36,24 +43,10 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HOMEUSDT",
-          "rsi": 22,
-          "price": 0.00594,
-          "vol": 2038153.01883,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "JTOUSDT",
           "rsi": 22.2,
-          "price": 0.4568,
-          "vol": 3872781.71238,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 23.1,
-          "price": 149,
-          "vol": 12293005.93471,
+          "price": 0.4534,
+          "vol": 3981657.05085,
           "label": "SOBREVENDIDO"
         },
         {
@@ -64,17 +57,32 @@
           "label": "SOBREVENDIDO"
         },
         {
+          "sym": "SPCXBUSDT",
+          "rsi": 24.3,
+          "price": 148.95,
+          "vol": 11500260.55366,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "GOOGLBUSDT",
-          "rsi": 23.8,
-          "price": 339.03,
-          "vol": 2621454.99754,
+          "rsi": 24.6,
+          "price": 339.05,
+          "vol": 2617554.74506,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 192
+      "scanned": 190
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "NILUSDT",
+          "rsi": 82.3,
+          "price": 0.12963,
+          "vol": 33572288.908569,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -91,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 192
+      "scanned": 190
     }
   }
 }
