@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-25T00:33:26.020Z",
-  "updated_ts": 1790296406020,
+  "updated": "2026-09-25T05:18:36.739Z",
+  "updated_ts": 1790313516739,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SAGAUSDT",
-          "rsi": 89.6,
-          "price": 0.07851,
-          "vol": 37687037.195222,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,32 +21,18 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "USD1USDT",
-          "rsi": 22.1,
-          "price": 0.9993,
-          "vol": 186022061.83101,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 164
+      "scanned": 163
     },
     "1h": {
       "sell": [
         {
-          "sym": "SAGAUSDT",
-          "rsi": 89.5,
-          "price": 0.07851,
-          "vol": 37687037.195222,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "QNTUSDT",
-          "rsi": 80.6,
-          "price": 89.12,
-          "vol": 4608726.38288,
-          "label": "ALTO"
+          "sym": "QIUSDT",
+          "rsi": 91.1,
+          "price": 0.003264,
+          "vol": 8247116.023461,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -78,25 +56,25 @@
     "4h": {
       "sell": [
         {
-          "sym": "ARKUSDT",
-          "rsi": 87.2,
-          "price": 0.2035,
-          "vol": 4666300.2895,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SAGAUSDT",
-          "rsi": 84.4,
-          "price": 0.07851,
-          "vol": 37687037.195222,
-          "label": "ALTO"
+          "sym": "QIUSDT",
+          "rsi": 95.1,
+          "price": 0.003264,
+          "vol": 8247116.023461,
+          "label": "EXTREMO"
         },
         {
           "sym": "QNTUSDT",
-          "rsi": 82.8,
-          "price": 89.12,
-          "vol": 4608726.38288,
-          "label": "ALTO"
+          "rsi": 88.9,
+          "price": 94.84,
+          "vol": 6786799.32284,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "ARKUSDT",
+          "rsi": 85.9,
+          "price": 0.1987,
+          "vol": 6400845.2979,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -115,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 163
+      "scanned": 162
     }
   }
 }
