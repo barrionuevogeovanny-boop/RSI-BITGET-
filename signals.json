@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-25T19:20:28.011Z",
-  "updated_ts": 1790364028011,
+  "updated": "2026-09-25T22:31:25.953Z",
+  "updated_ts": 1790375485953,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,36 +23,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 160
+      "scanned": 165
     },
     "1h": {
       "sell": [
         {
-          "sym": "PHAUSDT",
-          "rsi": 89.1,
-          "price": 0.0843,
-          "vol": 26814105.3411,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "AEROUSDT",
-          "rsi": 84.7,
-          "price": 0.8479,
-          "vol": 9829217.29808,
+          "sym": "JSTUSDT",
+          "rsi": 82.4,
+          "price": 0.12202,
+          "vol": 4992219.575009,
           "label": "ALTO"
         },
         {
-          "sym": "RAREUSDT",
-          "rsi": 82.8,
-          "price": 0.01684,
-          "vol": 8295082.350126,
+          "sym": "SEIUSDT",
+          "rsi": 82.1,
+          "price": 0.07446,
+          "vol": 21511296.883108,
           "label": "ALTO"
         },
         {
-          "sym": "PROMUSDT",
-          "rsi": 81.1,
-          "price": 6.225,
-          "vol": 4016499.32782,
+          "sym": "ENAUSDT",
+          "rsi": 80.3,
+          "price": 0.2649,
+          "vol": 121729903.664317,
           "label": "ALTO"
         }
       ],
@@ -70,31 +63,38 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "CRCLBUSDT",
+          "rsi": 24.7,
+          "price": 86.88,
+          "vol": 21662476.9084,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 160
+      "scanned": 165
     },
     "4h": {
       "sell": [
         {
           "sym": "ARKUSDT",
-          "rsi": 88.6,
-          "price": 0.2426,
-          "vol": 12736710.2373,
+          "rsi": 86.6,
+          "price": 0.2402,
+          "vol": 12447346.4032,
           "label": "MUY ALTO"
         },
         {
           "sym": "PHAUSDT",
-          "rsi": 84.1,
-          "price": 0.0843,
-          "vol": 26814105.3411,
-          "label": "ALTO"
+          "rsi": 86.1,
+          "price": 0.0917,
+          "vol": 32698208.1655,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "RAREUSDT",
-          "rsi": 82.4,
-          "price": 0.01684,
-          "vol": 8295082.350126,
+          "sym": "SEIUSDT",
+          "rsi": 82,
+          "price": 0.07446,
+          "vol": 21511296.883108,
           "label": "ALTO"
         }
       ],
@@ -114,7 +114,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 164
     }
   }
 }
