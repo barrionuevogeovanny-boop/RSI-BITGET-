@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-25T10:17:00.983Z",
-  "updated_ts": 1790331420983,
+  "updated": "2026-09-25T15:19:51.609Z",
+  "updated_ts": 1790349591609,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BEAMXUSDT",
-          "rsi": 84.9,
-          "price": 0.002138,
-          "vol": 3522480.924124,
-          "label": "ALTO"
-        },
-        {
-          "sym": "JTOUSDT",
-          "rsi": 80.8,
-          "price": 0.5325,
-          "vol": 4027699.98953,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,30 +23,37 @@
           "label": "BAJO"
         },
         {
-          "sym": "TRXUSDT",
-          "rsi": 21,
-          "price": 0.3371,
-          "vol": 30272180.45827,
+          "sym": "INTCBUSDT",
+          "rsi": 19,
+          "price": 123.98,
+          "vol": 2182233.58984,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SYNUSDT",
+          "rsi": 22.1,
+          "price": 0.19136,
+          "vol": 6737062.734359,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "CAKEUSDT",
-          "rsi": 22.7,
-          "price": 2.711,
-          "vol": 13535544.43854,
+          "sym": "CRCLBUSDT",
+          "rsi": 22.8,
+          "price": 88.38,
+          "vol": 22459751.5752,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 157
+      "scanned": 161
     },
     "1h": {
       "sell": [
         {
-          "sym": "QIUSDT",
-          "rsi": 86.8,
-          "price": 0.004256,
-          "vol": 13308177.083662,
-          "label": "MUY ALTO"
+          "sym": "PHAUSDT",
+          "rsi": 91.7,
+          "price": 0.0771,
+          "vol": 19969140.3373,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -80,29 +72,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 157
+      "scanned": 161
     },
     "4h": {
       "sell": [
         {
-          "sym": "QIUSDT",
-          "rsi": 96.8,
-          "price": 0.004256,
-          "vol": 13308177.083662,
-          "label": "EXTREMO"
+          "sym": "PHAUSDT",
+          "rsi": 81.2,
+          "price": 0.0771,
+          "vol": 19969140.3373,
+          "label": "ALTO"
         },
         {
           "sym": "ARKUSDT",
-          "rsi": 90.8,
-          "price": 0.2217,
-          "vol": 8598686.9394,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "QNTUSDT",
-          "rsi": 84.3,
-          "price": 99.15,
-          "vol": 12836615.08147,
+          "rsi": 80.4,
+          "price": 0.2242,
+          "vol": 11830833.5614,
           "label": "ALTO"
         }
       ],
@@ -122,7 +107,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 160
     }
   }
 }
