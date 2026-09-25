@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-24T22:12:03.724Z",
-  "updated_ts": 1790287923724,
+  "updated": "2026-09-25T00:33:26.020Z",
+  "updated_ts": 1790296406020,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,17 +16,10 @@
       "sell": [
         {
           "sym": "SAGAUSDT",
-          "rsi": 92.1,
-          "price": 0.06602,
-          "vol": 19648211.799064,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 81.8,
-          "price": 0.11404,
-          "vol": 28459880.440531,
-          "label": "ALTO"
+          "rsi": 89.6,
+          "price": 0.07851,
+          "vol": 37687037.195222,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -36,31 +29,31 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "USD1USDT",
+          "rsi": 22.1,
+          "price": 0.9993,
+          "vol": 186022061.83101,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 163
+      "scanned": 164
     },
     "1h": {
       "sell": [
         {
-          "sym": "QNTUSDT",
-          "rsi": 86.4,
-          "price": 90.47,
-          "vol": 4017661.66319,
+          "sym": "SAGAUSDT",
+          "rsi": 89.5,
+          "price": 0.07851,
+          "vol": 37687037.195222,
           "label": "MUY ALTO"
         },
         {
-          "sym": "SAGAUSDT",
-          "rsi": 84.7,
-          "price": 0.06602,
-          "vol": 19648211.799064,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 82.8,
-          "price": 0.11404,
-          "vol": 28459880.440531,
+          "sym": "QNTUSDT",
+          "rsi": 80.6,
+          "price": 89.12,
+          "vol": 4608726.38288,
           "label": "ALTO"
         }
       ],
@@ -80,22 +73,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 162
+      "scanned": 163
     },
     "4h": {
       "sell": [
         {
-          "sym": "QNTUSDT",
-          "rsi": 86.9,
-          "price": 90.47,
-          "vol": 4017661.66319,
+          "sym": "ARKUSDT",
+          "rsi": 87.2,
+          "price": 0.2035,
+          "vol": 4666300.2895,
           "label": "MUY ALTO"
         },
         {
-          "sym": "ARKUSDT",
-          "rsi": 82.5,
-          "price": 0.1931,
-          "vol": 4191578.4889,
+          "sym": "SAGAUSDT",
+          "rsi": 84.4,
+          "price": 0.07851,
+          "vol": 37687037.195222,
+          "label": "ALTO"
+        },
+        {
+          "sym": "QNTUSDT",
+          "rsi": 82.8,
+          "price": 89.12,
+          "vol": 4608726.38288,
           "label": "ALTO"
         }
       ],
@@ -115,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 162
+      "scanned": 163
     }
   }
 }
