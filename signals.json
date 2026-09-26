@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-26T10:13:18.985Z",
-  "updated_ts": 1790417598985,
+  "updated": "2026-09-26T14:30:55.301Z",
+  "updated_ts": 1790433055301,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,25 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "BFUSDUSDT",
-          "rsi": 100,
-          "price": 0.9999,
-          "vol": 4953567.346,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "WLFIUSDT",
-          "rsi": 82.6,
-          "price": 0.0587,
-          "vol": 5981397.28766,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RENDERUSDT",
-          "rsi": 81.4,
-          "price": 2.024,
-          "vol": 9383561.12074,
-          "label": "ALTO"
+          "sym": "DASHUSDT",
+          "rsi": 85.6,
+          "price": 71.65,
+          "vol": 30320885.17195,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -45,29 +31,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 162
+      "scanned": 152
     },
     "1h": {
       "sell": [
         {
-          "sym": "2ZUSDT",
-          "rsi": 85.4,
-          "price": 0.07588,
-          "vol": 9706095.68026,
+          "sym": "KMNOUSDT",
+          "rsi": 87.6,
+          "price": 0.04989,
+          "vol": 3663650.86574,
           "label": "MUY ALTO"
         },
         {
-          "sym": "RUNEUSDT",
-          "rsi": 81.5,
-          "price": 0.702,
-          "vol": 12324840.1135,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RAREUSDT",
-          "rsi": 81.3,
-          "price": 0.02304,
-          "vol": 21088648.585659,
+          "sym": "DASHUSDT",
+          "rsi": 82.8,
+          "price": 71.65,
+          "vol": 30320885.17195,
           "label": "ALTO"
         }
       ],
@@ -87,57 +66,64 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 162
+      "scanned": 152
     },
     "4h": {
       "sell": [
         {
-          "sym": "RAREUSDT",
-          "rsi": 85.1,
-          "price": 0.02304,
-          "vol": 21088648.585659,
+          "sym": "AMPUSDT",
+          "rsi": 88.7,
+          "price": 0.000686,
+          "vol": 6520149.697855,
           "label": "MUY ALTO"
         },
         {
-          "sym": "2ZUSDT",
-          "rsi": 84.2,
-          "price": 0.07588,
-          "vol": 9706095.68026,
+          "sym": "SPELLUSDT",
+          "rsi": 86.5,
+          "price": 0.0001139,
+          "vol": 5162236.1677295,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "RAREUSDT",
+          "rsi": 85.4,
+          "price": 0.02326,
+          "vol": 27869736.471082,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "KMNOUSDT",
+          "rsi": 83.6,
+          "price": 0.04989,
+          "vol": 3663650.86574,
           "label": "ALTO"
         },
         {
-          "sym": "ENAUSDT",
-          "rsi": 83.6,
-          "price": 0.2814,
-          "vol": 140399670.389581,
+          "sym": "2ZUSDT",
+          "rsi": 83.4,
+          "price": 0.07423,
+          "vol": 12428671.87188,
           "label": "ALTO"
         },
         {
           "sym": "QNTUSDT",
-          "rsi": 83.6,
-          "price": 109.68,
-          "vol": 9804036.79669,
+          "rsi": 82.5,
+          "price": 106.84,
+          "vol": 8517882.69543,
+          "label": "ALTO"
+        },
+        {
+          "sym": "RUNEUSDT",
+          "rsi": 81.2,
+          "price": 0.73,
+          "vol": 17702618.2912,
           "label": "ALTO"
         },
         {
           "sym": "VELODROMEUSDT",
-          "rsi": 83.5,
-          "price": 0.03876,
-          "vol": 3358571.250929,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AEROUSDT",
-          "rsi": 80.6,
-          "price": 0.9078,
-          "vol": 16401109.98233,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ARKUSDT",
-          "rsi": 80.2,
-          "price": 0.2729,
-          "vol": 13970088.8335,
+          "rsi": 80.3,
+          "price": 0.03856,
+          "vol": 3472012.126852,
           "label": "ALTO"
         }
       ],
@@ -157,7 +143,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 161
+      "scanned": 151
     }
   }
 }
