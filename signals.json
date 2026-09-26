@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-26T14:30:55.301Z",
-  "updated_ts": 1790433055301,
+  "updated": "2026-09-26T17:57:07.235Z",
+  "updated_ts": 1790445427235,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "DASHUSDT",
-          "rsi": 85.6,
-          "price": 71.65,
-          "vol": 30320885.17195,
-          "label": "MUY ALTO"
+          "sym": "MARSCOINUSDT",
+          "rsi": 80.5,
+          "price": 0.1403,
+          "vol": 15738861.77136,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -29,24 +29,38 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 21,
+          "price": 4278.92,
+          "vol": 12323603.291054,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 152
+      "scanned": 148
     },
     "1h": {
       "sell": [
         {
-          "sym": "KMNOUSDT",
-          "rsi": 87.6,
-          "price": 0.04989,
-          "vol": 3663650.86574,
-          "label": "MUY ALTO"
+          "sym": "QNTUSDT",
+          "rsi": 82.5,
+          "price": 122.78,
+          "vol": 14208970.74357,
+          "label": "ALTO"
         },
         {
-          "sym": "DASHUSDT",
-          "rsi": 82.8,
-          "price": 71.65,
-          "vol": 30320885.17195,
+          "sym": "MARSCOINUSDT",
+          "rsi": 82.1,
+          "price": 0.1403,
+          "vol": 15738861.77136,
+          "label": "ALTO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 80.7,
+          "price": 1.532,
+          "vol": 16659976.52352,
           "label": "ALTO"
         }
       ],
@@ -66,64 +80,36 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 152
+      "scanned": 148
     },
     "4h": {
       "sell": [
         {
+          "sym": "QNTUSDT",
+          "rsi": 88.4,
+          "price": 122.78,
+          "vol": 14208970.74357,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "AMPUSDT",
-          "rsi": 88.7,
-          "price": 0.000686,
-          "vol": 6520149.697855,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SPELLUSDT",
-          "rsi": 86.5,
-          "price": 0.0001139,
-          "vol": 5162236.1677295,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "RAREUSDT",
-          "rsi": 85.4,
-          "price": 0.02326,
-          "vol": 27869736.471082,
+          "rsi": 88.1,
+          "price": 0.000714,
+          "vol": 10143376.684817,
           "label": "MUY ALTO"
         },
         {
           "sym": "KMNOUSDT",
-          "rsi": 83.6,
-          "price": 0.04989,
-          "vol": 3663650.86574,
+          "rsi": 83.1,
+          "price": 0.0499,
+          "vol": 3993763.93065,
           "label": "ALTO"
         },
         {
-          "sym": "2ZUSDT",
-          "rsi": 83.4,
-          "price": 0.07423,
-          "vol": 12428671.87188,
-          "label": "ALTO"
-        },
-        {
-          "sym": "QNTUSDT",
-          "rsi": 82.5,
-          "price": 106.84,
-          "vol": 8517882.69543,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RUNEUSDT",
+          "sym": "RAREUSDT",
           "rsi": 81.2,
-          "price": 0.73,
-          "vol": 17702618.2912,
-          "label": "ALTO"
-        },
-        {
-          "sym": "VELODROMEUSDT",
-          "rsi": 80.3,
-          "price": 0.03856,
-          "vol": 3472012.126852,
+          "price": 0.02286,
+          "vol": 24891826.096085,
           "label": "ALTO"
         }
       ],
@@ -143,7 +129,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 151
+      "scanned": 147
     }
   }
 }
