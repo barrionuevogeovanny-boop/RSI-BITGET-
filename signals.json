@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-25T22:31:25.953Z",
-  "updated_ts": 1790375485953,
+  "updated": "2026-09-26T00:49:22.278Z",
+  "updated_ts": 1790383762279,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,29 +23,29 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 165
+      "scanned": 163
     },
     "1h": {
       "sell": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 82.4,
-          "price": 0.12202,
-          "vol": 4992219.575009,
-          "label": "ALTO"
-        },
-        {
           "sym": "SEIUSDT",
-          "rsi": 82.1,
-          "price": 0.07446,
-          "vol": 21511296.883108,
+          "rsi": 83.2,
+          "price": 0.07525,
+          "vol": 22966793.172857,
           "label": "ALTO"
         },
         {
           "sym": "ENAUSDT",
-          "rsi": 80.3,
-          "price": 0.2649,
-          "vol": 121729903.664317,
+          "rsi": 82.1,
+          "price": 0.2693,
+          "vol": 122373732.388576,
+          "label": "ALTO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 81.4,
+          "price": 0.12198,
+          "vol": 5466230.703885,
           "label": "ALTO"
         }
       ],
@@ -63,38 +63,38 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "CRCLBUSDT",
-          "rsi": 24.7,
-          "price": 86.88,
-          "vol": 21662476.9084,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 165
+      "scanned": 163
     },
     "4h": {
       "sell": [
         {
           "sym": "ARKUSDT",
-          "rsi": 86.6,
-          "price": 0.2402,
-          "vol": 12447346.4032,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PHAUSDT",
-          "rsi": 86.1,
-          "price": 0.0917,
-          "vol": 32698208.1655,
+          "rsi": 85.3,
+          "price": 0.2493,
+          "vol": 13175895.6087,
           "label": "MUY ALTO"
         },
         {
           "sym": "SEIUSDT",
-          "rsi": 82,
-          "price": 0.07446,
-          "vol": 21511296.883108,
+          "rsi": 82.6,
+          "price": 0.07525,
+          "vol": 22966793.172857,
+          "label": "ALTO"
+        },
+        {
+          "sym": "PHAUSDT",
+          "rsi": 81.1,
+          "price": 0.0847,
+          "vol": 37173245.9013,
+          "label": "ALTO"
+        },
+        {
+          "sym": "ENAUSDT",
+          "rsi": 80.6,
+          "price": 0.2693,
+          "vol": 122373732.388576,
           "label": "ALTO"
         }
       ],
@@ -114,7 +114,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 164
+      "scanned": 162
     }
   }
 }
