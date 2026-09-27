@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T01:25:51.012Z",
-  "updated_ts": 1790472351012,
+  "updated": "2026-09-27T06:49:55.601Z",
+  "updated_ts": 1790491795601,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,51 +13,36 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "QNTUSDT",
-          "rsi": 90.7,
-          "price": 182.73,
-          "vol": 37132613.91011,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 14,
-          "price": 0.3326,
-          "vol": 15081033.30872,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "SAGAUSDT",
+          "rsi": 21.5,
+          "price": 0.02704,
+          "vol": 23787168.650434,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 146
     },
     "1h": {
       "sell": [
         {
-          "sym": "QNTUSDT",
-          "rsi": 92.1,
-          "price": 182.73,
-          "vol": 37132613.91011,
-          "label": "EXTREMO"
+          "sym": "GLMRUSDT",
+          "rsi": 83.8,
+          "price": 0.008809,
+          "vol": 3455208.5732584,
+          "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 13.7,
-          "price": 0.3326,
-          "vol": 15081033.30872,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -66,43 +51,36 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "COTIUSDT",
+          "rsi": 20.3,
+          "price": 0.01466,
+          "vol": 3426270.54407,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "COTIUSDT",
-          "rsi": 23.4,
-          "price": 0.01489,
-          "vol": 3445322.64247,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 146
     },
     "4h": {
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 95.4,
-          "price": 182.73,
-          "vol": 37132613.91011,
+          "rsi": 95,
+          "price": 175.43,
+          "vol": 77649548.22582,
           "label": "EXTREMO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 81.7,
-          "price": 1.619,
-          "vol": 30201675.26284,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AMPUSDT",
-          "rsi": 80.7,
-          "price": 0.000778,
-          "vol": 16926074.456855,
+          "sym": "WUSDT",
+          "rsi": 83.5,
+          "price": 0.0145,
+          "vol": 5239212.119193,
           "label": "ALTO"
         }
       ],
@@ -122,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 146
     }
   }
 }
