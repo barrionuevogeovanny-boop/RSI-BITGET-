@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-26T23:09:51.597Z",
-  "updated_ts": 1790464191597,
+  "updated": "2026-09-27T01:25:51.012Z",
+  "updated_ts": 1790472351012,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,26 +16,26 @@
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 86.8,
-          "price": 146.73,
-          "vol": 22699144.0104,
-          "label": "MUY ALTO"
+          "rsi": 90.7,
+          "price": 182.73,
+          "vol": 37132613.91011,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 14,
+          "price": 0.3326,
+          "vol": 15081033.30872,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 21.9,
-          "price": 0.3343,
-          "vol": 13728412.43091,
-          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 149
@@ -44,20 +44,20 @@
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 85.5,
-          "price": 146.73,
-          "vol": 22699144.0104,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "KMNOUSDT",
-          "rsi": 82.5,
-          "price": 0.05163,
-          "vol": 4139047.76236,
-          "label": "ALTO"
+          "rsi": 92.1,
+          "price": 182.73,
+          "vol": 37132613.91011,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 13.7,
+          "price": 0.3326,
+          "vol": 15081033.30872,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -66,17 +66,17 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TRXUSDT",
-          "rsi": 20.3,
-          "price": 0.3343,
-          "vol": 13728412.43091,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "COTIUSDT",
+          "rsi": 23.4,
+          "price": 0.01489,
+          "vol": 3445322.64247,
           "label": "SOBREVENDIDO"
         }
       ],
@@ -86,30 +86,23 @@
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 92.6,
-          "price": 146.73,
-          "vol": 22699144.0104,
+          "rsi": 95.4,
+          "price": 182.73,
+          "vol": 37132613.91011,
           "label": "EXTREMO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 81.7,
+          "price": 1.619,
+          "vol": 30201675.26284,
+          "label": "ALTO"
         },
         {
           "sym": "AMPUSDT",
-          "rsi": 90.6,
-          "price": 0.00078,
-          "vol": 15440314.654713,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "KMNOUSDT",
-          "rsi": 85.4,
-          "price": 0.05163,
-          "vol": 4139047.76236,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "RUNEUSDT",
-          "rsi": 81.7,
-          "price": 0.765,
-          "vol": 29803563.7361,
+          "rsi": 80.7,
+          "price": 0.000778,
+          "vol": 16926074.456855,
           "label": "ALTO"
         }
       ],
