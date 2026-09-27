@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T12:31:23.935Z",
-  "updated_ts": 1790512283935,
+  "updated": "2026-09-27T17:13:34.618Z",
+  "updated_ts": 1790529214618,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "AUDIOUSDT",
-          "rsi": 85.7,
-          "price": 0.01692,
-          "vol": 3766474.999268,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "PENGUUSDT",
-          "rsi": 83.2,
-          "price": 0.010612,
-          "vol": 9551610.265487,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,18 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 145
+      "scanned": 144
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AUDIOUSDT",
-          "rsi": 81.4,
-          "price": 0.01692,
-          "vol": 3766474.999268,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -66,22 +43,29 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 144
     },
     "4h": {
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 84,
-          "price": 163.52,
-          "vol": 98936318.72737,
-          "label": "ALTO"
+          "rsi": 87.7,
+          "price": 184.59,
+          "vol": 118531059.07034,
+          "label": "MUY ALTO"
         },
         {
           "sym": "AUDIOUSDT",
-          "rsi": 81.6,
-          "price": 0.01692,
-          "vol": 3766474.999268,
+          "rsi": 87.7,
+          "price": 0.01897,
+          "vol": 10339869.156884,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "WUSDT",
+          "rsi": 82.6,
+          "price": 0.01561,
+          "vol": 14328255.834832,
           "label": "ALTO"
         }
       ],
@@ -101,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 145
+      "scanned": 144
     }
   }
 }
