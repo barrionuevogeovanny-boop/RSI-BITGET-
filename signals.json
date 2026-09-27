@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T06:49:55.601Z",
-  "updated_ts": 1790491795601,
+  "updated": "2026-09-27T12:31:23.935Z",
+  "updated_ts": 1790512283935,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AUDIOUSDT",
+          "rsi": 85.7,
+          "price": 0.01692,
+          "vol": 3766474.999268,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PENGUUSDT",
+          "rsi": 83.2,
+          "price": 0.010612,
+          "vol": 9551610.265487,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,24 +36,17 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "SAGAUSDT",
-          "rsi": 21.5,
-          "price": 0.02704,
-          "vol": 23787168.650434,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     },
     "1h": {
       "sell": [
         {
-          "sym": "GLMRUSDT",
-          "rsi": 83.8,
-          "price": 0.008809,
-          "vol": 3455208.5732584,
+          "sym": "AUDIOUSDT",
+          "rsi": 81.4,
+          "price": 0.01692,
+          "vol": 3766474.999268,
           "label": "ALTO"
         }
       ],
@@ -51,13 +59,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "COTIUSDT",
-          "rsi": 20.3,
-          "price": 0.01466,
-          "vol": 3426270.54407,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -65,22 +66,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     },
     "4h": {
       "sell": [
         {
           "sym": "QNTUSDT",
-          "rsi": 95,
-          "price": 175.43,
-          "vol": 77649548.22582,
-          "label": "EXTREMO"
+          "rsi": 84,
+          "price": 163.52,
+          "vol": 98936318.72737,
+          "label": "ALTO"
         },
         {
-          "sym": "WUSDT",
-          "rsi": 83.5,
-          "price": 0.0145,
-          "vol": 5239212.119193,
+          "sym": "AUDIOUSDT",
+          "rsi": 81.6,
+          "price": 0.01692,
+          "vol": 3766474.999268,
           "label": "ALTO"
         }
       ],
@@ -100,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 146
+      "scanned": 145
     }
   }
 }
