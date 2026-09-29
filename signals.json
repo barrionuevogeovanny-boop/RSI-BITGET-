@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T13:25:46.539Z",
-  "updated_ts": 1790688346539,
+  "updated": "2026-09-29T18:47:00.159Z",
+  "updated_ts": 1790707620159,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PUMPUSDT",
-          "rsi": 82.9,
-          "price": 0.005798,
-          "vol": 71995511.809356,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,10 +28,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "AAVEUSDT",
+          "sym": "MOVRUSDT",
           "rsi": 80.4,
-          "price": 174.68,
-          "vol": 55924033.67628,
+          "price": 1.124,
+          "vol": 2570356.408893,
           "label": "ALTO"
         }
       ],
@@ -62,15 +54,7 @@
       "scanned": 154
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "0GUSDT",
-          "rsi": 81.6,
-          "price": 0.3408,
-          "vol": 24343623.793843,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -84,6 +68,13 @@
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TSLABUSDT",
+          "rsi": 24,
+          "price": 354.39,
+          "vol": 3727156.81154,
           "label": "SOBREVENDIDO"
         }
       ],
