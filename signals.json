@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T18:47:00.159Z",
-  "updated_ts": 1790707620159,
+  "updated": "2026-09-29T22:41:10.973Z",
+  "updated_ts": 1790721670973,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,18 +21,25 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "MINAUSDT",
+          "rsi": 23.6,
+          "price": 0.1429,
+          "vol": 2378543.55857,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 154
+      "scanned": 156
     },
     "1h": {
       "sell": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 80.4,
-          "price": 1.124,
-          "vol": 2570356.408893,
-          "label": "ALTO"
+          "rsi": 85,
+          "price": 1.218,
+          "vol": 6208129.086392,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -51,10 +58,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 154
+      "scanned": 156
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "NIGHTUSDT",
+          "rsi": 80.8,
+          "price": 0.03241,
+          "vol": 8641157.1979,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -69,16 +84,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 24,
-          "price": 354.39,
-          "vol": 3727156.81154,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 154
+      "scanned": 156
     }
   }
 }
