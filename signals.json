@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T06:50:58.846Z",
-  "updated_ts": 1790664658847,
+  "updated": "2026-09-29T13:25:46.539Z",
+  "updated_ts": 1790688346539,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 82.9,
+          "price": 0.005798,
+          "vol": 71995511.809356,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 156
+      "scanned": 154
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 80.4,
+          "price": 174.68,
+          "vol": 55924033.67628,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,10 +59,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 154
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "0GUSDT",
+          "rsi": 81.6,
+          "price": 0.3408,
+          "vol": 24343623.793843,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -56,42 +80,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 21.1,
-          "price": 4145.42,
-          "vol": 72261463.424486,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 23.3,
-          "price": 4153.27,
-          "vol": 18676310.03852,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 24.6,
-          "price": 357.82,
-          "vol": 4751940.98713,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "COTIUSDT",
-          "rsi": 24.7,
-          "price": 0.01262,
-          "vol": 3575791.08171,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 154
     }
   }
 }
