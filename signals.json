@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29T01:07:04.636Z",
-  "updated_ts": 1790644024636,
+  "updated": "2026-09-29T06:50:58.846Z",
+  "updated_ts": 1790664658847,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 168
+      "scanned": 156
     },
     "1h": {
       "sell": [],
@@ -36,13 +36,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TSLABUSDT",
-          "rsi": 20.4,
-          "price": 357.76,
-          "vol": 4740630.26759,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -50,7 +43,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 168
+      "scanned": 156
     },
     "4h": {
       "sell": [],
@@ -64,23 +57,16 @@
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 12.7,
-          "price": 4125.27,
-          "vol": 83160748.283691,
-          "label": "MUY BAJO"
+          "rsi": 21.1,
+          "price": 4145.42,
+          "vol": 72261463.424486,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 14.4,
-          "price": 4131.65,
-          "vol": 24151346.703265,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 22.6,
-          "price": 357.76,
-          "vol": 4740630.26759,
+          "rsi": 23.3,
+          "price": 4153.27,
+          "vol": 18676310.03852,
           "label": "SOBREVENDIDO"
         },
         {
@@ -89,9 +75,23 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TSLABUSDT",
+          "rsi": 24.6,
+          "price": 357.82,
+          "vol": 4751940.98713,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "COTIUSDT",
+          "rsi": 24.7,
+          "price": 0.01262,
+          "vol": 3575791.08171,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 168
+      "scanned": 156
     }
   }
 }
