@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-30T01:35:49.502Z",
-  "updated_ts": 1790732149502,
+  "updated": "2026-09-30T07:22:31.244Z",
+  "updated_ts": 1790752951244,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MOVRUSDT",
+          "rsi": 85.7,
+          "price": 1.747,
+          "vol": 16184794.340703,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,16 +31,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     },
     "1h": {
       "sell": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 83.9,
-          "price": 1.28,
-          "vol": 8229361.842832,
-          "label": "ALTO"
+          "rsi": 95.1,
+          "price": 1.747,
+          "vol": 16184794.340703,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -51,16 +59,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     },
     "4h": {
       "sell": [
         {
-          "sym": "NIGHTUSDT",
-          "rsi": 81.6,
-          "price": 0.03271,
-          "vol": 8796204.37918,
-          "label": "ALTO"
+          "sym": "MOVRUSDT",
+          "rsi": 89.7,
+          "price": 1.747,
+          "vol": 16184794.340703,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -79,7 +87,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 154
     }
   }
 }
