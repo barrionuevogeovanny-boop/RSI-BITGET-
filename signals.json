@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-01T19:54:01.674Z",
-  "updated_ts": 1790884441674,
+  "updated": "2026-10-01T23:35:56.716Z",
+  "updated_ts": 1790897756716,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "GTCUSDT",
-          "rsi": 81.7,
-          "price": 0.11935,
-          "vol": 2466947.084178,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SUPERUSDT",
-          "rsi": 80.7,
-          "price": 0.217,
-          "vol": 2487762.8966,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,24 +21,31 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 24.6,
+          "price": 0.13111,
+          "vol": 4743192.521604,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 154
     },
     "1h": {
       "sell": [
         {
-          "sym": "ALICEUSDT",
-          "rsi": 84.4,
-          "price": 0.2187,
-          "vol": 13092945.634289,
-          "label": "ALTO"
+          "sym": "GTCUSDT",
+          "rsi": 86.3,
+          "price": 0.14674,
+          "vol": 8021724.042414,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "GTCUSDT",
-          "rsi": 81,
-          "price": 0.11935,
-          "vol": 2466947.084178,
+          "sym": "SUPERUSDT",
+          "rsi": 80.7,
+          "price": 0.2279,
+          "vol": 4760645.5733,
           "label": "ALTO"
         }
       ],
@@ -73,23 +65,23 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 154
     },
     "4h": {
       "sell": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 92.2,
-          "price": 2.965,
-          "vol": 103446099.640074,
-          "label": "EXTREMO"
+          "rsi": 87.3,
+          "price": 2.865,
+          "vol": 96391990.704871,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "ALICEUSDT",
-          "rsi": 85.4,
-          "price": 0.2187,
-          "vol": 13092945.634289,
-          "label": "MUY ALTO"
+          "sym": "GTCUSDT",
+          "rsi": 80.9,
+          "price": 0.14674,
+          "vol": 8021724.042414,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -101,21 +93,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 22.6,
-          "price": 1.125,
-          "vol": 31709630.54388,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 23.6,
+          "price": 1.1251,
+          "vol": 31966096.04951,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 153
+      "scanned": 154
     }
   }
 }
