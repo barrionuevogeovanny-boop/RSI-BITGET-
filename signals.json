@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-01T07:45:34.958Z",
-  "updated_ts": 1790840734958,
+  "updated": "2026-10-01T14:47:58.521Z",
+  "updated_ts": 1790866078521,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,26 +13,69 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SYNUSDT",
+          "rsi": 81.4,
+          "price": 0.20359,
+          "vol": 4444521.071211,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 14.8,
+          "price": 0.9996,
+          "vol": 3341893.7812,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "GOOGLBUSDT",
+          "rsi": 19.8,
+          "price": 341.63,
+          "vol": 5505579.60522,
+          "label": "BAJO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 24.4,
+          "price": 0.4958,
+          "vol": 63912406.48618,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEARUSDT",
+          "rsi": 24.4,
+          "price": 4.898,
+          "vol": 238251247.9575,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AVGOBUSDT",
+          "rsi": 24.8,
+          "price": 347.67,
+          "vol": 2362859.46988,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 161
+      "scanned": 154
     },
     "1h": {
       "sell": [
         {
-          "sym": "MOVRUSDT",
-          "rsi": 80,
-          "price": 2.897,
-          "vol": 81368514.703179,
-          "label": "ALTO"
+          "sym": "SYNUSDT",
+          "rsi": 87,
+          "price": 0.20359,
+          "vol": 4444521.071211,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -51,25 +94,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 161
+      "scanned": 154
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "MOVRUSDT",
-          "rsi": 94.8,
-          "price": 2.897,
-          "vol": 81368514.703179,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 88.6,
-          "price": 0.04117,
-          "vol": 20440214.6446,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -79,6 +107,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "EURUSDT",
+          "rsi": 21.4,
+          "price": 1.1275,
+          "vol": 24326342.35709,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -86,7 +121,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 161
+      "scanned": 154
     }
   }
 }
