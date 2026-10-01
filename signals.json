@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-01T01:36:18.186Z",
-  "updated_ts": 1790818578186,
+  "updated": "2026-10-01T07:45:34.958Z",
+  "updated_ts": 1790840734958,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,15 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 159
+      "scanned": 161
     },
     "1h": {
       "sell": [
         {
-          "sym": "STXUSDT",
-          "rsi": 82.5,
-          "price": 0.3842,
-          "vol": 8678009.875,
+          "sym": "MOVRUSDT",
+          "rsi": 80,
+          "price": 2.897,
+          "vol": 81368514.703179,
           "label": "ALTO"
         }
       ],
@@ -51,22 +51,22 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 161
     },
     "4h": {
       "sell": [
         {
           "sym": "MOVRUSDT",
-          "rsi": 91.5,
-          "price": 2.214,
-          "vol": 61417197.998632,
+          "rsi": 94.8,
+          "price": 2.897,
+          "vol": 81368514.703179,
           "label": "EXTREMO"
         },
         {
           "sym": "NIGHTUSDT",
-          "rsi": 87.4,
-          "price": 0.03989,
-          "vol": 16531606.72194,
+          "rsi": 88.6,
+          "price": 0.04117,
+          "vol": 20440214.6446,
           "label": "MUY ALTO"
         }
       ],
@@ -86,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 161
     }
   }
 }
