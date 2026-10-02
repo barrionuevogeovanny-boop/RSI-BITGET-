@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-02T08:56:53.710Z",
-  "updated_ts": 1790931413710,
+  "updated": "2026-10-02T15:25:30.211Z",
+  "updated_ts": 1790954730211,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SANDUSDT",
-          "rsi": 85.9,
-          "price": 0.06213,
-          "vol": 17299993.02426,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "KORUBUSDT",
-          "rsi": 81.8,
-          "price": 22.48,
-          "vol": 4428344.5161,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,24 +21,31 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "2ZUSDT",
+          "rsi": 16.3,
+          "price": 0.05244,
+          "vol": 3117595.94547,
+          "label": "BAJO"
+        },
+        {
+          "sym": "CAKEUSDT",
+          "rsi": 23.9,
+          "price": 2.543,
+          "vol": 5321275.21134,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 162
     },
     "1h": {
       "sell": [
         {
-          "sym": "SANDUSDT",
-          "rsi": 92.9,
-          "price": 0.06213,
-          "vol": 17299993.02426,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "ENJUSDT",
-          "rsi": 83.6,
-          "price": 0.03286,
-          "vol": 2414270.128089,
+          "sym": "MAGICUSDT",
+          "rsi": 81.2,
+          "price": 0.066,
+          "vol": 9011231.45015,
           "label": "ALTO"
         }
       ],
@@ -73,25 +65,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 162
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SANDUSDT",
-          "rsi": 84.4,
-          "price": 0.06213,
-          "vol": 17299993.02426,
-          "label": "ALTO"
-        },
-        {
-          "sym": "DEXEUSDT",
-          "rsi": 80.7,
-          "price": 2.1,
-          "vol": 8850974.09048,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -108,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 159
+      "scanned": 162
     }
   }
 }
