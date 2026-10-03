@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T13:30:28.666Z",
-  "updated_ts": 1791034228666,
+  "updated": "2026-10-03T17:33:04.417Z",
+  "updated_ts": 1791048784417,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "ZROUSDT",
-          "rsi": 81.7,
-          "price": 2.072,
-          "vol": 32952577.84213,
+          "sym": "KAITOUSDT",
+          "rsi": 82.7,
+          "price": 0.3623,
+          "vol": 2738410.81944,
           "label": "ALTO"
         }
       ],
@@ -31,22 +31,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 157
+      "scanned": 147
     },
     "1h": {
       "sell": [
         {
-          "sym": "GLMRUSDT",
-          "rsi": 90.6,
-          "price": 0.012848,
-          "vol": 6686680.0423446,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 80.7,
-          "price": 159.18,
-          "vol": 28457150.76885,
+          "sym": "STRKUSDT",
+          "rsi": 84,
+          "price": 0.05209,
+          "vol": 9859333.9524481,
           "label": "ALTO"
         }
       ],
@@ -59,6 +52,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ATUSDT",
+          "rsi": 17,
+          "price": 0.1277,
+          "vol": 2004872.51419,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -66,7 +66,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 157
+      "scanned": 147
     },
     "4h": {
       "sell": [],
@@ -80,9 +80,9 @@
         },
         {
           "sym": "牛来USDT",
-          "rsi": 23,
-          "price": 0.08178,
-          "vol": 14647384.84542,
+          "rsi": 22.9,
+          "price": 0.08166,
+          "vol": 13154169.78858,
           "label": "SOBREVENDIDO"
         },
         {
@@ -93,14 +93,21 @@
           "label": "SOBREVENDIDO"
         },
         {
+          "sym": "ATUSDT",
+          "rsi": 24,
+          "price": 0.1277,
+          "vol": 2004872.51419,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "2ZUSDT",
-          "rsi": 24.7,
-          "price": 0.04623,
-          "vol": 13398372.2723,
+          "rsi": 24.9,
+          "price": 0.04632,
+          "vol": 9724205.60976,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 157
+      "scanned": 147
     }
   }
 }
