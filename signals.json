@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T02:30:44.109Z",
-  "updated_ts": 1791081044109,
+  "updated": "2026-10-04T08:42:29.315Z",
+  "updated_ts": 1791103349315,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,17 @@
     "15m": {
       "sell": [
         {
-          "sym": "MUBARAKUSDT",
-          "rsi": 80.3,
-          "price": 0.06717,
-          "vol": 5297077.765495,
+          "sym": "BEAMXUSDT",
+          "rsi": 89.6,
+          "price": 0.00294,
+          "vol": 5265062.670797,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "RUNEUSDT",
+          "rsi": 85,
+          "price": 0.784,
+          "vol": 3927998.3111,
           "label": "ALTO"
         }
       ],
@@ -31,10 +38,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BEAMXUSDT",
+          "rsi": 91.3,
+          "price": 0.00294,
+          "vol": 5265062.670797,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,10 +66,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BEAMXUSDT",
+          "rsi": 87.6,
+          "price": 0.00294,
+          "vol": 5265062.670797,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -64,13 +87,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "2ZUSDT",
-          "rsi": 23.1,
-          "price": 0.04498,
-          "vol": 6108619.79488,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -78,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     }
   }
 }
