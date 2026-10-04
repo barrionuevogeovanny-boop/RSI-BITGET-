@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T08:42:29.315Z",
-  "updated_ts": 1791103349315,
+  "updated": "2026-10-04T14:23:11.716Z",
+  "updated_ts": 1791123791716,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,17 @@
     "15m": {
       "sell": [
         {
-          "sym": "BEAMXUSDT",
-          "rsi": 89.6,
-          "price": 0.00294,
-          "vol": 5265062.670797,
-          "label": "MUY ALTO"
+          "sym": "STXUSDT",
+          "rsi": 80.7,
+          "price": 0.3851,
+          "vol": 2711002.56403,
+          "label": "ALTO"
         },
         {
-          "sym": "RUNEUSDT",
-          "rsi": 85,
-          "price": 0.784,
-          "vol": 3927998.3111,
+          "sym": "VIRTUALUSDT",
+          "rsi": 80.6,
+          "price": 0.8117,
+          "vol": 4100313.90905,
           "label": "ALTO"
         }
       ],
@@ -36,18 +36,25 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 24.9,
+          "price": 0.08468,
+          "vol": 9354540.67201,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 126
     },
     "1h": {
       "sell": [
         {
-          "sym": "BEAMXUSDT",
-          "rsi": 91.3,
-          "price": 0.00294,
-          "vol": 5265062.670797,
-          "label": "EXTREMO"
+          "sym": "IOTAUSDT",
+          "rsi": 86.4,
+          "price": 0.0624,
+          "vol": 5092826.0612,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -66,16 +73,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 126
     },
     "4h": {
       "sell": [
         {
           "sym": "BEAMXUSDT",
-          "rsi": 87.6,
-          "price": 0.00294,
-          "vol": 5265062.670797,
-          "label": "MUY ALTO"
+          "rsi": 82.6,
+          "price": 0.002726,
+          "vol": 16226859.553522,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -94,7 +101,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 126
     }
   }
 }
