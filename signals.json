@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T18:14:26.584Z",
-  "updated_ts": 1791137666584,
+  "updated": "2026-10-04T21:32:03.060Z",
+  "updated_ts": 1791149523060,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "USD1USDT",
+          "rsi": 83.7,
+          "price": 0.99977,
+          "vol": 57354258.87503,
+          "label": "ALTO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 80.1,
+          "price": 1.1258,
+          "vol": 5414801.06479,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +36,34 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "NIGHTUSDT",
+          "rsi": 19.3,
+          "price": 0.04464,
+          "vol": 5690473.8767,
+          "label": "BAJO"
         }
       ],
-      "scanned": 130
+      "scanned": 131
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DOGEUSDT",
+          "rsi": 83,
+          "price": 0.09725,
+          "vol": 46919298.76255,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SHIBUSDT",
+          "rsi": 81.8,
+          "price": 0.00000595,
+          "vol": 2693773.39002543,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,7 +80,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -64,13 +101,13 @@
         },
         {
           "sym": "2ZUSDT",
-          "rsi": 24.9,
-          "price": 0.04531,
-          "vol": 2308213.14713,
+          "rsi": 24.3,
+          "price": 0.04485,
+          "vol": 2021403.94005,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 130
+      "scanned": 131
     }
   }
 }
