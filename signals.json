@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-03T23:00:37.452Z",
-  "updated_ts": 1791068437452,
+  "updated": "2026-10-04T02:30:44.109Z",
+  "updated_ts": 1791081044109,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "MUBARAKUSDT",
+          "rsi": 80.3,
+          "price": 0.06717,
+          "vol": 5297077.765495,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,18 +31,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "STRKUSDT",
-          "rsi": 83.8,
-          "price": 0.05408,
-          "vol": 14657020.4379234,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -64,10 +64,10 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "牛来USDT",
-          "rsi": 21,
-          "price": 0.07896,
-          "vol": 10106026.99289,
+          "sym": "2ZUSDT",
+          "rsi": 23.1,
+          "price": 0.04498,
+          "vol": 6108619.79488,
           "label": "SOBREVENDIDO"
         },
         {
@@ -76,16 +76,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "2ZUSDT",
-          "rsi": 23.7,
-          "price": 0.04533,
-          "vol": 7084452.77688,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 131
     }
   }
 }
