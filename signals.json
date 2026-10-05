@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-05T00:06:53.069Z",
-  "updated_ts": 1791158813069,
+  "updated": "2026-10-05T05:29:51.517Z",
+  "updated_ts": 1791178191517,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "SPCXBUSDT",
-          "rsi": 89.4,
-          "price": 159.85,
-          "vol": 3217253.63324,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 87.1,
-          "price": 1732.83,
-          "vol": 2370655.427503,
-          "label": "MUY ALTO"
+          "sym": "MUBARAKUSDT",
+          "rsi": 84.7,
+          "price": 0.07696,
+          "vol": 23484132.148959,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -38,25 +31,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "CBRSBUSDT",
-          "rsi": 22.2,
-          "price": 176.43,
-          "vol": 2028644.53312,
-          "label": "SOBREVENDIDO"
+          "sym": "ZAMAUSDT",
+          "rsi": 19.6,
+          "price": 0.08281,
+          "vol": 4848691.93154,
+          "label": "BAJO"
         }
       ],
-      "scanned": 135
+      "scanned": 137
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "BTCUSDT",
-          "rsi": 83.8,
-          "price": 86500,
-          "vol": 696505610.725629,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,18 +58,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 137
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ORCAUSDT",
-          "rsi": 82.1,
-          "price": 2.129,
-          "vol": 8668942.90534,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -101,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 137
     }
   }
 }
