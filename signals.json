@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-04T21:32:03.060Z",
-  "updated_ts": 1791149523060,
+  "updated": "2026-10-05T00:06:53.069Z",
+  "updated_ts": 1791158813069,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,18 @@
     "15m": {
       "sell": [
         {
-          "sym": "USD1USDT",
-          "rsi": 83.7,
-          "price": 0.99977,
-          "vol": 57354258.87503,
-          "label": "ALTO"
+          "sym": "SPCXBUSDT",
+          "rsi": 89.4,
+          "price": 159.85,
+          "vol": 3217253.63324,
+          "label": "MUY ALTO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 80.1,
-          "price": 1.1258,
-          "vol": 5414801.06479,
-          "label": "ALTO"
+          "sym": "SNDKBUSDT",
+          "rsi": 87.1,
+          "price": 1732.83,
+          "vol": 2370655.427503,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -38,29 +38,22 @@
           "label": "BAJO"
         },
         {
-          "sym": "NIGHTUSDT",
-          "rsi": 19.3,
-          "price": 0.04464,
-          "vol": 5690473.8767,
-          "label": "BAJO"
+          "sym": "CBRSBUSDT",
+          "rsi": 22.2,
+          "price": 176.43,
+          "vol": 2028644.53312,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 135
     },
     "1h": {
       "sell": [
         {
-          "sym": "DOGEUSDT",
-          "rsi": 83,
-          "price": 0.09725,
-          "vol": 46919298.76255,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SHIBUSDT",
-          "rsi": 81.8,
-          "price": 0.00000595,
-          "vol": 2693773.39002543,
+          "sym": "BTCUSDT",
+          "rsi": 83.8,
+          "price": 86500,
+          "vol": 696505610.725629,
           "label": "ALTO"
         }
       ],
@@ -80,10 +73,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 135
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ORCAUSDT",
+          "rsi": 82.1,
+          "price": 2.129,
+          "vol": 8668942.90534,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -98,16 +99,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "2ZUSDT",
-          "rsi": 24.3,
-          "price": 0.04485,
-          "vol": 2021403.94005,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 135
     }
   }
 }
