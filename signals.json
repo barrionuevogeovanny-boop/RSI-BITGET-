@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06T08:00:23.078Z",
-  "updated_ts": 1791273623078,
+  "updated": "2026-10-06T15:00:28.572Z",
+  "updated_ts": 1791298828572,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "BANDUSDT",
-          "rsi": 89,
-          "price": 0.2599,
-          "vol": 2361986.45696,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,49 +21,35 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 20.2,
-          "price": 0.4907,
-          "vol": 2071735.82037,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 163
     },
     "1h": {
       "sell": [
         {
-          "sym": "API3USDT",
-          "rsi": 83.6,
-          "price": 0.3947,
-          "vol": 14394014.111651,
+          "sym": "NVDABUSDT",
+          "rsi": 81.3,
+          "price": 242.39,
+          "vol": 6785142.68682,
           "label": "ALTO"
         },
         {
-          "sym": "BANDUSDT",
-          "rsi": 81.9,
-          "price": 0.2599,
-          "vol": 2361986.45696,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RLCUSDT",
-          "rsi": 81.8,
-          "price": 0.9251,
-          "vol": 52534581.17705,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 81.4,
-          "price": 173.19,
-          "vol": 30126335.94177,
+          "sym": "QQQBUSDT",
+          "rsi": 80.7,
+          "price": 762.4,
+          "vol": 3485894.15231,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "MINAUSDT",
+          "rsi": 11,
+          "price": 0.1256,
+          "vol": 7477790.89445,
+          "label": "MUY BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -80,71 +58,50 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "MINAUSDT",
-          "rsi": 16.3,
-          "price": 0.1348,
-          "vol": 4887527.06905,
-          "label": "BAJO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "币安人生USDT",
-          "rsi": 23.8,
-          "price": 0.4907,
-          "vol": 2071735.82037,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 163
     },
     "4h": {
       "sell": [
         {
-          "sym": "RLCUSDT",
-          "rsi": 96,
-          "price": 0.9251,
-          "vol": 52534581.17705,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "RADUSDT",
-          "rsi": 88.4,
-          "price": 0.388,
-          "vol": 16291848.4219,
+          "sym": "ORCAUSDT",
+          "rsi": 85.4,
+          "price": 2.711,
+          "vol": 26709322.51253,
           "label": "MUY ALTO"
         },
         {
           "sym": "SPCXBUSDT",
-          "rsi": 86.2,
-          "price": 173.19,
-          "vol": 30126335.94177,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "API3USDT",
-          "rsi": 84.2,
-          "price": 0.3947,
-          "vol": 14394014.111651,
+          "rsi": 83.1,
+          "price": 175.17,
+          "vol": 35212732.17088,
           "label": "ALTO"
         },
         {
-          "sym": "BANDUSDT",
-          "rsi": 83,
-          "price": 0.2599,
-          "vol": 2361986.45696,
+          "sym": "NVDABUSDT",
+          "rsi": 83.1,
+          "price": 242.39,
+          "vol": 6785142.68682,
           "label": "ALTO"
         },
         {
-          "sym": "ORCAUSDT",
-          "rsi": 81.1,
-          "price": 2.49,
-          "vol": 17140310.5786,
+          "sym": "C98USDT",
+          "rsi": 83.1,
+          "price": 0.01998,
+          "vol": 4570038.768218,
+          "label": "ALTO"
+        },
+        {
+          "sym": "NMRUSDT",
+          "rsi": 82.1,
+          "price": 16.6,
+          "vol": 22210485.1294,
           "label": "ALTO"
         }
       ],
@@ -164,7 +121,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 156
+      "scanned": 163
     }
   }
 }
