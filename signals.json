@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06T01:28:52.403Z",
-  "updated_ts": 1791250132403,
+  "updated": "2026-10-06T08:00:23.078Z",
+  "updated_ts": 1791273623078,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,10 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "VTHOUSDT",
-          "rsi": 85.3,
-          "price": 0.000737,
-          "vol": 2592133.976914,
+          "sym": "BANDUSDT",
+          "rsi": 89,
+          "price": 0.2599,
+          "vol": 2361986.45696,
           "label": "MUY ALTO"
         }
       ],
@@ -31,30 +31,44 @@
           "label": "BAJO"
         },
         {
-          "sym": "MINAUSDT",
+          "sym": "币安人生USDT",
           "rsi": 20.2,
-          "price": 0.1441,
-          "vol": 3162058.63292,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SKHYBUSDT",
-          "rsi": 23.3,
-          "price": 191.47,
-          "vol": 2644428.93923,
+          "price": 0.4907,
+          "vol": 2071735.82037,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 158
+      "scanned": 156
     },
     "1h": {
       "sell": [
         {
-          "sym": "VTHOUSDT",
-          "rsi": 87,
-          "price": 0.000737,
-          "vol": 2592133.976914,
-          "label": "MUY ALTO"
+          "sym": "API3USDT",
+          "rsi": 83.6,
+          "price": 0.3947,
+          "vol": 14394014.111651,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BANDUSDT",
+          "rsi": 81.9,
+          "price": 0.2599,
+          "vol": 2361986.45696,
+          "label": "ALTO"
+        },
+        {
+          "sym": "RLCUSDT",
+          "rsi": 81.8,
+          "price": 0.9251,
+          "vol": 52534581.17705,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 81.4,
+          "price": 173.19,
+          "vol": 30126335.94177,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -67,9 +81,9 @@
         },
         {
           "sym": "MINAUSDT",
-          "rsi": 18.7,
-          "price": 0.1441,
-          "vol": 3162058.63292,
+          "rsi": 16.3,
+          "price": 0.1348,
+          "vol": 4887527.06905,
           "label": "BAJO"
         },
         {
@@ -78,45 +92,59 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "币安人生USDT",
+          "rsi": 23.8,
+          "price": 0.4907,
+          "vol": 2071735.82037,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 158
+      "scanned": 156
     },
     "4h": {
       "sell": [
         {
           "sym": "RLCUSDT",
-          "rsi": 96.5,
-          "price": 0.776,
-          "vol": 33909434.74207,
+          "rsi": 96,
+          "price": 0.9251,
+          "vol": 52534581.17705,
           "label": "EXTREMO"
         },
         {
+          "sym": "RADUSDT",
+          "rsi": 88.4,
+          "price": 0.388,
+          "vol": 16291848.4219,
+          "label": "MUY ALTO"
+        },
+        {
           "sym": "SPCXBUSDT",
-          "rsi": 83.6,
-          "price": 171.43,
-          "vol": 26938093.69499,
+          "rsi": 86.2,
+          "price": 173.19,
+          "vol": 30126335.94177,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "API3USDT",
+          "rsi": 84.2,
+          "price": 0.3947,
+          "vol": 14394014.111651,
+          "label": "ALTO"
+        },
+        {
+          "sym": "BANDUSDT",
+          "rsi": 83,
+          "price": 0.2599,
+          "vol": 2361986.45696,
           "label": "ALTO"
         },
         {
           "sym": "ORCAUSDT",
-          "rsi": 83,
-          "price": 2.398,
-          "vol": 12577419.6648,
-          "label": "ALTO"
-        },
-        {
-          "sym": "RADUSDT",
-          "rsi": 82.4,
-          "price": 0.343,
-          "vol": 10681214.7487,
-          "label": "ALTO"
-        },
-        {
-          "sym": "EDUUSDT",
-          "rsi": 80.7,
-          "price": 0.0628,
-          "vol": 5209382.059,
+          "rsi": 81.1,
+          "price": 2.49,
+          "vol": 17140310.5786,
           "label": "ALTO"
         }
       ],
@@ -136,7 +164,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 158
+      "scanned": 156
     }
   }
 }
