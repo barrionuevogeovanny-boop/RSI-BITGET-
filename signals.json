@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06T15:00:28.572Z",
-  "updated_ts": 1791298828572,
+  "updated": "2026-10-06T20:08:28.399Z",
+  "updated_ts": 1791317308399,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,39 +16,45 @@
       "sell": [],
       "buy": [
         {
+          "sym": "MINAUSDT",
+          "rsi": 15.3,
+          "price": 0.1125,
+          "vol": 9809557.0583,
+          "label": "BAJO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        }
-      ],
-      "scanned": 163
-    },
-    "1h": {
-      "sell": [
-        {
-          "sym": "NVDABUSDT",
-          "rsi": 81.3,
-          "price": 242.39,
-          "vol": 6785142.68682,
-          "label": "ALTO"
         },
         {
-          "sym": "QQQBUSDT",
-          "rsi": 80.7,
-          "price": 762.4,
-          "vol": 3485894.15231,
-          "label": "ALTO"
+          "sym": "VIRTUALUSDT",
+          "rsi": 23.5,
+          "price": 0.8089,
+          "vol": 5895445.41375,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MUBUSDT",
+          "rsi": 24.2,
+          "price": 1045.69,
+          "vol": 3764824.25196,
+          "label": "SOBREVENDIDO"
         }
       ],
+      "scanned": 159
+    },
+    "1h": {
+      "sell": [],
       "buy": [
         {
           "sym": "MINAUSDT",
-          "rsi": 11,
-          "price": 0.1256,
-          "vol": 7477790.89445,
-          "label": "MUY BAJO"
+          "rsi": 8.2,
+          "price": 0.1125,
+          "vol": 9809557.0583,
+          "label": "EXTREMO"
         },
         {
           "sym": "NFPUSDT",
@@ -58,51 +64,37 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "SKHYBUSDT",
+          "rsi": 21.4,
+          "price": 183.01,
+          "vol": 2247748.26498,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MRNABUSDT",
+          "rsi": 23.6,
+          "price": 187.54,
+          "vol": 3185690.19618,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 163
+      "scanned": 159
     },
     "4h": {
       "sell": [
         {
           "sym": "ORCAUSDT",
-          "rsi": 85.4,
-          "price": 2.711,
-          "vol": 26709322.51253,
+          "rsi": 85.9,
+          "price": 2.82,
+          "vol": 39750331.55956,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 83.1,
-          "price": 175.17,
-          "vol": 35212732.17088,
-          "label": "ALTO"
-        },
-        {
-          "sym": "NVDABUSDT",
-          "rsi": 83.1,
-          "price": 242.39,
-          "vol": 6785142.68682,
-          "label": "ALTO"
-        },
-        {
-          "sym": "C98USDT",
-          "rsi": 83.1,
-          "price": 0.01998,
-          "vol": 4570038.768218,
-          "label": "ALTO"
-        },
-        {
-          "sym": "NMRUSDT",
-          "rsi": 82.1,
-          "price": 16.6,
-          "vol": 22210485.1294,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -114,14 +106,35 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "MINAUSDT",
+          "rsi": 20.5,
+          "price": 0.1125,
+          "vol": 9809557.0583,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PROMUSDT",
+          "rsi": 22.8,
+          "price": 5.107,
+          "vol": 10816398.96807,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "2ZUSDT",
+          "rsi": 23.9,
+          "price": 0.04153,
+          "vol": 2624510.70977,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 163
+      "scanned": 159
     }
   }
 }
