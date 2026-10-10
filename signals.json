@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10T02:16:37.982Z",
-  "updated_ts": 1791598597982,
+  "updated": "2026-10-10T08:37:29.750Z",
+  "updated_ts": 1791621449750,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,18 +15,18 @@
     "15m": {
       "sell": [
         {
-          "sym": "OPUSDT",
-          "rsi": 87.3,
-          "price": 0.1427,
-          "vol": 12069837.564413,
-          "label": "MUY ALTO"
+          "sym": "ERAUSDT",
+          "rsi": 92.6,
+          "price": 0.0943,
+          "vol": 6439230.61916,
+          "label": "EXTREMO"
         },
         {
-          "sym": "ADAUSDT",
-          "rsi": 86.5,
-          "price": 0.2544,
-          "vol": 36133691.80463,
-          "label": "MUY ALTO"
+          "sym": "LUMIAUSDT",
+          "rsi": 80.6,
+          "price": 0.126,
+          "vol": 10191717.542058,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -36,32 +36,32 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "AMPUSDT",
+          "rsi": 23.7,
+          "price": 0.000638,
+          "vol": 5199667.492307,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     },
     "1h": {
       "sell": [
         {
-          "sym": "MAGICUSDT",
-          "rsi": 85.8,
-          "price": 0.1409,
-          "vol": 39949191.17924,
+          "sym": "LUMIAUSDT",
+          "rsi": 95.1,
+          "price": 0.126,
+          "vol": 10191717.542058,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "ERAUSDT",
+          "rsi": 88,
+          "price": 0.0943,
+          "vol": 6439230.61916,
           "label": "MUY ALTO"
-        },
-        {
-          "sym": "OPUSDT",
-          "rsi": 83.8,
-          "price": 0.1427,
-          "vol": 12069837.564413,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAIUSDT",
-          "rsi": 80.4,
-          "price": 0.00991,
-          "vol": 2298757.686425,
-          "label": "ALTO"
         }
       ],
       "buy": [
@@ -80,16 +80,23 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     },
     "4h": {
       "sell": [
         {
-          "sym": "MAGICUSDT",
-          "rsi": 92.4,
-          "price": 0.1409,
-          "vol": 39949191.17924,
-          "label": "EXTREMO"
+          "sym": "ERAUSDT",
+          "rsi": 83.9,
+          "price": 0.0943,
+          "vol": 6439230.61916,
+          "label": "ALTO"
+        },
+        {
+          "sym": "LUMIAUSDT",
+          "rsi": 83.6,
+          "price": 0.126,
+          "vol": 10191717.542058,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -108,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 149
+      "scanned": 150
     }
   }
 }
