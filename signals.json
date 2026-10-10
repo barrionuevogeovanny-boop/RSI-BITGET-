@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-10T14:42:35.391Z",
-  "updated_ts": 1791643355391,
+  "updated": "2026-10-10T18:52:56.144Z",
+  "updated_ts": 1791658376144,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "APTUSDT",
+          "rsi": 83.6,
+          "price": 0.8764,
+          "vol": 13483617.815653,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TIAUSDT",
+          "rsi": 82.7,
+          "price": 0.5445,
+          "vol": 8730766.98742,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,22 +38,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 154
+      "scanned": 144
     },
     "1h": {
       "sell": [
         {
-          "sym": "CFXUSDT",
-          "rsi": 87.3,
-          "price": 0.0599,
-          "vol": 10163223.99977,
+          "sym": "STRKUSDT",
+          "rsi": 86.8,
+          "price": 0.10161,
+          "vol": 60109102.8902801,
           "label": "MUY ALTO"
         },
         {
-          "sym": "AEROUSDT",
-          "rsi": 83,
-          "price": 0.908,
-          "vol": 6870294.78748,
+          "sym": "CHIPUSDT",
+          "rsi": 83.1,
+          "price": 0.06171,
+          "vol": 7432958.86938,
           "label": "ALTO"
         }
       ],
@@ -58,10 +73,25 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 154
+      "scanned": 144
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "STRKUSDT",
+          "rsi": 83.4,
+          "price": 0.10161,
+          "vol": 60109102.8902801,
+          "label": "ALTO"
+        },
+        {
+          "sym": "MBLUSDT",
+          "rsi": 81,
+          "price": 0.001085,
+          "vol": 3218912.041244,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -78,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 154
+      "scanned": 144
     }
   }
 }
