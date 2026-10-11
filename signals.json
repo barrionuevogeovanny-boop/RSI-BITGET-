@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T13:34:26.535Z",
-  "updated_ts": 1791725666535,
+  "updated": "2026-10-11T18:25:21.034Z",
+  "updated_ts": 1791743121034,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,24 @@
     "15m": {
       "sell": [
         {
-          "sym": "CKBUSDT",
-          "rsi": 84,
-          "price": 0.001853,
-          "vol": 6436907.746008,
+          "sym": "HUMAUSDT",
+          "rsi": 82.4,
+          "price": 0.03481,
+          "vol": 2783860.00274,
           "label": "ALTO"
         },
         {
-          "sym": "AVAXUSDT",
-          "rsi": 82.3,
-          "price": 10.544,
-          "vol": 14269606.52084,
+          "sym": "SUSDT",
+          "rsi": 81.5,
+          "price": 0.06395,
+          "vol": 28252097.733205,
+          "label": "ALTO"
+        },
+        {
+          "sym": "DYMUSDT",
+          "rsi": 81,
+          "price": 0.02086,
+          "vol": 2103628.123768,
           "label": "ALTO"
         }
       ],
@@ -38,15 +45,22 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 128
+      "scanned": 129
     },
     "1h": {
       "sell": [
         {
-          "sym": "CKBUSDT",
-          "rsi": 82,
-          "price": 0.001853,
-          "vol": 6436907.746008,
+          "sym": "SUSDT",
+          "rsi": 87.6,
+          "price": 0.06395,
+          "vol": 28252097.733205,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PLUMEUSDT",
+          "rsi": 80.3,
+          "price": 0.02139,
+          "vol": 5125714.41293,
           "label": "ALTO"
         }
       ],
@@ -66,16 +80,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 129
     },
     "4h": {
       "sell": [
         {
-          "sym": "CKBUSDT",
-          "rsi": 81,
-          "price": 0.001853,
-          "vol": 6436907.746008,
-          "label": "ALTO"
+          "sym": "SUSDT",
+          "rsi": 87.3,
+          "price": 0.06395,
+          "vol": 28252097.733205,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -94,7 +108,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 129
     }
   }
 }
