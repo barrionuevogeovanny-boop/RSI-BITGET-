@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T06:47:23.970Z",
-  "updated_ts": 1791701243970,
+  "updated": "2026-10-11T13:34:26.535Z",
+  "updated_ts": 1791725666535,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "CKBUSDT",
+          "rsi": 84,
+          "price": 0.001853,
+          "vol": 6436907.746008,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AVAXUSDT",
+          "rsi": 82.3,
+          "price": 10.544,
+          "vol": 14269606.52084,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +38,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 134
+      "scanned": 128
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "CKBUSDT",
+          "rsi": 82,
+          "price": 0.001853,
+          "vol": 6436907.746008,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,13 +59,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "RVNUSDT",
-          "rsi": 21.9,
-          "price": 0.002004,
-          "vol": 2633638.3156253,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -50,16 +66,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 128
     },
     "4h": {
       "sell": [
         {
-          "sym": "STRKUSDT",
-          "rsi": 86.2,
-          "price": 0.11093,
-          "vol": 112112184.7023562,
-          "label": "MUY ALTO"
+          "sym": "CKBUSDT",
+          "rsi": 81,
+          "price": 0.001853,
+          "vol": 6436907.746008,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -78,7 +94,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 128
     }
   }
 }
