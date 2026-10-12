@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-11T22:14:39.102Z",
-  "updated_ts": 1791756879102,
+  "updated": "2026-10-12T01:21:52.689Z",
+  "updated_ts": 1791768112689,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,29 +23,29 @@
           "label": "BAJO"
         },
         {
-          "sym": "ERAUSDT",
-          "rsi": 23.1,
-          "price": 0.0747,
-          "vol": 9902249.99997,
+          "sym": "RVNUSDT",
+          "rsi": 19.1,
+          "price": 0.001816,
+          "vol": 4795202.7032909,
+          "label": "BAJO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 21.1,
+          "price": 1586.33,
+          "vol": 3793184.412324,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 136
     },
     "1h": {
       "sell": [
         {
-          "sym": "PLUMEUSDT",
-          "rsi": 85.2,
-          "price": 0.02279,
-          "vol": 8049824.5717,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "ICPUSDT",
-          "rsi": 80.1,
-          "price": 3.462,
-          "vol": 11382739.34266,
+          "rsi": 80.2,
+          "price": 3.479,
+          "vol": 14253213.10657,
           "label": "ALTO"
         }
       ],
@@ -58,6 +58,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "RVNUSDT",
+          "rsi": 22.3,
+          "price": 0.001816,
+          "vol": 4795202.7032909,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -65,15 +72,15 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 136
     },
     "4h": {
       "sell": [
         {
-          "sym": "CKBUSDT",
-          "rsi": 85.8,
-          "price": 0.002074,
-          "vol": 15754862.252568,
+          "sym": "STRKUSDT",
+          "rsi": 86.8,
+          "price": 0.12198,
+          "vol": 105332817.4497117,
           "label": "MUY ALTO"
         }
       ],
@@ -86,6 +93,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "RVNUSDT",
+          "rsi": 21.8,
+          "price": 0.001816,
+          "vol": 4795202.7032909,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -93,7 +107,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 133
+      "scanned": 136
     }
   }
 }
