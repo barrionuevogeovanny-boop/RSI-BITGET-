@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-13T22:53:36.912Z",
-  "updated_ts": 1791932016912,
+  "updated": "2026-10-14T01:28:51.573Z",
+  "updated_ts": 1791941331573,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "XUSDUSDT",
+          "rsi": 22.3,
+          "price": 1.0009,
+          "vol": 5816969.3582,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 167
+      "scanned": 151
     },
     "1h": {
       "sell": [],
@@ -43,7 +50,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 166
+      "scanned": 151
     },
     "4h": {
       "sell": [],
@@ -56,17 +63,17 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "GPSUSDT",
-          "rsi": 18.6,
-          "price": 0.00785,
-          "vol": 4377170.374361,
-          "label": "BAJO"
+          "sym": "BLURUSDT",
+          "rsi": 13.3,
+          "price": 0.01174,
+          "vol": 9194807.46143,
+          "label": "MUY BAJO"
         },
         {
-          "sym": "BLURUSDT",
-          "rsi": 19.3,
-          "price": 0.01233,
-          "vol": 10114770.62135,
+          "sym": "GPSUSDT",
+          "rsi": 19.9,
+          "price": 0.00789,
+          "vol": 3125245.963524,
           "label": "BAJO"
         },
         {
@@ -77,21 +84,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ONEUSDT",
-          "rsi": 24.3,
-          "price": 0.001704,
-          "vol": 5245611.506263,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 24.7,
-          "price": 157.28,
-          "vol": 32093214.73851,
+          "sym": "DRAMBUSDT",
+          "rsi": 24.5,
+          "price": 52.64,
+          "vol": 2269281.3939,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 166
+      "scanned": 150
     }
   }
 }
