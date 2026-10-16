@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T01:08:10.006Z",
-  "updated_ts": 1792112890006,
+  "updated": "2026-10-16T05:48:16.576Z",
+  "updated_ts": 1792129696576,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 169
+      "scanned": 155
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "INJUSDT",
+          "rsi": 82.1,
+          "price": 9.252,
+          "vol": 40718707.2405,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 169
+      "scanned": 155
     },
     "4h": {
       "sell": [],
@@ -56,13 +64,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SOPHUSDT",
-          "rsi": 21.6,
-          "price": 0.0024,
-          "vol": 2718865.51247,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -70,14 +71,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "AAOIBUSDT",
-          "rsi": 24.2,
-          "price": 84.56,
-          "vol": 3085234.25342,
+          "sym": "BNCBUSDT",
+          "rsi": 24.1,
+          "price": 4.72,
+          "vol": 2710284.48,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 169
+      "scanned": 155
     }
   }
 }
