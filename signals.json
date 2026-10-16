@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T05:48:16.576Z",
-  "updated_ts": 1792129696576,
+  "updated": "2026-10-16T10:09:15.891Z",
+  "updated_ts": 1792145355891,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,6 +21,13 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 22.5,
+          "price": 0.07812,
+          "vol": 57142394.3660944,
+          "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 155
@@ -28,10 +35,10 @@
     "1h": {
       "sell": [
         {
-          "sym": "INJUSDT",
-          "rsi": 82.1,
-          "price": 9.252,
-          "vol": 40718707.2405,
+          "sym": "TIAUSDT",
+          "rsi": 82.4,
+          "price": 0.6855,
+          "vol": 26167028.44041,
           "label": "ALTO"
         }
       ],
@@ -71,10 +78,24 @@
           "label": "SOBREVENDIDO"
         },
         {
+          "sym": "ZILUSDT",
+          "rsi": 24,
+          "price": 0.00267,
+          "vol": 3764766.5579826,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EPICUSDT",
+          "rsi": 24.9,
+          "price": 0.2258,
+          "vol": 6035505.26316,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "BNCBUSDT",
-          "rsi": 24.1,
+          "rsi": 24.9,
           "price": 4.72,
-          "vol": 2710284.48,
+          "vol": 2566538.472,
           "label": "SOBREVENDIDO"
         }
       ],
