@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T10:09:15.891Z",
-  "updated_ts": 1792145355891,
+  "updated": "2026-10-16T14:48:55.837Z",
+  "updated_ts": 1792162135837,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,25 +21,18 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "STRKUSDT",
-          "rsi": 22.5,
-          "price": 0.07812,
-          "vol": 57142394.3660944,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 143
     },
     "1h": {
       "sell": [
         {
           "sym": "TIAUSDT",
-          "rsi": 82.4,
-          "price": 0.6855,
-          "vol": 26167028.44041,
-          "label": "ALTO"
+          "rsi": 86.3,
+          "price": 0.7137,
+          "vol": 32904932.36455,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -58,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 143
     },
     "4h": {
       "sell": [],
@@ -71,35 +64,21 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ZILUSDT",
+          "rsi": 23,
+          "price": 0.002625,
+          "vol": 4958039.0866708,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZILUSDT",
-          "rsi": 24,
-          "price": 0.00267,
-          "vol": 3764766.5579826,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "EPICUSDT",
-          "rsi": 24.9,
-          "price": 0.2258,
-          "vol": 6035505.26316,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BNCBUSDT",
-          "rsi": 24.9,
-          "price": 4.72,
-          "vol": 2566538.472,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 155
+      "scanned": 143
     }
   }
 }
