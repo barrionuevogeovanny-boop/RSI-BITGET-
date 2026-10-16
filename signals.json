@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-16T21:30:32.448Z",
-  "updated_ts": 1792186232449,
+  "updated": "2026-10-16T23:48:55.423Z",
+  "updated_ts": 1792194535423,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "PUMPUSDT",
-          "rsi": 81.5,
-          "price": 0.004698,
-          "vol": 15042173.662788,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -29,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "NXPCUSDT",
+          "rsi": 24.4,
+          "price": 0.181,
+          "vol": 3072138.50522,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 148
     },
     "1h": {
       "sell": [],
@@ -44,24 +43,31 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "BNCBUSDT",
-          "rsi": 20.4,
-          "price": 4.49,
-          "vol": 2220872.141,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "TQQQBUSDT",
-          "rsi": 21.9,
-          "price": 68.42,
-          "vol": 5816204.8534,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.7,
+          "price": 67.98,
+          "vol": 5758436.382,
+          "label": "BAJO"
         },
         {
           "sym": "QQQBUSDT",
-          "rsi": 22.5,
-          "price": 711.33,
-          "vol": 8410185.37913,
+          "rsi": 19.8,
+          "price": 709.34,
+          "vol": 8071536.58417,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ZILUSDT",
+          "rsi": 22,
+          "price": 0.002507,
+          "vol": 6375182.7158721,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNCBUSDT",
+          "rsi": 23.2,
+          "price": 4.5,
+          "vol": 2312758.009,
           "label": "SOBREVENDIDO"
         },
         {
@@ -70,23 +76,9 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BERAUSDT",
-          "rsi": 23.3,
-          "price": 0.1861,
-          "vol": 4507962.2504616,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "INTCBUSDT",
-          "rsi": 24.1,
-          "price": 90.02,
-          "vol": 5551008.85483,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 148
     },
     "4h": {
       "sell": [],
@@ -100,23 +92,23 @@
         },
         {
           "sym": "BNCBUSDT",
-          "rsi": 18.2,
-          "price": 4.49,
-          "vol": 2220872.141,
+          "rsi": 19.4,
+          "price": 4.5,
+          "vol": 2312758.009,
           "label": "BAJO"
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 21.6,
-          "price": 90.02,
-          "vol": 5551008.85483,
+          "rsi": 20.3,
+          "price": 89.56,
+          "vol": 5781258.31368,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "ZILUSDT",
-          "rsi": 22.4,
-          "price": 0.002556,
-          "vol": 6048901.8824057,
+          "rsi": 21,
+          "price": 0.002507,
+          "vol": 6375182.7158721,
           "label": "SOBREVENDIDO"
         },
         {
@@ -125,9 +117,37 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NVDABUSDT",
+          "rsi": 23.6,
+          "price": 214.12,
+          "vol": 11145278.67917,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "QQQBUSDT",
+          "rsi": 24.2,
+          "price": 709.34,
+          "vol": 8071536.58417,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NBISBUSDT",
+          "rsi": 24.3,
+          "price": 165.19,
+          "vol": 2603781.24484,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TQQQBUSDT",
+          "rsi": 24.6,
+          "price": 67.98,
+          "vol": 5758436.382,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 147
+      "scanned": 148
     }
   }
 }
