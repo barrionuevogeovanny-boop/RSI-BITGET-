@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17T13:54:28.738Z",
-  "updated_ts": 1792245268738,
+  "updated": "2026-10-17T16:47:10.035Z",
+  "updated_ts": 1792255630035,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,16 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "ALTUSDT",
-          "rsi": 82.9,
-          "price": 0.00881,
-          "vol": 4026620.75744,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "ENAUSDT",
+          "rsi": 15.4,
+          "price": 0.1884,
+          "vol": 19011343.145128,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -31,17 +30,116 @@
           "label": "BAJO"
         },
         {
-          "sym": "STXUSDT",
-          "rsi": 18.3,
-          "price": 0.3639,
-          "vol": 2260988.10061,
+          "sym": "牛来USDT",
+          "rsi": 19.1,
+          "price": 0.06031,
+          "vol": 2561512.63152,
           "label": "BAJO"
+        },
+        {
+          "sym": "RENDERUSDT",
+          "rsi": 19.5,
+          "price": 1.838,
+          "vol": 2689293.04989,
+          "label": "BAJO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 20.4,
+          "price": 4156.77,
+          "vol": 7294059.171494,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "DOTUSDT",
+          "rsi": 20.9,
+          "price": 1.11,
+          "vol": 9505085.83109,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZAMAUSDT",
+          "rsi": 21.6,
+          "price": 0.07116,
+          "vol": 2420488.26699,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LDOUSDT",
+          "rsi": 22.3,
+          "price": 0.3861,
+          "vol": 2376360.792988,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZROUSDT",
+          "rsi": 23,
+          "price": 1.868,
+          "vol": 13743457.41005,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XLMUSDT",
+          "rsi": 23.4,
+          "price": 0.1765,
+          "vol": 8851605.0507,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ONDOUSDT",
+          "rsi": 23.4,
+          "price": 0.4379,
+          "vol": 8443922.59776,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 24.6,
+          "price": 4156.46,
+          "vol": 8511910.303049,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHUSDT",
+          "rsi": 24.7,
+          "price": 2407.48,
+          "vol": 325178291.842169,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 24.7,
+          "price": 151.46,
+          "vol": 8966410.16485,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 24.8,
+          "price": 0.1884,
+          "vol": 12247977.65843,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 25,
+          "price": 0.6656,
+          "vol": 2899201.88099,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 122
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AVAUSDT",
+          "rsi": 85.1,
+          "price": 0.3854,
+          "vol": 5487465.53143,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,14 +149,42 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "牛来USDT",
+          "rsi": 21.2,
+          "price": 0.06031,
+          "vol": 2561512.63152,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "LINKUSDT",
+          "rsi": 21.5,
+          "price": 11.919,
+          "vol": 15661578.73665,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ENAUSDT",
+          "rsi": 22.9,
+          "price": 0.1884,
+          "vol": 19011343.145128,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "FETUSDT",
+          "rsi": 24,
+          "price": 0.1884,
+          "vol": 12247977.65843,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 122
     },
     "4h": {
       "sell": [],
@@ -72,9 +198,16 @@
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 21.6,
-          "price": 89.55,
-          "vol": 4249780.42314,
+          "rsi": 20.9,
+          "price": 89.2,
+          "vol": 3623536.83858,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZILUSDT",
+          "rsi": 21.7,
+          "price": 0.002299,
+          "vol": 5310254.4846836,
           "label": "SOBREVENDIDO"
         },
         {
@@ -83,16 +216,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZILUSDT",
-          "rsi": 23.4,
-          "price": 0.002356,
-          "vol": 5821344.5446702,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 122
     }
   }
 }
