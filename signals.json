@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17T18:52:52.509Z",
-  "updated_ts": 1792263172509,
+  "updated": "2026-10-17T21:07:34.518Z",
+  "updated_ts": 1792271254518,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,25 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 119
+      "scanned": 116
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ALTUSDT",
+          "rsi": 82.1,
+          "price": 0.0095,
+          "vol": 8768790.57702,
+          "label": "ALTO"
+        },
+        {
+          "sym": "AVAUSDT",
+          "rsi": 80.7,
+          "price": 0.4041,
+          "vol": 9427491.49398,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,7 +58,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 119
+      "scanned": 116
     },
     "4h": {
       "sell": [],
@@ -56,28 +71,28 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ZILUSDT",
+          "rsi": 22.6,
+          "price": 0.002307,
+          "vol": 5042926.3395879,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "INTCBUSDT",
+          "rsi": 22.9,
+          "price": 89.43,
+          "vol": 2402539.56951,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "INTCBUSDT",
-          "rsi": 23.8,
-          "price": 89.65,
-          "vol": 3025693.00161,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZILUSDT",
-          "rsi": 24.5,
-          "price": 0.002342,
-          "vol": 5264386.7290832,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 119
+      "scanned": 116
     }
   }
 }
