@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-18T21:24:55.743Z",
-  "updated_ts": 1792358695743,
+  "updated": "2026-10-18T23:26:40.272Z",
+  "updated_ts": 1792366000272,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,56 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "EURUSDT",
-          "rsi": 6,
-          "price": 1.12,
-          "vol": 4336534.03177,
-          "label": "EXTREMO"
+          "sym": "TSLABUSDT",
+          "rsi": 85.6,
+          "price": 361.52,
+          "vol": 3941850.47641,
+          "label": "MUY ALTO"
         },
+        {
+          "sym": "INJUSDT",
+          "rsi": 82.1,
+          "price": 8.652,
+          "vol": 16389332.21704,
+          "label": "ALTO"
+        },
+        {
+          "sym": "QQQBUSDT",
+          "rsi": 80.5,
+          "price": 714.86,
+          "vol": 3933868.82505,
+          "label": "ALTO"
+        },
+        {
+          "sym": "SENTUSDT",
+          "rsi": 80.5,
+          "price": 0.02295,
+          "vol": 2365989.55702,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "AEROUSDT",
-          "rsi": 18.3,
-          "price": 0.7657,
-          "vol": 4385176.41122,
-          "label": "BAJO"
-        },
-        {
-          "sym": "NXPCUSDT",
-          "rsi": 22.6,
-          "price": 0.1511,
-          "vol": 2565070.77186,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TIAUSDT",
-          "rsi": 23.9,
-          "price": 0.5884,
-          "vol": 14361881.04636,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "1h": {
       "sell": [],
       "buy": [
-        {
-          "sym": "EURUSDT",
-          "rsi": 10.1,
-          "price": 1.12,
-          "vol": 4336534.03177,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -71,42 +65,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "AEROUSDT",
-          "rsi": 19.2,
-          "price": 0.7657,
-          "vol": 4385176.41122,
-          "label": "BAJO"
-        },
-        {
-          "sym": "OPUSDT",
-          "rsi": 21.1,
-          "price": 0.1196,
-          "vol": 4230031.211742,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AUSDT",
-          "rsi": 21.7,
-          "price": 0.0878,
-          "vol": 2640305.77036,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "APTUSDT",
-          "rsi": 24.3,
-          "price": 0.7442,
-          "vol": 9879355.268949,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     },
     "4h": {
       "sell": [],
@@ -119,42 +85,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "SOXLBUSDT",
-          "rsi": 22.2,
-          "price": 88.79,
-          "vol": 24733744.13555,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "INTCBUSDT",
-          "rsi": 22.2,
-          "price": 87.22,
-          "vol": 9088428.96825,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "QQQBUSDT",
-          "rsi": 24.3,
-          "price": 705.6,
-          "vol": 3878725.16918,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TQQQBUSDT",
-          "rsi": 25,
-          "price": 66.83,
-          "vol": 4229478.2871,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 128
+      "scanned": 127
     }
   }
 }
