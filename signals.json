@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19T19:44:07.118Z",
-  "updated_ts": 1792439047118,
+  "updated": "2026-10-19T23:06:34.870Z",
+  "updated_ts": 1792451194870,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,23 +23,16 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 135
+      "scanned": 131
     },
     "1h": {
       "sell": [
         {
-          "sym": "BNCBUSDT",
-          "rsi": 82.6,
-          "price": 4.75,
-          "vol": 2238658.73,
-          "label": "ALTO"
-        },
-        {
           "sym": "PHAUSDT",
-          "rsi": 81.9,
-          "price": 0.0617,
-          "vol": 7702029.4405,
-          "label": "ALTO"
+          "rsi": 86.6,
+          "price": 0.0664,
+          "vol": 11480895.8501,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -58,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -71,6 +64,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "ENSOUSDT",
+          "rsi": 21.4,
+          "price": 0.615,
+          "vol": 2045922.97897,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -78,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 135
+      "scanned": 131
     }
   }
 }
