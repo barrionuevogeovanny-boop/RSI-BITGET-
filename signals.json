@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19T13:58:59.236Z",
-  "updated_ts": 1792418339236,
+  "updated": "2026-10-19T19:44:07.118Z",
+  "updated_ts": 1792439047118,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,50 +16,29 @@
       "sell": [],
       "buy": [
         {
-          "sym": "WLFIUSDT",
-          "rsi": 15.2,
-          "price": 0.0559,
-          "vol": 5627843.63867,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "RLCUSDT",
-          "rsi": 16,
-          "price": 0.6837,
-          "vol": 3238262.12627,
-          "label": "BAJO"
-        },
-        {
-          "sym": "USD1USDT",
-          "rsi": 20.5,
-          "price": 0.99971,
-          "vol": 156276112.52171,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 135
     },
     "1h": {
       "sell": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 84.5,
-          "price": 1391.25,
-          "vol": 41312784.289448,
+          "sym": "BNCBUSDT",
+          "rsi": 82.6,
+          "price": 4.75,
+          "vol": 2238658.73,
           "label": "ALTO"
         },
         {
-          "sym": "SNXXBUSDT",
-          "rsi": 84.2,
-          "price": 10.38,
-          "vol": 4737774.3243,
+          "sym": "PHAUSDT",
+          "rsi": 81.9,
+          "price": 0.0617,
+          "vol": 7702029.4405,
           "label": "ALTO"
         }
       ],
@@ -72,20 +51,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "RLCUSDT",
-          "rsi": 18.9,
-          "price": 0.6837,
-          "vol": 3238262.12627,
-          "label": "BAJO"
-        },
-        {
-          "sym": "USD1USDT",
-          "rsi": 19.3,
-          "price": 0.99971,
-          "vol": 156276112.52171,
-          "label": "BAJO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -93,7 +58,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 135
     },
     "4h": {
       "sell": [],
@@ -113,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 139
+      "scanned": 135
     }
   }
 }
