@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-19T23:06:34.870Z",
-  "updated_ts": 1792451194870,
+  "updated": "2026-10-20T01:45:23.110Z",
+  "updated_ts": 1792460723110,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AUSDT",
+          "rsi": 83.7,
+          "price": 0.0954,
+          "vol": 2675187.32162,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,18 +31,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PHAUSDT",
-          "rsi": 86.6,
-          "price": 0.0664,
-          "vol": 11480895.8501,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     },
     "4h": {
       "sell": [],
@@ -65,9 +65,16 @@
         },
         {
           "sym": "ENSOUSDT",
-          "rsi": 21.4,
-          "price": 0.615,
-          "vol": 2045922.97897,
+          "rsi": 22,
+          "price": 0.616,
+          "vol": 2285421.48414,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 22.8,
+          "price": 0.0537,
+          "vol": 8030265.91391,
           "label": "SOBREVENDIDO"
         },
         {
@@ -78,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 131
+      "scanned": 128
     }
   }
 }
