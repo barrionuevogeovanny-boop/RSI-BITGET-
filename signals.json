@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T12:13:01.997Z",
-  "updated_ts": 1792498381997,
+  "updated": "2026-10-20T17:09:49.866Z",
+  "updated_ts": 1792516189866,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COMPUSDT",
+          "rsi": 90.9,
+          "price": 28.69,
+          "vol": 6851970.0375,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "THETAUSDT",
+          "rsi": 84.6,
+          "price": 0.2242,
+          "vol": 2432013.69719,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,12 +36,41 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.2,
+          "price": 0.13832,
+          "vol": 2408571.942434,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 133
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COMPUSDT",
+          "rsi": 89.9,
+          "price": 28.69,
+          "vol": 6851970.0375,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "THETAUSDT",
+          "rsi": 88.9,
+          "price": 0.2242,
+          "vol": 2432013.69719,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 84.6,
+          "price": 0.00000462,
+          "vol": 51287582.09518169,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,10 +87,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 133
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "COMPUSDT",
+          "rsi": 83.9,
+          "price": 28.69,
+          "vol": 6851970.0375,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -63,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 121
+      "scanned": 133
     }
   }
 }
