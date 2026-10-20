@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T06:40:42.903Z",
-  "updated_ts": 1792478442903,
+  "updated": "2026-10-20T12:13:01.997Z",
+  "updated_ts": 1792498381997,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,18 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ALTUSDT",
-          "rsi": 80.3,
-          "price": 0.01036,
-          "vol": 7186710.90609,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,7 +43,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     },
     "4h": {
       "sell": [],
@@ -69,16 +61,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "WLFIUSDT",
-          "rsi": 23.6,
-          "price": 0.0538,
-          "vol": 8799421.84768,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     }
   }
 }
