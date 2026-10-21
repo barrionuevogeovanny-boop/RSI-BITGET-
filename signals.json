@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-20T23:21:07.274Z",
-  "updated_ts": 1792538467274,
+  "updated": "2026-10-21T01:43:14.759Z",
+  "updated_ts": 1792546994759,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,19 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "AVAUSDT",
+          "rsi": 21.5,
+          "price": 0.3335,
+          "vol": 5284264.83524,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "IOSTUSDT",
-          "rsi": 82.6,
-          "price": 0.00108,
-          "vol": 8076298.815177,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,16 +50,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     },
     "4h": {
       "sell": [
         {
-          "sym": "IOSTUSDT",
-          "rsi": 86.8,
-          "price": 0.00108,
-          "vol": 8076298.815177,
-          "label": "MUY ALTO"
+          "sym": "CVXUSDT",
+          "rsi": 82.3,
+          "price": 2.494,
+          "vol": 2871528.80612,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -79,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 137
     }
   }
 }
