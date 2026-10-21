@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21T20:45:08.233Z",
-  "updated_ts": 1792615508233,
+  "updated": "2026-10-21T23:42:15.646Z",
+  "updated_ts": 1792626135646,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 141
+      "scanned": 142
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "PROMUSDT",
-          "rsi": 83,
-          "price": 5.8,
-          "vol": 4300839.19116,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XRPUSDT",
-          "rsi": 80,
-          "price": 1.3896,
-          "vol": 134947387.02412,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,16 +43,16 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 142
     },
     "4h": {
       "sell": [
         {
-          "sym": "IOSTUSDT",
-          "rsi": 85.6,
-          "price": 0.001643,
-          "vol": 51348326.978687,
-          "label": "MUY ALTO"
+          "sym": "CVXUSDT",
+          "rsi": 80.3,
+          "price": 2.621,
+          "vol": 5095811.627035,
+          "label": "ALTO"
         }
       ],
       "buy": [
@@ -84,9 +69,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MITOUSDT",
+          "rsi": 24.1,
+          "price": 0.01007,
+          "vol": 9273117.499806,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 142
     }
   }
 }
