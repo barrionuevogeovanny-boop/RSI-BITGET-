@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-21T23:42:15.646Z",
-  "updated_ts": 1792626135646,
+  "updated": "2026-10-22T01:52:41.060Z",
+  "updated_ts": 1792633961060,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,23 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "PLUMEUSDT",
+          "rsi": 23.4,
+          "price": 0.01779,
+          "vol": 2479121.89124,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SANDUSDT",
+          "rsi": 23.8,
+          "price": 0.05657,
+          "vol": 2500022.70699,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 141
     },
     "1h": {
       "sell": [],
@@ -36,6 +50,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "MOVRUSDT",
+          "rsi": 21.9,
+          "price": 1.199,
+          "vol": 2925814.009205,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -43,18 +64,10 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 141
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "CVXUSDT",
-          "rsi": 80.3,
-          "price": 2.621,
-          "vol": 5095811.627035,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -72,13 +85,13 @@
         },
         {
           "sym": "MITOUSDT",
-          "rsi": 24.1,
-          "price": 0.01007,
-          "vol": 9273117.499806,
+          "rsi": 23.6,
+          "price": 0.00994,
+          "vol": 9524931.910759,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 142
+      "scanned": 141
     }
   }
 }
