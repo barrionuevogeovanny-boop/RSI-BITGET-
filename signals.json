@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T20:32:46.759Z",
-  "updated_ts": 1792787566759,
+  "updated": "2026-10-23T23:25:45.224Z",
+  "updated_ts": 1792797945224,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,28 +23,28 @@
           "label": "BAJO"
         },
         {
-          "sym": "MARSCOINUSDT",
-          "rsi": 19.9,
-          "price": 0.0715,
-          "vol": 2582894.29493,
-          "label": "BAJO"
-        },
-        {
-          "sym": "牛来USDT",
-          "rsi": 21.8,
-          "price": 0.05506,
-          "vol": 3592855.20791,
+          "sym": "PHAUSDT",
+          "rsi": 21.5,
+          "price": 0.0539,
+          "vol": 7192935.5999,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "ALTUSDT",
-          "rsi": 24.6,
-          "price": 0.00704,
-          "vol": 6056609.65107,
+          "sym": "WLDUSDT",
+          "rsi": 22.7,
+          "price": 0.4845,
+          "vol": 57014324.59623,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 23.5,
+          "price": 1.232,
+          "vol": 13431129.25389,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 139
     },
     "1h": {
       "sell": [],
@@ -64,25 +64,31 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "牛来USDT",
-          "rsi": 24,
-          "price": 0.05506,
-          "vol": 3592855.20791,
+          "sym": "MARSCOINUSDT",
+          "rsi": 23.3,
+          "price": 0.0696,
+          "vol": 3141106.2739,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GRAMUSDT",
+          "rsi": 23.8,
+          "price": 1.232,
+          "vol": 13431129.25389,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WLDUSDT",
+          "rsi": 24.4,
+          "price": 0.4845,
+          "vol": 57014324.59623,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 139
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "ARKUSDT",
-          "rsi": 83.5,
-          "price": 0.2284,
-          "vol": 9598777.5686,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -92,24 +98,31 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "GOOGLBUSDT",
-          "rsi": 20.2,
-          "price": 321.45,
-          "vol": 3793049.84838,
-          "label": "SOBREVENDIDO"
+          "sym": "GRAMUSDT",
+          "rsi": 18,
+          "price": 1.232,
+          "vol": 13431129.25389,
+          "label": "BAJO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 20.9,
-          "price": 3999.13,
-          "vol": 78048275.090463,
+          "rsi": 20.1,
+          "price": 3993.97,
+          "vol": 80725559.598927,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GOOGLBUSDT",
+          "rsi": 21.1,
+          "price": 321.67,
+          "vol": 3740208.28991,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 21.8,
-          "price": 4007.08,
-          "vol": 22894485.618811,
+          "rsi": 21.2,
+          "price": 4003.28,
+          "vol": 23317703.531833,
           "label": "SOBREVENDIDO"
         },
         {
@@ -120,7 +133,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 139
     }
   }
 }
