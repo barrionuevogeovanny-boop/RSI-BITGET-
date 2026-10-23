@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T07:01:50.371Z",
-  "updated_ts": 1792738910371,
+  "updated": "2026-10-23T12:33:53.956Z",
+  "updated_ts": 1792758833956,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "NILUSDT",
-          "rsi": 82.5,
-          "price": 0.0849,
-          "vol": 2830105.577525,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 136
+      "scanned": 129
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PEPEUSDT",
+          "rsi": 86.5,
+          "price": 0.00000509,
+          "vol": 79133778.44992854,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 129
     },
     "4h": {
       "sell": [],
@@ -64,25 +64,11 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 18.9,
-          "price": 4018.66,
-          "vol": 82061686.161999,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 20,
-          "price": 4029.57,
-          "vol": 22913966.872437,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "GOOGLBUSDT",
-          "rsi": 22.6,
-          "price": 324.79,
-          "vol": 4625351.33487,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.2,
+          "price": 322.86,
+          "vol": 4185454.15567,
+          "label": "BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -92,7 +78,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 129
     }
   }
 }
