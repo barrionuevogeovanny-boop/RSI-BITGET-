@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-23T01:56:45.215Z",
-  "updated_ts": 1792720605215,
+  "updated": "2026-10-23T07:01:50.371Z",
+  "updated_ts": 1792738910371,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,17 +15,10 @@
     "15m": {
       "sell": [
         {
-          "sym": "BNCBUSDT",
-          "rsi": 82.1,
-          "price": 5.42,
-          "vol": 4089117.033,
-          "label": "ALTO"
-        },
-        {
-          "sym": "ATOMUSDT",
-          "rsi": 80.3,
-          "price": 1.768,
-          "vol": 3607248.418,
+          "sym": "NILUSDT",
+          "rsi": 82.5,
+          "price": 0.0849,
+          "vol": 2830105.577525,
           "label": "ALTO"
         }
       ],
@@ -38,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 141
+      "scanned": 136
     },
     "1h": {
       "sell": [],
@@ -56,23 +49,9 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 23.8,
-          "price": 0.03794,
-          "vol": 2289761.05623,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.7,
-          "price": 4007.88,
-          "vol": 22312403.11455,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 136
     },
     "4h": {
       "sell": [],
@@ -86,30 +65,23 @@
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 17,
-          "price": 4001.57,
-          "vol": 75107302.233329,
+          "rsi": 18.9,
+          "price": 4018.66,
+          "vol": 82061686.161999,
           "label": "BAJO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 17.4,
-          "price": 4007.88,
-          "vol": 22312403.11455,
-          "label": "BAJO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 21.1,
-          "price": 324.68,
-          "vol": 3834162.79879,
+          "rsi": 20,
+          "price": 4029.57,
+          "vol": 22913966.872437,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "MITOUSDT",
-          "rsi": 23,
-          "price": 0.00893,
-          "vol": 4779785.131466,
+          "sym": "GOOGLBUSDT",
+          "rsi": 22.6,
+          "price": 324.79,
+          "vol": 4625351.33487,
           "label": "SOBREVENDIDO"
         },
         {
@@ -120,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 141
+      "scanned": 136
     }
   }
 }
