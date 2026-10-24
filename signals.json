@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-24T06:31:52.523Z",
-  "updated_ts": 1792823512523,
+  "updated": "2026-10-24T11:30:10.199Z",
+  "updated_ts": 1792841410199,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "REZUSDT",
-          "rsi": 83.8,
-          "price": 0.004627,
-          "vol": 4675053.553213,
-          "label": "ALTO"
+          "sym": "BFUSDUSDT",
+          "rsi": 97.7,
+          "price": 1,
+          "vol": 2096420.267,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
@@ -29,17 +29,52 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "AEROUSDT",
+          "rsi": 18.2,
+          "price": 0.706,
+          "vol": 6956740.07978,
+          "label": "BAJO"
+        },
+        {
+          "sym": "VELODROMEUSDT",
+          "rsi": 22.4,
+          "price": 0.03092,
+          "vol": 2232425.579596,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SEIUSDT",
+          "rsi": 22.8,
+          "price": 0.05413,
+          "vol": 3507796.975426,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "OPUSDT",
+          "rsi": 24.1,
+          "price": 0.1118,
+          "vol": 2920379.117181,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 24.4,
+          "price": 140.34,
+          "vol": 14582264.94201,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 140
     },
     "1h": {
       "sell": [
         {
           "sym": "KATUSDT",
-          "rsi": 84.6,
-          "price": 0.00475,
-          "vol": 5152950.04876,
+          "rsi": 83.3,
+          "price": 0.0057,
+          "vol": 8420195.20229,
           "label": "ALTO"
         }
       ],
@@ -52,22 +87,43 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "VELODROMEUSDT",
+          "rsi": 22.3,
+          "price": 0.03092,
+          "vol": 2232425.579596,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AEROUSDT",
+          "rsi": 23.7,
+          "price": 0.706,
+          "vol": 6956740.07978,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 140
     },
     "4h": {
       "sell": [
         {
           "sym": "KATUSDT",
-          "rsi": 81.8,
-          "price": 0.00475,
-          "vol": 5152950.04876,
+          "rsi": 91.5,
+          "price": 0.0057,
+          "vol": 8420195.20229,
+          "label": "EXTREMO"
+        },
+        {
+          "sym": "TREEUSDT",
+          "rsi": 83.4,
+          "price": 0.0496,
+          "vol": 15344401.79552,
           "label": "ALTO"
         }
       ],
@@ -81,16 +137,23 @@
         },
         {
           "sym": "GOOGLBUSDT",
-          "rsi": 21.5,
-          "price": 321.63,
-          "vol": 2483412.60347,
+          "rsi": 20.2,
+          "price": 320.7,
+          "vol": 2009458.08777,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 21.8,
-          "price": 3996.96,
-          "vol": 59230677.533268,
+          "rsi": 20.6,
+          "price": 3993.42,
+          "vol": 45314444.675126,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 21.5,
+          "price": 4002.47,
+          "vol": 13422460.527005,
           "label": "SOBREVENDIDO"
         },
         {
@@ -101,14 +164,21 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 23.4,
-          "price": 4007.35,
-          "vol": 15035551.799724,
+          "sym": "RLCUSDT",
+          "rsi": 23.9,
+          "price": 0.606,
+          "vol": 2140719.86998,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AEROUSDT",
+          "rsi": 24.8,
+          "price": 0.706,
+          "vol": 6956740.07978,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 143
+      "scanned": 140
     }
   }
 }
