@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T19:41:39.817Z",
-  "updated_ts": 1792957299817,
+  "updated": "2026-10-25T22:03:54.684Z",
+  "updated_ts": 1792965834684,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,11 +15,11 @@
     "15m": {
       "sell": [
         {
-          "sym": "TRXUSDT",
-          "rsi": 80.3,
-          "price": 0.3308,
-          "vol": 11550564.75396,
-          "label": "ALTO"
+          "sym": "DODOUSDT",
+          "rsi": 86.1,
+          "price": 0.02574,
+          "vol": 3800767.900895,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -31,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DODOUSDT",
+          "rsi": 91.4,
+          "price": 0.02574,
+          "vol": 3800767.900895,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,10 +59,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "DODOUSDT",
+          "rsi": 86.8,
+          "price": 0.02574,
+          "vol": 3800767.900895,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -69,16 +85,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "STRKUSDT",
-          "rsi": 23.7,
-          "price": 0.04563,
-          "vol": 5308474.4560339,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 102
     }
   }
 }
