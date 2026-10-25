@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T17:14:41.837Z",
-  "updated_ts": 1792948481837,
+  "updated": "2026-10-25T19:41:39.817Z",
+  "updated_ts": 1792957299817,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TRXUSDT",
+          "rsi": 80.3,
+          "price": 0.3308,
+          "vol": 11550564.75396,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     },
     "1h": {
       "sell": [],
@@ -43,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     },
     "4h": {
       "sell": [],
@@ -56,28 +64,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "RLCUSDT",
-          "rsi": 21,
-          "price": 0.5361,
-          "vol": 2256617.8595,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "STRKUSDT",
-          "rsi": 23.2,
-          "price": 0.04538,
-          "vol": 5349281.0906529,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "STRKUSDT",
+          "rsi": 23.7,
+          "price": 0.04563,
+          "vol": 5308474.4560339,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 105
+      "scanned": 100
     }
   }
 }
