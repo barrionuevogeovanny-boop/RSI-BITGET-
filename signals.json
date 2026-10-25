@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-25T00:06:30.167Z",
-  "updated_ts": 1792886790167,
+  "updated": "2026-10-25T04:32:40.348Z",
+  "updated_ts": 1792902760348,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "RLCUSDT",
+          "rsi": 18.8,
+          "price": 0.5434,
+          "vol": 3716977.13299,
+          "label": "BAJO"
         }
       ],
-      "scanned": 127
+      "scanned": 134
     },
     "1h": {
       "sell": [],
@@ -36,6 +43,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "RLCUSDT",
+          "rsi": 22.8,
+          "price": 0.5434,
+          "vol": 3716977.13299,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -43,7 +57,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 134
     },
     "4h": {
       "sell": [],
@@ -57,9 +71,9 @@
         },
         {
           "sym": "RLCUSDT",
-          "rsi": 18.1,
-          "price": 0.5597,
-          "vol": 3808033.84049,
+          "rsi": 16.4,
+          "price": 0.5434,
+          "vol": 3716977.13299,
           "label": "BAJO"
         },
         {
@@ -70,14 +84,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 24.1,
-          "price": 3992.42,
-          "vol": 18704345.533004,
+          "sym": "AEROUSDT",
+          "rsi": 23.5,
+          "price": 0.6895,
+          "vol": 2935864.05137,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 134
     }
   }
 }
