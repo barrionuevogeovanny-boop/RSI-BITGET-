@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T10:33:33.020Z",
-  "updated_ts": 1793010813020,
+  "updated": "2026-10-26T16:56:28.438Z",
+  "updated_ts": 1793033788438,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,16 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "KATUSDT",
-          "rsi": 80.4,
-          "price": 0.00468,
-          "vol": 3791716.01062,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
+        {
+          "sym": "JSTUSDT",
+          "rsi": 15.2,
+          "price": 0.13958,
+          "vol": 2173987.865647,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
@@ -31,10 +30,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 118
+      "scanned": 132
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TSLABUSDT",
+          "rsi": 81,
+          "price": 395.49,
+          "vol": 7032399.52813,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,6 +51,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "AVAUSDT",
+          "rsi": 22.3,
+          "price": 0.3346,
+          "vol": 2264883.1348,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -51,14 +65,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "HUMAUSDT",
-          "rsi": 24.7,
-          "price": 0.01812,
-          "vol": 4603908.4839,
+          "sym": "CRCLBUSDT",
+          "rsi": 24.2,
+          "price": 79.84,
+          "vol": 20785713.0769,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 132
     },
     "4h": {
       "sell": [],
@@ -71,35 +85,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HUMAUSDT",
-          "rsi": 17.6,
-          "price": 0.01812,
-          "vol": 4603908.4839,
-          "label": "BAJO"
-        },
-        {
-          "sym": "COMPUSDT",
-          "rsi": 23,
-          "price": 20.67,
-          "vol": 4556752.48228,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AEROUSDT",
-          "rsi": 24.7,
-          "price": 0.6627,
-          "vol": 3251806.2566,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 118
+      "scanned": 132
     }
   }
 }
