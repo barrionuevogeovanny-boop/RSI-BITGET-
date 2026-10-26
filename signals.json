@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T16:56:28.438Z",
-  "updated_ts": 1793033788438,
+  "updated": "2026-10-26T21:22:24.875Z",
+  "updated_ts": 1793049744875,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,13 +16,6 @@
       "sell": [],
       "buy": [
         {
-          "sym": "JSTUSDT",
-          "rsi": 15.2,
-          "price": 0.13958,
-          "vol": 2173987.865647,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
@@ -30,18 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 132
+      "scanned": 136
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "TSLABUSDT",
-          "rsi": 81,
-          "price": 395.49,
-          "vol": 7032399.52813,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -52,9 +37,9 @@
         },
         {
           "sym": "AVAUSDT",
-          "rsi": 22.3,
-          "price": 0.3346,
-          "vol": 2264883.1348,
+          "rsi": 21.7,
+          "price": 0.3265,
+          "vol": 2408590.23022,
           "label": "SOBREVENDIDO"
         },
         {
@@ -63,16 +48,9 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "CRCLBUSDT",
-          "rsi": 24.2,
-          "price": 79.84,
-          "vol": 20785713.0769,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 136
     },
     "4h": {
       "sell": [],
@@ -92,7 +70,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 132
+      "scanned": 136
     }
   }
 }
