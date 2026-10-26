@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T04:45:49.450Z",
-  "updated_ts": 1792989949450,
+  "updated": "2026-10-26T10:33:33.020Z",
+  "updated_ts": 1793010813020,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "KATUSDT",
+          "rsi": 80.4,
+          "price": 0.00468,
+          "vol": 3791716.01062,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 107
+      "scanned": 118
     },
     "1h": {
       "sell": [],
@@ -43,14 +51,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "REUSDT",
-          "rsi": 23.3,
-          "price": 0.3532,
-          "vol": 3503945.86662,
+          "sym": "HUMAUSDT",
+          "rsi": 24.7,
+          "price": 0.01812,
+          "vol": 4603908.4839,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 118
     },
     "4h": {
       "sell": [],
@@ -63,10 +71,17 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "STRKUSDT",
+          "sym": "HUMAUSDT",
+          "rsi": 17.6,
+          "price": 0.01812,
+          "vol": 4603908.4839,
+          "label": "BAJO"
+        },
+        {
+          "sym": "COMPUSDT",
           "rsi": 23,
-          "price": 0.04472,
-          "vol": 5154751.813399,
+          "price": 20.67,
+          "vol": 4556752.48228,
           "label": "SOBREVENDIDO"
         },
         {
@@ -77,14 +92,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "COMPUSDT",
-          "rsi": 23.7,
-          "price": 20.82,
-          "vol": 4166427.249,
+          "sym": "AEROUSDT",
+          "rsi": 24.7,
+          "price": 0.6627,
+          "vol": 3251806.2566,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 118
     }
   }
 }
