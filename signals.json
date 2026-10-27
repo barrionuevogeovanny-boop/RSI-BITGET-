@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-26T21:22:24.875Z",
-  "updated_ts": 1793049744875,
+  "updated": "2026-10-27T00:37:25.807Z",
+  "updated_ts": 1793061445807,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 81.8,
+          "price": 147.1,
+          "vol": 10839993.78637,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,7 +31,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 136
+      "scanned": 131
     },
     "1h": {
       "sell": [],
@@ -36,13 +44,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "AVAUSDT",
-          "rsi": 21.7,
-          "price": 0.3265,
-          "vol": 2408590.23022,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -50,7 +51,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 131
     },
     "4h": {
       "sell": [],
@@ -70,7 +71,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 131
     }
   }
 }
