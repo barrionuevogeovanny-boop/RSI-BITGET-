@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27T10:54:37.520Z",
-  "updated_ts": 1793098477520,
+  "updated": "2026-10-27T16:08:40.384Z",
+  "updated_ts": 1793117320384,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUTUSDT",
+          "rsi": 80.8,
+          "price": 0.01917,
+          "vol": 2003051.21082,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,19 +29,20 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "JSTUSDT",
-          "rsi": 23.7,
-          "price": 0.13662,
-          "vol": 2690481.576672,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 117
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "TUTUSDT",
+          "rsi": 81.5,
+          "price": 0.01917,
+          "vol": 2003051.21082,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -50,22 +59,22 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 23.8,
-          "price": 0.13662,
-          "vol": 2690481.576672,
+          "sym": "SOXSBUSDT",
+          "rsi": 24.3,
+          "price": 42.99,
+          "vol": 2170905.4454,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 117
     },
     "4h": {
       "sell": [
         {
           "sym": "HAEDALUSDT",
-          "rsi": 83.3,
-          "price": 0.0237,
-          "vol": 2112544.795331,
+          "rsi": 84.3,
+          "price": 0.02714,
+          "vol": 11654405.128644,
           "label": "ALTO"
         }
       ],
@@ -78,21 +87,21 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "FOGOUSDT",
-          "rsi": 22,
-          "price": 0.00323,
-          "vol": 2129242.99333,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 25,
+          "price": 1.1159,
+          "vol": 8981564.94936,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 117
     }
   }
 }
