@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27T05:34:18.427Z",
-  "updated_ts": 1793079258427,
+  "updated": "2026-10-27T10:54:37.520Z",
+  "updated_ts": 1793098477520,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,25 +23,17 @@
           "label": "BAJO"
         },
         {
-          "sym": "AVAXUSDT",
-          "rsi": 19.1,
-          "price": 8.683,
-          "vol": 10238032.40951,
-          "label": "BAJO"
+          "sym": "JSTUSDT",
+          "rsi": 23.7,
+          "price": 0.13662,
+          "vol": 2690481.576672,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 124
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "SYNUSDT",
-          "rsi": 80.5,
-          "price": 0.19991,
-          "vol": 4336362.22839,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -56,12 +48,27 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.8,
+          "price": 0.13662,
+          "vol": 2690481.576672,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 124
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HAEDALUSDT",
+          "rsi": 83.3,
+          "price": 0.0237,
+          "vol": 2112544.795331,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -71,6 +78,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "FOGOUSDT",
+          "rsi": 22,
+          "price": 0.00323,
+          "vol": 2129242.99333,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -78,7 +92,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 129
+      "scanned": 124
     }
   }
 }
