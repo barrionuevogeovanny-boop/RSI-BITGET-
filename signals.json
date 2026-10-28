@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28T05:24:31.558Z",
-  "updated_ts": 1793165071558,
+  "updated": "2026-10-28T11:28:14.397Z",
+  "updated_ts": 1793186894397,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,22 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "INITUSDT",
+          "rsi": 89.7,
+          "price": 0.22212,
+          "vol": 8984774.075091,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 81.1,
+          "price": 761.24,
+          "vol": 93356032.81723,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -21,48 +36,12 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.6,
-          "price": 4031.73,
-          "vol": 28897270.813322,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 124
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "DRAMBUSDT",
-          "rsi": 81.2,
-          "price": 52.81,
-          "vol": 2009043.905,
-          "label": "ALTO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 80.7,
-          "price": 969.32,
-          "vol": 12374765.95261,
-          "label": "ALTO"
-        },
-        {
-          "sym": "AMDBUSDT",
-          "rsi": 80.7,
-          "price": 569.86,
-          "vol": 2903962.20088,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SKHYBUSDT",
-          "rsi": 80.2,
-          "price": 156.58,
-          "vol": 16951189.99335,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -79,10 +58,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 124
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 80.1,
+          "price": 157.45,
+          "vol": 17928285.98328,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -92,13 +79,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 20,
-          "price": 1.114,
-          "vol": 8465139.3215,
-          "label": "BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -106,7 +86,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 124
     }
   }
 }
