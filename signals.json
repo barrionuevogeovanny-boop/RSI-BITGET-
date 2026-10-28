@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-28T11:28:14.397Z",
-  "updated_ts": 1793186894397,
+  "updated": "2026-10-28T17:16:05.283Z",
+  "updated_ts": 1793207765283,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,33 +15,55 @@
     "15m": {
       "sell": [
         {
-          "sym": "INITUSDT",
-          "rsi": 89.7,
-          "price": 0.22212,
-          "vol": 8984774.075091,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "BNBUSDT",
-          "rsi": 81.1,
-          "price": 761.24,
-          "vol": 93356032.81723,
+          "sym": "SKHYBUSDT",
+          "rsi": 81.7,
+          "price": 164.84,
+          "vol": 20421768.53775,
           "label": "ALTO"
         }
       ],
       "buy": [
+        {
+          "sym": "BCHUSDT",
+          "rsi": 15.4,
+          "price": 285.7,
+          "vol": 11565367.7029,
+          "label": "BAJO"
+        },
         {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "NILUSDT",
+          "rsi": 19.6,
+          "price": 0.07938,
+          "vol": 6305391.380588,
+          "label": "BAJO"
+        },
+        {
+          "sym": "BNCBUSDT",
+          "rsi": 24.1,
+          "price": 5.51,
+          "vol": 4014235.992,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 120
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "SKHYBUSDT",
+          "rsi": 82.2,
+          "price": 164.84,
+          "vol": 20421768.53775,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -56,17 +78,24 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 24.7,
+          "price": 144.42,
+          "vol": 27756314.34894,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 120
     },
     "4h": {
       "sell": [
         {
           "sym": "SKHYBUSDT",
-          "rsi": 80.1,
-          "price": 157.45,
-          "vol": 17928285.98328,
+          "rsi": 84.7,
+          "price": 164.84,
+          "vol": 20421768.53775,
           "label": "ALTO"
         }
       ],
@@ -86,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 124
+      "scanned": 120
     }
   }
 }
