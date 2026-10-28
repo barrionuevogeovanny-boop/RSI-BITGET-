@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-27T20:39:57.810Z",
-  "updated_ts": 1793133597810,
+  "updated": "2026-10-28T00:01:07.417Z",
+  "updated_ts": 1793145667417,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 85.8,
-          "price": 0.3311,
-          "vol": 26420155.38458,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -57,9 +49,9 @@
       "sell": [
         {
           "sym": "HAEDALUSDT",
-          "rsi": 91.9,
-          "price": 0.02885,
-          "vol": 14554634.554452,
+          "rsi": 92.9,
+          "price": 0.02991,
+          "vol": 15738012.965482,
           "label": "EXTREMO"
         }
       ],
@@ -73,9 +65,9 @@
         },
         {
           "sym": "EURUSDT",
-          "rsi": 22,
-          "price": 1.1146,
-          "vol": 8544429.87776,
+          "rsi": 22.1,
+          "price": 1.1145,
+          "vol": 8500548.28118,
           "label": "SOBREVENDIDO"
         },
         {
