@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29T01:14:50.508Z",
-  "updated_ts": 1793236490508,
+  "updated": "2026-10-29T07:10:08.979Z",
+  "updated_ts": 1793257808979,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,9 +21,23 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "RAYUSDT",
+          "rsi": 21.7,
+          "price": 1.6475,
+          "vol": 5319101.60877,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "NEARUSDT",
+          "rsi": 24.4,
+          "price": 4.322,
+          "vol": 116978061.4772,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 135
     },
     "1h": {
       "sell": [],
@@ -36,32 +50,24 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "JASMYUSDT",
+          "rsi": 18.4,
+          "price": 0.00372,
+          "vol": 2927649.253006,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 23.6,
-          "price": 294.39,
-          "vol": 29264937.21493,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 135
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SHELLUSDT",
-          "rsi": 81,
-          "price": 0.02781,
-          "vol": 3707318.787832,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -72,9 +78,16 @@
         },
         {
           "sym": "GOOGLBUSDT",
-          "rsi": 20.5,
-          "price": 294.39,
-          "vol": 29264937.21493,
+          "rsi": 18.8,
+          "price": 293.38,
+          "vol": 41458081.61896,
+          "label": "BAJO"
+        },
+        {
+          "sym": "JASMYUSDT",
+          "rsi": 22.5,
+          "price": 0.00372,
+          "vol": 2927649.253006,
           "label": "SOBREVENDIDO"
         },
         {
@@ -85,7 +98,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 127
+      "scanned": 135
     }
   }
 }
