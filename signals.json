@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-29T14:15:06.611Z",
-  "updated_ts": 1793283306611,
+  "updated": "2026-10-29T19:40:52.834Z",
+  "updated_ts": 1793302852834,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,47 +16,26 @@
       "sell": [],
       "buy": [
         {
-          "sym": "PARTIUSDT",
-          "rsi": 14,
-          "price": 0.0319,
-          "vol": 3000027.14168,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 15.7,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 24.1,
-          "price": 284.97,
-          "vol": 75414903.65427,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 142
     },
     "1h": {
       "sell": [
         {
-          "sym": "HYPEUSDT",
-          "rsi": 82.4,
-          "price": 90.84,
-          "vol": 73501708.69748,
+          "sym": "PARTIUSDT",
+          "rsi": 82.3,
+          "price": 0.0601,
+          "vol": 30103702.01743,
           "label": "ALTO"
         }
       ],
       "buy": [
-        {
-          "sym": "PARTIUSDT",
-          "rsi": 13,
-          "price": 0.0319,
-          "vol": 3000027.14168,
-          "label": "MUY BAJO"
-        },
         {
           "sym": "NFPUSDT",
           "rsi": 14.2,
@@ -65,31 +44,39 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "MRVLBUSDT",
-          "rsi": 19,
-          "price": 218.85,
-          "vol": 4113240.12507,
-          "label": "BAJO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 21.1,
-          "price": 284.97,
-          "vol": 75414903.65427,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "MRVLBUSDT",
+          "rsi": 24.6,
+          "price": 216.05,
+          "vol": 4511156.67906,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GOOGLBUSDT",
+          "rsi": 25,
+          "price": 283.05,
+          "vol": 95453916.90113,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 142
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 83.2,
+          "price": 0.0601,
+          "vol": 30103702.01743,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -100,10 +87,10 @@
         },
         {
           "sym": "GOOGLBUSDT",
-          "rsi": 15.2,
-          "price": 284.97,
-          "vol": 75414903.65427,
-          "label": "BAJO"
+          "rsi": 14.3,
+          "price": 283.05,
+          "vol": 95453916.90113,
+          "label": "MUY BAJO"
         },
         {
           "sym": "NFPUSDT",
@@ -113,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 136
+      "scanned": 142
     }
   }
 }
