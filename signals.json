@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-31T19:52:52.855Z",
-  "updated_ts": 1793476372855,
+  "updated": "2026-10-31T22:54:39.381Z",
+  "updated_ts": 1793487279381,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,20 +21,19 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 24.6,
+          "price": 1249.38,
+          "vol": 80676255.16401,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 100
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "MORPHOUSDT",
-          "rsi": 81.2,
-          "price": 2.385,
-          "vol": 4502271.41519,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -44,6 +43,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "TRXUSDT",
+          "rsi": 22,
+          "price": 0.3027,
+          "vol": 59929876.68707,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -51,7 +57,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 100
     },
     "4h": {
       "sell": [],
@@ -64,24 +70,24 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "INTCBUSDT",
-          "rsi": 17.8,
-          "price": 64.84,
-          "vol": 5110558.83023,
+          "sym": "XAUTUSDT",
+          "rsi": 19.1,
+          "price": 3879.75,
+          "vol": 6844131.065279,
           "label": "BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 19.1,
-          "price": 3880.32,
-          "vol": 10232138.159199,
+          "sym": "INTCBUSDT",
+          "rsi": 19.2,
+          "price": 65.18,
+          "vol": 3487165.69293,
           "label": "BAJO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 20.4,
-          "price": 3898.72,
-          "vol": 4903651.256257,
+          "rsi": 20.3,
+          "price": 3898.03,
+          "vol": 4348694.328871,
           "label": "SOBREVENDIDO"
         },
         {
@@ -90,9 +96,16 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "TRXUSDT",
+          "rsi": 23.5,
+          "price": 0.3027,
+          "vol": 59929876.68707,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 106
+      "scanned": 100
     }
   }
 }
