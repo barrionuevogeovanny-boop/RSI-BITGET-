@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-01T01:46:11.572Z",
-  "updated_ts": 1793497571572,
+  "updated": "2026-11-01T08:11:37.755Z",
+  "updated_ts": 1793520697755,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GUSDT",
+          "rsi": 80.7,
+          "price": 0.00422,
+          "vol": 3962420.65664,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 93
+      "scanned": 88
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "GUSDT",
+          "rsi": 81.3,
+          "price": 0.00422,
+          "vol": 3962420.65664,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -43,7 +59,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 88
     },
     "4h": {
       "sell": [],
@@ -57,23 +73,23 @@
         },
         {
           "sym": "XAUTUSDT",
-          "rsi": 20.4,
-          "price": 3881.76,
-          "vol": 5591133.114422,
-          "label": "SOBREVENDIDO"
+          "rsi": 19.8,
+          "price": 3880.53,
+          "vol": 7833637.086032,
+          "label": "BAJO"
         },
         {
           "sym": "INTCBUSDT",
-          "rsi": 21.1,
-          "price": 65.63,
-          "vol": 3022946.50968,
+          "rsi": 21.8,
+          "price": 65.8,
+          "vol": 3715461.54167,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 21.6,
-          "price": 3900.19,
-          "vol": 3753632.260483,
+          "rsi": 23.2,
+          "price": 3902.09,
+          "vol": 3309746.016732,
           "label": "SOBREVENDIDO"
         },
         {
@@ -84,7 +100,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 93
+      "scanned": 88
     }
   }
 }
