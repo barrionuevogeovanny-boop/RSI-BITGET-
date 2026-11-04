@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T08:25:49.506Z",
-  "updated_ts": 1793780749506,
+  "updated": "2026-11-04T16:28:14.688Z",
+  "updated_ts": 1793809694688,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,15 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "RAYUSDT",
-          "rsi": 81,
-          "price": 1.6298,
-          "vol": 2143069.06249,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -31,17 +23,39 @@
           "label": "BAJO"
         },
         {
-          "sym": "JSTUSDT",
-          "rsi": 22.7,
-          "price": 0.14022,
-          "vol": 2278380.893854,
+          "sym": "SNDKBUSDT",
+          "rsi": 24.1,
+          "price": 1024.53,
+          "vol": 54963375.604349,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SNXXBUSDT",
+          "rsi": 24.5,
+          "price": 5.26,
+          "vol": 6921600.5025,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "USDCUSDT",
+          "rsi": 24.7,
+          "price": 1.00083,
+          "vol": 1254603857.67867,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 124
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "ETHUSDT",
+          "rsi": 82,
+          "price": 2428.55,
+          "vol": 731400428.18064,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -51,6 +65,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "TRUMPUSDT",
+          "rsi": 22.3,
+          "price": 1.416,
+          "vol": 15439143.52183,
+          "label": "SOBREVENDIDO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -58,7 +79,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 124
     },
     "4h": {
       "sell": [],
@@ -78,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 110
+      "scanned": 124
     }
   }
 }
