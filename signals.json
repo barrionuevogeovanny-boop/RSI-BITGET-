@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T01:54:25.500Z",
-  "updated_ts": 1793757265500,
+  "updated": "2026-11-04T08:25:49.506Z",
+  "updated_ts": 1793780749506,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RAYUSDT",
+          "rsi": 81,
+          "price": 1.6298,
+          "vol": 2143069.06249,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,21 +31,14 @@
           "label": "BAJO"
         },
         {
-          "sym": "TSLABUSDT",
-          "rsi": 22.1,
-          "price": 386.6,
-          "vol": 3870923.13346,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BEAMXUSDT",
-          "rsi": 24.6,
-          "price": 0.003844,
-          "vol": 5691637.808757,
+          "sym": "JSTUSDT",
+          "rsi": 22.7,
+          "price": 0.14022,
+          "vol": 2278380.893854,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 110
     },
     "1h": {
       "sell": [],
@@ -50,13 +51,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "TSLABUSDT",
-          "rsi": 23,
-          "price": 386.6,
-          "vol": 3870923.13346,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -64,7 +58,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 110
     },
     "4h": {
       "sell": [],
@@ -77,28 +71,14 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "INTWBUSDT",
-          "rsi": 23.2,
-          "price": 6.05,
-          "vol": 2065478.5813,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "INTCBUSDT",
-          "rsi": 24.4,
-          "price": 59.13,
-          "vol": 9029298.8755,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 102
+      "scanned": 110
     }
   }
 }
