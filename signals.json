@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T22:04:19.849Z",
-  "updated_ts": 1793829859849,
+  "updated": "2026-11-05T02:18:35.270Z",
+  "updated_ts": 1793845115270,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,7 +13,15 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "RUNEUSDT",
+          "rsi": 82.2,
+          "price": 0.669,
+          "vol": 9524955.1395,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -23,10 +31,25 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 84.4,
+          "price": 4125.71,
+          "vol": 17159232.852947,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 83.6,
+          "price": 4111.75,
+          "vol": 35980474.793876,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -37,9 +60,9 @@
         },
         {
           "sym": "TRUMPUSDT",
-          "rsi": 21.4,
-          "price": 1.268,
-          "vol": 36493742.829554,
+          "rsi": 21,
+          "price": 1.233,
+          "vol": 39390600.42036,
           "label": "SOBREVENDIDO"
         },
         {
@@ -50,10 +73,25 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 80.9,
+          "price": 4125.71,
+          "vol": 17159232.852947,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 80.4,
+          "price": 4111.75,
+          "vol": 35980474.793876,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -64,9 +102,9 @@
         },
         {
           "sym": "TRUMPUSDT",
-          "rsi": 17.7,
-          "price": 1.268,
-          "vol": 36493742.829554,
+          "rsi": 16.4,
+          "price": 1.233,
+          "vol": 39390600.42036,
           "label": "BAJO"
         },
         {
@@ -77,7 +115,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 125
+      "scanned": 121
     }
   }
 }
