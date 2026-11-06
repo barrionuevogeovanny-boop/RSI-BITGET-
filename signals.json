@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06T17:27:56.280Z",
-  "updated_ts": 1793986076280,
+  "updated": "2026-11-06T22:15:22.421Z",
+  "updated_ts": 1794003322421,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,15 +23,15 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     },
     "1h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 85.9,
-          "price": 0.001605,
-          "vol": 12745968.6471347,
+          "rsi": 87.9,
+          "price": 0.001715,
+          "vol": 16645565.6130669,
           "label": "MUY ALTO"
         }
       ],
@@ -49,17 +49,24 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "GTCUSDT",
+          "rsi": 24.1,
+          "price": 0.18438,
+          "vol": 3077944.527394,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     },
     "4h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 81,
-          "price": 0.001605,
-          "vol": 12745968.6471347,
+          "rsi": 83.6,
+          "price": 0.001715,
+          "vol": 16645565.6130669,
           "label": "ALTO"
         }
       ],
@@ -73,9 +80,9 @@
         },
         {
           "sym": "HUMAUSDT",
-          "rsi": 21.7,
-          "price": 0.01307,
-          "vol": 4261292.93897,
+          "rsi": 22.6,
+          "price": 0.01313,
+          "vol": 3732683.6835,
           "label": "SOBREVENDIDO"
         },
         {
@@ -86,7 +93,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 117
+      "scanned": 115
     }
   }
 }
