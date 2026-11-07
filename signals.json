@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-07T08:33:01.673Z",
-  "updated_ts": 1794040381673,
+  "updated": "2026-11-07T15:04:13.720Z",
+  "updated_ts": 1794063853720,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,7 +23,7 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 99
+      "scanned": 87
     },
     "1h": {
       "sell": [],
@@ -41,18 +41,25 @@
           "price": 0.00074,
           "vol": 2320295.244185,
           "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PUMPUSDT",
+          "rsi": 24.4,
+          "price": 0.003725,
+          "vol": 9509771.634016,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 87
     },
     "4h": {
       "sell": [
         {
           "sym": "ONEUSDT",
-          "rsi": 83,
-          "price": 0.001926,
-          "vol": 29391107.0626626,
-          "label": "ALTO"
+          "rsi": 85.2,
+          "price": 0.002008,
+          "vol": 33138897.7782926,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
@@ -65,9 +72,9 @@
         },
         {
           "sym": "HUMAUSDT",
-          "rsi": 21.5,
-          "price": 0.0129,
-          "vol": 3893654.14272,
+          "rsi": 20.8,
+          "price": 0.01248,
+          "vol": 2821151.78123,
           "label": "SOBREVENDIDO"
         },
         {
@@ -78,7 +85,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 99
+      "scanned": 87
     }
   }
 }
