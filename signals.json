@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-08T08:26:43.960Z",
-  "updated_ts": 1794126403960,
+  "updated": "2026-11-08T15:29:04.189Z",
+  "updated_ts": 1794151744189,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,10 +23,18 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 74
+      "scanned": 76
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "EURUSDT",
+          "rsi": 84.6,
+          "price": 1.1181,
+          "vol": 5831595.13033,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -36,6 +44,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "CELOUSDT",
+          "rsi": 18.5,
+          "price": 0.06435,
+          "vol": 3996042.529236,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -43,7 +58,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 74
+      "scanned": 76
     },
     "4h": {
       "sell": [],
@@ -61,16 +76,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BCHUSDT",
-          "rsi": 24,
-          "price": 245.3,
-          "vol": 6651550.9533,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 74
+      "scanned": 76
     }
   }
 }
