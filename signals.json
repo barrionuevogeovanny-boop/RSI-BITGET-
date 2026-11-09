@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09T02:44:48.492Z",
-  "updated_ts": 1794192288492,
+  "updated": "2026-11-09T10:24:21.620Z",
+  "updated_ts": 1794219861620,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,16 +21,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "TRXUSDT",
-          "rsi": 22.1,
-          "price": 0.319,
-          "vol": 13557242.48666,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 109
     },
     "1h": {
       "sell": [],
@@ -50,7 +43,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 109
     },
     "4h": {
       "sell": [],
@@ -64,10 +57,24 @@
         },
         {
           "sym": "HUMAUSDT",
-          "rsi": 19.4,
-          "price": 0.01084,
-          "vol": 2515312.61903,
+          "rsi": 19.7,
+          "price": 0.01064,
+          "vol": 2679025.36045,
           "label": "BAJO"
+        },
+        {
+          "sym": "XRPUSDT",
+          "rsi": 20.2,
+          "price": 1.0882,
+          "vol": 161118142.96646,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 22.1,
+          "price": 0.6305,
+          "vol": 9952790.692206,
+          "label": "SOBREVENDIDO"
         },
         {
           "sym": "NFPUSDT",
@@ -77,21 +84,14 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "GRAMUSDT",
-          "rsi": 23.5,
-          "price": 1.011,
-          "vol": 5649598.56272,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XPLUSDT",
-          "rsi": 24.4,
-          "price": 0.05191,
-          "vol": 6546820.563744,
+          "sym": "HYPEUSDT",
+          "rsi": 24.9,
+          "price": 72.91,
+          "vol": 36103711.39263,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 109
     }
   }
 }
