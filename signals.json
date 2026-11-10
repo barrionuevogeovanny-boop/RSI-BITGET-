@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10T11:01:07.148Z",
-  "updated_ts": 1794308467148,
+  "updated": "2026-11-10T18:36:15.999Z",
+  "updated_ts": 1794335775999,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -21,23 +21,9 @@
           "price": 0.00181,
           "vol": 3834192.03235,
           "label": "BAJO"
-        },
-        {
-          "sym": "SOLUSDT",
-          "rsi": 24.8,
-          "price": 84.33,
-          "vol": 151773216.07349,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.9,
-          "price": 4062.82,
-          "vol": 22658200.559444,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 116
     },
     "1h": {
       "sell": [],
@@ -50,6 +36,13 @@
           "label": "MUY BAJO"
         },
         {
+          "sym": "PARTIUSDT",
+          "rsi": 19.6,
+          "price": 0.0351,
+          "vol": 7074210.50542,
+          "label": "BAJO"
+        },
+        {
           "sym": "VANRYUSDT",
           "rsi": 23.2,
           "price": 0.00074,
@@ -57,10 +50,18 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 116
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "INITUSDT",
+          "rsi": 81.6,
+          "price": 0.31539,
+          "vol": 34493543.57495,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -71,9 +72,23 @@
         },
         {
           "sym": "HUMAUSDT",
-          "rsi": 20,
-          "price": 0.00989,
-          "vol": 2000313.63381,
+          "rsi": 17.4,
+          "price": 0.00935,
+          "vol": 2363529.63383,
+          "label": "BAJO"
+        },
+        {
+          "sym": "PARTIUSDT",
+          "rsi": 19.5,
+          "price": 0.0351,
+          "vol": 7074210.50542,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 22,
+          "price": 1032.96,
+          "vol": 251341875.53962,
           "label": "SOBREVENDIDO"
         },
         {
@@ -84,7 +99,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 113
+      "scanned": 116
     }
   }
 }
