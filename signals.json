@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-09T20:54:15.269Z",
-  "updated_ts": 1794257655269,
+  "updated": "2026-11-10T03:05:08.182Z",
+  "updated_ts": 1794279908182,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,22 +13,7 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "INITUSDT",
-          "rsi": 82.9,
-          "price": 0.1944,
-          "vol": 9247272.489043,
-          "label": "ALTO"
-        },
-        {
-          "sym": "HOTUSDT",
-          "rsi": 81.1,
-          "price": 0.000472,
-          "vol": 7028103.729662,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -38,25 +23,10 @@
           "label": "BAJO"
         }
       ],
-      "scanned": 122
+      "scanned": 111
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "AMDBUSDT",
-          "rsi": 82.4,
-          "price": 508.97,
-          "vol": 3009553.54248,
-          "label": "ALTO"
-        },
-        {
-          "sym": "INITUSDT",
-          "rsi": 80.5,
-          "price": 0.1944,
-          "vol": 9247272.489043,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -73,25 +43,17 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "SOXSBUSDT",
-          "rsi": 23.8,
-          "price": 55.33,
-          "vol": 5495366.7819,
+          "sym": "PARTIUSDT",
+          "rsi": 23.4,
+          "price": 0.0413,
+          "vol": 3119180.72686,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 111
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "INITUSDT",
-          "rsi": 81.7,
-          "price": 0.1944,
-          "vol": 9247272.489043,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -101,13 +63,6 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "HUMAUSDT",
-          "rsi": 21.6,
-          "price": 0.01036,
-          "vol": 2394960.87583,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "NFPUSDT",
           "rsi": 23.3,
           "price": 0.00181,
@@ -115,7 +70,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 111
     }
   }
 }
