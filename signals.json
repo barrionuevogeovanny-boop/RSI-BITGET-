@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T18:05:07.874Z",
-  "updated_ts": 1794420307874,
+  "updated": "2026-11-12T00:32:48.151Z",
+  "updated_ts": 1794443568151,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -23,32 +23,24 @@
           "label": "BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 19.5,
-          "price": 3981.28,
-          "vol": 14101875.667683,
-          "label": "BAJO"
+          "sym": "NVDABUSDT",
+          "rsi": 24.7,
+          "price": 160.13,
+          "vol": 98641645.14847,
+          "label": "SOBREVENDIDO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 20,
-          "price": 3984.21,
-          "vol": 9038277.363535,
+          "sym": "QNTUSDT",
+          "rsi": 25,
+          "price": 168.79,
+          "vol": 7150934.94103,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "NIGHTUSDT",
-          "rsi": 82.4,
-          "price": 0.04796,
-          "vol": 4694266.9002,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "NFPUSDT",
@@ -58,18 +50,18 @@
           "label": "MUY BAJO"
         },
         {
-          "sym": "XAUTUSDT",
-          "rsi": 22.4,
-          "price": 3981.28,
-          "vol": 14101875.667683,
-          "label": "SOBREVENDIDO"
+          "sym": "HUMAUSDT",
+          "rsi": 17.3,
+          "price": 0.00795,
+          "vol": 2648752.37198,
+          "label": "BAJO"
         },
         {
-          "sym": "PAXGUSDT",
-          "rsi": 22.6,
-          "price": 3984.21,
-          "vol": 9038277.363535,
-          "label": "SOBREVENDIDO"
+          "sym": "PEPEUSDT",
+          "rsi": 19.5,
+          "price": 0.00000454,
+          "vol": 80104173.01578283,
+          "label": "BAJO"
         },
         {
           "sym": "VANRYUSDT",
@@ -79,17 +71,25 @@
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "EURUSDT",
-          "rsi": 23.7,
-          "price": 1.1101,
-          "vol": 12133513.86241,
+          "sym": "PAXGUSDT",
+          "rsi": 24.2,
+          "price": 3978.47,
+          "vol": 9303939.816994,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "AMDBUSDT",
+          "rsi": 81,
+          "price": 577.68,
+          "vol": 4474009.59254,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
           "sym": "VANRYUSDT",
@@ -100,9 +100,9 @@
         },
         {
           "sym": "HUMAUSDT",
-          "rsi": 13.6,
-          "price": 0.00841,
-          "vol": 2544230.61074,
+          "rsi": 11.9,
+          "price": 0.00795,
+          "vol": 2648752.37198,
           "label": "MUY BAJO"
         },
         {
@@ -113,7 +113,7 @@
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 107
+      "scanned": 106
     }
   }
 }
