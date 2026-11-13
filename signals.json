@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T22:15:10.159Z",
-  "updated_ts": 1794521710159,
+  "updated": "2026-11-13T02:39:42.624Z",
+  "updated_ts": 1794537582624,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,111 +16,90 @@
       "sell": [],
       "buy": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 15.7,
-          "price": 0.00181,
-          "vol": 3834192.03235,
-          "label": "BAJO"
+          "sym": "KITEUSDT",
+          "rsi": 23.4,
+          "price": 0.1223,
+          "vol": 3430762.50229,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 109
     },
     "1h": {
       "sell": [],
       "buy": [
         {
-          "sym": "NFPUSDT",
-          "rsi": 14.2,
-          "price": 0.00181,
-          "vol": 3834192.03235,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "VANRYUSDT",
-          "rsi": 23.2,
-          "price": 0.00074,
-          "vol": 2320295.244185,
-          "label": "SOBREVENDIDO"
-        },
-        {
           "sym": "BTCUSDT",
-          "rsi": 24.5,
-          "price": 71444.49,
-          "vol": 1115965091.5264108,
-          "label": "SOBREVENDIDO"
+          "rsi": 16.8,
+          "price": 70379.01,
+          "vol": 1219713904.5033758,
+          "label": "BAJO"
         },
         {
           "sym": "BNBUSDT",
-          "rsi": 24.9,
-          "price": 653.54,
-          "vol": 80438805.6839,
+          "rsi": 23.3,
+          "price": 647.72,
+          "vol": 84422858.75664,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 109
     },
     "4h": {
       "sell": [
         {
           "sym": "DODOUSDT",
-          "rsi": 92.6,
-          "price": 0.02891,
-          "vol": 6286066.257674,
-          "label": "EXTREMO"
+          "rsi": 83,
+          "price": 0.02766,
+          "vol": 7230360.395469,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "VANRYUSDT",
-          "rsi": 10.8,
-          "price": 0.00074,
-          "vol": 2320295.244185,
-          "label": "MUY BAJO"
-        },
-        {
-          "sym": "NFPUSDT",
-          "rsi": 23.3,
-          "price": 0.00181,
-          "vol": 3834192.03235,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "ZECUSDT",
-          "rsi": 23.5,
-          "price": 943.73,
-          "vol": 171313283.68714,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.4,
-          "price": 3878.18,
-          "vol": 16500090.420844,
+          "sym": "BTCUSDT",
+          "rsi": 21.5,
+          "price": 70379.01,
+          "vol": 1219713904.5033758,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BNCBUSDT",
-          "rsi": 24.7,
-          "price": 4.33,
-          "vol": 2926564.214,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 24.8,
-          "price": 3876.16,
-          "vol": 51337365.189132,
+          "rsi": 22.9,
+          "price": 4.28,
+          "vol": 3065268.931,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "QNTUSDT",
-          "rsi": 25,
-          "price": 163.77,
-          "vol": 9860934.44454,
+          "rsi": 23.7,
+          "price": 161.84,
+          "vol": 7172944.40588,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ZECUSDT",
+          "rsi": 24.7,
+          "price": 951.99,
+          "vol": 152643344.13245,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 24.8,
+          "price": 112.99,
+          "vol": 14959064.74451,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BNBUSDT",
+          "rsi": 24.9,
+          "price": 647.72,
+          "vol": 84422858.75664,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 116
+      "scanned": 109
     }
   }
 }
