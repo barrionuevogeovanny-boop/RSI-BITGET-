@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T17:35:52.668Z",
-  "updated_ts": 1794591352668,
+  "updated": "2026-11-13T22:50:18.666Z",
+  "updated_ts": 1794610218666,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,93 +13,79 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "SHELLUSDT",
-          "rsi": 84.9,
-          "price": 0.0272,
-          "vol": 3910326.170836,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 120
+      "scanned": 122
     },
     "1h": {
       "sell": [
         {
           "sym": "SHELLUSDT",
-          "rsi": 95.1,
-          "price": 0.0272,
-          "vol": 3910326.170836,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "SOPHUSDT",
-          "rsi": 84.4,
-          "price": 0.00195,
-          "vol": 7205444.11527,
-          "label": "ALTO"
+          "rsi": 88.8,
+          "price": 0.0395,
+          "vol": 24458378.1368,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 120
+      "buy": [
+        {
+          "sym": "BANANAS31USDT",
+          "rsi": 22,
+          "price": 0.003834,
+          "vol": 2031976.246142,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 122
     },
     "4h": {
       "sell": [
         {
           "sym": "SHELLUSDT",
-          "rsi": 86,
-          "price": 0.0272,
-          "vol": 3910326.170836,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SOPHUSDT",
-          "rsi": 82.7,
-          "price": 0.00195,
-          "vol": 7205444.11527,
-          "label": "ALTO"
+          "rsi": 91.8,
+          "price": 0.0395,
+          "vol": 24458378.1368,
+          "label": "EXTREMO"
         }
       ],
       "buy": [
         {
+          "sym": "BANANAS31USDT",
+          "rsi": 11,
+          "price": 0.003834,
+          "vol": 2031976.246142,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "BNCBUSDT",
-          "rsi": 20.6,
-          "price": 4.14,
-          "vol": 3440292.42,
+          "rsi": 20.5,
+          "price": 4.09,
+          "vol": 3257062.322,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "BTCUSDT",
-          "rsi": 22.9,
-          "price": 68840.51,
-          "vol": 2036041901.7839215,
+          "rsi": 22.7,
+          "price": 68390.01,
+          "vol": 2039846337.4366002,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 23.4,
-          "price": 68868.86,
-          "vol": 2951280.5285075,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "UNIUSDT",
-          "rsi": 24.6,
-          "price": 5.772,
-          "vol": 51712742.89465,
+          "rsi": 23.9,
+          "price": 68540.38,
+          "vol": 3130038.1775125,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "AEROUSDT",
-          "rsi": 24.7,
-          "price": 0.4729,
-          "vol": 2608294.49999,
+          "rsi": 24.4,
+          "price": 0.4678,
+          "vol": 2977446.16787,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 120
+      "scanned": 122
     }
   }
 }
