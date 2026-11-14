@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T22:50:18.666Z",
-  "updated_ts": 1794610218666,
+  "updated": "2026-11-14T02:44:18.126Z",
+  "updated_ts": 1794624258126,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,74 +14,130 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
+      "buy": [
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 15.6,
+          "price": 0.6223,
+          "vol": 7580629.028192,
+          "label": "BAJO"
+        },
+        {
+          "sym": "IMXUSDT",
+          "rsi": 20.1,
+          "price": 0.1018,
+          "vol": 4558811.473611,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BMNRBUSDT",
+          "rsi": 24.6,
+          "price": 16.94,
+          "vol": 2231370.1771,
+          "label": "SOBREVENDIDO"
+        }
+      ],
       "scanned": 122
     },
     "1h": {
       "sell": [
         {
-          "sym": "SHELLUSDT",
-          "rsi": 88.8,
-          "price": 0.0395,
-          "vol": 24458378.1368,
-          "label": "MUY ALTO"
+          "sym": "BERAUSDT",
+          "rsi": 84.6,
+          "price": 0.131,
+          "vol": 8938212.6224394,
+          "label": "ALTO"
         }
       ],
       "buy": [
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 22,
-          "price": 0.003834,
-          "vol": 2031976.246142,
+          "sym": "IMXUSDT",
+          "rsi": 19.9,
+          "price": 0.1018,
+          "vol": 4558811.473611,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 22.9,
+          "price": 0.6223,
+          "vol": 7580629.028192,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "WBTCUSDT",
+          "rsi": 24.5,
+          "price": 67554.34,
+          "vol": 3118941.9456009,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "BTCUSDT",
+          "rsi": 24.8,
+          "price": 67491.56,
+          "vol": 2048135634.1582756,
           "label": "SOBREVENDIDO"
         }
       ],
       "scanned": 122
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "SHELLUSDT",
-          "rsi": 91.8,
-          "price": 0.0395,
-          "vol": 24458378.1368,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "BANANAS31USDT",
-          "rsi": 11,
-          "price": 0.003834,
-          "vol": 2031976.246142,
+          "rsi": 14,
+          "price": 0.003909,
+          "vol": 2208851.301351,
           "label": "MUY BAJO"
         },
         {
-          "sym": "BNCBUSDT",
-          "rsi": 20.5,
-          "price": 4.09,
-          "vol": 3257062.322,
+          "sym": "BTCUSDT",
+          "rsi": 20.1,
+          "price": 67491.56,
+          "vol": 2048135634.1582756,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "BTCUSDT",
-          "rsi": 22.7,
-          "price": 68390.01,
-          "vol": 2039846337.4366002,
+          "sym": "BNCBUSDT",
+          "rsi": 20.1,
+          "price": 4.07,
+          "vol": 3225109.352,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "WBTCUSDT",
-          "rsi": 23.9,
-          "price": 68540.38,
-          "vol": 3130038.1775125,
+          "rsi": 21,
+          "price": 67554.34,
+          "vol": 3118941.9456009,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "IMXUSDT",
+          "rsi": 22.5,
+          "price": 0.1018,
+          "vol": 4558811.473611,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "UNIUSDT",
+          "rsi": 23.2,
+          "price": 5.618,
+          "vol": 50516497.03468,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "AEROUSDT",
-          "rsi": 24.4,
-          "price": 0.4678,
-          "vol": 2977446.16787,
+          "rsi": 23.9,
+          "price": 0.4644,
+          "vol": 3127994.36241,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOLUSDT",
+          "rsi": 24.5,
+          "price": 75.88,
+          "vol": 312713896.18111,
           "label": "SOBREVENDIDO"
         }
       ],
