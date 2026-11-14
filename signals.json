@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-14T02:44:18.126Z",
-  "updated_ts": 1794624258126,
+  "updated": "2026-11-14T09:28:28.900Z",
+  "updated_ts": 1794648508900,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,134 +14,68 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "ASTERUSDT",
-          "rsi": 15.6,
-          "price": 0.6223,
-          "vol": 7580629.028192,
-          "label": "BAJO"
-        },
-        {
-          "sym": "IMXUSDT",
-          "rsi": 20.1,
-          "price": 0.1018,
-          "vol": 4558811.473611,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BMNRBUSDT",
-          "rsi": 24.6,
-          "price": 16.94,
-          "vol": 2231370.1771,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "buy": [],
+      "scanned": 108
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "BERAUSDT",
-          "rsi": 84.6,
-          "price": 0.131,
-          "vol": 8938212.6224394,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "IMXUSDT",
-          "rsi": 19.9,
-          "price": 0.1018,
-          "vol": 4558811.473611,
-          "label": "BAJO"
-        },
-        {
-          "sym": "ASTERUSDT",
-          "rsi": 22.9,
-          "price": 0.6223,
-          "vol": 7580629.028192,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 24.5,
-          "price": 67554.34,
-          "vol": 3118941.9456009,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BTCUSDT",
-          "rsi": 24.8,
-          "price": 67491.56,
-          "vol": 2048135634.1582756,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 122
+      "sell": [],
+      "buy": [],
+      "scanned": 108
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "BANANAS31USDT",
-          "rsi": 14,
-          "price": 0.003909,
-          "vol": 2208851.301351,
-          "label": "MUY BAJO"
+          "sym": "BNCBUSDT",
+          "rsi": 18.6,
+          "price": 4.02,
+          "vol": 2076270.763,
+          "label": "BAJO"
         },
         {
           "sym": "BTCUSDT",
-          "rsi": 20.1,
-          "price": 67491.56,
-          "vol": 2048135634.1582756,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "BNCBUSDT",
-          "rsi": 20.1,
-          "price": 4.07,
-          "vol": 3225109.352,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "WBTCUSDT",
-          "rsi": 21,
-          "price": 67554.34,
-          "vol": 3118941.9456009,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "IMXUSDT",
-          "rsi": 22.5,
-          "price": 0.1018,
-          "vol": 4558811.473611,
+          "rsi": 22.3,
+          "price": 67096,
+          "vol": 1434829962.370085,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "UNIUSDT",
-          "rsi": 23.2,
-          "price": 5.618,
-          "vol": 50516497.03468,
+          "rsi": 22.3,
+          "price": 5.517,
+          "vol": 35861086.96813,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "AEROUSDT",
-          "rsi": 23.9,
-          "price": 0.4644,
-          "vol": 3127994.36241,
+          "rsi": 22.8,
+          "price": 0.4583,
+          "vol": 2474727.7747,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "SOLUSDT",
-          "rsi": 24.5,
-          "price": 75.88,
-          "vol": 312713896.18111,
+          "sym": "BNBUSDT",
+          "rsi": 23.5,
+          "price": 615.34,
+          "vol": 91328982.45094,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ENAUSDT",
+          "rsi": 23.9,
+          "price": 0.1276,
+          "vol": 35499666.915724,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "AAVEUSDT",
+          "rsi": 23.9,
+          "price": 107.37,
+          "vol": 12950943.20391,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 122
+      "scanned": 108
     }
   }
 }
