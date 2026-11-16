@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16T10:55:10.012Z",
-  "updated_ts": 1794826510012,
+  "updated": "2026-11-16T20:46:22.393Z",
+  "updated_ts": 1794861982393,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,48 +14,92 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 95
-    },
-    "1h": {
-      "sell": [],
       "buy": [
         {
-          "sym": "ZILUSDT",
-          "rsi": 20.5,
-          "price": 0.000997,
-          "vol": 4830495.3010718,
+          "sym": "JSTUSDT",
+          "rsi": 24.1,
+          "price": 0.13906,
+          "vol": 2986826.469621,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 106
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "ICPUSDT",
+          "rsi": 80.3,
+          "price": 2.557,
+          "vol": 10702305.72493,
+          "label": "ALTO"
+        },
+        {
+          "sym": "HUMAUSDT",
+          "rsi": 80.1,
+          "price": 0.0098,
+          "vol": 9582288.9134,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "ZILUSDT",
+          "rsi": 21.2,
+          "price": 0.000941,
+          "vol": 4827475.3876567,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPYBUSDT",
+          "rsi": 21.5,
+          "price": 739.35,
+          "vol": 2449636.33422,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JSTUSDT",
+          "rsi": 23.6,
+          "price": 0.13906,
+          "vol": 2986826.469621,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 106
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "ZILUSDT",
-          "rsi": 12.3,
-          "price": 0.000997,
-          "vol": 4830495.3010718,
+          "rsi": 11.3,
+          "price": 0.000941,
+          "vol": 4827475.3876567,
           "label": "MUY BAJO"
         },
         {
           "sym": "KAVAUSDT",
-          "rsi": 19.4,
-          "price": 0.03022,
-          "vol": 6075890.208134,
+          "rsi": 16.5,
+          "price": 0.02738,
+          "vol": 4245355.509963,
           "label": "BAJO"
         },
         {
-          "sym": "FILUSDT",
-          "rsi": 24.4,
-          "price": 0.6004,
-          "vol": 5251245.272213,
+          "sym": "BNCBUSDT",
+          "rsi": 19.3,
+          "price": 3.57,
+          "vol": 2490503.119,
+          "label": "BAJO"
+        },
+        {
+          "sym": "ETHFIUSDT",
+          "rsi": 24.6,
+          "price": 0.4735,
+          "vol": 2551368.40544,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 95
+      "scanned": 106
     }
   }
 }
