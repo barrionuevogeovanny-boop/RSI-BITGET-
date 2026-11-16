@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-15T23:32:01.016Z",
-  "updated_ts": 1794785521016,
+  "updated": "2026-11-16T02:59:26.581Z",
+  "updated_ts": 1794797966581,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,91 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "TQQQBUSDT",
-          "rsi": 88.1,
-          "price": 58.35,
-          "vol": 2763502.447,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "QQQBUSDT",
-          "rsi": 85.9,
-          "price": 682.4,
-          "vol": 2961769.70495,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SKHYBUSDT",
-          "rsi": 85.3,
-          "price": 133.01,
-          "vol": 3061232.21235,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "MUBUSDT",
-          "rsi": 84.1,
-          "price": 778.15,
-          "vol": 5826335.61616,
-          "label": "ALTO"
-        },
-        {
-          "sym": "GOOGLBUSDT",
-          "rsi": 83.3,
-          "price": 297.11,
-          "vol": 5630532.90627,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 82.9,
-          "price": 876.23,
-          "vol": 2783335.303273,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SPCXBUSDT",
-          "rsi": 81.4,
-          "price": 140.03,
-          "vol": 13393692.31058,
-          "label": "ALTO"
-        },
-        {
-          "sym": "SOXLBUSDT",
-          "rsi": 81,
-          "price": 58.07,
-          "vol": 16092211.64132,
-          "label": "ALTO"
-        },
-        {
-          "sym": "INTCBUSDT",
-          "rsi": 80.5,
-          "price": 58.99,
-          "vol": 7180181.6081,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 97
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 105
+      "buy": [
+        {
+          "sym": "ZILUSDT",
+          "rsi": 19.9,
+          "price": 0.001059,
+          "vol": 2329428.3496274,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 97
     },
     "4h": {
       "sell": [],
       "buy": [
         {
+          "sym": "ZILUSDT",
+          "rsi": 13.9,
+          "price": 0.001059,
+          "vol": 2329428.3496274,
+          "label": "MUY BAJO"
+        },
+        {
           "sym": "KAVAUSDT",
-          "rsi": 16.3,
-          "price": 0.02979,
-          "vol": 9670183.418627,
+          "rsi": 15.8,
+          "price": 0.02891,
+          "vol": 8763410.835617,
           "label": "BAJO"
         }
       ],
-      "scanned": 105
+      "scanned": 97
     }
   }
 }
