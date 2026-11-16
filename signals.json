@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-16T02:59:26.581Z",
-  "updated_ts": 1794797966581,
+  "updated": "2026-11-16T10:55:10.012Z",
+  "updated_ts": 1794826510012,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,40 +15,47 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 97
+      "scanned": 95
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "ZILUSDT",
-          "rsi": 19.9,
-          "price": 0.001059,
-          "vol": 2329428.3496274,
-          "label": "BAJO"
+          "rsi": 20.5,
+          "price": 0.000997,
+          "vol": 4830495.3010718,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 95
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "ZILUSDT",
-          "rsi": 13.9,
-          "price": 0.001059,
-          "vol": 2329428.3496274,
+          "rsi": 12.3,
+          "price": 0.000997,
+          "vol": 4830495.3010718,
           "label": "MUY BAJO"
         },
         {
           "sym": "KAVAUSDT",
-          "rsi": 15.8,
-          "price": 0.02891,
-          "vol": 8763410.835617,
+          "rsi": 19.4,
+          "price": 0.03022,
+          "vol": 6075890.208134,
           "label": "BAJO"
+        },
+        {
+          "sym": "FILUSDT",
+          "rsi": 24.4,
+          "price": 0.6004,
+          "vol": 5251245.272213,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 95
     }
   }
 }
