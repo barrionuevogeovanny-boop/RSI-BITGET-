@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T11:55:19.072Z",
-  "updated_ts": 1794916519072,
+  "updated": "2026-11-17T20:25:06.975Z",
+  "updated_ts": 1794947106975,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,50 +13,42 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MMTUSDT",
-          "rsi": 90.1,
-          "price": 0.1414,
-          "vol": 5159982.81977,
-          "label": "EXTREMO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 97
+      "scanned": 104
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "MMTUSDT",
-          "rsi": 86.6,
-          "price": 0.1414,
-          "vol": 5159982.81977,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 97
+      "scanned": 104
     },
     "4h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BREVUSDT",
+          "rsi": 82.2,
+          "price": 0.1102,
+          "vol": 19502270.72506,
+          "label": "ALTO"
+        }
+      ],
       "buy": [
         {
-          "sym": "KAVAUSDT",
-          "rsi": 18.4,
-          "price": 0.02689,
-          "vol": 3021721.567654,
+          "sym": "ZILUSDT",
+          "rsi": 17.3,
+          "price": 0.000927,
+          "vol": 2197419.8424293,
           "label": "BAJO"
         },
         {
           "sym": "BNCBUSDT",
-          "rsi": 24.4,
-          "price": 3.53,
-          "vol": 2876637.493,
+          "rsi": 20.9,
+          "price": 3.37,
+          "vol": 2720719.741,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 104
     }
   }
 }
