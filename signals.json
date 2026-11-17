@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T03:13:21.770Z",
-  "updated_ts": 1794885201770,
+  "updated": "2026-11-17T11:55:19.072Z",
+  "updated_ts": 1794916519072,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,49 +13,50 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 100
-    },
-    "1h": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "ZILUSDT",
-          "rsi": 23.2,
-          "price": 0.000917,
-          "vol": 3993175.5102058,
-          "label": "SOBREVENDIDO"
+          "sym": "MMTUSDT",
+          "rsi": 90.1,
+          "price": 0.1414,
+          "vol": 5159982.81977,
+          "label": "EXTREMO"
         }
       ],
-      "scanned": 100
+      "buy": [],
+      "scanned": 97
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "MMTUSDT",
+          "rsi": 86.6,
+          "price": 0.1414,
+          "vol": 5159982.81977,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [],
+      "scanned": 97
     },
     "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "ZILUSDT",
-          "rsi": 10.8,
-          "price": 0.000917,
-          "vol": 3993175.5102058,
-          "label": "MUY BAJO"
-        },
-        {
           "sym": "KAVAUSDT",
-          "rsi": 18.8,
-          "price": 0.02716,
-          "vol": 3776149.359306,
+          "rsi": 18.4,
+          "price": 0.02689,
+          "vol": 3021721.567654,
           "label": "BAJO"
         },
         {
-          "sym": "ETHFIUSDT",
-          "rsi": 24.9,
-          "price": 0.4698,
-          "vol": 3019494.00437,
+          "sym": "BNCBUSDT",
+          "rsi": 24.4,
+          "price": 3.53,
+          "vol": 2876637.493,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 100
+      "scanned": 97
     }
   }
 }
