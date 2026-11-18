@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-17T20:25:06.975Z",
-  "updated_ts": 1794947106975,
+  "updated": "2026-11-18T02:30:13.067Z",
+  "updated_ts": 1794969013067,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,41 +14,33 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 104
+      "buy": [
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 22.1,
+          "price": 3795.83,
+          "vol": 8964749.88637,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 22.6,
+          "price": 3794.89,
+          "vol": 12253539.494323,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 103
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 104
+      "scanned": 103
     },
     "4h": {
-      "sell": [
-        {
-          "sym": "BREVUSDT",
-          "rsi": 82.2,
-          "price": 0.1102,
-          "vol": 19502270.72506,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "ZILUSDT",
-          "rsi": 17.3,
-          "price": 0.000927,
-          "vol": 2197419.8424293,
-          "label": "BAJO"
-        },
-        {
-          "sym": "BNCBUSDT",
-          "rsi": 20.9,
-          "price": 3.37,
-          "vol": 2720719.741,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 104
+      "sell": [],
+      "buy": [],
+      "scanned": 103
     }
   }
 }
