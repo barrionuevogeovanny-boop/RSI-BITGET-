@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T10:37:35.635Z",
-  "updated_ts": 1794998255635,
+  "updated": "2026-11-18T19:01:13.763Z",
+  "updated_ts": 1795028473763,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,47 +15,47 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 100
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ZKCUSDT",
-          "rsi": 92.6,
-          "price": 0.0336,
-          "vol": 4689074.49141,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "MMTUSDT",
-          "rsi": 87.2,
-          "price": 0.25,
-          "vol": 36335750.31673,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 105
+      "scanned": 100
     },
     "4h": {
       "sell": [
         {
           "sym": "MMTUSDT",
-          "rsi": 89.2,
-          "price": 0.25,
-          "vol": 36335750.31673,
-          "label": "MUY ALTO"
+          "rsi": 83.9,
+          "price": 0.2491,
+          "vol": 40225553.7128,
+          "label": "ALTO"
         },
         {
-          "sym": "ZKCUSDT",
-          "rsi": 85.5,
-          "price": 0.0336,
-          "vol": 4689074.49141,
-          "label": "MUY ALTO"
+          "sym": "SENTUSDT",
+          "rsi": 80.4,
+          "price": 0.01982,
+          "vol": 2880461.22747,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 105
+      "buy": [
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 23.6,
+          "price": 3728.41,
+          "vol": 19046558.561268,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 24.3,
+          "price": 3729.04,
+          "vol": 18588735.408363,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 100
     }
   }
 }
