@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T01:03:48.787Z",
-  "updated_ts": 1795050228787,
+  "updated": "2026-11-19T08:40:15.872Z",
+  "updated_ts": 1795077615872,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,26 +14,50 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 96
+      "buy": [
+        {
+          "sym": "SKYUSDT",
+          "rsi": 20.2,
+          "price": 0.04663,
+          "vol": 2628089.54281,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 104
     },
     "1h": {
       "sell": [],
-      "buy": [],
-      "scanned": 96
+      "buy": [
+        {
+          "sym": "SKYUSDT",
+          "rsi": 22,
+          "price": 0.04663,
+          "vol": 2628089.54281,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 104
     },
     "4h": {
       "sell": [
         {
           "sym": "SENTUSDT",
-          "rsi": 86.1,
-          "price": 0.02118,
-          "vol": 3759924.31238,
-          "label": "MUY ALTO"
+          "rsi": 80.2,
+          "price": 0.02248,
+          "vol": 13846705.98169,
+          "label": "ALTO"
         }
       ],
-      "buy": [],
-      "scanned": 96
+      "buy": [
+        {
+          "sym": "SKYUSDT",
+          "rsi": 20.7,
+          "price": 0.04663,
+          "vol": 2628089.54281,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 104
     }
   }
 }
