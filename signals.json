@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T19:01:13.763Z",
-  "updated_ts": 1795028473763,
+  "updated": "2026-11-19T01:03:48.787Z",
+  "updated_ts": 1795050228787,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,47 +15,25 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 100
+      "scanned": 96
     },
     "1h": {
       "sell": [],
       "buy": [],
-      "scanned": 100
+      "scanned": 96
     },
     "4h": {
       "sell": [
         {
-          "sym": "MMTUSDT",
-          "rsi": 83.9,
-          "price": 0.2491,
-          "vol": 40225553.7128,
-          "label": "ALTO"
-        },
-        {
           "sym": "SENTUSDT",
-          "rsi": 80.4,
-          "price": 0.01982,
-          "vol": 2880461.22747,
-          "label": "ALTO"
+          "rsi": 86.1,
+          "price": 0.02118,
+          "vol": 3759924.31238,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 23.6,
-          "price": 3728.41,
-          "vol": 19046558.561268,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 24.3,
-          "price": 3729.04,
-          "vol": 18588735.408363,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 100
+      "buy": [],
+      "scanned": 96
     }
   }
 }
