@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T08:40:15.872Z",
-  "updated_ts": 1795077615872,
+  "updated": "2026-11-19T17:38:36.489Z",
+  "updated_ts": 1795109916489,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -16,48 +16,55 @@
       "sell": [],
       "buy": [
         {
-          "sym": "SKYUSDT",
-          "rsi": 20.2,
-          "price": 0.04663,
-          "vol": 2628089.54281,
+          "sym": "SPCXBUSDT",
+          "rsi": 24.5,
+          "price": 137.4,
+          "vol": 22365228.62633,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
     },
     "1h": {
-      "sell": [],
-      "buy": [
-        {
-          "sym": "SKYUSDT",
-          "rsi": 22,
-          "price": 0.04663,
-          "vol": 2628089.54281,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 104
-    },
-    "4h": {
       "sell": [
         {
-          "sym": "SENTUSDT",
-          "rsi": 80.2,
-          "price": 0.02248,
-          "vol": 13846705.98169,
+          "sym": "YBUSDT",
+          "rsi": 83.4,
+          "price": 0.0604,
+          "vol": 6787182.3822,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SKYUSDT",
-          "rsi": 20.7,
-          "price": 0.04663,
-          "vol": 2628089.54281,
+          "rsi": 20.8,
+          "price": 0.04053,
+          "vol": 11949535.84362,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SPCXBUSDT",
+          "rsi": 22.2,
+          "price": 137.4,
+          "vol": 22365228.62633,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 104
+      "scanned": 106
+    },
+    "4h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "SKYUSDT",
+          "rsi": 12.5,
+          "price": 0.04053,
+          "vol": 11949535.84362,
+          "label": "MUY BAJO"
+        }
+      ],
+      "scanned": 106
     }
   }
 }
