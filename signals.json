@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T23:48:08.272Z",
-  "updated_ts": 1795132088272,
+  "updated": "2026-11-20T04:23:01.758Z",
+  "updated_ts": 1795148581758,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,106 +13,143 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [
+      "sell": [
         {
-          "sym": "XAUTUSDT",
-          "rsi": 19.5,
-          "price": 3600.03,
-          "vol": 42719522.544416,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 19.8,
-          "price": 3597.28,
-          "vol": 26651183.943669,
-          "label": "BAJO"
+          "sym": "BARDUSDT",
+          "rsi": 90.8,
+          "price": 0.112,
+          "vol": 3107995.74249,
+          "label": "EXTREMO"
         }
       ],
-      "scanned": 110
-    },
-    "1h": {
-      "sell": [],
       "buy": [
         {
           "sym": "牛来USDT",
-          "rsi": 19.4,
-          "price": 0.03739,
-          "vol": 4831947.88209,
-          "label": "BAJO"
-        },
-        {
-          "sym": "PAXGUSDT",
-          "rsi": 20.2,
-          "price": 3597.28,
-          "vol": 26651183.943669,
+          "rsi": 22.2,
+          "price": 0.03356,
+          "vol": 6776279.85659,
           "label": "SOBREVENDIDO"
         },
         {
+          "sym": "MEGAUSDT",
+          "rsi": 23.2,
+          "price": 0.05138,
+          "vol": 7931972.413092,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 111
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "BARDUSDT",
+          "rsi": 91.1,
+          "price": 0.112,
+          "vol": 3107995.74249,
+          "label": "EXTREMO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "牛来USDT",
+          "rsi": 9.6,
+          "price": 0.03356,
+          "vol": 6776279.85659,
+          "label": "EXTREMO"
+        },
+        {
           "sym": "XAUTUSDT",
-          "rsi": 20.6,
-          "price": 3600.03,
-          "vol": 42719522.544416,
+          "rsi": 14.2,
+          "price": 3532.97,
+          "vol": 59166793.208292,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "PAXGUSDT",
+          "rsi": 14.5,
+          "price": 3532.86,
+          "vol": 32664081.066037,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "ZROUSDT",
+          "rsi": 20.9,
+          "price": 1.255,
+          "vol": 4685108.49784,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "JUPUSDT",
+          "rsi": 22.4,
+          "price": 0.2338,
+          "vol": 3709680.41203,
           "label": "SOBREVENDIDO"
         },
         {
           "sym": "SPYBUSDT",
-          "rsi": 20.9,
-          "price": 715.55,
-          "vol": 2375095.13427,
+          "rsi": 23.4,
+          "price": 714.44,
+          "vol": 3368671.8032,
           "label": "SOBREVENDIDO"
         },
         {
-          "sym": "NBISBUSDT",
-          "rsi": 23,
-          "price": 95.83,
-          "vol": 4115881.15192,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "AMZNBUSDT",
-          "rsi": 23.8,
-          "price": 257.19,
-          "vol": 2036149.0349,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "TQQQBUSDT",
-          "rsi": 24.8,
-          "price": 48.63,
-          "vol": 7854120.5565,
-          "label": "SOBREVENDIDO"
-        },
-        {
-          "sym": "QQQBUSDT",
-          "rsi": 24.8,
-          "price": 643.8,
-          "vol": 8755060.12743,
+          "sym": "NEARUSDT",
+          "rsi": 23.7,
+          "price": 3.041,
+          "vol": 90773074.4469,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "XAUTUSDT",
-          "rsi": 17.7,
-          "price": 3600.03,
-          "vol": 42719522.544416,
-          "label": "BAJO"
+          "rsi": 14.1,
+          "price": 3532.97,
+          "vol": 59166793.208292,
+          "label": "MUY BAJO"
         },
         {
           "sym": "PAXGUSDT",
-          "rsi": 18.1,
-          "price": 3597.28,
-          "vol": 26651183.943669,
-          "label": "BAJO"
+          "rsi": 14.6,
+          "price": 3532.86,
+          "vol": 32664081.066037,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "牛来USDT",
+          "rsi": 20.9,
+          "price": 0.03356,
+          "vol": 6776279.85659,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ARBUSDT",
+          "rsi": 21.1,
+          "price": 0.1175,
+          "vol": 5117276.08354,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "APTUSDT",
+          "rsi": 23.5,
+          "price": 0.4001,
+          "vol": 4063894.222856,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "ENAUSDT",
+          "rsi": 24.5,
+          "price": 0.1025,
+          "vol": 26034101.052862,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 109
+      "scanned": 110
     }
   }
 }
