@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T17:25:07.390Z",
-  "updated_ts": 1795281907390,
+  "updated": "2026-11-21T22:15:30.652Z",
+  "updated_ts": 1795299330652,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,40 +15,33 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 135
+      "scanned": 119
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 5.7,
-          "price": 80.54,
-          "vol": 8935371.0372,
+          "rsi": 6.5,
+          "price": 80.82,
+          "vol": 7382697.421,
           "label": "EXTREMO"
         }
       ],
-      "scanned": 135
+      "scanned": 119
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 9.2,
-          "price": 80.54,
-          "vol": 8935371.0372,
+          "rsi": 9.3,
+          "price": 80.82,
+          "vol": 7382697.421,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "NVDABUSDT",
-          "rsi": 24.6,
-          "price": 130.31,
-          "vol": 80897535.34115,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 134
+      "scanned": 118
     }
   }
 }
