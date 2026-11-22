@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T17:33:18.765Z",
-  "updated_ts": 1795368798765,
+  "updated": "2026-11-22T22:44:32.389Z",
+  "updated_ts": 1795387472389,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,33 +15,47 @@
     "15m": {
       "sell": [],
       "buy": [],
-      "scanned": 86
+      "scanned": 89
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 15.1,
-          "price": 82.84,
-          "vol": 9531021.1472,
+          "rsi": 16.7,
+          "price": 83.2,
+          "vol": 10208167.0926,
           "label": "BAJO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 23,
+          "price": 0.0685,
+          "vol": 14042348.70862,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 86
+      "scanned": 89
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 10.1,
-          "price": 82.84,
-          "vol": 9531021.1472,
+          "rsi": 10.2,
+          "price": 83.2,
+          "vol": 10208167.0926,
           "label": "MUY BAJO"
+        },
+        {
+          "sym": "ACEUSDT",
+          "rsi": 19.3,
+          "price": 0.0685,
+          "vol": 14042348.70862,
+          "label": "BAJO"
         }
       ],
-      "scanned": 86
+      "scanned": 89
     }
   }
 }
