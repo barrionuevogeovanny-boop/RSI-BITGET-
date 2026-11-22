@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T02:17:29.670Z",
-  "updated_ts": 1795313849670,
+  "updated": "2026-11-22T09:54:45.775Z",
+  "updated_ts": 1795341285775,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,65 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 109
+      "sell": [
+        {
+          "sym": "ASTERUSDT",
+          "rsi": 80.7,
+          "price": 0.5098,
+          "vol": 8160556.938343,
+          "label": "ALTO"
+        },
+        {
+          "sym": "TAOUSDT",
+          "rsi": 80.5,
+          "price": 192.7,
+          "vol": 13705774.8898,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "USDCUSDT",
+          "rsi": 19.6,
+          "price": 1.00145,
+          "vol": 1327242555.73445,
+          "label": "BAJO"
+        },
+        {
+          "sym": "EURUSDT",
+          "rsi": 21,
+          "price": 1.0964,
+          "vol": 4424636.61727,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 87
     },
     "1h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 7.9,
-          "price": 81.23,
-          "vol": 8948823.3669,
-          "label": "EXTREMO"
+          "rsi": 12.5,
+          "price": 82.3,
+          "vol": 10720182.8383,
+          "label": "MUY BAJO"
         }
       ],
-      "scanned": 109
+      "scanned": 87
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 9.4,
-          "price": 81.23,
-          "vol": 8948823.3669,
+          "rsi": 9.9,
+          "price": 82.3,
+          "vol": 10720182.8383,
           "label": "EXTREMO"
-        },
-        {
-          "sym": "FETUSDT",
-          "rsi": 24.5,
-          "price": 0.1088,
-          "vol": 10098315.73535,
-          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 108
+      "scanned": 87
     }
   }
 }
