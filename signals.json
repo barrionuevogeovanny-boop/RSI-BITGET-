@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T03:10:43.255Z",
-  "updated_ts": 1795403443255,
+  "updated": "2026-11-23T12:34:38.909Z",
+  "updated_ts": 1795437278909,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -15,28 +15,36 @@
     "15m": {
       "sell": [
         {
-          "sym": "BERAUSDT",
+          "sym": "MUBARAKUSDT",
           "rsi": 80.6,
-          "price": 0.0847,
-          "vol": 2576874.4649159,
+          "price": 0.02432,
+          "vol": 4306784.313948,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "ENSOUSDT",
+          "rsi": 18.1,
+          "price": 0.436,
+          "vol": 2894727.99258,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 94
+    },
+    "1h": {
+      "sell": [
+        {
+          "sym": "QNTUSDT",
+          "rsi": 80.2,
+          "price": 156.35,
+          "vol": 6631842.34193,
           "label": "ALTO"
         }
       ],
       "buy": [],
-      "scanned": 96
-    },
-    "1h": {
-      "sell": [],
-      "buy": [
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 19.2,
-          "price": 82.31,
-          "vol": 26885098.3679,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 96
+      "scanned": 94
     },
     "4h": {
       "sell": [],
@@ -44,12 +52,12 @@
         {
           "sym": "SNDKBUSDT",
           "rsi": 10.4,
-          "price": 82.31,
-          "vol": 26885098.3679,
+          "price": 83.51,
+          "vol": 27402695.7443,
           "label": "MUY BAJO"
         }
       ],
-      "scanned": 96
+      "scanned": 94
     }
   }
 }
