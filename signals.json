@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T12:34:38.909Z",
-  "updated_ts": 1795437278909,
+  "updated": "2026-11-24T00:17:34.254Z",
+  "updated_ts": 1795479454255,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,51 +13,57 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "MUBARAKUSDT",
-          "rsi": 80.6,
-          "price": 0.02432,
-          "vol": 4306784.313948,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "ENSOUSDT",
-          "rsi": 18.1,
-          "price": 0.436,
-          "vol": 2894727.99258,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 94
+      "sell": [],
+      "buy": [],
+      "scanned": 121
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "QNTUSDT",
-          "rsi": 80.2,
-          "price": 156.35,
-          "vol": 6631842.34193,
-          "label": "ALTO"
-        }
-      ],
-      "buy": [],
-      "scanned": 94
-    },
-    "4h": {
       "sell": [],
       "buy": [
         {
-          "sym": "SNDKBUSDT",
-          "rsi": 10.4,
-          "price": 83.51,
-          "vol": 27402695.7443,
-          "label": "MUY BAJO"
+          "sym": "WLFIUSDT",
+          "rsi": 20.3,
+          "price": 0.0417,
+          "vol": 7274179.01461,
+          "label": "SOBREVENDIDO"
+        },
+        {
+          "sym": "SOXSBUSDT",
+          "rsi": 24.9,
+          "price": 49.84,
+          "vol": 23047856.4877,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 94
+      "scanned": 121
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "LISTAUSDT",
+          "rsi": 85.9,
+          "price": 0.096,
+          "vol": 5628011.38533,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 13.2,
+          "price": 87.76,
+          "vol": 34523385.4781,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 24.9,
+          "price": 0.0417,
+          "vol": 7274179.01461,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 121
     }
   }
 }
