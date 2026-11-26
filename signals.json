@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T14:07:37.931Z",
-  "updated_ts": 1795702057931,
+  "updated": "2026-11-26T22:56:56.655Z",
+  "updated_ts": 1795733816655,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,71 +14,41 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "JSTUSDT",
-          "rsi": 18.4,
-          "price": 0.14452,
-          "vol": 2427566.83743,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 111
+      "buy": [],
+      "scanned": 101
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "INITUSDT",
-          "rsi": 91.7,
-          "price": 0.13088,
-          "vol": 14347850.727886,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "SSVUSDT",
-          "rsi": 86.6,
-          "price": 2.713,
-          "vol": 8685499.657613,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SEIUSDT",
-          "rsi": 80.6,
-          "price": 0.03753,
-          "vol": 5348770.124305,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [],
-      "scanned": 111
+      "scanned": 101
     },
     "4h": {
       "sell": [
         {
           "sym": "SSVUSDT",
-          "rsi": 91.7,
-          "price": 2.713,
-          "vol": 8685499.657613,
-          "label": "EXTREMO"
+          "rsi": 89.3,
+          "price": 2.924,
+          "vol": 10869409.75754,
+          "label": "MUY ALTO"
         },
         {
           "sym": "INITUSDT",
-          "rsi": 80.5,
-          "price": 0.13088,
-          "vol": 14347850.727886,
+          "rsi": 83.8,
+          "price": 0.14421,
+          "vol": 24078422.685932,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 18.1,
-          "price": 75.6,
-          "vol": 10858187.5848,
+          "rsi": 17.8,
+          "price": 74.67,
+          "vol": 4608384.9772,
           "label": "BAJO"
         }
       ],
-      "scanned": 111
+      "scanned": 101
     }
   }
 }
