@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T22:41:22.696Z",
-  "updated_ts": 1795646482696,
+  "updated": "2026-11-26T04:23:53.050Z",
+  "updated_ts": 1795667033050,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,65 +13,51 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "BABYUSDT",
+          "rsi": 85.6,
+          "price": 0.00959,
+          "vol": 3980289.63978,
+          "label": "MUY ALTO"
+        }
+      ],
       "buy": [],
-      "scanned": 114
+      "scanned": 118
     },
     "1h": {
       "sell": [
         {
-          "sym": "SSVUSDT",
-          "rsi": 91.9,
-          "price": 2.306,
-          "vol": 5440060.429177,
-          "label": "EXTREMO"
-        },
-        {
-          "sym": "MANTRAUSDT",
-          "rsi": 84.6,
-          "price": 0.0034,
-          "vol": 14660485.47044,
-          "label": "ALTO"
+          "sym": "牛来USDT",
+          "rsi": 86.7,
+          "price": 0.05031,
+          "vol": 5208536.08727,
+          "label": "MUY ALTO"
         }
       ],
-      "buy": [
-        {
-          "sym": "TRXUSDT",
-          "rsi": 24,
-          "price": 0.303,
-          "vol": 25918522.13809,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 114
+      "buy": [],
+      "scanned": 118
     },
     "4h": {
       "sell": [
         {
-          "sym": "MANTRAUSDT",
-          "rsi": 88.3,
-          "price": 0.0034,
-          "vol": 14660485.47044,
-          "label": "MUY ALTO"
-        },
-        {
           "sym": "SSVUSDT",
-          "rsi": 86.6,
-          "price": 2.306,
-          "vol": 5440060.429177,
+          "rsi": 85.6,
+          "price": 2.407,
+          "vol": 7621127.177614,
           "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 16.2,
-          "price": 73.85,
-          "vol": 13910351.8278,
+          "rsi": 17.9,
+          "price": 76.09,
+          "vol": 14130011.0103,
           "label": "BAJO"
         }
       ],
-      "scanned": 114
+      "scanned": 118
     }
   }
 }
