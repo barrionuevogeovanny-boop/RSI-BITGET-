@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T04:48:29.867Z",
-  "updated_ts": 1795754909867,
+  "updated": "2026-11-27T14:26:49.727Z",
+  "updated_ts": 1795789609727,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,87 +13,73 @@
   },
   "signals": {
     "15m": {
-      "sell": [
-        {
-          "sym": "QQQBUSDT",
-          "rsi": 86.6,
-          "price": 650.97,
-          "vol": 2914384.63309,
-          "label": "MUY ALTO"
-        },
-        {
-          "sym": "SNDKBUSDT",
-          "rsi": 84.2,
-          "price": 80.43,
-          "vol": 9322418.1763,
-          "label": "ALTO"
-        },
-        {
-          "sym": "KORUBUSDT",
-          "rsi": 81.2,
-          "price": 5.86,
-          "vol": 8935741.8688,
-          "label": "ALTO"
-        },
-        {
-          "sym": "XAUTUSDT",
-          "rsi": 80.8,
-          "price": 3633.74,
-          "vol": 9430977.279381,
-          "label": "ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
-          "sym": "SOXSBUSDT",
+          "sym": "WLFIUSDT",
+          "rsi": 11.5,
+          "price": 0.0395,
+          "vol": 2994360.49648,
+          "label": "MUY BAJO"
+        },
+        {
+          "sym": "ETHFIUSDT",
           "rsi": 22.7,
-          "price": 53.54,
-          "vol": 6162017.9378,
+          "price": 0.439,
+          "vol": 2652391.3919,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 106
     },
     "1h": {
       "sell": [
         {
-          "sym": "HAEDALUSDT",
-          "rsi": 94.4,
-          "price": 0.02458,
-          "vol": 7452020.343258,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [],
-      "scanned": 97
-    },
-    "4h": {
-      "sell": [
-        {
-          "sym": "HAEDALUSDT",
-          "rsi": 85.3,
-          "price": 0.02458,
-          "vol": 7452020.343258,
-          "label": "MUY ALTO"
+          "sym": "KAVAUSDT",
+          "rsi": 84.1,
+          "price": 0.02732,
+          "vol": 3498770.111972,
+          "label": "ALTO"
         },
         {
-          "sym": "SSVUSDT",
-          "rsi": 80.6,
-          "price": 2.714,
-          "vol": 9904408.16799,
+          "sym": "PORTALUSDT",
+          "rsi": 82.9,
+          "price": 0.02315,
+          "vol": 21797193.500871,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
+          "sym": "WLFIUSDT",
+          "rsi": 14.3,
+          "price": 0.0395,
+          "vol": 2994360.49648,
+          "label": "MUY BAJO"
+        }
+      ],
+      "scanned": 106
+    },
+    "4h": {
+      "sell": [
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 86.3,
+          "price": 0.02315,
+          "vol": 21797193.500871,
+          "label": "MUY ALTO"
+        }
+      ],
+      "buy": [
+        {
           "sym": "SNDKBUSDT",
-          "rsi": 24.2,
-          "price": 80.43,
-          "vol": 9322418.1763,
+          "rsi": 25,
+          "price": 80.54,
+          "vol": 12659695.2861,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 97
+      "scanned": 106
     }
   }
 }
