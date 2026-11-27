@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T22:56:56.655Z",
-  "updated_ts": 1795733816655,
+  "updated": "2026-11-27T04:48:29.867Z",
+  "updated_ts": 1795754909867,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -13,42 +13,87 @@
   },
   "signals": {
     "15m": {
-      "sell": [],
-      "buy": [],
-      "scanned": 101
+      "sell": [
+        {
+          "sym": "QQQBUSDT",
+          "rsi": 86.6,
+          "price": 650.97,
+          "vol": 2914384.63309,
+          "label": "MUY ALTO"
+        },
+        {
+          "sym": "SNDKBUSDT",
+          "rsi": 84.2,
+          "price": 80.43,
+          "vol": 9322418.1763,
+          "label": "ALTO"
+        },
+        {
+          "sym": "KORUBUSDT",
+          "rsi": 81.2,
+          "price": 5.86,
+          "vol": 8935741.8688,
+          "label": "ALTO"
+        },
+        {
+          "sym": "XAUTUSDT",
+          "rsi": 80.8,
+          "price": 3633.74,
+          "vol": 9430977.279381,
+          "label": "ALTO"
+        }
+      ],
+      "buy": [
+        {
+          "sym": "SOXSBUSDT",
+          "rsi": 22.7,
+          "price": 53.54,
+          "vol": 6162017.9378,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 97
     },
     "1h": {
-      "sell": [],
+      "sell": [
+        {
+          "sym": "HAEDALUSDT",
+          "rsi": 94.4,
+          "price": 0.02458,
+          "vol": 7452020.343258,
+          "label": "EXTREMO"
+        }
+      ],
       "buy": [],
-      "scanned": 101
+      "scanned": 97
     },
     "4h": {
       "sell": [
         {
-          "sym": "SSVUSDT",
-          "rsi": 89.3,
-          "price": 2.924,
-          "vol": 10869409.75754,
+          "sym": "HAEDALUSDT",
+          "rsi": 85.3,
+          "price": 0.02458,
+          "vol": 7452020.343258,
           "label": "MUY ALTO"
         },
         {
-          "sym": "INITUSDT",
-          "rsi": 83.8,
-          "price": 0.14421,
-          "vol": 24078422.685932,
+          "sym": "SSVUSDT",
+          "rsi": 80.6,
+          "price": 2.714,
+          "vol": 9904408.16799,
           "label": "ALTO"
         }
       ],
       "buy": [
         {
           "sym": "SNDKBUSDT",
-          "rsi": 17.8,
-          "price": 74.67,
-          "vol": 4608384.9772,
-          "label": "BAJO"
+          "rsi": 24.2,
+          "price": 80.43,
+          "vol": 9322418.1763,
+          "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 101
+      "scanned": 97
     }
   }
 }
