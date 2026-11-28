@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T22:51:05.010Z",
-  "updated_ts": 1795819865010,
+  "updated": "2026-11-28T04:20:45.291Z",
+  "updated_ts": 1795839645291,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,50 +14,64 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [],
-      "scanned": 115
+      "buy": [
+        {
+          "sym": "PORTALUSDT",
+          "rsi": 18.5,
+          "price": 0.01607,
+          "vol": 98198609.529395,
+          "label": "BAJO"
+        },
+        {
+          "sym": "INITUSDT",
+          "rsi": 22.4,
+          "price": 0.08315,
+          "vol": 12605113.709462,
+          "label": "SOBREVENDIDO"
+        }
+      ],
+      "scanned": 114
     },
     "1h": {
       "sell": [
         {
-          "sym": "PORTALUSDT",
-          "rsi": 92.2,
-          "price": 0.04047,
-          "vol": 61342080.323384,
-          "label": "EXTREMO"
+          "sym": "ROBOUSDT",
+          "rsi": 88.7,
+          "price": 0.00386,
+          "vol": 2631710.38091,
+          "label": "MUY ALTO"
         }
       ],
       "buy": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 15.4,
-          "price": 0.0366,
-          "vol": 13253361.50272,
-          "label": "BAJO"
-        }
-      ],
-      "scanned": 115
-    },
-    "4h": {
-      "sell": [
+          "rsi": 21.2,
+          "price": 0.0348,
+          "vol": 18817220.13811,
+          "label": "SOBREVENDIDO"
+        },
         {
-          "sym": "PORTALUSDT",
-          "rsi": 97.2,
-          "price": 0.04047,
-          "vol": 61342080.323384,
-          "label": "EXTREMO"
-        }
-      ],
-      "buy": [
-        {
-          "sym": "WLFIUSDT",
-          "rsi": 21.8,
-          "price": 0.0366,
-          "vol": 13253361.50272,
+          "sym": "INITUSDT",
+          "rsi": 23.6,
+          "price": 0.08315,
+          "vol": 12605113.709462,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 115
+      "scanned": 114
+    },
+    "4h": {
+      "sell": [],
+      "buy": [
+        {
+          "sym": "WLFIUSDT",
+          "rsi": 17.7,
+          "price": 0.0348,
+          "vol": 18817220.13811,
+          "label": "BAJO"
+        }
+      ],
+      "scanned": 114
     }
   }
 }
