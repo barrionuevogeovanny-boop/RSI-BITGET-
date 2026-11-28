@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-28T04:20:45.291Z",
-  "updated_ts": 1795839645291,
+  "updated": "2026-11-28T13:18:16.368Z",
+  "updated_ts": 1795871896368,
   "config": {
     "rsi_sell": 80,
     "rsi_buy": 25,
@@ -14,64 +14,41 @@
   "signals": {
     "15m": {
       "sell": [],
-      "buy": [
-        {
-          "sym": "PORTALUSDT",
-          "rsi": 18.5,
-          "price": 0.01607,
-          "vol": 98198609.529395,
-          "label": "BAJO"
-        },
-        {
-          "sym": "INITUSDT",
-          "rsi": 22.4,
-          "price": 0.08315,
-          "vol": 12605113.709462,
-          "label": "SOBREVENDIDO"
-        }
-      ],
-      "scanned": 114
+      "buy": [],
+      "scanned": 103
     },
     "1h": {
-      "sell": [
-        {
-          "sym": "ROBOUSDT",
-          "rsi": 88.7,
-          "price": 0.00386,
-          "vol": 2631710.38091,
-          "label": "MUY ALTO"
-        }
-      ],
+      "sell": [],
       "buy": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 21.2,
-          "price": 0.0348,
-          "vol": 18817220.13811,
-          "label": "SOBREVENDIDO"
+          "rsi": 18.9,
+          "price": 0.0199,
+          "vol": 144160018.88745,
+          "label": "BAJO"
         },
         {
-          "sym": "INITUSDT",
+          "sym": "TRUMPUSDT",
           "rsi": 23.6,
-          "price": 0.08315,
-          "vol": 12605113.709462,
+          "price": 0.757,
+          "vol": 15947016.51089,
           "label": "SOBREVENDIDO"
         }
       ],
-      "scanned": 114
+      "scanned": 103
     },
     "4h": {
       "sell": [],
       "buy": [
         {
           "sym": "WLFIUSDT",
-          "rsi": 17.7,
-          "price": 0.0348,
-          "vol": 18817220.13811,
-          "label": "BAJO"
+          "rsi": 7.7,
+          "price": 0.0199,
+          "vol": 144160018.88745,
+          "label": "EXTREMO"
         }
       ],
-      "scanned": 114
+      "scanned": 103
     }
   }
 }
